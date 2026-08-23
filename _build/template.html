@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="{{locale}}" data-theme="light" data-lang="{{code}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{meta_title}}</title>
+<meta name="description" content="{{meta_description}}">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk{{path}}">
+{{hreflang}}
+<meta property="og:title" content="{{meta_title}}">
+<meta property="og:description" content="{{meta_description}}">
+<meta property="og:url" content="https://www.droplane.co.uk{{path}}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{og_locale}}">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/icon-512.png">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="{{path}}"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="{{nav_label}}">
+      <a href="#how">{{nav_how}}</a>
+      <a href="#features">{{nav_features}}</a>
+      <a href="#screens">{{nav_screens}}</a>
+      <a href="#countries">{{nav_countries}}</a>
+      <a href="#pricing">{{nav_pricing}}</a>
+      <a href="{{support_path}}">{{nav_support}}</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="{{language_label}}">
+        <span class="lang-button-flag" aria-hidden="true">{{flag_language}}</span>
+        <span class="lang-button-name">{{language_short}}</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="{{theme_label}}">
+        <button type="button" data-theme="light" aria-pressed="true" title="{{theme_light}}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>{{theme_light}}</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="{{theme_dark}}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>{{theme_dark}}</span>
+        </button>
+      </div>
+
+      <a class="head-cta head-cta-soon" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">{{cta_soon}}</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">{{menu}}</span><span class="close-label">{{close}}</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">{{language_title}}</p>
+      <ul class="lang-list">
+{{language_links}}
+      </ul>
+      <p class="lang-panel-note">{{language_note}}</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="{{nav_label}}">
+        <a href="#how">{{nav_how}}</a>
+        <a href="#features">{{nav_features}}</a>
+        <a href="#screens">{{nav_screens}}</a>
+        <a href="#countries">{{nav_countries}}</a>
+        <a href="#languages">{{nav_languages}}</a>
+        <a href="#pricing">{{nav_pricing}}</a>
+        <a href="#faq">{{nav_faq}}</a>
+        <a href="{{support_path}}">{{nav_support}}</a>
+      </nav>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">{{cta_coming}}</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>{{langbar_strong}}</strong> {{langbar_rest}}</p>
+    <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
+  </div>
+</div>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow" id="detected"><span class="eyebrow-flag">{{flag}}</span><b data-region="{{market}}">{{market_name}}</b><span class="eyebrow-cost"><span class="eyebrow-price">{{price_month}}</span> <span class="eyebrow-per">{{per_month_short}}</span></span><a href="#pricing">{{see_all}}</a></span>
+      <h1>{{hero_h1}}</h1>
+      <p class="lede">{{hero_lede}}</p>
+      <div class="cta-row">
+        <a class="btn" href="#pricing">{{hero_cta_price}}</a>
+        <a class="btn-ghost" href="#how">{{hero_cta_how}}</a>
+      </div>
+      <p class="cta-note" style="margin:14px 0 0">{{hero_note}}</p>
+      <ul class="hero-facts">
+{{hero_facts}}
+      </ul>
+    </div>
+
+    <div class="stage">
+      <div class="device device-back">
+        <div class="device-screen">
+          <img class="only-dark" src="{{shots}}/dark/days.webp" width="640" height="1391" alt="{{alt_days}}" loading="eager">
+          <img class="only-light" src="{{shots}}/light/days.webp" width="640" height="1391" alt="{{alt_days}}" loading="eager">
+        </div>
+      </div>
+      <div class="device device-front">
+        <div class="device-screen">
+          <img class="only-dark" src="{{shots}}/dark/today.webp" width="640" height="1391" alt="{{alt_today}}" loading="eager">
+          <img class="only-light" src="{{shots}}/light/today.webp" width="640" height="1391" alt="{{alt_today}}" loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="how">
+  <div class="wrap">
+    <h2>{{how_h2}}</h2>
+    <p class="section-intro">{{how_intro}}</p>
+
+    <div class="steps">
+{{steps}}
+    </div>
+
+    <div class="proof" id="report">
+      <div class="proof-words">
+        <h3>{{papers_h2}}</h3>
+        <p>{{how_proof}}</p>
+        <p class="proof-note">{{papers_intro}}</p>
+      </div>
+
+      <div class="proof-output">
+        <figure class="proof-item proof-phone">
+          <div class="device">
+            <div class="device-screen">
+              <img class="only-dark" src="{{shots}}/dark/report.webp" width="640" height="1391" alt="{{alt_report}}" loading="lazy">
+              <img class="only-light" src="{{shots}}/light/report.webp" width="640" height="1391" alt="{{alt_report}}" loading="lazy">
+            </div>
+          </div>
+          <figcaption>{{papers_choose}}</figcaption>
+        </figure>
+
+        <figure class="proof-item">
+          <button class="paper-zoom" type="button" data-zoom="{{shots}}/paper/report-portrait-1.webp" data-zoom-label="{{papers_portrait}}" aria-label="{{papers_zoom}} — {{papers_portrait}}">
+            <img src="{{shots}}/paper/report-portrait-1.webp" width="760" height="1075" alt="{{alt_report_portrait}}" loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">{{papers_zoom}}</span>
+          </button>
+          <figcaption>{{papers_portrait}}</figcaption>
+        </figure>
+
+        <figure class="proof-item proof-item-wide">
+          <button class="paper-zoom" type="button" data-zoom="{{shots}}/paper/report-landscape-2.webp" data-zoom-label="{{papers_landscape}}" aria-label="{{papers_zoom}} — {{papers_landscape}}">
+            <img src="{{shots}}/paper/report-landscape-2.webp" width="1100" height="778" alt="{{alt_report_landscape}}" loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">{{papers_zoom}}</span>
+          </button>
+          <figcaption>{{papers_landscape}}</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <h2>{{features_h2}}</h2>
+    <p class="section-intro">{{features_intro}}</p>
+    <div class="cards">
+{{features}}
+    </div>
+  </div>
+</section>
+
+<section class="band" id="screens">
+  <div class="wrap">
+    <h2>{{screens_h2}}</h2>
+    <p class="section-intro">{{screens_intro}}</p>
+  </div>
+  <div class="wrap">
+    <div class="rail">
+{{screens}}
+    </div>
+  </div>
+</section>
+
+<section id="countries">
+  <div class="wrap">
+    <h2>{{countries_h2}}</h2>
+    <p class="section-intro">{{countries_intro}}</p>
+    <ul class="chips">
+{{countries}}
+    </ul>
+    <p class="section-intro" style="margin:26px 0 0">{{countries_note}}</p>
+  </div>
+</section>
+
+<section class="band" id="languages">
+  <div class="wrap split">
+    <div>
+      <h2>{{languages_h2}}</h2>
+      <p class="section-intro">{{languages_intro}}</p>
+      <ul class="langgrid">
+{{language_grid}}
+      </ul>
+    </div>
+    <figure class="shot" style="width:auto;margin:0">
+      <div class="device" style="margin-inline:auto"><div class="device-screen">
+        <img class="only-dark" src="{{shots}}/dark/stats.webp" width="640" height="1391" alt="{{alt_stats}}" loading="lazy">
+        <img class="only-light" src="{{shots}}/light/stats.webp" width="640" height="1391" alt="{{alt_stats}}" loading="lazy">
+      </div></div>
+      <figcaption style="text-align:center"><b>{{languages_caption_title}}</b>{{languages_caption_body}}</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>{{pricing_h2}}</h2>
+    <p class="section-intro">{{pricing_intro}}</p>
+
+    <div class="price-grid">
+      <div class="price">
+        <h3>{{pricing_monthly}}</h3>
+        <p class="amount">{{price_month}}</p>
+        <p class="per">{{pricing_per_month}}</p>
+        <ul>
+          <li>{{pricing_bullet_all}}</li>
+          <li>{{pricing_bullet_trial}}</li>
+        </ul>
+      </div>
+      <div class="price best">
+        <span class="tag">{{pricing_best}}</span>
+        <h3>{{pricing_yearly}}</h3>
+        <p class="amount">{{price_year}}</p>
+        <p class="per">{{pricing_per_year}}</p>
+        <ul>
+          <li>{{pricing_bullet_all}}</li>
+          <li>{{pricing_bullet_saving}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pricetable">
+      <div class="pricetable-head">
+        <h3 style="font-size:20px;margin:0">{{pricing_table_title}}</h3>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input type="search" id="price-search" placeholder="{{pricing_search}}" aria-label="{{pricing_search}}">
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table class="prices">
+          <thead>
+            <tr><th scope="col">{{pricing_col_country}}</th><th scope="col">{{pricing_col_month}}</th><th scope="col">{{pricing_col_year}}</th></tr>
+          </thead>
+          <tbody id="price-rows" data-you="{{pricing_you}}">
+{{price_rows}}
+          </tbody>
+        </table>
+      </div>
+
+      <p class="table-note"><strong>{{cta_coming}}</strong> {{pricing_note}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="faq">
+  <div class="wrap">
+    <h2>{{faq_h2}}</h2>
+    <p class="section-intro">{{faq_intro}}</p>
+    <div class="faq">
+{{faq}}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="closer">
+      <h2>{{closer_h2}}</h2>
+      <p>{{closer_body}}</p>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">{{cta_notify}}</a>
+      <p class="closer-note">{{cta_coming}}</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">{{footer_note}}</p>
+    <div class="foot-links">
+      <a href="{{privacy_path}}">{{footer_privacy}}</a>
+      <a href="{{terms_path}}">{{footer_terms}}</a>
+      <a href="{{support_path}}">{{footer_support}}</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="{{close}}">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

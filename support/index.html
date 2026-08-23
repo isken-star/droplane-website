@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — DropLane</title>
+<meta name="description" content="Help with DropLane: drives not recording, missing miles, battery, permissions and subscriptions — plus a real person to email.">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/support/">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="Main">
+      <a href="/#how">How it works</a>
+      <a href="/#features">What it does</a>
+      <a href="/#screens">Screens</a>
+      <a href="/#countries">Where it works</a>
+      <a href="/#pricing">Price</a>
+      <a href="/support/">Support</a>
+    </nav>
+
+    <div class="head-tools">
+      <a class="lang-button" href="/#languages" title="Language">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.3 6.4-3.9 9c-2.6-2.6-3.9-5.6-3.9-9s1.3-6.4 3.9-9Z"/></svg>
+        <span>English</span>
+      </a>
+
+      <div class="theme" role="group" aria-label="Colour theme">
+        <button type="button" data-theme="light" aria-pressed="true" title="Light">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>Light</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="Dark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>Dark</span>
+        </button>
+      </div>
+      <a class="head-cta" href="/#pricing">Get DropLane</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">Menu</span><span class="close-label">Close</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="Main">
+        <a href="/#how">How it works</a>
+        <a href="/#features">What it does</a>
+        <a href="/#screens">Screens</a>
+        <a href="/#countries">Where it works</a>
+        <a href="/#languages">Languages</a>
+        <a href="/#pricing">Price</a>
+        <a href="/#faq">Questions</a>
+        <a href="/support/">Support</a>
+      </nav>
+      <a class="btn" href="/#pricing">Get DropLane</a>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+  <div class="wrap">
+    <h1>Support</h1>
+    <p class="updated">A real person reads every email. Usually a reply within a day.</p>
+
+    <div class="callout">
+      <p><strong>Email <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a></strong>
+      — and if you write from inside the app (Settings → Get help), your app
+      version and iPhone model come with the message, which usually saves a
+      round of questions.</p>
+    </div>
+
+    <h2>Drives aren't recording at all</h2>
+    <p>Nine times out of ten this is the location permission. DropLane needs
+    <strong>Always</strong>, not "While Using the App" — with anything less, iOS
+    stops the app the moment you put the phone down, which is exactly when you
+    start driving.</p>
+    <p>Check iPhone Settings → DropLane → Location, and set it to Always. While
+    you're there, leave <strong>Precise Location</strong> on: without it, iOS gives
+    the app a rough position that isn't good enough to measure a road.</p>
+
+    <h2>The start of a drive is missing</h2>
+    <p>Your phone doesn't wake the app the instant the wheels turn. DropLane rings
+    the spot where you parked so it notices you leaving within a street or two,
+    and it credits the distance back to where you set off from. If you are still
+    seeing a chunk missing from the start, tell us roughly where and when — that
+    detail is what makes it fixable.</p>
+
+    <h2>A drive is short, or split into two</h2>
+    <p>Long stops split a journey: stop for more than about fifteen minutes and the
+    next stretch is saved as a separate drive. Both still count, and you can merge
+    or edit them on the Days screen. Tunnels, underground car parks and areas with
+    no signal can also cost a stretch — the app fills gaps where it safely can, but
+    it will not invent miles it cannot stand behind.</p>
+
+    <h2>A walk or a passenger trip got recorded</h2>
+    <p>It shouldn't — the app checks how fast the ground is moving before it starts
+    recording, so walking pace never counts. If something wrong does appear, open
+    the trip and delete it, or mark it Personal so it stays out of your work
+    figures.</p>
+
+    <h2>Battery</h2>
+    <p>DropLane doesn't hold the GPS open all day. It waits quietly until you leave
+    where you parked, records while you're moving, and goes back to sleep when you
+    stop. A full shift should cost noticeably less than running a navigation app.
+    If you're seeing heavy drain, tell us your iPhone model and iOS version.</p>
+
+    <h2>The mileage rate looks wrong for my country</h2>
+    <p>Every built-in rate is editable: Insights → Tax → the rate, and type your
+    own. The app shows which year each rate was checked. If you find one that's out
+    of date, we'd genuinely like to know — email us the country and the correct
+    figure and it goes into the next update.</p>
+
+    <h2>Changing the language</h2>
+    <p>Settings → Language. There's a search box: type your language or your country
+    — "Romania" finds Română. The app doesn't need to restart.</p>
+
+    <h2>Subscriptions, billing and refunds</h2>
+    <p>Manage or cancel in iPhone Settings → your name → Subscriptions. Billing and
+    refunds are handled by Apple at
+    <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> — we
+    can't process refunds ourselves, but email us and we'll help you sort it.</p>
+
+    <h2>Getting your records out</h2>
+    <p>Days → the report card produces a PDF with your drives, routes and totals,
+    and there's a CSV export in Settings. Both are yours to keep, with or without a
+    subscription.</p>
+
+    <h2>Still stuck</h2>
+    <p>Write to <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>. Tell
+    us what you expected and what happened instead — and the date and rough area of
+    the drive if it's about tracking. That's usually enough to find it.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">
+      DropLane — automatic mileage and earnings for self-employed couriers.
+      Built by a courier, in Torquay.
+    </p>
+    <div class="foot-links">
+      <a href="/privacy/">Privacy</a>
+      <a href="/terms/">Terms</a>
+      <a href="/support/">Support</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

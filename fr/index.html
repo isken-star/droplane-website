@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="fr-FR" data-theme="light" data-lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DropLane — chaque kilomètre payé</title>
+<meta name="description" content="DropLane enregistre automatiquement les trajets d&#x27;un coursier, additionne les recettes de la journée face aux frais, et tient un carnet de bord kilométrique que le fisc accepte. Vingt-quatre langues, tout sur le téléphone.">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/fr/">
+<link rel="alternate" hreflang="en" href="https://www.droplane.co.uk/">
+<link rel="alternate" hreflang="da" href="https://www.droplane.co.uk/da/">
+<link rel="alternate" hreflang="de" href="https://www.droplane.co.uk/de/">
+<link rel="alternate" hreflang="es" href="https://www.droplane.co.uk/es/">
+<link rel="alternate" hreflang="fr" href="https://www.droplane.co.uk/fr/">
+<link rel="alternate" hreflang="it" href="https://www.droplane.co.uk/it/">
+<link rel="alternate" hreflang="nl" href="https://www.droplane.co.uk/nl/">
+<link rel="alternate" hreflang="pl" href="https://www.droplane.co.uk/pl/">
+<link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
+<link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
+<link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
+<meta property="og:title" content="DropLane — chaque kilomètre payé">
+<meta property="og:description" content="DropLane enregistre automatiquement les trajets d&#x27;un coursier, additionne les recettes de la journée face aux frais, et tient un carnet de bord kilométrique que le fisc accepte. Vingt-quatre langues, tout sur le téléphone.">
+<meta property="og:url" content="https://www.droplane.co.uk/fr/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/icon-512.png">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/fr/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="Menu principal">
+      <a href="#how">Comment ça marche</a>
+      <a href="#features">Ce qu&#x27;elle fait</a>
+      <a href="#screens">Écrans</a>
+      <a href="#countries">Où ça marche</a>
+      <a href="#pricing">Prix</a>
+      <a href="/support/">Aide</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="Langue">
+        <span class="lang-button-flag" aria-hidden="true">🇫🇷</span>
+        <span class="lang-button-name">Français</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="Thème">
+        <button type="button" data-theme="light" aria-pressed="true" title="Clair">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>Clair</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="Sombre">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>Sombre</span>
+        </button>
+      </div>
+
+      <a class="head-cta head-cta-soon" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Bientôt</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">Menu</span><span class="close-label">Fermer</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">Lire ce site dans votre langue</p>
+      <ul class="lang-list">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" aria-current="true" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+      </ul>
+      <p class="lang-panel-note">L&#x27;application parle vingt-quatre langues — le reste arrive ici.</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="Menu principal">
+        <a href="#how">Comment ça marche</a>
+        <a href="#features">Ce qu&#x27;elle fait</a>
+        <a href="#screens">Écrans</a>
+        <a href="#countries">Où ça marche</a>
+        <a href="#languages">Langues</a>
+        <a href="#pricing">Prix</a>
+        <a href="#faq">Questions</a>
+        <a href="/support/">Aide</a>
+      </nav>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Bientôt sur l&#x27;App Store</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>Vingt-quatre langues.</strong> Choisissez la vôtre — l&#x27;application la parle aussi.</p>
+    <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
+  </div>
+</div>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇫🇷</span><b data-region="FR">France</b><span class="eyebrow-cost"><span class="eyebrow-price">€6.99</span> <span class="eyebrow-per">par mois</span></span><a href="#pricing">voir tout</a></span>
+      <h1>Chaque kilomètre payé.</h1>
+      <p class="lede">Démarrez le camion. C&#x27;est tout. DropLane enregistre le trajet, trace la route réellement suivie, et fait le compte de la journée avant que vous ayez passé la porte.</p>
+      <div class="cta-row">
+        <a class="btn" href="#pricing">Voir le prix</a>
+        <a class="btn-ghost" href="#how">Comment ça marche</a>
+      </div>
+      <p class="cta-note" style="margin:14px 0 0">14 jours gratuits · sans compte, sans publicité · iPhone</p>
+      <ul class="hero-facts">
+        <li><b>0</b><span>bouton à presser</span></li>
+        <li><b>24</b><span>langues</span></li>
+        <li><b>17</b><span>barèmes kilométriques intégrés</span></li>
+      </ul>
+    </div>
+
+    <div class="stage">
+      <div class="device device-back">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/days.webp" width="640" height="1391" alt="La liste Journées : chaque jour travaillé avec son bénéfice, sa distance et son nombre de trajets." loading="eager">
+          <img class="only-light" src="/assets/screens/fr/light/days.webp" width="640" height="1391" alt="La liste Journées : chaque jour travaillé avec son bénéfice, sa distance et son nombre de trajets." loading="eager">
+        </div>
+      </div>
+      <div class="device device-front">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/today.webp" width="640" height="1391" alt="L&#x27;écran Aujourd&#x27;hui de DropLane : un trajet en cours d&#x27;enregistrement sur la carte, avec la distance, les heures et les recettes du jour." loading="eager">
+          <img class="only-light" src="/assets/screens/fr/light/today.webp" width="640" height="1391" alt="L&#x27;écran Aujourd&#x27;hui de DropLane : un trajet en cours d&#x27;enregistrement sur la carte, avec la distance, les heures et les recettes du jour." loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="how">
+  <div class="wrap">
+    <h2>Trois étapes, dont deux ne sont pas les vôtres</h2>
+    <p class="section-intro">Il n&#x27;y a volontairement aucun bouton de démarrage dans DropLane. Personne ne pense à en presser un à six heures du matin avec un camion plein de colis.</p>
+
+    <div class="steps">
+      <div class="card step">
+        <span class="num">1</span>
+        <h3>L&#x27;allumer une fois</h3>
+        <p>Installez l&#x27;application et autorisez la localisation en arrière-plan. C&#x27;est le dernier réglage.</p>
+      </div>
+      <div class="card step">
+        <span class="num">2</span>
+        <h3>Rouler</h3>
+        <p>Chaque trajet s&#x27;enregistre tout seul, avec l&#x27;itinéraire, les arrêts et le temps passé à chacun.</p>
+      </div>
+      <div class="card step">
+        <span class="num">3</span>
+        <h3>Trier d&#x27;un geste</h3>
+        <p>Professionnel, à vide, en route vers un enlèvement ou personnel. Les totaux et le montant fiscal suivent tout seuls.</p>
+      </div>
+    </div>
+
+    <div class="proof" id="report">
+      <div class="proof-words">
+        <h3>Le rapport, portrait ou paysage</h3>
+        <p>Ensuite les journées s&#x27;empilent d&#x27;elles-mêmes. Choisissez une semaine, un mois ou vos propres dates, cochez ce qui doit y figurer, et le PDF pour le comptable est à un geste — bâti sur des trajets que vous n&#x27;avez jamais eu à noter.</p>
+        <p class="proof-note">C&#x27;est le PDF lui-même, pas une image des interrupteurs qui le fabriquent. Choisissez le format qui convient à celui qui le lit — portrait pour le classeur, paysage quand le tableau des trajets a besoin de place — et il se reconstruit aussitôt.</p>
+      </div>
+
+      <div class="proof-output">
+        <figure class="proof-item proof-phone">
+          <div class="device">
+            <div class="device-screen">
+              <img class="only-dark" src="/assets/screens/fr/dark/report.webp" width="640" height="1391" alt="La fiche de rapport : interrupteurs pour trajets, recettes, frais et photos de reçus, puis le PDF." loading="lazy">
+              <img class="only-light" src="/assets/screens/fr/light/report.webp" width="640" height="1391" alt="La fiche de rapport : interrupteurs pour trajets, recettes, frais et photos de reçus, puis le PDF." loading="lazy">
+            </div>
+          </div>
+          <figcaption>Ce qui y figure</figcaption>
+        </figure>
+
+        <figure class="proof-item">
+          <button class="paper-zoom" type="button" data-zoom="/assets/screens/fr/paper/report-portrait-1.webp" data-zoom-label="Portrait" aria-label="Agrandir — Portrait">
+            <img src="/assets/screens/fr/paper/report-portrait-1.webp" width="760" height="1075" alt="La première page d&#x27;un rapport DropLane en portrait : en-tête, totaux de la période, recettes et frais, et le barème kilométrique." loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">Agrandir</span>
+          </button>
+          <figcaption>Portrait</figcaption>
+        </figure>
+
+        <figure class="proof-item proof-item-wide">
+          <button class="paper-zoom" type="button" data-zoom="/assets/screens/fr/paper/report-landscape-2.webp" data-zoom-label="Paysage" aria-label="Agrandir — Paysage">
+            <img src="/assets/screens/fr/paper/report-landscape-2.webp" width="1100" height="778" alt="La première page d&#x27;un rapport DropLane en paysage, avec le tableau des trajets élargi." loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">Agrandir</span>
+          </button>
+          <figcaption>Paysage</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <h2>Ce qu&#x27;elle fait vraiment</h2>
+    <p class="section-intro">Conçue par un coursier avec dix ans de route, pour le métier tel qu&#x27;il est.</p>
+    <div class="cards">
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>Les kilomètres sans toucher le téléphone</h3>
+        <p>Les trajets s&#x27;enregistrent en arrière-plan, du démarrage jusqu&#x27;au stationnement.</p>
+      </div>
+      <div class="card">
+        <span class="icon">💷</span>
+        <h3>Ce que la journée a vraiment rapporté</h3>
+        <p>Recettes d&#x27;un côté, carburant et frais de l&#x27;autre, et en bas le chiffre qui compte — par jour, semaine et mois.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🧾</span>
+        <h3>Un justificatif pour le fisc</h3>
+        <p>Un PDF avec chaque trajet, son itinéraire et sa date. Barèmes kilométriques intégrés pour dix-sept pays.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🅿️</span>
+        <h3>Arrêts et temps d&#x27;attente</h3>
+        <p>Voyez combien de temps vous êtes resté à chaque livraison ou au dépôt, sans rien noter.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>Ce qu&#x27;une heure rapporte vraiment</h3>
+        <p>Carburant, crédit et assurance répartis sur vos jours travaillés, pour un taux horaire honnête.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔒</span>
+        <h3>Rien ne quitte votre téléphone</h3>
+        <p>Pas de compte, pas de pistage, pas de publicité. Votre historique vous appartient et n&#x27;est sauvegardé que sur votre iCloud.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="screens">
+  <div class="wrap">
+    <h2>Toute l&#x27;application, de jour comme de nuit</h2>
+    <p class="section-intro">De vrais écrans, tirés d&#x27;un mois de travail réel. Basculez l&#x27;interrupteur en haut et chaque image ici bascule avec.</p>
+  </div>
+  <div class="wrap">
+    <div class="rail">
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/today.webp" width="640" height="1391" alt="Aujourd&#x27;hui — Pendant que les roues tournent encore." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/today.webp" width="640" height="1391" alt="Aujourd&#x27;hui — Pendant que les roues tournent encore." loading="lazy">
+        </div></div>
+        <figcaption><b>Aujourd&#x27;hui</b>Pendant que les roues tournent encore.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/day.webp" width="640" height="1391" alt="La journée sur la carte — Chaque couleur est un trajet." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/day.webp" width="640" height="1391" alt="La journée sur la carte — Chaque couleur est un trajet." loading="lazy">
+        </div></div>
+        <figcaption><b>La journée sur la carte</b>Chaque couleur est un trajet.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/trip.webp" width="640" height="1391" alt="Un trajet — Horaires, arrêts et type de kilomètres." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/trip.webp" width="640" height="1391" alt="Un trajet — Horaires, arrêts et type de kilomètres." loading="lazy">
+        </div></div>
+        <figcaption><b>Un trajet</b>Horaires, arrêts et type de kilomètres.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/trip-sort.webp" width="640" height="1391" alt="Trier un trajet — Professionnel, à vide, vers un enlèvement ou personnel." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/trip-sort.webp" width="640" height="1391" alt="Trier un trajet — Professionnel, à vide, vers un enlèvement ou personnel." loading="lazy">
+        </div></div>
+        <figcaption><b>Trier un trajet</b>Professionnel, à vide, vers un enlèvement ou personnel.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/days.webp" width="640" height="1391" alt="Journées — Chaque jour, déjà totalisé." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/days.webp" width="640" height="1391" alt="Journées — Chaque jour, déjà totalisé." loading="lazy">
+        </div></div>
+        <figcaption><b>Journées</b>Chaque jour, déjà totalisé.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/stats.webp" width="640" height="1391" alt="Statistiques — La semaine, en chiffres simples." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/stats.webp" width="640" height="1391" alt="Statistiques — La semaine, en chiffres simples." loading="lazy">
+        </div></div>
+        <figcaption><b>Statistiques</b>La semaine, en chiffres simples.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/insights.webp" width="640" height="1391" alt="Analyses — Ce que rapportent vraiment une heure et un kilomètre." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/insights.webp" width="640" height="1391" alt="Analyses — Ce que rapportent vraiment une heure et un kilomètre." loading="lazy">
+        </div></div>
+        <figcaption><b>Analyses</b>Ce que rapportent vraiment une heure et un kilomètre.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/insights-tax.webp" width="640" height="1391" alt="Impôts — Ce que valent les kilomètres de la période." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/insights-tax.webp" width="640" height="1391" alt="Impôts — Ce que valent les kilomètres de la période." loading="lazy">
+        </div></div>
+        <figcaption><b>Impôts</b>Ce que valent les kilomètres de la période.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/report.webp" width="640" height="1391" alt="Le PDF — Construit comme votre comptable le veut." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/report.webp" width="640" height="1391" alt="Le PDF — Construit comme votre comptable le veut." loading="lazy">
+        </div></div>
+        <figcaption><b>Le PDF</b>Construit comme votre comptable le veut.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/expense.webp" width="640" height="1391" alt="Frais — Carburant, repas, stationnement, péages." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/expense.webp" width="640" height="1391" alt="Frais — Carburant, repas, stationnement, péages." loading="lazy">
+        </div></div>
+        <figcaption><b>Frais</b>Carburant, repas, stationnement, péages.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/vehicle.webp" width="640" height="1391" alt="Véhicule — Contrôle technique, taxe et assurance, avant l&#x27;échéance." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/vehicle.webp" width="640" height="1391" alt="Véhicule — Contrôle technique, taxe et assurance, avant l&#x27;échéance." loading="lazy">
+        </div></div>
+        <figcaption><b>Véhicule</b>Contrôle technique, taxe et assurance, avant l&#x27;échéance.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/settings.webp" width="640" height="1391" alt="Réglages — Kilomètres ou miles. Clair ou sombre." loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/settings.webp" width="640" height="1391" alt="Réglages — Kilomètres ou miles. Clair ou sombre." loading="lazy">
+        </div></div>
+        <figcaption><b>Réglages</b>Kilomètres ou miles. Clair ou sombre.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="countries">
+  <div class="wrap">
+    <h2>Là où DropLane connaît les règles</h2>
+    <p class="section-intro">L&#x27;application fonctionne partout. Dans ces pays, elle connaît aussi le barème kilométrique admis par le fisc, et le nom exact des papiers de votre véhicule.</p>
+    <ul class="chips">
+      <li><span class="flag">🇬🇧</span> <span data-region="GB">United Kingdom</span> <span class="rate">55p/mi</span></li>
+      <li><span class="flag">🇮🇪</span> <span data-region="IE">Ireland</span></li>
+      <li><span class="flag">🇺🇸</span> <span data-region="US">United States</span> <span class="rate">76¢/mi</span></li>
+      <li><span class="flag">🇨🇦</span> <span data-region="CA">Canada</span> <span class="rate">73¢/km</span></li>
+      <li><span class="flag">🇦🇺</span> <span data-region="AU">Australia</span> <span class="rate">91¢/km</span></li>
+      <li><span class="flag">🇩🇪</span> <span data-region="DE">Germany</span> <span class="rate">30c/km</span></li>
+      <li><span class="flag">🇳🇱</span> <span data-region="NL">Netherlands</span> <span class="rate">25c/km</span></li>
+      <li><span class="flag">🇧🇪</span> <span data-region="BE">Belgium</span> <span class="rate">47.61c/km</span></li>
+      <li><span class="flag">🇦🇹</span> <span data-region="AT">Austria</span> <span class="rate">50c/km</span></li>
+      <li><span class="flag">🇵🇹</span> <span data-region="PT">Portugal</span> <span class="rate">40c/km</span></li>
+      <li><span class="flag">🇵🇱</span> <span data-region="PL">Poland</span> <span class="rate">1.15 zł/km</span></li>
+      <li><span class="flag">🇨🇿</span> <span data-region="CZ">Czechia</span> <span class="rate">5.90 Kč/km</span></li>
+      <li><span class="flag">🇸🇰</span> <span data-region="SK">Slovakia</span> <span class="rate">31.3c/km</span></li>
+      <li><span class="flag">🇭🇺</span> <span data-region="HU">Hungary</span> <span class="rate">15 Ft/km</span></li>
+      <li><span class="flag">🇸🇪</span> <span data-region="SE">Sweden</span> <span class="rate">25 kr/mil</span></li>
+      <li><span class="flag">🇳🇴</span> <span data-region="NO">Norway</span> <span class="rate">3.50 kr/km</span></li>
+      <li><span class="flag">🇩🇰</span> <span data-region="DK">Denmark</span> <span class="rate">3.94 kr/km</span></li>
+      <li><span class="flag">🇫🇮</span> <span data-region="FI">Finland</span> <span class="rate">55c/km</span></li>
+      <li><span class="flag">🇷🇴</span> <span data-region="RO">Romania</span></li>
+      <li><span class="flag">🇧🇬</span> <span data-region="BG">Bulgaria</span></li>
+      <li><span class="flag">🇬🇷</span> <span data-region="GR">Greece</span></li>
+      <li><span class="flag">🇱🇹</span> <span data-region="LT">Lithuania</span></li>
+      <li><span class="flag">🇱🇻</span> <span data-region="LV">Latvia</span></li>
+      <li><span class="flag">🇹🇷</span> <span data-region="TR">Turkey</span></li>
+      <li><span class="flag">🇺🇦</span> <span data-region="UA">Ukraine</span></li>
+    </ul>
+    <p class="section-intro" style="margin:26px 0 0">Ailleurs ? Saisissez le barème que votre administration autorise, DropLane fait le reste.</p>
+  </div>
+</section>
+
+<section class="band" id="languages">
+  <div class="wrap split">
+    <div>
+      <h2>Lisez-la dans votre langue</h2>
+      <p class="section-intro">Toute l&#x27;application — chaque écran, chaque notification, les rapports — pas seulement cette page. Et l&#x27;argent reste dans votre monnaie, quelle que soit la langue.</p>
+      <ul class="langgrid">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" aria-current="true" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+      </ul>
+    </div>
+    <figure class="shot" style="width:auto;margin:0">
+      <div class="device" style="margin-inline:auto"><div class="device-screen">
+        <img class="only-dark" src="/assets/screens/fr/dark/stats.webp" width="640" height="1391" alt="L&#x27;écran Statistiques : net, recettes et frais de la semaine, avec la distance par type." loading="lazy">
+        <img class="only-light" src="/assets/screens/fr/light/stats.webp" width="640" height="1391" alt="L&#x27;écran Statistiques : net, recettes et frais de la semaine, avec la distance par type." loading="lazy">
+      </div></div>
+      <figcaption style="text-align:center"><b>Statistiques</b>Votre semaine, dans votre langue et votre monnaie.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Un prix, tout compris</h2>
+    <p class="section-intro">Quatorze jours gratuits. Aucune carte pour commencer, et rien enfermé dans une formule supérieure.</p>
+
+    <div class="price-grid">
+      <div class="price">
+        <h3>Mensuel</h3>
+        <p class="amount">€6.99</p>
+        <p class="per">par mois, résiliable à tout moment</p>
+        <ul>
+          <li>Toutes les fonctions, sans option payante</li>
+          <li>14 jours gratuits d&#x27;abord</li>
+        </ul>
+      </div>
+      <div class="price best">
+        <span class="tag">Meilleur prix</span>
+        <h3>Annuel</h3>
+        <p class="amount">€49.99</p>
+        <p class="per">par an — la formule la moins chère</p>
+        <ul>
+          <li>Toutes les fonctions, sans option payante</li>
+          <li>Des mois moins cher qu&#x27;au mois</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pricetable">
+      <div class="pricetable-head">
+        <h3 style="font-size:20px;margin:0">Le prix chez vous</h3>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input type="search" id="price-search" placeholder="Trouvez votre pays" aria-label="Trouvez votre pays">
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table class="prices">
+          <thead>
+            <tr><th scope="col">Pays</th><th scope="col">Mensuel</th><th scope="col">Annuel</th></tr>
+          </thead>
+          <tbody id="price-rows" data-you="Vous">
+            <tr data-cc="GB" data-flag="🇬🇧" data-name="United Kingdom"><td><span class="flag">🇬🇧</span><span data-region="GB">United Kingdom</span></td><td>£6.99</td><td>£49.99</td></tr>
+            <tr data-cc="IE" data-flag="🇮🇪" data-name="Ireland"><td><span class="flag">🇮🇪</span><span data-region="IE">Ireland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="US" data-flag="🇺🇸" data-name="United States"><td><span class="flag">🇺🇸</span><span data-region="US">United States</span></td><td>$6.99</td><td>$49.99</td></tr>
+            <tr data-cc="CA" data-flag="🇨🇦" data-name="Canada"><td><span class="flag">🇨🇦</span><span data-region="CA">Canada</span></td><td>C$9.99</td><td>C$69.99</td></tr>
+            <tr data-cc="AU" data-flag="🇦🇺" data-name="Australia"><td><span class="flag">🇦🇺</span><span data-region="AU">Australia</span></td><td>A$11.99</td><td>A$79.99</td></tr>
+            <tr data-cc="NZ" data-flag="🇳🇿" data-name="New Zealand"><td><span class="flag">🇳🇿</span><span data-region="NZ">New Zealand</span></td><td>NZ$12.99</td><td>NZ$89.99</td></tr>
+            <tr data-cc="DE" data-flag="🇩🇪" data-name="Germany"><td><span class="flag">🇩🇪</span><span data-region="DE">Germany</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FR" data-flag="🇫🇷" data-name="France"><td><span class="flag">🇫🇷</span><span data-region="FR">France</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="NL" data-flag="🇳🇱" data-name="Netherlands"><td><span class="flag">🇳🇱</span><span data-region="NL">Netherlands</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FI" data-flag="🇫🇮" data-name="Finland"><td><span class="flag">🇫🇮</span><span data-region="FI">Finland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="IT" data-flag="🇮🇹" data-name="Italy"><td><span class="flag">🇮🇹</span><span data-region="IT">Italy</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="ES" data-flag="🇪🇸" data-name="Spain"><td><span class="flag">🇪🇸</span><span data-region="ES">Spain</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="PT" data-flag="🇵🇹" data-name="Portugal"><td><span class="flag">🇵🇹</span><span data-region="PT">Portugal</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="GR" data-flag="🇬🇷" data-name="Greece"><td><span class="flag">🇬🇷</span><span data-region="GR">Greece</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SK" data-flag="🇸🇰" data-name="Slovakia"><td><span class="flag">🇸🇰</span><span data-region="SK">Slovakia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LT" data-flag="🇱🇹" data-name="Lithuania"><td><span class="flag">🇱🇹</span><span data-region="LT">Lithuania</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LV" data-flag="🇱🇻" data-name="Latvia"><td><span class="flag">🇱🇻</span><span data-region="LV">Latvia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SE" data-flag="🇸🇪" data-name="Sweden"><td><span class="flag">🇸🇪</span><span data-region="SE">Sweden</span></td><td>79 SEK</td><td>599 SEK</td></tr>
+            <tr data-cc="NO" data-flag="🇳🇴" data-name="Norway"><td><span class="flag">🇳🇴</span><span data-region="NO">Norway</span></td><td>79 NOK</td><td>599 NOK</td></tr>
+            <tr data-cc="DK" data-flag="🇩🇰" data-name="Denmark"><td><span class="flag">🇩🇰</span><span data-region="DK">Denmark</span></td><td>49 DKK</td><td>349 DKK</td></tr>
+            <tr data-cc="PL" data-flag="🇵🇱" data-name="Poland"><td><span class="flag">🇵🇱</span><span data-region="PL">Poland</span></td><td>24,99 zł</td><td>169,99 zł</td></tr>
+            <tr data-cc="CZ" data-flag="🇨🇿" data-name="Czechia"><td><span class="flag">🇨🇿</span><span data-region="CZ">Czechia</span></td><td>149 Kč</td><td>999 Kč</td></tr>
+            <tr data-cc="HU" data-flag="🇭🇺" data-name="Hungary"><td><span class="flag">🇭🇺</span><span data-region="HU">Hungary</span></td><td>2 490 Ft</td><td>16 990 Ft</td></tr>
+            <tr data-cc="RO" data-flag="🇷🇴" data-name="Romania"><td><span class="flag">🇷🇴</span><span data-region="RO">Romania</span></td><td>24,99 lei</td><td>169,99 lei</td></tr>
+            <tr data-cc="BG" data-flag="🇧🇬" data-name="Bulgaria"><td><span class="flag">🇧🇬</span><span data-region="BG">Bulgaria</span></td><td>11,99 лв</td><td>79,99 лв</td></tr>
+            <tr data-cc="TR" data-flag="🇹🇷" data-name="Turkey"><td><span class="flag">🇹🇷</span><span data-region="TR">Turkey</span></td><td>₺199,99</td><td>₺1.399,99</td></tr>
+            <tr data-cc="BR" data-flag="🇧🇷" data-name="Brazil"><td><span class="flag">🇧🇷</span><span data-region="BR">Brazil</span></td><td>R$19,90</td><td>R$129,90</td></tr>
+            <tr data-cc="MX" data-flag="🇲🇽" data-name="Mexico"><td><span class="flag">🇲🇽</span><span data-region="MX">Mexico</span></td><td>MX$99</td><td>MX$649</td></tr>
+            <tr data-cc="ZA" data-flag="🇿🇦" data-name="South Africa"><td><span class="flag">🇿🇦</span><span data-region="ZA">South Africa</span></td><td>R99.99</td><td>R699.99</td></tr>
+            <tr data-cc="IN" data-flag="🇮🇳" data-name="India"><td><span class="flag">🇮🇳</span><span data-region="IN">India</span></td><td>₹299</td><td>₹1,999</td></tr>
+            <tr data-cc="CN" data-flag="🇨🇳" data-name="China"><td><span class="flag">🇨🇳</span><span data-region="CN">China</span></td><td>¥29</td><td>¥199</td></tr>
+            <tr data-cc="JP" data-flag="🇯🇵" data-name="Japan"><td><span class="flag">🇯🇵</span><span data-region="JP">Japan</span></td><td>¥980</td><td>¥6,800</td></tr>
+            <tr data-cc="KR" data-flag="🇰🇷" data-name="South Korea"><td><span class="flag">🇰🇷</span><span data-region="KR">South Korea</span></td><td>₩8,900</td><td>₩59,000</td></tr>
+            <tr data-cc="ID" data-flag="🇮🇩" data-name="Indonesia"><td><span class="flag">🇮🇩</span><span data-region="ID">Indonesia</span></td><td>Rp49.000</td><td>Rp329.000</td></tr>
+            <tr data-cc="AE" data-flag="🇦🇪" data-name="United Arab Emirates"><td><span class="flag">🇦🇪</span><span data-region="AE">United Arab Emirates</span></td><td>AED 24.99</td><td>AED 169.99</td></tr>
+            <tr data-cc="SA" data-flag="🇸🇦" data-name="Saudi Arabia"><td><span class="flag">🇸🇦</span><span data-region="SA">Saudi Arabia</span></td><td>SAR 24.99</td><td>SAR 169.99</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="table-note"><strong>Bientôt sur l&#x27;App Store</strong> Chaque pays a son propre prix plutôt qu&#x27;un prix converti, pour que personne ne paie une facture britannique déguisée. L&#x27;App Store affiche le vôtre, taxes comprises, avant tout engagement. Pas dans la liste ? L&#x27;App Store a quand même un prix pour vous dans votre monnaie.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="faq">
+  <div class="wrap">
+    <h2>Les questions que les coursiers posent vraiment</h2>
+    <p class="section-intro">Des réponses directes, par quelqu&#x27;un qui fait le métier.</p>
+    <div class="faq">
+      <details>
+        <summary>Est-ce que ça vide la batterie ?</summary>
+        <p>DropLane ne laisse pas le GPS tourner toute la journée. Elle attend tranquillement de sentir que vous avez quitté votre place de stationnement, enregistre pendant que vous roulez, et se rendort à l&#x27;arrêt.</p>
+      </details>
+      <details>
+        <summary>Dois-je appuyer sur démarrer ?</summary>
+        <p>Non — et il n&#x27;y a pas de bouton. C&#x27;est tout l&#x27;intérêt. Ce qu&#x27;il faut penser à faire, on l&#x27;oublie le jour où ça compte.</p>
+      </details>
+      <details>
+        <summary>Et si j&#x27;oublie de trier un trajet ?</summary>
+        <p>Rien n&#x27;est perdu. Les trajets non triés attendent dans l&#x27;écran Journées, et l&#x27;application vous relance au lieu de deviner à votre place.</p>
+      </details>
+      <details>
+        <summary>Mon historique finit-il quelque part ?</summary>
+        <p>Non. Il n&#x27;y a ni compte ni serveur. Tout reste sur votre iPhone et n&#x27;est sauvegardé que sur votre propre iCloud, si vous le souhaitez.</p>
+      </details>
+      <details>
+        <summary>Je roule à vélo, pas en camionnette.</summary>
+        <p>Ça marche. Les kilomètres en vélo-cargo sont enregistrés de la même façon et comptent autant.</p>
+      </details>
+      <details>
+        <summary>Le barème de mon pays est-il dedans ?</summary>
+        <p>Dix-sept pays ont leur barème officiel intégré et tenu à jour. Partout ailleurs, saisissez le vôtre une fois et l&#x27;application calcule.</p>
+      </details>
+      <details>
+        <summary>Puis-je travailler en kilomètres ?</summary>
+        <p>Oui. Kilomètres ou miles, votre monnaie et le prix du carburant que vous payez vraiment — tout est dans Réglages, dès le premier écran.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="closer">
+      <h2>Arrêtez de deviner ce que la journée a rapporté.</h2>
+      <p>Quatorze jours gratuits, sans compte, et rien à retenir à six heures du matin.</p>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Prévenez-moi à la sortie</a>
+      <p class="closer-note">Bientôt sur l&#x27;App Store</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">DropLane — kilomètres et recettes automatiques pour les coursiers indépendants. Conçue par un coursier, à Torquay.</p>
+    <div class="foot-links">
+      <a href="/privacy/">Confidentialité</a>
+      <a href="/terms/">Conditions</a>
+      <a href="/support/">Aide</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Fermer">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

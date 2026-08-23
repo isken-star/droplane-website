@@ -1,0 +1,241 @@
+{
+  "meta_title": "DropLane — elke kilometer betaald",
+  "meta_description": "DropLane legt de ritten van een koerier automatisch vast, telt de opbrengst van de dag op tegen de kosten, en houdt een kilometerregistratie bij die de Belastingdienst accepteert. Vierentwintig talen, alles op je telefoon.",
+  "nav_label": "Hoofdmenu",
+  "nav_how": "Hoe het werkt",
+  "nav_features": "Wat het doet",
+  "nav_screens": "Schermen",
+  "nav_countries": "Waar het werkt",
+  "nav_languages": "Talen",
+  "nav_pricing": "Prijs",
+  "nav_faq": "Vragen",
+  "nav_support": "Support",
+  "cta_get": "DropLane halen",
+  "menu": "Menu",
+  "close": "Sluiten",
+  "theme_label": "Kleurthema",
+  "theme_light": "Licht",
+  "theme_dark": "Donker",
+  "language_label": "Taal",
+  "language_title": "Lees deze site in jouw taal",
+  "language_note": "De app zelf spreekt vierentwintig talen — de rest volgt hier.",
+  "langbar_strong": "Vierentwintig talen.",
+  "langbar_rest": "Kies de jouwe — de app spreekt hem ook.",
+  "per_month_short": "per maand",
+  "see_all": "bekijk alle",
+  "hero_h1": "Elke kilometer betaald.",
+  "hero_lede": "Start de bus. Meer niet. DropLane legt de rit vast, tekent de route die je echt reed, en telt de dag op voordat je binnen bent.",
+  "hero_cta_price": "Bekijk de prijs",
+  "hero_cta_how": "Hoe het werkt",
+  "hero_note": "14 dagen gratis · geen account, geen advertenties · iPhone",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "knoppen om in te drukken"
+    },
+    {
+      "value": "24",
+      "label": "talen"
+    },
+    {
+      "value": "17",
+      "label": "kilometervergoedingen ingebouwd"
+    }
+  ],
+  "how_h2": "Drie stappen, en twee daarvan zijn niet van jou",
+  "how_intro": "Er zit expres geen startknop in DropLane. Niemand denkt er om zes uur 's ochtends met een volle bus aan om er een in te drukken.",
+  "how_steps": [
+    {
+      "title": "Eén keer aanzetten",
+      "body": "Installeer de app en sta locatie op de achtergrond toe. Verder valt er niets in te stellen."
+    },
+    {
+      "title": "Rijden",
+      "body": "Elke rit bewaart zichzelf, met de route, de stops en hoelang je bij elke stop stond."
+    },
+    {
+      "title": "Sorteren met één tik",
+      "body": "Zakelijk, leeg, onderweg naar een ophaaladres of privé. De totalen en het fiscale bedrag volgen vanzelf."
+    }
+  ],
+  "how_proof": "Daarna stapelen de dagen zich vanzelf op. Kies een week, een maand of je eigen datums, vink aan wat mee moet, en de pdf voor de boekhouder is één tik weg — opgebouwd uit ritten die je nooit hebt hoeven noteren.",
+  "features_h2": "Wat het echt doet",
+  "features_intro": "Gebouwd door een koerier met tien jaar op de weg, voor het werk zoals het echt is.",
+  "features": [
+    {
+      "icon": "🛣️",
+      "title": "Kilometers zonder je telefoon aan te raken",
+      "body": "Ritten leggen zichzelf op de achtergrond vast, vanaf het wegrijden tot het parkeren."
+    },
+    {
+      "icon": "💷",
+      "title": "Wat de dag echt opbracht",
+      "body": "Inkomsten erin, brandstof en kosten eruit, en onderaan het getal dat telt — per dag, week en maand."
+    },
+    {
+      "icon": "🧾",
+      "title": "Een registratie voor de Belastingdienst",
+      "body": "Een pdf met elke rit, de route en de datum. Kilometervergoedingen voor zeventien landen ingebouwd."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Stops en wachttijd",
+      "body": "Zie hoelang je bij elk adres of depot stond, zonder iets op te schrijven."
+    },
+    {
+      "icon": "⛽",
+      "title": "Wat een uur echt oplevert",
+      "body": "Brandstof, financiering en verzekering verdeeld over je werkdagen, zodat het uurbedrag klopt."
+    },
+    {
+      "icon": "🔒",
+      "title": "Er gaat niets van je telefoon af",
+      "body": "Geen account, geen tracking, geen advertenties. Je routegeschiedenis is van jou en gaat alleen naar je eigen iCloud."
+    }
+  ],
+  "screens_h2": "De hele app, in daglicht en donker",
+  "screens_intro": "Echte schermen uit een maand echt werk. Zet de schakelaar bovenaan om, en elk beeld hier gaat mee.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Vandaag",
+      "body": "Terwijl de wielen nog draaien."
+    },
+    {
+      "file": "day",
+      "title": "De dag op de kaart",
+      "body": "Elke kleur is één rit."
+    },
+    {
+      "file": "trip",
+      "title": "Eén rit",
+      "body": "Tijden, stops en wat voor kilometers."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Rit sorteren",
+      "body": "Zakelijk, leeg, ophalen of privé."
+    },
+    {
+      "file": "days",
+      "title": "Dagen",
+      "body": "Elke dag, al opgeteld."
+    },
+    {
+      "file": "stats",
+      "title": "Cijfers",
+      "body": "De week, in gewone getallen."
+    },
+    {
+      "file": "insights",
+      "title": "Inzicht",
+      "body": "Wat een uur en een kilometer echt opleveren."
+    },
+    {
+      "file": "insights-tax",
+      "title": "Belasting",
+      "body": "Wat de kilometers van de periode waard zijn."
+    },
+    {
+      "file": "report",
+      "title": "De pdf",
+      "body": "Precies zoals je boekhouder hem wil."
+    },
+    {
+      "file": "expense",
+      "title": "Kosten",
+      "body": "Brandstof, eten, parkeren, tol."
+    },
+    {
+      "file": "vehicle",
+      "title": "Voertuig",
+      "body": "APK, wegenbelasting en verzekering, vóór ze verlopen."
+    },
+    {
+      "file": "settings",
+      "title": "Instellingen",
+      "body": "Kilometers of mijlen. Licht of donker."
+    }
+  ],
+  "countries_h2": "Waar DropLane de regels kent",
+  "countries_intro": "De app werkt overal. In deze landen kent hij ook de kilometervergoeding die de fiscus toestaat, en hoe de papieren van je voertuig daar heten.",
+  "countries_note": "Ergens anders? Vul de vergoeding in die jouw belastingdienst toestaat, dan doet DropLane de rest.",
+  "languages_h2": "Lees hem in je eigen taal",
+  "languages_intro": "De hele app — elk scherm, elke melding, de rapporten — niet alleen deze pagina. En het geld blijft in jouw valuta, in welke taal je hem ook leest.",
+  "languages_caption_title": "Cijfers",
+  "languages_caption_body": "Jouw week, in jouw taal en jouw geld.",
+  "pricing_h2": "Eén prijs, alles erin",
+  "pricing_intro": "Veertien dagen gratis. Geen pas nodig om te beginnen, en niets achter een duurder pakket.",
+  "pricing_monthly": "Maandelijks",
+  "pricing_yearly": "Jaarlijks",
+  "pricing_per_month": "per maand, altijd opzegbaar",
+  "pricing_per_year": "per jaar — de goedkoopste manier",
+  "pricing_best": "Beste keuze",
+  "pricing_bullet_all": "Alle functies, geen bijkopen",
+  "pricing_bullet_trial": "Eerst 14 dagen gratis",
+  "pricing_bullet_saving": "Maanden goedkoper dan per maand betalen",
+  "pricing_table_title": "De prijs waar jij bent",
+  "pricing_search": "Zoek je land",
+  "pricing_col_country": "Land",
+  "pricing_col_month": "Maandelijks",
+  "pricing_col_year": "Jaarlijks",
+  "pricing_you": "Jij",
+  "pricing_note": "Elk land heeft een eigen prijs in plaats van een omgerekende, zodat niemand een Britse rekening in vermomming betaalt. De App Store laat de jouwe zien, inclusief btw, voordat je ergens ja op zegt. Niet in de lijst? De App Store heeft nog steeds een prijs voor je in je eigen valuta.",
+  "faq_h2": "Vragen die koeriers echt stellen",
+  "faq_intro": "Rechttoe rechtaan antwoorden, van iemand die het werk doet.",
+  "faq": [
+    {
+      "q": "Loopt mijn batterij leeg?",
+      "a": "DropLane laat de gps niet de hele dag aanstaan. Hij wacht rustig tot hij merkt dat je weg bent van waar je parkeerde, legt vast terwijl je rijdt, en valt weer in slaap als je stilstaat."
+    },
+    {
+      "q": "Moet ik op start drukken?",
+      "a": "Nee — en er is geen knop voor. Dat is precies het punt. Wat je moet onthouden, vergeet je op de dag dat het ertoe doet."
+    },
+    {
+      "q": "En als ik een rit niet sorteer?",
+      "a": "Er gaat niets verloren. Ongesorteerde ritten wachten in het Dagen-scherm, en de app port je even in plaats van voor je te gokken."
+    },
+    {
+      "q": "Komt mijn routegeschiedenis ergens terecht?",
+      "a": "Nee. Er is geen account en geen server. Alles staat op je iPhone en gaat alleen naar je eigen iCloud als je dat wilt."
+    },
+    {
+      "q": "Ik rijd op de fiets, niet in een bus.",
+      "a": "Dat werkt. Kilometers met een bakfiets worden net zo vastgelegd en tellen net zo goed mee."
+    },
+    {
+      "q": "Zit de vergoeding van mijn land erin?",
+      "a": "Zeventien landen hebben hun officiële bedrag ingebouwd en bijgehouden. Overal elders vul je je eigen bedrag één keer in, en de app rekent."
+    },
+    {
+      "q": "Kan ik in kilometers werken?",
+      "a": "Ja. Kilometers of mijlen, je eigen valuta en de brandstofprijs die je echt betaalt — allemaal in Instellingen, op het eerste scherm."
+    }
+  ],
+  "closer_h2": "Stop met gokken wat de dag opleverde.",
+  "closer_body": "Veertien dagen gratis, geen account, en niets om om zes uur 's ochtends aan te denken.",
+  "footer_note": "DropLane — kilometers en inkomsten voor zelfstandige koeriers, automatisch. Gebouwd door een koerier, in Torquay.",
+  "footer_privacy": "Privacy",
+  "footer_terms": "Voorwaarden",
+  "footer_support": "Support",
+  "alt_today": "Het Vandaag-scherm van DropLane: een rit wordt op de kaart vastgelegd, met de afstand, uren en opbrengst van de dag.",
+  "alt_days": "De Dagen-lijst: elke werkdag met winst, afstand en aantal ritten.",
+  "alt_report": "De rapportkaart: schakelaars voor ritten, inkomsten, kosten en bonfoto's, en dan de pdf.",
+  "alt_stats": "Het Cijfers-scherm: netto, verdiend en kosten van de week, met afstand per soort.",
+  "papers_h2": "Het rapport, staand of liggend",
+  "papers_intro": "Dit is de pdf zelf, geen plaatje van de schakelaars die hem maken. Kies de vorm die past bij wie hem leest — staand voor de map, liggend als de rittentabel ruimte nodig heeft — en hij wordt meteen opnieuw opgebouwd.",
+  "papers_portrait": "Staand",
+  "papers_portrait_note": "Voor de map en om thuis af te drukken.",
+  "papers_landscape": "Liggend",
+  "papers_landscape_note": "Bredere regels: elke rit, de route en de tijden naast elkaar.",
+  "papers_note": "Je bedrijfsnaam, adres en logo staan bovenaan. Vink aan wat mee moet — dag voor dag, elke rit, inkomsten, kosten, bonfoto's, een klein kaartje bij elke rit, de kilometervergoeding over de periode — en DropLane bouwt het document onderweg opnieuw op.",
+  "alt_report_portrait": "De eerste pagina van een DropLane-rapport staand: kop, totalen van de periode, inkomsten en kosten, en de kilometervergoeding.",
+  "alt_report_landscape": "De eerste pagina van een DropLane-rapport liggend, met de bredere rittentabel.",
+  "papers_choose": "Wat erin komt",
+  "papers_zoom": "Vergroten",
+  "suggest_prompt": "Lees dit in het Nederlands",
+  "cta_soon": "Binnenkort",
+  "cta_coming": "Binnenkort in de App Store",
+  "cta_notify": "Mail me zodra hij er is"
+}

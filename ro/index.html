@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ro-RO" data-theme="light" data-lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DropLane — fiecare kilometru plătit</title>
+<meta name="description" content="DropLane înregistrează singură cursele unui curier, adună câștigul zilei din care scade cheltuielile și ține o evidență a kilometrilor bună pentru contabil. Douăzeci și patru de limbi, totul pe telefon.">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/ro/">
+<link rel="alternate" hreflang="en" href="https://www.droplane.co.uk/">
+<link rel="alternate" hreflang="da" href="https://www.droplane.co.uk/da/">
+<link rel="alternate" hreflang="de" href="https://www.droplane.co.uk/de/">
+<link rel="alternate" hreflang="es" href="https://www.droplane.co.uk/es/">
+<link rel="alternate" hreflang="fr" href="https://www.droplane.co.uk/fr/">
+<link rel="alternate" hreflang="it" href="https://www.droplane.co.uk/it/">
+<link rel="alternate" hreflang="nl" href="https://www.droplane.co.uk/nl/">
+<link rel="alternate" hreflang="pl" href="https://www.droplane.co.uk/pl/">
+<link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
+<link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
+<link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
+<meta property="og:title" content="DropLane — fiecare kilometru plătit">
+<meta property="og:description" content="DropLane înregistrează singură cursele unui curier, adună câștigul zilei din care scade cheltuielile și ține o evidență a kilometrilor bună pentru contabil. Douăzeci și patru de limbi, totul pe telefon.">
+<meta property="og:url" content="https://www.droplane.co.uk/ro/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/icon-512.png">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/ro/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="Meniu principal">
+      <a href="#how">Cum funcționează</a>
+      <a href="#features">Ce face</a>
+      <a href="#screens">Ecrane</a>
+      <a href="#countries">Unde funcționează</a>
+      <a href="#pricing">Preț</a>
+      <a href="/support/">Ajutor</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="Limbă">
+        <span class="lang-button-flag" aria-hidden="true">🇷🇴</span>
+        <span class="lang-button-name">Română</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="Temă de culoare">
+        <button type="button" data-theme="light" aria-pressed="true" title="Luminos">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>Luminos</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="Întunecat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>Întunecat</span>
+        </button>
+      </div>
+
+      <a class="head-cta head-cta-soon" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">În curând</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">Meniu</span><span class="close-label">Închide</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">Citește site-ul în limba ta</p>
+      <ul class="lang-list">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/ro/" hreflang="ro" aria-current="true" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+      </ul>
+      <p class="lang-panel-note">Aplicația vorbește douăzeci și patru de limbi — restul ajung și aici.</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="Meniu principal">
+        <a href="#how">Cum funcționează</a>
+        <a href="#features">Ce face</a>
+        <a href="#screens">Ecrane</a>
+        <a href="#countries">Unde funcționează</a>
+        <a href="#languages">Limbi</a>
+        <a href="#pricing">Preț</a>
+        <a href="#faq">Întrebări</a>
+        <a href="/support/">Ajutor</a>
+      </nav>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">În curând pe App Store</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>Douăzeci și patru de limbi.</strong> Alege-o pe a ta — aplicația o vorbește și ea.</p>
+    <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
+  </div>
+</div>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇷🇴</span><b data-region="RO">Romania</b><span class="eyebrow-cost"><span class="eyebrow-price">24,99 lei</span> <span class="eyebrow-per">pe lună</span></span><a href="#pricing">vezi tot</a></span>
+      <h1>Fiecare kilometru plătit.</h1>
+      <p class="lede">Pornește duba. Atât. DropLane înregistrează cursa, desenează drumul pe care chiar l-ai făcut și îți face socoteala zilei înainte să intri pe ușă.</p>
+      <div class="cta-row">
+        <a class="btn" href="#pricing">Vezi prețul</a>
+        <a class="btn-ghost" href="#how">Cum funcționează</a>
+      </div>
+      <p class="cta-note" style="margin:14px 0 0">14 zile gratis · fără cont, fără reclame · iPhone</p>
+      <ul class="hero-facts">
+        <li><b>0</b><span>butoane de apăsat</span></li>
+        <li><b>24</b><span>limbi</span></li>
+        <li><b>17</b><span>tarife pe kilometru incluse</span></li>
+      </ul>
+    </div>
+
+    <div class="stage">
+      <div class="device device-back">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/days.webp" width="640" height="1391" alt="Lista Zile: fiecare zi lucrată cu profitul, distanța și numărul de curse." loading="eager">
+          <img class="only-light" src="/assets/screens/ro/light/days.webp" width="640" height="1391" alt="Lista Zile: fiecare zi lucrată cu profitul, distanța și numărul de curse." loading="eager">
+        </div>
+      </div>
+      <div class="device device-front">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/today.webp" width="640" height="1391" alt="Ecranul Azi din DropLane: o cursă care se înregistrează pe hartă, cu distanța, orele și încasările zilei." loading="eager">
+          <img class="only-light" src="/assets/screens/ro/light/today.webp" width="640" height="1391" alt="Ecranul Azi din DropLane: o cursă care se înregistrează pe hartă, cu distanța, orele și încasările zilei." loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="how">
+  <div class="wrap">
+    <h2>Trei pași, iar doi nu sunt ai tăi</h2>
+    <p class="section-intro">În DropLane nu există buton de start, și e intenționat. La șase dimineața, cu duba plină de colete, nimeni nu-și amintește să apese unul.</p>
+
+    <div class="steps">
+      <div class="card step">
+        <span class="num">1</span>
+        <h3>Pornește-o o dată</h3>
+        <p>Instalează aplicația și permite locația în fundal. Aici se termină setările.</p>
+      </div>
+      <div class="card step">
+        <span class="num">2</span>
+        <h3>Condu</h3>
+        <p>Fiecare cursă se salvează singură, cu traseul, opririle și cât ai stat la fiecare.</p>
+      </div>
+      <div class="card step">
+        <span class="num">3</span>
+        <h3>Sortează dintr-o atingere</h3>
+        <p>Serviciu, gol, în drum spre o ridicare sau personal. Totalurile și partea fiscală vin de la sine.</p>
+      </div>
+    </div>
+
+    <div class="proof" id="report">
+      <div class="proof-words">
+        <h3>Raportul, pe lung sau pe lat</h3>
+        <p>Apoi zilele se adună singure. Alege o săptămână, o lună sau propriile date, bifează ce intră, iar PDF-ul pentru contabil e la o atingere — construit din curse pe care nu a trebuit să le notezi niciodată.</p>
+        <p class="proof-note">Ăsta e PDF-ul în sine, nu o poză cu butoanele care îl fac. Alege formatul potrivit pentru cine îl citește — pe lung pentru dosar, pe lat când tabelul curselor are nevoie de loc — și se reface pe loc.</p>
+      </div>
+
+      <div class="proof-output">
+        <figure class="proof-item proof-phone">
+          <div class="device">
+            <div class="device-screen">
+              <img class="only-dark" src="/assets/screens/ro/dark/report.webp" width="640" height="1391" alt="Fișa raportului: comutatoare pentru curse, încasări, cheltuieli și poze de bonuri, apoi PDF-ul." loading="lazy">
+              <img class="only-light" src="/assets/screens/ro/light/report.webp" width="640" height="1391" alt="Fișa raportului: comutatoare pentru curse, încasări, cheltuieli și poze de bonuri, apoi PDF-ul." loading="lazy">
+            </div>
+          </div>
+          <figcaption>Ce intră</figcaption>
+        </figure>
+
+        <figure class="proof-item">
+          <button class="paper-zoom" type="button" data-zoom="/assets/screens/ro/paper/report-portrait-1.webp" data-zoom-label="Pe lung" aria-label="Mărește — Pe lung">
+            <img src="/assets/screens/ro/paper/report-portrait-1.webp" width="760" height="1075" alt="Prima pagină a unui raport DropLane pe lung: antet, totalurile perioadei, încasări și cheltuieli și deducerea pe kilometri." loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">Mărește</span>
+          </button>
+          <figcaption>Pe lung</figcaption>
+        </figure>
+
+        <figure class="proof-item proof-item-wide">
+          <button class="paper-zoom" type="button" data-zoom="/assets/screens/ro/paper/report-landscape-2.webp" data-zoom-label="Pe lat" aria-label="Mărește — Pe lat">
+            <img src="/assets/screens/ro/paper/report-landscape-2.webp" width="1100" height="778" alt="Prima pagină a unui raport DropLane pe lat, cu tabelul curselor mai lat." loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">Mărește</span>
+          </button>
+          <figcaption>Pe lat</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <h2>Ce face de fapt</h2>
+    <p class="section-intro">Făcută de un curier cu zece ani pe drum, pentru meseria așa cum e ea.</p>
+    <div class="cards">
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>Kilometri fără să atingi telefonul</h3>
+        <p>Cursele se înregistrează în fundal, din clipa în care pleci și până parchezi.</p>
+      </div>
+      <div class="card">
+        <span class="icon">💷</span>
+        <h3>Cât a dat ziua cu adevărat</h3>
+        <p>Încasări într-o parte, motorină și cheltuieli în cealaltă, iar jos cifra care contează — pe zi, pe săptămână, pe lună.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🧾</span>
+        <h3>O evidență pentru fisc</h3>
+        <p>Un PDF cu fiecare cursă, traseul și data ei. Tarife pe kilometru incluse pentru șaptesprezece țări.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🅿️</span>
+        <h3>Opriri și timp de așteptare</h3>
+        <p>Vezi cât ai stat la fiecare livrare sau în depozit, fără să notezi nimic.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>Cât plătește o oră cu adevărat</h3>
+        <p>Motorina, rata și asigurarea împărțite pe zilele în care lucrezi, ca ora să fie cea reală.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔒</span>
+        <h3>Nimic nu pleacă de pe telefon</h3>
+        <p>Fără cont, fără urmărire, fără reclame. Istoricul traseelor e al tău și ajunge doar în propriul tău iCloud.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="screens">
+  <div class="wrap">
+    <h2>Toată aplicația, la lumină și pe întuneric</h2>
+    <p class="section-intro">Ecrane reale, dintr-o lună de muncă adevărată. Schimbă comutatorul de sus și se schimbă fiecare imagine de aici.</p>
+  </div>
+  <div class="wrap">
+    <div class="rail">
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/today.webp" width="640" height="1391" alt="Azi — Cât încă se învârt roțile." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/today.webp" width="640" height="1391" alt="Azi — Cât încă se învârt roțile." loading="lazy">
+        </div></div>
+        <figcaption><b>Azi</b>Cât încă se învârt roțile.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/day.webp" width="640" height="1391" alt="Ziua pe hartă — Fiecare culoare e o cursă." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/day.webp" width="640" height="1391" alt="Ziua pe hartă — Fiecare culoare e o cursă." loading="lazy">
+        </div></div>
+        <figcaption><b>Ziua pe hartă</b>Fiecare culoare e o cursă.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/trip.webp" width="640" height="1391" alt="O cursă — Ore, opriri și ce fel de kilometri." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/trip.webp" width="640" height="1391" alt="O cursă — Ore, opriri și ce fel de kilometri." loading="lazy">
+        </div></div>
+        <figcaption><b>O cursă</b>Ore, opriri și ce fel de kilometri.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/trip-sort.webp" width="640" height="1391" alt="Sortarea unei curse — Serviciu, gol, spre ridicare sau personal." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/trip-sort.webp" width="640" height="1391" alt="Sortarea unei curse — Serviciu, gol, spre ridicare sau personal." loading="lazy">
+        </div></div>
+        <figcaption><b>Sortarea unei curse</b>Serviciu, gol, spre ridicare sau personal.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/days.webp" width="640" height="1391" alt="Zile — Fiecare zi, deja adunată." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/days.webp" width="640" height="1391" alt="Zile — Fiecare zi, deja adunată." loading="lazy">
+        </div></div>
+        <figcaption><b>Zile</b>Fiecare zi, deja adunată.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/stats.webp" width="640" height="1391" alt="Statistici — Săptămâna, în cifre simple." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/stats.webp" width="640" height="1391" alt="Statistici — Săptămâna, în cifre simple." loading="lazy">
+        </div></div>
+        <figcaption><b>Statistici</b>Săptămâna, în cifre simple.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/insights.webp" width="640" height="1391" alt="Analiză — Cât plătesc cu adevărat o oră și un kilometru." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/insights.webp" width="640" height="1391" alt="Analiză — Cât plătesc cu adevărat o oră și un kilometru." loading="lazy">
+        </div></div>
+        <figcaption><b>Analiză</b>Cât plătesc cu adevărat o oră și un kilometru.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/insights-tax.webp" width="640" height="1391" alt="Impozit — Cât valorează kilometrii din perioadă." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/insights-tax.webp" width="640" height="1391" alt="Impozit — Cât valorează kilometrii din perioadă." loading="lazy">
+        </div></div>
+        <figcaption><b>Impozit</b>Cât valorează kilometrii din perioadă.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/report.webp" width="640" height="1391" alt="PDF-ul — Făcut cum îl vrea contabilul." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/report.webp" width="640" height="1391" alt="PDF-ul — Făcut cum îl vrea contabilul." loading="lazy">
+        </div></div>
+        <figcaption><b>PDF-ul</b>Făcut cum îl vrea contabilul.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/expense.webp" width="640" height="1391" alt="Cheltuieli — Motorină, mâncare, parcare, taxe de drum." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/expense.webp" width="640" height="1391" alt="Cheltuieli — Motorină, mâncare, parcare, taxe de drum." loading="lazy">
+        </div></div>
+        <figcaption><b>Cheltuieli</b>Motorină, mâncare, parcare, taxe de drum.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/vehicle.webp" width="640" height="1391" alt="Mașina — ITP, rovinietă și asigurare, până nu expiră." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/vehicle.webp" width="640" height="1391" alt="Mașina — ITP, rovinietă și asigurare, până nu expiră." loading="lazy">
+        </div></div>
+        <figcaption><b>Mașina</b>ITP, rovinietă și asigurare, până nu expiră.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ro/dark/settings.webp" width="640" height="1391" alt="Setări — Kilometri sau mile. Luminos sau întunecat." loading="lazy">
+          <img class="only-light" src="/assets/screens/ro/light/settings.webp" width="640" height="1391" alt="Setări — Kilometri sau mile. Luminos sau întunecat." loading="lazy">
+        </div></div>
+        <figcaption><b>Setări</b>Kilometri sau mile. Luminos sau întunecat.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="countries">
+  <div class="wrap">
+    <h2>Unde DropLane știe regulile</h2>
+    <p class="section-intro">Aplicația merge oriunde. În aceste țări știe în plus și tariful pe kilometru admis de fisc și cum se numesc actele mașinii tale.</p>
+    <ul class="chips">
+      <li><span class="flag">🇬🇧</span> <span data-region="GB">United Kingdom</span> <span class="rate">55p/mi</span></li>
+      <li><span class="flag">🇮🇪</span> <span data-region="IE">Ireland</span></li>
+      <li><span class="flag">🇺🇸</span> <span data-region="US">United States</span> <span class="rate">76¢/mi</span></li>
+      <li><span class="flag">🇨🇦</span> <span data-region="CA">Canada</span> <span class="rate">73¢/km</span></li>
+      <li><span class="flag">🇦🇺</span> <span data-region="AU">Australia</span> <span class="rate">91¢/km</span></li>
+      <li><span class="flag">🇩🇪</span> <span data-region="DE">Germany</span> <span class="rate">30c/km</span></li>
+      <li><span class="flag">🇳🇱</span> <span data-region="NL">Netherlands</span> <span class="rate">25c/km</span></li>
+      <li><span class="flag">🇧🇪</span> <span data-region="BE">Belgium</span> <span class="rate">47.61c/km</span></li>
+      <li><span class="flag">🇦🇹</span> <span data-region="AT">Austria</span> <span class="rate">50c/km</span></li>
+      <li><span class="flag">🇵🇹</span> <span data-region="PT">Portugal</span> <span class="rate">40c/km</span></li>
+      <li><span class="flag">🇵🇱</span> <span data-region="PL">Poland</span> <span class="rate">1.15 zł/km</span></li>
+      <li><span class="flag">🇨🇿</span> <span data-region="CZ">Czechia</span> <span class="rate">5.90 Kč/km</span></li>
+      <li><span class="flag">🇸🇰</span> <span data-region="SK">Slovakia</span> <span class="rate">31.3c/km</span></li>
+      <li><span class="flag">🇭🇺</span> <span data-region="HU">Hungary</span> <span class="rate">15 Ft/km</span></li>
+      <li><span class="flag">🇸🇪</span> <span data-region="SE">Sweden</span> <span class="rate">25 kr/mil</span></li>
+      <li><span class="flag">🇳🇴</span> <span data-region="NO">Norway</span> <span class="rate">3.50 kr/km</span></li>
+      <li><span class="flag">🇩🇰</span> <span data-region="DK">Denmark</span> <span class="rate">3.94 kr/km</span></li>
+      <li><span class="flag">🇫🇮</span> <span data-region="FI">Finland</span> <span class="rate">55c/km</span></li>
+      <li><span class="flag">🇷🇴</span> <span data-region="RO">Romania</span></li>
+      <li><span class="flag">🇧🇬</span> <span data-region="BG">Bulgaria</span></li>
+      <li><span class="flag">🇬🇷</span> <span data-region="GR">Greece</span></li>
+      <li><span class="flag">🇱🇹</span> <span data-region="LT">Lithuania</span></li>
+      <li><span class="flag">🇱🇻</span> <span data-region="LV">Latvia</span></li>
+      <li><span class="flag">🇹🇷</span> <span data-region="TR">Turkey</span></li>
+      <li><span class="flag">🇺🇦</span> <span data-region="UA">Ukraine</span></li>
+    </ul>
+    <p class="section-intro" style="margin:26px 0 0">În altă parte? Scrie tariful pe care îl admite fiscul tău, iar DropLane face restul.</p>
+  </div>
+</section>
+
+<section class="band" id="languages">
+  <div class="wrap split">
+    <div>
+      <h2>Citește-o în limba ta</h2>
+      <p class="section-intro">Toată aplicația — fiecare ecran, fiecare notificare, rapoartele — nu doar pagina asta. Iar banii rămân în moneda ta, în orice limbă ai citi.</p>
+      <ul class="langgrid">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/ro/" hreflang="ro" aria-current="true" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+      </ul>
+    </div>
+    <figure class="shot" style="width:auto;margin:0">
+      <div class="device" style="margin-inline:auto"><div class="device-screen">
+        <img class="only-dark" src="/assets/screens/ro/dark/stats.webp" width="640" height="1391" alt="Ecranul Statistici: net, încasat și cheltuieli pe săptămână, cu distanța pe tipuri." loading="lazy">
+        <img class="only-light" src="/assets/screens/ro/light/stats.webp" width="640" height="1391" alt="Ecranul Statistici: net, încasat și cheltuieli pe săptămână, cu distanța pe tipuri." loading="lazy">
+      </div></div>
+      <figcaption style="text-align:center"><b>Statistici</b>Săptămâna ta, în limba ta și în banii tăi.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Un preț, cu tot cu tot</h2>
+    <p class="section-intro">Paisprezece zile gratis. Fără card ca să începi și fără nimic ascuns într-un pachet mai scump.</p>
+
+    <div class="price-grid">
+      <div class="price">
+        <h3>Lunar</h3>
+        <p class="amount">24,99 lei</p>
+        <p class="per">pe lună, renunți când vrei</p>
+        <ul>
+          <li>Toate funcțiile, fără plăți în plus</li>
+          <li>Întâi 14 zile gratis</li>
+        </ul>
+      </div>
+      <div class="price best">
+        <span class="tag">Cel mai bun preț</span>
+        <h3>Anual</h3>
+        <p class="amount">169,99 lei</p>
+        <p class="per">pe an — cel mai ieftin</p>
+        <ul>
+          <li>Toate funcțiile, fără plăți în plus</li>
+          <li>Cu luni mai ieftin decât lunar</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pricetable">
+      <div class="pricetable-head">
+        <h3 style="font-size:20px;margin:0">Prețul acolo unde ești</h3>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input type="search" id="price-search" placeholder="Caută-ți țara" aria-label="Caută-ți țara">
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table class="prices">
+          <thead>
+            <tr><th scope="col">Țară</th><th scope="col">Lunar</th><th scope="col">Anual</th></tr>
+          </thead>
+          <tbody id="price-rows" data-you="Tu">
+            <tr data-cc="GB" data-flag="🇬🇧" data-name="United Kingdom"><td><span class="flag">🇬🇧</span><span data-region="GB">United Kingdom</span></td><td>£6.99</td><td>£49.99</td></tr>
+            <tr data-cc="IE" data-flag="🇮🇪" data-name="Ireland"><td><span class="flag">🇮🇪</span><span data-region="IE">Ireland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="US" data-flag="🇺🇸" data-name="United States"><td><span class="flag">🇺🇸</span><span data-region="US">United States</span></td><td>$6.99</td><td>$49.99</td></tr>
+            <tr data-cc="CA" data-flag="🇨🇦" data-name="Canada"><td><span class="flag">🇨🇦</span><span data-region="CA">Canada</span></td><td>C$9.99</td><td>C$69.99</td></tr>
+            <tr data-cc="AU" data-flag="🇦🇺" data-name="Australia"><td><span class="flag">🇦🇺</span><span data-region="AU">Australia</span></td><td>A$11.99</td><td>A$79.99</td></tr>
+            <tr data-cc="NZ" data-flag="🇳🇿" data-name="New Zealand"><td><span class="flag">🇳🇿</span><span data-region="NZ">New Zealand</span></td><td>NZ$12.99</td><td>NZ$89.99</td></tr>
+            <tr data-cc="DE" data-flag="🇩🇪" data-name="Germany"><td><span class="flag">🇩🇪</span><span data-region="DE">Germany</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FR" data-flag="🇫🇷" data-name="France"><td><span class="flag">🇫🇷</span><span data-region="FR">France</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="NL" data-flag="🇳🇱" data-name="Netherlands"><td><span class="flag">🇳🇱</span><span data-region="NL">Netherlands</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FI" data-flag="🇫🇮" data-name="Finland"><td><span class="flag">🇫🇮</span><span data-region="FI">Finland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="IT" data-flag="🇮🇹" data-name="Italy"><td><span class="flag">🇮🇹</span><span data-region="IT">Italy</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="ES" data-flag="🇪🇸" data-name="Spain"><td><span class="flag">🇪🇸</span><span data-region="ES">Spain</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="PT" data-flag="🇵🇹" data-name="Portugal"><td><span class="flag">🇵🇹</span><span data-region="PT">Portugal</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="GR" data-flag="🇬🇷" data-name="Greece"><td><span class="flag">🇬🇷</span><span data-region="GR">Greece</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SK" data-flag="🇸🇰" data-name="Slovakia"><td><span class="flag">🇸🇰</span><span data-region="SK">Slovakia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LT" data-flag="🇱🇹" data-name="Lithuania"><td><span class="flag">🇱🇹</span><span data-region="LT">Lithuania</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LV" data-flag="🇱🇻" data-name="Latvia"><td><span class="flag">🇱🇻</span><span data-region="LV">Latvia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SE" data-flag="🇸🇪" data-name="Sweden"><td><span class="flag">🇸🇪</span><span data-region="SE">Sweden</span></td><td>79 SEK</td><td>599 SEK</td></tr>
+            <tr data-cc="NO" data-flag="🇳🇴" data-name="Norway"><td><span class="flag">🇳🇴</span><span data-region="NO">Norway</span></td><td>79 NOK</td><td>599 NOK</td></tr>
+            <tr data-cc="DK" data-flag="🇩🇰" data-name="Denmark"><td><span class="flag">🇩🇰</span><span data-region="DK">Denmark</span></td><td>49 DKK</td><td>349 DKK</td></tr>
+            <tr data-cc="PL" data-flag="🇵🇱" data-name="Poland"><td><span class="flag">🇵🇱</span><span data-region="PL">Poland</span></td><td>24,99 zł</td><td>169,99 zł</td></tr>
+            <tr data-cc="CZ" data-flag="🇨🇿" data-name="Czechia"><td><span class="flag">🇨🇿</span><span data-region="CZ">Czechia</span></td><td>149 Kč</td><td>999 Kč</td></tr>
+            <tr data-cc="HU" data-flag="🇭🇺" data-name="Hungary"><td><span class="flag">🇭🇺</span><span data-region="HU">Hungary</span></td><td>2 490 Ft</td><td>16 990 Ft</td></tr>
+            <tr data-cc="RO" data-flag="🇷🇴" data-name="Romania"><td><span class="flag">🇷🇴</span><span data-region="RO">Romania</span></td><td>24,99 lei</td><td>169,99 lei</td></tr>
+            <tr data-cc="BG" data-flag="🇧🇬" data-name="Bulgaria"><td><span class="flag">🇧🇬</span><span data-region="BG">Bulgaria</span></td><td>11,99 лв</td><td>79,99 лв</td></tr>
+            <tr data-cc="TR" data-flag="🇹🇷" data-name="Turkey"><td><span class="flag">🇹🇷</span><span data-region="TR">Turkey</span></td><td>₺199,99</td><td>₺1.399,99</td></tr>
+            <tr data-cc="BR" data-flag="🇧🇷" data-name="Brazil"><td><span class="flag">🇧🇷</span><span data-region="BR">Brazil</span></td><td>R$19,90</td><td>R$129,90</td></tr>
+            <tr data-cc="MX" data-flag="🇲🇽" data-name="Mexico"><td><span class="flag">🇲🇽</span><span data-region="MX">Mexico</span></td><td>MX$99</td><td>MX$649</td></tr>
+            <tr data-cc="ZA" data-flag="🇿🇦" data-name="South Africa"><td><span class="flag">🇿🇦</span><span data-region="ZA">South Africa</span></td><td>R99.99</td><td>R699.99</td></tr>
+            <tr data-cc="IN" data-flag="🇮🇳" data-name="India"><td><span class="flag">🇮🇳</span><span data-region="IN">India</span></td><td>₹299</td><td>₹1,999</td></tr>
+            <tr data-cc="CN" data-flag="🇨🇳" data-name="China"><td><span class="flag">🇨🇳</span><span data-region="CN">China</span></td><td>¥29</td><td>¥199</td></tr>
+            <tr data-cc="JP" data-flag="🇯🇵" data-name="Japan"><td><span class="flag">🇯🇵</span><span data-region="JP">Japan</span></td><td>¥980</td><td>¥6,800</td></tr>
+            <tr data-cc="KR" data-flag="🇰🇷" data-name="South Korea"><td><span class="flag">🇰🇷</span><span data-region="KR">South Korea</span></td><td>₩8,900</td><td>₩59,000</td></tr>
+            <tr data-cc="ID" data-flag="🇮🇩" data-name="Indonesia"><td><span class="flag">🇮🇩</span><span data-region="ID">Indonesia</span></td><td>Rp49.000</td><td>Rp329.000</td></tr>
+            <tr data-cc="AE" data-flag="🇦🇪" data-name="United Arab Emirates"><td><span class="flag">🇦🇪</span><span data-region="AE">United Arab Emirates</span></td><td>AED 24.99</td><td>AED 169.99</td></tr>
+            <tr data-cc="SA" data-flag="🇸🇦" data-name="Saudi Arabia"><td><span class="flag">🇸🇦</span><span data-region="SA">Saudi Arabia</span></td><td>SAR 24.99</td><td>SAR 169.99</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="table-note"><strong>În curând pe App Store</strong> Fiecare țară are prețul ei, nu unul convertit, ca nimeni să nu plătească o factură britanicã deghizată. App Store îl arată pe al tău, cu taxe cu tot, înainte să accepți ceva. Nu ești pe listă? App Store tot are un preț pentru tine, în moneda ta.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="faq">
+  <div class="wrap">
+    <h2>Întrebări pe care curierii chiar le pun</h2>
+    <p class="section-intro">Răspunsuri drepte, de la cineva care face meseria.</p>
+    <div class="faq">
+      <details>
+        <summary>Consumă bateria?</summary>
+        <p>DropLane nu ține GPS-ul pornit toată ziua. Stă liniștită până simte că ai plecat din locul unde ai parcat, înregistrează cât mergi și adoarme la loc când oprești.</p>
+      </details>
+      <details>
+        <summary>Trebuie să apăs start?</summary>
+        <p>Nu — și nici nu există buton. Exact ăsta e rostul. Ce trebuie ținut minte se uită fix în ziua în care contează.</p>
+      </details>
+      <details>
+        <summary>Dacă uit să sortez o cursă?</summary>
+        <p>Nu se pierde nimic. Cursele nesortate așteaptă în ecranul Zile, iar aplicația îți amintește în loc să ghicească în locul tău.</p>
+      </details>
+      <details>
+        <summary>Ajunge istoricul meu undeva?</summary>
+        <p>Nu. Nu există cont și nu există server. Totul stă pe iPhone-ul tău și ajunge doar în propriul tău iCloud, dacă vrei.</p>
+      </details>
+      <details>
+        <summary>Merg cu bicicleta, nu cu duba.</summary>
+        <p>Merge la fel. Kilometrii pe bicicleta de marfă se înregistrează la fel și contează la fel.</p>
+      </details>
+      <details>
+        <summary>Este tariful țării mele acolo?</summary>
+        <p>Șaptesprezece țări au tariful oficial inclus și ținut la zi. Oriunde altundeva îți scrii tariful o dată, iar aplicația calculează.</p>
+      </details>
+      <details>
+        <summary>Pot să o folosesc în kilometri?</summary>
+        <p>Da. Kilometri sau mile, moneda ta și prețul la motorină pe care chiar îl plătești — toate în Setări, pe primul ecran.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="closer">
+      <h2>Nu mai ghici cât a ieșit ziua.</h2>
+      <p>Paisprezece zile gratis, fără cont și fără nimic de ținut minte la șase dimineața.</p>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Anunță-mă când apare</a>
+      <p class="closer-note">În curând pe App Store</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">DropLane — kilometri și încasări automate pentru curierii pe cont propriu. Făcută de un curier, în Torquay.</p>
+    <div class="foot-links">
+      <a href="/privacy/">Confidențialitate</a>
+      <a href="/terms/">Termeni</a>
+      <a href="/support/">Ajutor</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Închide">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

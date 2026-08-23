@@ -1,0 +1,241 @@
+{
+  "meta_title": "DropLane — cada kilómetro pagado",
+  "meta_description": "DropLane registra solo los trayectos de un repartidor, suma lo que ha dado el día frente a los gastos y lleva un registro de kilómetros que vale para Hacienda. Veinticuatro idiomas, todo en el móvil.",
+  "nav_label": "Menú principal",
+  "nav_how": "Cómo funciona",
+  "nav_features": "Qué hace",
+  "nav_screens": "Pantallas",
+  "nav_countries": "Dónde funciona",
+  "nav_languages": "Idiomas",
+  "nav_pricing": "Precio",
+  "nav_faq": "Preguntas",
+  "nav_support": "Soporte",
+  "cta_get": "Consigue DropLane",
+  "menu": "Menú",
+  "close": "Cerrar",
+  "theme_label": "Tema de color",
+  "theme_light": "Claro",
+  "theme_dark": "Oscuro",
+  "language_label": "Idioma",
+  "language_title": "Lee esta web en tu idioma",
+  "language_note": "La app habla veinticuatro idiomas — el resto llegará también aquí.",
+  "langbar_strong": "Veinticuatro idiomas.",
+  "langbar_rest": "Elige el tuyo — la app también lo habla.",
+  "per_month_short": "al mes",
+  "see_all": "ver todos",
+  "hero_h1": "Cada kilómetro pagado.",
+  "hero_lede": "Arranca la furgoneta. Ya está. DropLane registra el trayecto, dibuja la ruta que hiciste de verdad y cierra las cuentas del día antes de que cruces la puerta.",
+  "hero_cta_price": "Ver el precio",
+  "hero_cta_how": "Cómo funciona",
+  "hero_note": "14 días gratis · sin cuenta, sin anuncios · iPhone",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "botones que pulsar"
+    },
+    {
+      "value": "24",
+      "label": "idiomas"
+    },
+    {
+      "value": "17",
+      "label": "tarifas por kilómetro incluidas"
+    }
+  ],
+  "how_h2": "Tres pasos, y dos no son tuyos",
+  "how_intro": "En DropLane no hay botón de inicio, y es a propósito. A las seis de la mañana con la furgoneta llena nadie se acuerda de pulsarlo.",
+  "how_steps": [
+    {
+      "title": "Enciéndela una vez",
+      "body": "Instala la app y permite la ubicación en segundo plano. Ahí se acaba la configuración."
+    },
+    {
+      "title": "Conduce",
+      "body": "Cada trayecto se guarda solo, con la ruta, las paradas y cuánto estuviste en cada una."
+    },
+    {
+      "title": "Clasifica con un toque",
+      "body": "Trabajo, en vacío, de camino a una recogida o personal. Los totales y la parte fiscal salen solos."
+    }
+  ],
+  "how_proof": "Después los días se van apilando solos. Elige una semana, un mes o tus propias fechas, marca lo que entra, y el PDF para la gestoría está a un toque — hecho con trayectos que nunca tuviste que apuntar.",
+  "features_h2": "Lo que hace de verdad",
+  "features_intro": "Hecha por un repartidor con diez años de carretera, para el trabajo tal y como es.",
+  "features": [
+    {
+      "icon": "🛣️",
+      "title": "Kilómetros sin tocar el móvil",
+      "body": "Los trayectos se registran en segundo plano, desde que arrancas hasta que aparcas."
+    },
+    {
+      "icon": "💷",
+      "title": "Lo que ha dado el día de verdad",
+      "body": "Ingresos por un lado, combustible y gastos por otro, y abajo el número que importa — por día, semana y mes."
+    },
+    {
+      "icon": "🧾",
+      "title": "Un registro para Hacienda",
+      "body": "Un PDF con cada trayecto, su ruta y su fecha. Tarifas por kilómetro incluidas para diecisiete países."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Paradas y tiempo de espera",
+      "body": "Mira cuánto estuviste en cada entrega o en el almacén, sin apuntar nada."
+    },
+    {
+      "icon": "⛽",
+      "title": "Lo que paga una hora de verdad",
+      "body": "Combustible, letra y seguro repartidos entre los días que trabajas, para que la hora sea la real."
+    },
+    {
+      "icon": "🔒",
+      "title": "Nada sale de tu móvil",
+      "body": "Sin cuenta, sin rastreo, sin anuncios. Tu historial de rutas es tuyo y solo se copia a tu propio iCloud."
+    }
+  ],
+  "screens_h2": "Toda la app, de día y de noche",
+  "screens_intro": "Pantallas reales de un mes de trabajo real. Cambia el interruptor de arriba y aquí cambia cada imagen.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Hoy",
+      "body": "Con las ruedas aún girando."
+    },
+    {
+      "file": "day",
+      "title": "El día en el mapa",
+      "body": "Cada color es un trayecto."
+    },
+    {
+      "file": "trip",
+      "title": "Un trayecto",
+      "body": "Horas, paradas y qué tipo de kilómetros."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Clasificar un trayecto",
+      "body": "Trabajo, en vacío, a una recogida o personal."
+    },
+    {
+      "file": "days",
+      "title": "Días",
+      "body": "Cada día, ya sumado."
+    },
+    {
+      "file": "stats",
+      "title": "Estadísticas",
+      "body": "La semana, en números claros."
+    },
+    {
+      "file": "insights",
+      "title": "Análisis",
+      "body": "Lo que pagan de verdad una hora y un kilómetro."
+    },
+    {
+      "file": "insights-tax",
+      "title": "Impuestos",
+      "body": "Lo que valen los kilómetros del periodo."
+    },
+    {
+      "file": "report",
+      "title": "El PDF",
+      "body": "Montado como lo quiere tu gestoría."
+    },
+    {
+      "file": "expense",
+      "title": "Gastos",
+      "body": "Combustible, comida, parking, peajes."
+    },
+    {
+      "file": "vehicle",
+      "title": "Vehículo",
+      "body": "ITV, impuesto y seguro, antes de que venzan."
+    },
+    {
+      "file": "settings",
+      "title": "Ajustes",
+      "body": "Kilómetros o millas. Claro u oscuro."
+    }
+  ],
+  "countries_h2": "Donde DropLane conoce las reglas",
+  "countries_intro": "La app funciona en cualquier sitio. En estos países además sabe la tarifa por kilómetro que admite Hacienda y cómo se llaman los papeles de tu vehículo.",
+  "countries_note": "¿Estás en otro sitio? Escribe la tarifa que admita tu administración y DropLane hace el resto.",
+  "languages_h2": "Léela en tu idioma",
+  "languages_intro": "Toda la app — cada pantalla, cada aviso, los informes — no solo esta página. Y el dinero sigue en tu moneda, en el idioma que sea.",
+  "languages_caption_title": "Estadísticas",
+  "languages_caption_body": "Tu semana, en tu idioma y en tu dinero.",
+  "pricing_h2": "Un precio, todo incluido",
+  "pricing_intro": "Catorce días gratis. Sin tarjeta para empezar y sin nada guardado en un plan más caro.",
+  "pricing_monthly": "Mensual",
+  "pricing_yearly": "Anual",
+  "pricing_per_month": "al mes, cancela cuando quieras",
+  "pricing_per_year": "al año — la forma más barata",
+  "pricing_best": "Mejor precio",
+  "pricing_bullet_all": "Todas las funciones, sin extras",
+  "pricing_bullet_trial": "Primero 14 días gratis",
+  "pricing_bullet_saving": "Meses más barato que pagar al mes",
+  "pricing_table_title": "El precio donde estás",
+  "pricing_search": "Busca tu país",
+  "pricing_col_country": "País",
+  "pricing_col_month": "Mensual",
+  "pricing_col_year": "Anual",
+  "pricing_you": "Tú",
+  "pricing_note": "Cada país tiene su propio precio en lugar de uno convertido, para que nadie pague una factura británica disfrazada. La App Store te enseña el tuyo, impuestos incluidos, antes de que aceptes nada. ¿No sale en la lista? La App Store igualmente tiene un precio para ti en tu moneda.",
+  "faq_h2": "Preguntas que hacen los repartidores de verdad",
+  "faq_intro": "Respuestas directas, de alguien que hace el trabajo.",
+  "faq": [
+    {
+      "q": "¿Gasta mucha batería?",
+      "a": "DropLane no deja el GPS encendido todo el día. Espera tranquila hasta notar que te has ido de donde aparcaste, graba mientras conduces y se vuelve a dormir cuando paras."
+    },
+    {
+      "q": "¿Tengo que darle a empezar?",
+      "a": "No — y no hay ningún botón. De eso se trata. Lo que hay que acordarse de hacer se olvida justo el día que importa."
+    },
+    {
+      "q": "¿Y si se me olvida clasificar un trayecto?",
+      "a": "No se pierde nada. Los trayectos sin clasificar esperan en la pantalla Días, y la app te avisa en vez de adivinar por ti."
+    },
+    {
+      "q": "¿Mi historial acaba en algún sitio?",
+      "a": "No. No hay cuenta ni servidor. Todo vive en tu iPhone y solo se copia a tu propio iCloud si tú quieres."
+    },
+    {
+      "q": "Reparto en bici, no en furgoneta.",
+      "a": "Funciona igual. Los kilómetros en bici de carga se registran igual y cuentan lo mismo."
+    },
+    {
+      "q": "¿Está la tarifa de mi país?",
+      "a": "Diecisiete países llevan su tarifa oficial incluida y al día. En cualquier otro sitio escribes la tuya una vez y la app calcula."
+    },
+    {
+      "q": "¿Puedo usarla en kilómetros?",
+      "a": "Sí. Kilómetros o millas, tu moneda y el precio del combustible que pagas de verdad — todo en Ajustes, en la primera pantalla."
+    }
+  ],
+  "closer_h2": "Deja de adivinar lo que ha dado el día.",
+  "closer_body": "Catorce días gratis, sin cuenta, y nada que recordar a las seis de la mañana.",
+  "footer_note": "DropLane — kilómetros e ingresos automáticos para repartidores autónomos. Hecha por un repartidor, en Torquay.",
+  "footer_privacy": "Privacidad",
+  "footer_terms": "Condiciones",
+  "footer_support": "Soporte",
+  "alt_today": "La pantalla Hoy de DropLane: un trayecto grabándose en el mapa, con la distancia, las horas y los ingresos del día.",
+  "alt_days": "La lista Días: cada jornada con su beneficio, su distancia y su número de trayectos.",
+  "alt_report": "La ficha del informe: interruptores para trayectos, ingresos, gastos y fotos de tickets, y luego el PDF.",
+  "alt_stats": "La pantalla Estadísticas: neto, ingresado y gastos de la semana, con la distancia por tipo.",
+  "papers_h2": "El informe, vertical u horizontal",
+  "papers_intro": "Esto es el PDF de verdad, no una foto de los interruptores que lo montan. Elige el formato que le vaya bien a quien lo lee — vertical para archivar, horizontal cuando la tabla de trayectos necesita sitio — y se vuelve a montar al momento.",
+  "papers_portrait": "Vertical",
+  "papers_portrait_note": "Para archivar y para imprimir en casa.",
+  "papers_landscape": "Horizontal",
+  "papers_landscape_note": "Filas más anchas: cada trayecto, su ruta y sus horas uno al lado del otro.",
+  "papers_note": "El nombre de tu actividad, la dirección y el logo van en la cabecera. Marca lo que entra — día a día, cada trayecto, ingresos, gastos, fotos de tickets, un mapita junto a cada trayecto, el kilometraje del periodo — y DropLane rehace el documento sobre la marcha.",
+  "alt_report_portrait": "La primera página de un informe de DropLane en vertical: cabecera, totales del periodo, ingresos y gastos, y el kilometraje.",
+  "alt_report_landscape": "La primera página de un informe de DropLane en horizontal, con la tabla de trayectos más ancha.",
+  "papers_choose": "Qué entra",
+  "papers_zoom": "Ampliar",
+  "suggest_prompt": "Léelo en español",
+  "cta_soon": "Muy pronto",
+  "cta_coming": "Pronto en la App Store",
+  "cta_notify": "Avísame cuando salga"
+}

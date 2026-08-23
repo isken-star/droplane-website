@@ -1,0 +1,241 @@
+{
+  "meta_title": "DropLane — jeder Kilometer wird bezahlt",
+  "meta_description": "DropLane zeichnet die Fahrten von Kurierfahrern automatisch auf, rechnet die Einnahmen des Tages gegen die Kosten und führt ein Fahrtenbuch für die Steuer. Vierundzwanzig Sprachen, alles auf dem Handy.",
+  "nav_label": "Hauptmenü",
+  "nav_how": "So funktioniert's",
+  "nav_features": "Was sie kann",
+  "nav_screens": "Screenshots",
+  "nav_countries": "Wo sie funktioniert",
+  "nav_languages": "Sprachen",
+  "nav_pricing": "Preis",
+  "nav_faq": "Fragen",
+  "nav_support": "Hilfe",
+  "cta_get": "DropLane holen",
+  "menu": "Menü",
+  "close": "Schließen",
+  "theme_label": "Farbschema",
+  "theme_light": "Hell",
+  "theme_dark": "Dunkel",
+  "language_label": "Sprache",
+  "language_title": "Diese Seite in deiner Sprache",
+  "language_note": "Die App selbst spricht vierundzwanzig Sprachen — der Rest kommt hier nach.",
+  "langbar_strong": "Vierundzwanzig Sprachen.",
+  "langbar_rest": "Such dir deine aus — die App spricht sie auch.",
+  "per_month_short": "im Monat",
+  "see_all": "alle ansehen",
+  "hero_h1": "Jeder Kilometer wird bezahlt.",
+  "hero_lede": "Motor an. Das war's. DropLane zeichnet die Fahrt auf, zeichnet die Strecke, die du wirklich gefahren bist, und rechnet den Tag ab, bevor du zur Tür herein bist.",
+  "hero_cta_price": "Preis ansehen",
+  "hero_cta_how": "So funktioniert's",
+  "hero_note": "14 Tage gratis · kein Konto, keine Werbung · iPhone",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "Knöpfe zu drücken"
+    },
+    {
+      "value": "24",
+      "label": "Sprachen"
+    },
+    {
+      "value": "17",
+      "label": "Kilometersätze eingebaut"
+    }
+  ],
+  "how_h2": "Drei Schritte, zwei davon nicht deine",
+  "how_intro": "In DropLane gibt es mit Absicht keinen Startknopf. Um sechs Uhr früh mit einem vollen Wagen denkt niemand daran, einen zu drücken.",
+  "how_steps": [
+    {
+      "title": "Einmal einschalten",
+      "body": "App installieren und Standort im Hintergrund erlauben. Mehr Einrichtung gibt es nicht."
+    },
+    {
+      "title": "Fahren",
+      "body": "Jede Fahrt speichert sich selbst, mit Strecke, Stopps und wie lange du an jedem davon standest."
+    },
+    {
+      "title": "Mit einem Tipp sortieren",
+      "body": "Geschäftlich, Leerfahrt, auf dem Weg zur Abholung oder privat. Die Summen und der Steuerbetrag folgen von allein."
+    }
+  ],
+  "how_proof": "Dann stapeln sich die Tage von selbst. Eine Woche, einen Monat oder eigene Daten wählen, ankreuzen was hinein soll — und das PDF für den Steuerberater ist einen Tipp entfernt, gebaut aus Fahrten, die du nie eintragen musstest.",
+  "features_h2": "Was sie wirklich macht",
+  "features_intro": "Gebaut von einem Kurierfahrer mit zehn Jahren auf der Straße, für den Job wie er wirklich ist.",
+  "features": [
+    {
+      "icon": "🛣️",
+      "title": "Kilometer, ohne das Handy anzufassen",
+      "body": "Fahrten zeichnen sich im Hintergrund selbst auf, vom Losfahren bis zum Parken."
+    },
+    {
+      "icon": "💷",
+      "title": "Was der Tag wirklich gebracht hat",
+      "body": "Einnahmen rein, Sprit und Kosten raus, und unten die Zahl, auf die es ankommt — pro Tag, Woche, Monat."
+    },
+    {
+      "icon": "🧾",
+      "title": "Ein Nachweis fürs Finanzamt",
+      "body": "Ein PDF mit jeder Fahrt, ihrer Strecke und ihrem Datum. Kilometersätze für siebzehn Länder eingebaut."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Stopps und Wartezeit",
+      "body": "Sieh, wie lange du an jeder Abladestelle oder im Depot standest, ohne etwas aufzuschreiben."
+    },
+    {
+      "icon": "⛽",
+      "title": "Was eine Stunde wirklich bringt",
+      "body": "Sprit, Rate und Versicherung auf deine Arbeitstage verteilt, damit der Stundenwert der echte ist."
+    },
+    {
+      "icon": "🔒",
+      "title": "Nichts verlässt dein Handy",
+      "body": "Kein Konto, kein Tracking, keine Werbung. Deine Streckenhistorie gehört dir und wird nur in deine eigene iCloud gesichert."
+    }
+  ],
+  "screens_h2": "Die ganze App, hell und dunkel",
+  "screens_intro": "Echte Screens aus einem Monat echter Arbeit. Oben umschalten, und jedes Bild hier schaltet mit.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Heute",
+      "body": "Während die Räder noch rollen."
+    },
+    {
+      "file": "day",
+      "title": "Der Tag auf der Karte",
+      "body": "Jede Farbe ist eine Fahrt."
+    },
+    {
+      "file": "trip",
+      "title": "Eine Fahrt",
+      "body": "Zeiten, Stopps und welche Art Kilometer."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Fahrt sortieren",
+      "body": "Geschäftlich, leer, zur Abholung oder privat."
+    },
+    {
+      "file": "days",
+      "title": "Tage",
+      "body": "Jeder Tag, schon abgerechnet."
+    },
+    {
+      "file": "stats",
+      "title": "Statistik",
+      "body": "Die Woche, in klaren Zahlen."
+    },
+    {
+      "file": "insights",
+      "title": "Auswertung",
+      "body": "Was eine Stunde und ein Kilometer wirklich bringen."
+    },
+    {
+      "file": "insights-tax",
+      "title": "Steuer",
+      "body": "Was die Kilometer des Zeitraums wert sind."
+    },
+    {
+      "file": "report",
+      "title": "Das PDF",
+      "body": "So gebaut, wie der Steuerberater es will."
+    },
+    {
+      "file": "expense",
+      "title": "Kosten",
+      "body": "Sprit, Essen, Parken, Maut."
+    },
+    {
+      "file": "vehicle",
+      "title": "Fahrzeug",
+      "body": "TÜV, Steuer und Versicherung, bevor sie fällig werden."
+    },
+    {
+      "file": "settings",
+      "title": "Einstellungen",
+      "body": "Kilometer oder Meilen. Hell oder dunkel."
+    }
+  ],
+  "countries_h2": "Wo DropLane die Regeln kennt",
+  "countries_intro": "Die App funktioniert überall. In diesen Ländern kennt sie zusätzlich den Kilometersatz, den das Finanzamt zulässt, und wie die Fahrzeugpapiere bei euch heißen.",
+  "countries_note": "Woanders unterwegs? Trag den Satz ein, den dein Finanzamt zulässt — den Rest macht DropLane.",
+  "languages_h2": "Lies sie in deiner Sprache",
+  "languages_intro": "Die ganze App — jeder Screen, jede Mitteilung, die Berichte — nicht nur diese Seite. Und das Geld bleibt in deiner Währung, egal in welcher Sprache du liest.",
+  "languages_caption_title": "Statistik",
+  "languages_caption_body": "Deine Woche, in deiner Sprache und deinem Geld.",
+  "pricing_h2": "Ein Preis, alles drin",
+  "pricing_intro": "Vierzehn Tage gratis. Keine Karte zum Start, und nichts hinter einer teureren Stufe versteckt.",
+  "pricing_monthly": "Monatlich",
+  "pricing_yearly": "Jährlich",
+  "pricing_per_month": "im Monat, jederzeit kündbar",
+  "pricing_per_year": "im Jahr — der günstigste Weg",
+  "pricing_best": "Bester Preis",
+  "pricing_bullet_all": "Alle Funktionen, keine Zusatzkäufe",
+  "pricing_bullet_trial": "Erst 14 Tage gratis",
+  "pricing_bullet_saving": "Monate günstiger als monatlich zahlen",
+  "pricing_table_title": "Der Preis bei dir",
+  "pricing_search": "Land suchen",
+  "pricing_col_country": "Land",
+  "pricing_col_month": "Monatlich",
+  "pricing_col_year": "Jährlich",
+  "pricing_you": "Du",
+  "pricing_note": "Jedes Land hat seinen eigenen Preis statt eines umgerechneten, damit niemand eine britische Rechnung in Verkleidung zahlt. Der App Store zeigt deinen inklusive Steuer, bevor du irgendetwas zusagst. Nicht in der Liste? Der App Store hat trotzdem einen Preis für dich in deiner Währung.",
+  "faq_h2": "Fragen, die Fahrer wirklich stellen",
+  "faq_intro": "Klare Antworten, von jemandem der den Job macht.",
+  "faq": [
+    {
+      "q": "Zieht sie den Akku leer?",
+      "a": "DropLane lässt das GPS nicht den ganzen Tag laufen. Sie wartet still, bis sie merkt, dass du vom Parkplatz weg bist, zeichnet auf während du fährst, und schläft wieder ein, wenn du stehst."
+    },
+    {
+      "q": "Muss ich auf Start drücken?",
+      "a": "Nein — und es gibt keinen Knopf dafür. Genau darum geht es. Was du dir merken musst, vergisst du an dem Tag, an dem es zählt."
+    },
+    {
+      "q": "Was, wenn ich eine Fahrt nicht sortiere?",
+      "a": "Nichts geht verloren. Unsortierte Fahrten warten im Tage-Screen, und die App stupst dich an, statt für dich zu raten."
+    },
+    {
+      "q": "Landet meine Streckenhistorie irgendwo?",
+      "a": "Nein. Es gibt kein Konto und keinen Server. Alles bleibt auf deinem iPhone und wird nur in deine eigene iCloud gesichert, wenn du das willst."
+    },
+    {
+      "q": "Ich fahre Rad, keinen Transporter.",
+      "a": "Das geht. Kilometer mit dem Lastenrad werden genauso aufgezeichnet und zählen genauso."
+    },
+    {
+      "q": "Ist der Satz meines Landes dabei?",
+      "a": "Siebzehn Länder haben ihren offiziellen Satz eingebaut und aktuell gehalten. Überall sonst trägst du deinen Satz einmal ein, und die App rechnet."
+    },
+    {
+      "q": "Kann ich in Kilometern arbeiten?",
+      "a": "Ja. Kilometer oder Meilen, deine Währung und der Spritpreis, den du wirklich zahlst — alles in den Einstellungen, gleich auf dem ersten Screen."
+    }
+  ],
+  "closer_h2": "Hör auf zu raten, was der Tag gebracht hat.",
+  "closer_body": "Vierzehn Tage gratis, kein Konto, und nichts, woran du um sechs Uhr früh denken musst.",
+  "footer_note": "DropLane — Kilometer und Einnahmen für selbstständige Kurierfahrer, automatisch. Gebaut von einem Kurierfahrer, in Torquay.",
+  "footer_privacy": "Datenschutz",
+  "footer_terms": "Nutzungsbedingungen",
+  "footer_support": "Hilfe",
+  "alt_today": "Der Heute-Screen von DropLane: eine Fahrt wird auf der Karte aufgezeichnet, mit Strecke, Stunden und Einnahmen des Tages.",
+  "alt_days": "Die Tage-Liste: jeder Arbeitstag mit Gewinn, Strecke und Anzahl der Fahrten.",
+  "alt_report": "Die Berichtskarte: Schalter für Fahrten, Einnahmen, Ausgaben und Belegfotos, dann das PDF.",
+  "alt_stats": "Der Statistik-Screen: netto, eingenommen und Kosten der Woche, mit Strecke nach Art.",
+  "papers_h2": "Der Bericht, hoch oder quer",
+  "papers_intro": "Das ist das PDF selbst, kein Bild der Schalter, die es bauen. Nimm das Format, das dem passt, der es liest — hoch fürs Ablegen, quer wenn die Fahrtentabelle Platz braucht — und es wird sofort neu gebaut.",
+  "papers_portrait": "Hochformat",
+  "papers_portrait_note": "Zum Ablegen und zum Ausdrucken zu Hause.",
+  "papers_landscape": "Querformat",
+  "papers_landscape_note": "Breitere Zeilen: jede Fahrt, ihre Strecke und ihre Zeiten nebeneinander.",
+  "papers_note": "Firmenname, Adresse und Logo stehen im Kopf. Kreuz an, was hinein soll — Tag für Tag, jede Fahrt, Einnahmen, Ausgaben, Belegfotos, eine kleine Karte neben jeder Fahrt, die Kilometerpauschale für den Zeitraum — und DropLane baut das Dokument dabei neu.",
+  "alt_report_portrait": "Die erste Seite eines DropLane-Berichts im Hochformat: Kopf, Summen des Zeitraums, Einnahmen und Ausgaben sowie die Kilometerpauschale.",
+  "alt_report_landscape": "Die erste Seite eines DropLane-Berichts im Querformat, mit der breiteren Fahrtentabelle.",
+  "papers_choose": "Was hinein soll",
+  "papers_zoom": "Vergrößern",
+  "suggest_prompt": "Auf Deutsch lesen",
+  "cta_soon": "Bald da",
+  "cta_coming": "Kommt in den App Store",
+  "cta_notify": "Schreib mir, wenn sie da ist"
+}
