@@ -11,7 +11,7 @@
     { "code": "nl", "dir": "nl", "name": "Nederlands", "flag": "🇳🇱", "locale": "nl-NL", "og_locale": "nl_NL", "market": "NL", "market_name": "Netherlands",    "price_month": "€6.99",   "price_year": "€49.99" },
     { "code": "pl", "dir": "pl", "name": "Polski",     "flag": "🇵🇱", "locale": "pl-PL", "og_locale": "pl_PL", "market": "PL", "market_name": "Poland",         "price_month": "24,99 zł","price_year": "169,99 zł" },
     { "code": "ro", "dir": "ro", "name": "Română",     "flag": "🇷🇴", "locale": "ro-RO", "og_locale": "ro_RO", "market": "RO", "market_name": "Romania",        "price_month": "24,99 lei","price_year": "169,99 lei" },
-    { "code": "bg", "dir": "bg", "name": "Български",  "flag": "🇧🇬", "locale": "bg-BG", "og_locale": "bg_BG", "market": "BG", "market_name": "Bulgaria",       "price_month": "11,99 лв", "price_year": "79,99 лв" }
+    { "code": "bg", "dir": "bg", "name": "Български",  "flag": "🇧🇬", "locale": "bg-BG", "og_locale": "bg_BG", "market": "BG", "market_name": "Bulgaria",       "price_month": "€4.99",   "price_year": "€34.99" }
   ],
 
   "screens": ["today", "day", "trip", "days", "stats", "insights", "report", "expense", "vehicle", "settings"],
@@ -69,7 +69,7 @@
     { "cc": "CZ", "flag": "🇨🇿", "name": "Czechia",              "month": "149 Kč",    "year": "999 Kč" },
     { "cc": "HU", "flag": "🇭🇺", "name": "Hungary",              "month": "2 490 Ft",  "year": "16 990 Ft" },
     { "cc": "RO", "flag": "🇷🇴", "name": "Romania",              "month": "24,99 lei", "year": "169,99 lei" },
-    { "cc": "BG", "flag": "🇧🇬", "name": "Bulgaria",             "month": "11,99 лв",  "year": "79,99 лв" },
+    { "cc": "BG", "flag": "🇧🇬", "name": "Bulgaria",             "month": "€4.99",     "year": "€34.99" },
     { "cc": "TR", "flag": "🇹🇷", "name": "Turkey",               "month": "₺199,99",   "year": "₺1.399,99" },
     { "cc": "BR", "flag": "🇧🇷", "name": "Brazil",               "month": "R$19,90",   "year": "R$129,90" },
     { "cc": "MX", "flag": "🇲🇽", "name": "Mexico",               "month": "MX$99",     "year": "MX$649" },
