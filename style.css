@@ -393,50 +393,43 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 /* the floating cards would only crowd the phone on a small screen */
 @media (max-width: 620px)  { .float { display: none !important; } }
 
-/* ---------------- half the story, and the other half --------------------
+/* ---------------- two days off the same phone ---------------------------
 
-   Two lists of the same day. The left one is what a mileage app can tell
-   you, deliberately drawn as the lesser of the two; the right one ends on
-   the figure that answers the question.                                  */
+   Same number of drives, near enough the same distance, and a gap in the
+   money a mileage app has no way of seeing. Both cards are drawn alike on
+   purpose: the reveal is the last line, not the styling.                 */
 
-.versus {
-  display: grid; grid-template-columns: 1fr 1.15fr;
-  gap: clamp(14px, 2vw, 22px); align-items: stretch;
-}
-@media (max-width: 780px) { .versus { grid-template-columns: 1fr; } }
+.twodays { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(14px, 2vw, 22px); }
+@media (max-width: 700px) { .twodays { grid-template-columns: 1fr; } }
 
-.versus-side {
-  border-radius: var(--radius); padding: clamp(20px, 2.6vw, 30px);
-  border: 1px solid var(--line); background: var(--card);
+.twoday {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: clamp(20px, 2.6vw, 28px);
 }
-.versus-side h3 {
-  margin: 0 0 16px; font-size: 13px; font-weight: 700;
-  letter-spacing: .08em; text-transform: uppercase; color: var(--text-3);
+.twoday-when {
+  margin: 0 0 18px; font-size: 13px; font-weight: 700;
+  letter-spacing: .07em; text-transform: uppercase; color: var(--text-3);
 }
-.versus-side ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 11px; }
-.versus-side li {
-  display: flex; gap: 11px; align-items: baseline;
-  font-size: 17.5px; font-weight: 600; color: var(--text);
+.twoday dl { margin: 0; display: grid; gap: 10px; }
+.twoday dl > div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.twoday dt { font-size: 15.5px; color: var(--text-2); }
+.twoday dd { margin: 0; font-size: 17px; font-weight: 700; color: var(--text); }
+.twoday-money {
+  margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
 }
-.versus-side li::before {
-  content: ""; flex: 0 0 auto; width: 7px; height: 7px; border-radius: 50%;
-  background: var(--line-2); transform: translateY(-2px);
-}
-
-.versus-half { background: var(--card-2); }
-.versus-half li { color: var(--text-2); }
-.versus-half .versus-stop { color: var(--text-3); font-weight: 500; font-style: italic; }
-
-.versus-whole { border-color: var(--brand); box-shadow: var(--shadow); }
-.versus-whole li::before { background: var(--brand); }
-.versus-whole .versus-answer {
-  margin-top: 5px; padding-top: 14px; border-top: 1px solid var(--line);
-  font-size: clamp(26px, 3.4vw, 34px); font-weight: 800;
+.twoday-money span { font-size: 15.5px; color: var(--text-2); }
+.twoday-money b {
+  font-size: clamp(28px, 3.6vw, 36px); font-weight: 800;
   letter-spacing: -.03em; color: var(--money);
 }
-.versus-whole .versus-answer::before { display: none; }
 
-.versus-note { margin: 20px 0 0; font-size: 16px; color: var(--text-2); max-width: 60ch; }
+.twodays-punch {
+  margin: clamp(18px, 2.4vw, 26px) 0 0;
+  font-size: clamp(21px, 2.8vw, 27px); font-weight: 800;
+  letter-spacing: -.02em; color: var(--text);
+}
+.versus-note { margin: 12px 0 0; font-size: 16.5px; color: var(--text-2); max-width: 62ch; }
 
 /* ---------------- the day, on film ---------------------------------------
 
@@ -489,7 +482,8 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 .sum-op { font-size: clamp(20px, 2.6vw, 26px); color: var(--text-3); padding-bottom: 3px; }
 
 .rates {
-  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  /* Two tiles where the market has an hourly figure, and the row still fills. */
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 12px; margin: 22px 0 0; padding: 0; list-style: none;
 }
 @media (max-width: 620px) { .rates { grid-template-columns: 1fr; } }

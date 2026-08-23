@@ -148,26 +148,26 @@
     <h2>{{money_h2}}</h2>
     <p class="section-intro">{{money_intro}}</p>
 
-    <div class="versus">
-      <div class="versus-side versus-half">
-        <h3>{{money_a_title}}</h3>
-        <ul>
-          <li>{{money_a_1}}</li>
-          <li>{{money_a_2}}</li>
-          <li class="versus-stop">{{money_a_3}}</li>
-        </ul>
+    <div class="twodays">
+      <div class="twoday">
+        <p class="twoday-when">{{money_day1_when}}</p>
+        <dl>
+          <div><dt>{{money_label_distance}}</dt><dd>{{money_day1_distance}}</dd></div>
+          <div><dt>{{money_label_trips}}</dt><dd>{{money_day1_trips}}</dd></div>
+        </dl>
+        <p class="twoday-money"><span>{{money_label_money}}</span><b>{{money_day1_money}}</b></p>
       </div>
-      <div class="versus-side versus-whole">
-        <h3>{{money_b_title}}</h3>
-        <ul>
-          <li>{{money_b_1}}</li>
-          <li>{{money_b_2}}</li>
-          <li>{{money_b_3}}</li>
-          <li class="versus-answer">{{money_b_4}}</li>
-        </ul>
+      <div class="twoday">
+        <p class="twoday-when">{{money_day2_when}}</p>
+        <dl>
+          <div><dt>{{money_label_distance}}</dt><dd>{{money_day2_distance}}</dd></div>
+          <div><dt>{{money_label_trips}}</dt><dd>{{money_day2_trips}}</dd></div>
+        </dl>
+        <p class="twoday-money"><span>{{money_label_money}}</span><b>{{money_day2_money}}</b></p>
       </div>
     </div>
 
+    <p class="twodays-punch">{{money_punch}}</p>
     <p class="versus-note">{{money_note}}</p>
   </div>
 </section>
@@ -178,56 +178,18 @@
     <p class="section-intro">{{day_intro}}</p>
 
     <div class="theatre">
-      <div class="films">
-        <figure class="film">
-          <div class="device"><div class="device-screen">
-            <video class="only-dark" data-film src="/assets/film/today-dark.mp4" poster="/assets/film/today-dark.webp"
-                   width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="{{day_film1_title}} — {{day_film1_body}}"></video>
-            <video class="only-light" data-film src="/assets/film/today-light.mp4" poster="/assets/film/today-light.webp"
-                   width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="{{day_film1_title}} — {{day_film1_body}}"></video>
-          </div></div>
-          <figcaption><b>{{day_film1_title}}</b>{{day_film1_body}}</figcaption>
-        </figure>
-        <figure class="film">
-          <div class="device"><div class="device-screen">
-            <video class="only-dark" data-film src="/assets/film/report-dark.mp4" poster="/assets/film/report-dark.webp"
-                   width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="{{day_film2_title}} — {{day_film2_body}}"></video>
-            <video class="only-light" data-film src="/assets/film/report-light.mp4" poster="/assets/film/report-light.webp"
-                   width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="{{day_film2_title}} — {{day_film2_body}}"></video>
-          </div></div>
-          <figcaption><b>{{day_film2_title}}</b>{{day_film2_body}}</figcaption>
-        </figure>
-        <figure class="film">
-          <div class="device"><div class="device-screen">
-            <video class="only-dark" data-film src="/assets/film/rate-dark.mp4" poster="/assets/film/rate-dark.webp"
-                   width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="{{day_film3_title}} — {{day_film3_body}}"></video>
-            <video class="only-light" data-film src="/assets/film/rate-light.mp4" poster="/assets/film/rate-light.webp"
-                   width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="{{day_film3_title}} — {{day_film3_body}}"></video>
-          </div></div>
-          <figcaption><b>{{day_film3_title}}</b>{{day_film3_body}}</figcaption>
-        </figure>
-      </div>
+{{day_films}}
 
       <div class="tally">
         <p class="tally-lead">{{day_tally_lead}}</p>
         <div class="sum">
-          <div class="sum-item"><span>{{day_label_earned}}</span><b>&pound;179.01</b></div>
+          <div class="sum-item"><span>{{day_label_earned}}</span><b>{{day_earned}}</b></div>
           <span class="sum-op" aria-hidden="true">&minus;</span>
-          <div class="sum-item"><span>{{day_label_costs}}</span><b class="is-cost">&pound;45.49</b></div>
+          <div class="sum-item"><span>{{day_label_costs}}</span><b class="is-cost">{{day_costs}}</b></div>
           <span class="sum-op" aria-hidden="true">=</span>
-          <div class="sum-item"><span>{{day_label_kept}}</span><b class="is-keep">&pound;133.52</b></div>
+          <div class="sum-item"><span>{{day_label_kept}}</span><b class="is-keep">{{day_kept}}</b></div>
         </div>
-        <ul class="rates">
-          <li class="rate-big"><b>&pound;15.32</b><span>{{day_label_hour}}</span></li>
-          <li><b>&pound;0.71</b><span>{{day_label_mile}}</span></li>
-          <li><b>&pound;103.96</b><span>{{day_label_tax}}</span></li>
-        </ul>
+{{day_rates}}
         <p class="tally-note">{{day_note}}</p>
       </div>
     </div>
