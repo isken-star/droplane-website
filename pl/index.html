@@ -172,38 +172,47 @@
 <section id="day">
   <div class="wrap">
     <h2>Ile ten dzień naprawdę dał?</h2>
-    <p class="section-intro">Nie to, co wystawiłeś na fakturze — to, co zostało po paliwie, parkingu i kawie. To jedna popołudniowa trasa, nagrana telefonem w prawdziwym busie: wchodzi koszt, przejazd zapisuje się sam, a na dole stawka za godzinę.</p>
+    <p class="section-intro">179,01 £ brzmi jak dobry dzień. Osiem godzin czterdzieści trzy minuty, 312 mil i 45,49 £ kosztów później wyszło 15,32 £ za godzinę. To liczba, której na trasie nie ma nikt — i ta, którą DropLane podaje ci, zanim wejdziesz do domu.</p>
 
     <div class="theatre">
       <div class="films">
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/cost.mp4" poster="/assets/film/cost.webp"
+            <video class="only-dark" data-film src="/assets/film/today-dark.mp4" poster="/assets/film/today-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Wchodzi koszt — 2,50 £ za parking, w pięć sekund. Dzienna suma zmienia się, gdy tylko dotkniesz Zapisz."></video>
+                   aria-label="Dzień policzył się sam — Trzy przejazdy, 312 mil, 133,52 £ — i jeden wciąż do posortowania. Nic nie było wpisywane."></video>
+            <video class="only-light" data-film src="/assets/film/today-light.mp4" poster="/assets/film/today-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Dzień policzył się sam — Trzy przejazdy, 312 mil, 133,52 £ — i jeden wciąż do posortowania. Nic nie było wpisywane."></video>
           </div></div>
-          <figcaption><b>Wchodzi koszt</b>2,50 £ za parking, w pięć sekund. Dzienna suma zmienia się, gdy tylko dotkniesz Zapisz.</figcaption>
+          <figcaption><b>Dzień policzył się sam</b>Trzy przejazdy, 312 mil, 133,52 £ — i jeden wciąż do posortowania. Nic nie było wpisywane.</figcaption>
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/drive.mp4" poster="/assets/film/drive.webp"
+            <video class="only-dark" data-film src="/assets/film/report-dark.mp4" poster="/assets/film/report-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Przejazd zapisał się sam — Torquay – Plymouth, trasa naprawdę przejechana, każdy postój zmierzony. Nikt nie włączał startu."></video>
+                   aria-label="Raport składa się sam — Zaznacz, co ma wejść, wybierz pion albo poziom, i PDF dla księgowej jest gotowy do wysłania."></video>
+            <video class="only-light" data-film src="/assets/film/report-light.mp4" poster="/assets/film/report-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Raport składa się sam — Zaznacz, co ma wejść, wybierz pion albo poziom, i PDF dla księgowej jest gotowy do wysłania."></video>
           </div></div>
-          <figcaption><b>Przejazd zapisał się sam</b>Torquay – Plymouth, trasa naprawdę przejechana, każdy postój zmierzony. Nikt nie włączał startu.</figcaption>
+          <figcaption><b>Raport składa się sam</b>Zaznacz, co ma wejść, wybierz pion albo poziom, i PDF dla księgowej jest gotowy do wysłania.</figcaption>
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/rate.mp4" poster="/assets/film/rate.webp"
+            <video class="only-dark" data-film src="/assets/film/rate-dark.mp4" poster="/assets/film/rate-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="I jest stawka — Dzień, tydzień, a potem ile dała godzina — po kosztach, nie przed."></video>
+                   aria-label="I ile naprawdę dała godzina — 15,32 £ za godzinę po kosztach, 71 pensów za milę i 103,96 £ ryczałtu do odliczenia."></video>
+            <video class="only-light" data-film src="/assets/film/rate-light.mp4" poster="/assets/film/rate-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="I ile naprawdę dała godzina — 15,32 £ za godzinę po kosztach, 71 pensów za milę i 103,96 £ ryczałtu do odliczenia."></video>
           </div></div>
-          <figcaption><b>I jest stawka</b>Dzień, tydzień, a potem ile dała godzina — po kosztach, nie przed.</figcaption>
+          <figcaption><b>I ile naprawdę dała godzina</b>15,32 £ za godzinę po kosztach, 71 pensów za milę i 103,96 £ ryczałtu do odliczenia.</figcaption>
         </figure>
       </div>
 
       <div class="tally">
-        <p class="tally-lead">Popołudnie z filmu powyżej</p>
+        <p class="tally-lead">Jeden dzień — 312 mil, trzy przejazdy, 8 h 43 min</p>
         <div class="sum">
           <div class="sum-item"><span>Zarobione</span><b>&pound;179.01</b></div>
           <span class="sum-op" aria-hidden="true">&minus;</span>
@@ -212,11 +221,11 @@
           <div class="sum-item"><span>Zostaje</span><b class="is-keep">&pound;133.52</b></div>
         </div>
         <ul class="rates">
-          <li class="rate-big"><b>&pound;101.18</b><span>na godzinę</span></li>
-          <li><b>&pound;3.73</b><span>za milę</span></li>
-          <li><b>&pound;19.71</b><span>podatku z powrotem</span></li>
+          <li class="rate-big"><b>&pound;15.32</b><span>na godzinę</span></li>
+          <li><b>&pound;0.71</b><span>za milę</span></li>
+          <li><b>&pound;103.96</b><span>do odliczenia</span></li>
         </ul>
-        <p class="tally-note">To liczby z tamtego popołudnia, nie obietnica: DropLane ci nie płaci, tylko ci mówi. Twoje będą twoje — i będziesz je mieć, zanim wejdziesz do domu.</p>
+        <p class="tally-note">Liczby z jednego dnia, prosto z aplikacji na filmach powyżej. Twoje będą inne — chodzi o to, żeby mieć je tego samego dnia, w busie, a nie dowiadywać się w kwietniu.</p>
       </div>
     </div>
   </div>

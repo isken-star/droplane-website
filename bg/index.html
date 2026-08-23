@@ -172,38 +172,47 @@
 <section id="day">
   <div class="wrap">
     <h2>Колко всъщност донесе денят?</h2>
-    <p class="section-intro">Не какво си фактурирал, а какво е останало след горивото, паркинга и кафето. Това е един следобеден курс, заснет с телефон в истински бус: влиза разход, пътуването се записва само, а най-долу — колко е излязъл часът.</p>
+    <p class="section-intro">179,01 £ звучи като добър ден. Осем часа и четиридесет и три минути, 312 мили и 45,49 £ разходи по-късно излиза 15,32 £ на час. Това е числото, което никой на пътя няма — и това, което DropLane ти подава, преди да си влязъл вкъщи.</p>
 
     <div class="theatre">
       <div class="films">
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/cost.mp4" poster="/assets/film/cost.webp"
+            <video class="only-dark" data-film src="/assets/film/today-dark.mp4" poster="/assets/film/today-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Влиза разход — 2,50 £ за паркинг, за пет секунди. Сумата за деня се променя в мига, в който натиснеш Запази."></video>
+                   aria-label="Денят се събра сам — Три пътувания, 312 мили, 133,52 £ — и едно още за сортиране. Нищо не е въвеждано на ръка."></video>
+            <video class="only-light" data-film src="/assets/film/today-light.mp4" poster="/assets/film/today-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Денят се събра сам — Три пътувания, 312 мили, 133,52 £ — и едно още за сортиране. Нищо не е въвеждано на ръка."></video>
           </div></div>
-          <figcaption><b>Влиза разход</b>2,50 £ за паркинг, за пет секунди. Сумата за деня се променя в мига, в който натиснеш Запази.</figcaption>
+          <figcaption><b>Денят се събра сам</b>Три пътувания, 312 мили, 133,52 £ — и едно още за сортиране. Нищо не е въвеждано на ръка.</figcaption>
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/drive.mp4" poster="/assets/film/drive.webp"
+            <video class="only-dark" data-film src="/assets/film/report-dark.mp4" poster="/assets/film/report-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Пътуването се записа само — Торки до Плимут, маршрутът, по който наистина мина, всяко спиране премерено. Никой не е натискал старт."></video>
+                   aria-label="Отчетът се сглобява сам — Отмяташ какво влиза, избираш портрет или пейзаж, и PDF-ът за счетоводителя е готов за изпращане."></video>
+            <video class="only-light" data-film src="/assets/film/report-light.mp4" poster="/assets/film/report-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Отчетът се сглобява сам — Отмяташ какво влиза, избираш портрет или пейзаж, и PDF-ът за счетоводителя е готов за изпращане."></video>
           </div></div>
-          <figcaption><b>Пътуването се записа само</b>Торки до Плимут, маршрутът, по който наистина мина, всяко спиране премерено. Никой не е натискал старт.</figcaption>
+          <figcaption><b>Отчетът се сглобява сам</b>Отмяташ какво влиза, избираш портрет или пейзаж, и PDF-ът за счетоводителя е готов за изпращане.</figcaption>
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/rate.mp4" poster="/assets/film/rate.webp"
+            <video class="only-dark" data-film src="/assets/film/rate-dark.mp4" poster="/assets/film/rate-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="И ето я ставката — Денят, седмицата, а после колко е донесъл един час — след разходите, не преди тях."></video>
+                   aria-label="И колко наистина донесе часът — 15,32 £ на час след разходите, 71 пенса на миля и 103,96 £ признати за пробега."></video>
+            <video class="only-light" data-film src="/assets/film/rate-light.mp4" poster="/assets/film/rate-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="И колко наистина донесе часът — 15,32 £ на час след разходите, 71 пенса на миля и 103,96 £ признати за пробега."></video>
           </div></div>
-          <figcaption><b>И ето я ставката</b>Денят, седмицата, а после колко е донесъл един час — след разходите, не преди тях.</figcaption>
+          <figcaption><b>И колко наистина донесе часът</b>15,32 £ на час след разходите, 71 пенса на миля и 103,96 £ признати за пробега.</figcaption>
         </figure>
       </div>
 
       <div class="tally">
-        <p class="tally-lead">Следобедът от филма горе</p>
+        <p class="tally-lead">Един ден — 312 мили, три пътувания, 8 ч 43 мин</p>
         <div class="sum">
           <div class="sum-item"><span>Изкарано</span><b>&pound;179.01</b></div>
           <span class="sum-op" aria-hidden="true">&minus;</span>
@@ -212,11 +221,11 @@
           <div class="sum-item"><span>Остава</span><b class="is-keep">&pound;133.52</b></div>
         </div>
         <ul class="rates">
-          <li class="rate-big"><b>&pound;101.18</b><span>на час</span></li>
-          <li><b>&pound;3.73</b><span>на миля</span></li>
-          <li><b>&pound;19.71</b><span>върнат данък</span></li>
+          <li class="rate-big"><b>&pound;15.32</b><span>на час</span></li>
+          <li><b>&pound;0.71</b><span>на миля</span></li>
+          <li><b>&pound;103.96</b><span>признати</span></li>
         </ul>
-        <p class="tally-note">Това са числата от онзи следобед, не обещание: DropLane не ти плаща, а ти казва. Твоите ще си са твои — и ще ги имаш, преди да си влязъл вкъщи.</p>
+        <p class="tally-note">Числата от един ден, направо от приложението във филмите горе. Твоите ще са други — важното е да ги имаш същия ден, в буса, а не да разбереш през април.</p>
       </div>
     </div>
   </div>

@@ -172,38 +172,47 @@
 <section id="day">
   <div class="wrap">
     <h2>La journée, elle a rapporté combien ?</h2>
-    <p class="section-intro">Pas ce que vous avez facturé — ce qu&#x27;il reste après le carburant, le parking et le café. Voici une tournée d&#x27;un après-midi, filmée au téléphone dans un vrai fourgon : une dépense qui rentre, un trajet qui s&#x27;enregistre tout seul, et en bas le tarif horaire.</p>
+    <p class="section-intro">179,01 £, ça ressemble à une bonne journée. Huit heures quarante-trois, 312 miles et 45,49 £ de frais plus tard, ça faisait 15,32 £ de l&#x27;heure. C&#x27;est le chiffre que personne n&#x27;a sur la route, et celui que DropLane vous donne avant que vous ayez passé la porte.</p>
 
     <div class="theatre">
       <div class="films">
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/cost.mp4" poster="/assets/film/cost.webp"
+            <video class="only-dark" data-film src="/assets/film/today-dark.mp4" poster="/assets/film/today-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Une dépense entre — 2,50 £ de parking, en cinq secondes. Le total du jour bouge dès que vous touchez Enregistrer."></video>
+                   aria-label="La journée s&#x27;est additionnée toute seule — Trois trajets, 312 miles, 133,52 £ — et un encore à classer. Rien n&#x27;a été saisi."></video>
+            <video class="only-light" data-film src="/assets/film/today-light.mp4" poster="/assets/film/today-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="La journée s&#x27;est additionnée toute seule — Trois trajets, 312 miles, 133,52 £ — et un encore à classer. Rien n&#x27;a été saisi."></video>
           </div></div>
-          <figcaption><b>Une dépense entre</b>2,50 £ de parking, en cinq secondes. Le total du jour bouge dès que vous touchez Enregistrer.</figcaption>
+          <figcaption><b>La journée s&#x27;est additionnée toute seule</b>Trois trajets, 312 miles, 133,52 £ — et un encore à classer. Rien n&#x27;a été saisi.</figcaption>
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/drive.mp4" poster="/assets/film/drive.webp"
+            <video class="only-dark" data-film src="/assets/film/report-dark.mp4" poster="/assets/film/report-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Le trajet s&#x27;est enregistré seul — Torquay – Plymouth, l&#x27;itinéraire réellement pris, chaque arrêt chronométré. Personne n&#x27;a appuyé sur départ."></video>
+                   aria-label="Le rapport se fabrique tout seul — Cochez ce qui y entre, portrait ou paysage, et le PDF pour le comptable est prêt à partir."></video>
+            <video class="only-light" data-film src="/assets/film/report-light.mp4" poster="/assets/film/report-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Le rapport se fabrique tout seul — Cochez ce qui y entre, portrait ou paysage, et le PDF pour le comptable est prêt à partir."></video>
           </div></div>
-          <figcaption><b>Le trajet s&#x27;est enregistré seul</b>Torquay – Plymouth, l&#x27;itinéraire réellement pris, chaque arrêt chronométré. Personne n&#x27;a appuyé sur départ.</figcaption>
+          <figcaption><b>Le rapport se fabrique tout seul</b>Cochez ce qui y entre, portrait ou paysage, et le PDF pour le comptable est prêt à partir.</figcaption>
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/rate.mp4" poster="/assets/film/rate.webp"
+            <video class="only-dark" data-film src="/assets/film/rate-dark.mp4" poster="/assets/film/rate-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Et voilà le tarif — La journée, la semaine, puis ce qu&#x27;une heure a rapporté — après les frais, pas avant."></video>
+                   aria-label="Et ce que l&#x27;heure a vraiment rapporté — 15,32 £ de l&#x27;heure après frais, 71 pence au mile et 103,96 £ d&#x27;indemnités kilométriques."></video>
+            <video class="only-light" data-film src="/assets/film/rate-light.mp4" poster="/assets/film/rate-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Et ce que l&#x27;heure a vraiment rapporté — 15,32 £ de l&#x27;heure après frais, 71 pence au mile et 103,96 £ d&#x27;indemnités kilométriques."></video>
           </div></div>
-          <figcaption><b>Et voilà le tarif</b>La journée, la semaine, puis ce qu&#x27;une heure a rapporté — après les frais, pas avant.</figcaption>
+          <figcaption><b>Et ce que l&#x27;heure a vraiment rapporté</b>15,32 £ de l&#x27;heure après frais, 71 pence au mile et 103,96 £ d&#x27;indemnités kilométriques.</figcaption>
         </figure>
       </div>
 
       <div class="tally">
-        <p class="tally-lead">L&#x27;après-midi du film ci-dessus</p>
+        <p class="tally-lead">Une journée — 312 miles, trois trajets, 8 h 43</p>
         <div class="sum">
           <div class="sum-item"><span>Encaissé</span><b>&pound;179.01</b></div>
           <span class="sum-op" aria-hidden="true">&minus;</span>
@@ -212,11 +221,11 @@
           <div class="sum-item"><span>Il reste</span><b class="is-keep">&pound;133.52</b></div>
         </div>
         <ul class="rates">
-          <li class="rate-big"><b>&pound;101.18</b><span>de l&#x27;heure</span></li>
-          <li><b>&pound;3.73</b><span>au mile</span></li>
-          <li><b>&pound;19.71</b><span>d&#x27;impôt en moins</span></li>
+          <li class="rate-big"><b>&pound;15.32</b><span>de l&#x27;heure</span></li>
+          <li><b>&pound;0.71</b><span>au mile</span></li>
+          <li><b>&pound;103.96</b><span>d&#x27;indemnités</span></li>
         </ul>
-        <p class="tally-note">Les chiffres de cet après-midi-là, pas une promesse : DropLane ne vous paie pas, il vous le dit. Les vôtres seront les vôtres — et vous les aurez avant d&#x27;avoir passé la porte.</p>
+        <p class="tally-note">Les chiffres d&#x27;une journée, pris tels quels dans l&#x27;app des films ci-dessus. Les vôtres seront différents — l&#x27;intérêt est de les avoir le jour même, dans le fourgon, plutôt qu&#x27;au printemps.</p>
       </div>
     </div>
   </div>

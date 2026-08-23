@@ -157,7 +157,10 @@
       <div class="films">
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/cost.mp4" poster="/assets/film/cost.webp"
+            <video class="only-dark" data-film src="/assets/film/today-dark.mp4" poster="/assets/film/today-dark.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="{{day_film1_title}} — {{day_film1_body}}"></video>
+            <video class="only-light" data-film src="/assets/film/today-light.mp4" poster="/assets/film/today-light.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
                    aria-label="{{day_film1_title}} — {{day_film1_body}}"></video>
           </div></div>
@@ -165,7 +168,10 @@
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/drive.mp4" poster="/assets/film/drive.webp"
+            <video class="only-dark" data-film src="/assets/film/report-dark.mp4" poster="/assets/film/report-dark.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="{{day_film2_title}} — {{day_film2_body}}"></video>
+            <video class="only-light" data-film src="/assets/film/report-light.mp4" poster="/assets/film/report-light.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
                    aria-label="{{day_film2_title}} — {{day_film2_body}}"></video>
           </div></div>
@@ -173,7 +179,10 @@
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/rate.mp4" poster="/assets/film/rate.webp"
+            <video class="only-dark" data-film src="/assets/film/rate-dark.mp4" poster="/assets/film/rate-dark.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="{{day_film3_title}} — {{day_film3_body}}"></video>
+            <video class="only-light" data-film src="/assets/film/rate-light.mp4" poster="/assets/film/rate-light.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
                    aria-label="{{day_film3_title}} — {{day_film3_body}}"></video>
           </div></div>
@@ -191,9 +200,9 @@
           <div class="sum-item"><span>{{day_label_kept}}</span><b class="is-keep">&pound;133.52</b></div>
         </div>
         <ul class="rates">
-          <li class="rate-big"><b>&pound;101.18</b><span>{{day_label_hour}}</span></li>
-          <li><b>&pound;3.73</b><span>{{day_label_mile}}</span></li>
-          <li><b>&pound;19.71</b><span>{{day_label_tax}}</span></li>
+          <li class="rate-big"><b>&pound;15.32</b><span>{{day_label_hour}}</span></li>
+          <li><b>&pound;0.71</b><span>{{day_label_mile}}</span></li>
+          <li><b>&pound;103.96</b><span>{{day_label_tax}}</span></li>
         </ul>
         <p class="tally-note">{{day_note}}</p>
       </div>

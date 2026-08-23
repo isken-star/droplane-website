@@ -172,38 +172,47 @@
 <section id="day">
   <div class="wrap">
     <h2>¿Cuánto dejó el día de verdad?</h2>
-    <p class="section-intro">No lo que facturaste, sino lo que quedó después del combustible, el parking y el café. Esta es una ruta de una tarde, grabada con el móvil en una furgoneta de verdad: un gasto que entra, un trayecto que se guarda solo y, abajo, lo que salió la hora.</p>
+    <p class="section-intro">179,01 £ suena a buen día. Ocho horas y cuarenta y tres minutos, 312 millas y 45,49 £ de gastos después, salió a 15,32 £ la hora. Ese es el número que nadie tiene en la carretera, y el que DropLane te da antes de entrar por la puerta.</p>
 
     <div class="theatre">
       <div class="films">
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/cost.mp4" poster="/assets/film/cost.webp"
+            <video class="only-dark" data-film src="/assets/film/today-dark.mp4" poster="/assets/film/today-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Entra un gasto — 2,50 £ de parking en cinco segundos. El total del día se mueve en cuanto tocas Guardar."></video>
+                   aria-label="El día se sumó solo — Tres trayectos, 312 millas, 133,52 £ — y uno aún por clasificar. No se escribió nada."></video>
+            <video class="only-light" data-film src="/assets/film/today-light.mp4" poster="/assets/film/today-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="El día se sumó solo — Tres trayectos, 312 millas, 133,52 £ — y uno aún por clasificar. No se escribió nada."></video>
           </div></div>
-          <figcaption><b>Entra un gasto</b>2,50 £ de parking en cinco segundos. El total del día se mueve en cuanto tocas Guardar.</figcaption>
+          <figcaption><b>El día se sumó solo</b>Tres trayectos, 312 millas, 133,52 £ — y uno aún por clasificar. No se escribió nada.</figcaption>
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/drive.mp4" poster="/assets/film/drive.webp"
+            <video class="only-dark" data-film src="/assets/film/report-dark.mp4" poster="/assets/film/report-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="El trayecto se guardó solo — De Torquay a Plymouth, la ruta que hizo de verdad, cada parada cronometrada. Nadie le dio a empezar."></video>
+                   aria-label="El informe se hace solo — Marca lo que entra, elige vertical u horizontal, y el PDF para la gestoría está listo para enviar."></video>
+            <video class="only-light" data-film src="/assets/film/report-light.mp4" poster="/assets/film/report-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="El informe se hace solo — Marca lo que entra, elige vertical u horizontal, y el PDF para la gestoría está listo para enviar."></video>
           </div></div>
-          <figcaption><b>El trayecto se guardó solo</b>De Torquay a Plymouth, la ruta que hizo de verdad, cada parada cronometrada. Nadie le dio a empezar.</figcaption>
+          <figcaption><b>El informe se hace solo</b>Marca lo que entra, elige vertical u horizontal, y el PDF para la gestoría está listo para enviar.</figcaption>
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/rate.mp4" poster="/assets/film/rate.webp"
+            <video class="only-dark" data-film src="/assets/film/rate-dark.mp4" poster="/assets/film/rate-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Y ahí está la hora — El día, la semana y luego lo que pagó una hora — después de los gastos, no antes."></video>
+                   aria-label="Y lo que pagó la hora de verdad — 15,32 £ la hora después de gastos, 71 peniques por milla y 103,96 £ de kilometraje deducible."></video>
+            <video class="only-light" data-film src="/assets/film/rate-light.mp4" poster="/assets/film/rate-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Y lo que pagó la hora de verdad — 15,32 £ la hora después de gastos, 71 peniques por milla y 103,96 £ de kilometraje deducible."></video>
           </div></div>
-          <figcaption><b>Y ahí está la hora</b>El día, la semana y luego lo que pagó una hora — después de los gastos, no antes.</figcaption>
+          <figcaption><b>Y lo que pagó la hora de verdad</b>15,32 £ la hora después de gastos, 71 peniques por milla y 103,96 £ de kilometraje deducible.</figcaption>
         </figure>
       </div>
 
       <div class="tally">
-        <p class="tally-lead">La tarde de la película de arriba</p>
+        <p class="tally-lead">Un día — 312 millas, tres trayectos, 8 h 43 min</p>
         <div class="sum">
           <div class="sum-item"><span>Cobrado</span><b>&pound;179.01</b></div>
           <span class="sum-op" aria-hidden="true">&minus;</span>
@@ -212,11 +221,11 @@
           <div class="sum-item"><span>Queda</span><b class="is-keep">&pound;133.52</b></div>
         </div>
         <ul class="rates">
-          <li class="rate-big"><b>&pound;101.18</b><span>la hora</span></li>
-          <li><b>&pound;3.73</b><span>por milla</span></li>
-          <li><b>&pound;19.71</b><span>desgravable</span></li>
+          <li class="rate-big"><b>&pound;15.32</b><span>la hora</span></li>
+          <li><b>&pound;0.71</b><span>por milla</span></li>
+          <li><b>&pound;103.96</b><span>deducible</span></li>
         </ul>
-        <p class="tally-note">Son las cifras de esa tarde, no una promesa: DropLane no te paga, te lo cuenta. Las tuyas serán las tuyas — y las tendrás antes de entrar por la puerta.</p>
+        <p class="tally-note">Las cifras de un día, sacadas de la app en las películas de arriba. Las tuyas serán otras — la gracia es tenerlas ese mismo día, en la furgoneta, y no enterarte en abril.</p>
       </div>
     </div>
   </div>

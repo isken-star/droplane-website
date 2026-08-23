@@ -172,38 +172,47 @@
 <section id="day">
   <div class="wrap">
     <h2>Was hat der Tag wirklich gebracht?</h2>
-    <p class="section-intro">Nicht was auf der Rechnung stand — was nach Sprit, Parkgebühr und Kaffee übrig war. Das ist eine Nachmittagstour, mit dem Handy im echten Transporter gefilmt: eine Ausgabe rein, eine Fahrt, die sich selbst speichert, und unten der Stundensatz.</p>
+    <p class="section-intro">179,01 £ klingt nach einem guten Tag. Acht Stunden dreiundvierzig, 312 Meilen und 45,49 £ Kosten später waren es 15,32 £ die Stunde. Das ist die Zahl, die auf der Straße niemand hat — und die, die DropLane dir gibt, bevor du zur Tür herein bist.</p>
 
     <div class="theatre">
       <div class="films">
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/cost.mp4" poster="/assets/film/cost.webp"
+            <video class="only-dark" data-film src="/assets/film/today-dark.mp4" poster="/assets/film/today-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Eine Ausgabe kommt rein — 2,50 £ Parkgebühr, in fünf Sekunden. Die Tagessumme ändert sich, sobald du auf Sichern tippst."></video>
+                   aria-label="Der Tag hat sich selbst zusammengerechnet — Drei Fahrten, 312 Meilen, 133,52 £ — und eine ist noch zu sortieren. Getippt wurde nichts."></video>
+            <video class="only-light" data-film src="/assets/film/today-light.mp4" poster="/assets/film/today-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Der Tag hat sich selbst zusammengerechnet — Drei Fahrten, 312 Meilen, 133,52 £ — und eine ist noch zu sortieren. Getippt wurde nichts."></video>
           </div></div>
-          <figcaption><b>Eine Ausgabe kommt rein</b>2,50 £ Parkgebühr, in fünf Sekunden. Die Tagessumme ändert sich, sobald du auf Sichern tippst.</figcaption>
+          <figcaption><b>Der Tag hat sich selbst zusammengerechnet</b>Drei Fahrten, 312 Meilen, 133,52 £ — und eine ist noch zu sortieren. Getippt wurde nichts.</figcaption>
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/drive.mp4" poster="/assets/film/drive.webp"
+            <video class="only-dark" data-film src="/assets/film/report-dark.mp4" poster="/assets/film/report-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Die Fahrt hat sich selbst gespeichert — Torquay nach Plymouth, die tatsächlich gefahrene Strecke, jeder Halt mit Zeit. Gestartet hat sie niemand."></video>
+                   aria-label="Der Bericht baut sich selbst — Anhaken, was hineinsoll, Hoch- oder Querformat wählen, und das PDF für den Steuerberater ist fertig zum Verschicken."></video>
+            <video class="only-light" data-film src="/assets/film/report-light.mp4" poster="/assets/film/report-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Der Bericht baut sich selbst — Anhaken, was hineinsoll, Hoch- oder Querformat wählen, und das PDF für den Steuerberater ist fertig zum Verschicken."></video>
           </div></div>
-          <figcaption><b>Die Fahrt hat sich selbst gespeichert</b>Torquay nach Plymouth, die tatsächlich gefahrene Strecke, jeder Halt mit Zeit. Gestartet hat sie niemand.</figcaption>
+          <figcaption><b>Der Bericht baut sich selbst</b>Anhaken, was hineinsoll, Hoch- oder Querformat wählen, und das PDF für den Steuerberater ist fertig zum Verschicken.</figcaption>
         </figure>
         <figure class="film">
           <div class="device"><div class="device-screen">
-            <video data-film src="/assets/film/rate.mp4" poster="/assets/film/rate.webp"
+            <video class="only-dark" data-film src="/assets/film/rate-dark.mp4" poster="/assets/film/rate-dark.webp"
                    width="480" height="1044" muted loop playsinline preload="none"
-                   aria-label="Und da ist der Stundensatz — Der Tag, die Woche, dann was eine Stunde gebracht hat — nach den Kosten, nicht davor."></video>
+                   aria-label="Und was die Stunde wirklich brachte — 15,32 £ die Stunde nach Kosten, 71 Pence pro Meile und 103,96 £ Kilometerpauschale."></video>
+            <video class="only-light" data-film src="/assets/film/rate-light.mp4" poster="/assets/film/rate-light.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Und was die Stunde wirklich brachte — 15,32 £ die Stunde nach Kosten, 71 Pence pro Meile und 103,96 £ Kilometerpauschale."></video>
           </div></div>
-          <figcaption><b>Und da ist der Stundensatz</b>Der Tag, die Woche, dann was eine Stunde gebracht hat — nach den Kosten, nicht davor.</figcaption>
+          <figcaption><b>Und was die Stunde wirklich brachte</b>15,32 £ die Stunde nach Kosten, 71 Pence pro Meile und 103,96 £ Kilometerpauschale.</figcaption>
         </figure>
       </div>
 
       <div class="tally">
-        <p class="tally-lead">Der Nachmittag aus dem Film oben</p>
+        <p class="tally-lead">Ein Tag — 312 Meilen, drei Fahrten, 8 Std. 43</p>
         <div class="sum">
           <div class="sum-item"><span>Eingenommen</span><b>&pound;179.01</b></div>
           <span class="sum-op" aria-hidden="true">&minus;</span>
@@ -212,11 +221,11 @@
           <div class="sum-item"><span>Übrig</span><b class="is-keep">&pound;133.52</b></div>
         </div>
         <ul class="rates">
-          <li class="rate-big"><b>&pound;101.18</b><span>pro Stunde</span></li>
-          <li><b>&pound;3.73</b><span>pro Meile</span></li>
-          <li><b>&pound;19.71</b><span>Steuer zurück</span></li>
+          <li class="rate-big"><b>&pound;15.32</b><span>pro Stunde</span></li>
+          <li><b>&pound;0.71</b><span>pro Meile</span></li>
+          <li><b>&pound;103.96</b><span>Pauschale</span></li>
         </ul>
-        <p class="tally-note">Die Zahlen dieses Nachmittags, kein Versprechen: DropLane zahlt dir nichts, es sagt es dir. Deine sind deine eigenen — und du hast sie, bevor du zur Tür herein bist.</p>
+        <p class="tally-note">Die Zahlen eines Tages, direkt aus der App in den Filmen oben. Deine werden andere sein — es geht darum, sie am selben Tag im Wagen zu haben statt erst im Frühjahr.</p>
       </div>
     </div>
   </div>
