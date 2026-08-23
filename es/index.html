@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>DropLane — cada kilómetro pagado</title>
-<meta name="description" content="DropLane registra solo los trayectos de un repartidor, suma lo que ha dado el día frente a los gastos y lleva un registro de kilómetros que vale para Hacienda. Veinticuatro idiomas, todo en el móvil.">
+<title>DropLane — Sabe lo que te dejó el día de verdad</title>
+<meta name="description" content="DropLane registra los trayectos del repartidor solo, resta el combustible, el parking y los gastos de la furgoneta a lo cobrado, y te dice lo que pagó la hora de verdad. Además, un registro de kilometraje que acepta Hacienda, en veinticuatro idiomas y todo en el móvil.">
 <script>
   /* Set the theme before the first paint, so the page never flashes white. */
   (function () {
@@ -35,8 +35,8 @@
 <link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
 <link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
 <link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
-<meta property="og:title" content="DropLane — cada kilómetro pagado">
-<meta property="og:description" content="DropLane registra solo los trayectos de un repartidor, suma lo que ha dado el día frente a los gastos y lleva un registro de kilómetros que vale para Hacienda. Veinticuatro idiomas, todo en el móvil.">
+<meta property="og:title" content="DropLane — Sabe lo que te dejó el día de verdad">
+<meta property="og:description" content="DropLane registra los trayectos del repartidor solo, resta el combustible, el parking y los gastos de la furgoneta a lo cobrado, y te dice lo que pagó la hora de verdad. Además, un registro de kilometraje que acepta Hacienda, en veinticuatro idiomas y todo en el móvil.">
 <meta property="og:url" content="https://www.droplane.co.uk/es/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_ES">
@@ -49,7 +49,7 @@
     <a class="brand" href="/es/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
 
     <nav class="menu" aria-label="Menú principal">
-      <a href="#day">Lo que deja</a>
+      <a href="#money">Lo que deja</a>
       <a href="#how">Cómo funciona</a>
       <a href="#features">Qué hace</a>
       <a href="#screens">Pantallas</a>
@@ -106,7 +106,7 @@
   <div class="sheet" id="sheet" data-open="false">
     <div class="wrap">
       <nav class="sheet-list" aria-label="Menú principal">
-        <a href="#day">Lo que deja</a>
+        <a href="#money">Lo que deja</a>
         <a href="#how">Cómo funciona</a>
         <a href="#features">Qué hace</a>
         <a href="#screens">Pantallas</a>
@@ -134,8 +134,8 @@
   <div class="wrap hero-grid">
     <div>
       <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇪🇸</span><b data-region="ES">Spain</b><span class="eyebrow-cost"><span class="eyebrow-price">€5.99</span> <span class="eyebrow-per">al mes</span></span><a href="#pricing">ver todos</a></span>
-      <h1>Cada kilómetro pagado.</h1>
-      <p class="lede">Arranca la furgoneta. Ya está. DropLane registra el trayecto, dibuja la ruta que hiciste de verdad y cierra las cuentas del día antes de que cruces la puerta.</p>
+      <h1>Sabe lo que te dejó el día de verdad.</h1>
+      <p class="lede">Arranca la furgoneta. Ya está. DropLane registra cada trayecto y la ruta que hiciste de verdad, resta los gastos de lo cobrado y te deja tu precio por hora listo antes de entrar por la puerta.</p>
       <div class="cta-row">
         <a class="btn" href="#pricing">Ver el precio</a>
         <a class="btn-ghost" href="#how">Cómo funciona</a>
@@ -157,15 +157,40 @@
       </div>
       <div class="device device-front">
         <div class="device-screen">
-          <video class="only-dark" data-film src="/assets/film/hero-dark.mp4" poster="/assets/film/hero-dark.webp"
-                 width="480" height="1044" muted loop playsinline preload="none"
-                 aria-label="La pantalla Hoy de DropLane: un trayecto grabándose en el mapa, con la distancia, las horas y los ingresos del día."></video>
-          <video class="only-light" data-film src="/assets/film/hero-light.mp4" poster="/assets/film/hero-light.webp"
-                 width="480" height="1044" muted loop playsinline preload="none"
-                 aria-label="La pantalla Hoy de DropLane: un trayecto grabándose en el mapa, con la distancia, las horas y los ingresos del día."></video>
+          <img class="only-dark" src="/assets/screens/es/dark/today.webp" width="640" height="1391" alt="La pantalla Hoy de DropLane: un trayecto grabándose en el mapa, con la distancia, las horas y los ingresos del día." loading="eager">
+          <img class="only-light" src="/assets/screens/es/light/today.webp" width="640" height="1391" alt="La pantalla Hoy de DropLane: un trayecto grabándose en el mapa, con la distancia, las horas y los ingresos del día." loading="eager">
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>Una app de kilómetros te cuenta la mitad</h2>
+    <p class="section-intro">Los kilómetros son la mitad fácil: eso lo cuenta cualquier app. La mitad que decide si la ruta mereció la pena es lo que entró, lo que te costó y cuántas horas te llevó. Y esa es la mitad que nadie suma.</p>
+
+    <div class="versus">
+      <div class="versus-side versus-half">
+        <h3>Lo que sabe una app de kilómetros</h3>
+        <ul>
+          <li>312 millas</li>
+          <li>Una deducción para Hacienda</li>
+          <li class="versus-stop">Y hasta ahí</li>
+        </ul>
+      </div>
+      <div class="versus-side versus-whole">
+        <h3>Lo que sabe DropLane</h3>
+        <ul>
+          <li>312 millas, registradas solas</li>
+          <li>179,01 £ dentro, 45,49 £ fuera</li>
+          <li>8 h 43 min en la carretera</li>
+          <li class="versus-answer">15,32 £ la hora</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="versus-note">El mismo día, la misma furgoneta. Solo una de las dos listas te dice si repetir esa ruta.</p>
   </div>
 </section>
 
@@ -298,14 +323,19 @@
     <p class="section-intro">Hecha por un repartidor con diez años de carretera, para el trabajo tal y como es.</p>
     <div class="cards">
       <div class="card">
-        <span class="icon">🛣️</span>
-        <h3>Kilómetros sin tocar el móvil</h3>
-        <p>Los trayectos se registran en segundo plano, desde que arrancas hasta que aparcas.</p>
-      </div>
-      <div class="card">
         <span class="icon">💷</span>
         <h3>Lo que ha dado el día de verdad</h3>
         <p>Ingresos por un lado, combustible y gastos por otro, y abajo el número que importa — por día, semana y mes.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>Lo que paga una hora de verdad</h3>
+        <p>Combustible, letra y seguro repartidos entre los días que trabajas, para que la hora sea la real.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>Kilómetros sin tocar el móvil</h3>
+        <p>Los trayectos se registran en segundo plano, desde que arrancas hasta que aparcas.</p>
       </div>
       <div class="card">
         <span class="icon">🧾</span>
@@ -316,11 +346,6 @@
         <span class="icon">🅿️</span>
         <h3>Paradas y tiempo de espera</h3>
         <p>Mira cuánto estuviste en cada entrega o en el almacén, sin apuntar nada.</p>
-      </div>
-      <div class="card">
-        <span class="icon">⛽</span>
-        <h3>Lo que paga una hora de verdad</h3>
-        <p>Combustible, letra y seguro repartidos entre los días que trabajas, para que la hora sea la real.</p>
       </div>
       <div class="card">
         <span class="icon">🔒</span>
@@ -581,6 +606,10 @@
     <h2>Preguntas que hacen los repartidores de verdad</h2>
     <p class="section-intro">Respuestas directas, de alguien que hace el trabajo.</p>
     <div class="faq">
+      <details>
+        <summary>¿No es otra app de kilómetros más?</summary>
+        <p>Registra los kilómetros igual, sin botón de inicio. La diferencia es lo que viene después: entra lo que cobras, salen el combustible, el parking y los gastos, y la app te dice lo que pagó la hora de verdad. Un número de kilómetros por sí solo nunca le ha dicho a nadie si la ruta mereció la pena.</p>
+      </details>
       <details>
         <summary>¿Gasta mucha batería?</summary>
         <p>DropLane no deja el GPS encendido todo el día. Espera tranquila hasta notar que te has ido de donde aparcaste, graba mientras conduces y se vuelve a dormir cuando paras.</p>

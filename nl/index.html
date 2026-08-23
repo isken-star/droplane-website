@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>DropLane — elke kilometer betaald</title>
-<meta name="description" content="DropLane legt de ritten van een koerier automatisch vast, telt de opbrengst van de dag op tegen de kosten, en houdt een kilometerregistratie bij die de Belastingdienst accepteert. Vierentwintig talen, alles op je telefoon.">
+<title>DropLane — Weten wat de dag echt opleverde</title>
+<meta name="description" content="DropLane legt de ritten van de koerier vanzelf vast, haalt brandstof, parkeergeld en autokosten van de omzet af en vertelt je wat het uur echt opleverde. Plus een kilometerregistratie die de fiscus accepteert, in vierentwintig talen, allemaal op je telefoon.">
 <script>
   /* Set the theme before the first paint, so the page never flashes white. */
   (function () {
@@ -35,8 +35,8 @@
 <link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
 <link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
 <link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
-<meta property="og:title" content="DropLane — elke kilometer betaald">
-<meta property="og:description" content="DropLane legt de ritten van een koerier automatisch vast, telt de opbrengst van de dag op tegen de kosten, en houdt een kilometerregistratie bij die de Belastingdienst accepteert. Vierentwintig talen, alles op je telefoon.">
+<meta property="og:title" content="DropLane — Weten wat de dag echt opleverde">
+<meta property="og:description" content="DropLane legt de ritten van de koerier vanzelf vast, haalt brandstof, parkeergeld en autokosten van de omzet af en vertelt je wat het uur echt opleverde. Plus een kilometerregistratie die de fiscus accepteert, in vierentwintig talen, allemaal op je telefoon.">
 <meta property="og:url" content="https://www.droplane.co.uk/nl/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="nl_NL">
@@ -49,7 +49,7 @@
     <a class="brand" href="/nl/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
 
     <nav class="menu" aria-label="Hoofdmenu">
-      <a href="#day">Wat het oplevert</a>
+      <a href="#money">Wat het oplevert</a>
       <a href="#how">Hoe het werkt</a>
       <a href="#features">Wat het doet</a>
       <a href="#screens">Schermen</a>
@@ -106,7 +106,7 @@
   <div class="sheet" id="sheet" data-open="false">
     <div class="wrap">
       <nav class="sheet-list" aria-label="Hoofdmenu">
-        <a href="#day">Wat het oplevert</a>
+        <a href="#money">Wat het oplevert</a>
         <a href="#how">Hoe het werkt</a>
         <a href="#features">Wat het doet</a>
         <a href="#screens">Schermen</a>
@@ -134,8 +134,8 @@
   <div class="wrap hero-grid">
     <div>
       <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇳🇱</span><b data-region="NL">Netherlands</b><span class="eyebrow-cost"><span class="eyebrow-price">€6.99</span> <span class="eyebrow-per">per maand</span></span><a href="#pricing">bekijk alle</a></span>
-      <h1>Elke kilometer betaald.</h1>
-      <p class="lede">Start de bus. Meer niet. DropLane legt de rit vast, tekent de route die je echt reed, en telt de dag op voordat je binnen bent.</p>
+      <h1>Weten wat de dag echt opleverde.</h1>
+      <p class="lede">Start de bus. Meer niet. DropLane legt elke rit vast en de route die je echt reed, haalt de kosten van de omzet af, en je uurtarief ligt klaar voor je binnen bent.</p>
       <div class="cta-row">
         <a class="btn" href="#pricing">Bekijk de prijs</a>
         <a class="btn-ghost" href="#how">Hoe het werkt</a>
@@ -157,15 +157,40 @@
       </div>
       <div class="device device-front">
         <div class="device-screen">
-          <video class="only-dark" data-film src="/assets/film/hero-dark.mp4" poster="/assets/film/hero-dark.webp"
-                 width="480" height="1044" muted loop playsinline preload="none"
-                 aria-label="Het Vandaag-scherm van DropLane: een rit wordt op de kaart vastgelegd, met de afstand, uren en opbrengst van de dag."></video>
-          <video class="only-light" data-film src="/assets/film/hero-light.mp4" poster="/assets/film/hero-light.webp"
-                 width="480" height="1044" muted loop playsinline preload="none"
-                 aria-label="Het Vandaag-scherm van DropLane: een rit wordt op de kaart vastgelegd, met de afstand, uren en opbrengst van de dag."></video>
+          <img class="only-dark" src="/assets/screens/nl/dark/today.webp" width="640" height="1391" alt="Het Vandaag-scherm van DropLane: een rit wordt op de kaart vastgelegd, met de afstand, uren en opbrengst van de dag." loading="eager">
+          <img class="only-light" src="/assets/screens/nl/light/today.webp" width="640" height="1391" alt="Het Vandaag-scherm van DropLane: een rit wordt op de kaart vastgelegd, met de afstand, uren en opbrengst van de dag." loading="eager">
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>Een kilometerapp vertelt je de helft</h2>
+    <p class="section-intro">De kilometers zijn de makkelijke helft — die telt elke app. De helft die bepaalt of de rit het waard was, is wat erin kwam, wat het je kostte en hoeveel uur het duurde. En dat is precies de helft die niemand optelt.</p>
+
+    <div class="versus">
+      <div class="versus-side versus-half">
+        <h3>Wat een kilometerapp weet</h3>
+        <ul>
+          <li>312 mijl</li>
+          <li>Een aftrekpost voor de fiscus</li>
+          <li class="versus-stop">En daar houdt het op</li>
+        </ul>
+      </div>
+      <div class="versus-side versus-whole">
+        <h3>Wat DropLane weet</h3>
+        <ul>
+          <li>312 mijl, vanzelf vastgelegd</li>
+          <li>£179,01 erin, £45,49 eruit</li>
+          <li>8 u 43 m onderweg</li>
+          <li class="versus-answer">£15,32 per uur</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="versus-note">Zelfde dag, zelfde bus. Maar één van die twee lijstjes vertelt je of je die rit nog eens doet.</p>
   </div>
 </section>
 
@@ -298,14 +323,19 @@
     <p class="section-intro">Gebouwd door een koerier met tien jaar op de weg, voor het werk zoals het echt is.</p>
     <div class="cards">
       <div class="card">
-        <span class="icon">🛣️</span>
-        <h3>Kilometers zonder je telefoon aan te raken</h3>
-        <p>Ritten leggen zichzelf op de achtergrond vast, vanaf het wegrijden tot het parkeren.</p>
-      </div>
-      <div class="card">
         <span class="icon">💷</span>
         <h3>Wat de dag echt opbracht</h3>
         <p>Inkomsten erin, brandstof en kosten eruit, en onderaan het getal dat telt — per dag, week en maand.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>Wat een uur echt oplevert</h3>
+        <p>Brandstof, financiering en verzekering verdeeld over je werkdagen, zodat het uurbedrag klopt.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>Kilometers zonder je telefoon aan te raken</h3>
+        <p>Ritten leggen zichzelf op de achtergrond vast, vanaf het wegrijden tot het parkeren.</p>
       </div>
       <div class="card">
         <span class="icon">🧾</span>
@@ -316,11 +346,6 @@
         <span class="icon">🅿️</span>
         <h3>Stops en wachttijd</h3>
         <p>Zie hoelang je bij elk adres of depot stond, zonder iets op te schrijven.</p>
-      </div>
-      <div class="card">
-        <span class="icon">⛽</span>
-        <h3>Wat een uur echt oplevert</h3>
-        <p>Brandstof, financiering en verzekering verdeeld over je werkdagen, zodat het uurbedrag klopt.</p>
       </div>
       <div class="card">
         <span class="icon">🔒</span>
@@ -581,6 +606,10 @@
     <h2>Vragen die koeriers echt stellen</h2>
     <p class="section-intro">Rechttoe rechtaan antwoorden, van iemand die het werk doet.</p>
     <div class="faq">
+      <details>
+        <summary>Is dit niet gewoon weer een kilometerapp?</summary>
+        <p>De kilometers legt hij op dezelfde manier vast, zonder startknop. Het verschil zit in wat daarna komt: je omzet erin, brandstof, parkeergeld en autokosten eruit, en dan vertelt de app je wat het uur echt opleverde. Een kilometerstand alleen heeft nog nooit iemand verteld of de rit het waard was.</p>
+      </details>
       <details>
         <summary>Loopt mijn batterij leeg?</summary>
         <p>DropLane laat de gps niet de hele dag aanstaan. Hij wacht rustig tot hij merkt dat je weg bent van waar je parkeerde, legt vast terwijl je rijdt, en valt weer in slaap als je stilstaat.</p>

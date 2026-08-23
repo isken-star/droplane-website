@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — cada kilómetro pagado",
-  "meta_description": "DropLane registra solo los trayectos de un repartidor, suma lo que ha dado el día frente a los gastos y lleva un registro de kilómetros que vale para Hacienda. Veinticuatro idiomas, todo en el móvil.",
+  "meta_title": "DropLane — Sabe lo que te dejó el día de verdad",
+  "meta_description": "DropLane registra los trayectos del repartidor solo, resta el combustible, el parking y los gastos de la furgoneta a lo cobrado, y te dice lo que pagó la hora de verdad. Además, un registro de kilometraje que acepta Hacienda, en veinticuatro idiomas y todo en el móvil.",
   "nav_label": "Menú principal",
   "nav_how": "Cómo funciona",
   "nav_day": "Lo que deja",
@@ -24,8 +24,8 @@
   "langbar_rest": "Elige el tuyo — la app también lo habla.",
   "per_month_short": "al mes",
   "see_all": "ver todos",
-  "hero_h1": "Cada kilómetro pagado.",
-  "hero_lede": "Arranca la furgoneta. Ya está. DropLane registra el trayecto, dibuja la ruta que hiciste de verdad y cierra las cuentas del día antes de que cruces la puerta.",
+  "hero_h1": "Sabe lo que te dejó el día de verdad.",
+  "hero_lede": "Arranca la furgoneta. Ya está. DropLane registra cada trayecto y la ruta que hiciste de verdad, resta los gastos de lo cobrado y te deja tu precio por hora listo antes de entrar por la puerta.",
   "hero_cta_price": "Ver el precio",
   "hero_cta_how": "Cómo funciona",
   "hero_note": "14 días gratis · sin cuenta, sin anuncios · iPhone",
@@ -43,6 +43,18 @@
       "label": "tarifas por kilómetro incluidas"
     }
   ],
+  "money_h2": "Una app de kilómetros te cuenta la mitad",
+  "money_intro": "Los kilómetros son la mitad fácil: eso lo cuenta cualquier app. La mitad que decide si la ruta mereció la pena es lo que entró, lo que te costó y cuántas horas te llevó. Y esa es la mitad que nadie suma.",
+  "money_a_title": "Lo que sabe una app de kilómetros",
+  "money_a_1": "312 millas",
+  "money_a_2": "Una deducción para Hacienda",
+  "money_a_3": "Y hasta ahí",
+  "money_b_title": "Lo que sabe DropLane",
+  "money_b_1": "312 millas, registradas solas",
+  "money_b_2": "179,01 £ dentro, 45,49 £ fuera",
+  "money_b_3": "8 h 43 min en la carretera",
+  "money_b_4": "15,32 £ la hora",
+  "money_note": "El mismo día, la misma furgoneta. Solo una de las dos listas te dice si repetir esa ruta.",
   "day_h2": "¿Cuánto dejó el día de verdad?",
   "day_intro": "179,01 £ suena a buen día. Ocho horas y cuarenta y tres minutos, 312 millas y 45,49 £ de gastos después, salió a 15,32 £ la hora. Ese es el número que nadie tiene en la carretera, y el que DropLane te da antes de entrar por la puerta.",
   "day_film1_title": "El día se sumó solo",
@@ -80,14 +92,19 @@
   "features_intro": "Hecha por un repartidor con diez años de carretera, para el trabajo tal y como es.",
   "features": [
     {
-      "icon": "🛣️",
-      "title": "Kilómetros sin tocar el móvil",
-      "body": "Los trayectos se registran en segundo plano, desde que arrancas hasta que aparcas."
-    },
-    {
       "icon": "💷",
       "title": "Lo que ha dado el día de verdad",
       "body": "Ingresos por un lado, combustible y gastos por otro, y abajo el número que importa — por día, semana y mes."
+    },
+    {
+      "icon": "⛽",
+      "title": "Lo que paga una hora de verdad",
+      "body": "Combustible, letra y seguro repartidos entre los días que trabajas, para que la hora sea la real."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Kilómetros sin tocar el móvil",
+      "body": "Los trayectos se registran en segundo plano, desde que arrancas hasta que aparcas."
     },
     {
       "icon": "🧾",
@@ -98,11 +115,6 @@
       "icon": "🅿️",
       "title": "Paradas y tiempo de espera",
       "body": "Mira cuánto estuviste en cada entrega o en el almacén, sin apuntar nada."
-    },
-    {
-      "icon": "⛽",
-      "title": "Lo que paga una hora de verdad",
-      "body": "Combustible, letra y seguro repartidos entre los días que trabajas, para que la hora sea la real."
     },
     {
       "icon": "🔒",
@@ -201,6 +213,10 @@
   "faq_h2": "Preguntas que hacen los repartidores de verdad",
   "faq_intro": "Respuestas directas, de alguien que hace el trabajo.",
   "faq": [
+    {
+      "q": "¿No es otra app de kilómetros más?",
+      "a": "Registra los kilómetros igual, sin botón de inicio. La diferencia es lo que viene después: entra lo que cobras, salen el combustible, el parking y los gastos, y la app te dice lo que pagó la hora de verdad. Un número de kilómetros por sí solo nunca le ha dicho a nadie si la ruta mereció la pena."
+    },
     {
       "q": "¿Gasta mucha batería?",
       "a": "DropLane no deja el GPS encendido todo el día. Espera tranquila hasta notar que te has ido de donde aparcaste, graba mientras conduces y se vuelve a dormir cuando paras."

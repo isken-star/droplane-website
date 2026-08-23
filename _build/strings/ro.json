@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — fiecare kilometru plătit",
-  "meta_description": "DropLane înregistrează singură cursele unui curier, adună câștigul zilei din care scade cheltuielile și ține o evidență a kilometrilor bună pentru contabil. Douăzeci și patru de limbi, totul pe telefon.",
+  "meta_title": "DropLane — Să știi cât a adus ziua, de fapt",
+  "meta_description": "DropLane înregistrează singur drumurile curierului, scade combustibilul, parcarea și cheltuielile mașinii din încasări și îți spune cât a adus, de fapt, o oră. Plus o evidență a kilometrilor pe care fiscul o acceptă, în douăzeci și patru de limbi, totul pe telefon.",
   "nav_label": "Meniu principal",
   "nav_how": "Cum funcționează",
   "nav_day": "Cât rămâne",
@@ -24,8 +24,8 @@
   "langbar_rest": "Alege-o pe a ta — aplicația o vorbește și ea.",
   "per_month_short": "pe lună",
   "see_all": "vezi tot",
-  "hero_h1": "Fiecare kilometru plătit.",
-  "hero_lede": "Pornește duba. Atât. DropLane înregistrează cursa, desenează drumul pe care chiar l-ai făcut și îți face socoteala zilei înainte să intri pe ușă.",
+  "hero_h1": "Să știi cât a adus ziua, de fapt.",
+  "hero_lede": "Pornește duba. Atât. DropLane înregistrează fiecare drum și traseul pe care chiar l-ai făcut, scade cheltuielile din încasări, iar tariful tău pe oră te așteaptă înainte să intri pe ușă.",
   "hero_cta_price": "Vezi prețul",
   "hero_cta_how": "Cum funcționează",
   "hero_note": "14 zile gratis · fără cont, fără reclame · iPhone",
@@ -43,6 +43,18 @@
       "label": "tarife pe kilometru incluse"
     }
   ],
+  "money_h2": "O aplicație de kilometri îți spune jumătate",
+  "money_intro": "Kilometrii sunt jumătatea ușoară — îi numără orice aplicație. Jumătatea care decide dacă tura a meritat e cât a intrat, cât te-a costat și câte ore a durat. Și tocmai pe asta n-o adună nimeni.",
+  "money_a_title": "Ce știe o aplicație de kilometri",
+  "money_a_1": "312 mile",
+  "money_a_2": "O deducere pentru fisc",
+  "money_a_3": "Și cam atât",
+  "money_b_title": "Ce știe DropLane",
+  "money_b_1": "312 mile, înregistrate singure",
+  "money_b_2": "179,01 £ intrate, 45,49 £ ieșite",
+  "money_b_3": "8 h 43 min pe șosea",
+  "money_b_4": "15,32 £ pe oră",
+  "money_note": "Aceeași zi, aceeași dubă. Doar una dintre cele două liste îți spune dacă mai iei tura aia o dată.",
   "day_h2": "Cât a adus ziua, de fapt?",
   "day_intro": "179,01 £ sună a zi bună. Opt ore și patruzeci și trei de minute, 312 mile și 45,49 £ cheltuieli mai târziu, a ieșit 15,32 £ pe oră. E cifra pe care nimeni de pe șosea n-o are — și cea pe care DropLane ți-o dă înainte să intri pe ușă.",
   "day_film1_title": "Ziua s-a adunat singură",
@@ -80,14 +92,19 @@
   "features_intro": "Făcută de un curier cu zece ani pe drum, pentru meseria așa cum e ea.",
   "features": [
     {
-      "icon": "🛣️",
-      "title": "Kilometri fără să atingi telefonul",
-      "body": "Cursele se înregistrează în fundal, din clipa în care pleci și până parchezi."
-    },
-    {
       "icon": "💷",
       "title": "Cât a dat ziua cu adevărat",
       "body": "Încasări într-o parte, motorină și cheltuieli în cealaltă, iar jos cifra care contează — pe zi, pe săptămână, pe lună."
+    },
+    {
+      "icon": "⛽",
+      "title": "Cât plătește o oră cu adevărat",
+      "body": "Motorina, rata și asigurarea împărțite pe zilele în care lucrezi, ca ora să fie cea reală."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Kilometri fără să atingi telefonul",
+      "body": "Cursele se înregistrează în fundal, din clipa în care pleci și până parchezi."
     },
     {
       "icon": "🧾",
@@ -98,11 +115,6 @@
       "icon": "🅿️",
       "title": "Opriri și timp de așteptare",
       "body": "Vezi cât ai stat la fiecare livrare sau în depozit, fără să notezi nimic."
-    },
-    {
-      "icon": "⛽",
-      "title": "Cât plătește o oră cu adevărat",
-      "body": "Motorina, rata și asigurarea împărțite pe zilele în care lucrezi, ca ora să fie cea reală."
     },
     {
       "icon": "🔒",
@@ -201,6 +213,10 @@
   "faq_h2": "Întrebări pe care curierii chiar le pun",
   "faq_intro": "Răspunsuri drepte, de la cineva care face meseria.",
   "faq": [
+    {
+      "q": "Nu e încă o aplicație de kilometri?",
+      "a": "Kilometrii îi înregistrează la fel, fără buton de pornire. Diferența e ce urmează: intră încasările tale, ies combustibilul, parcarea și cheltuielile mașinii, iar aplicația îți spune cât a adus, de fapt, o oră. Un număr de kilometri singur n-a spus nimănui vreodată dacă tura a meritat."
+    },
     {
       "q": "Consumă bateria?",
       "a": "DropLane nu ține GPS-ul pornit toată ziua. Stă liniștită până simte că ai plecat din locul unde ai parcat, înregistrează cât mergi și adoarme la loc când oprești."

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>DropLane — każdy kilometr opłacony</title>
-<meta name="description" content="DropLane sam zapisuje przejazdy kuriera, zlicza dzienny zarobek po odjęciu kosztów i prowadzi ewidencję przebiegu, którą przyjmie księgowa. Dwadzieścia cztery języki, wszystko w telefonie.">
+<title>DropLane — Wiedz, ile naprawdę dał dzień</title>
+<meta name="description" content="DropLane sam zapisuje przejazdy kuriera, odejmuje paliwo, parkingi i koszty auta od utargu i mówi ci, ile naprawdę dała godzina. Do tego ewidencja przebiegu, którą przyjmie urząd skarbowy — w dwudziestu czterech językach, wszystko w telefonie.">
 <script>
   /* Set the theme before the first paint, so the page never flashes white. */
   (function () {
@@ -35,8 +35,8 @@
 <link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
 <link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
 <link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
-<meta property="og:title" content="DropLane — każdy kilometr opłacony">
-<meta property="og:description" content="DropLane sam zapisuje przejazdy kuriera, zlicza dzienny zarobek po odjęciu kosztów i prowadzi ewidencję przebiegu, którą przyjmie księgowa. Dwadzieścia cztery języki, wszystko w telefonie.">
+<meta property="og:title" content="DropLane — Wiedz, ile naprawdę dał dzień">
+<meta property="og:description" content="DropLane sam zapisuje przejazdy kuriera, odejmuje paliwo, parkingi i koszty auta od utargu i mówi ci, ile naprawdę dała godzina. Do tego ewidencja przebiegu, którą przyjmie urząd skarbowy — w dwudziestu czterech językach, wszystko w telefonie.">
 <meta property="og:url" content="https://www.droplane.co.uk/pl/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pl_PL">
@@ -49,7 +49,7 @@
     <a class="brand" href="/pl/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
 
     <nav class="menu" aria-label="Menu główne">
-      <a href="#day">Ile zostaje</a>
+      <a href="#money">Ile zostaje</a>
       <a href="#how">Jak to działa</a>
       <a href="#features">Co potrafi</a>
       <a href="#screens">Ekrany</a>
@@ -106,7 +106,7 @@
   <div class="sheet" id="sheet" data-open="false">
     <div class="wrap">
       <nav class="sheet-list" aria-label="Menu główne">
-        <a href="#day">Ile zostaje</a>
+        <a href="#money">Ile zostaje</a>
         <a href="#how">Jak to działa</a>
         <a href="#features">Co potrafi</a>
         <a href="#screens">Ekrany</a>
@@ -134,8 +134,8 @@
   <div class="wrap hero-grid">
     <div>
       <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇵🇱</span><b data-region="PL">Poland</b><span class="eyebrow-cost"><span class="eyebrow-price">24,99 zł</span> <span class="eyebrow-per">miesięcznie</span></span><a href="#pricing">zobacz wszystkie</a></span>
-      <h1>Każdy kilometr opłacony.</h1>
-      <p class="lede">Odpal busa. Tyle. DropLane zapisze przejazd, narysuje trasę, którą naprawdę pojechałeś, i podliczy dzień, zanim wejdziesz do domu.</p>
+      <h1>Wiedz, ile naprawdę dał dzień.</h1>
+      <p class="lede">Odpal busa. To wszystko. DropLane zapisuje każdy przejazd i trasę, którą naprawdę pokonałeś, odejmuje koszty od utargu, a twoja stawka godzinowa czeka gotowa, zanim wejdziesz do domu.</p>
       <div class="cta-row">
         <a class="btn" href="#pricing">Zobacz cenę</a>
         <a class="btn-ghost" href="#how">Jak to działa</a>
@@ -157,15 +157,40 @@
       </div>
       <div class="device device-front">
         <div class="device-screen">
-          <video class="only-dark" data-film src="/assets/film/hero-dark.mp4" poster="/assets/film/hero-dark.webp"
-                 width="480" height="1044" muted loop playsinline preload="none"
-                 aria-label="Ekran Dziś w DropLane: przejazd nagrywany na mapie, z dystansem, godzinami i zarobkiem dnia."></video>
-          <video class="only-light" data-film src="/assets/film/hero-light.mp4" poster="/assets/film/hero-light.webp"
-                 width="480" height="1044" muted loop playsinline preload="none"
-                 aria-label="Ekran Dziś w DropLane: przejazd nagrywany na mapie, z dystansem, godzinami i zarobkiem dnia."></video>
+          <img class="only-dark" src="/assets/screens/pl/dark/today.webp" width="640" height="1391" alt="Ekran Dziś w DropLane: przejazd nagrywany na mapie, z dystansem, godzinami i zarobkiem dnia." loading="eager">
+          <img class="only-light" src="/assets/screens/pl/light/today.webp" width="640" height="1391" alt="Ekran Dziś w DropLane: przejazd nagrywany na mapie, z dystansem, godzinami i zarobkiem dnia." loading="eager">
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>Aplikacja od kilometrów mówi ci połowę</h2>
+    <p class="section-intro">Kilometry to łatwa połowa — liczy je każda aplikacja. Ta połowa, która decyduje, czy trasa się opłaciła, to ile weszło, ile cię kosztowała i ile godzin zajęła. I właśnie tej połowy nikt nie sumuje.</p>
+
+    <div class="versus">
+      <div class="versus-side versus-half">
+        <h3>Co wie aplikacja od kilometrów</h3>
+        <ul>
+          <li>312 mil</li>
+          <li>Ryczałt dla urzędu skarbowego</li>
+          <li class="versus-stop">I na tym koniec</li>
+        </ul>
+      </div>
+      <div class="versus-side versus-whole">
+        <h3>Co wie DropLane</h3>
+        <ul>
+          <li>312 mil, zapisanych samoczynnie</li>
+          <li>179,01 £ do środka, 45,49 £ na zewnątrz</li>
+          <li>8 h 43 min na trasie</li>
+          <li class="versus-answer">15,32 £ za godzinę</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="versus-note">Ten sam dzień, ten sam bus. Tylko jedna z tych dwóch list mówi ci, czy wziąć tę trasę jeszcze raz.</p>
   </div>
 </section>
 
@@ -298,14 +323,19 @@
     <p class="section-intro">Zrobione przez kuriera z dziesięcioma latami na drodze, pod tę robotę, jaka jest naprawdę.</p>
     <div class="cards">
       <div class="card">
-        <span class="icon">🛣️</span>
-        <h3>Kilometry bez dotykania telefonu</h3>
-        <p>Przejazdy zapisują się w tle, od ruszenia spod krawężnika po zaparkowanie.</p>
-      </div>
-      <div class="card">
         <span class="icon">💷</span>
         <h3>Ile dzień naprawdę dał</h3>
         <p>Wpływy z jednej strony, paliwo i koszty z drugiej, a na dole liczba, która się liczy — dziennie, tygodniowo, miesięcznie.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>Ile naprawdę płaci godzina</h3>
+        <p>Paliwo, rata i ubezpieczenie rozłożone na dni pracy, żeby stawka godzinowa była prawdziwa.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>Kilometry bez dotykania telefonu</h3>
+        <p>Przejazdy zapisują się w tle, od ruszenia spod krawężnika po zaparkowanie.</p>
       </div>
       <div class="card">
         <span class="icon">🧾</span>
@@ -316,11 +346,6 @@
         <span class="icon">🅿️</span>
         <h3>Postoje i czas czekania</h3>
         <p>Zobacz, ile stałeś przy każdej dostawie albo w magazynie, bez zapisywania czegokolwiek.</p>
-      </div>
-      <div class="card">
-        <span class="icon">⛽</span>
-        <h3>Ile naprawdę płaci godzina</h3>
-        <p>Paliwo, rata i ubezpieczenie rozłożone na dni pracy, żeby stawka godzinowa była prawdziwa.</p>
       </div>
       <div class="card">
         <span class="icon">🔒</span>
@@ -581,6 +606,10 @@
     <h2>Pytania, które kurierzy naprawdę zadają</h2>
     <p class="section-intro">Proste odpowiedzi od kogoś, kto sam jeździ.</p>
     <div class="faq">
+      <details>
+        <summary>Czy to nie kolejna aplikacja do liczenia kilometrów?</summary>
+        <p>Kilometry zapisuje tak samo, bez przycisku start. Różnica jest w tym, co dalej: wchodzi twój utarg, schodzą paliwo, parkingi i koszty auta, a aplikacja mówi ci, ile naprawdę dała godzina. Sama liczba kilometrów nigdy nikomu nie powiedziała, czy trasa się opłaciła.</p>
+      </details>
       <details>
         <summary>Czy zjada baterię?</summary>
         <p>DropLane nie trzyma GPS-u włączonego cały dzień. Czeka spokojnie, aż wyczuje, że ruszyłeś z miejsca postoju, nagrywa w czasie jazdy i znowu zasypia, kiedy stoisz.</p>

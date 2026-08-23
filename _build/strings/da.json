@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — hver kilometer skal betale sig",
-  "meta_description": "DropLane registrerer dine ture automatisk, lægger dagens indtjening sammen og trækker udgifterne fra, og fører et kørselsregnskab, SKAT kan bruge. Fireogtyve sprog, det hele på din telefon.",
+  "meta_title": "DropLane — Find ud af, hvad dagen faktisk gav",
+  "meta_description": "DropLane registrerer bud- og varebilsture helt af sig selv, trækker brændstof, parkering og driftsudgifter fra indtjeningen og fortæller dig, hvad timen faktisk gav. Plus et kørselsregnskab, skattevæsenet godtager — på fireogtyve sprog, alt sammen på telefonen.",
   "nav_label": "Hovedmenu",
   "nav_how": "Sådan virker det",
   "nav_day": "Hvad det giver",
@@ -24,8 +24,8 @@
   "langbar_rest": "Vælg dit — appen taler det også.",
   "per_month_short": "om måneden",
   "see_all": "se alle",
-  "hero_h1": "Hver kilometer skal betale sig.",
-  "hero_lede": "Start bilen. Så er det klaret. DropLane registrerer turen, tegner den rute du faktisk kørte, og gør dagen op, før du er inden for døren.",
+  "hero_h1": "Find ud af, hvad dagen faktisk gav.",
+  "hero_lede": "Start bilen. Det var det. DropLane registrerer hver tur og den rute, du faktisk kørte, trækker udgifterne fra indtjeningen, og din timeløn ligger klar, når du har fri.",
   "hero_cta_price": "Se prisen",
   "hero_cta_how": "Sådan virker det",
   "hero_note": "14 dage gratis · ingen konto, ingen reklamer · iPhone",
@@ -43,6 +43,18 @@
       "label": "kørselssatser indbygget"
     }
   ],
+  "money_h2": "En kilometer-app fortæller dig det halve",
+  "money_intro": "Kilometrene er den nemme halvdel — dem tæller enhver app. Den halvdel, der afgør, om turen var det værd, er hvad der kom ind, hvad det kostede dig, og hvor mange timer det tog. Det er den halvdel, ingen lægger sammen.",
+  "money_a_title": "Det en kilometer-app ved",
+  "money_a_1": "312 miles",
+  "money_a_2": "Et fradrag til skattevæsenet",
+  "money_a_3": "Og så ikke mere",
+  "money_b_title": "Det DropLane ved",
+  "money_b_1": "312 miles, registreret af sig selv",
+  "money_b_2": "179,01 £ ind, 45,49 £ ud",
+  "money_b_3": "8 t 43 m på vejen",
+  "money_b_4": "15,32 £ i timen",
+  "money_note": "Samme dag, samme bil. Kun den ene af de to lister fortæller dig, om du skal tage turen igen.",
   "day_h2": "Hvad gav dagen egentlig?",
   "day_intro": "179,01 £ lyder som en god dag. Otte timer og treogfyrre minutter, 312 miles og 45,49 £ i udgifter senere blev det til 15,32 £ i timen. Det er tallet, ingen ude på vejen har, og det DropLane rækker dig, før du er inde ad døren.",
   "day_film1_title": "Dagen lagde sig selv sammen",
@@ -80,14 +92,19 @@
   "features_intro": "Lavet af en chauffør med ti år på vejen, til jobbet som det virkelig er.",
   "features": [
     {
-      "icon": "🛣️",
-      "title": "Kørsel uden at røre telefonen",
-      "body": "Turene registrerer sig selv i baggrunden, fra du kører fra kantstenen til du parkerer igen."
-    },
-    {
       "icon": "💷",
       "title": "Hvad dagen faktisk gav",
       "body": "Indtægter ind, brændstof og udgifter ud, og tallet der betyder noget nederst — pr. dag, uge og måned."
+    },
+    {
+      "icon": "⛽",
+      "title": "Hvad en time reelt giver",
+      "body": "Brændstof, billån og forsikring fordelt over de dage du arbejder, så timelønnen er den rigtige."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Kørsel uden at røre telefonen",
+      "body": "Turene registrerer sig selv i baggrunden, fra du kører fra kantstenen til du parkerer igen."
     },
     {
       "icon": "🧾",
@@ -98,11 +115,6 @@
       "icon": "🅿️",
       "title": "Stop og ventetid",
       "body": "Se hvor længe du holdt ved hver aflevering eller på terminalen, uden at skrive noget ned."
-    },
-    {
-      "icon": "⛽",
-      "title": "Hvad en time reelt giver",
-      "body": "Brændstof, billån og forsikring fordelt over de dage du arbejder, så timelønnen er den rigtige."
     },
     {
       "icon": "🔒",
@@ -201,6 +213,10 @@
   "faq_h2": "Spørgsmål chauffører faktisk stiller",
   "faq_intro": "Lige svar, fra en der selv kører.",
   "faq": [
+    {
+      "q": "Er det ikke bare endnu en kilometer-app?",
+      "a": "Den registrerer kilometrene på samme måde, uden startknap. Forskellen er, hvad der sker bagefter: din indtjening ind, brændstof, parkering og driftsudgifter ud, og så fortæller appen dig, hvad timen faktisk gav. Et kilometertal alene har aldrig fortalt nogen, om turen var det værd."
+    },
     {
       "q": "Dræner den batteriet?",
       "a": "DropLane holder ikke GPS'en tændt hele dagen. Den ligger stille, indtil den mærker at du har forladt det sted du parkerede, registrerer mens du kører, og falder i søvn igen når du holder stille."

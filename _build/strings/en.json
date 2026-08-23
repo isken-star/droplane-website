@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — Every mile paid for",
-  "meta_description": "DropLane records a courier's drives automatically, adds up the day's earnings against the costs, and keeps a mileage record the tax office will accept. Twenty-four languages, everything on your phone.",
+  "meta_title": "DropLane — Know what the day really paid",
+  "meta_description": "DropLane records a courier's drives on its own, takes the fuel, the parking and the running costs off the takings, and tells you what the hour actually paid. Plus a mileage record the tax office will accept, in twenty-four languages, all on your phone.",
   "nav_label": "Main",
   "nav_how": "How it works",
   "nav_day": "What it pays",
@@ -24,8 +24,8 @@
   "langbar_rest": "Pick yours — the app speaks it too.",
   "per_month_short": "a month",
   "see_all": "see all",
-  "hero_h1": "Every mile paid for.",
-  "hero_lede": "Start the van. That's it. DropLane records the drive, maps the route it actually took, and totals the day before you're through the door.",
+  "hero_h1": "Know what the day really paid.",
+  "hero_lede": "Start the van. That's it. DropLane records every drive and the route it actually took, takes the costs off the takings, and has your hourly rate waiting before you're through the door.",
   "hero_cta_price": "See the price",
   "hero_cta_how": "How it works",
   "hero_note": "14 days free · no account, no ads · iPhone",
@@ -43,6 +43,18 @@
       "label": "tax rates built in"
     }
   ],
+  "money_h2": "A mileage app tells you half the story",
+  "money_intro": "Miles are the easy half — any tracker counts those. The half that decides whether a round was worth doing is what came in, what it cost you and how many hours it took. That is the half nobody adds up.",
+  "money_a_title": "What a mileage app knows",
+  "money_a_1": "312 miles",
+  "money_a_2": "A claim for the tax office",
+  "money_a_3": "That's the lot",
+  "money_b_title": "What DropLane knows",
+  "money_b_1": "312 miles, recorded on their own",
+  "money_b_2": "£179.01 in, £45.49 out",
+  "money_b_3": "8 h 43 m on the road",
+  "money_b_4": "£15.32 an hour",
+  "money_note": "Same day, same van. Only one of those two lists tells you whether to take that round again.",
   "day_h2": "What did the day actually pay?",
   "day_intro": "£179.01 sounds like a good day. Eight hours and forty-three minutes, three hundred and twelve miles and £45.49 of costs later, it worked out at £15.32 an hour. That is the number nobody on the road has, and the one DropLane hands you before you're through the door.",
   "day_film1_title": "The day added itself up",
@@ -80,14 +92,19 @@
   "features_intro": "Built by a courier with ten years on the road, for the job as it really is.",
   "features": [
     {
-      "icon": "🛣️",
-      "title": "Mileage without touching the phone",
-      "body": "Drives record themselves in the background, from the moment you pull away to the moment you park."
-    },
-    {
       "icon": "💷",
       "title": "What the day actually paid",
       "body": "Earnings in, fuel and costs out, and the number that matters at the bottom — per day, week, month."
+    },
+    {
+      "icon": "⛽",
+      "title": "What an hour really pays",
+      "body": "Fuel, finance and insurance spread across the days you work, so the hourly figure is the true one."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Mileage without touching the phone",
+      "body": "Drives record themselves in the background, from the moment you pull away to the moment you park."
     },
     {
       "icon": "🧾",
@@ -98,11 +115,6 @@
       "icon": "🅿️",
       "title": "Stops and waiting time",
       "body": "See how long you sat at each drop or depot, without writing anything down."
-    },
-    {
-      "icon": "⛽",
-      "title": "What an hour really pays",
-      "body": "Fuel, finance and insurance spread across the days you work, so the hourly figure is the true one."
     },
     {
       "icon": "🔒",
@@ -201,6 +213,10 @@
   "faq_h2": "Questions couriers actually ask",
   "faq_intro": "Straight answers, from someone who does the job.",
   "faq": [
+    {
+      "q": "Isn't this just another mileage tracker?",
+      "a": "It records mileage the same way, without a start button. The difference is what happens after: your takings go in, the fuel, parking and running costs come off, and the app tells you what the hour actually paid. A mileage figure on its own never told anyone whether the round was worth doing."
+    },
     {
       "q": "Does it drain the battery?",
       "a": "DropLane doesn't keep the GPS running all day. It sits quietly until it notices you've left where you parked, records while you're moving, and goes back to sleep when you stop."

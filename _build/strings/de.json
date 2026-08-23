@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — jeder Kilometer wird bezahlt",
-  "meta_description": "DropLane zeichnet die Fahrten von Kurierfahrern automatisch auf, rechnet die Einnahmen des Tages gegen die Kosten und führt ein Fahrtenbuch für die Steuer. Vierundzwanzig Sprachen, alles auf dem Handy.",
+  "meta_title": "DropLane — Wissen, was der Tag wirklich gebracht hat",
+  "meta_description": "DropLane zeichnet die Fahrten von Kurieren ganz allein auf, zieht Sprit, Parkgebühren und laufende Kosten von den Einnahmen ab und sagt dir, was die Stunde wirklich gebracht hat. Dazu ein Fahrtenbuch, das das Finanzamt akzeptiert — in vierundzwanzig Sprachen, alles auf dem Handy.",
   "nav_label": "Hauptmenü",
   "nav_how": "So funktioniert's",
   "nav_day": "Was bleibt",
@@ -24,8 +24,8 @@
   "langbar_rest": "Such dir deine aus — die App spricht sie auch.",
   "per_month_short": "im Monat",
   "see_all": "alle ansehen",
-  "hero_h1": "Jeder Kilometer wird bezahlt.",
-  "hero_lede": "Motor an. Das war's. DropLane zeichnet die Fahrt auf, zeichnet die Strecke, die du wirklich gefahren bist, und rechnet den Tag ab, bevor du zur Tür herein bist.",
+  "hero_h1": "Wissen, was der Tag wirklich gebracht hat.",
+  "hero_lede": "Motor an. Das war's. DropLane zeichnet die Fahrt auf, speichert die Strecke, die du wirklich gefahren bist, und rechnet den Tag ab, sobald du Feierabend machst.",
   "hero_cta_price": "Preis ansehen",
   "hero_cta_how": "So funktioniert's",
   "hero_note": "14 Tage gratis · kein Konto, keine Werbung · iPhone",
@@ -43,8 +43,20 @@
       "label": "Kilometersätze eingebaut"
     }
   ],
+  "money_h2": "Eine Kilometer-App erzählt dir die Hälfte",
+  "money_intro": "Die Kilometer sind die leichte Hälfte — die zählt jede App. Die Hälfte, die entscheidet, ob die Tour sich gelohnt hat, ist: was reinkam, was sie dich gekostet hat und wie viele Stunden sie gedauert hat. Genau die rechnet niemand zusammen.",
+  "money_a_title": "Was eine Kilometer-App weiß",
+  "money_a_1": "312 Meilen",
+  "money_a_2": "Eine Pauschale fürs Finanzamt",
+  "money_a_3": "Mehr nicht",
+  "money_b_title": "Was DropLane weiß",
+  "money_b_1": "312 Meilen, ganz von allein erfasst",
+  "money_b_2": "179,01 £ rein, 45,49 £ raus",
+  "money_b_3": "8 Std. 43 unterwegs",
+  "money_b_4": "15,32 £ die Stunde",
+  "money_note": "Gleicher Tag, gleicher Wagen. Nur eine der beiden Listen sagt dir, ob du die Tour noch mal fährst.",
   "day_h2": "Was hat der Tag wirklich gebracht?",
-  "day_intro": "179,01 £ klingt nach einem guten Tag. Acht Stunden dreiundvierzig, 312 Meilen und 45,49 £ Kosten später waren es 15,32 £ die Stunde. Das ist die Zahl, die auf der Straße niemand hat — und die, die DropLane dir gibt, bevor du zur Tür herein bist.",
+  "day_intro": "179,01 £ klingt nach einem guten Tag. Acht Stunden dreiundvierzig, 312 Meilen und 45,49 £ Kosten später waren es 15,32 £ die Stunde. Das ist die Zahl, die auf der Straße niemand hat — und die, die DropLane dir gibt, sobald du Feierabend machst.",
   "day_film1_title": "Der Tag hat sich selbst zusammengerechnet",
   "day_film1_body": "Drei Fahrten, 312 Meilen, 133,52 £ — und eine ist noch zu sortieren. Getippt wurde nichts.",
   "day_film2_title": "Der Bericht baut sich selbst",
@@ -80,14 +92,19 @@
   "features_intro": "Gebaut von einem Kurierfahrer mit zehn Jahren auf der Straße, für den Job wie er wirklich ist.",
   "features": [
     {
-      "icon": "🛣️",
-      "title": "Kilometer, ohne das Handy anzufassen",
-      "body": "Fahrten zeichnen sich im Hintergrund selbst auf, vom Losfahren bis zum Parken."
-    },
-    {
       "icon": "💷",
       "title": "Was der Tag wirklich gebracht hat",
       "body": "Einnahmen rein, Sprit und Kosten raus, und unten die Zahl, auf die es ankommt — pro Tag, Woche, Monat."
+    },
+    {
+      "icon": "⛽",
+      "title": "Was eine Stunde wirklich bringt",
+      "body": "Sprit, Rate und Versicherung auf deine Arbeitstage verteilt, damit der Stundenwert der echte ist."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Kilometer, ohne das Handy anzufassen",
+      "body": "Fahrten zeichnen sich im Hintergrund selbst auf, vom Losfahren bis zum Parken."
     },
     {
       "icon": "🧾",
@@ -98,11 +115,6 @@
       "icon": "🅿️",
       "title": "Stopps und Wartezeit",
       "body": "Sieh, wie lange du an jeder Abladestelle oder im Depot standest, ohne etwas aufzuschreiben."
-    },
-    {
-      "icon": "⛽",
-      "title": "Was eine Stunde wirklich bringt",
-      "body": "Sprit, Rate und Versicherung auf deine Arbeitstage verteilt, damit der Stundenwert der echte ist."
     },
     {
       "icon": "🔒",
@@ -201,6 +213,10 @@
   "faq_h2": "Fragen, die Fahrer wirklich stellen",
   "faq_intro": "Klare Antworten, von jemandem der den Job macht.",
   "faq": [
+    {
+      "q": "Ist das nicht nur noch eine Kilometer-App?",
+      "a": "Die Kilometer erfasst sie genauso, ohne Startknopf. Der Unterschied kommt danach: deine Einnahmen rein, Sprit, Parkgebühren und laufende Kosten raus, und dann sagt dir die App, was die Stunde wirklich gebracht hat. Eine Kilometerzahl allein hat noch nie jemandem gesagt, ob die Tour sich gelohnt hat."
+    },
     {
       "q": "Zieht sie den Akku leer?",
       "a": "DropLane lässt das GPS nicht den ganzen Tag laufen. Sie wartet still, bis sie merkt, dass du vom Parkplatz weg bist, zeichnet auf während du fährst, und schläft wieder ein, wenn du stehst."

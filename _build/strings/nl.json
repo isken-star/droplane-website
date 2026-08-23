@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — elke kilometer betaald",
-  "meta_description": "DropLane legt de ritten van een koerier automatisch vast, telt de opbrengst van de dag op tegen de kosten, en houdt een kilometerregistratie bij die de Belastingdienst accepteert. Vierentwintig talen, alles op je telefoon.",
+  "meta_title": "DropLane — Weten wat de dag echt opleverde",
+  "meta_description": "DropLane legt de ritten van de koerier vanzelf vast, haalt brandstof, parkeergeld en autokosten van de omzet af en vertelt je wat het uur echt opleverde. Plus een kilometerregistratie die de fiscus accepteert, in vierentwintig talen, allemaal op je telefoon.",
   "nav_label": "Hoofdmenu",
   "nav_how": "Hoe het werkt",
   "nav_day": "Wat het oplevert",
@@ -24,8 +24,8 @@
   "langbar_rest": "Kies de jouwe — de app spreekt hem ook.",
   "per_month_short": "per maand",
   "see_all": "bekijk alle",
-  "hero_h1": "Elke kilometer betaald.",
-  "hero_lede": "Start de bus. Meer niet. DropLane legt de rit vast, tekent de route die je echt reed, en telt de dag op voordat je binnen bent.",
+  "hero_h1": "Weten wat de dag echt opleverde.",
+  "hero_lede": "Start de bus. Meer niet. DropLane legt elke rit vast en de route die je echt reed, haalt de kosten van de omzet af, en je uurtarief ligt klaar voor je binnen bent.",
   "hero_cta_price": "Bekijk de prijs",
   "hero_cta_how": "Hoe het werkt",
   "hero_note": "14 dagen gratis · geen account, geen advertenties · iPhone",
@@ -43,6 +43,18 @@
       "label": "kilometervergoedingen ingebouwd"
     }
   ],
+  "money_h2": "Een kilometerapp vertelt je de helft",
+  "money_intro": "De kilometers zijn de makkelijke helft — die telt elke app. De helft die bepaalt of de rit het waard was, is wat erin kwam, wat het je kostte en hoeveel uur het duurde. En dat is precies de helft die niemand optelt.",
+  "money_a_title": "Wat een kilometerapp weet",
+  "money_a_1": "312 mijl",
+  "money_a_2": "Een aftrekpost voor de fiscus",
+  "money_a_3": "En daar houdt het op",
+  "money_b_title": "Wat DropLane weet",
+  "money_b_1": "312 mijl, vanzelf vastgelegd",
+  "money_b_2": "£179,01 erin, £45,49 eruit",
+  "money_b_3": "8 u 43 m onderweg",
+  "money_b_4": "£15,32 per uur",
+  "money_note": "Zelfde dag, zelfde bus. Maar één van die twee lijstjes vertelt je of je die rit nog eens doet.",
   "day_h2": "Wat leverde de dag echt op?",
   "day_intro": "£179,01 klinkt als een goede dag. Acht uur drieënveertig, 312 mijl en £45,49 aan kosten later kwam het neer op £15,32 per uur. Dat is het getal dat niemand onderweg heeft, en het getal dat DropLane je geeft voor je binnen bent.",
   "day_film1_title": "De dag telde zichzelf op",
@@ -80,14 +92,19 @@
   "features_intro": "Gebouwd door een koerier met tien jaar op de weg, voor het werk zoals het echt is.",
   "features": [
     {
-      "icon": "🛣️",
-      "title": "Kilometers zonder je telefoon aan te raken",
-      "body": "Ritten leggen zichzelf op de achtergrond vast, vanaf het wegrijden tot het parkeren."
-    },
-    {
       "icon": "💷",
       "title": "Wat de dag echt opbracht",
       "body": "Inkomsten erin, brandstof en kosten eruit, en onderaan het getal dat telt — per dag, week en maand."
+    },
+    {
+      "icon": "⛽",
+      "title": "Wat een uur echt oplevert",
+      "body": "Brandstof, financiering en verzekering verdeeld over je werkdagen, zodat het uurbedrag klopt."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Kilometers zonder je telefoon aan te raken",
+      "body": "Ritten leggen zichzelf op de achtergrond vast, vanaf het wegrijden tot het parkeren."
     },
     {
       "icon": "🧾",
@@ -98,11 +115,6 @@
       "icon": "🅿️",
       "title": "Stops en wachttijd",
       "body": "Zie hoelang je bij elk adres of depot stond, zonder iets op te schrijven."
-    },
-    {
-      "icon": "⛽",
-      "title": "Wat een uur echt oplevert",
-      "body": "Brandstof, financiering en verzekering verdeeld over je werkdagen, zodat het uurbedrag klopt."
     },
     {
       "icon": "🔒",
@@ -201,6 +213,10 @@
   "faq_h2": "Vragen die koeriers echt stellen",
   "faq_intro": "Rechttoe rechtaan antwoorden, van iemand die het werk doet.",
   "faq": [
+    {
+      "q": "Is dit niet gewoon weer een kilometerapp?",
+      "a": "De kilometers legt hij op dezelfde manier vast, zonder startknop. Het verschil zit in wat daarna komt: je omzet erin, brandstof, parkeergeld en autokosten eruit, en dan vertelt de app je wat het uur echt opleverde. Een kilometerstand alleen heeft nog nooit iemand verteld of de rit het waard was."
+    },
     {
       "q": "Loopt mijn batterij leeg?",
       "a": "DropLane laat de gps niet de hele dag aanstaan. Hij wacht rustig tot hij merkt dat je weg bent van waar je parkeerde, legt vast terwijl je rijdt, en valt weer in slaap als je stilstaat."

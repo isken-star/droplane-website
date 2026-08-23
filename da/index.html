@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>DropLane — hver kilometer skal betale sig</title>
-<meta name="description" content="DropLane registrerer dine ture automatisk, lægger dagens indtjening sammen og trækker udgifterne fra, og fører et kørselsregnskab, SKAT kan bruge. Fireogtyve sprog, det hele på din telefon.">
+<title>DropLane — Find ud af, hvad dagen faktisk gav</title>
+<meta name="description" content="DropLane registrerer bud- og varebilsture helt af sig selv, trækker brændstof, parkering og driftsudgifter fra indtjeningen og fortæller dig, hvad timen faktisk gav. Plus et kørselsregnskab, skattevæsenet godtager — på fireogtyve sprog, alt sammen på telefonen.">
 <script>
   /* Set the theme before the first paint, so the page never flashes white. */
   (function () {
@@ -35,8 +35,8 @@
 <link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
 <link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
 <link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
-<meta property="og:title" content="DropLane — hver kilometer skal betale sig">
-<meta property="og:description" content="DropLane registrerer dine ture automatisk, lægger dagens indtjening sammen og trækker udgifterne fra, og fører et kørselsregnskab, SKAT kan bruge. Fireogtyve sprog, det hele på din telefon.">
+<meta property="og:title" content="DropLane — Find ud af, hvad dagen faktisk gav">
+<meta property="og:description" content="DropLane registrerer bud- og varebilsture helt af sig selv, trækker brændstof, parkering og driftsudgifter fra indtjeningen og fortæller dig, hvad timen faktisk gav. Plus et kørselsregnskab, skattevæsenet godtager — på fireogtyve sprog, alt sammen på telefonen.">
 <meta property="og:url" content="https://www.droplane.co.uk/da/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="da_DK">
@@ -49,7 +49,7 @@
     <a class="brand" href="/da/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
 
     <nav class="menu" aria-label="Hovedmenu">
-      <a href="#day">Hvad det giver</a>
+      <a href="#money">Hvad det giver</a>
       <a href="#how">Sådan virker det</a>
       <a href="#features">Hvad den kan</a>
       <a href="#screens">Skærmbilleder</a>
@@ -106,7 +106,7 @@
   <div class="sheet" id="sheet" data-open="false">
     <div class="wrap">
       <nav class="sheet-list" aria-label="Hovedmenu">
-        <a href="#day">Hvad det giver</a>
+        <a href="#money">Hvad det giver</a>
         <a href="#how">Sådan virker det</a>
         <a href="#features">Hvad den kan</a>
         <a href="#screens">Skærmbilleder</a>
@@ -134,8 +134,8 @@
   <div class="wrap hero-grid">
     <div>
       <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇩🇰</span><b data-region="DK">Denmark</b><span class="eyebrow-cost"><span class="eyebrow-price">49 DKK</span> <span class="eyebrow-per">om måneden</span></span><a href="#pricing">se alle</a></span>
-      <h1>Hver kilometer skal betale sig.</h1>
-      <p class="lede">Start bilen. Så er det klaret. DropLane registrerer turen, tegner den rute du faktisk kørte, og gør dagen op, før du er inden for døren.</p>
+      <h1>Find ud af, hvad dagen faktisk gav.</h1>
+      <p class="lede">Start bilen. Det var det. DropLane registrerer hver tur og den rute, du faktisk kørte, trækker udgifterne fra indtjeningen, og din timeløn ligger klar, når du har fri.</p>
       <div class="cta-row">
         <a class="btn" href="#pricing">Se prisen</a>
         <a class="btn-ghost" href="#how">Sådan virker det</a>
@@ -157,15 +157,40 @@
       </div>
       <div class="device device-front">
         <div class="device-screen">
-          <video class="only-dark" data-film src="/assets/film/hero-dark.mp4" poster="/assets/film/hero-dark.webp"
-                 width="480" height="1044" muted loop playsinline preload="none"
-                 aria-label="DropLanes I dag-skærm: en tur registreres på kortet, med dagens distance, timer og indtjening."></video>
-          <video class="only-light" data-film src="/assets/film/hero-light.mp4" poster="/assets/film/hero-light.webp"
-                 width="480" height="1044" muted loop playsinline preload="none"
-                 aria-label="DropLanes I dag-skærm: en tur registreres på kortet, med dagens distance, timer og indtjening."></video>
+          <img class="only-dark" src="/assets/screens/da/dark/today.webp" width="640" height="1391" alt="DropLanes I dag-skærm: en tur registreres på kortet, med dagens distance, timer og indtjening." loading="eager">
+          <img class="only-light" src="/assets/screens/da/light/today.webp" width="640" height="1391" alt="DropLanes I dag-skærm: en tur registreres på kortet, med dagens distance, timer og indtjening." loading="eager">
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>En kilometer-app fortæller dig det halve</h2>
+    <p class="section-intro">Kilometrene er den nemme halvdel — dem tæller enhver app. Den halvdel, der afgør, om turen var det værd, er hvad der kom ind, hvad det kostede dig, og hvor mange timer det tog. Det er den halvdel, ingen lægger sammen.</p>
+
+    <div class="versus">
+      <div class="versus-side versus-half">
+        <h3>Det en kilometer-app ved</h3>
+        <ul>
+          <li>312 miles</li>
+          <li>Et fradrag til skattevæsenet</li>
+          <li class="versus-stop">Og så ikke mere</li>
+        </ul>
+      </div>
+      <div class="versus-side versus-whole">
+        <h3>Det DropLane ved</h3>
+        <ul>
+          <li>312 miles, registreret af sig selv</li>
+          <li>179,01 £ ind, 45,49 £ ud</li>
+          <li>8 t 43 m på vejen</li>
+          <li class="versus-answer">15,32 £ i timen</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="versus-note">Samme dag, samme bil. Kun den ene af de to lister fortæller dig, om du skal tage turen igen.</p>
   </div>
 </section>
 
@@ -298,14 +323,19 @@
     <p class="section-intro">Lavet af en chauffør med ti år på vejen, til jobbet som det virkelig er.</p>
     <div class="cards">
       <div class="card">
-        <span class="icon">🛣️</span>
-        <h3>Kørsel uden at røre telefonen</h3>
-        <p>Turene registrerer sig selv i baggrunden, fra du kører fra kantstenen til du parkerer igen.</p>
-      </div>
-      <div class="card">
         <span class="icon">💷</span>
         <h3>Hvad dagen faktisk gav</h3>
         <p>Indtægter ind, brændstof og udgifter ud, og tallet der betyder noget nederst — pr. dag, uge og måned.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>Hvad en time reelt giver</h3>
+        <p>Brændstof, billån og forsikring fordelt over de dage du arbejder, så timelønnen er den rigtige.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>Kørsel uden at røre telefonen</h3>
+        <p>Turene registrerer sig selv i baggrunden, fra du kører fra kantstenen til du parkerer igen.</p>
       </div>
       <div class="card">
         <span class="icon">🧾</span>
@@ -316,11 +346,6 @@
         <span class="icon">🅿️</span>
         <h3>Stop og ventetid</h3>
         <p>Se hvor længe du holdt ved hver aflevering eller på terminalen, uden at skrive noget ned.</p>
-      </div>
-      <div class="card">
-        <span class="icon">⛽</span>
-        <h3>Hvad en time reelt giver</h3>
-        <p>Brændstof, billån og forsikring fordelt over de dage du arbejder, så timelønnen er den rigtige.</p>
       </div>
       <div class="card">
         <span class="icon">🔒</span>
@@ -581,6 +606,10 @@
     <h2>Spørgsmål chauffører faktisk stiller</h2>
     <p class="section-intro">Lige svar, fra en der selv kører.</p>
     <div class="faq">
+      <details>
+        <summary>Er det ikke bare endnu en kilometer-app?</summary>
+        <p>Den registrerer kilometrene på samme måde, uden startknap. Forskellen er, hvad der sker bagefter: din indtjening ind, brændstof, parkering og driftsudgifter ud, og så fortæller appen dig, hvad timen faktisk gav. Et kilometertal alene har aldrig fortalt nogen, om turen var det værd.</p>
+      </details>
       <details>
         <summary>Dræner den batteriet?</summary>
         <p>DropLane holder ikke GPS&#x27;en tændt hele dagen. Den ligger stille, indtil den mærker at du har forladt det sted du parkerede, registrerer mens du kører, og falder i søvn igen når du holder stille.</p>

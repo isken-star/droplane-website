@@ -39,7 +39,7 @@
     <a class="brand" href="{{path}}"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
 
     <nav class="menu" aria-label="{{nav_label}}">
-      <a href="#day">{{nav_day}}</a>
+      <a href="#money">{{nav_day}}</a>
       <a href="#how">{{nav_how}}</a>
       <a href="#features">{{nav_features}}</a>
       <a href="#screens">{{nav_screens}}</a>
@@ -87,7 +87,7 @@
   <div class="sheet" id="sheet" data-open="false">
     <div class="wrap">
       <nav class="sheet-list" aria-label="{{nav_label}}">
-        <a href="#day">{{nav_day}}</a>
+        <a href="#money">{{nav_day}}</a>
         <a href="#how">{{nav_how}}</a>
         <a href="#features">{{nav_features}}</a>
         <a href="#screens">{{nav_screens}}</a>
@@ -136,15 +136,39 @@
       </div>
       <div class="device device-front">
         <div class="device-screen">
-          <video class="only-dark" data-film src="/assets/film/hero-dark.mp4" poster="/assets/film/hero-dark.webp"
-                 width="480" height="1044" muted loop playsinline preload="none"
-                 aria-label="{{alt_today}}"></video>
-          <video class="only-light" data-film src="/assets/film/hero-light.mp4" poster="/assets/film/hero-light.webp"
-                 width="480" height="1044" muted loop playsinline preload="none"
-                 aria-label="{{alt_today}}"></video>
+{{hero_phone}}
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>{{money_h2}}</h2>
+    <p class="section-intro">{{money_intro}}</p>
+
+    <div class="versus">
+      <div class="versus-side versus-half">
+        <h3>{{money_a_title}}</h3>
+        <ul>
+          <li>{{money_a_1}}</li>
+          <li>{{money_a_2}}</li>
+          <li class="versus-stop">{{money_a_3}}</li>
+        </ul>
+      </div>
+      <div class="versus-side versus-whole">
+        <h3>{{money_b_title}}</h3>
+        <ul>
+          <li>{{money_b_1}}</li>
+          <li>{{money_b_2}}</li>
+          <li>{{money_b_3}}</li>
+          <li class="versus-answer">{{money_b_4}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="versus-note">{{money_note}}</p>
   </div>
 </section>
 

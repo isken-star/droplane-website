@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — każdy kilometr opłacony",
-  "meta_description": "DropLane sam zapisuje przejazdy kuriera, zlicza dzienny zarobek po odjęciu kosztów i prowadzi ewidencję przebiegu, którą przyjmie księgowa. Dwadzieścia cztery języki, wszystko w telefonie.",
+  "meta_title": "DropLane — Wiedz, ile naprawdę dał dzień",
+  "meta_description": "DropLane sam zapisuje przejazdy kuriera, odejmuje paliwo, parkingi i koszty auta od utargu i mówi ci, ile naprawdę dała godzina. Do tego ewidencja przebiegu, którą przyjmie urząd skarbowy — w dwudziestu czterech językach, wszystko w telefonie.",
   "nav_label": "Menu główne",
   "nav_how": "Jak to działa",
   "nav_day": "Ile zostaje",
@@ -24,8 +24,8 @@
   "langbar_rest": "Wybierz swój — aplikacja też nim mówi.",
   "per_month_short": "miesięcznie",
   "see_all": "zobacz wszystkie",
-  "hero_h1": "Każdy kilometr opłacony.",
-  "hero_lede": "Odpal busa. Tyle. DropLane zapisze przejazd, narysuje trasę, którą naprawdę pojechałeś, i podliczy dzień, zanim wejdziesz do domu.",
+  "hero_h1": "Wiedz, ile naprawdę dał dzień.",
+  "hero_lede": "Odpal busa. To wszystko. DropLane zapisuje każdy przejazd i trasę, którą naprawdę pokonałeś, odejmuje koszty od utargu, a twoja stawka godzinowa czeka gotowa, zanim wejdziesz do domu.",
   "hero_cta_price": "Zobacz cenę",
   "hero_cta_how": "Jak to działa",
   "hero_note": "14 dni za darmo · bez konta, bez reklam · iPhone",
@@ -43,6 +43,18 @@
       "label": "stawek za kilometr w środku"
     }
   ],
+  "money_h2": "Aplikacja od kilometrów mówi ci połowę",
+  "money_intro": "Kilometry to łatwa połowa — liczy je każda aplikacja. Ta połowa, która decyduje, czy trasa się opłaciła, to ile weszło, ile cię kosztowała i ile godzin zajęła. I właśnie tej połowy nikt nie sumuje.",
+  "money_a_title": "Co wie aplikacja od kilometrów",
+  "money_a_1": "312 mil",
+  "money_a_2": "Ryczałt dla urzędu skarbowego",
+  "money_a_3": "I na tym koniec",
+  "money_b_title": "Co wie DropLane",
+  "money_b_1": "312 mil, zapisanych samoczynnie",
+  "money_b_2": "179,01 £ do środka, 45,49 £ na zewnątrz",
+  "money_b_3": "8 h 43 min na trasie",
+  "money_b_4": "15,32 £ za godzinę",
+  "money_note": "Ten sam dzień, ten sam bus. Tylko jedna z tych dwóch list mówi ci, czy wziąć tę trasę jeszcze raz.",
   "day_h2": "Ile ten dzień naprawdę dał?",
   "day_intro": "179,01 £ brzmi jak dobry dzień. Osiem godzin czterdzieści trzy minuty, 312 mil i 45,49 £ kosztów później wyszło 15,32 £ za godzinę. To liczba, której na trasie nie ma nikt — i ta, którą DropLane podaje ci, zanim wejdziesz do domu.",
   "day_film1_title": "Dzień policzył się sam",
@@ -80,14 +92,19 @@
   "features_intro": "Zrobione przez kuriera z dziesięcioma latami na drodze, pod tę robotę, jaka jest naprawdę.",
   "features": [
     {
-      "icon": "🛣️",
-      "title": "Kilometry bez dotykania telefonu",
-      "body": "Przejazdy zapisują się w tle, od ruszenia spod krawężnika po zaparkowanie."
-    },
-    {
       "icon": "💷",
       "title": "Ile dzień naprawdę dał",
       "body": "Wpływy z jednej strony, paliwo i koszty z drugiej, a na dole liczba, która się liczy — dziennie, tygodniowo, miesięcznie."
+    },
+    {
+      "icon": "⛽",
+      "title": "Ile naprawdę płaci godzina",
+      "body": "Paliwo, rata i ubezpieczenie rozłożone na dni pracy, żeby stawka godzinowa była prawdziwa."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Kilometry bez dotykania telefonu",
+      "body": "Przejazdy zapisują się w tle, od ruszenia spod krawężnika po zaparkowanie."
     },
     {
       "icon": "🧾",
@@ -98,11 +115,6 @@
       "icon": "🅿️",
       "title": "Postoje i czas czekania",
       "body": "Zobacz, ile stałeś przy każdej dostawie albo w magazynie, bez zapisywania czegokolwiek."
-    },
-    {
-      "icon": "⛽",
-      "title": "Ile naprawdę płaci godzina",
-      "body": "Paliwo, rata i ubezpieczenie rozłożone na dni pracy, żeby stawka godzinowa była prawdziwa."
     },
     {
       "icon": "🔒",
@@ -201,6 +213,10 @@
   "faq_h2": "Pytania, które kurierzy naprawdę zadają",
   "faq_intro": "Proste odpowiedzi od kogoś, kto sam jeździ.",
   "faq": [
+    {
+      "q": "Czy to nie kolejna aplikacja do liczenia kilometrów?",
+      "a": "Kilometry zapisuje tak samo, bez przycisku start. Różnica jest w tym, co dalej: wchodzi twój utarg, schodzą paliwo, parkingi i koszty auta, a aplikacja mówi ci, ile naprawdę dała godzina. Sama liczba kilometrów nigdy nikomu nie powiedziała, czy trasa się opłaciła."
+    },
     {
       "q": "Czy zjada baterię?",
       "a": "DropLane nie trzyma GPS-u włączonego cały dzień. Czeka spokojnie, aż wyczuje, że ruszyłeś z miejsca postoju, nagrywa w czasie jazdy i znowu zasypia, kiedy stoisz."

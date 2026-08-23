@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — chaque kilomètre payé",
-  "meta_description": "DropLane enregistre automatiquement les trajets d'un coursier, additionne les recettes de la journée face aux frais, et tient un carnet de bord kilométrique que le fisc accepte. Vingt-quatre langues, tout sur le téléphone.",
+  "meta_title": "DropLane — Savoir ce que la journée a vraiment payé",
+  "meta_description": "DropLane enregistre les trajets du coursier tout seul, retire le carburant, le stationnement et les frais de route des recettes, et vous dit ce que l'heure a vraiment payé. Plus un relevé kilométrique que le fisc accepte, en vingt-quatre langues, tout sur le téléphone.",
   "nav_label": "Menu principal",
   "nav_how": "Comment ça marche",
   "nav_day": "Ce que ça rapporte",
@@ -24,8 +24,8 @@
   "langbar_rest": "Choisissez la vôtre — l'application la parle aussi.",
   "per_month_short": "par mois",
   "see_all": "voir tout",
-  "hero_h1": "Chaque kilomètre payé.",
-  "hero_lede": "Démarrez le camion. C'est tout. DropLane enregistre le trajet, trace la route réellement suivie, et fait le compte de la journée avant que vous ayez passé la porte.",
+  "hero_h1": "Savoir ce que la journée a vraiment payé.",
+  "hero_lede": "Démarrez le fourgon. C'est tout. DropLane enregistre chaque trajet et l'itinéraire réellement pris, retire les frais des recettes, et votre tarif horaire vous attend avant que vous ayez passé la porte.",
   "hero_cta_price": "Voir le prix",
   "hero_cta_how": "Comment ça marche",
   "hero_note": "14 jours gratuits · sans compte, sans publicité · iPhone",
@@ -43,6 +43,18 @@
       "label": "barèmes kilométriques intégrés"
     }
   ],
+  "money_h2": "Une appli de kilomètres ne raconte que la moitié",
+  "money_intro": "Les kilomètres, c'est la moitié facile — n'importe quelle appli les compte. La moitié qui décide si la tournée valait le coup, c'est ce qui est rentré, ce qu'elle vous a coûté et combien d'heures elle a pris. Et personne ne fait cette addition-là.",
+  "money_a_title": "Ce que sait une appli de kilomètres",
+  "money_a_1": "312 miles",
+  "money_a_2": "Une indemnité pour le fisc",
+  "money_a_3": "Et c'est tout",
+  "money_b_title": "Ce que sait DropLane",
+  "money_b_1": "312 miles, enregistrés tout seuls",
+  "money_b_2": "179,01 £ entrés, 45,49 £ sortis",
+  "money_b_3": "8 h 43 sur la route",
+  "money_b_4": "15,32 £ de l'heure",
+  "money_note": "Même journée, même fourgon. Une seule des deux listes vous dit s'il faut refaire cette tournée.",
   "day_h2": "La journée, elle a rapporté combien ?",
   "day_intro": "179,01 £, ça ressemble à une bonne journée. Huit heures quarante-trois, 312 miles et 45,49 £ de frais plus tard, ça faisait 15,32 £ de l'heure. C'est le chiffre que personne n'a sur la route, et celui que DropLane vous donne avant que vous ayez passé la porte.",
   "day_film1_title": "La journée s'est additionnée toute seule",
@@ -80,14 +92,19 @@
   "features_intro": "Conçue par un coursier avec dix ans de route, pour le métier tel qu'il est.",
   "features": [
     {
-      "icon": "🛣️",
-      "title": "Les kilomètres sans toucher le téléphone",
-      "body": "Les trajets s'enregistrent en arrière-plan, du démarrage jusqu'au stationnement."
-    },
-    {
       "icon": "💷",
       "title": "Ce que la journée a vraiment rapporté",
       "body": "Recettes d'un côté, carburant et frais de l'autre, et en bas le chiffre qui compte — par jour, semaine et mois."
+    },
+    {
+      "icon": "⛽",
+      "title": "Ce qu'une heure rapporte vraiment",
+      "body": "Carburant, crédit et assurance répartis sur vos jours travaillés, pour un taux horaire honnête."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Les kilomètres sans toucher le téléphone",
+      "body": "Les trajets s'enregistrent en arrière-plan, du démarrage jusqu'au stationnement."
     },
     {
       "icon": "🧾",
@@ -98,11 +115,6 @@
       "icon": "🅿️",
       "title": "Arrêts et temps d'attente",
       "body": "Voyez combien de temps vous êtes resté à chaque livraison ou au dépôt, sans rien noter."
-    },
-    {
-      "icon": "⛽",
-      "title": "Ce qu'une heure rapporte vraiment",
-      "body": "Carburant, crédit et assurance répartis sur vos jours travaillés, pour un taux horaire honnête."
     },
     {
       "icon": "🔒",
@@ -201,6 +213,10 @@
   "faq_h2": "Les questions que les coursiers posent vraiment",
   "faq_intro": "Des réponses directes, par quelqu'un qui fait le métier.",
   "faq": [
+    {
+      "q": "Ce n'est pas encore une appli de kilomètres ?",
+      "a": "Elle enregistre les kilomètres pareil, sans bouton départ. La différence vient après : vos recettes entrent, le carburant, le stationnement et les frais sortent, et l'appli vous dit ce que l'heure a vraiment payé. Un chiffre de kilomètres tout seul n'a jamais dit à personne si la tournée valait le coup."
+    },
     {
       "q": "Est-ce que ça vide la batterie ?",
       "a": "DropLane ne laisse pas le GPS tourner toute la journée. Elle attend tranquillement de sentir que vous avez quitté votre place de stationnement, enregistre pendant que vous roulez, et se rendort à l'arrêt."
