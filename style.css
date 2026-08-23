@@ -393,6 +393,75 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 /* the floating cards would only crowd the phone on a small screen */
 @media (max-width: 620px)  { .float { display: none !important; } }
 
+/* ---------------- the day, on film ---------------------------------------
+
+   Three clips off a real phone, on a dark panel that stays dark in both
+   themes — the footage is night-mode footage, and a light card around it
+   would only make it look like a mistake.                                */
+
+.theatre {
+  margin-top: 4px;
+  padding: clamp(22px, 3.4vw, 40px);
+  border-radius: 28px;
+  border: 1px solid #1B2430;
+  background: radial-gradient(130% 120% at 50% -10%, #1A2532 0%, #0A0E14 58%, #05070A 100%);
+  color: #fff;
+}
+
+.films { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(16px, 2.6vw, 34px); }
+@media (max-width: 860px) {
+  .films { grid-template-columns: 1fr; max-width: 340px; margin-inline: auto; gap: 30px; }
+}
+
+.film { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 15px; }
+.film .device { width: min(100%, 232px); }
+.film figcaption {
+  text-align: center; font-size: 15.5px; color: #9FAAB8; max-width: 32ch; line-height: 1.5;
+}
+.film figcaption b {
+  display: block; color: #fff; font-size: 17.5px; font-weight: 800;
+  letter-spacing: -.01em; margin-bottom: 5px;
+}
+
+/* No display here: .only-light / .only-dark own that, and this selector
+   is the more specific of the two. */
+.device-screen video { width: 100%; height: auto; }
+/* Tapping a clip stops it, for anyone who wants to read a screen. */
+.film .device-screen { cursor: pointer; }
+
+/* ---- the sum underneath: in, out, and what is actually left ---------- */
+
+.tally { margin-top: clamp(26px, 3.4vw, 40px); border-top: 1px solid #1B2430; padding-top: 24px; }
+.tally-lead {
+  margin: 0 0 16px; font-size: 12.5px; font-weight: 700;
+  letter-spacing: .09em; text-transform: uppercase; color: #6E7987;
+}
+
+.sum { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px clamp(14px, 2vw, 26px); }
+.sum-item { display: flex; flex-direction: column; gap: 3px; }
+.sum-item span { font-size: 13px; font-weight: 700; color: #6E7987; }
+.sum-item b { font-size: clamp(24px, 3.4vw, 34px); font-weight: 800; letter-spacing: -.03em; }
+.sum-item .is-cost { color: #FF6B5A; }
+.sum-item .is-keep { color: #35C77B; }
+.sum-op { font-size: clamp(20px, 2.6vw, 26px); color: #6E7987; padding-bottom: 3px; }
+
+.rates {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px; margin: 22px 0 0; padding: 0; list-style: none;
+}
+@media (max-width: 620px) { .rates { grid-template-columns: 1fr; } }
+.rates li {
+  background: #10161E; border: 1px solid #1E2732; border-radius: 16px;
+  padding: 16px 18px; display: flex; flex-direction: column; gap: 2px;
+}
+.rates b { font-size: 26px; font-weight: 800; letter-spacing: -.03em; }
+.rates span { font-size: 13.5px; font-weight: 600; color: #6E7987; }
+.rates .rate-big { background: rgba(53,199,123,.10); border-color: rgba(53,199,123,.32); }
+.rates .rate-big b { font-size: clamp(30px, 4vw, 40px); color: #35C77B; }
+.rates .rate-big span { color: #9FAAB8; }
+
+.tally-note { margin: 18px 0 0; font-size: 14.5px; color: #6E7987; max-width: 74ch; line-height: 1.6; }
+
 /* ---------------- steps ---------------- */
 
 .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }

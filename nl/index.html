@@ -49,6 +49,7 @@
     <a class="brand" href="/nl/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
 
     <nav class="menu" aria-label="Hoofdmenu">
+      <a href="#day">Wat het oplevert</a>
       <a href="#how">Hoe het werkt</a>
       <a href="#features">Wat het doet</a>
       <a href="#screens">Schermen</a>
@@ -105,6 +106,7 @@
   <div class="sheet" id="sheet" data-open="false">
     <div class="wrap">
       <nav class="sheet-list" aria-label="Hoofdmenu">
+        <a href="#day">Wat het oplevert</a>
         <a href="#how">Hoe het werkt</a>
         <a href="#features">Wat het doet</a>
         <a href="#screens">Schermen</a>
@@ -155,9 +157,66 @@
       </div>
       <div class="device device-front">
         <div class="device-screen">
-          <img class="only-dark" src="/assets/screens/nl/dark/today.webp" width="640" height="1391" alt="Het Vandaag-scherm van DropLane: een rit wordt op de kaart vastgelegd, met de afstand, uren en opbrengst van de dag." loading="eager">
-          <img class="only-light" src="/assets/screens/nl/light/today.webp" width="640" height="1391" alt="Het Vandaag-scherm van DropLane: een rit wordt op de kaart vastgelegd, met de afstand, uren en opbrengst van de dag." loading="eager">
+          <video class="only-dark" data-film src="/assets/film/hero-dark.mp4" poster="/assets/film/hero-dark.webp"
+                 width="480" height="1044" muted loop playsinline preload="none"
+                 aria-label="Het Vandaag-scherm van DropLane: een rit wordt op de kaart vastgelegd, met de afstand, uren en opbrengst van de dag."></video>
+          <video class="only-light" data-film src="/assets/film/hero-light.mp4" poster="/assets/film/hero-light.webp"
+                 width="480" height="1044" muted loop playsinline preload="none"
+                 aria-label="Het Vandaag-scherm van DropLane: een rit wordt op de kaart vastgelegd, met de afstand, uren en opbrengst van de dag."></video>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="day">
+  <div class="wrap">
+    <h2>Wat leverde de dag echt op?</h2>
+    <p class="section-intro">Niet wat je factureerde — wat er overbleef na brandstof, parkeergeld en koffie. Dit is één middagrit, gefilmd met een telefoon in een echte bus: een kostenpost erin, een rit die zichzelf opslaat, en onderaan het uurtarief.</p>
+
+    <div class="theatre">
+      <div class="films">
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <video data-film src="/assets/film/cost.mp4" poster="/assets/film/cost.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Er gaat een kostenpost in — £2,50 parkeergeld, in vijf seconden. Het dagtotaal verspringt zodra je op Bewaren tikt."></video>
+          </div></div>
+          <figcaption><b>Er gaat een kostenpost in</b>£2,50 parkeergeld, in vijf seconden. Het dagtotaal verspringt zodra je op Bewaren tikt.</figcaption>
+        </figure>
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <video data-film src="/assets/film/drive.mp4" poster="/assets/film/drive.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="De rit sloeg zichzelf op — Torquay naar Plymouth, de route die hij echt reed, elke stop geklokt. Niemand drukte op start."></video>
+          </div></div>
+          <figcaption><b>De rit sloeg zichzelf op</b>Torquay naar Plymouth, de route die hij echt reed, elke stop geklokt. Niemand drukte op start.</figcaption>
+        </figure>
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <video data-film src="/assets/film/rate.mp4" poster="/assets/film/rate.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="En daar is het tarief — De dag, de week, en dan wat een uur opleverde — ná de kosten, niet ervoor."></video>
+          </div></div>
+          <figcaption><b>En daar is het tarief</b>De dag, de week, en dan wat een uur opleverde — ná de kosten, niet ervoor.</figcaption>
+        </figure>
+      </div>
+
+      <div class="tally">
+        <p class="tally-lead">De middag uit de film hierboven</p>
+        <div class="sum">
+          <div class="sum-item"><span>Verdiend</span><b>&pound;179.01</b></div>
+          <span class="sum-op" aria-hidden="true">&minus;</span>
+          <div class="sum-item"><span>Kosten</span><b class="is-cost">&pound;45.49</b></div>
+          <span class="sum-op" aria-hidden="true">=</span>
+          <div class="sum-item"><span>Over</span><b class="is-keep">&pound;133.52</b></div>
+        </div>
+        <ul class="rates">
+          <li class="rate-big"><b>&pound;101.18</b><span>per uur</span></li>
+          <li><b>&pound;3.73</b><span>per mile</span></li>
+          <li><b>&pound;19.71</b><span>belasting terug</span></li>
+        </ul>
+        <p class="tally-note">De cijfers van die middag, geen belofte: DropLane betaalt je niet, het vertelt het je. De jouwe worden de jouwe — en je hebt ze voor je binnen bent.</p>
       </div>
     </div>
   </div>

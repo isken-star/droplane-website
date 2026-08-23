@@ -49,6 +49,7 @@
     <a class="brand" href="/de/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
 
     <nav class="menu" aria-label="Hauptmenü">
+      <a href="#day">Was bleibt</a>
       <a href="#how">So funktioniert&#x27;s</a>
       <a href="#features">Was sie kann</a>
       <a href="#screens">Screenshots</a>
@@ -105,6 +106,7 @@
   <div class="sheet" id="sheet" data-open="false">
     <div class="wrap">
       <nav class="sheet-list" aria-label="Hauptmenü">
+        <a href="#day">Was bleibt</a>
         <a href="#how">So funktioniert&#x27;s</a>
         <a href="#features">Was sie kann</a>
         <a href="#screens">Screenshots</a>
@@ -155,9 +157,66 @@
       </div>
       <div class="device device-front">
         <div class="device-screen">
-          <img class="only-dark" src="/assets/screens/de/dark/today.webp" width="640" height="1391" alt="Der Heute-Screen von DropLane: eine Fahrt wird auf der Karte aufgezeichnet, mit Strecke, Stunden und Einnahmen des Tages." loading="eager">
-          <img class="only-light" src="/assets/screens/de/light/today.webp" width="640" height="1391" alt="Der Heute-Screen von DropLane: eine Fahrt wird auf der Karte aufgezeichnet, mit Strecke, Stunden und Einnahmen des Tages." loading="eager">
+          <video class="only-dark" data-film src="/assets/film/hero-dark.mp4" poster="/assets/film/hero-dark.webp"
+                 width="480" height="1044" muted loop playsinline preload="none"
+                 aria-label="Der Heute-Screen von DropLane: eine Fahrt wird auf der Karte aufgezeichnet, mit Strecke, Stunden und Einnahmen des Tages."></video>
+          <video class="only-light" data-film src="/assets/film/hero-light.mp4" poster="/assets/film/hero-light.webp"
+                 width="480" height="1044" muted loop playsinline preload="none"
+                 aria-label="Der Heute-Screen von DropLane: eine Fahrt wird auf der Karte aufgezeichnet, mit Strecke, Stunden und Einnahmen des Tages."></video>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="day">
+  <div class="wrap">
+    <h2>Was hat der Tag wirklich gebracht?</h2>
+    <p class="section-intro">Nicht was auf der Rechnung stand — was nach Sprit, Parkgebühr und Kaffee übrig war. Das ist eine Nachmittagstour, mit dem Handy im echten Transporter gefilmt: eine Ausgabe rein, eine Fahrt, die sich selbst speichert, und unten der Stundensatz.</p>
+
+    <div class="theatre">
+      <div class="films">
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <video data-film src="/assets/film/cost.mp4" poster="/assets/film/cost.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Eine Ausgabe kommt rein — 2,50 £ Parkgebühr, in fünf Sekunden. Die Tagessumme ändert sich, sobald du auf Sichern tippst."></video>
+          </div></div>
+          <figcaption><b>Eine Ausgabe kommt rein</b>2,50 £ Parkgebühr, in fünf Sekunden. Die Tagessumme ändert sich, sobald du auf Sichern tippst.</figcaption>
+        </figure>
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <video data-film src="/assets/film/drive.mp4" poster="/assets/film/drive.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Die Fahrt hat sich selbst gespeichert — Torquay nach Plymouth, die tatsächlich gefahrene Strecke, jeder Halt mit Zeit. Gestartet hat sie niemand."></video>
+          </div></div>
+          <figcaption><b>Die Fahrt hat sich selbst gespeichert</b>Torquay nach Plymouth, die tatsächlich gefahrene Strecke, jeder Halt mit Zeit. Gestartet hat sie niemand.</figcaption>
+        </figure>
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <video data-film src="/assets/film/rate.mp4" poster="/assets/film/rate.webp"
+                   width="480" height="1044" muted loop playsinline preload="none"
+                   aria-label="Und da ist der Stundensatz — Der Tag, die Woche, dann was eine Stunde gebracht hat — nach den Kosten, nicht davor."></video>
+          </div></div>
+          <figcaption><b>Und da ist der Stundensatz</b>Der Tag, die Woche, dann was eine Stunde gebracht hat — nach den Kosten, nicht davor.</figcaption>
+        </figure>
+      </div>
+
+      <div class="tally">
+        <p class="tally-lead">Der Nachmittag aus dem Film oben</p>
+        <div class="sum">
+          <div class="sum-item"><span>Eingenommen</span><b>&pound;179.01</b></div>
+          <span class="sum-op" aria-hidden="true">&minus;</span>
+          <div class="sum-item"><span>Kosten</span><b class="is-cost">&pound;45.49</b></div>
+          <span class="sum-op" aria-hidden="true">=</span>
+          <div class="sum-item"><span>Übrig</span><b class="is-keep">&pound;133.52</b></div>
+        </div>
+        <ul class="rates">
+          <li class="rate-big"><b>&pound;101.18</b><span>pro Stunde</span></li>
+          <li><b>&pound;3.73</b><span>pro Meile</span></li>
+          <li><b>&pound;19.71</b><span>Steuer zurück</span></li>
+        </ul>
+        <p class="tally-note">Die Zahlen dieses Nachmittags, kein Versprechen: DropLane zahlt dir nichts, es sagt es dir. Deine sind deine eigenen — und du hast sie, bevor du zur Tür herein bist.</p>
       </div>
     </div>
   </div>

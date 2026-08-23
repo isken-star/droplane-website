@@ -1,10 +1,11 @@
 /* DropLane — www.droplane.co.uk
-   Five small jobs, no framework:
+   Six small jobs, no framework:
      · the light/dark switch (and remembering it)
      · the language panel, and offering the visitor their own language
      · the menu sheet on phones
      · country names in the reader's own language, via Intl
-     · putting the visitor's own country at the top of the price list      */
+     · putting the visitor's own country at the top of the price list
+     · the clips: only the ones on screen, and only in the theme on show   */
 
 (function () {
   'use strict';
@@ -30,7 +31,7 @@
   apply(root.getAttribute('data-theme') || 'light', false);
 
   document.querySelectorAll('.theme button').forEach(function (b) {
-    b.addEventListener('click', function () { apply(b.dataset.theme, true); });
+    b.addEventListener('click', function () { apply(b.dataset.theme, true); settleAll(); });
   });
 
   // Follow the phone until someone states a preference of their own.
@@ -38,10 +39,64 @@
   var onSchemeChange = function (e) {
     var saved = null;
     try { saved = localStorage.getItem(KEY); } catch (err) {}
-    if (!saved) apply(e.matches ? 'dark' : 'light', false);
+    if (!saved) { apply(e.matches ? 'dark' : 'light', false); settleAll(); }
   };
   if (mq.addEventListener) mq.addEventListener('change', onSchemeChange);
   else if (mq.addListener) mq.addListener(onSchemeChange);
+
+  /* ---- the clips ------------------------------------------------------ */
+
+  // Muted screen recordings, no sound to miss. They cost bandwidth, so none
+  // of them is fetched until it is both on screen and in the theme on show:
+  // the light and dark hero clips sit in the same slot, and only one of the
+  // pair is ever displayed.
+
+  var films = Array.prototype.slice.call(document.querySelectorAll('video[data-film], .film video'));
+  var stillness = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var onScreen = new WeakSet();
+
+  function showing(video) {
+    return video.offsetParent !== null || video.getClientRects().length > 0;
+  }
+
+  function settle(video) {
+    var wanted = onScreen.has(video) && showing(video) && !stillness.matches && !video.dataset.held;
+    if (wanted) {
+      if (video.paused) { var playing = video.play(); if (playing && playing.catch) playing.catch(function () {}); }
+    } else if (!video.paused) {
+      video.pause();
+    }
+  }
+
+  function settleAll() { films.forEach(settle); }
+
+  if (films.length && 'IntersectionObserver' in window) {
+    var watcher = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) onScreen.add(entry.target); else onScreen.delete(entry.target);
+        settle(entry.target);
+      });
+    }, { threshold: 0.25 });
+    films.forEach(function (video) {
+      watcher.observe(video);
+      // Tapping one holds it still, so a screen can be read properly.
+      video.addEventListener('click', function () {
+        if (video.dataset.held) delete video.dataset.held; else video.dataset.held = '1';
+        settle(video);
+      });
+    });
+  } else {
+    // No observer: the posters stand on their own.
+    films.forEach(function (video) { video.setAttribute('controls', ''); });
+  }
+
+  if (stillness.addEventListener) stillness.addEventListener('change', settleAll);
+
+  // Chrome stops muted, silent video while the tab is in the background;
+  // nothing restarts it on the way back unless we ask.
+  document.addEventListener('visibilitychange', function () {
+    if (!document.hidden) settleAll();
+  });
 
   /* ---- the two panels in the header ---------------------------------- */
 
