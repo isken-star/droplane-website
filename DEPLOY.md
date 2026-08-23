@@ -19,26 +19,28 @@ those by hand — edit `_build/template.html` or `_build/strings/<lang>.json`.
 Screenshots come from `Scripts/capture_screenshots.sh`; see
 `Docs/SCREENSHOTS.md`.
 
-## 1. Create the GitHub repository (once)
+## 1. The repository — done
 
-github.com → **New repository** → `droplane-website` → Public → Create,
-with no "initialize" boxes ticked. Then, from this folder:
+`github.com/isken-star/droplane-website`, public, `main`. Push updates from
+this folder after a rebuild:
 
 ```bash
-git init && git add -A && git commit -m "DropLane website"
-git branch -M main
-git remote add origin https://github.com/isken-star/droplane-website.git
-git push -u origin main
+python3 ../Scripts/build_site.py && git add -A && git commit -m "…" && git push
 ```
 
-## 2. Turn on GitHub Pages
+## 2. GitHub Pages — done
 
-Repo → **Settings → Pages** → Source "Deploy from a branch" →
-Branch `main`, folder `/ (root)` → Save.
-Custom domain: `www.droplane.co.uk` → Save. Tick **Enforce HTTPS** once the
-certificate has issued (minutes to an hour).
+Serving `main` at the root, custom domain `www.droplane.co.uk` (from the
+`CNAME` file). **Enforce HTTPS** can only be ticked once the certificate has
+issued, which needs the DNS below to be pointing at GitHub first.
 
-## 3. GoDaddy DNS
+## 3. GoDaddy DNS — the only step left
+
+At the time of writing, `www.droplane.co.uk` is a CNAME to the apex, and the
+apex answers `76.223.105.230` / `13.248.243.5` — GoDaddy's parking, not
+GitHub. Until that changes the site is built but unreachable.
+
+## The records
 
 GoDaddy → My Products → droplane.co.uk → **DNS**:
 
