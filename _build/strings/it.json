@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Sapere quanto ha reso davvero la giornata",
-  "meta_description": "DropLane registra i viaggi del corriere da solo, toglie carburante, parcheggi e spese del mezzo dagli incassi e ti dice quanto ha reso davvero un'ora. In più un registro chilometrico che il fisco accetta, in ventiquattro lingue, tutto sul telefono.",
+  "meta_description": "DropLane registra i viaggi del corriere da solo, toglie carburante, parcheggi e spese del mezzo dagli incassi e ti dice quanto ha reso davvero un'ora. In più un registro chilometrico pronto per il commercialista, in ventiquattro lingue, tutto sul telefono.",
   "nav_label": "Menu principale",
   "nav_how": "Come funziona",
   "nav_day": "Quanto resta",
@@ -26,7 +26,7 @@
   "see_all": "vedi tutti",
   "hero_h1": "Sapere quanto ha reso davvero la giornata.",
   "hero_lede": "Accendi il furgone. Tutto qui. DropLane registra ogni viaggio e il percorso davvero fatto, toglie le spese dagli incassi e ti lascia pronta la tariffa oraria prima che tu entri in casa.",
-  "hero_cta_price": "Vedi il prezzo",
+  "hero_cta_notify": "Avvisami al lancio",
   "hero_cta_how": "Come funziona",
   "hero_note": "14 giorni gratis · nessun account, nessuna pubblicità · iPhone",
   "hero_facts": [
@@ -115,7 +115,7 @@
     },
     {
       "icon": "🧾",
-      "title": "Un registro per il fisco",
+      "title": "Un registro pronto per il commercialista",
       "body": "Un PDF con ogni viaggio, il suo percorso e la sua data. Tariffe chilometriche incluse per diciassette paesi."
     },
     {
@@ -209,7 +209,8 @@
   "pricing_best": "Conviene di più",
   "pricing_bullet_all": "Tutte le funzioni, nessun extra",
   "pricing_bullet_trial": "Prima 14 giorni gratis",
-  "pricing_bullet_saving": "Mesi più economico del mensile",
+  "pricing_bullet_saving": "Risparmi {saving} all'anno — {percent}% in meno",
+  "pricing_bullet_equivalent": "Fanno {monthly} al mese",
   "pricing_table_title": "Il prezzo dove sei tu",
   "pricing_search": "Cerca il tuo paese",
   "pricing_col_country": "Paese",
@@ -242,7 +243,7 @@
     },
     {
       "q": "Vado in bici, non in furgone.",
-      "a": "Funziona uguale. I chilometri in cargo bike si registrano allo stesso modo e valgono altrettanto."
+      "a": "Funziona uguale. I chilometri in cargo bike si registrano allo stesso modo. Le tariffe incluse però sono per i veicoli a motore, quindi quanto puoi dedurre per una bici dipende dal tuo paese e dalla tua situazione — chiedi al commercialista."
     },
     {
       "q": "C'è la tariffa del mio paese?",

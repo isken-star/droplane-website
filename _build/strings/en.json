@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Know what the day really paid",
-  "meta_description": "DropLane records a courier's drives on its own, takes the fuel, the parking and the running costs off the takings, and tells you what the hour actually paid. Plus a mileage record the tax office will accept, in twenty-four languages, all on your phone.",
+  "meta_description": "DropLane records a courier's drives on its own, takes the fuel, the parking and the running costs off the takings, and tells you what the hour actually paid. Plus a mileage record ready for your accountant, in twenty-four languages, all on your phone.",
   "nav_label": "Main",
   "nav_how": "How it works",
   "nav_day": "What it pays",
@@ -26,7 +26,7 @@
   "see_all": "see all",
   "hero_h1": "Know what the day really paid.",
   "hero_lede": "Start the van. That's it. DropLane records every drive and the route it actually took, takes the costs off the takings, and has your hourly rate waiting before you're through the door.",
-  "hero_cta_price": "See the price",
+  "hero_cta_notify": "Get notified at launch",
   "hero_cta_how": "How it works",
   "hero_note": "14 days free · no account, no ads · iPhone",
   "hero_facts": [
@@ -115,7 +115,7 @@
     },
     {
       "icon": "🧾",
-      "title": "A record for the tax office",
+      "title": "Records ready for your accountant",
       "body": "A PDF with every drive, its route and its date. Mileage rates built in for seventeen countries."
     },
     {
@@ -209,7 +209,8 @@
   "pricing_best": "Best value",
   "pricing_bullet_all": "Every feature, no add-ons",
   "pricing_bullet_trial": "14 days free first",
-  "pricing_bullet_saving": "Months cheaper than paying monthly",
+  "pricing_bullet_saving": "Save {saving} a year — {percent}% cheaper",
+  "pricing_bullet_equivalent": "Works out at {monthly} a month",
   "pricing_table_title": "The price where you are",
   "pricing_search": "Find your country",
   "pricing_col_country": "Country",
@@ -242,7 +243,7 @@
     },
     {
       "q": "I drive a bike, not a van.",
-      "a": "That works. Cargo-bike miles are recorded the same way, and are just as claimable."
+      "a": "That works. Cargo-bike miles are recorded the same way. The built-in mileage rates are for motor vehicles, though, so what a bike can claim depends on your country and your circumstances — worth asking an accountant."
     },
     {
       "q": "Is my country's mileage rate in there?",

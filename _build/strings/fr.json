@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Savoir ce que la journée a vraiment payé",
-  "meta_description": "DropLane enregistre les trajets du coursier tout seul, retire le carburant, le stationnement et les frais de route des recettes, et vous dit ce que l'heure a vraiment payé. Plus un relevé kilométrique que le fisc accepte, en vingt-quatre langues, tout sur le téléphone.",
+  "meta_description": "DropLane enregistre les trajets du coursier tout seul, retire le carburant, le stationnement et les frais de route des recettes, et vous dit ce que l'heure a vraiment payé. Plus un relevé kilométrique prêt pour votre comptable, en vingt-quatre langues, tout sur le téléphone.",
   "nav_label": "Menu principal",
   "nav_how": "Comment ça marche",
   "nav_day": "Ce que ça rapporte",
@@ -26,7 +26,7 @@
   "see_all": "voir tout",
   "hero_h1": "Savoir ce que la journée a vraiment payé.",
   "hero_lede": "Démarrez le fourgon. C'est tout. DropLane enregistre chaque trajet et l'itinéraire réellement pris, retire les frais des recettes, et votre tarif horaire vous attend avant que vous ayez passé la porte.",
-  "hero_cta_price": "Voir le prix",
+  "hero_cta_notify": "Prévenez-moi au lancement",
   "hero_cta_how": "Comment ça marche",
   "hero_note": "14 jours gratuits · sans compte, sans publicité · iPhone",
   "hero_facts": [
@@ -115,7 +115,7 @@
     },
     {
       "icon": "🧾",
-      "title": "Un justificatif pour le fisc",
+      "title": "Un relevé pour votre comptable",
       "body": "Un PDF avec chaque trajet, son itinéraire et sa date. Barèmes kilométriques intégrés pour dix-sept pays."
     },
     {
@@ -209,7 +209,8 @@
   "pricing_best": "Meilleur prix",
   "pricing_bullet_all": "Toutes les fonctions, sans option payante",
   "pricing_bullet_trial": "14 jours gratuits d'abord",
-  "pricing_bullet_saving": "Des mois moins cher qu'au mois",
+  "pricing_bullet_saving": "Économisez {saving} par an — {percent}% moins cher",
+  "pricing_bullet_equivalent": "Soit {monthly} par mois",
   "pricing_table_title": "Le prix chez vous",
   "pricing_search": "Trouvez votre pays",
   "pricing_col_country": "Pays",
@@ -242,7 +243,7 @@
     },
     {
       "q": "Je roule à vélo, pas en camionnette.",
-      "a": "Ça marche. Les kilomètres en vélo-cargo sont enregistrés de la même façon et comptent autant."
+      "a": "Ça marche. Les kilomètres en vélo-cargo sont enregistrés de la même façon. Les barèmes intégrés valent pour les véhicules à moteur, donc ce qu'un vélo peut déduire dépend de votre pays et de votre situation — demandez à votre comptable."
     },
     {
       "q": "Le barème de mon pays est-il dedans ?",

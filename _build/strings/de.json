@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Wissen, was der Tag wirklich gebracht hat",
-  "meta_description": "DropLane zeichnet die Fahrten von Kurieren ganz allein auf, zieht Sprit, Parkgebühren und laufende Kosten von den Einnahmen ab und sagt dir, was die Stunde wirklich gebracht hat. Dazu ein Fahrtenbuch, das das Finanzamt akzeptiert — in vierundzwanzig Sprachen, alles auf dem Handy.",
+  "meta_description": "DropLane zeichnet die Fahrten von Kurieren ganz allein auf, zieht Sprit, Parkgebühren und laufende Kosten von den Einnahmen ab und sagt dir, was die Stunde wirklich gebracht hat. Dazu Fahrtaufzeichnungen für den Steuerberater — in vierundzwanzig Sprachen, alles auf dem Handy.",
   "nav_label": "Hauptmenü",
   "nav_how": "So funktioniert's",
   "nav_day": "Was bleibt",
@@ -26,7 +26,7 @@
   "see_all": "alle ansehen",
   "hero_h1": "Wissen, was der Tag wirklich gebracht hat.",
   "hero_lede": "Motor an. Das war's. DropLane zeichnet die Fahrt auf, speichert die Strecke, die du wirklich gefahren bist, und rechnet den Tag ab, sobald du Feierabend machst.",
-  "hero_cta_price": "Preis ansehen",
+  "hero_cta_notify": "Benachrichtige mich zum Start",
   "hero_cta_how": "So funktioniert's",
   "hero_note": "14 Tage gratis · kein Konto, keine Werbung · iPhone",
   "hero_facts": [
@@ -115,7 +115,7 @@
     },
     {
       "icon": "🧾",
-      "title": "Ein Nachweis fürs Finanzamt",
+      "title": "Fahrtaufzeichnungen für den Steuerberater",
       "body": "Ein PDF mit jeder Fahrt, ihrer Strecke und ihrem Datum. Kilometersätze für siebzehn Länder eingebaut."
     },
     {
@@ -209,7 +209,8 @@
   "pricing_best": "Bester Preis",
   "pricing_bullet_all": "Alle Funktionen, keine Zusatzkäufe",
   "pricing_bullet_trial": "Erst 14 Tage gratis",
-  "pricing_bullet_saving": "Monate günstiger als monatlich zahlen",
+  "pricing_bullet_saving": "Spare {saving} im Jahr — {percent}% günstiger",
+  "pricing_bullet_equivalent": "Macht {monthly} im Monat",
   "pricing_table_title": "Der Preis bei dir",
   "pricing_search": "Land suchen",
   "pricing_col_country": "Land",
@@ -242,7 +243,7 @@
     },
     {
       "q": "Ich fahre Rad, keinen Transporter.",
-      "a": "Das geht. Kilometer mit dem Lastenrad werden genauso aufgezeichnet und zählen genauso."
+      "a": "Das geht. Kilometer mit dem Lastenrad werden genauso aufgezeichnet. Die eingebauten Kilometersätze gelten allerdings für Kraftfahrzeuge, was du fürs Rad ansetzen kannst, hängt von deinem Land und deiner Situation ab — frag deinen Steuerberater."
     },
     {
       "q": "Ist der Satz meines Landes dabei?",

@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Find ud af, hvad dagen faktisk gav",
-  "meta_description": "DropLane registrerer bud- og varebilsture helt af sig selv, trækker brændstof, parkering og driftsudgifter fra indtjeningen og fortæller dig, hvad timen faktisk gav. Plus et kørselsregnskab, skattevæsenet godtager — på fireogtyve sprog, alt sammen på telefonen.",
+  "meta_description": "DropLane registrerer bud- og varebilsture helt af sig selv, trækker brændstof, parkering og driftsudgifter fra indtjeningen og fortæller dig, hvad timen faktisk gav. Plus et kørselsregnskab, du kan give din revisor — på fireogtyve sprog, alt sammen på telefonen.",
   "nav_label": "Hovedmenu",
   "nav_how": "Sådan virker det",
   "nav_day": "Hvad det giver",
@@ -26,7 +26,7 @@
   "see_all": "se alle",
   "hero_h1": "Find ud af, hvad dagen faktisk gav.",
   "hero_lede": "Start bilen. Det var det. DropLane registrerer hver tur og den rute, du faktisk kørte, trækker udgifterne fra indtjeningen, og din timeløn ligger klar, når du har fri.",
-  "hero_cta_price": "Se prisen",
+  "hero_cta_notify": "Få besked ved lanceringen",
   "hero_cta_how": "Sådan virker det",
   "hero_note": "14 dage gratis · ingen konto, ingen reklamer · iPhone",
   "hero_facts": [
@@ -115,7 +115,7 @@
     },
     {
       "icon": "🧾",
-      "title": "Et regnskab til SKAT",
+      "title": "Kørselsregnskab til din revisor",
       "body": "En PDF med hver eneste tur, dens rute og dens dato. Kørselssatser indbygget for sytten lande."
     },
     {
@@ -209,7 +209,8 @@
   "pricing_best": "Bedste værdi",
   "pricing_bullet_all": "Alle funktioner, ingen tilkøb",
   "pricing_bullet_trial": "14 dage gratis først",
-  "pricing_bullet_saving": "Måneder billigere end at betale månedligt",
+  "pricing_bullet_saving": "Spar {saving} om året — {percent}% billigere",
+  "pricing_bullet_equivalent": "Svarer til {monthly} om måneden",
   "pricing_table_title": "Prisen dér hvor du er",
   "pricing_search": "Find dit land",
   "pricing_col_country": "Land",
@@ -242,7 +243,7 @@
     },
     {
       "q": "Jeg kører på cykel, ikke i varevogn.",
-      "a": "Det virker fint. Kilometer på ladcykel registreres på samme måde og tæller lige så godt med."
+      "a": "Det virker fint. Kilometer på ladcykel registreres på samme måde. De indbyggede kørselssatser gælder motorkøretøjer, så hvad en cykel kan trækkes fra for, afhænger af dit land og din situation — spørg din revisor."
     },
     {
       "q": "Er mit lands kørselssats med?",

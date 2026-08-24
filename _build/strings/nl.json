@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Weten wat de dag echt opleverde",
-  "meta_description": "DropLane legt de ritten van de koerier vanzelf vast, haalt brandstof, parkeergeld en autokosten van de omzet af en vertelt je wat het uur echt opleverde. Plus een kilometerregistratie die de fiscus accepteert, in vierentwintig talen, allemaal op je telefoon.",
+  "meta_description": "DropLane legt de ritten van de koerier vanzelf vast, haalt brandstof, parkeergeld en autokosten van de omzet af en vertelt je wat het uur echt opleverde. Plus een kilometerregistratie voor je boekhouder, in vierentwintig talen, allemaal op je telefoon.",
   "nav_label": "Hoofdmenu",
   "nav_how": "Hoe het werkt",
   "nav_day": "Wat het oplevert",
@@ -26,7 +26,7 @@
   "see_all": "bekijk alle",
   "hero_h1": "Weten wat de dag echt opleverde.",
   "hero_lede": "Start de bus. Meer niet. DropLane legt elke rit vast en de route die je echt reed, haalt de kosten van de omzet af, en je uurtarief ligt klaar voor je binnen bent.",
-  "hero_cta_price": "Bekijk de prijs",
+  "hero_cta_notify": "Hou me op de hoogte",
   "hero_cta_how": "Hoe het werkt",
   "hero_note": "14 dagen gratis · geen account, geen advertenties · iPhone",
   "hero_facts": [
@@ -115,7 +115,7 @@
     },
     {
       "icon": "🧾",
-      "title": "Een registratie voor de Belastingdienst",
+      "title": "Kilometerregistratie voor je boekhouder",
       "body": "Een pdf met elke rit, de route en de datum. Kilometervergoedingen voor zeventien landen ingebouwd."
     },
     {
@@ -209,7 +209,8 @@
   "pricing_best": "Beste keuze",
   "pricing_bullet_all": "Alle functies, geen bijkopen",
   "pricing_bullet_trial": "Eerst 14 dagen gratis",
-  "pricing_bullet_saving": "Maanden goedkoper dan per maand betalen",
+  "pricing_bullet_saving": "Bespaar {saving} per jaar — {percent}% goedkoper",
+  "pricing_bullet_equivalent": "Dat is {monthly} per maand",
   "pricing_table_title": "De prijs waar jij bent",
   "pricing_search": "Zoek je land",
   "pricing_col_country": "Land",
@@ -242,7 +243,7 @@
     },
     {
       "q": "Ik rijd op de fiets, niet in een bus.",
-      "a": "Dat werkt. Kilometers met een bakfiets worden net zo vastgelegd en tellen net zo goed mee."
+      "a": "Dat werkt. Kilometers met een bakfiets worden net zo vastgelegd. De ingebouwde tarieven gelden wel voor motorvoertuigen, dus wat je voor een fiets kunt aftrekken hangt af van je land en je situatie — vraag het je boekhouder."
     },
     {
       "q": "Zit de vergoeding van mijn land erin?",

@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Sabe lo que te dejó el día de verdad",
-  "meta_description": "DropLane registra los trayectos del repartidor solo, resta el combustible, el parking y los gastos de la furgoneta a lo cobrado, y te dice lo que pagó la hora de verdad. Además, un registro de kilometraje que acepta Hacienda, en veinticuatro idiomas y todo en el móvil.",
+  "meta_description": "DropLane registra los trayectos del repartidor solo, resta el combustible, el parking y los gastos de la furgoneta a lo cobrado, y te dice lo que pagó la hora de verdad. Además, un registro de kilometraje listo para tu gestoría, en veinticuatro idiomas y todo en el móvil.",
   "nav_label": "Menú principal",
   "nav_how": "Cómo funciona",
   "nav_day": "Lo que deja",
@@ -26,7 +26,7 @@
   "see_all": "ver todos",
   "hero_h1": "Sabe lo que te dejó el día de verdad.",
   "hero_lede": "Arranca la furgoneta. Ya está. DropLane registra cada trayecto y la ruta que hiciste de verdad, resta los gastos de lo cobrado y te deja tu precio por hora listo antes de entrar por la puerta.",
-  "hero_cta_price": "Ver el precio",
+  "hero_cta_notify": "Avísame en el lanzamiento",
   "hero_cta_how": "Cómo funciona",
   "hero_note": "14 días gratis · sin cuenta, sin anuncios · iPhone",
   "hero_facts": [
@@ -115,7 +115,7 @@
     },
     {
       "icon": "🧾",
-      "title": "Un registro para Hacienda",
+      "title": "Un registro listo para tu gestoría",
       "body": "Un PDF con cada trayecto, su ruta y su fecha. Tarifas por kilómetro incluidas para diecisiete países."
     },
     {
@@ -209,7 +209,8 @@
   "pricing_best": "Mejor precio",
   "pricing_bullet_all": "Todas las funciones, sin extras",
   "pricing_bullet_trial": "Primero 14 días gratis",
-  "pricing_bullet_saving": "Meses más barato que pagar al mes",
+  "pricing_bullet_saving": "Ahorra {saving} al año — {percent}% más barato",
+  "pricing_bullet_equivalent": "Sale a {monthly} al mes",
   "pricing_table_title": "El precio donde estás",
   "pricing_search": "Busca tu país",
   "pricing_col_country": "País",
@@ -242,7 +243,7 @@
     },
     {
       "q": "Reparto en bici, no en furgoneta.",
-      "a": "Funciona igual. Los kilómetros en bici de carga se registran igual y cuentan lo mismo."
+      "a": "Funciona igual. Los kilómetros en bici de carga se registran igual. Las tarifas incluidas son para vehículos a motor, así que lo que puedes deducir por una bici depende de tu país y de tu situación — pregunta a un gestor."
     },
     {
       "q": "¿Está la tarifa de mi país?",

@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Wiedz, ile naprawdę dał dzień",
-  "meta_description": "DropLane sam zapisuje przejazdy kuriera, odejmuje paliwo, parkingi i koszty auta od utargu i mówi ci, ile naprawdę dała godzina. Do tego ewidencja przebiegu, którą przyjmie urząd skarbowy — w dwudziestu czterech językach, wszystko w telefonie.",
+  "meta_description": "DropLane sam zapisuje przejazdy kuriera, odejmuje paliwo, parkingi i koszty auta od utargu i mówi ci, ile naprawdę dała godzina. Do tego ewidencja przebiegu gotowa dla księgowego — w dwudziestu czterech językach, wszystko w telefonie.",
   "nav_label": "Menu główne",
   "nav_how": "Jak to działa",
   "nav_day": "Ile zostaje",
@@ -26,7 +26,7 @@
   "see_all": "zobacz wszystkie",
   "hero_h1": "Wiedz, ile naprawdę dał dzień.",
   "hero_lede": "Odpal busa. To wszystko. DropLane zapisuje każdy przejazd i trasę, którą naprawdę pokonałeś, odejmuje koszty od utargu, a twoja stawka godzinowa czeka gotowa, zanim wejdziesz do domu.",
-  "hero_cta_price": "Zobacz cenę",
+  "hero_cta_notify": "Powiadom mnie o premierze",
   "hero_cta_how": "Jak to działa",
   "hero_note": "14 dni za darmo · bez konta, bez reklam · iPhone",
   "hero_facts": [
@@ -115,7 +115,7 @@
     },
     {
       "icon": "🧾",
-      "title": "Ewidencja dla urzędu",
+      "title": "Ewidencja przebiegu dla księgowego",
       "body": "PDF z każdym przejazdem, jego trasą i datą. Stawki za kilometr wbudowane dla siedemnastu krajów."
     },
     {
@@ -209,7 +209,8 @@
   "pricing_best": "Najlepsza cena",
   "pricing_bullet_all": "Wszystkie funkcje, bez dopłat",
   "pricing_bullet_trial": "Najpierw 14 dni za darmo",
-  "pricing_bullet_saving": "O miesiące taniej niż płacenie co miesiąc",
+  "pricing_bullet_saving": "Oszczędzasz {saving} rocznie — {percent}% taniej",
+  "pricing_bullet_equivalent": "Wychodzi {monthly} miesięcznie",
   "pricing_table_title": "Cena tam, gdzie jesteś",
   "pricing_search": "Znajdź swój kraj",
   "pricing_col_country": "Kraj",
@@ -242,7 +243,7 @@
     },
     {
       "q": "Jeżdżę rowerem, nie busem.",
-      "a": "Działa tak samo. Kilometry na rowerze cargo zapisują się identycznie i liczą się tak samo."
+      "a": "Działa tak samo. Kilometry na rowerze cargo zapisują się identycznie. Wbudowane stawki dotyczą jednak pojazdów silnikowych, więc to, co możesz odliczyć za rower, zależy od twojego kraju i sytuacji — zapytaj księgowego."
     },
     {
       "q": "Czy jest stawka mojego kraju?",

@@ -117,8 +117,12 @@
       <span class="eyebrow" id="detected"><span class="eyebrow-flag">{{flag}}</span><b data-region="{{market}}">{{market_name}}</b><span class="eyebrow-cost"><span class="eyebrow-price">{{price_month}}</span> <span class="eyebrow-per">{{per_month_short}}</span></span><a href="#pricing">{{see_all}}</a></span>
       <h1>{{hero_h1}}</h1>
       <p class="lede">{{hero_lede}}</p>
+      <!-- While the app is coming soon the loud button is the launch list, not
+           the price: the eyebrow above already carries the price and links to
+           the table. On launch day, swap this first link for Apple's official
+           "Download on the App Store" badge and drop hero_cta_notify. -->
       <div class="cta-row">
-        <a class="btn" href="#pricing">{{hero_cta_price}}</a>
+        <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">{{hero_cta_notify}}</a>
         <a class="btn-ghost" href="#how">{{hero_cta_how}}</a>
       </div>
       <p class="cta-note" style="margin:14px 0 0">{{hero_note}}</p>
@@ -318,6 +322,7 @@
         <ul>
           <li>{{pricing_bullet_all}}</li>
           <li>{{pricing_bullet_saving}}</li>
+          <li>{{pricing_bullet_equivalent}}</li>
         </ul>
       </div>
     </div>

@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Să știi cât a adus ziua, de fapt",
-  "meta_description": "DropLane înregistrează singur drumurile curierului, scade combustibilul, parcarea și cheltuielile mașinii din încasări și îți spune cât a adus, de fapt, o oră. Plus o evidență a kilometrilor pe care fiscul o acceptă, în douăzeci și patru de limbi, totul pe telefon.",
+  "meta_description": "DropLane înregistrează singur drumurile curierului, scade combustibilul, parcarea și cheltuielile mașinii din încasări și îți spune cât a adus, de fapt, o oră. Plus o evidență a kilometrilor gata pentru contabil, în douăzeci și patru de limbi, totul pe telefon.",
   "nav_label": "Meniu principal",
   "nav_how": "Cum funcționează",
   "nav_day": "Cât rămâne",
@@ -26,7 +26,7 @@
   "see_all": "vezi tot",
   "hero_h1": "Să știi cât a adus ziua, de fapt.",
   "hero_lede": "Pornește duba. Atât. DropLane înregistrează fiecare drum și traseul pe care chiar l-ai făcut, scade cheltuielile din încasări, iar tariful tău pe oră te așteaptă înainte să intri pe ușă.",
-  "hero_cta_price": "Vezi prețul",
+  "hero_cta_notify": "Anunță-mă la lansare",
   "hero_cta_how": "Cum funcționează",
   "hero_note": "14 zile gratis · fără cont, fără reclame · iPhone",
   "hero_facts": [
@@ -115,7 +115,7 @@
     },
     {
       "icon": "🧾",
-      "title": "O evidență pentru fisc",
+      "title": "O evidență gata pentru contabil",
       "body": "Un PDF cu fiecare cursă, traseul și data ei. Tarife pe kilometru incluse pentru șaptesprezece țări."
     },
     {
@@ -209,7 +209,8 @@
   "pricing_best": "Cel mai bun preț",
   "pricing_bullet_all": "Toate funcțiile, fără plăți în plus",
   "pricing_bullet_trial": "Întâi 14 zile gratis",
-  "pricing_bullet_saving": "Cu luni mai ieftin decât lunar",
+  "pricing_bullet_saving": "Economisești {saving} pe an — cu {percent}% mai ieftin",
+  "pricing_bullet_equivalent": "Adică {monthly} pe lună",
   "pricing_table_title": "Prețul acolo unde ești",
   "pricing_search": "Caută-ți țara",
   "pricing_col_country": "Țară",
@@ -242,7 +243,7 @@
     },
     {
       "q": "Merg cu bicicleta, nu cu duba.",
-      "a": "Merge la fel. Kilometrii pe bicicleta de marfă se înregistrează la fel și contează la fel."
+      "a": "Merge la fel. Kilometrii pe bicicleta de marfă se înregistrează la fel. Tarifele incluse sunt însă pentru vehicule cu motor, așa că ce poți deconta pentru o bicicletă depinde de țara ta și de situația ta — întreabă un contabil."
     },
     {
       "q": "Este tariful țării mele acolo?",
