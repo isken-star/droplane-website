@@ -127,6 +127,21 @@
       "icon": "🔒",
       "title": "Nichts verlässt dein Handy",
       "body": "Kein Konto, kein Tracking, keine Werbung. Deine Streckenhistorie gehört dir und wird nur in deine eigene iCloud gesichert."
+    },
+    {
+      "icon": "🔔",
+      "title": "Fristen",
+      "body": "Gib den Stand einmal ein und DropLane zählt ihn mit deinen erfassten Kilometern weiter — so können Inspektions- und TÜV-Warnungen in Kilometern herunterzählen, nicht nur nach Datum."
+    },
+    {
+      "icon": "🔧",
+      "title": "Dein Fahrzeug",
+      "body": "Trag hier Inspektionen, Reifen und Reparaturen ein — mit Rechnungsfoto ist es deine komplette Werkstatthistorie in der Tasche."
+    },
+    {
+      "icon": "💳",
+      "title": "Tankkarte",
+      "body": "Leg den Literpreis deiner Karte fest. Trag beim Tanken die Liter ein und DropLane rechnet die Kosten aus."
     }
   ],
   "screens_h2": "Die ganze App, hell und dunkel",
@@ -252,6 +267,22 @@
     {
       "q": "Kann ich in Kilometern arbeiten?",
       "a": "Ja. Kilometer oder Meilen, deine Währung und der Spritpreis, den du wirklich zahlst — alles in den Einstellungen, gleich auf dem ersten Screen."
+    },
+    {
+      "q": "Funktioniert sie ohne Empfang?",
+      "a": "Ja. Aufgezeichnet wird mit dem GPS deines iPhones, und dafür braucht es kein Internet. Fahrten ohne Empfang kommen mit „Start“ und „Ziel“ statt Straßennamen zurück, und DropLane trägt die Namen nach, sobald sie das nächste Mal WLAN sieht. Eine Woche auf Landstraßen ohne Balken zählt trotzdem richtig zusammen."
+    },
+    {
+      "q": "Was passiert, wenn ich ein neues iPhone habe?",
+      "a": "Meld dich in derselben iCloud an, und deine Fahrten, Einnahmen und Ausgaben sind von allein wieder da. Es gibt kein Konto anzulegen und kein Passwort zu verlieren, weil nie ein Server irgendetwas davon hatte — die Sicherung ist deine, in deiner eigenen iCloud."
+    },
+    {
+      "q": "Und wenn ich nicht mehr zahle — sind meine Aufzeichnungen weg?",
+      "a": "Gelöscht wird nichts. Deine Fahrten bleiben auf dem iPhone und in deiner eigenen iCloud, genau da, wo sie waren. Zum Öffnen braucht DropLane aber ein aktives Abo — wenn du die Zahlen woanders haben willst, exportier vorher die CSV. Sie steht in den Einstellungen, ein Tipp genügt."
+    },
+    {
+      "q": "Wie weiß ich, was der Sprit wirklich gekostet hat, bevor die Kartenabrechnung kommt?",
+      "a": "Sag DropLane den Literpreis deiner Tankkarte und trag beim Tanken die Liter ein. Die Kosten stehen noch am selben Tag fest — der Wochengewinn stimmt also Wochen bevor die Abrechnung eintrudelt."
     }
   ],
   "closer_h2": "Hör auf zu raten, was der Tag gebracht hat.",

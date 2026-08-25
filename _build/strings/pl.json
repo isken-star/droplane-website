@@ -127,6 +127,21 @@
       "icon": "🔒",
       "title": "Nic nie wychodzi z telefonu",
       "body": "Bez konta, bez śledzenia, bez reklam. Historia tras jest twoja i trafia tylko do twojego iCloud."
+    },
+    {
+      "icon": "🔔",
+      "title": "Terminy",
+      "body": "Wpisz stan raz, a DropLane będzie go doliczać z nagranych kilometrów — dzięki temu ostrzeżenia o przeglądzie liczą w kilometrach, nie tylko w datach."
+    },
+    {
+      "icon": "🔧",
+      "title": "Twój pojazd",
+      "body": "Zapisuj tu przeglądy, opony i naprawy — z dołączonym zdjęciem faktury masz całą historię warsztatu w kieszeni."
+    },
+    {
+      "icon": "💳",
+      "title": "Karta paliwowa",
+      "body": "Ustaw cenę za litr z Twojej karty. Zapisuj litry przy tankowaniu, a DropLane wyliczy koszt."
     }
   ],
   "screens_h2": "Cała aplikacja, w dzień i w nocy",
@@ -252,6 +267,22 @@
     {
       "q": "Czy mogę mieć kilometry?",
       "a": "Tak. Kilometry albo mile, twoja waluta i cena paliwa, którą naprawdę płacisz — wszystko w Ustawieniach, na pierwszym ekranie."
+    },
+    {
+      "q": "Czy działa tam, gdzie nie ma zasięgu?",
+      "a": "Tak. Nagrywanie idzie z GPS-u twojego iPhone'a i nie potrzebuje internetu. Przejazdy bez zasięgu wracają z „Start” i „Koniec” zamiast nazw ulic, a DropLane uzupełnia je, gdy tylko zobaczy Wi-Fi. Tydzień po bocznych drogach bez kresek i tak zliczy się poprawnie."
+    },
+    {
+      "q": "Co się stanie, gdy zmienię iPhone'a?",
+      "a": "Zaloguj się na tym samym iCloudzie, a twoje przejazdy, przychody i wydatki wrócą same. Nie ma konta do założenia ani hasła do zgubienia, bo żaden serwer nigdy niczego z tego nie miał — kopia jest twoja, w twoim własnym iCloudzie."
+    },
+    {
+      "q": "A jeśli przestanę płacić — stracę swoje zapisy?",
+      "a": "Nic nie znika. Twoje przejazdy zostają na iPhonie i w twoim iCloudzie, dokładnie tam, gdzie były. Ale DropLane potrzebuje aktywnej subskrypcji, żeby się otworzyć — jeśli chcesz mieć liczby gdzie indziej, wyeksportuj wcześniej CSV. Jest w Ustawieniach, jedno dotknięcie."
+    },
+    {
+      "q": "Skąd mam wiedzieć, ile naprawdę kosztowało paliwo, zanim przyjdzie faktura z karty?",
+      "a": "Podaj DropLane cenę za litr, którą liczy twoja karta paliwowa, i zapisuj litry przy tankowaniu. Koszt wychodzi tego samego dnia, więc zysk tygodnia zgadza się na wiele tygodni przed fakturą."
     }
   ],
   "closer_h2": "Przestań zgadywać, ile dał dzień.",

@@ -127,6 +127,21 @@
       "icon": "🔒",
       "title": "Nimic nu pleacă de pe telefon",
       "body": "Fără cont, fără urmărire, fără reclame. Istoricul traseelor e al tău și ajunge doar în propriul tău iCloud."
+    },
+    {
+      "icon": "🔔",
+      "title": "Termene",
+      "body": "Scrie citirea o singură dată și DropLane o ține la zi din kilometrii urmăriți — ca avertizările de revizie și ITP să numere invers în kilometri, nu doar în date."
+    },
+    {
+      "icon": "🔧",
+      "title": "Vehiculul tău",
+      "body": "Notează aici reviziile, anvelopele și reparațiile — cu factura fotografiată atașată, ai tot istoricul service-ului în buzunar."
+    },
+    {
+      "icon": "💳",
+      "title": "Card de combustibil",
+      "body": "Setează prețul pe litru de pe card. Notează litrii când alimentezi și DropLane calculează costul."
     }
   ],
   "screens_h2": "Toată aplicația, la lumină și pe întuneric",
@@ -252,6 +267,22 @@
     {
       "q": "Pot să o folosesc în kilometri?",
       "a": "Da. Kilometri sau mile, moneda ta și prețul la motorină pe care chiar îl plătești — toate în Setări, pe primul ecran."
+    },
+    {
+      "q": "Funcționează unde nu e semnal?",
+      "a": "Da. Înregistrarea merge pe GPS-ul iPhone-ului tău și nu are nevoie de internet. Cursele făcute fără semnal se întorc cu „Start” și „Sfârșit” în loc de nume de străzi, iar DropLane le completează data viitoare când prinde Wi-Fi. O săptămână pe drumuri fără liniuțe tot se adună corect."
+    },
+    {
+      "q": "Ce se întâmplă când îmi iau alt iPhone?",
+      "a": "Autentifică-te în același iCloud și cursele, încasările și cheltuielile tale se întorc singure. Nu e niciun cont de făcut și nicio parolă de pierdut, pentru că niciun server n-a avut vreodată nimic din toate astea — copia e a ta, în iCloud-ul tău."
+    },
+    {
+      "q": "Și dacă mă opresc din plătit — îmi pierd înregistrările?",
+      "a": "Nu se șterge nimic. Cursele tale rămân pe iPhone și în iCloud-ul tău, exact unde erau. Dar DropLane are nevoie de un abonament activ ca să se deschidă — dacă vrei cifrele în altă parte, exportă CSV-ul înainte. E în Setări, la o atingere."
+    },
+    {
+      "q": "De unde știu cât a costat cu adevărat combustibilul înainte să vină factura de la card?",
+      "a": "Spune-i lui DropLane prețul pe litru pe care ți-l ia cardul de combustibil și notează litrii când alimentezi. Costul iese chiar în ziua aceea, așa că profitul săptămânii e corect cu săptămâni înainte să apară factura."
     }
   ],
   "closer_h2": "Nu mai ghici cât a ieșit ziua.",

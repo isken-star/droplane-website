@@ -127,6 +127,21 @@
       "icon": "🔒",
       "title": "Niente esce dal telefono",
       "body": "Nessun account, nessun tracciamento, nessuna pubblicità. Lo storico dei percorsi è tuo e finisce solo nel tuo iCloud."
+    },
+    {
+      "icon": "🔔",
+      "title": "Scadenze",
+      "body": "Scrivi la lettura una volta sola e DropLane la tiene aggiornata con i chilometri rilevati — così gli avvisi di tagliando e revisione contano in chilometri, non solo in date."
+    },
+    {
+      "icon": "🔧",
+      "title": "Il tuo veicolo",
+      "body": "Annota qui tagliandi, gomme e riparazioni — con la foto della fattura allegata, è tutta la storia dell'officina in tasca."
+    },
+    {
+      "icon": "💳",
+      "title": "Carta carburante",
+      "body": "Imposta il prezzo al litro della tua carta. Annota i litri quando fai rifornimento e DropLane calcola il costo."
     }
   ],
   "screens_h2": "Tutta l'app, di giorno e di notte",
@@ -252,6 +267,22 @@
     {
       "q": "Posso usarla in chilometri?",
       "a": "Sì. Chilometri o miglia, la tua valuta e il prezzo del carburante che paghi davvero — tutto in Impostazioni, già dalla prima schermata."
+    },
+    {
+      "q": "Funziona dove non c'è campo?",
+      "a": "Sì. La registrazione usa il GPS dell'iPhone e non serve internet. I viaggi fatti senza campo tornano con «Partenza» e «Arrivo» al posto dei nomi delle vie, e DropLane li completa la prima volta che trova il Wi-Fi. Una settimana di strade senza tacche torna comunque giusta."
+    },
+    {
+      "q": "Cosa succede quando cambio iPhone?",
+      "a": "Accedi allo stesso iCloud e i tuoi viaggi, incassi e spese tornano da soli. Non c'è un account da creare né una password da perdere, perché nessun server ha mai avuto niente: il backup è tuo, nel tuo iCloud."
+    },
+    {
+      "q": "E se smetto di pagare, perdo i miei dati?",
+      "a": "Non viene cancellato niente. I tuoi viaggi restano sull'iPhone e nel tuo iCloud, esattamente dov'erano. Ma per aprirsi DropLane ha bisogno di un abbonamento attivo: se vuoi i numeri altrove, esporta il CSV prima di andartene. È nelle Impostazioni, basta un tocco."
+    },
+    {
+      "q": "Come faccio a sapere quanto è costato il carburante prima che arrivi la fattura della carta?",
+      "a": "Di' a DropLane il prezzo al litro della tua carta carburante e segna i litri quando fai il pieno. Il costo esce lo stesso giorno: il guadagno della settimana è giusto settimane prima che arrivi la fattura."
     }
   ],
   "closer_h2": "Smetti di indovinare quanto ha reso la giornata.",

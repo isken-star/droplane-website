@@ -127,6 +127,21 @@
       "icon": "🔒",
       "title": "Nothing leaves your phone",
       "body": "No account to make, no tracking, no ads. Your route history is yours, backed up only to your own iCloud."
+    },
+    {
+      "icon": "🔔",
+      "title": "Renewals",
+      "body": "Type the reading once and DropLane keeps it ticking from your tracked miles — so service and MOT warnings can count down in miles, not just dates."
+    },
+    {
+      "icon": "🔧",
+      "title": "Your vehicle",
+      "body": "Log services, tyres, and repairs here — with the invoice photo attached, it's your full garage history in your pocket."
+    },
+    {
+      "icon": "💳",
+      "title": "Fuel card",
+      "body": "Set the price your card charges per litre. Log litres when you fill up and DropLane works out the cost."
     }
   ],
   "screens_h2": "The whole app, in daylight and dark",
@@ -252,6 +267,22 @@
     {
       "q": "Can I use it in kilometres?",
       "a": "Yes. Miles or kilometres, your own currency, and the fuel price you actually pay — all in Settings, on the first screen."
+    },
+    {
+      "q": "Does it work where there's no signal?",
+      "a": "Yes. Recording runs off your iPhone's own GPS and wants no internet at all. Drives taken out of signal come back labelled “Start” and “End” instead of street names, and DropLane fills those in the next time it sees Wi-Fi. A week down lanes with no bars still adds up right."
+    },
+    {
+      "q": "What happens when I get a new phone?",
+      "a": "Sign in to the same iCloud and your drives, earnings and expenses come back on their own. There is no account to make and no password to lose, because there was never a server holding any of it — the backup is yours, in your own iCloud."
+    },
+    {
+      "q": "What if I stop paying — do I lose my records?",
+      "a": "Nothing is deleted. Your drives stay on the iPhone and in your own iCloud, exactly where they were. But DropLane needs an active subscription to open, so if you want the figures somewhere else, export the CSV before you go. It's in Settings, and it's one tap."
+    },
+    {
+      "q": "How do I know what fuel really cost before the card invoice arrives?",
+      "a": "Tell DropLane the price per litre your fuel card charges, then log the litres when you fill up. The cost is worked out on the day, so the week's profit is right weeks before the invoice turns up."
     }
   ],
   "closer_h2": "Stop guessing what the day made.",

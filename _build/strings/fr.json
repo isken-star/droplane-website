@@ -127,6 +127,21 @@
       "icon": "🔒",
       "title": "Rien ne quitte votre téléphone",
       "body": "Pas de compte, pas de pistage, pas de publicité. Votre historique vous appartient et n'est sauvegardé que sur votre iCloud."
+    },
+    {
+      "icon": "🔔",
+      "title": "Échéances",
+      "body": "Saisis le relevé une fois et DropLane le fait avancer avec les kilomètres suivis — les alertes révision et contrôle technique peuvent alors décompter en kilomètres, pas seulement en dates."
+    },
+    {
+      "icon": "🔧",
+      "title": "Ton véhicule",
+      "body": "Note ici révisions, pneus et réparations — avec la photo de la facture jointe, c'est tout ton historique garage dans la poche."
+    },
+    {
+      "icon": "💳",
+      "title": "Carte carburant",
+      "body": "Définis le prix au litre de ta carte. Note les litres au moment du plein et DropLane calcule le coût."
     }
   ],
   "screens_h2": "Toute l'application, de jour comme de nuit",
@@ -252,6 +267,22 @@
     {
       "q": "Puis-je travailler en kilomètres ?",
       "a": "Oui. Kilomètres ou miles, votre monnaie et le prix du carburant que vous payez vraiment — tout est dans Réglages, dès le premier écran."
+    },
+    {
+      "q": "Est-ce que ça marche sans réseau ?",
+      "a": "Oui. L'enregistrement se fait avec le GPS de ton iPhone et ne demande aucune connexion. Les trajets faits hors réseau reviennent avec « Départ » et « Arrivée » au lieu des noms de rues, et DropLane les complète dès qu'il retrouve du Wi-Fi. Une semaine de petites routes sans barre compte quand même juste."
+    },
+    {
+      "q": "Que se passe-t-il quand je change d'iPhone ?",
+      "a": "Connecte-toi au même iCloud et tes trajets, tes recettes et tes dépenses reviennent tout seuls. Il n'y a pas de compte à créer ni de mot de passe à perdre, parce qu'aucun serveur n'a jamais rien eu — la sauvegarde est la tienne, dans ton propre iCloud."
+    },
+    {
+      "q": "Et si j'arrête de payer, je perds mes relevés ?",
+      "a": "Rien n'est supprimé. Tes trajets restent sur l'iPhone et dans ton iCloud, exactement où ils étaient. Mais DropLane a besoin d'un abonnement actif pour s'ouvrir : si tu veux tes chiffres ailleurs, exporte le CSV avant de partir. C'est dans les Réglages, en une touche."
+    },
+    {
+      "q": "Comment savoir ce que le carburant a vraiment coûté avant de recevoir la facture de la carte ?",
+      "a": "Indique à DropLane le prix au litre que facture ta carte carburant, puis note les litres à chaque plein. Le coût est calculé le jour même : le bénéfice de la semaine est juste des semaines avant que la facture arrive."
     }
   ],
   "closer_h2": "Arrêtez de deviner ce que la journée a rapporté.",

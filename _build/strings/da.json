@@ -127,6 +127,21 @@
       "icon": "🔒",
       "title": "Intet forlader din telefon",
       "body": "Ingen konto, ingen sporing, ingen reklamer. Din rutehistorik er din, og sikkerhedskopieres kun til din egen iCloud."
+    },
+    {
+      "icon": "🔔",
+      "title": "Fornyelser",
+      "body": "Indtast aflæsningen én gang, så tæller DropLane videre ud fra de miles, den registrerer — så advarsler om service og syn kan tælle ned i miles og ikke kun i datoer."
+    },
+    {
+      "icon": "🔧",
+      "title": "Dit køretøj",
+      "body": "Registrér serviceeftersyn, dæk og reparationer her — med et foto af fakturaen vedhæftet har du hele værkstedshistorikken i lommen."
+    },
+    {
+      "icon": "💳",
+      "title": "Brændstofkort",
+      "body": "Angiv den pris, dit kort tager pr. liter. Skriv literne ind, når du tanker, så regner DropLane udgiften ud."
     }
   ],
   "screens_h2": "Hele appen, i dagslys og i mørke",
@@ -252,6 +267,22 @@
     {
       "q": "Kan jeg bruge den i kilometer?",
       "a": "Ja. Kilometer eller miles, din egen valuta og den brændstofpris du faktisk betaler — det hele i Indstillinger, på den første skærm."
+    },
+    {
+      "q": "Virker den, hvor der ikke er dækning?",
+      "a": "Ja. Optagelsen sker med din iPhones GPS, og det kræver ikke internet. Ture uden dækning kommer tilbage med „Start” og „Slut” i stedet for vejnavne, og DropLane udfylder dem, næste gang den ser wi-fi. En uge på små veje uden streger tæller stadig rigtigt sammen."
+    },
+    {
+      "q": "Hvad sker der, når jeg får en ny iPhone?",
+      "a": "Log ind på den samme iCloud, så kommer dine ture, indtægter og udgifter tilbage af sig selv. Der er ingen konto at oprette og intet kodeord at miste, for der har aldrig været en server med noget af det — sikkerhedskopien er din, i din egen iCloud."
+    },
+    {
+      "q": "Og hvis jeg stopper med at betale — mister jeg så mine registreringer?",
+      "a": "Intet bliver slettet. Dine ture bliver på din iPhone og i din egen iCloud, præcis hvor de var. Men DropLane skal have et aktivt abonnement for at åbne, så vil du have tallene et andet sted, så eksportér CSV'en først. Den ligger i Indstillinger, ét tryk."
+    },
+    {
+      "q": "Hvordan ved jeg, hvad brændstoffet reelt kostede, før fakturaen fra kortet kommer?",
+      "a": "Fortæl DropLane, hvad dit brændstofkort tager per liter, og skriv literne ind, når du tanker. Udgiften ligger fast samme dag, så ugens overskud er rigtigt uger før fakturaen dukker op."
     }
   ],
   "closer_h2": "Hold op med at gætte på, hvad dagen gav.",
