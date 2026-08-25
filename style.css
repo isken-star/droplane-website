@@ -525,6 +525,77 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; }
 
+/* ---------------- setup screens ---------------- */
+
+/* What "turn it on once" actually looks like: four phones under the steps.
+   Wide enough to read the headline on each, and no wider. */
+.setup {
+  margin-top: 26px; display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(12px, 1.8vw, 22px);
+}
+@media (max-width: 780px) { .setup { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.setup-shot { margin: 0; display: flex; flex-direction: column; gap: 10px; }
+.setup-shot .device { width: 100%; border-radius: clamp(20px, 3vw, 30px); padding: 7px; }
+.setup-shot .device-screen { border-radius: clamp(15px, 2.4vw, 24px); }
+.setup-shot figcaption {
+  font-size: 14px; font-weight: 700; color: var(--text-2); text-align: center;
+  text-wrap: balance;
+}
+
+/* The lock screen: the phone in a pocket, working. Bigger than the setup
+   phones beside it, because the notifications have to be readable — that
+   text is the whole point of the picture. */
+.pocket {
+  margin-top: 26px; display: grid; grid-template-columns: auto 1fr;
+  gap: clamp(22px, 3.5vw, 44px); align-items: center;
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: clamp(20px, 3vw, 32px);
+}
+@media (max-width: 720px) { .pocket { grid-template-columns: 1fr; justify-items: center; text-align: center; } }
+
+.pocket-phone { margin: 0; }
+.pocket-phone .device { width: clamp(210px, 25vw, 290px); }
+.pocket-words h3 {
+  font-size: clamp(19px, 2.1vw, 24px); font-weight: 800;
+  letter-spacing: -.02em; margin: 0 0 10px;
+}
+.pocket-words p { margin: 0; color: var(--text-2); font-size: 17px; max-width: 42ch; }
+
+/* ---------------- privacy ---------------- */
+
+.keeps {
+  margin-top: 26px; display: grid; grid-template-columns: 1.1fr .9fr;
+  gap: clamp(24px, 4vw, 48px); align-items: center;
+}
+@media (max-width: 900px) { .keeps { grid-template-columns: 1fr; } }
+
+/* The nought is the argument, so it gets to be the biggest thing here. */
+.keeps-stat { margin: 0 0 22px; display: flex; align-items: center; gap: 16px; }
+.keeps-stat b {
+  font-size: clamp(52px, 7vw, 78px); font-weight: 800; letter-spacing: -.04em;
+  line-height: .9; color: var(--brand-2);
+}
+.keeps-stat span {
+  font-size: 16px; font-weight: 600; color: var(--text-2); max-width: 15ch;
+}
+
+.keeps-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+.keeps-list li {
+  position: relative; padding-left: 30px;
+  color: var(--text-2); font-size: 16.5px; line-height: 1.55;
+}
+.keeps-list li::before {
+  content: ""; position: absolute; left: 0; top: .42em;
+  width: 16px; height: 16px; border-radius: 5px;
+  background: var(--tint);
+  box-shadow: inset 0 0 0 1.5px var(--brand-2);
+}
+
+.keeps-phone { margin: 0; justify-self: center; }
+.keeps-phone .device { width: clamp(190px, 22vw, 260px); }
+
 /* What the steps add up to: the switches on the left, and the document they
    produce right beside them. Small on the page — click to read it properly. */
 .proof {

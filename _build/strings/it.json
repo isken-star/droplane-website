@@ -278,5 +278,17 @@
   "suggest_prompt": "Leggi in italiano",
   "cta_soon": "In arrivo",
   "cta_coming": "In arrivo su App Store",
-  "cta_notify": "Avvisami quando esce"
+  "cta_notify": "Avvisami quando esce",
+  "privacy_h2": "I tuoi dati. Solo tuoi.",
+  "privacy_intro": "Tutto resta sul tuo iPhone e nel tuo iCloud. Niente account, niente server, niente in vendita. Solo tu decidi chi vede i tuoi viaggi.",
+  "privacy_stat_label": "Server che custodiscono la tua posizione",
+  "privacy_point1": "È questo che permette a DropLane di registrare i chilometri. La cronologia della tua posizione non lascia mai il tuo iPhone.",
+  "privacy_point2": "Backup e ripristino iCloud, senza bisogno di account",
+  "privacy_point3": "Esporta CSV per i tuoi archivi",
+  "setup_shot_location": "Attiva la posizione",
+  "setup_shot_always": "Adesso scegli Sempre",
+  "setup_shot_notifications": "Attiva le notifiche",
+  "setup_shot_vehicle": "Cosa guidi?",
+  "pocket_h3": "Notifiche",
+  "pocket_body": "«Sempre» permette di registrare i viaggi con l'app chiusa."
 }

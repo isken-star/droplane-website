@@ -278,5 +278,17 @@
   "suggest_prompt": "Lees dit in het Nederlands",
   "cta_soon": "Binnenkort",
   "cta_coming": "Binnenkort in de App Store",
-  "cta_notify": "Mail me zodra hij er is"
+  "cta_notify": "Mail me zodra hij er is",
+  "privacy_h2": "Jouw gegevens. Van jou alleen.",
+  "privacy_intro": "Alles blijft op je iPhone en in je eigen iCloud. Geen account, geen server, niets wordt verkocht. Alleen jij bepaalt wie je ritten ziet.",
+  "privacy_stat_label": "Servers met jouw locatie",
+  "privacy_point1": "Hierdoor kan DropLane de kilometers opnemen. Je locatiegeschiedenis verlaat je iPhone nooit.",
+  "privacy_point2": "iCloud-reservekopie en -herstel, geen account nodig",
+  "privacy_point3": "Exporteer CSV voor je administratie",
+  "setup_shot_location": "Zet locatie aan",
+  "setup_shot_always": "Kies nu Altijd",
+  "setup_shot_notifications": "Schakel meldingen in",
+  "setup_shot_vehicle": "Waar rij je in?",
+  "pocket_h3": "Meldingen",
+  "pocket_body": "Met ‘Altijd’ worden ritten ook opgenomen als de app gesloten is."
 }

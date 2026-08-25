@@ -278,5 +278,17 @@
   "suggest_prompt": "Lire en français",
   "cta_soon": "Bientôt",
   "cta_coming": "Bientôt sur l'App Store",
-  "cta_notify": "Prévenez-moi à la sortie"
+  "cta_notify": "Prévenez-moi à la sortie",
+  "privacy_h2": "Tes données. Rien qu'à toi.",
+  "privacy_intro": "Tout reste sur ton iPhone et dans ton propre iCloud. Pas de compte, pas de serveur, rien de vendu. Toi seul décides qui voit tes trajets.",
+  "privacy_stat_label": "Serveurs qui détiennent ta position",
+  "privacy_point1": "C'est ce qui permet à DropLane d'enregistrer les kilomètres. Ton historique de position ne quitte jamais ton iPhone.",
+  "privacy_point2": "Sauvegarde et restauration iCloud, sans compte",
+  "privacy_point3": "Exporter un CSV pour tes archives",
+  "setup_shot_location": "Activer la position",
+  "setup_shot_always": "Choisis maintenant Toujours",
+  "setup_shot_notifications": "Activer les notifications",
+  "setup_shot_vehicle": "Tu conduis quoi ?",
+  "pocket_h3": "Notifications",
+  "pocket_body": "« Toujours » permet d'enregistrer les trajets même app fermée."
 }

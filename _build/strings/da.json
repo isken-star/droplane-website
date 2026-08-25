@@ -278,5 +278,17 @@
   "suggest_prompt": "Læs den på dansk",
   "cta_soon": "Kommer snart",
   "cta_coming": "Kommer i App Store",
-  "cta_notify": "Send mig en mail, når den er ude"
+  "cta_notify": "Send mig en mail, når den er ude",
+  "privacy_h2": "Dine data. Kun dine.",
+  "privacy_intro": "Det hele bliver på din iPhone og i din egen iCloud. Ingen konto, ingen server, intet bliver solgt. Kun du bestemmer, hvem der ser dine ture.",
+  "privacy_stat_label": "Servere med din lokalitet",
+  "privacy_point1": "Det er det, der lader DropLane optage dine miles. Din lokalitetshistorik forlader aldrig din iPhone.",
+  "privacy_point2": "iCloud-sikkerhedskopi og gendannelse, uden nogen konto",
+  "privacy_point3": "Eksportér CSV til dit regnskab",
+  "setup_shot_location": "Slå lokalitet til",
+  "setup_shot_always": "Vælg nu Altid",
+  "setup_shot_notifications": "Slå meddelelser til",
+  "setup_shot_vehicle": "Hvad kører du i?",
+  "pocket_h3": "Meddelelser",
+  "pocket_body": "»Altid« lader ture blive optaget, mens appen er lukket."
 }

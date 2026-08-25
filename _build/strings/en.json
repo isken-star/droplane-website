@@ -278,5 +278,17 @@
   "suggest_prompt": "Read this in English",
   "cta_soon": "Coming soon",
   "cta_coming": "Coming to the App Store",
-  "cta_notify": "Email me when it's out"
+  "cta_notify": "Email me when it's out",
+  "privacy_h2": "Your data. Yours alone.",
+  "privacy_intro": "Everything stays on your iPhone and in your own iCloud. No account, no server, nothing sold. Only you decide who sees your trips.",
+  "privacy_stat_label": "Servers holding your location",
+  "privacy_point1": "This is what lets DropLane record the miles. Your location history never leaves your iPhone.",
+  "privacy_point2": "iCloud backup and restore, no account needed",
+  "privacy_point3": "Export CSV for your records",
+  "setup_shot_location": "Turn on location",
+  "setup_shot_always": "Now choose Always",
+  "setup_shot_notifications": "Enable notifications",
+  "setup_shot_vehicle": "What do you drive?",
+  "pocket_h3": "Notifications",
+  "pocket_body": "\"Always\" lets drives record with the app closed."
 }

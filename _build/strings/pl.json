@@ -278,5 +278,17 @@
   "suggest_prompt": "Przeczytaj po polsku",
   "cta_soon": "Wkrótce",
   "cta_coming": "Wkrótce w App Store",
-  "cta_notify": "Napisz mi, gdy będzie dostępna"
+  "cta_notify": "Napisz mi, gdy będzie dostępna",
+  "privacy_h2": "Twoje dane. Tylko Twoje.",
+  "privacy_intro": "Wszystko zostaje na Twoim iPhonie i w Twoim własnym iCloud. Bez konta, bez serwera, nic nie jest sprzedawane. Tylko Ty decydujesz, kto widzi Twoje przejazdy.",
+  "privacy_stat_label": "Serwery z Twoją lokalizacją",
+  "privacy_point1": "To właśnie pozwala DropLane nagrywać kilometry. Historia Twojej lokalizacji nigdy nie opuszcza iPhone'a.",
+  "privacy_point2": "Kopia i przywracanie z iCloud, bez żadnego konta",
+  "privacy_point3": "Eksportuj CSV do swojej ewidencji",
+  "setup_shot_location": "Włącz lokalizację",
+  "setup_shot_always": "Teraz wybierz Zawsze",
+  "setup_shot_notifications": "Włącz powiadomienia",
+  "setup_shot_vehicle": "Czym jeździsz?",
+  "pocket_h3": "Powiadomienia",
+  "pocket_body": "„Zawsze” pozwala nagrywać przejazdy przy zamkniętej aplikacji."
 }

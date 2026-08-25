@@ -209,6 +209,31 @@
 {{steps}}
     </div>
 
+    <!-- Step one, screen by screen. The captions are the screens' own
+         headlines out of the app, so they read the same on the page as they
+         do on the phone, in every language. -->
+    <div class="setup">
+{{setup_shots}}
+    </div>
+
+    <!-- And then the phone goes in a pocket. This is the only picture on the
+         page taken with the app shut: the lock screen, doing the job on its
+         own. Both lines are the app's own words. -->
+    <div class="pocket">
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="{{shots}}/dark/notifications.webp" width="640" height="1391" alt="{{pocket_h3}}" loading="lazy">
+            <img class="only-light" src="{{shots}}/light/notifications.webp" width="640" height="1391" alt="{{pocket_h3}}" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <div class="pocket-words">
+        <h3>{{pocket_h3}}</h3>
+        <p>{{pocket_body}}</p>
+      </div>
+    </div>
+
     <div class="proof" id="report">
       <div class="proof-words">
         <h3>{{papers_h2}}</h3>
@@ -243,6 +268,37 @@
           <figcaption>{{papers_landscape}}</figcaption>
         </figure>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- Privacy sits above "what it actually does" on purpose: it is the thing
+     that separates DropLane from every other mileage app, and a courier
+     handing over a month of their movements wants it answered early. Every
+     line here is the app's own onboarding copy, already translated. -->
+<section id="privacy">
+  <div class="wrap">
+    <h2>{{privacy_h2}}</h2>
+    <p class="section-intro">{{privacy_intro}}</p>
+
+    <div class="keeps">
+      <div class="keeps-words">
+        <p class="keeps-stat"><b>0</b><span>{{privacy_stat_label}}</span></p>
+        <ul class="keeps-list">
+          <li>{{privacy_point1}}</li>
+          <li>{{privacy_point2}}</li>
+          <li>{{privacy_point3}}</li>
+        </ul>
+      </div>
+
+      <figure class="keeps-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="{{shots}}/dark/onboarding-privacy.webp" width="640" height="1391" alt="{{privacy_h2}}" loading="lazy">
+            <img class="only-light" src="{{shots}}/light/onboarding-privacy.webp" width="640" height="1391" alt="{{privacy_h2}}" loading="lazy">
+          </div>
+        </div>
+      </figure>
     </div>
   </div>
 </section>

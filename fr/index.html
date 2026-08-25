@@ -270,6 +270,58 @@
       </div>
     </div>
 
+    <!-- Step one, screen by screen. The captions are the screens' own
+         headlines out of the app, so they read the same on the page as they
+         do on the phone, in every language. -->
+    <div class="setup">
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/onboarding-location.webp" width="640" height="1391" alt="Activer la position" loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/onboarding-location.webp" width="640" height="1391" alt="Activer la position" loading="lazy">
+        </div></div>
+        <figcaption>Activer la position</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/onboarding-location-always.webp" width="640" height="1391" alt="Choisis maintenant Toujours" loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/onboarding-location-always.webp" width="640" height="1391" alt="Choisis maintenant Toujours" loading="lazy">
+        </div></div>
+        <figcaption>Choisis maintenant Toujours</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/onboarding-notifications.webp" width="640" height="1391" alt="Activer les notifications" loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/onboarding-notifications.webp" width="640" height="1391" alt="Activer les notifications" loading="lazy">
+        </div></div>
+        <figcaption>Activer les notifications</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fr/dark/onboarding-vehicle.webp" width="640" height="1391" alt="Tu conduis quoi ?" loading="lazy">
+          <img class="only-light" src="/assets/screens/fr/light/onboarding-vehicle.webp" width="640" height="1391" alt="Tu conduis quoi ?" loading="lazy">
+        </div></div>
+        <figcaption>Tu conduis quoi ?</figcaption>
+      </figure>
+    </div>
+
+    <!-- And then the phone goes in a pocket. This is the only picture on the
+         page taken with the app shut: the lock screen, doing the job on its
+         own. Both lines are the app's own words. -->
+    <div class="pocket">
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/fr/dark/notifications.webp" width="640" height="1391" alt="Notifications" loading="lazy">
+            <img class="only-light" src="/assets/screens/fr/light/notifications.webp" width="640" height="1391" alt="Notifications" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <div class="pocket-words">
+        <h3>Notifications</h3>
+        <p>« Toujours » permet d&#x27;enregistrer les trajets même app fermée.</p>
+      </div>
+    </div>
+
     <div class="proof" id="report">
       <div class="proof-words">
         <h3>Le rapport, portrait ou paysage</h3>
@@ -304,6 +356,37 @@
           <figcaption>Paysage</figcaption>
         </figure>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- Privacy sits above "what it actually does" on purpose: it is the thing
+     that separates DropLane from every other mileage app, and a courier
+     handing over a month of their movements wants it answered early. Every
+     line here is the app's own onboarding copy, already translated. -->
+<section id="privacy">
+  <div class="wrap">
+    <h2>Tes données. Rien qu&#x27;à toi.</h2>
+    <p class="section-intro">Tout reste sur ton iPhone et dans ton propre iCloud. Pas de compte, pas de serveur, rien de vendu. Toi seul décides qui voit tes trajets.</p>
+
+    <div class="keeps">
+      <div class="keeps-words">
+        <p class="keeps-stat"><b>0</b><span>Serveurs qui détiennent ta position</span></p>
+        <ul class="keeps-list">
+          <li>C&#x27;est ce qui permet à DropLane d&#x27;enregistrer les kilomètres. Ton historique de position ne quitte jamais ton iPhone.</li>
+          <li>Sauvegarde et restauration iCloud, sans compte</li>
+          <li>Exporter un CSV pour tes archives</li>
+        </ul>
+      </div>
+
+      <figure class="keeps-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/fr/dark/onboarding-privacy.webp" width="640" height="1391" alt="Tes données. Rien qu&#x27;à toi." loading="lazy">
+            <img class="only-light" src="/assets/screens/fr/light/onboarding-privacy.webp" width="640" height="1391" alt="Tes données. Rien qu&#x27;à toi." loading="lazy">
+          </div>
+        </div>
+      </figure>
     </div>
   </div>
 </section>

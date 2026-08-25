@@ -278,5 +278,17 @@
   "suggest_prompt": "Citește în română",
   "cta_soon": "În curând",
   "cta_coming": "În curând pe App Store",
-  "cta_notify": "Anunță-mă când apare"
+  "cta_notify": "Anunță-mă când apare",
+  "privacy_h2": "Datele tale. Doar ale tale.",
+  "privacy_intro": "Totul rămâne pe iPhone-ul tău și în iCloud-ul tău. Fără cont, fără server, nimic vândut. Doar tu decizi cine îți vede cursele.",
+  "privacy_stat_label": "Servere care îți păstrează locația",
+  "privacy_point1": "Asta îi permite lui DropLane să înregistreze kilometrii. Istoricul locației nu îți părăsește niciodată iPhone-ul.",
+  "privacy_point2": "Backup și restaurare iCloud, fără cont",
+  "privacy_point3": "Exportă CSV pentru evidența ta",
+  "setup_shot_location": "Pornește locația",
+  "setup_shot_always": "Acum alege Întotdeauna",
+  "setup_shot_notifications": "Activează notificările",
+  "setup_shot_vehicle": "Cu ce conduci?",
+  "pocket_h3": "Notificări",
+  "pocket_body": "„Întotdeauna” permite înregistrarea curselor cu aplicația închisă."
 }
