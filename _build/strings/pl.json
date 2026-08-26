@@ -322,5 +322,6 @@
   "setup_shot_vehicle": "Czym jeździsz?",
   "pocket_h3": "Powiadomienia",
   "pocket_body": "„Zawsze” pozwala nagrywać przejazdy przy zamkniętej aplikacji.",
-  "pocket_live_alt": "Wykryto przejazd — trwa rejestrowanie"
+  "pocket_live_alt": "Wykryto przejazd — trwa rejestrowanie",
+  "pocket_live_body": "Kiedy jedziesz, aktywność na żywo nabija kilometry na ekranie blokady — widzisz nagrywany przejazd, nie odblokowując niczego."
 }

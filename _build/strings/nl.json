@@ -322,5 +322,6 @@
   "setup_shot_vehicle": "Waar rij je in?",
   "pocket_h3": "Meldingen",
   "pocket_body": "Met ‘Altijd’ worden ritten ook opgenomen als de app gesloten is.",
-  "pocket_live_alt": "Rit gedetecteerd — opname loopt"
+  "pocket_live_alt": "Rit gedetecteerd — opname loopt",
+  "pocket_live_body": "Terwijl je rijdt, laat een Live Activiteit de kilometers oplopen op je vergrendelscherm — je ziet de rit opgenomen worden zonder iets te ontgrendelen."
 }

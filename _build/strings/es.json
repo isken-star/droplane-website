@@ -322,5 +322,6 @@
   "setup_shot_vehicle": "¿Qué conduces?",
   "pocket_h3": "Notificaciones",
   "pocket_body": "«Siempre» permite grabar los viajes con la app cerrada.",
-  "pocket_live_alt": "Viaje detectado — grabando"
+  "pocket_live_alt": "Viaje detectado — grabando",
+  "pocket_live_body": "Mientras conduces, una actividad en directo va sumando los kilómetros en la pantalla bloqueada: ves el viaje grabándose sin desbloquear nada."
 }

@@ -322,5 +322,6 @@
   "setup_shot_vehicle": "What do you drive?",
   "pocket_h3": "Notifications",
   "pocket_body": "\"Always\" lets drives record with the app closed.",
-  "pocket_live_alt": "Drive detected — recording"
+  "pocket_live_alt": "Drive detected — recording",
+  "pocket_live_body": "While you're driving, a Live Activity keeps the miles climbing on the lock screen — so you can see the drive being recorded without unlocking anything."
 }

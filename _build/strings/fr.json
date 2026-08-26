@@ -322,5 +322,6 @@
   "setup_shot_vehicle": "Tu conduis quoi ?",
   "pocket_h3": "Notifications",
   "pocket_body": "« Toujours » permet d'enregistrer les trajets même app fermée.",
-  "pocket_live_alt": "Trajet détecté — enregistrement en cours"
+  "pocket_live_alt": "Trajet détecté — enregistrement en cours",
+  "pocket_live_body": "Pendant que tu roules, une activité en direct fait grimper les kilomètres sur l'écran verrouillé — tu vois le trajet s'enregistrer sans rien déverrouiller."
 }

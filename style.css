@@ -578,6 +578,8 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
   letter-spacing: -.02em; margin: 0 0 10px;
 }
 .pocket-words p { margin: 0; color: var(--text-2); font-size: 17px; max-width: 42ch; }
+/* The second line explains the second phone, so it wants its own air. */
+.pocket-words .pocket-live { margin-top: 12px; }
 
 /* ---------------- privacy ---------------- */
 
