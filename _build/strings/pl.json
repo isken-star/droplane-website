@@ -321,5 +321,6 @@
   "setup_shot_notifications": "Włącz powiadomienia",
   "setup_shot_vehicle": "Czym jeździsz?",
   "pocket_h3": "Powiadomienia",
-  "pocket_body": "„Zawsze” pozwala nagrywać przejazdy przy zamkniętej aplikacji."
+  "pocket_body": "„Zawsze” pozwala nagrywać przejazdy przy zamkniętej aplikacji.",
+  "pocket_live_alt": "Wykryto przejazd — trwa rejestrowanie"
 }

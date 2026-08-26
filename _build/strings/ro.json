@@ -321,5 +321,6 @@
   "setup_shot_notifications": "Activează notificările",
   "setup_shot_vehicle": "Cu ce conduci?",
   "pocket_h3": "Notificări",
-  "pocket_body": "„Întotdeauna” permite înregistrarea curselor cu aplicația închisă."
+  "pocket_body": "„Întotdeauna” permite înregistrarea curselor cu aplicația închisă.",
+  "pocket_live_alt": "Cursă detectată — se înregistrează"
 }

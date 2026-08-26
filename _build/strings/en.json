@@ -321,5 +321,6 @@
   "setup_shot_notifications": "Enable notifications",
   "setup_shot_vehicle": "What do you drive?",
   "pocket_h3": "Notifications",
-  "pocket_body": "\"Always\" lets drives record with the app closed."
+  "pocket_body": "\"Always\" lets drives record with the app closed.",
+  "pocket_live_alt": "Drive detected — recording"
 }

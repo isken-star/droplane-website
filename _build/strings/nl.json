@@ -321,5 +321,6 @@
   "setup_shot_notifications": "Schakel meldingen in",
   "setup_shot_vehicle": "Waar rij je in?",
   "pocket_h3": "Meldingen",
-  "pocket_body": "Met ‘Altijd’ worden ritten ook opgenomen als de app gesloten is."
+  "pocket_body": "Met ‘Altijd’ worden ritten ook opgenomen als de app gesloten is.",
+  "pocket_live_alt": "Rit gedetecteerd — opname loopt"
 }

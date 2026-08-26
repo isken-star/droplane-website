@@ -321,5 +321,6 @@
   "setup_shot_notifications": "Mitteilungen aktivieren",
   "setup_shot_vehicle": "Was fährst du?",
   "pocket_h3": "Mitteilungen",
-  "pocket_body": "„Immer“ lässt Fahrten auch bei geschlossener App aufzeichnen."
+  "pocket_body": "„Immer“ lässt Fahrten auch bei geschlossener App aufzeichnen.",
+  "pocket_live_alt": "Fahrt erkannt — Aufzeichnung läuft"
 }
