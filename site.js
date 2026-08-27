@@ -140,9 +140,12 @@
 
   /* ---- offering the visitor their own language ----------------------- */
 
+  // Keyed in lower case so an "en-US" link is found by a browser reporting
+  // "en-us". The regional pages depend on it: the US and Australian pages
+  // differ from the British one by price and tax office, not by language.
   var translated = {};
   document.querySelectorAll('.lang-list a[hreflang]').forEach(function (link) {
-    translated[link.getAttribute('hreflang')] = {
+    translated[link.getAttribute('hreflang').toLowerCase()] = {
       href: link.getAttribute('href'),
       name: link.textContent.trim(),
       flag: link.dataset.flag || '',
@@ -156,12 +159,18 @@
   if (suggestion) {
     var tag = (navigator.language || 'en').toLowerCase();
     var code = tag.split('-')[0];
-    var match = translated[tag] || translated[code];
-    if (match && code !== pageLanguage) {
+    // Full tag first, so "en-au" reaches the Australian page instead of
+    // stopping at plain English. Comparing the matched key — not the bare
+    // language — against this page is what lets a US reader on the British
+    // page be offered dollars: the old check saw "en" on both sides and
+    // stayed silent.
+    var key = translated[tag] ? tag : (translated[code] ? code : null);
+    if (key && key !== pageLanguage.toLowerCase()) {
+      var match = translated[key];
       suggestion.innerHTML = '<span class="flag">' + match.flag + '</span>' +
         '<span></span> →';
       suggestion.querySelectorAll('span')[1].textContent = match.prompt;
-      suggestion.setAttribute('lang', code);
+      suggestion.setAttribute('lang', key);
       suggestion.href = match.href;
       suggestion.hidden = false;
       suggestion.classList.add('show');

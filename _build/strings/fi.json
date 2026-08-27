@@ -1,0 +1,327 @@
+{
+  "meta_title": "DropLane — Tiedä mitä päivä oikeasti tuotti",
+  "meta_description": "DropLane tallentaa kuriirin ajot itsestään, vähentää polttoaineen, pysäköinnin ja käyttökulut tuloista ja kertoo mitä tunti oikeasti tuotti. Lisäksi ajopäiväkirja valmiina kirjanpitäjälle, kahdellakymmenelläneljällä kielellä, kaikki puhelimessa.",
+  "nav_label": "Päävalikko",
+  "nav_how": "Näin se toimii",
+  "nav_day": "Mitä se tuottaa",
+  "nav_features": "Mitä se tekee",
+  "nav_screens": "Näytöt",
+  "nav_countries": "Missä se toimii",
+  "nav_languages": "Kielet",
+  "nav_pricing": "Hinta",
+  "nav_faq": "Kysymykset",
+  "nav_support": "Tuki",
+  "cta_get": "Hanki DropLane",
+  "menu": "Valikko",
+  "close": "Sulje",
+  "theme_label": "Väriteema",
+  "theme_light": "Vaalea",
+  "theme_dark": "Tumma",
+  "language_label": "Kieli",
+  "language_title": "Lue sivu omalla kielelläsi",
+  "language_note": "Sovellus itse puhuu kahtakymmentäneljää kieltä — loput ovat tulossa tänne.",
+  "langbar_strong": "Kaksikymmentäneljä kieltä.",
+  "langbar_rest": "Valitse omasi — sovellus puhuu sitä myös.",
+  "per_month_short": "kuukaudessa",
+  "see_all": "näytä kaikki",
+  "hero_h1": "Tiedä mitä päivä oikeasti tuotti.",
+  "hero_lede": "Käynnistä pakettiauto. Siinä kaikki. DropLane tallentaa jokaisen ajon ja reitin jota oikeasti ajoit, vähentää kulut tuloista, ja tuntipalkkasi odottaa jo ennen kuin olet ovesta sisällä.",
+  "hero_cta_notify": "Ilmoita julkaisusta",
+  "hero_cta_how": "Näin se toimii",
+  "hero_note": "14 päivää ilmaiseksi · ei tiliä, ei mainoksia · iPhone",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "painiketta painettavana"
+    },
+    {
+      "value": "24",
+      "label": "kieltä"
+    },
+    {
+      "value": "17",
+      "label": "verokantaa sisäänrakennettuna"
+    }
+  ],
+  "money_h2": "Kaksi päivää. Samat kilometrit. Ei sama raha.",
+  "money_intro": "Molemmat ovat kolme ajoa ja noin kahdeksankymmentä kilometriä, samasta puhelimesta, samassa pakettiautossa. Tavallinen ajopäiväkirjasovellus kirjaa ne suunnilleen samaksi päiväksi. Väliä on lähes kaksikymmentäkaksi euroa.",
+  "money_day1_when": "Torstai 30. heinäkuuta",
+  "money_day1_distance": "83,5 km",
+  "money_day1_trips": "3 ajoa",
+  "money_day1_money": "107,14 €",
+  "money_day2_when": "Eilen",
+  "money_day2_distance": "82,3 km",
+  "money_day2_trips": "3 ajoa",
+  "money_day2_money": "129,09 €",
+  "money_label_distance": "Tiellä",
+  "money_label_trips": "Ajot",
+  "money_label_money": "Jäi käteen",
+  "money_punch": "Kilometrin päässä toisistaan. 21,95 € päässä toisistaan.",
+  "money_note": "Kilometrit ovat helppo puolisko — ja se puolisko joka ei kerro sinulle mitään. Se kumpi päivä oli nousemisen arvoinen, lukee toisessa sarakkeessa, ja juuri sen sarakkeen DropLane täyttää puolestasi, samana päivänä, ilman että kirjoitat mitään ylös.",
+  "day_h2": "Mitä päivä oikeasti tuotti?",
+  "day_intro": "186,45 € kuulostaa hyvältä päivältä. Viisi tuntia ja viisikymmentäkolme minuuttia tien päällä ja 14,95 € kuluja myöhemmin siitä tuli 24,65 € tunnissa. Se on luku jota kenelläkään ratin takana ei ole, ja se jonka DropLane ojentaa sinulle ennen kuin olet ovesta sisällä.",
+  "day_film1_title": "Päivä laski itsensä yhteen",
+  "day_film1_body": "Kaksi ajoa, 48,2 km, 171,50 € käteen — ja yksi vielä lajittelematta. Mitään ei kirjoitettu.",
+  "day_film2_title": "Raportti rakentaa itsensä",
+  "day_film2_body": "Rastita mitä otetaan mukaan, valitse pysty tai vaaka, ja PDF kirjanpitäjälle on valmis lähetettäväksi.",
+  "day_film3_title": "Ja mitä tunti oikeasti tuotti",
+  "day_film3_body": "24,65 € tunnissa kulujen jälkeen, 7,12 € kilometriltä, ja kilometrikorvaus laskettuna taustalla.",
+  "day_tally_lead": "Yksi päivä — 48,2 km, kaksi ajoa, 5 h 53 min",
+  "day_label_earned": "Ansaittu",
+  "day_label_costs": "Kulut",
+  "day_label_kept": "Jäi käteen",
+  "day_earned": "186,45 €",
+  "day_costs": "14,95 €",
+  "day_kept": "171,50 €",
+  "day_rate_value": "24,65 €",
+  "day_hours_value": "5 h 53 min",
+  "day_label_hours": "tiellä",
+  "day_label_hour": "tunnissa",
+  "day_note": "Yhden päivän luvut, suoraan yllä olevilta näytöiltä. Sinun lukusi ovat toiset — pointti on saada ne samana päivänä, autossa, sen sijaan että saisi tietää vasta keväällä.",
+  "how_h2": "Kolme askelta, ja kaksi niistä ei ole sinun",
+  "how_intro": "DropLanessa ei ole käynnistyspainiketta, tarkoituksella. Kukaan ei muista painaa sellaista kuudelta aamulla pakettiauto täynnä paketteja.",
+  "how_steps": [
+    {
+      "title": "Laita se päälle kerran",
+      "body": "Asenna sovellus ja salli sijainti taustalla. Enempää käyttöönottoa ei ole."
+    },
+    {
+      "title": "Aja",
+      "body": "Jokainen ajo tallentaa itsensä, reitteineen, pysähdyksineen ja sen kanssa kuinka kauan seisoit kullakin."
+    },
+    {
+      "title": "Lajittele yhdellä napautuksella",
+      "body": "Työ, tyhjänä ajo, matkalla noutoon vai yksityinen. Summat ja veroluku seuraavat perässä itsestään."
+    }
+  ],
+  "how_proof": "Sitten päivät kertyvät itsestään. Valitse viikko, kuukausi tai omat päivämääräsi, rastita mitä otetaan mukaan, ja PDF kirjanpitäjälle on yhden napautuksen päässä — rakennettuna ajoista joita et koskaan joutunut kirjaamaan.",
+  "features_h2": "Mitä se oikeasti tekee",
+  "features_intro": "Rakentanut kuriiri, jolla on kymmenen vuotta tien päällä, työlle sellaisena kuin se oikeasti on.",
+  "features": [
+    {
+      "icon": "💷",
+      "title": "Mitä päivä oikeasti tuotti",
+      "body": "Tulot sisään, polttoaine ja kulut ulos, ja alimpana se luku jolla on merkitystä — päivässä, viikossa, kuukaudessa."
+    },
+    {
+      "icon": "⛽",
+      "title": "Mitä tunti oikeasti tuottaa",
+      "body": "Polttoaine, rahoitus ja vakuutus jaetaan niille päiville joina teet töitä, jolloin tuntiluku on se oikea."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Ajopäiväkirja puhelimeen koskematta",
+      "body": "Ajot tallentuvat itsestään taustalla, siitä hetkestä kun lähdet liikkeelle siihen kun pysäköit."
+    },
+    {
+      "icon": "🧾",
+      "title": "Tositteet valmiina kirjanpitäjälle",
+      "body": "PDF jossa on jokainen ajo, sen reitti ja päivämäärä. Kilometrikorvaukset sisäänrakennettuna seitsemälletoista maalle."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Pysähdykset ja odotusaika",
+      "body": "Näe kuinka kauan seisoit kullakin toimituksella tai terminaalilla, kirjoittamatta mitään ylös."
+    },
+    {
+      "icon": "🔒",
+      "title": "Mikään ei lähde puhelimesta",
+      "body": "Ei tiliä luotavana, ei seurantaa, ei mainoksia. Reittihistoriasi on sinun, varmuuskopioituna vain omaan iCloudiisi."
+    },
+    {
+      "icon": "🔔",
+      "title": "Määräajat",
+      "body": "Syötä lukema kerran, niin DropLane pitää sitä yllä seuratuista kilometreistä — jolloin huolto- ja katsastusvaroitukset voivat laskea kilometrejä, eivät vain päiviä."
+    },
+    {
+      "icon": "🔧",
+      "title": "Ajoneuvosi",
+      "body": "Kirjaa tänne huollot, renkaat ja korjaukset — laskukuvan kanssa koko korjaamohistoria kulkee taskussasi."
+    },
+    {
+      "icon": "💳",
+      "title": "Polttoainekortti",
+      "body": "Aseta hinta, jonka korttisi veloittaa litralta. Kirjaa litrat tankatessasi, niin DropLane laskee kustannuksen."
+    }
+  ],
+  "screens_h2": "Koko sovellus, päivänvalossa ja pimeässä",
+  "screens_intro": "Aitoja näyttöjä, kuukauden aidosta työstä. Käännä kytkintä ylhäältä, niin jokainen näyttö täällä kääntyy mukana.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Tänään",
+      "body": "Kun pyörät vielä pyörivät."
+    },
+    {
+      "file": "day",
+      "title": "Päivä kartalla",
+      "body": "Jokainen väri on yksi ajo."
+    },
+    {
+      "file": "trip",
+      "title": "Yksi ajo",
+      "body": "Ajat, pysähdykset ja millaisia kilometrejä."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Ajon lajittelu",
+      "body": "Työ, tyhjänä, noutoon vai yksityinen."
+    },
+    {
+      "file": "days",
+      "title": "Päivät",
+      "body": "Jokainen päivä, jo laskettuna yhteen."
+    },
+    {
+      "file": "stats",
+      "title": "Tilastot",
+      "body": "Viikko, selkeinä lukuina."
+    },
+    {
+      "file": "insights",
+      "title": "Havainnot",
+      "body": "Mitä tunti ja kilometri oikeasti tuottavat."
+    },
+    {
+      "file": "insights-tax",
+      "title": "Verot",
+      "body": "Mitä jakson kilometrit ovat arvoltaan."
+    },
+    {
+      "file": "report",
+      "title": "PDF",
+      "body": "Rakennettu niin kuin kirjanpitäjäsi sen haluaa."
+    },
+    {
+      "file": "expense",
+      "title": "Kulut",
+      "body": "Polttoaine, ruoka, pysäköinti, tiemaksut."
+    },
+    {
+      "file": "vehicle",
+      "title": "Ajoneuvo",
+      "body": "Katsastus, ajoneuvovero ja vakuutus, ennen kuin ne puraisevat."
+    },
+    {
+      "file": "settings",
+      "title": "Asetukset",
+      "body": "Kilometrit vai mailit. Vaalea vai tumma."
+    }
+  ],
+  "countries_h2": "Missä DropLane tuntee säännöt",
+  "countries_intro": "Sovellus toimii kaikkialla. Näissä maissa se tuntee lisäksi verottajan hyväksymän kilometrikorvauksen, ja sen miksi ajoneuvon papereita teillä kutsutaan.",
+  "countries_note": "Jossain muualla? Kirjoita se korvaus jonka oma verotoimistosi sallii, niin DropLane hoitaa loput.",
+  "languages_h2": "Lue se omalla kielelläsi",
+  "languages_intro": "Koko sovellus — jokainen näyttö, jokainen ilmoitus, raportit — ei vain tämä sivu. Ja raha pysyy omassa valuutassasi, luit sitä millä kielellä tahansa.",
+  "languages_caption_title": "Tilastot",
+  "languages_caption_body": "Viikkosi, omalla kielelläsi ja omassa rahassasi.",
+  "pricing_h2": "Yksi hinta, kaikki mukana",
+  "pricing_intro": "Neljätoista päivää ilmaiseksi. Ei korttia aloittamiseen, eikä mitään kalliimman tason takana.",
+  "pricing_monthly": "Kuukausittain",
+  "pricing_yearly": "Vuosittain",
+  "pricing_per_month": "kuukaudessa, peru milloin haluat",
+  "pricing_per_year": "vuodessa — halvin tie sisään",
+  "pricing_best": "Paras hinta",
+  "pricing_bullet_all": "Kaikki ominaisuudet, ei lisäosia",
+  "pricing_bullet_trial": "14 päivää ilmaiseksi ensin",
+  "pricing_bullet_saving": "Säästä {saving} vuodessa — {percent} % halvempi",
+  "pricing_bullet_equivalent": "Vastaa {monthly} kuukaudessa",
+  "pricing_table_title": "Hinta siellä missä olet",
+  "pricing_search": "Etsi maasi",
+  "pricing_col_country": "Maa",
+  "pricing_col_month": "Kuukausi",
+  "pricing_col_year": "Vuosi",
+  "pricing_you": "Sinä",
+  "pricing_note": "Jokaisella maalla on oma hintansa muunnetun sijaan, joten kukaan ei maksa puntalaskua valepuvussa. App Store näyttää sinun hintasi ennen kuin hyväksyt mitään, verot mukaan lukien. Ei listalla? App Storella on silti sinulle hinta omassa valuutassasi.",
+  "faq_h2": "Kysymyksiä joita kuriirit oikeasti kysyvät",
+  "faq_intro": "Suoria vastauksia, joltakulta joka tekee tätä työtä.",
+  "faq": [
+    {
+      "q": "Eikö tämä ole vain yksi ajopäiväkirjasovellus lisää?",
+      "a": "Se tallentaa kilometrit samalla tavalla, ilman käynnistyspainiketta. Ero on siinä mitä tapahtuu sen jälkeen: tulosi menevät sisään, polttoaine, pysäköinti ja käyttökulut vähennetään, ja sovellus kertoo mitä tunti oikeasti tuotti. Pelkkä kilometriluku ei ole koskaan kertonut kenellekään oliko keikka ajamisen arvoinen."
+    },
+    {
+      "q": "Kuluttaako se akkua?",
+      "a": "DropLane ei pidä GPS:ää päällä koko päivää. Se on hiljaa kunnes huomaa että olet lähtenyt siitä mihin pysäköit, tallentaa kun liikut, ja nukahtaa taas kun pysähdyt."
+    },
+    {
+      "q": "Pitääkö minun painaa käynnistä?",
+      "a": "Ei — eikä ole painiketta jota painaa. Se on koko pointti. Jos sinun täytyy muistaa, unohdat sen juuri sinä päivänä jolla on merkitystä."
+    },
+    {
+      "q": "Entä jos unohdan lajitella ajon?",
+      "a": "Mitään ei katoa. Lajittelemattomat ajot odottavat Päivät-näytöllä, ja sovellus tönäisee sinua sen sijaan että arvaisi puolestasi."
+    },
+    {
+      "q": "Päätyykö reittihistoriani jonnekin?",
+      "a": "Ei. Ei ole tiliä eikä palvelinta. Kaikki asuu iPhonessasi, ja varmuuskopioituu vain omaan iCloudiisi jos niin haluat."
+    },
+    {
+      "q": "Ajan pyörällä, en pakettiautolla.",
+      "a": "Se käy. Tavarapyörän kilometrit tallentuvat samalla tavalla. Sisäänrakennetut korvaukset koskevat kuitenkin moottoriajoneuvoja, joten se mitä pyörällä voi vaatia riippuu maastasi ja tilanteestasi — kannattaa kysyä kirjanpitäjältä."
+    },
+    {
+      "q": "Onko maani kilometrikorvaus mukana?",
+      "a": "Seitsemällätoista maalla on virallinen korvauksensa sisäänrakennettuna ja ajan tasalla pidettynä. Missä tahansa muualla kirjoitat oman korvauksesi kerran, ja sovellus laskee."
+    },
+    {
+      "q": "Voinko käyttää sitä kilometreinä?",
+      "a": "Kyllä. Kilometrit tai mailit, oma valuuttasi ja se polttoaineen hinta jonka oikeasti maksat — kaikki Asetuksissa, ensimmäisellä näytöllä."
+    },
+    {
+      "q": "Toimiiko se siellä missä ei ole kenttää?",
+      "a": "Kyllä. Tallennus kulkee iPhonen omalla GPS:llä eikä kaipaa internetiä lainkaan. Ilman kenttää ajetut ajot palaavat merkittyinä ”Alku” ja ”Loppu” katujen nimien sijaan, ja DropLane täyttää ne seuraavan kerran kun se näkee wifin. Viikko pikkuteillä ilman palkkeja laskeutuu silti oikein."
+    },
+    {
+      "q": "Mitä tapahtuu kun saan uuden puhelimen?",
+      "a": "Kirjaudu samaan iCloudiin, niin ajot, tulot ja kulut palaavat itsestään. Ei ole tiliä luotavana eikä salasanaa hukattavana, koska koskaan ei ollut palvelinta joka olisi pitänyt mitään niistä — varmuuskopio on sinun, omassa iCloudissasi."
+    },
+    {
+      "q": "Entä jos lopetan maksamisen — menetänkö tietoni?",
+      "a": "Mitään ei poisteta. Ajosi jäävät iPhoneen ja omaan iCloudiisi, täsmälleen sinne missä ne olivat. Mutta DropLane tarvitsee voimassa olevan tilauksen avautuakseen, joten jos haluat luvut jonnekin muualle, vie CSV-tiedosto ennen lähtöä. Se on Asetuksissa, ja se on yksi napautus."
+    },
+    {
+      "q": "Mistä tiedän mitä polttoaine oikeasti maksoi ennen kuin korttilasku tulee?",
+      "a": "Kerro DropLanelle minkä litrahinnan polttoainekorttisi veloittaa, ja kirjaa litrat kun tankkaat. Kustannus lasketaan samana päivänä, joten viikon tulos on oikein viikkoja ennen kuin lasku ilmestyy."
+    }
+  ],
+  "closer_h2": "Lopeta arvailu siitä mitä päivä tuotti.",
+  "closer_body": "Neljätoista päivää ilmaiseksi, ei tiliä, eikä mitään muistettavaa kuudelta aamulla.",
+  "footer_note": "DropLane — automaattinen ajopäiväkirja ja tulot itsenäisille kuriireille. Rakentanut kuriiri, Torquayssa.",
+  "footer_privacy": "Tietosuoja",
+  "footer_terms": "Ehdot",
+  "footer_support": "Tuki",
+  "alt_today": "DropLanen Tänään-näyttö: ajo tallentumassa kartalle, mukana päivän matka, tunnit ja tulot.",
+  "alt_days": "Päivät-lista: jokainen työpäivä tuottoineen, matkoineen ja ajojen määrineen.",
+  "alt_report": "Raporttikortti: kytkimet ajoille, tuloille, kuluille ja kuittikuville, sitten PDF.",
+  "alt_stats": "Tilastonäyttö: netto, ansaittu ja kulut viikolta, matka tyypeittäin.",
+  "papers_h2": "Raportti, pysty tai vaaka",
+  "papers_intro": "Tämä on itse PDF, ei kuva kytkimistä jotka sen tekevät. Valitse muoto joka sopii sille joka sen lukee — pysty arkistointiin, leveä kun ajotaulukko tarvitsee tilaa — ja se rakentuu uudelleen kumpaankin suuntaan.",
+  "papers_portrait": "Pysty",
+  "papers_portrait_note": "Arkistointiin ja kotona tulostamiseen.",
+  "papers_landscape": "Vaaka",
+  "papers_landscape_note": "Leveämmät rivit: jokainen ajo, sen reitti ja ajat rinnakkain.",
+  "papers_note": "Yrityksesi nimi, osoite ja logo ovat ylätunnisteessa. Rastita mitä otetaan mukaan — päiväkohtainen erittely, jokainen ajo, tulot, kulut, kuittikuvat, pieni kartta jokaisen ajon viereen, jakson kilometrikorvaus — ja DropLane rakentaa asiakirjan uudelleen sitä mukaa.",
+  "alt_report_portrait": "DropLane-raportin ensimmäinen sivu pystyasennossa: ylätunniste, jakson summat, tulot ja kulut sekä kilometrikorvaus.",
+  "alt_report_landscape": "DropLane-raportin ensimmäinen sivu vaaka-asennossa, leveämmällä ajotaulukolla.",
+  "papers_choose": "Mitä otetaan mukaan",
+  "papers_zoom": "Suurenna",
+  "suggest_prompt": "Lue tämä suomeksi",
+  "cta_soon": "Tulossa pian",
+  "cta_coming": "Tulossa App Storeen",
+  "cta_notify": "Lähetä sähköposti kun se on ulkona",
+  "pocket_live_body": "Ajaessasi Live Activity pitää kilometrit kiipeämässä lukitusnäytöllä — niin näet ajon tallentuvan avaamatta mitään.",
+  "privacy_h2": "Sinun tietosi. Vain sinun.",
+  "privacy_intro": "Kaikki pysyy iPhonessasi ja omassa iCloudissasi. Ei tiliä, ei palvelinta, mitään ei myydä. Vain sinä päätät, kuka näkee ajosi.",
+  "privacy_stat_label": "Palvelimia, joilla sijaintisi on",
+  "privacy_point1": "Juuri tämä antaa DropLanen tallentaa mailit. Sijaintihistoriasi ei koskaan poistu iPhonestasi.",
+  "privacy_point2": "iCloud-varmuuskopiointi ja palautus, ei tiliä tarvita",
+  "privacy_point3": "Vie CSV omaan kirjanpitoosi",
+  "setup_shot_location": "Ota sijainti käyttöön",
+  "setup_shot_always": "Valitse nyt Aina",
+  "setup_shot_notifications": "Ota ilmoitukset käyttöön",
+  "setup_shot_vehicle": "Millä ajat?",
+  "pocket_h3": "Ilmoitukset",
+  "pocket_live_alt": "Ajo havaittu — tallennus käynnissä",
+  "pocket_body": "”Aina” antaa ajojen tallentua, vaikka appi olisi suljettu."
+}

@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="fi-FI" data-theme="light" data-lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DropLane — Tiedä mitä päivä oikeasti tuotti</title>
+<meta name="description" content="DropLane tallentaa kuriirin ajot itsestään, vähentää polttoaineen, pysäköinnin ja käyttökulut tuloista ja kertoo mitä tunti oikeasti tuotti. Lisäksi ajopäiväkirja valmiina kirjanpitäjälle, kahdellakymmenelläneljällä kielellä, kaikki puhelimessa.">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/fi/">
+<link rel="alternate" hreflang="en" href="https://www.droplane.co.uk/">
+<link rel="alternate" hreflang="en-US" href="https://www.droplane.co.uk/us/">
+<link rel="alternate" hreflang="en-AU" href="https://www.droplane.co.uk/au/">
+<link rel="alternate" hreflang="da" href="https://www.droplane.co.uk/da/">
+<link rel="alternate" hreflang="de" href="https://www.droplane.co.uk/de/">
+<link rel="alternate" hreflang="es" href="https://www.droplane.co.uk/es/">
+<link rel="alternate" hreflang="fr" href="https://www.droplane.co.uk/fr/">
+<link rel="alternate" hreflang="it" href="https://www.droplane.co.uk/it/">
+<link rel="alternate" hreflang="nl" href="https://www.droplane.co.uk/nl/">
+<link rel="alternate" hreflang="pl" href="https://www.droplane.co.uk/pl/">
+<link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
+<link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
+<link rel="alternate" hreflang="sv" href="https://www.droplane.co.uk/sv/">
+<link rel="alternate" hreflang="nb" href="https://www.droplane.co.uk/nb/">
+<link rel="alternate" hreflang="fi" href="https://www.droplane.co.uk/fi/">
+<link rel="alternate" hreflang="ru" href="https://www.droplane.co.uk/ru/">
+<link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
+<meta property="og:title" content="DropLane — Tiedä mitä päivä oikeasti tuotti">
+<meta property="og:description" content="DropLane tallentaa kuriirin ajot itsestään, vähentää polttoaineen, pysäköinnin ja käyttökulut tuloista ja kertoo mitä tunti oikeasti tuotti. Lisäksi ajopäiväkirja valmiina kirjanpitäjälle, kahdellakymmenelläneljällä kielellä, kaikki puhelimessa.">
+<meta property="og:url" content="https://www.droplane.co.uk/fi/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fi_FI">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/icon-512.png">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/fi/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="Päävalikko">
+      <a href="#money">Mitä se tuottaa</a>
+      <a href="#how">Näin se toimii</a>
+      <a href="#features">Mitä se tekee</a>
+      <a href="#screens">Näytöt</a>
+      <a href="#countries">Missä se toimii</a>
+      <a href="#pricing">Hinta</a>
+      <a href="/support/">Tuki</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="Kieli">
+        <span class="lang-button-flag" aria-hidden="true">🇫🇮</span>
+        <span class="lang-button-name">Suomi</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="Väriteema">
+        <button type="button" data-theme="light" aria-pressed="true" title="Vaalea">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>Vaalea</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="Tumma">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>Tumma</span>
+        </button>
+      </div>
+
+      <a class="head-cta head-cta-soon" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Tulossa pian</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">Valikko</span><span class="close-label">Sulje</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">Lue sivu omalla kielelläsi</p>
+      <ul class="lang-list">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" aria-current="true" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Русский</a></li>
+      </ul>
+      <p class="lang-panel-note">Sovellus itse puhuu kahtakymmentäneljää kieltä — loput ovat tulossa tänne.</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="Päävalikko">
+        <a href="#money">Mitä se tuottaa</a>
+        <a href="#how">Näin se toimii</a>
+        <a href="#features">Mitä se tekee</a>
+        <a href="#screens">Näytöt</a>
+        <a href="#countries">Missä se toimii</a>
+        <a href="#languages">Kielet</a>
+        <a href="#pricing">Hinta</a>
+        <a href="#faq">Kysymykset</a>
+        <a href="/support/">Tuki</a>
+      </nav>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Tulossa App Storeen</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>Kaksikymmentäneljä kieltä.</strong> Valitse omasi — sovellus puhuu sitä myös.</p>
+    <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
+  </div>
+</div>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇫🇮</span><b data-region="FI">Finland</b><span class="eyebrow-cost"><span class="eyebrow-price">6,99 €</span> <span class="eyebrow-per">kuukaudessa</span></span><a href="#pricing">näytä kaikki</a></span>
+      <h1>Tiedä mitä päivä oikeasti tuotti.</h1>
+      <p class="lede">Käynnistä pakettiauto. Siinä kaikki. DropLane tallentaa jokaisen ajon ja reitin jota oikeasti ajoit, vähentää kulut tuloista, ja tuntipalkkasi odottaa jo ennen kuin olet ovesta sisällä.</p>
+      <!-- While the app is coming soon the loud button is the launch list, not
+           the price: the eyebrow above already carries the price and links to
+           the table. On launch day, swap this first link for Apple's official
+           "Download on the App Store" badge and drop hero_cta_notify. -->
+      <div class="cta-row">
+        <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Ilmoita julkaisusta</a>
+        <a class="btn-ghost" href="#how">Näin se toimii</a>
+      </div>
+      <p class="cta-note" style="margin:14px 0 0">14 päivää ilmaiseksi · ei tiliä, ei mainoksia · iPhone</p>
+      <ul class="hero-facts">
+        <li><b>0</b><span>painiketta painettavana</span></li>
+        <li><b>24</b><span>kieltä</span></li>
+        <li><b>17</b><span>verokantaa sisäänrakennettuna</span></li>
+      </ul>
+    </div>
+
+    <div class="stage">
+      <div class="device device-back">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/days.webp" width="640" height="1391" alt="Päivät-lista: jokainen työpäivä tuottoineen, matkoineen ja ajojen määrineen." loading="eager">
+          <img class="only-light" src="/assets/screens/fi/light/days.webp" width="640" height="1391" alt="Päivät-lista: jokainen työpäivä tuottoineen, matkoineen ja ajojen määrineen." loading="eager">
+        </div>
+      </div>
+      <div class="device device-front">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/today.webp" width="640" height="1391" alt="DropLanen Tänään-näyttö: ajo tallentumassa kartalle, mukana päivän matka, tunnit ja tulot." loading="eager">
+          <img class="only-light" src="/assets/screens/fi/light/today.webp" width="640" height="1391" alt="DropLanen Tänään-näyttö: ajo tallentumassa kartalle, mukana päivän matka, tunnit ja tulot." loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>Kaksi päivää. Samat kilometrit. Ei sama raha.</h2>
+    <p class="section-intro">Molemmat ovat kolme ajoa ja noin kahdeksankymmentä kilometriä, samasta puhelimesta, samassa pakettiautossa. Tavallinen ajopäiväkirjasovellus kirjaa ne suunnilleen samaksi päiväksi. Väliä on lähes kaksikymmentäkaksi euroa.</p>
+
+    <div class="twodays">
+      <div class="twoday">
+        <p class="twoday-when">Torstai 30. heinäkuuta</p>
+        <dl>
+          <div><dt>Tiellä</dt><dd>83,5 km</dd></div>
+          <div><dt>Ajot</dt><dd>3 ajoa</dd></div>
+        </dl>
+        <p class="twoday-money"><span>Jäi käteen</span><b>107,14 €</b></p>
+      </div>
+      <div class="twoday">
+        <p class="twoday-when">Eilen</p>
+        <dl>
+          <div><dt>Tiellä</dt><dd>82,3 km</dd></div>
+          <div><dt>Ajot</dt><dd>3 ajoa</dd></div>
+        </dl>
+        <p class="twoday-money"><span>Jäi käteen</span><b>129,09 €</b></p>
+      </div>
+    </div>
+
+    <p class="twodays-punch">Kilometrin päässä toisistaan. 21,95 € päässä toisistaan.</p>
+    <p class="versus-note">Kilometrit ovat helppo puolisko — ja se puolisko joka ei kerro sinulle mitään. Se kumpi päivä oli nousemisen arvoinen, lukee toisessa sarakkeessa, ja juuri sen sarakkeen DropLane täyttää puolestasi, samana päivänä, ilman että kirjoitat mitään ylös.</p>
+  </div>
+</section>
+
+<section id="day">
+  <div class="wrap">
+    <h2>Mitä päivä oikeasti tuotti?</h2>
+    <p class="section-intro">186,45 € kuulostaa hyvältä päivältä. Viisi tuntia ja viisikymmentäkolme minuuttia tien päällä ja 14,95 € kuluja myöhemmin siitä tuli 24,65 € tunnissa. Se on luku jota kenelläkään ratin takana ei ole, ja se jonka DropLane ojentaa sinulle ennen kuin olet ovesta sisällä.</p>
+
+    <div class="theatre">
+      <div class="films">
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <img class="only-dark" src="/assets/screens/fi/dark/today.webp" width="640" height="1391" alt="Päivä laski itsensä yhteen — Kaksi ajoa, 48,2 km, 171,50 € käteen — ja yksi vielä lajittelematta. Mitään ei kirjoitettu." loading="lazy">
+            <img class="only-light" src="/assets/screens/fi/light/today.webp" width="640" height="1391" alt="Päivä laski itsensä yhteen — Kaksi ajoa, 48,2 km, 171,50 € käteen — ja yksi vielä lajittelematta. Mitään ei kirjoitettu." loading="lazy">
+          </div></div>
+          <figcaption><b>Päivä laski itsensä yhteen</b>Kaksi ajoa, 48,2 km, 171,50 € käteen — ja yksi vielä lajittelematta. Mitään ei kirjoitettu.</figcaption>
+        </figure>
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <img class="only-dark" src="/assets/screens/fi/dark/report.webp" width="640" height="1391" alt="Raportti rakentaa itsensä — Rastita mitä otetaan mukaan, valitse pysty tai vaaka, ja PDF kirjanpitäjälle on valmis lähetettäväksi." loading="lazy">
+            <img class="only-light" src="/assets/screens/fi/light/report.webp" width="640" height="1391" alt="Raportti rakentaa itsensä — Rastita mitä otetaan mukaan, valitse pysty tai vaaka, ja PDF kirjanpitäjälle on valmis lähetettäväksi." loading="lazy">
+          </div></div>
+          <figcaption><b>Raportti rakentaa itsensä</b>Rastita mitä otetaan mukaan, valitse pysty tai vaaka, ja PDF kirjanpitäjälle on valmis lähetettäväksi.</figcaption>
+        </figure>
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <img class="only-dark" src="/assets/screens/fi/dark/insights.webp" width="640" height="1391" alt="Ja mitä tunti oikeasti tuotti — 24,65 € tunnissa kulujen jälkeen, 7,12 € kilometriltä, ja kilometrikorvaus laskettuna taustalla." loading="lazy">
+            <img class="only-light" src="/assets/screens/fi/light/insights.webp" width="640" height="1391" alt="Ja mitä tunti oikeasti tuotti — 24,65 € tunnissa kulujen jälkeen, 7,12 € kilometriltä, ja kilometrikorvaus laskettuna taustalla." loading="lazy">
+          </div></div>
+          <figcaption><b>Ja mitä tunti oikeasti tuotti</b>24,65 € tunnissa kulujen jälkeen, 7,12 € kilometriltä, ja kilometrikorvaus laskettuna taustalla.</figcaption>
+        </figure>
+      </div>
+
+      <div class="tally">
+        <p class="tally-lead">Yksi päivä — 48,2 km, kaksi ajoa, 5 h 53 min</p>
+        <div class="sum">
+          <div class="sum-item"><span>Ansaittu</span><b>186,45 €</b></div>
+          <span class="sum-op" aria-hidden="true">&minus;</span>
+          <div class="sum-item"><span>Kulut</span><b class="is-cost">14,95 €</b></div>
+          <span class="sum-op" aria-hidden="true">=</span>
+          <div class="sum-item"><span>Jäi käteen</span><b class="is-keep">171,50 €</b></div>
+        </div>
+        <ul class="rates">
+          <li class="rate-big"><b>24,65 €</b><span>tunnissa</span></li>
+          <li><b>5 h 53 min</b><span>tiellä</span></li>
+        </ul>
+        <p class="tally-note">Yhden päivän luvut, suoraan yllä olevilta näytöiltä. Sinun lukusi ovat toiset — pointti on saada ne samana päivänä, autossa, sen sijaan että saisi tietää vasta keväällä.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="how">
+  <div class="wrap">
+    <h2>Kolme askelta, ja kaksi niistä ei ole sinun</h2>
+    <p class="section-intro">DropLanessa ei ole käynnistyspainiketta, tarkoituksella. Kukaan ei muista painaa sellaista kuudelta aamulla pakettiauto täynnä paketteja.</p>
+
+    <div class="steps">
+      <div class="card step">
+        <span class="num">1</span>
+        <h3>Laita se päälle kerran</h3>
+        <p>Asenna sovellus ja salli sijainti taustalla. Enempää käyttöönottoa ei ole.</p>
+      </div>
+      <div class="card step">
+        <span class="num">2</span>
+        <h3>Aja</h3>
+        <p>Jokainen ajo tallentaa itsensä, reitteineen, pysähdyksineen ja sen kanssa kuinka kauan seisoit kullakin.</p>
+      </div>
+      <div class="card step">
+        <span class="num">3</span>
+        <h3>Lajittele yhdellä napautuksella</h3>
+        <p>Työ, tyhjänä ajo, matkalla noutoon vai yksityinen. Summat ja veroluku seuraavat perässä itsestään.</p>
+      </div>
+    </div>
+
+    <!-- Step one, screen by screen. The captions are the screens' own
+         headlines out of the app, so they read the same on the page as they
+         do on the phone, in every language. -->
+    <div class="setup">
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/onboarding-location.webp" width="640" height="1391" alt="Ota sijainti käyttöön" loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/onboarding-location.webp" width="640" height="1391" alt="Ota sijainti käyttöön" loading="lazy">
+        </div></div>
+        <figcaption>Ota sijainti käyttöön</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/onboarding-location-always.webp" width="640" height="1391" alt="Valitse nyt Aina" loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/onboarding-location-always.webp" width="640" height="1391" alt="Valitse nyt Aina" loading="lazy">
+        </div></div>
+        <figcaption>Valitse nyt Aina</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/onboarding-notifications.webp" width="640" height="1391" alt="Ota ilmoitukset käyttöön" loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/onboarding-notifications.webp" width="640" height="1391" alt="Ota ilmoitukset käyttöön" loading="lazy">
+        </div></div>
+        <figcaption>Ota ilmoitukset käyttöön</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/onboarding-vehicle.webp" width="640" height="1391" alt="Millä ajat?" loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/onboarding-vehicle.webp" width="640" height="1391" alt="Millä ajat?" loading="lazy">
+        </div></div>
+        <figcaption>Millä ajat?</figcaption>
+      </figure>
+    </div>
+
+    <!-- And then the phone goes in a pocket. These are the only pictures on
+         the page taken with the app shut: the lock screen, doing the job on
+         its own — the notifications telling the story afterwards, and the
+         Live Activity showing the drive being recorded right now. All the
+         lines are the app's own words. -->
+    <div class="pocket">
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/fi/dark/notifications.webp" width="640" height="1391" alt="Ilmoitukset" loading="lazy">
+            <img class="only-light" src="/assets/screens/fi/light/notifications.webp" width="640" height="1391" alt="Ilmoitukset" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/fi/dark/live-activity.webp" width="640" height="1391" alt="Ajo havaittu — tallennus käynnissä" loading="lazy">
+            <img class="only-light" src="/assets/screens/fi/light/live-activity.webp" width="640" height="1391" alt="Ajo havaittu — tallennus käynnissä" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <div class="pocket-words">
+        <h3>Ilmoitukset</h3>
+        <p>”Aina” antaa ajojen tallentua, vaikka appi olisi suljettu.</p>
+        <p class="pocket-live">Ajaessasi Live Activity pitää kilometrit kiipeämässä lukitusnäytöllä — niin näet ajon tallentuvan avaamatta mitään.</p>
+      </div>
+    </div>
+
+    <div class="proof" id="report">
+      <div class="proof-words">
+        <h3>Raportti, pysty tai vaaka</h3>
+        <p>Sitten päivät kertyvät itsestään. Valitse viikko, kuukausi tai omat päivämääräsi, rastita mitä otetaan mukaan, ja PDF kirjanpitäjälle on yhden napautuksen päässä — rakennettuna ajoista joita et koskaan joutunut kirjaamaan.</p>
+        <p class="proof-note">Tämä on itse PDF, ei kuva kytkimistä jotka sen tekevät. Valitse muoto joka sopii sille joka sen lukee — pysty arkistointiin, leveä kun ajotaulukko tarvitsee tilaa — ja se rakentuu uudelleen kumpaankin suuntaan.</p>
+      </div>
+
+      <div class="proof-output">
+        <figure class="proof-item proof-phone">
+          <div class="device">
+            <div class="device-screen">
+              <img class="only-dark" src="/assets/screens/fi/dark/report.webp" width="640" height="1391" alt="Raporttikortti: kytkimet ajoille, tuloille, kuluille ja kuittikuville, sitten PDF." loading="lazy">
+              <img class="only-light" src="/assets/screens/fi/light/report.webp" width="640" height="1391" alt="Raporttikortti: kytkimet ajoille, tuloille, kuluille ja kuittikuville, sitten PDF." loading="lazy">
+            </div>
+          </div>
+          <figcaption>Mitä otetaan mukaan</figcaption>
+        </figure>
+
+        <figure class="proof-item">
+          <button class="paper-zoom" type="button" data-zoom="/assets/screens/fi/paper/report-portrait-1.webp" data-zoom-label="Pysty" aria-label="Suurenna — Pysty">
+            <img src="/assets/screens/fi/paper/report-portrait-1.webp" width="760" height="1075" alt="DropLane-raportin ensimmäinen sivu pystyasennossa: ylätunniste, jakson summat, tulot ja kulut sekä kilometrikorvaus." loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">Suurenna</span>
+          </button>
+          <figcaption>Pysty</figcaption>
+        </figure>
+
+        <figure class="proof-item proof-item-wide">
+          <button class="paper-zoom" type="button" data-zoom="/assets/screens/fi/paper/report-landscape-2.webp" data-zoom-label="Vaaka" aria-label="Suurenna — Vaaka">
+            <img src="/assets/screens/fi/paper/report-landscape-2.webp" width="1100" height="778" alt="DropLane-raportin ensimmäinen sivu vaaka-asennossa, leveämmällä ajotaulukolla." loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">Suurenna</span>
+          </button>
+          <figcaption>Vaaka</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Privacy sits above "what it actually does" on purpose: it is the thing
+     that separates DropLane from every other mileage app, and a courier
+     handing over a month of their movements wants it answered early. Every
+     line here is the app's own onboarding copy, already translated. -->
+<section id="privacy">
+  <div class="wrap">
+    <h2>Sinun tietosi. Vain sinun.</h2>
+    <p class="section-intro">Kaikki pysyy iPhonessasi ja omassa iCloudissasi. Ei tiliä, ei palvelinta, mitään ei myydä. Vain sinä päätät, kuka näkee ajosi.</p>
+
+    <div class="keeps">
+      <div class="keeps-words">
+        <p class="keeps-stat"><b>0</b><span>Palvelimia, joilla sijaintisi on</span></p>
+        <ul class="keeps-list">
+          <li>Juuri tämä antaa DropLanen tallentaa mailit. Sijaintihistoriasi ei koskaan poistu iPhonestasi.</li>
+          <li>iCloud-varmuuskopiointi ja palautus, ei tiliä tarvita</li>
+          <li>Vie CSV omaan kirjanpitoosi</li>
+        </ul>
+      </div>
+
+      <figure class="keeps-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/fi/dark/onboarding-privacy.webp" width="640" height="1391" alt="Sinun tietosi. Vain sinun." loading="lazy">
+            <img class="only-light" src="/assets/screens/fi/light/onboarding-privacy.webp" width="640" height="1391" alt="Sinun tietosi. Vain sinun." loading="lazy">
+          </div>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <h2>Mitä se oikeasti tekee</h2>
+    <p class="section-intro">Rakentanut kuriiri, jolla on kymmenen vuotta tien päällä, työlle sellaisena kuin se oikeasti on.</p>
+    <div class="cards">
+      <div class="card">
+        <span class="icon">💷</span>
+        <h3>Mitä päivä oikeasti tuotti</h3>
+        <p>Tulot sisään, polttoaine ja kulut ulos, ja alimpana se luku jolla on merkitystä — päivässä, viikossa, kuukaudessa.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>Mitä tunti oikeasti tuottaa</h3>
+        <p>Polttoaine, rahoitus ja vakuutus jaetaan niille päiville joina teet töitä, jolloin tuntiluku on se oikea.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>Ajopäiväkirja puhelimeen koskematta</h3>
+        <p>Ajot tallentuvat itsestään taustalla, siitä hetkestä kun lähdet liikkeelle siihen kun pysäköit.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🧾</span>
+        <h3>Tositteet valmiina kirjanpitäjälle</h3>
+        <p>PDF jossa on jokainen ajo, sen reitti ja päivämäärä. Kilometrikorvaukset sisäänrakennettuna seitsemälletoista maalle.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🅿️</span>
+        <h3>Pysähdykset ja odotusaika</h3>
+        <p>Näe kuinka kauan seisoit kullakin toimituksella tai terminaalilla, kirjoittamatta mitään ylös.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔒</span>
+        <h3>Mikään ei lähde puhelimesta</h3>
+        <p>Ei tiliä luotavana, ei seurantaa, ei mainoksia. Reittihistoriasi on sinun, varmuuskopioituna vain omaan iCloudiisi.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔔</span>
+        <h3>Määräajat</h3>
+        <p>Syötä lukema kerran, niin DropLane pitää sitä yllä seuratuista kilometreistä — jolloin huolto- ja katsastusvaroitukset voivat laskea kilometrejä, eivät vain päiviä.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔧</span>
+        <h3>Ajoneuvosi</h3>
+        <p>Kirjaa tänne huollot, renkaat ja korjaukset — laskukuvan kanssa koko korjaamohistoria kulkee taskussasi.</p>
+      </div>
+      <div class="card">
+        <span class="icon">💳</span>
+        <h3>Polttoainekortti</h3>
+        <p>Aseta hinta, jonka korttisi veloittaa litralta. Kirjaa litrat tankatessasi, niin DropLane laskee kustannuksen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="screens">
+  <div class="wrap">
+    <h2>Koko sovellus, päivänvalossa ja pimeässä</h2>
+    <p class="section-intro">Aitoja näyttöjä, kuukauden aidosta työstä. Käännä kytkintä ylhäältä, niin jokainen näyttö täällä kääntyy mukana.</p>
+  </div>
+  <div class="wrap">
+    <div class="rail">
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/today.webp" width="640" height="1391" alt="Tänään — Kun pyörät vielä pyörivät." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/today.webp" width="640" height="1391" alt="Tänään — Kun pyörät vielä pyörivät." loading="lazy">
+        </div></div>
+        <figcaption><b>Tänään</b>Kun pyörät vielä pyörivät.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/day.webp" width="640" height="1391" alt="Päivä kartalla — Jokainen väri on yksi ajo." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/day.webp" width="640" height="1391" alt="Päivä kartalla — Jokainen väri on yksi ajo." loading="lazy">
+        </div></div>
+        <figcaption><b>Päivä kartalla</b>Jokainen väri on yksi ajo.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/trip.webp" width="640" height="1391" alt="Yksi ajo — Ajat, pysähdykset ja millaisia kilometrejä." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/trip.webp" width="640" height="1391" alt="Yksi ajo — Ajat, pysähdykset ja millaisia kilometrejä." loading="lazy">
+        </div></div>
+        <figcaption><b>Yksi ajo</b>Ajat, pysähdykset ja millaisia kilometrejä.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/trip-sort.webp" width="640" height="1391" alt="Ajon lajittelu — Työ, tyhjänä, noutoon vai yksityinen." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/trip-sort.webp" width="640" height="1391" alt="Ajon lajittelu — Työ, tyhjänä, noutoon vai yksityinen." loading="lazy">
+        </div></div>
+        <figcaption><b>Ajon lajittelu</b>Työ, tyhjänä, noutoon vai yksityinen.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/days.webp" width="640" height="1391" alt="Päivät — Jokainen päivä, jo laskettuna yhteen." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/days.webp" width="640" height="1391" alt="Päivät — Jokainen päivä, jo laskettuna yhteen." loading="lazy">
+        </div></div>
+        <figcaption><b>Päivät</b>Jokainen päivä, jo laskettuna yhteen.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/stats.webp" width="640" height="1391" alt="Tilastot — Viikko, selkeinä lukuina." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/stats.webp" width="640" height="1391" alt="Tilastot — Viikko, selkeinä lukuina." loading="lazy">
+        </div></div>
+        <figcaption><b>Tilastot</b>Viikko, selkeinä lukuina.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/insights.webp" width="640" height="1391" alt="Havainnot — Mitä tunti ja kilometri oikeasti tuottavat." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/insights.webp" width="640" height="1391" alt="Havainnot — Mitä tunti ja kilometri oikeasti tuottavat." loading="lazy">
+        </div></div>
+        <figcaption><b>Havainnot</b>Mitä tunti ja kilometri oikeasti tuottavat.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/insights-tax.webp" width="640" height="1391" alt="Verot — Mitä jakson kilometrit ovat arvoltaan." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/insights-tax.webp" width="640" height="1391" alt="Verot — Mitä jakson kilometrit ovat arvoltaan." loading="lazy">
+        </div></div>
+        <figcaption><b>Verot</b>Mitä jakson kilometrit ovat arvoltaan.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/report.webp" width="640" height="1391" alt="PDF — Rakennettu niin kuin kirjanpitäjäsi sen haluaa." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/report.webp" width="640" height="1391" alt="PDF — Rakennettu niin kuin kirjanpitäjäsi sen haluaa." loading="lazy">
+        </div></div>
+        <figcaption><b>PDF</b>Rakennettu niin kuin kirjanpitäjäsi sen haluaa.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/expense.webp" width="640" height="1391" alt="Kulut — Polttoaine, ruoka, pysäköinti, tiemaksut." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/expense.webp" width="640" height="1391" alt="Kulut — Polttoaine, ruoka, pysäköinti, tiemaksut." loading="lazy">
+        </div></div>
+        <figcaption><b>Kulut</b>Polttoaine, ruoka, pysäköinti, tiemaksut.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/vehicle.webp" width="640" height="1391" alt="Ajoneuvo — Katsastus, ajoneuvovero ja vakuutus, ennen kuin ne puraisevat." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/vehicle.webp" width="640" height="1391" alt="Ajoneuvo — Katsastus, ajoneuvovero ja vakuutus, ennen kuin ne puraisevat." loading="lazy">
+        </div></div>
+        <figcaption><b>Ajoneuvo</b>Katsastus, ajoneuvovero ja vakuutus, ennen kuin ne puraisevat.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/fi/dark/settings.webp" width="640" height="1391" alt="Asetukset — Kilometrit vai mailit. Vaalea vai tumma." loading="lazy">
+          <img class="only-light" src="/assets/screens/fi/light/settings.webp" width="640" height="1391" alt="Asetukset — Kilometrit vai mailit. Vaalea vai tumma." loading="lazy">
+        </div></div>
+        <figcaption><b>Asetukset</b>Kilometrit vai mailit. Vaalea vai tumma.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="countries">
+  <div class="wrap">
+    <h2>Missä DropLane tuntee säännöt</h2>
+    <p class="section-intro">Sovellus toimii kaikkialla. Näissä maissa se tuntee lisäksi verottajan hyväksymän kilometrikorvauksen, ja sen miksi ajoneuvon papereita teillä kutsutaan.</p>
+    <ul class="chips">
+      <li><span class="flag">🇬🇧</span> <span data-region="GB">United Kingdom</span> <span class="rate">55p/mi</span></li>
+      <li><span class="flag">🇮🇪</span> <span data-region="IE">Ireland</span></li>
+      <li><span class="flag">🇺🇸</span> <span data-region="US">United States</span> <span class="rate">76¢/mi</span></li>
+      <li><span class="flag">🇨🇦</span> <span data-region="CA">Canada</span> <span class="rate">73¢/km</span></li>
+      <li><span class="flag">🇦🇺</span> <span data-region="AU">Australia</span> <span class="rate">91¢/km</span></li>
+      <li><span class="flag">🇩🇪</span> <span data-region="DE">Germany</span> <span class="rate">30c/km</span></li>
+      <li><span class="flag">🇳🇱</span> <span data-region="NL">Netherlands</span> <span class="rate">25c/km</span></li>
+      <li><span class="flag">🇧🇪</span> <span data-region="BE">Belgium</span> <span class="rate">47.61c/km</span></li>
+      <li><span class="flag">🇦🇹</span> <span data-region="AT">Austria</span> <span class="rate">50c/km</span></li>
+      <li><span class="flag">🇵🇹</span> <span data-region="PT">Portugal</span> <span class="rate">40c/km</span></li>
+      <li><span class="flag">🇵🇱</span> <span data-region="PL">Poland</span> <span class="rate">1.15 zł/km</span></li>
+      <li><span class="flag">🇨🇿</span> <span data-region="CZ">Czechia</span> <span class="rate">5.90 Kč/km</span></li>
+      <li><span class="flag">🇸🇰</span> <span data-region="SK">Slovakia</span> <span class="rate">31.3c/km</span></li>
+      <li><span class="flag">🇭🇺</span> <span data-region="HU">Hungary</span> <span class="rate">15 Ft/km</span></li>
+      <li><span class="flag">🇸🇪</span> <span data-region="SE">Sweden</span> <span class="rate">25 kr/mil</span></li>
+      <li><span class="flag">🇳🇴</span> <span data-region="NO">Norway</span> <span class="rate">3.50 kr/km</span></li>
+      <li><span class="flag">🇩🇰</span> <span data-region="DK">Denmark</span> <span class="rate">3.94 kr/km</span></li>
+      <li><span class="flag">🇫🇮</span> <span data-region="FI">Finland</span> <span class="rate">55c/km</span></li>
+      <li><span class="flag">🇷🇴</span> <span data-region="RO">Romania</span></li>
+      <li><span class="flag">🇧🇬</span> <span data-region="BG">Bulgaria</span></li>
+      <li><span class="flag">🇬🇷</span> <span data-region="GR">Greece</span></li>
+      <li><span class="flag">🇱🇹</span> <span data-region="LT">Lithuania</span></li>
+      <li><span class="flag">🇱🇻</span> <span data-region="LV">Latvia</span></li>
+      <li><span class="flag">🇹🇷</span> <span data-region="TR">Turkey</span></li>
+      <li><span class="flag">🇺🇦</span> <span data-region="UA">Ukraine</span></li>
+    </ul>
+    <p class="section-intro" style="margin:26px 0 0">Jossain muualla? Kirjoita se korvaus jonka oma verotoimistosi sallii, niin DropLane hoitaa loput.</p>
+  </div>
+</section>
+
+<section class="band" id="languages">
+  <div class="wrap split">
+    <div>
+      <h2>Lue se omalla kielelläsi</h2>
+      <p class="section-intro">Koko sovellus — jokainen näyttö, jokainen ilmoitus, raportit — ei vain tämä sivu. Ja raha pysyy omassa valuutassasi, luit sitä millä kielellä tahansa.</p>
+      <ul class="langgrid">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" aria-current="true" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Русский</a></li>
+      </ul>
+    </div>
+    <figure class="shot" style="width:auto;margin:0">
+      <div class="device" style="margin-inline:auto"><div class="device-screen">
+        <img class="only-dark" src="/assets/screens/fi/dark/stats.webp" width="640" height="1391" alt="Tilastonäyttö: netto, ansaittu ja kulut viikolta, matka tyypeittäin." loading="lazy">
+        <img class="only-light" src="/assets/screens/fi/light/stats.webp" width="640" height="1391" alt="Tilastonäyttö: netto, ansaittu ja kulut viikolta, matka tyypeittäin." loading="lazy">
+      </div></div>
+      <figcaption style="text-align:center"><b>Tilastot</b>Viikkosi, omalla kielelläsi ja omassa rahassasi.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Yksi hinta, kaikki mukana</h2>
+    <p class="section-intro">Neljätoista päivää ilmaiseksi. Ei korttia aloittamiseen, eikä mitään kalliimman tason takana.</p>
+
+    <div class="price-grid">
+      <div class="price">
+        <h3>Kuukausittain</h3>
+        <p class="amount">6,99 €</p>
+        <p class="per">kuukaudessa, peru milloin haluat</p>
+        <ul>
+          <li>Kaikki ominaisuudet, ei lisäosia</li>
+          <li>14 päivää ilmaiseksi ensin</li>
+        </ul>
+      </div>
+      <div class="price best">
+        <span class="tag">Paras hinta</span>
+        <h3>Vuosittain</h3>
+        <p class="amount">49,99 €</p>
+        <p class="per">vuodessa — halvin tie sisään</p>
+        <ul>
+          <li>Kaikki ominaisuudet, ei lisäosia</li>
+          <li>Säästä 33,89 € vuodessa — 40 % halvempi</li>
+          <li>Vastaa 4,17 € kuukaudessa</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pricetable">
+      <div class="pricetable-head">
+        <h3 style="font-size:20px;margin:0">Hinta siellä missä olet</h3>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input type="search" id="price-search" placeholder="Etsi maasi" aria-label="Etsi maasi">
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table class="prices">
+          <thead>
+            <tr><th scope="col">Maa</th><th scope="col">Kuukausi</th><th scope="col">Vuosi</th></tr>
+          </thead>
+          <tbody id="price-rows" data-you="Sinä">
+            <tr data-cc="GB" data-flag="🇬🇧" data-name="United Kingdom"><td><span class="flag">🇬🇧</span><span data-region="GB">United Kingdom</span></td><td>£6.99</td><td>£49.99</td></tr>
+            <tr data-cc="IE" data-flag="🇮🇪" data-name="Ireland"><td><span class="flag">🇮🇪</span><span data-region="IE">Ireland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="US" data-flag="🇺🇸" data-name="United States"><td><span class="flag">🇺🇸</span><span data-region="US">United States</span></td><td>$6.99</td><td>$49.99</td></tr>
+            <tr data-cc="CA" data-flag="🇨🇦" data-name="Canada"><td><span class="flag">🇨🇦</span><span data-region="CA">Canada</span></td><td>C$9.99</td><td>C$69.99</td></tr>
+            <tr data-cc="AU" data-flag="🇦🇺" data-name="Australia"><td><span class="flag">🇦🇺</span><span data-region="AU">Australia</span></td><td>A$11.99</td><td>A$79.99</td></tr>
+            <tr data-cc="NZ" data-flag="🇳🇿" data-name="New Zealand"><td><span class="flag">🇳🇿</span><span data-region="NZ">New Zealand</span></td><td>NZ$12.99</td><td>NZ$89.99</td></tr>
+            <tr data-cc="DE" data-flag="🇩🇪" data-name="Germany"><td><span class="flag">🇩🇪</span><span data-region="DE">Germany</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FR" data-flag="🇫🇷" data-name="France"><td><span class="flag">🇫🇷</span><span data-region="FR">France</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="NL" data-flag="🇳🇱" data-name="Netherlands"><td><span class="flag">🇳🇱</span><span data-region="NL">Netherlands</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FI" data-flag="🇫🇮" data-name="Finland"><td><span class="flag">🇫🇮</span><span data-region="FI">Finland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="IT" data-flag="🇮🇹" data-name="Italy"><td><span class="flag">🇮🇹</span><span data-region="IT">Italy</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="ES" data-flag="🇪🇸" data-name="Spain"><td><span class="flag">🇪🇸</span><span data-region="ES">Spain</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="PT" data-flag="🇵🇹" data-name="Portugal"><td><span class="flag">🇵🇹</span><span data-region="PT">Portugal</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="GR" data-flag="🇬🇷" data-name="Greece"><td><span class="flag">🇬🇷</span><span data-region="GR">Greece</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SK" data-flag="🇸🇰" data-name="Slovakia"><td><span class="flag">🇸🇰</span><span data-region="SK">Slovakia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LT" data-flag="🇱🇹" data-name="Lithuania"><td><span class="flag">🇱🇹</span><span data-region="LT">Lithuania</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LV" data-flag="🇱🇻" data-name="Latvia"><td><span class="flag">🇱🇻</span><span data-region="LV">Latvia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SE" data-flag="🇸🇪" data-name="Sweden"><td><span class="flag">🇸🇪</span><span data-region="SE">Sweden</span></td><td>79 SEK</td><td>599 SEK</td></tr>
+            <tr data-cc="NO" data-flag="🇳🇴" data-name="Norway"><td><span class="flag">🇳🇴</span><span data-region="NO">Norway</span></td><td>79 NOK</td><td>599 NOK</td></tr>
+            <tr data-cc="DK" data-flag="🇩🇰" data-name="Denmark"><td><span class="flag">🇩🇰</span><span data-region="DK">Denmark</span></td><td>49 DKK</td><td>349 DKK</td></tr>
+            <tr data-cc="PL" data-flag="🇵🇱" data-name="Poland"><td><span class="flag">🇵🇱</span><span data-region="PL">Poland</span></td><td>24,99 zł</td><td>169,99 zł</td></tr>
+            <tr data-cc="CZ" data-flag="🇨🇿" data-name="Czechia"><td><span class="flag">🇨🇿</span><span data-region="CZ">Czechia</span></td><td>149 Kč</td><td>999 Kč</td></tr>
+            <tr data-cc="HU" data-flag="🇭🇺" data-name="Hungary"><td><span class="flag">🇭🇺</span><span data-region="HU">Hungary</span></td><td>2 490 Ft</td><td>16 990 Ft</td></tr>
+            <tr data-cc="RO" data-flag="🇷🇴" data-name="Romania"><td><span class="flag">🇷🇴</span><span data-region="RO">Romania</span></td><td>24,99 lei</td><td>169,99 lei</td></tr>
+            <tr data-cc="BG" data-flag="🇧🇬" data-name="Bulgaria"><td><span class="flag">🇧🇬</span><span data-region="BG">Bulgaria</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="TR" data-flag="🇹🇷" data-name="Turkey"><td><span class="flag">🇹🇷</span><span data-region="TR">Turkey</span></td><td>₺199,99</td><td>₺1.399,99</td></tr>
+            <tr data-cc="BR" data-flag="🇧🇷" data-name="Brazil"><td><span class="flag">🇧🇷</span><span data-region="BR">Brazil</span></td><td>R$19,90</td><td>R$129,90</td></tr>
+            <tr data-cc="MX" data-flag="🇲🇽" data-name="Mexico"><td><span class="flag">🇲🇽</span><span data-region="MX">Mexico</span></td><td>MX$99</td><td>MX$649</td></tr>
+            <tr data-cc="ZA" data-flag="🇿🇦" data-name="South Africa"><td><span class="flag">🇿🇦</span><span data-region="ZA">South Africa</span></td><td>R99.99</td><td>R699.99</td></tr>
+            <tr data-cc="IN" data-flag="🇮🇳" data-name="India"><td><span class="flag">🇮🇳</span><span data-region="IN">India</span></td><td>₹299</td><td>₹1,999</td></tr>
+            <tr data-cc="CN" data-flag="🇨🇳" data-name="China"><td><span class="flag">🇨🇳</span><span data-region="CN">China</span></td><td>¥29</td><td>¥199</td></tr>
+            <tr data-cc="JP" data-flag="🇯🇵" data-name="Japan"><td><span class="flag">🇯🇵</span><span data-region="JP">Japan</span></td><td>¥980</td><td>¥6,800</td></tr>
+            <tr data-cc="KR" data-flag="🇰🇷" data-name="South Korea"><td><span class="flag">🇰🇷</span><span data-region="KR">South Korea</span></td><td>₩8,900</td><td>₩59,000</td></tr>
+            <tr data-cc="ID" data-flag="🇮🇩" data-name="Indonesia"><td><span class="flag">🇮🇩</span><span data-region="ID">Indonesia</span></td><td>Rp49.000</td><td>Rp329.000</td></tr>
+            <tr data-cc="AE" data-flag="🇦🇪" data-name="United Arab Emirates"><td><span class="flag">🇦🇪</span><span data-region="AE">United Arab Emirates</span></td><td>AED 24.99</td><td>AED 169.99</td></tr>
+            <tr data-cc="SA" data-flag="🇸🇦" data-name="Saudi Arabia"><td><span class="flag">🇸🇦</span><span data-region="SA">Saudi Arabia</span></td><td>SAR 24.99</td><td>SAR 169.99</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="table-note"><strong>Tulossa App Storeen</strong> Jokaisella maalla on oma hintansa muunnetun sijaan, joten kukaan ei maksa puntalaskua valepuvussa. App Store näyttää sinun hintasi ennen kuin hyväksyt mitään, verot mukaan lukien. Ei listalla? App Storella on silti sinulle hinta omassa valuutassasi.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="faq">
+  <div class="wrap">
+    <h2>Kysymyksiä joita kuriirit oikeasti kysyvät</h2>
+    <p class="section-intro">Suoria vastauksia, joltakulta joka tekee tätä työtä.</p>
+    <div class="faq">
+      <details>
+        <summary>Eikö tämä ole vain yksi ajopäiväkirjasovellus lisää?</summary>
+        <p>Se tallentaa kilometrit samalla tavalla, ilman käynnistyspainiketta. Ero on siinä mitä tapahtuu sen jälkeen: tulosi menevät sisään, polttoaine, pysäköinti ja käyttökulut vähennetään, ja sovellus kertoo mitä tunti oikeasti tuotti. Pelkkä kilometriluku ei ole koskaan kertonut kenellekään oliko keikka ajamisen arvoinen.</p>
+      </details>
+      <details>
+        <summary>Kuluttaako se akkua?</summary>
+        <p>DropLane ei pidä GPS:ää päällä koko päivää. Se on hiljaa kunnes huomaa että olet lähtenyt siitä mihin pysäköit, tallentaa kun liikut, ja nukahtaa taas kun pysähdyt.</p>
+      </details>
+      <details>
+        <summary>Pitääkö minun painaa käynnistä?</summary>
+        <p>Ei — eikä ole painiketta jota painaa. Se on koko pointti. Jos sinun täytyy muistaa, unohdat sen juuri sinä päivänä jolla on merkitystä.</p>
+      </details>
+      <details>
+        <summary>Entä jos unohdan lajitella ajon?</summary>
+        <p>Mitään ei katoa. Lajittelemattomat ajot odottavat Päivät-näytöllä, ja sovellus tönäisee sinua sen sijaan että arvaisi puolestasi.</p>
+      </details>
+      <details>
+        <summary>Päätyykö reittihistoriani jonnekin?</summary>
+        <p>Ei. Ei ole tiliä eikä palvelinta. Kaikki asuu iPhonessasi, ja varmuuskopioituu vain omaan iCloudiisi jos niin haluat.</p>
+      </details>
+      <details>
+        <summary>Ajan pyörällä, en pakettiautolla.</summary>
+        <p>Se käy. Tavarapyörän kilometrit tallentuvat samalla tavalla. Sisäänrakennetut korvaukset koskevat kuitenkin moottoriajoneuvoja, joten se mitä pyörällä voi vaatia riippuu maastasi ja tilanteestasi — kannattaa kysyä kirjanpitäjältä.</p>
+      </details>
+      <details>
+        <summary>Onko maani kilometrikorvaus mukana?</summary>
+        <p>Seitsemällätoista maalla on virallinen korvauksensa sisäänrakennettuna ja ajan tasalla pidettynä. Missä tahansa muualla kirjoitat oman korvauksesi kerran, ja sovellus laskee.</p>
+      </details>
+      <details>
+        <summary>Voinko käyttää sitä kilometreinä?</summary>
+        <p>Kyllä. Kilometrit tai mailit, oma valuuttasi ja se polttoaineen hinta jonka oikeasti maksat — kaikki Asetuksissa, ensimmäisellä näytöllä.</p>
+      </details>
+      <details>
+        <summary>Toimiiko se siellä missä ei ole kenttää?</summary>
+        <p>Kyllä. Tallennus kulkee iPhonen omalla GPS:llä eikä kaipaa internetiä lainkaan. Ilman kenttää ajetut ajot palaavat merkittyinä ”Alku” ja ”Loppu” katujen nimien sijaan, ja DropLane täyttää ne seuraavan kerran kun se näkee wifin. Viikko pikkuteillä ilman palkkeja laskeutuu silti oikein.</p>
+      </details>
+      <details>
+        <summary>Mitä tapahtuu kun saan uuden puhelimen?</summary>
+        <p>Kirjaudu samaan iCloudiin, niin ajot, tulot ja kulut palaavat itsestään. Ei ole tiliä luotavana eikä salasanaa hukattavana, koska koskaan ei ollut palvelinta joka olisi pitänyt mitään niistä — varmuuskopio on sinun, omassa iCloudissasi.</p>
+      </details>
+      <details>
+        <summary>Entä jos lopetan maksamisen — menetänkö tietoni?</summary>
+        <p>Mitään ei poisteta. Ajosi jäävät iPhoneen ja omaan iCloudiisi, täsmälleen sinne missä ne olivat. Mutta DropLane tarvitsee voimassa olevan tilauksen avautuakseen, joten jos haluat luvut jonnekin muualle, vie CSV-tiedosto ennen lähtöä. Se on Asetuksissa, ja se on yksi napautus.</p>
+      </details>
+      <details>
+        <summary>Mistä tiedän mitä polttoaine oikeasti maksoi ennen kuin korttilasku tulee?</summary>
+        <p>Kerro DropLanelle minkä litrahinnan polttoainekorttisi veloittaa, ja kirjaa litrat kun tankkaat. Kustannus lasketaan samana päivänä, joten viikon tulos on oikein viikkoja ennen kuin lasku ilmestyy.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="closer">
+      <h2>Lopeta arvailu siitä mitä päivä tuotti.</h2>
+      <p>Neljätoista päivää ilmaiseksi, ei tiliä, eikä mitään muistettavaa kuudelta aamulla.</p>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Lähetä sähköposti kun se on ulkona</a>
+      <p class="closer-note">Tulossa App Storeen</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">DropLane — automaattinen ajopäiväkirja ja tulot itsenäisille kuriireille. Rakentanut kuriiri, Torquayssa.</p>
+    <div class="foot-links">
+      <a href="/privacy/">Tietosuoja</a>
+      <a href="/terms/">Ehdot</a>
+      <a href="/support/">Tuki</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Sulje">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

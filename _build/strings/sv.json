@@ -1,0 +1,327 @@
+{
+  "meta_title": "DropLane — Vet vad dagen faktiskt gav",
+  "meta_description": "DropLane registrerar kurirens körningar av sig själv, drar bränsle, parkering och driftskostnader från intäkterna och visar vad timmen faktiskt gav. Plus en körjournal färdig för revisorn, på tjugofyra språk, allt i telefonen.",
+  "nav_label": "Huvudmeny",
+  "nav_how": "Så fungerar det",
+  "nav_day": "Vad det ger",
+  "nav_features": "Vad den gör",
+  "nav_screens": "Skärmar",
+  "nav_countries": "Var det fungerar",
+  "nav_languages": "Språk",
+  "nav_pricing": "Pris",
+  "nav_faq": "Frågor",
+  "nav_support": "Support",
+  "cta_get": "Skaffa DropLane",
+  "menu": "Meny",
+  "close": "Stäng",
+  "theme_label": "Färgtema",
+  "theme_light": "Ljust",
+  "theme_dark": "Mörkt",
+  "language_label": "Språk",
+  "language_title": "Läs sidan på ditt språk",
+  "language_note": "Appen själv talar tjugofyra språk — resten är på väg hit.",
+  "langbar_strong": "Tjugofyra språk.",
+  "langbar_rest": "Välj ditt — appen talar det också.",
+  "per_month_short": "i månaden",
+  "see_all": "se alla",
+  "hero_h1": "Vet vad dagen faktiskt gav.",
+  "hero_lede": "Starta skåpbilen. Det är allt. DropLane registrerar varje körning och vägen den faktiskt tog, drar kostnaderna från intäkterna och har din timpenning klar innan du är innanför dörren.",
+  "hero_cta_notify": "Få besked när den släpps",
+  "hero_cta_how": "Så fungerar det",
+  "hero_note": "14 dagar gratis · inget konto, inga annonser · iPhone",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "knappar att trycka på"
+    },
+    {
+      "value": "24",
+      "label": "språk"
+    },
+    {
+      "value": "17",
+      "label": "skattesatser inbyggda"
+    }
+  ],
+  "money_h2": "Två dagar. Samma kilometer. Inte samma pengar.",
+  "money_intro": "Båda är tre körningar och runt hundrafemtio kilometer, från samma telefon, i samma skåpbil. En vanlig körjournalsapp bokför dem som i stort sett samma dag. Det skiljer 277 kronor.",
+  "money_day1_when": "Torsdag 30 juli",
+  "money_day1_distance": "151 km",
+  "money_day1_trips": "3 körningar",
+  "money_day1_money": "1 523,00 kr",
+  "money_day2_when": "I går",
+  "money_day2_distance": "148 km",
+  "money_day2_trips": "3 körningar",
+  "money_day2_money": "1 800,00 kr",
+  "money_label_distance": "På vägen",
+  "money_label_trips": "Körningar",
+  "money_label_money": "Kvar",
+  "money_punch": "Tre kilometer isär. 277,00 kr isär.",
+  "money_note": "Kilometrarna är den enkla halvan — och den som inte säger dig någonting. Vilken dag som var värd att gå upp för står i den andra kolumnen, och det är den kolumnen DropLane fyller i åt dig, samma dag, utan att du skriver ned något.",
+  "day_h2": "Vad gav dagen egentligen?",
+  "day_intro": "2 712,00 kr låter som en bra dag. Sex timmar och trettiofem minuter på vägen och 275,00 kr i kostnader senare blev det 318,02 kr i timmen. Det är siffran ingen bakom ratten har, och den DropLane räcker dig innan du är innanför dörren.",
+  "day_film1_title": "Dagen räknade ihop sig själv",
+  "day_film1_body": "Två körningar, 91,5 km, 2 437,00 kr kvar — och en kvar att sortera. Ingenting skrevs in.",
+  "day_film2_title": "Rapporten bygger sig själv",
+  "day_film2_body": "Bocka för vad som ska med, välj stående eller liggande, så är PDF:en till revisorn redo att skickas.",
+  "day_film3_title": "Och vad timmen faktiskt gav",
+  "day_film3_body": "318,02 kr i timmen efter kostnader, 53,24 kr per km, och körersättningen uträknad bakom.",
+  "day_tally_lead": "En dag — 91,5 km, två körningar, 6 tim 35 min",
+  "day_label_earned": "Intjänat",
+  "day_label_costs": "Kostnader",
+  "day_label_kept": "Kvar",
+  "day_earned": "2 712,00 kr",
+  "day_costs": "275,00 kr",
+  "day_kept": "2 437,00 kr",
+  "day_rate_value": "318,02 kr",
+  "day_hours_value": "6 tim 35 min",
+  "day_label_hours": "på vägen",
+  "day_label_hour": "i timmen",
+  "day_note": "En dags siffror, direkt från skärmarna ovan. Dina blir andra — poängen är att ha dem samma dag, ute i bilen, i stället för att få veta det i april.",
+  "how_h2": "Tre steg, och två av dem är inte dina",
+  "how_intro": "Det finns ingen startknapp i DropLane, med flit. Ingen kommer ihåg att trycka på en klockan sex på morgonen med en skåpbil full av paket.",
+  "how_steps": [
+    {
+      "title": "Slå på den en gång",
+      "body": "Installera appen och tillåt plats i bakgrunden. Mer förberedelse än så finns inte."
+    },
+    {
+      "title": "Kör",
+      "body": "Varje körning sparar sig själv, med rutten, stoppen och hur länge du stod vid vart och ett."
+    },
+    {
+      "title": "Sortera med ett tryck",
+      "body": "Arbete, tomkörning, på väg mot upphämtning eller privat. Summorna och skattesiffran följer med av sig själva."
+    }
+  ],
+  "how_proof": "Sedan staplar dagarna upp sig av sig själva. Välj en vecka, en månad eller egna datum, bocka för vad som ska med, och PDF:en till revisorn är ett tryck bort — byggd av körningar du aldrig behövde föra in.",
+  "features_h2": "Vad den faktiskt gör",
+  "features_intro": "Byggd av en kurir med tio år på vägarna, för jobbet som det verkligen är.",
+  "features": [
+    {
+      "icon": "💷",
+      "title": "Vad dagen faktiskt gav",
+      "body": "Intäkter in, bränsle och kostnader ut, och siffran som betyder något längst ned — per dag, vecka, månad."
+    },
+    {
+      "icon": "⛽",
+      "title": "Vad timmen verkligen ger",
+      "body": "Bränsle, finansiering och försäkring fördelas över de dagar du arbetar, så timsiffran blir den sanna."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Körjournal utan att röra telefonen",
+      "body": "Körningarna registrerar sig själva i bakgrunden, från att du rullar iväg till att du parkerar."
+    },
+    {
+      "icon": "🧾",
+      "title": "Underlag färdiga för revisorn",
+      "body": "En PDF med varje körning, dess rutt och datum. Milersättning inbyggd för sjutton länder."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Stopp och väntetid",
+      "body": "Se hur länge du stod vid varje leverans eller terminal, utan att skriva ned något."
+    },
+    {
+      "icon": "🔒",
+      "title": "Ingenting lämnar telefonen",
+      "body": "Inget konto att skapa, ingen spårning, inga annonser. Din ruthistorik är din, säkerhetskopierad bara till ditt eget iCloud."
+    },
+    {
+      "icon": "🔔",
+      "title": "Förnyelser",
+      "body": "Skriv in ställningen en gång, så räknar DropLane upp den från din registrerade körsträcka — då kan varningar för service och besiktning räkna ner i körsträcka, inte bara i datum."
+    },
+    {
+      "icon": "🔧",
+      "title": "Ditt fordon",
+      "body": "Registrera servicar, däck och reparationer här — med fakturabilden bifogad har du hela verkstadshistoriken i fickan."
+    },
+    {
+      "icon": "💳",
+      "title": "Bränslekort",
+      "body": "Ange priset ditt kort tar per liter. Skriv upp antalet liter när du tankar, så räknar DropLane ut kostnaden."
+    }
+  ],
+  "screens_h2": "Hela appen, i dagsljus och mörker",
+  "screens_intro": "Riktiga skärmar, från en månads riktigt arbete. Slå om reglaget högst upp så följer varje skärm här med.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "I dag",
+      "body": "Medan hjulen fortfarande rullar."
+    },
+    {
+      "file": "day",
+      "title": "Dagen på kartan",
+      "body": "Varje färg är en körning."
+    },
+    {
+      "file": "trip",
+      "title": "En körning",
+      "body": "Tider, stopp och vilken sorts kilometer."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Sortera en körning",
+      "body": "Arbete, tomkörning, mot upphämtning eller privat."
+    },
+    {
+      "file": "days",
+      "title": "Dagar",
+      "body": "Varje dag, redan summerad."
+    },
+    {
+      "file": "stats",
+      "title": "Statistik",
+      "body": "Veckan, i klara siffror."
+    },
+    {
+      "file": "insights",
+      "title": "Insikter",
+      "body": "Vad en timme och en kilometer verkligen ger."
+    },
+    {
+      "file": "insights-tax",
+      "title": "Skatt",
+      "body": "Vad periodens kilometer är värda."
+    },
+    {
+      "file": "report",
+      "title": "PDF:en",
+      "body": "Byggd så som revisorn vill ha den."
+    },
+    {
+      "file": "expense",
+      "title": "Kostnader",
+      "body": "Bränsle, mat, parkering, vägavgifter."
+    },
+    {
+      "file": "vehicle",
+      "title": "Fordon",
+      "body": "Besiktning, fordonsskatt och försäkring, innan de biter."
+    },
+    {
+      "file": "settings",
+      "title": "Inställningar",
+      "body": "Kilometer eller miles. Ljust eller mörkt."
+    }
+  ],
+  "countries_h2": "Där DropLane kan reglerna",
+  "countries_intro": "Appen fungerar överallt. I de här länderna kan den dessutom den milersättning skattemyndigheten tillåter, och vad papperen på fordonet heter hos er.",
+  "countries_note": "Någon annanstans? Skriv in den ersättning ditt eget skattekontor tillåter, så sköter DropLane resten.",
+  "languages_h2": "Läs den på ditt eget språk",
+  "languages_intro": "Hela appen — varje skärm, varje avisering, rapporterna — inte bara den här sidan. Och pengarna stannar i din valuta, vilket språk du än läser på.",
+  "languages_caption_title": "Statistik",
+  "languages_caption_body": "Din vecka, på ditt språk och i dina pengar.",
+  "pricing_h2": "Ett pris, allt ingår",
+  "pricing_intro": "Fjorton dagar gratis. Inget kort för att börja, och inget bakom en dyrare nivå.",
+  "pricing_monthly": "Månadsvis",
+  "pricing_yearly": "Årsvis",
+  "pricing_per_month": "per månad, säg upp när du vill",
+  "pricing_per_year": "per år — billigaste vägen in",
+  "pricing_best": "Bäst värde",
+  "pricing_bullet_all": "Alla funktioner, inga tillägg",
+  "pricing_bullet_trial": "14 dagar gratis först",
+  "pricing_bullet_saving": "Spara {saving} om året — {percent} % billigare",
+  "pricing_bullet_equivalent": "Motsvarar {monthly} i månaden",
+  "pricing_table_title": "Priset där du är",
+  "pricing_search": "Hitta ditt land",
+  "pricing_col_country": "Land",
+  "pricing_col_month": "Månad",
+  "pricing_col_year": "År",
+  "pricing_you": "Du",
+  "pricing_note": "Varje land har sitt eget pris i stället för ett omräknat, så ingen betalar en pundnota i förklädnad. App Store visar ditt innan du godkänner något, skatt inräknad. Inte med i listan? App Store har ändå ett pris åt dig i din egen valuta.",
+  "faq_h2": "Frågor som kurirer faktiskt ställer",
+  "faq_intro": "Raka svar, från någon som gör jobbet.",
+  "faq": [
+    {
+      "q": "Är det inte bara ännu en körjournalsapp?",
+      "a": "Den registrerar kilometrarna på samma sätt, utan startknapp. Skillnaden är vad som händer sedan: dina intäkter går in, bränslet, parkeringen och driftskostnaderna dras av, och appen berättar vad timmen faktiskt gav. En kilometersiffra i sig har aldrig sagt någon om turen var värd att köra."
+    },
+    {
+      "q": "Drar den batteri?",
+      "a": "DropLane håller inte GPS:en igång hela dagen. Den ligger still tills den märker att du lämnat platsen där du parkerade, registrerar medan du rör dig, och somnar om när du stannar."
+    },
+    {
+      "q": "Måste jag trycka på start?",
+      "a": "Nej — och det finns ingen knapp att trycka på. Det är hela poängen. Måste du komma ihåg det, glömmer du det just den dag det spelar roll."
+    },
+    {
+      "q": "Tänk om jag glömmer att sortera en körning?",
+      "a": "Ingenting går förlorat. Osorterade körningar väntar på Dagar-skärmen, och appen puffar på dig i stället för att gissa åt dig."
+    },
+    {
+      "q": "Hamnar min ruthistorik någonstans?",
+      "a": "Nej. Det finns inget konto och ingen server. Allt bor i din iPhone och säkerhetskopieras bara till ditt eget iCloud om du vill det."
+    },
+    {
+      "q": "Jag kör cykel, inte skåpbil.",
+      "a": "Det går bra. Kilometer på lastcykel registreras på samma sätt. De inbyggda ersättningarna gäller dock motorfordon, så vad en cykel får dra av beror på ditt land och dina förhållanden — värt att fråga en revisor om."
+    },
+    {
+      "q": "Finns mitt lands milersättning med?",
+      "a": "Sjutton länder har sin officiella sats inbyggd och hålls aktuell. Var som helst annars skriver du in din egen sats en gång, så räknar appen."
+    },
+    {
+      "q": "Kan jag använda den i kilometer?",
+      "a": "Ja. Kilometer eller miles, din egen valuta och det bränslepris du faktiskt betalar — allt i Inställningar, på första skärmen."
+    },
+    {
+      "q": "Fungerar den där det inte finns täckning?",
+      "a": "Ja. Registreringen går på iPhones egen GPS och vill inte ha något internet alls. Körningar utan täckning kommer tillbaka märkta ”Start” och ”Slut” i stället för gatunamn, och DropLane fyller i dem nästa gång den ser wifi. En vecka på småvägar utan staplar summerar sig ändå rätt."
+    },
+    {
+      "q": "Vad händer när jag byter telefon?",
+      "a": "Logga in på samma iCloud så kommer dina körningar, intäkter och kostnader tillbaka av sig själva. Det finns inget konto att skapa och inget lösenord att tappa bort, för det fanns aldrig någon server som höll något av det — säkerhetskopian är din, i ditt eget iCloud."
+    },
+    {
+      "q": "Om jag slutar betala — förlorar jag mina uppgifter?",
+      "a": "Ingenting raderas. Dina körningar ligger kvar i telefonen och i ditt eget iCloud, precis där de var. Men DropLane behöver ett aktivt abonnemang för att öppnas, så vill du ha siffrorna någon annanstans exporterar du CSV-filen innan du går. Den ligger i Inställningar, och det är ett tryck."
+    },
+    {
+      "q": "Hur vet jag vad bränslet verkligen kostade innan kortfakturan kommer?",
+      "a": "Berätta för DropLane vilket literpris ditt drivmedelskort tar, och för in antalet liter när du tankar. Kostnaden räknas ut samma dag, så veckans resultat stämmer veckor innan fakturan dyker upp."
+    }
+  ],
+  "closer_h2": "Sluta gissa vad dagen gav.",
+  "closer_body": "Fjorton dagar gratis, inget konto, och ingenting att komma ihåg klockan sex på morgonen.",
+  "footer_note": "DropLane — automatisk körjournal och intäkter för egenanställda kurirer. Byggd av en kurir, i Torquay.",
+  "footer_privacy": "Integritet",
+  "footer_terms": "Villkor",
+  "footer_support": "Support",
+  "alt_today": "DropLanes I dag-skärm: en körning som registreras på kartan, med dagens sträcka, timmar och intäkter.",
+  "alt_days": "Dagar-listan: varje arbetsdag med sin vinst, sträcka och antal körningar.",
+  "alt_report": "Rapportkortet: reglage för körningar, intäkter, kostnader och kvittofoton, sedan PDF:en.",
+  "alt_stats": "Statistikskärmen: netto, intjänat och kostnader för veckan, med sträcka per typ.",
+  "papers_h2": "Rapporten, stående eller liggande",
+  "papers_intro": "Det här är PDF:en själv, inte en bild av reglagen som gör den. Välj formen som passar den som ska läsa den — stående för arkivering, bred när körningstabellen behöver plats — och den byggs om åt båda hållen.",
+  "papers_portrait": "Stående",
+  "papers_portrait_note": "För arkivering och för utskrift hemma.",
+  "papers_landscape": "Liggande",
+  "papers_landscape_note": "Bredare rader: varje körning, dess rutt och tider sida vid sida.",
+  "papers_note": "Ditt företagsnamn, din adress och din logotyp ligger i sidhuvudet. Bocka för vad som ska med — dag för dag, varje körning, intäkter, kostnader, kvittofoton, en liten karta bredvid varje körning, milersättningen för perioden — så bygger DropLane om dokumentet medan du håller på.",
+  "alt_report_portrait": "Första sidan i en DropLane-rapport i stående format: sidhuvud, summor för perioden, intäkter och kostnader, och milersättningen.",
+  "alt_report_landscape": "Första sidan i en DropLane-rapport i liggande format, med den bredare körningstabellen.",
+  "papers_choose": "Vad som ska med",
+  "papers_zoom": "Förstora",
+  "suggest_prompt": "Läs den på svenska",
+  "cta_soon": "Kommer snart",
+  "cta_coming": "Kommer till App Store",
+  "cta_notify": "Mejla mig när den är ute",
+  "pocket_live_body": "Medan du kör håller en Live Activity kilometrarna klättrande på låsskärmen — så du ser körningen registreras utan att låsa upp något.",
+  "privacy_h2": "Dina data. Bara dina.",
+  "privacy_intro": "Allt stannar på din iPhone och i ditt eget iCloud. Inget konto, ingen server, inget som säljs vidare. Bara du bestämmer vem som får se dina körningar.",
+  "privacy_stat_label": "Servrar som lagrar din plats",
+  "privacy_point1": "Det är det här som låter DropLane registrera körsträckan. Din platshistorik lämnar aldrig din iPhone.",
+  "privacy_point2": "Säkerhetskopiering och återställning via iCloud, inget konto behövs",
+  "privacy_point3": "Exportera CSV till din bokföring",
+  "setup_shot_location": "Slå på platsåtkomst",
+  "setup_shot_always": "Välj nu Alltid",
+  "setup_shot_notifications": "Aktivera notiser",
+  "setup_shot_vehicle": "Vad kör du?",
+  "pocket_h3": "Notiser",
+  "pocket_live_alt": "Körning upptäckt — spelar in",
+  "pocket_body": "”Alltid” gör att körningar spelas in med appen stängd."
+}
