@@ -17,7 +17,7 @@
     { "code": "sv", "dir": "sv", "name": "Svenska",     "flag": "🇸🇪", "locale": "sv-SE", "og_locale": "sv_SE", "market": "SE", "market_name": "Sweden",         "price_month": "79 SEK",  "price_year": "599 SEK" },
     { "code": "nb", "dir": "nb", "name": "Norsk",       "flag": "🇳🇴", "locale": "nb-NO", "og_locale": "nb_NO", "market": "NO", "market_name": "Norway",         "price_month": "79 NOK",  "price_year": "599 NOK" },
     { "code": "fi", "dir": "fi", "name": "Suomi",       "flag": "🇫🇮", "locale": "fi-FI", "og_locale": "fi_FI", "market": "FI", "market_name": "Finland",        "price_month": "6,99 €",  "price_year": "49,99 €" },
-    { "code": "ru", "dir": "ru", "name": "Русский",     "flag": "🇱🇻", "locale": "ru-LV", "og_locale": "ru_RU", "market": "LV", "market_name": "Latvia",         "price_month": "4,99 €",  "price_year": "34,99 €" }
+    { "code": "ru", "dir": "ru", "name": "Русский",     "flag": "🇷🇺", "market_flag": "🇱🇻", "locale": "ru-LV", "og_locale": "ru_RU", "market": "LV", "market_name": "Latvia",         "price_month": "4,99 €",  "price_year": "34,99 €" }
   ],
 
   "screens": ["today", "day", "trip", "days", "stats", "insights", "report", "expense", "vehicle", "settings"],
