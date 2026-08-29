@@ -1,0 +1,327 @@
+{
+  "meta_title": "DropLane — Günün gerçekte ne kazandırdığını bil",
+  "meta_description": "DropLane bir kuryenin sürüşlerini kendi başına kaydeder, yakıtı, otoparkı ve sabit giderleri kazançtan düşer ve saatin gerçekte ne kazandırdığını söyler. Üstüne muhasebecine hazır bir kilometre kaydı, yirmi dört dilde, hepsi telefonunda.",
+  "nav_label": "Ana menü",
+  "nav_how": "Nasıl çalışır",
+  "nav_day": "Ne kazandırıyor",
+  "nav_features": "Neler yapıyor",
+  "nav_screens": "Ekranlar",
+  "nav_countries": "Nerede çalışır",
+  "nav_languages": "Diller",
+  "nav_pricing": "Fiyat",
+  "nav_faq": "Sorular",
+  "nav_support": "Yardım",
+  "cta_get": "DropLane'i al",
+  "menu": "Menü",
+  "close": "Kapat",
+  "theme_label": "Renk teması",
+  "theme_light": "Açık",
+  "theme_dark": "Koyu",
+  "language_label": "Dil",
+  "language_title": "Bu siteyi kendi dilinde oku",
+  "language_note": "Uygulamanın kendisi yirmi dört dil konuşuyor — kalanı da buraya geliyor.",
+  "langbar_strong": "Yirmi dört dil.",
+  "langbar_rest": "Kendi dilini seç — uygulama da onu konuşuyor.",
+  "per_month_short": "aylık",
+  "see_all": "hepsini gör",
+  "hero_h1": "Günün gerçekte ne kazandırdığını bil.",
+  "hero_lede": "Aracı çalıştır. Hepsi bu. DropLane her sürüşü ve gerçekte gittiğin yolu kaydeder, giderleri kazançtan düşer ve sen kapıdan girmeden saatlik kazancını hazır eder.",
+  "hero_cta_notify": "Çıkınca haber ver",
+  "hero_cta_how": "Nasıl çalışır",
+  "hero_note": "14 gün ücretsiz · hesap yok, reklam yok · iPhone",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "basılacak düğme"
+    },
+    {
+      "value": "24",
+      "label": "dil"
+    },
+    {
+      "value": "17",
+      "label": "yerleşik vergi oranı"
+    }
+  ],
+  "money_h2": "İki gün. Daha çok kilometre. Daha az para.",
+  "money_intro": "Salı: 329 kilometre, üç sürüş. Dün: 198 kilometre, iki sürüş. Bir kilometre uygulaması sana salının daha dolu gün olduğunu söyler — haklıdır da. Salıdan ₺558 kaldı. Dünden ₺1.445.",
+  "money_day1_when": "25 Ağustos Salı",
+  "money_day1_distance": "329 km",
+  "money_day1_trips": "3 sürüş",
+  "money_day1_money": "₺558,50",
+  "money_day2_when": "Dün",
+  "money_day2_distance": "198 km",
+  "money_day2_trips": "2 sürüş",
+  "money_day2_money": "₺1.445,50",
+  "money_label_distance": "Yolda",
+  "money_label_trips": "Sürüş",
+  "money_label_money": "Kalan",
+  "money_punch": "131 kilometre fazla. ₺887,00 eksik.",
+  "money_note": "Kilometre işin kolay yarısı, hem de sana hiçbir şey söylemeyen yarısı. Hangi günün kalkmaya değdiği öteki sütunda yazıyor — ve o sütunu senin yerine, aynı gün içinde, hiçbir şey yazmana gerek kalmadan DropLane dolduruyor.",
+  "day_h2": "Gün gerçekte ne kazandırdı?",
+  "day_intro": "₺2.296,00 iyi bir gün gibi duruyor. Yakıtı ve otoparkı düş, yolda geçen 8 sa 19 dk'ya böl, saati ₺49,83 ediyor. Direksiyon başındaki kimsenin bilmediği sayı bu — ve DropLane'in sen kapıdan girmeden eline verdiği sayı.",
+  "day_film1_title": "Gün kendi kendini topladı",
+  "day_film1_body": "İki sürüş, giderler düşülünce kalan ₺1.217,50. Hiçbir şey elle yazılmadı.",
+  "day_film2_title": "Rapor kendi kendini kuruyor",
+  "day_film2_body": "Neyin gireceğini işaretle, dikey mi yatay mı seç, muhasebeciye gidecek PDF gönderilmeye hazır.",
+  "day_film3_title": "Ve saat gerçekte ne kazandırdı",
+  "day_film3_body": "Giderlerden sonra saati ₺49,83, arkasında da dönemin kilometre indirimi.",
+  "day_tally_lead": "Bir gün, yukarıdaki ekranlardan",
+  "day_label_earned": "Kazanç",
+  "day_label_costs": "Giderler",
+  "day_label_kept": "Kalan",
+  "day_earned": "₺2.296,00",
+  "day_costs": "₺1.078,50",
+  "day_kept": "₺1.217,50",
+  "day_rate_value": "₺49,83",
+  "day_hours_value": "8 sa 19 dk",
+  "day_label_hours": "yolda",
+  "day_label_hour": "saati",
+  "day_note": "Bir günün rakamları, doğrudan yukarıdaki ekranlardan. Seninkiler başka olacak — mesele onları nisanda değil, aynı gün, aracın içindeyken elinde tutmak.",
+  "how_h2": "Üç adım, ikisi senin değil",
+  "how_intro": "DropLane'de başlat düğmesi yok, bilerek. Sabahın altısında kolisi dolu bir araçla kimse düğmeye basmayı akıl etmiyor.",
+  "how_steps": [
+    {
+      "title": "Bir kez aç",
+      "body": "Uygulamayı kur ve arka planda konuma izin ver. Yapılacak son ayar bu."
+    },
+    {
+      "title": "Sür",
+      "body": "Her sürüş kendini kaydeder; rotasıyla, duraklarıyla ve her durakta ne kadar beklediğinle."
+    },
+    {
+      "title": "Tek dokunuşla ayır",
+      "body": "İş, boş, alıma gidiş ya da kişisel. Toplamlar ve vergi rakamı arkasından kendiliğinden gelir."
+    }
+  ],
+  "how_proof": "Sonra günler kendi kendine üst üste birikir. Bir hafta, bir ay ya da kendi tarihlerini seç, neyin gireceğini işaretle, muhasebeciye gidecek PDF tek dokunuş uzakta — hiç kaydetmek zorunda kalmadığın sürüşlerden kurulmuş olarak.",
+  "features_h2": "Gerçekte neler yapıyor",
+  "features_intro": "Yolda on yılı olan bir kurye tarafından, işin gerçekte olduğu hali için yapıldı.",
+  "features": [
+    {
+      "icon": "💷",
+      "title": "Gün gerçekte ne kazandırdı",
+      "body": "Kazanç içeri, yakıt ve giderler dışarı, altta da asıl önemli sayı — günlük, haftalık, aylık."
+    },
+    {
+      "icon": "⛽",
+      "title": "Bir saat gerçekte ne kazandırıyor",
+      "body": "Yakıt, taksit ve sigorta çalıştığın günlere yayılır, böylece saatlik rakam gerçek olanı olur."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Telefona dokunmadan kilometre",
+      "body": "Sürüşler arka planda kendini kaydeder — hareket ettiğin andan park ettiğin ana kadar."
+    },
+    {
+      "icon": "🧾",
+      "title": "Muhasebecine hazır kayıtlar",
+      "body": "Her sürüşü, rotasını ve tarihini içeren bir PDF. On yedi ülkenin kilometre oranı yerleşik."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Duraklar ve bekleme süresi",
+      "body": "Her teslimatta ya da depoda ne kadar beklediğini, hiçbir şey yazmadan gör."
+    },
+    {
+      "icon": "🔒",
+      "title": "Telefonundan hiçbir şey çıkmaz",
+      "body": "Açılacak hesap yok, takip yok, reklam yok. Rota geçmişin senin ve yalnızca kendi iCloud'una yedeklenir."
+    },
+    {
+      "icon": "🔔",
+      "title": "Yenilemeler",
+      "body": "Değeri bir kez yaz; DropLane kaydettiği millerle saymaya devam etsin — böylece bakım ve muayene uyarıları yalnızca tarihle değil, mille de geri sayabilir."
+    },
+    {
+      "icon": "🔧",
+      "title": "Aracın",
+      "body": "Bakımları, lastikleri ve onarımları buraya kaydet — fatura fotoğrafı ekliyken tüm servis geçmişin cebinde."
+    },
+    {
+      "icon": "💳",
+      "title": "Yakıt kartı",
+      "body": "Kartının litre başına aldığı fiyatı ayarla. Yakıt aldığında litreyi kaydet, maliyeti DropLane hesaplasın."
+    }
+  ],
+  "screens_h2": "Uygulamanın tamamı, gündüz ışığında ve karanlıkta",
+  "screens_intro": "Gerçek bir ayın işinden, gerçek ekranlar. Yukarıdaki düğmeyi çevir, buradaki her ekran onunla birlikte değişsin.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Bugün",
+      "body": "Tekerlekler hâlâ dönerken."
+    },
+    {
+      "file": "day",
+      "title": "Gün haritada",
+      "body": "Her renk bir sürüş."
+    },
+    {
+      "file": "trip",
+      "title": "Tek sürüş",
+      "body": "Saatler, duraklar ve kilometrenin türü."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Sürüşü ayırmak",
+      "body": "İş, boş, alıma gidiş ya da kişisel."
+    },
+    {
+      "file": "days",
+      "title": "Günler",
+      "body": "Her gün, çoktan toplanmış."
+    },
+    {
+      "file": "stats",
+      "title": "İstatistikler",
+      "body": "Hafta, sade rakamlarla."
+    },
+    {
+      "file": "insights",
+      "title": "Analizler",
+      "body": "Bir saat ve bir kilometre gerçekte ne kazandırıyor."
+    },
+    {
+      "file": "insights-tax",
+      "title": "Vergi",
+      "body": "Bu dönemin kilometreleri ne ediyor."
+    },
+    {
+      "file": "report",
+      "title": "PDF",
+      "body": "Muhasebecinin istediği biçimde kurulmuş."
+    },
+    {
+      "file": "expense",
+      "title": "Giderler",
+      "body": "Yakıt, yemek, otopark, geçiş ücretleri."
+    },
+    {
+      "file": "vehicle",
+      "title": "Araç",
+      "body": "Muayene, yol vergisi ve sigorta, seni yakalamadan."
+    },
+    {
+      "file": "settings",
+      "title": "Ayarlar",
+      "body": "Kilometre ya da mil. Açık ya da koyu."
+    }
+  ],
+  "countries_h2": "DropLane kuralları nerede biliyor",
+  "countries_intro": "Uygulama her yerde çalışır. Bu ülkelerde ayrıca vergi dairesinin kabul ettiği kilometre oranını ve araç evraklarının adını da bilir.",
+  "countries_note": "Başka bir yerde misin? Kendi vergi dairenin izin verdiği oranı yaz, gerisini DropLane halletsin.",
+  "languages_h2": "Kendi dilinde oku",
+  "languages_intro": "Uygulamanın tamamı — her ekran, her bildirim, raporlar — yalnızca bu sayfa değil. Para da hangi dilde okursan oku kendi para biriminde kalır.",
+  "languages_caption_title": "İstatistikler",
+  "languages_caption_body": "Haftan, kendi dilinde ve kendi paranla.",
+  "pricing_h2": "Tek fiyat, her şey içinde",
+  "pricing_intro": "On dört gün ücretsiz. Başlamak için kart yok ve daha pahalı bir pakete kilitlenmiş hiçbir şey yok.",
+  "pricing_monthly": "Aylık",
+  "pricing_yearly": "Yıllık",
+  "pricing_per_month": "aylık, istediğin zaman iptal",
+  "pricing_per_year": "yıllık — girmenin en ucuz yolu",
+  "pricing_best": "En iyi değer",
+  "pricing_bullet_all": "Bütün özellikler, ek paket yok",
+  "pricing_bullet_trial": "Önce 14 gün ücretsiz",
+  "pricing_bullet_saving": "Yılda {saving} kazan — %{percent} daha ucuz",
+  "pricing_bullet_equivalent": "Ayda {monthly} ediyor",
+  "pricing_table_title": "Senin oradaki fiyat",
+  "pricing_search": "Ülkeni bul",
+  "pricing_col_country": "Ülke",
+  "pricing_col_month": "Aylık",
+  "pricing_col_year": "Yıllık",
+  "pricing_you": "Sen",
+  "pricing_note": "Her ülkenin çevrilmiş değil kendi fiyatı var, böylece kimse kılık değiştirmiş bir sterlin faturası ödemiyor. App Store sen bir şeye onay vermeden seninkini vergisi dahil gösterir. Listede yok mu? App Store'un yine de senin için, kendi para biriminde bir fiyatı var.",
+  "faq_h2": "Kuryelerin gerçekte sorduğu sorular",
+  "faq_intro": "İşi yapan birinden, dosdoğru cevaplar.",
+  "faq": [
+    {
+      "q": "Bu da bir kilometre uygulaması değil mi sonuçta?",
+      "a": "Kilometreyi aynı şekilde, başlat düğmesi olmadan kaydediyor. Fark sonrasında: kazancın giriyor, yakıt, otopark ve sabit giderler çıkıyor ve uygulama sana saatin gerçekte ne kazandırdığını söylüyor. Tek başına bir kilometre rakamı bugüne kadar kimseye o turun değip değmediğini söylemedi."
+    },
+    {
+      "q": "Pili bitirir mi?",
+      "a": "DropLane GPS'i bütün gün açık tutmuyor. Park ettiğin yerden ayrıldığını fark edene kadar sessizce bekliyor, sen hareket ederken kaydediyor ve durduğunda yeniden uykuya geçiyor."
+    },
+    {
+      "q": "Başlat'a basmam gerekiyor mu?",
+      "a": "Hayır — basılacak bir düğme de yok. Bütün mesele bu. Hatırlaman gerekiyorsa, tam da önemli olduğu gün unutursun."
+    },
+    {
+      "q": "Bir sürüşü ayırmayı unutursam ne olur?",
+      "a": "Hiçbir şey kaybolmaz. Ayrılmamış sürüşler Günler ekranında bekler ve uygulama senin yerine tahmin etmek yerine sana hatırlatır."
+    },
+    {
+      "q": "Rota geçmişim bir yerlere gider mi?",
+      "a": "Hayır. Ne hesap var ne sunucu. Her şey iPhone'unda kalır ve yalnızca sen istersen kendi iCloud'una yedeklenir."
+    },
+    {
+      "q": "Ben motorla çalışıyorum, kamyonetle değil.",
+      "a": "Olur. Motosikletle ya da kargo bisikletiyle yapılan kilometre de aynı şekilde kaydedilir. Ancak yerleşik kilometre oranları motorlu araçlar için, dolayısıyla neyi gider yazabileceğin ülkene ve durumuna bağlı — muhasebeciye sormakta fayda var."
+    },
+    {
+      "q": "Benim ülkemin kilometre oranı içinde var mı?",
+      "a": "On yedi ülkenin resmî oranı yerleşik ve güncel tutuluyor. Başka her yerde kendi oranını bir kez yazarsın, hesabı uygulama yapar."
+    },
+    {
+      "q": "Kilometreyle kullanabilir miyim?",
+      "a": "Evet. Kilometre ya da mil, kendi para birimin ve gerçekten ödediğin yakıt fiyatı — hepsi Ayarlar'da, hem de ilk ekranda."
+    },
+    {
+      "q": "Çekmediği yerde çalışır mı?",
+      "a": "Evet. Kayıt iPhone'unun kendi GPS'iyle çalışır ve internete hiç ihtiyaç duymaz. Çekmeyen yerlerde yapılan sürüşler sokak adı yerine “Başlangıç” ve “Bitiş” olarak döner, DropLane de bir sonraki Wi-Fi gördüğünde adları doldurur. Çubuğun hiç olmadığı yollarda geçen bir hafta yine doğru toplanır."
+    },
+    {
+      "q": "Yeni telefon alınca ne oluyor?",
+      "a": "Aynı iCloud'a giriş yap, sürüşlerin, kazançların ve giderlerin kendiliğinden geri gelsin. Açılacak hesap ve kaybedilecek parola yok, çünkü bunların hiçbirini tutan bir sunucu hiç olmadı — yedek senin, kendi iCloud'unda."
+    },
+    {
+      "q": "Ödemeyi bırakırsam kayıtlarımı kaybeder miyim?",
+      "a": "Hiçbir şey silinmez. Sürüşlerin iPhone'da ve kendi iCloud'unda, tam bıraktığın yerde kalır. Ama DropLane'in açılması için etkin bir abonelik gerekiyor; rakamları başka bir yerde istiyorsan gitmeden önce CSV'yi dışa aktar. Ayarlar'da ve tek dokunuş."
+    },
+    {
+      "q": "Kart ekstresi gelmeden yakıtın gerçekte ne tuttuğunu nasıl bilirim?",
+      "a": "DropLane'e yakıt kartının litre başına aldığı fiyatı söyle, sonra depoyu doldururken litreyi yaz. Maliyet aynı gün çıkar, yani haftanın kârı ekstre gelmeden haftalar önce doğrudur."
+    }
+  ],
+  "closer_h2": "Günün ne kazandırdığını tahmin etmeyi bırak.",
+  "closer_body": "On dört gün ücretsiz, hesap yok ve sabahın altısında hatırlanacak hiçbir şey yok.",
+  "footer_note": "DropLane — kendi hesabına çalışan kuryeler için otomatik kilometre ve kazanç. Torquay'de bir kurye tarafından yapıldı.",
+  "footer_privacy": "Gizlilik",
+  "footer_terms": "Koşullar",
+  "footer_support": "Yardım",
+  "alt_today": "DropLane'in Bugün ekranı: haritada kaydedilen bir sürüş, günün mesafesi, saatleri ve kazancıyla.",
+  "alt_days": "Günler listesi: her iş günü, kârı, mesafesi ve sürüş sayısıyla.",
+  "alt_report": "Rapor kartı: sürüşler, kazanç, giderler ve fiş fotoğrafları için anahtarlar, sonra da PDF.",
+  "alt_stats": "İstatistikler ekranı: haftanın neti, kazancı ve giderleri, türüne göre mesafeyle.",
+  "papers_h2": "Rapor, dikey ya da yatay",
+  "papers_intro": "Bu, onu kuran anahtarların fotoğrafı değil, PDF'in kendisi. Okuyacak kişiye hangisi uygunsa onu seç — dosyalamak için dikey, sürüş tablosunun yere ihtiyacı olduğunda yatay — ve iki türlü de kendini yeniden kurar.",
+  "papers_portrait": "Dikey",
+  "papers_portrait_note": "Dosyalamak ve evde yazdırmak için.",
+  "papers_landscape": "Yatay",
+  "papers_landscape_note": "Daha geniş satırlar: her sürüş, rotası ve saatleri yan yana.",
+  "papers_note": "İşletme adın, adresin ve logon başlıkta durur. Neyin gireceğini işaretle — gün gün döküm, her sürüş, kazanç, giderler, fiş fotoğrafları, her sürüşün yanında küçük bir harita, dönemin kilometre indirimi — ve DropLane sen seçtikçe belgeyi yeniden kursun.",
+  "alt_report_portrait": "Dikey bir DropLane raporunun ilk sayfası: başlık, dönemin toplamları, kazanç ve giderler ve kilometre indirimi.",
+  "alt_report_landscape": "Yatay bir DropLane raporunun ilk sayfası, daha geniş sürüş tablosuyla.",
+  "papers_choose": "Neler girecek",
+  "papers_zoom": "Büyüt",
+  "suggest_prompt": "Türkçe oku",
+  "cta_soon": "Yakında",
+  "cta_coming": "Yakında App Store'da",
+  "cta_notify": "Çıkınca bana yaz",
+  "privacy_h2": "Verilerin. Yalnızca senin.",
+  "privacy_intro": "Her şey iPhone’unda ve kendi iCloud’unda kalır. Hesap yok, sunucu yok, satılan hiçbir şey yok. Sürüşlerini kimin göreceğine yalnızca sen karar verirsin.",
+  "privacy_stat_label": "Konumunu tutan sunucular",
+  "privacy_point1": "DropLane’in milleri kaydetmesini sağlayan şey bu. Konum geçmişin iPhone’undan asla çıkmaz.",
+  "privacy_point2": "iCloud yedekleme ve geri yükleme, hesap gerekmez",
+  "privacy_point3": "Kayıtların için CSV dışa aktar",
+  "setup_shot_location": "Konumu aç",
+  "setup_shot_always": "Şimdi Her Zaman’ı seç",
+  "setup_shot_notifications": "Bildirimleri aç",
+  "setup_shot_vehicle": "Ne kullanıyorsun?",
+  "pocket_h3": "Bildirimler",
+  "pocket_body": "“Her Zaman”, sürüşlerin uygulama kapalıyken de kaydedilmesini sağlar.",
+  "pocket_live_alt": "Sürüş algılandı — kayıt yapılıyor",
+  "pocket_live_body": "Sen sürerken bir Canlı Etkinlik kilit ekranında kilometreyi yükseltmeye devam eder — hiçbir şeyin kilidini açmadan sürüşün kaydedildiğini görürsün."
+}

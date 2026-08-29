@@ -7,7 +7,7 @@ help screen). Changing it would strand every build already on TestFlight.
 
 ## 0. Build the pages first
 
-The site is generated: ten languages from one template, so a copy change is
+The site is generated: nineteen pages from one template, so a copy change is
 made once and lands everywhere.
 
 ```bash

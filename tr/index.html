@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="tr-TR" data-theme="light" data-lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DropLane — Günün gerçekte ne kazandırdığını bil</title>
+<meta name="description" content="DropLane bir kuryenin sürüşlerini kendi başına kaydeder, yakıtı, otoparkı ve sabit giderleri kazançtan düşer ve saatin gerçekte ne kazandırdığını söyler. Üstüne muhasebecine hazır bir kilometre kaydı, yirmi dört dilde, hepsi telefonunda.">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/tr/">
+<link rel="alternate" hreflang="en" href="https://www.droplane.co.uk/">
+<link rel="alternate" hreflang="en-US" href="https://www.droplane.co.uk/us/">
+<link rel="alternate" hreflang="en-AU" href="https://www.droplane.co.uk/au/">
+<link rel="alternate" hreflang="da" href="https://www.droplane.co.uk/da/">
+<link rel="alternate" hreflang="de" href="https://www.droplane.co.uk/de/">
+<link rel="alternate" hreflang="es" href="https://www.droplane.co.uk/es/">
+<link rel="alternate" hreflang="fr" href="https://www.droplane.co.uk/fr/">
+<link rel="alternate" hreflang="it" href="https://www.droplane.co.uk/it/">
+<link rel="alternate" hreflang="nl" href="https://www.droplane.co.uk/nl/">
+<link rel="alternate" hreflang="pl" href="https://www.droplane.co.uk/pl/">
+<link rel="alternate" hreflang="pt-PT" href="https://www.droplane.co.uk/pt/">
+<link rel="alternate" hreflang="pt" href="https://www.droplane.co.uk/br/">
+<link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
+<link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
+<link rel="alternate" hreflang="sv" href="https://www.droplane.co.uk/sv/">
+<link rel="alternate" hreflang="nb" href="https://www.droplane.co.uk/nb/">
+<link rel="alternate" hreflang="fi" href="https://www.droplane.co.uk/fi/">
+<link rel="alternate" hreflang="ru" href="https://www.droplane.co.uk/ru/">
+<link rel="alternate" hreflang="tr" href="https://www.droplane.co.uk/tr/">
+<link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
+<meta property="og:title" content="DropLane — Günün gerçekte ne kazandırdığını bil">
+<meta property="og:description" content="DropLane bir kuryenin sürüşlerini kendi başına kaydeder, yakıtı, otoparkı ve sabit giderleri kazançtan düşer ve saatin gerçekte ne kazandırdığını söyler. Üstüne muhasebecine hazır bir kilometre kaydı, yirmi dört dilde, hepsi telefonunda.">
+<meta property="og:url" content="https://www.droplane.co.uk/tr/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/icon-512.png">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/tr/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="Ana menü">
+      <a href="#money">Ne kazandırıyor</a>
+      <a href="#how">Nasıl çalışır</a>
+      <a href="#features">Neler yapıyor</a>
+      <a href="#screens">Ekranlar</a>
+      <a href="#countries">Nerede çalışır</a>
+      <a href="#pricing">Fiyat</a>
+      <a href="/support/">Yardım</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="Dil">
+        <span class="lang-button-flag" aria-hidden="true">🇹🇷</span>
+        <span class="lang-button-name">Türkçe</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="Renk teması">
+        <button type="button" data-theme="light" aria-pressed="true" title="Açık">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>Açık</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="Koyu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>Koyu</span>
+        </button>
+      </div>
+
+      <a class="head-cta head-cta-soon" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Yakında</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">Menü</span><span class="close-label">Kapat</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">Bu siteyi kendi dilinde oku</p>
+      <ul class="lang-list">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/tr/" hreflang="tr" aria-current="true" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+      </ul>
+      <p class="lang-panel-note">Uygulamanın kendisi yirmi dört dil konuşuyor — kalanı da buraya geliyor.</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="Ana menü">
+        <a href="#money">Ne kazandırıyor</a>
+        <a href="#how">Nasıl çalışır</a>
+        <a href="#features">Neler yapıyor</a>
+        <a href="#screens">Ekranlar</a>
+        <a href="#countries">Nerede çalışır</a>
+        <a href="#languages">Diller</a>
+        <a href="#pricing">Fiyat</a>
+        <a href="#faq">Sorular</a>
+        <a href="/support/">Yardım</a>
+      </nav>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Yakında App Store&#x27;da</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>Yirmi dört dil.</strong> Kendi dilini seç — uygulama da onu konuşuyor.</p>
+    <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
+  </div>
+</div>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇹🇷</span><b data-region="TR">Turkey</b><span class="eyebrow-cost"><span class="eyebrow-price">₺199,99</span> <span class="eyebrow-per">aylık</span></span><a href="#pricing">hepsini gör</a></span>
+      <h1>Günün gerçekte ne kazandırdığını bil.</h1>
+      <p class="lede">Aracı çalıştır. Hepsi bu. DropLane her sürüşü ve gerçekte gittiğin yolu kaydeder, giderleri kazançtan düşer ve sen kapıdan girmeden saatlik kazancını hazır eder.</p>
+      <!-- While the app is coming soon the loud button is the launch list, not
+           the price: the eyebrow above already carries the price and links to
+           the table. On launch day, swap this first link for Apple's official
+           "Download on the App Store" badge and drop hero_cta_notify. -->
+      <div class="cta-row">
+        <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Çıkınca haber ver</a>
+        <a class="btn-ghost" href="#how">Nasıl çalışır</a>
+      </div>
+      <p class="cta-note" style="margin:14px 0 0">14 gün ücretsiz · hesap yok, reklam yok · iPhone</p>
+      <ul class="hero-facts">
+        <li><b>0</b><span>basılacak düğme</span></li>
+        <li><b>24</b><span>dil</span></li>
+        <li><b>17</b><span>yerleşik vergi oranı</span></li>
+      </ul>
+    </div>
+
+    <div class="stage">
+      <div class="device device-back">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/days.webp" width="640" height="1391" alt="Günler listesi: her iş günü, kârı, mesafesi ve sürüş sayısıyla." loading="eager">
+          <img class="only-light" src="/assets/screens/tr/light/days.webp" width="640" height="1391" alt="Günler listesi: her iş günü, kârı, mesafesi ve sürüş sayısıyla." loading="eager">
+        </div>
+      </div>
+      <div class="device device-front">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/today.webp" width="640" height="1391" alt="DropLane&#x27;in Bugün ekranı: haritada kaydedilen bir sürüş, günün mesafesi, saatleri ve kazancıyla." loading="eager">
+          <img class="only-light" src="/assets/screens/tr/light/today.webp" width="640" height="1391" alt="DropLane&#x27;in Bugün ekranı: haritada kaydedilen bir sürüş, günün mesafesi, saatleri ve kazancıyla." loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>İki gün. Daha çok kilometre. Daha az para.</h2>
+    <p class="section-intro">Salı: 329 kilometre, üç sürüş. Dün: 198 kilometre, iki sürüş. Bir kilometre uygulaması sana salının daha dolu gün olduğunu söyler — haklıdır da. Salıdan ₺558 kaldı. Dünden ₺1.445.</p>
+
+    <div class="twodays">
+      <div class="twoday">
+        <p class="twoday-when">25 Ağustos Salı</p>
+        <dl>
+          <div><dt>Yolda</dt><dd>329 km</dd></div>
+          <div><dt>Sürüş</dt><dd>3 sürüş</dd></div>
+        </dl>
+        <p class="twoday-money"><span>Kalan</span><b>₺558,50</b></p>
+      </div>
+      <div class="twoday">
+        <p class="twoday-when">Dün</p>
+        <dl>
+          <div><dt>Yolda</dt><dd>198 km</dd></div>
+          <div><dt>Sürüş</dt><dd>2 sürüş</dd></div>
+        </dl>
+        <p class="twoday-money"><span>Kalan</span><b>₺1.445,50</b></p>
+      </div>
+    </div>
+
+    <p class="twodays-punch">131 kilometre fazla. ₺887,00 eksik.</p>
+    <p class="versus-note">Kilometre işin kolay yarısı, hem de sana hiçbir şey söylemeyen yarısı. Hangi günün kalkmaya değdiği öteki sütunda yazıyor — ve o sütunu senin yerine, aynı gün içinde, hiçbir şey yazmana gerek kalmadan DropLane dolduruyor.</p>
+  </div>
+</section>
+
+<section id="day">
+  <div class="wrap">
+    <h2>Gün gerçekte ne kazandırdı?</h2>
+    <p class="section-intro">₺2.296,00 iyi bir gün gibi duruyor. Yakıtı ve otoparkı düş, yolda geçen 8 sa 19 dk&#x27;ya böl, saati ₺49,83 ediyor. Direksiyon başındaki kimsenin bilmediği sayı bu — ve DropLane&#x27;in sen kapıdan girmeden eline verdiği sayı.</p>
+
+    <div class="theatre">
+      <div class="films">
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <img class="only-dark" src="/assets/screens/tr/dark/today.webp" width="640" height="1391" alt="Gün kendi kendini topladı — İki sürüş, giderler düşülünce kalan ₺1.217,50. Hiçbir şey elle yazılmadı." loading="lazy">
+            <img class="only-light" src="/assets/screens/tr/light/today.webp" width="640" height="1391" alt="Gün kendi kendini topladı — İki sürüş, giderler düşülünce kalan ₺1.217,50. Hiçbir şey elle yazılmadı." loading="lazy">
+          </div></div>
+          <figcaption><b>Gün kendi kendini topladı</b>İki sürüş, giderler düşülünce kalan ₺1.217,50. Hiçbir şey elle yazılmadı.</figcaption>
+        </figure>
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <img class="only-dark" src="/assets/screens/tr/dark/report.webp" width="640" height="1391" alt="Rapor kendi kendini kuruyor — Neyin gireceğini işaretle, dikey mi yatay mı seç, muhasebeciye gidecek PDF gönderilmeye hazır." loading="lazy">
+            <img class="only-light" src="/assets/screens/tr/light/report.webp" width="640" height="1391" alt="Rapor kendi kendini kuruyor — Neyin gireceğini işaretle, dikey mi yatay mı seç, muhasebeciye gidecek PDF gönderilmeye hazır." loading="lazy">
+          </div></div>
+          <figcaption><b>Rapor kendi kendini kuruyor</b>Neyin gireceğini işaretle, dikey mi yatay mı seç, muhasebeciye gidecek PDF gönderilmeye hazır.</figcaption>
+        </figure>
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <img class="only-dark" src="/assets/screens/tr/dark/insights.webp" width="640" height="1391" alt="Ve saat gerçekte ne kazandırdı — Giderlerden sonra saati ₺49,83, arkasında da dönemin kilometre indirimi." loading="lazy">
+            <img class="only-light" src="/assets/screens/tr/light/insights.webp" width="640" height="1391" alt="Ve saat gerçekte ne kazandırdı — Giderlerden sonra saati ₺49,83, arkasında da dönemin kilometre indirimi." loading="lazy">
+          </div></div>
+          <figcaption><b>Ve saat gerçekte ne kazandırdı</b>Giderlerden sonra saati ₺49,83, arkasında da dönemin kilometre indirimi.</figcaption>
+        </figure>
+      </div>
+
+      <div class="tally">
+        <p class="tally-lead">Bir gün, yukarıdaki ekranlardan</p>
+        <div class="sum">
+          <div class="sum-item"><span>Kazanç</span><b>₺2.296,00</b></div>
+          <span class="sum-op" aria-hidden="true">&minus;</span>
+          <div class="sum-item"><span>Giderler</span><b class="is-cost">₺1.078,50</b></div>
+          <span class="sum-op" aria-hidden="true">=</span>
+          <div class="sum-item"><span>Kalan</span><b class="is-keep">₺1.217,50</b></div>
+        </div>
+        <ul class="rates">
+          <li class="rate-big"><b>₺49,83</b><span>saati</span></li>
+          <li><b>8 sa 19 dk</b><span>yolda</span></li>
+        </ul>
+        <p class="tally-note">Bir günün rakamları, doğrudan yukarıdaki ekranlardan. Seninkiler başka olacak — mesele onları nisanda değil, aynı gün, aracın içindeyken elinde tutmak.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="how">
+  <div class="wrap">
+    <h2>Üç adım, ikisi senin değil</h2>
+    <p class="section-intro">DropLane&#x27;de başlat düğmesi yok, bilerek. Sabahın altısında kolisi dolu bir araçla kimse düğmeye basmayı akıl etmiyor.</p>
+
+    <div class="steps">
+      <div class="card step">
+        <span class="num">1</span>
+        <h3>Bir kez aç</h3>
+        <p>Uygulamayı kur ve arka planda konuma izin ver. Yapılacak son ayar bu.</p>
+      </div>
+      <div class="card step">
+        <span class="num">2</span>
+        <h3>Sür</h3>
+        <p>Her sürüş kendini kaydeder; rotasıyla, duraklarıyla ve her durakta ne kadar beklediğinle.</p>
+      </div>
+      <div class="card step">
+        <span class="num">3</span>
+        <h3>Tek dokunuşla ayır</h3>
+        <p>İş, boş, alıma gidiş ya da kişisel. Toplamlar ve vergi rakamı arkasından kendiliğinden gelir.</p>
+      </div>
+    </div>
+
+    <!-- Step one, screen by screen. The captions are the screens' own
+         headlines out of the app, so they read the same on the page as they
+         do on the phone, in every language. -->
+    <div class="setup">
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/onboarding-location.webp" width="640" height="1391" alt="Konumu aç" loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/onboarding-location.webp" width="640" height="1391" alt="Konumu aç" loading="lazy">
+        </div></div>
+        <figcaption>Konumu aç</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/onboarding-location-always.webp" width="640" height="1391" alt="Şimdi Her Zaman’ı seç" loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/onboarding-location-always.webp" width="640" height="1391" alt="Şimdi Her Zaman’ı seç" loading="lazy">
+        </div></div>
+        <figcaption>Şimdi Her Zaman’ı seç</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/onboarding-notifications.webp" width="640" height="1391" alt="Bildirimleri aç" loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/onboarding-notifications.webp" width="640" height="1391" alt="Bildirimleri aç" loading="lazy">
+        </div></div>
+        <figcaption>Bildirimleri aç</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/onboarding-vehicle.webp" width="640" height="1391" alt="Ne kullanıyorsun?" loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/onboarding-vehicle.webp" width="640" height="1391" alt="Ne kullanıyorsun?" loading="lazy">
+        </div></div>
+        <figcaption>Ne kullanıyorsun?</figcaption>
+      </figure>
+    </div>
+
+    <!-- And then the phone goes in a pocket. These are the only pictures on
+         the page taken with the app shut: the lock screen, doing the job on
+         its own — the notifications telling the story afterwards, and the
+         Live Activity showing the drive being recorded right now. All the
+         lines are the app's own words. -->
+    <div class="pocket">
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/tr/dark/notifications.webp" width="640" height="1391" alt="Bildirimler" loading="lazy">
+            <img class="only-light" src="/assets/screens/tr/light/notifications.webp" width="640" height="1391" alt="Bildirimler" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/tr/dark/live-activity.webp" width="640" height="1391" alt="Sürüş algılandı — kayıt yapılıyor" loading="lazy">
+            <img class="only-light" src="/assets/screens/tr/light/live-activity.webp" width="640" height="1391" alt="Sürüş algılandı — kayıt yapılıyor" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <div class="pocket-words">
+        <h3>Bildirimler</h3>
+        <p>“Her Zaman”, sürüşlerin uygulama kapalıyken de kaydedilmesini sağlar.</p>
+        <p class="pocket-live">Sen sürerken bir Canlı Etkinlik kilit ekranında kilometreyi yükseltmeye devam eder — hiçbir şeyin kilidini açmadan sürüşün kaydedildiğini görürsün.</p>
+      </div>
+    </div>
+
+    <div class="proof" id="report">
+      <div class="proof-words">
+        <h3>Rapor, dikey ya da yatay</h3>
+        <p>Sonra günler kendi kendine üst üste birikir. Bir hafta, bir ay ya da kendi tarihlerini seç, neyin gireceğini işaretle, muhasebeciye gidecek PDF tek dokunuş uzakta — hiç kaydetmek zorunda kalmadığın sürüşlerden kurulmuş olarak.</p>
+        <p class="proof-note">Bu, onu kuran anahtarların fotoğrafı değil, PDF&#x27;in kendisi. Okuyacak kişiye hangisi uygunsa onu seç — dosyalamak için dikey, sürüş tablosunun yere ihtiyacı olduğunda yatay — ve iki türlü de kendini yeniden kurar.</p>
+      </div>
+
+      <div class="proof-output">
+        <figure class="proof-item proof-phone">
+          <div class="device">
+            <div class="device-screen">
+              <img class="only-dark" src="/assets/screens/tr/dark/report.webp" width="640" height="1391" alt="Rapor kartı: sürüşler, kazanç, giderler ve fiş fotoğrafları için anahtarlar, sonra da PDF." loading="lazy">
+              <img class="only-light" src="/assets/screens/tr/light/report.webp" width="640" height="1391" alt="Rapor kartı: sürüşler, kazanç, giderler ve fiş fotoğrafları için anahtarlar, sonra da PDF." loading="lazy">
+            </div>
+          </div>
+          <figcaption>Neler girecek</figcaption>
+        </figure>
+
+        <figure class="proof-item">
+          <button class="paper-zoom" type="button" data-zoom="/assets/screens/tr/paper/report-portrait-1.webp" data-zoom-label="Dikey" aria-label="Büyüt — Dikey">
+            <img src="/assets/screens/tr/paper/report-portrait-1.webp" width="760" height="1075" alt="Dikey bir DropLane raporunun ilk sayfası: başlık, dönemin toplamları, kazanç ve giderler ve kilometre indirimi." loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">Büyüt</span>
+          </button>
+          <figcaption>Dikey</figcaption>
+        </figure>
+
+        <figure class="proof-item proof-item-wide">
+          <button class="paper-zoom" type="button" data-zoom="/assets/screens/tr/paper/report-landscape-2.webp" data-zoom-label="Yatay" aria-label="Büyüt — Yatay">
+            <img src="/assets/screens/tr/paper/report-landscape-2.webp" width="1100" height="778" alt="Yatay bir DropLane raporunun ilk sayfası, daha geniş sürüş tablosuyla." loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">Büyüt</span>
+          </button>
+          <figcaption>Yatay</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Privacy sits above "what it actually does" on purpose: it is the thing
+     that separates DropLane from every other mileage app, and a courier
+     handing over a month of their movements wants it answered early. Every
+     line here is the app's own onboarding copy, already translated. -->
+<section id="privacy">
+  <div class="wrap">
+    <h2>Verilerin. Yalnızca senin.</h2>
+    <p class="section-intro">Her şey iPhone’unda ve kendi iCloud’unda kalır. Hesap yok, sunucu yok, satılan hiçbir şey yok. Sürüşlerini kimin göreceğine yalnızca sen karar verirsin.</p>
+
+    <div class="keeps">
+      <div class="keeps-words">
+        <p class="keeps-stat"><b>0</b><span>Konumunu tutan sunucular</span></p>
+        <ul class="keeps-list">
+          <li>DropLane’in milleri kaydetmesini sağlayan şey bu. Konum geçmişin iPhone’undan asla çıkmaz.</li>
+          <li>iCloud yedekleme ve geri yükleme, hesap gerekmez</li>
+          <li>Kayıtların için CSV dışa aktar</li>
+        </ul>
+      </div>
+
+      <figure class="keeps-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/tr/dark/onboarding-privacy.webp" width="640" height="1391" alt="Verilerin. Yalnızca senin." loading="lazy">
+            <img class="only-light" src="/assets/screens/tr/light/onboarding-privacy.webp" width="640" height="1391" alt="Verilerin. Yalnızca senin." loading="lazy">
+          </div>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <h2>Gerçekte neler yapıyor</h2>
+    <p class="section-intro">Yolda on yılı olan bir kurye tarafından, işin gerçekte olduğu hali için yapıldı.</p>
+    <div class="cards">
+      <div class="card">
+        <span class="icon">💷</span>
+        <h3>Gün gerçekte ne kazandırdı</h3>
+        <p>Kazanç içeri, yakıt ve giderler dışarı, altta da asıl önemli sayı — günlük, haftalık, aylık.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>Bir saat gerçekte ne kazandırıyor</h3>
+        <p>Yakıt, taksit ve sigorta çalıştığın günlere yayılır, böylece saatlik rakam gerçek olanı olur.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>Telefona dokunmadan kilometre</h3>
+        <p>Sürüşler arka planda kendini kaydeder — hareket ettiğin andan park ettiğin ana kadar.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🧾</span>
+        <h3>Muhasebecine hazır kayıtlar</h3>
+        <p>Her sürüşü, rotasını ve tarihini içeren bir PDF. On yedi ülkenin kilometre oranı yerleşik.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🅿️</span>
+        <h3>Duraklar ve bekleme süresi</h3>
+        <p>Her teslimatta ya da depoda ne kadar beklediğini, hiçbir şey yazmadan gör.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔒</span>
+        <h3>Telefonundan hiçbir şey çıkmaz</h3>
+        <p>Açılacak hesap yok, takip yok, reklam yok. Rota geçmişin senin ve yalnızca kendi iCloud&#x27;una yedeklenir.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔔</span>
+        <h3>Yenilemeler</h3>
+        <p>Değeri bir kez yaz; DropLane kaydettiği millerle saymaya devam etsin — böylece bakım ve muayene uyarıları yalnızca tarihle değil, mille de geri sayabilir.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔧</span>
+        <h3>Aracın</h3>
+        <p>Bakımları, lastikleri ve onarımları buraya kaydet — fatura fotoğrafı ekliyken tüm servis geçmişin cebinde.</p>
+      </div>
+      <div class="card">
+        <span class="icon">💳</span>
+        <h3>Yakıt kartı</h3>
+        <p>Kartının litre başına aldığı fiyatı ayarla. Yakıt aldığında litreyi kaydet, maliyeti DropLane hesaplasın.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="screens">
+  <div class="wrap">
+    <h2>Uygulamanın tamamı, gündüz ışığında ve karanlıkta</h2>
+    <p class="section-intro">Gerçek bir ayın işinden, gerçek ekranlar. Yukarıdaki düğmeyi çevir, buradaki her ekran onunla birlikte değişsin.</p>
+  </div>
+  <div class="wrap">
+    <div class="rail">
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/today.webp" width="640" height="1391" alt="Bugün — Tekerlekler hâlâ dönerken." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/today.webp" width="640" height="1391" alt="Bugün — Tekerlekler hâlâ dönerken." loading="lazy">
+        </div></div>
+        <figcaption><b>Bugün</b>Tekerlekler hâlâ dönerken.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/day.webp" width="640" height="1391" alt="Gün haritada — Her renk bir sürüş." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/day.webp" width="640" height="1391" alt="Gün haritada — Her renk bir sürüş." loading="lazy">
+        </div></div>
+        <figcaption><b>Gün haritada</b>Her renk bir sürüş.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/trip.webp" width="640" height="1391" alt="Tek sürüş — Saatler, duraklar ve kilometrenin türü." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/trip.webp" width="640" height="1391" alt="Tek sürüş — Saatler, duraklar ve kilometrenin türü." loading="lazy">
+        </div></div>
+        <figcaption><b>Tek sürüş</b>Saatler, duraklar ve kilometrenin türü.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/trip-sort.webp" width="640" height="1391" alt="Sürüşü ayırmak — İş, boş, alıma gidiş ya da kişisel." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/trip-sort.webp" width="640" height="1391" alt="Sürüşü ayırmak — İş, boş, alıma gidiş ya da kişisel." loading="lazy">
+        </div></div>
+        <figcaption><b>Sürüşü ayırmak</b>İş, boş, alıma gidiş ya da kişisel.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/days.webp" width="640" height="1391" alt="Günler — Her gün, çoktan toplanmış." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/days.webp" width="640" height="1391" alt="Günler — Her gün, çoktan toplanmış." loading="lazy">
+        </div></div>
+        <figcaption><b>Günler</b>Her gün, çoktan toplanmış.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/stats.webp" width="640" height="1391" alt="İstatistikler — Hafta, sade rakamlarla." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/stats.webp" width="640" height="1391" alt="İstatistikler — Hafta, sade rakamlarla." loading="lazy">
+        </div></div>
+        <figcaption><b>İstatistikler</b>Hafta, sade rakamlarla.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/insights.webp" width="640" height="1391" alt="Analizler — Bir saat ve bir kilometre gerçekte ne kazandırıyor." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/insights.webp" width="640" height="1391" alt="Analizler — Bir saat ve bir kilometre gerçekte ne kazandırıyor." loading="lazy">
+        </div></div>
+        <figcaption><b>Analizler</b>Bir saat ve bir kilometre gerçekte ne kazandırıyor.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/insights-tax.webp" width="640" height="1391" alt="Vergi — Bu dönemin kilometreleri ne ediyor." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/insights-tax.webp" width="640" height="1391" alt="Vergi — Bu dönemin kilometreleri ne ediyor." loading="lazy">
+        </div></div>
+        <figcaption><b>Vergi</b>Bu dönemin kilometreleri ne ediyor.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/report.webp" width="640" height="1391" alt="PDF — Muhasebecinin istediği biçimde kurulmuş." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/report.webp" width="640" height="1391" alt="PDF — Muhasebecinin istediği biçimde kurulmuş." loading="lazy">
+        </div></div>
+        <figcaption><b>PDF</b>Muhasebecinin istediği biçimde kurulmuş.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/expense.webp" width="640" height="1391" alt="Giderler — Yakıt, yemek, otopark, geçiş ücretleri." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/expense.webp" width="640" height="1391" alt="Giderler — Yakıt, yemek, otopark, geçiş ücretleri." loading="lazy">
+        </div></div>
+        <figcaption><b>Giderler</b>Yakıt, yemek, otopark, geçiş ücretleri.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/vehicle.webp" width="640" height="1391" alt="Araç — Muayene, yol vergisi ve sigorta, seni yakalamadan." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/vehicle.webp" width="640" height="1391" alt="Araç — Muayene, yol vergisi ve sigorta, seni yakalamadan." loading="lazy">
+        </div></div>
+        <figcaption><b>Araç</b>Muayene, yol vergisi ve sigorta, seni yakalamadan.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/tr/dark/settings.webp" width="640" height="1391" alt="Ayarlar — Kilometre ya da mil. Açık ya da koyu." loading="lazy">
+          <img class="only-light" src="/assets/screens/tr/light/settings.webp" width="640" height="1391" alt="Ayarlar — Kilometre ya da mil. Açık ya da koyu." loading="lazy">
+        </div></div>
+        <figcaption><b>Ayarlar</b>Kilometre ya da mil. Açık ya da koyu.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="countries">
+  <div class="wrap">
+    <h2>DropLane kuralları nerede biliyor</h2>
+    <p class="section-intro">Uygulama her yerde çalışır. Bu ülkelerde ayrıca vergi dairesinin kabul ettiği kilometre oranını ve araç evraklarının adını da bilir.</p>
+    <ul class="chips">
+      <li><span class="flag">🇬🇧</span> <span data-region="GB">United Kingdom</span> <span class="rate">55p/mi</span></li>
+      <li><span class="flag">🇮🇪</span> <span data-region="IE">Ireland</span></li>
+      <li><span class="flag">🇺🇸</span> <span data-region="US">United States</span> <span class="rate">76¢/mi</span></li>
+      <li><span class="flag">🇨🇦</span> <span data-region="CA">Canada</span> <span class="rate">73¢/km</span></li>
+      <li><span class="flag">🇦🇺</span> <span data-region="AU">Australia</span> <span class="rate">91¢/km</span></li>
+      <li><span class="flag">🇩🇪</span> <span data-region="DE">Germany</span> <span class="rate">30c/km</span></li>
+      <li><span class="flag">🇳🇱</span> <span data-region="NL">Netherlands</span> <span class="rate">25c/km</span></li>
+      <li><span class="flag">🇧🇪</span> <span data-region="BE">Belgium</span> <span class="rate">47.61c/km</span></li>
+      <li><span class="flag">🇦🇹</span> <span data-region="AT">Austria</span> <span class="rate">50c/km</span></li>
+      <li><span class="flag">🇵🇹</span> <span data-region="PT">Portugal</span> <span class="rate">40c/km</span></li>
+      <li><span class="flag">🇵🇱</span> <span data-region="PL">Poland</span> <span class="rate">1.15 zł/km</span></li>
+      <li><span class="flag">🇨🇿</span> <span data-region="CZ">Czechia</span> <span class="rate">5.90 Kč/km</span></li>
+      <li><span class="flag">🇸🇰</span> <span data-region="SK">Slovakia</span> <span class="rate">31.3c/km</span></li>
+      <li><span class="flag">🇭🇺</span> <span data-region="HU">Hungary</span> <span class="rate">15 Ft/km</span></li>
+      <li><span class="flag">🇸🇪</span> <span data-region="SE">Sweden</span> <span class="rate">25 kr/mil</span></li>
+      <li><span class="flag">🇳🇴</span> <span data-region="NO">Norway</span> <span class="rate">3.50 kr/km</span></li>
+      <li><span class="flag">🇩🇰</span> <span data-region="DK">Denmark</span> <span class="rate">3.94 kr/km</span></li>
+      <li><span class="flag">🇫🇮</span> <span data-region="FI">Finland</span> <span class="rate">55c/km</span></li>
+      <li><span class="flag">🇷🇴</span> <span data-region="RO">Romania</span></li>
+      <li><span class="flag">🇧🇬</span> <span data-region="BG">Bulgaria</span></li>
+      <li><span class="flag">🇬🇷</span> <span data-region="GR">Greece</span></li>
+      <li><span class="flag">🇱🇹</span> <span data-region="LT">Lithuania</span></li>
+      <li><span class="flag">🇱🇻</span> <span data-region="LV">Latvia</span></li>
+      <li><span class="flag">🇹🇷</span> <span data-region="TR">Turkey</span></li>
+      <li><span class="flag">🇺🇦</span> <span data-region="UA">Ukraine</span></li>
+    </ul>
+    <p class="section-intro" style="margin:26px 0 0">Başka bir yerde misin? Kendi vergi dairenin izin verdiği oranı yaz, gerisini DropLane halletsin.</p>
+  </div>
+</section>
+
+<section class="band" id="languages">
+  <div class="wrap split">
+    <div>
+      <h2>Kendi dilinde oku</h2>
+      <p class="section-intro">Uygulamanın tamamı — her ekran, her bildirim, raporlar — yalnızca bu sayfa değil. Para da hangi dilde okursan oku kendi para biriminde kalır.</p>
+      <ul class="langgrid">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/tr/" hreflang="tr" aria-current="true" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+      </ul>
+    </div>
+    <figure class="shot" style="width:auto;margin:0">
+      <div class="device" style="margin-inline:auto"><div class="device-screen">
+        <img class="only-dark" src="/assets/screens/tr/dark/stats.webp" width="640" height="1391" alt="İstatistikler ekranı: haftanın neti, kazancı ve giderleri, türüne göre mesafeyle." loading="lazy">
+        <img class="only-light" src="/assets/screens/tr/light/stats.webp" width="640" height="1391" alt="İstatistikler ekranı: haftanın neti, kazancı ve giderleri, türüne göre mesafeyle." loading="lazy">
+      </div></div>
+      <figcaption style="text-align:center"><b>İstatistikler</b>Haftan, kendi dilinde ve kendi paranla.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Tek fiyat, her şey içinde</h2>
+    <p class="section-intro">On dört gün ücretsiz. Başlamak için kart yok ve daha pahalı bir pakete kilitlenmiş hiçbir şey yok.</p>
+
+    <div class="price-grid">
+      <div class="price">
+        <h3>Aylık</h3>
+        <p class="amount">₺199,99</p>
+        <p class="per">aylık, istediğin zaman iptal</p>
+        <ul>
+          <li>Bütün özellikler, ek paket yok</li>
+          <li>Önce 14 gün ücretsiz</li>
+        </ul>
+      </div>
+      <div class="price best">
+        <span class="tag">En iyi değer</span>
+        <h3>Yıllık</h3>
+        <p class="amount">₺1.399,99</p>
+        <p class="per">yıllık — girmenin en ucuz yolu</p>
+        <ul>
+          <li>Bütün özellikler, ek paket yok</li>
+          <li>Yılda ₺999,89 kazan — %41 daha ucuz</li>
+          <li>Ayda ₺116,67 ediyor</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pricetable">
+      <div class="pricetable-head">
+        <h3 style="font-size:20px;margin:0">Senin oradaki fiyat</h3>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input type="search" id="price-search" placeholder="Ülkeni bul" aria-label="Ülkeni bul">
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table class="prices">
+          <thead>
+            <tr><th scope="col">Ülke</th><th scope="col">Aylık</th><th scope="col">Yıllık</th></tr>
+          </thead>
+          <tbody id="price-rows" data-you="Sen">
+            <tr data-cc="GB" data-flag="🇬🇧" data-name="United Kingdom"><td><span class="flag">🇬🇧</span><span data-region="GB">United Kingdom</span></td><td>£6.99</td><td>£49.99</td></tr>
+            <tr data-cc="IE" data-flag="🇮🇪" data-name="Ireland"><td><span class="flag">🇮🇪</span><span data-region="IE">Ireland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="US" data-flag="🇺🇸" data-name="United States"><td><span class="flag">🇺🇸</span><span data-region="US">United States</span></td><td>$6.99</td><td>$49.99</td></tr>
+            <tr data-cc="CA" data-flag="🇨🇦" data-name="Canada"><td><span class="flag">🇨🇦</span><span data-region="CA">Canada</span></td><td>C$9.99</td><td>C$69.99</td></tr>
+            <tr data-cc="AU" data-flag="🇦🇺" data-name="Australia"><td><span class="flag">🇦🇺</span><span data-region="AU">Australia</span></td><td>A$11.99</td><td>A$79.99</td></tr>
+            <tr data-cc="NZ" data-flag="🇳🇿" data-name="New Zealand"><td><span class="flag">🇳🇿</span><span data-region="NZ">New Zealand</span></td><td>NZ$12.99</td><td>NZ$89.99</td></tr>
+            <tr data-cc="DE" data-flag="🇩🇪" data-name="Germany"><td><span class="flag">🇩🇪</span><span data-region="DE">Germany</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FR" data-flag="🇫🇷" data-name="France"><td><span class="flag">🇫🇷</span><span data-region="FR">France</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="NL" data-flag="🇳🇱" data-name="Netherlands"><td><span class="flag">🇳🇱</span><span data-region="NL">Netherlands</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FI" data-flag="🇫🇮" data-name="Finland"><td><span class="flag">🇫🇮</span><span data-region="FI">Finland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="IT" data-flag="🇮🇹" data-name="Italy"><td><span class="flag">🇮🇹</span><span data-region="IT">Italy</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="ES" data-flag="🇪🇸" data-name="Spain"><td><span class="flag">🇪🇸</span><span data-region="ES">Spain</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="PT" data-flag="🇵🇹" data-name="Portugal"><td><span class="flag">🇵🇹</span><span data-region="PT">Portugal</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="GR" data-flag="🇬🇷" data-name="Greece"><td><span class="flag">🇬🇷</span><span data-region="GR">Greece</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SK" data-flag="🇸🇰" data-name="Slovakia"><td><span class="flag">🇸🇰</span><span data-region="SK">Slovakia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LT" data-flag="🇱🇹" data-name="Lithuania"><td><span class="flag">🇱🇹</span><span data-region="LT">Lithuania</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LV" data-flag="🇱🇻" data-name="Latvia"><td><span class="flag">🇱🇻</span><span data-region="LV">Latvia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SE" data-flag="🇸🇪" data-name="Sweden"><td><span class="flag">🇸🇪</span><span data-region="SE">Sweden</span></td><td>79 SEK</td><td>599 SEK</td></tr>
+            <tr data-cc="NO" data-flag="🇳🇴" data-name="Norway"><td><span class="flag">🇳🇴</span><span data-region="NO">Norway</span></td><td>79 NOK</td><td>599 NOK</td></tr>
+            <tr data-cc="DK" data-flag="🇩🇰" data-name="Denmark"><td><span class="flag">🇩🇰</span><span data-region="DK">Denmark</span></td><td>49 DKK</td><td>349 DKK</td></tr>
+            <tr data-cc="PL" data-flag="🇵🇱" data-name="Poland"><td><span class="flag">🇵🇱</span><span data-region="PL">Poland</span></td><td>24,99 zł</td><td>169,99 zł</td></tr>
+            <tr data-cc="CZ" data-flag="🇨🇿" data-name="Czechia"><td><span class="flag">🇨🇿</span><span data-region="CZ">Czechia</span></td><td>149 Kč</td><td>999 Kč</td></tr>
+            <tr data-cc="HU" data-flag="🇭🇺" data-name="Hungary"><td><span class="flag">🇭🇺</span><span data-region="HU">Hungary</span></td><td>2 490 Ft</td><td>16 990 Ft</td></tr>
+            <tr data-cc="RO" data-flag="🇷🇴" data-name="Romania"><td><span class="flag">🇷🇴</span><span data-region="RO">Romania</span></td><td>24,99 lei</td><td>169,99 lei</td></tr>
+            <tr data-cc="BG" data-flag="🇧🇬" data-name="Bulgaria"><td><span class="flag">🇧🇬</span><span data-region="BG">Bulgaria</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="TR" data-flag="🇹🇷" data-name="Turkey"><td><span class="flag">🇹🇷</span><span data-region="TR">Turkey</span></td><td>₺199,99</td><td>₺1.399,99</td></tr>
+            <tr data-cc="BR" data-flag="🇧🇷" data-name="Brazil"><td><span class="flag">🇧🇷</span><span data-region="BR">Brazil</span></td><td>R$ 19,90</td><td>R$ 129,90</td></tr>
+            <tr data-cc="MX" data-flag="🇲🇽" data-name="Mexico"><td><span class="flag">🇲🇽</span><span data-region="MX">Mexico</span></td><td>MX$99</td><td>MX$649</td></tr>
+            <tr data-cc="ZA" data-flag="🇿🇦" data-name="South Africa"><td><span class="flag">🇿🇦</span><span data-region="ZA">South Africa</span></td><td>R99.99</td><td>R699.99</td></tr>
+            <tr data-cc="IN" data-flag="🇮🇳" data-name="India"><td><span class="flag">🇮🇳</span><span data-region="IN">India</span></td><td>₹299</td><td>₹1,999</td></tr>
+            <tr data-cc="CN" data-flag="🇨🇳" data-name="China"><td><span class="flag">🇨🇳</span><span data-region="CN">China</span></td><td>¥29</td><td>¥199</td></tr>
+            <tr data-cc="JP" data-flag="🇯🇵" data-name="Japan"><td><span class="flag">🇯🇵</span><span data-region="JP">Japan</span></td><td>¥980</td><td>¥6,800</td></tr>
+            <tr data-cc="KR" data-flag="🇰🇷" data-name="South Korea"><td><span class="flag">🇰🇷</span><span data-region="KR">South Korea</span></td><td>₩8,900</td><td>₩59,000</td></tr>
+            <tr data-cc="ID" data-flag="🇮🇩" data-name="Indonesia"><td><span class="flag">🇮🇩</span><span data-region="ID">Indonesia</span></td><td>Rp49.000</td><td>Rp329.000</td></tr>
+            <tr data-cc="AE" data-flag="🇦🇪" data-name="United Arab Emirates"><td><span class="flag">🇦🇪</span><span data-region="AE">United Arab Emirates</span></td><td>AED 24.99</td><td>AED 169.99</td></tr>
+            <tr data-cc="SA" data-flag="🇸🇦" data-name="Saudi Arabia"><td><span class="flag">🇸🇦</span><span data-region="SA">Saudi Arabia</span></td><td>SAR 24.99</td><td>SAR 169.99</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="table-note"><strong>Yakında App Store&#x27;da</strong> Her ülkenin çevrilmiş değil kendi fiyatı var, böylece kimse kılık değiştirmiş bir sterlin faturası ödemiyor. App Store sen bir şeye onay vermeden seninkini vergisi dahil gösterir. Listede yok mu? App Store&#x27;un yine de senin için, kendi para biriminde bir fiyatı var.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="faq">
+  <div class="wrap">
+    <h2>Kuryelerin gerçekte sorduğu sorular</h2>
+    <p class="section-intro">İşi yapan birinden, dosdoğru cevaplar.</p>
+    <div class="faq">
+      <details>
+        <summary>Bu da bir kilometre uygulaması değil mi sonuçta?</summary>
+        <p>Kilometreyi aynı şekilde, başlat düğmesi olmadan kaydediyor. Fark sonrasında: kazancın giriyor, yakıt, otopark ve sabit giderler çıkıyor ve uygulama sana saatin gerçekte ne kazandırdığını söylüyor. Tek başına bir kilometre rakamı bugüne kadar kimseye o turun değip değmediğini söylemedi.</p>
+      </details>
+      <details>
+        <summary>Pili bitirir mi?</summary>
+        <p>DropLane GPS&#x27;i bütün gün açık tutmuyor. Park ettiğin yerden ayrıldığını fark edene kadar sessizce bekliyor, sen hareket ederken kaydediyor ve durduğunda yeniden uykuya geçiyor.</p>
+      </details>
+      <details>
+        <summary>Başlat&#x27;a basmam gerekiyor mu?</summary>
+        <p>Hayır — basılacak bir düğme de yok. Bütün mesele bu. Hatırlaman gerekiyorsa, tam da önemli olduğu gün unutursun.</p>
+      </details>
+      <details>
+        <summary>Bir sürüşü ayırmayı unutursam ne olur?</summary>
+        <p>Hiçbir şey kaybolmaz. Ayrılmamış sürüşler Günler ekranında bekler ve uygulama senin yerine tahmin etmek yerine sana hatırlatır.</p>
+      </details>
+      <details>
+        <summary>Rota geçmişim bir yerlere gider mi?</summary>
+        <p>Hayır. Ne hesap var ne sunucu. Her şey iPhone&#x27;unda kalır ve yalnızca sen istersen kendi iCloud&#x27;una yedeklenir.</p>
+      </details>
+      <details>
+        <summary>Ben motorla çalışıyorum, kamyonetle değil.</summary>
+        <p>Olur. Motosikletle ya da kargo bisikletiyle yapılan kilometre de aynı şekilde kaydedilir. Ancak yerleşik kilometre oranları motorlu araçlar için, dolayısıyla neyi gider yazabileceğin ülkene ve durumuna bağlı — muhasebeciye sormakta fayda var.</p>
+      </details>
+      <details>
+        <summary>Benim ülkemin kilometre oranı içinde var mı?</summary>
+        <p>On yedi ülkenin resmî oranı yerleşik ve güncel tutuluyor. Başka her yerde kendi oranını bir kez yazarsın, hesabı uygulama yapar.</p>
+      </details>
+      <details>
+        <summary>Kilometreyle kullanabilir miyim?</summary>
+        <p>Evet. Kilometre ya da mil, kendi para birimin ve gerçekten ödediğin yakıt fiyatı — hepsi Ayarlar&#x27;da, hem de ilk ekranda.</p>
+      </details>
+      <details>
+        <summary>Çekmediği yerde çalışır mı?</summary>
+        <p>Evet. Kayıt iPhone&#x27;unun kendi GPS&#x27;iyle çalışır ve internete hiç ihtiyaç duymaz. Çekmeyen yerlerde yapılan sürüşler sokak adı yerine “Başlangıç” ve “Bitiş” olarak döner, DropLane de bir sonraki Wi-Fi gördüğünde adları doldurur. Çubuğun hiç olmadığı yollarda geçen bir hafta yine doğru toplanır.</p>
+      </details>
+      <details>
+        <summary>Yeni telefon alınca ne oluyor?</summary>
+        <p>Aynı iCloud&#x27;a giriş yap, sürüşlerin, kazançların ve giderlerin kendiliğinden geri gelsin. Açılacak hesap ve kaybedilecek parola yok, çünkü bunların hiçbirini tutan bir sunucu hiç olmadı — yedek senin, kendi iCloud&#x27;unda.</p>
+      </details>
+      <details>
+        <summary>Ödemeyi bırakırsam kayıtlarımı kaybeder miyim?</summary>
+        <p>Hiçbir şey silinmez. Sürüşlerin iPhone&#x27;da ve kendi iCloud&#x27;unda, tam bıraktığın yerde kalır. Ama DropLane&#x27;in açılması için etkin bir abonelik gerekiyor; rakamları başka bir yerde istiyorsan gitmeden önce CSV&#x27;yi dışa aktar. Ayarlar&#x27;da ve tek dokunuş.</p>
+      </details>
+      <details>
+        <summary>Kart ekstresi gelmeden yakıtın gerçekte ne tuttuğunu nasıl bilirim?</summary>
+        <p>DropLane&#x27;e yakıt kartının litre başına aldığı fiyatı söyle, sonra depoyu doldururken litreyi yaz. Maliyet aynı gün çıkar, yani haftanın kârı ekstre gelmeden haftalar önce doğrudur.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="closer">
+      <h2>Günün ne kazandırdığını tahmin etmeyi bırak.</h2>
+      <p>On dört gün ücretsiz, hesap yok ve sabahın altısında hatırlanacak hiçbir şey yok.</p>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Çıkınca bana yaz</a>
+      <p class="closer-note">Yakında App Store&#x27;da</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">DropLane — kendi hesabına çalışan kuryeler için otomatik kilometre ve kazanç. Torquay&#x27;de bir kurye tarafından yapıldı.</p>
+    <div class="foot-links">
+      <a href="/privacy/">Gizlilik</a>
+      <a href="/terms/">Koşullar</a>
+      <a href="/support/">Yardım</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Kapat">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

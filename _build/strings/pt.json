@@ -1,0 +1,327 @@
+{
+  "meta_title": "DropLane — Saiba quanto o dia rendeu de verdade",
+  "meta_description": "O DropLane grava sozinho as viagens de quem faz entregas, tira o combustível, o estacionamento e os custos fixos dos ganhos, e diz quanto a hora rendeu de verdade. Mais um registro de quilometragem pronto para o contador, em vinte e quatro idiomas, tudo no celular.",
+  "nav_label": "Menu principal",
+  "nav_how": "Como funciona",
+  "nav_day": "Quanto rende",
+  "nav_features": "O que faz",
+  "nav_screens": "Telas",
+  "nav_countries": "Onde funciona",
+  "nav_languages": "Idiomas",
+  "nav_pricing": "Preço",
+  "nav_faq": "Perguntas",
+  "nav_support": "Ajuda",
+  "cta_get": "Baixar o DropLane",
+  "menu": "Menu",
+  "close": "Fechar",
+  "theme_label": "Tema de cores",
+  "theme_light": "Claro",
+  "theme_dark": "Escuro",
+  "language_label": "Idioma",
+  "language_title": "Leia este site no seu idioma",
+  "language_note": "O app fala vinte e quatro idiomas — os outros estão a caminho daqui.",
+  "langbar_strong": "Vinte e quatro idiomas.",
+  "langbar_rest": "Escolha o seu — o app também fala.",
+  "per_month_short": "por mês",
+  "see_all": "ver todos",
+  "hero_h1": "Saiba quanto o dia rendeu de verdade.",
+  "hero_lede": "Dê a partida. Só isso. O DropLane grava cada viagem e o caminho que você fez mesmo, tira os custos dos ganhos, e deixa o valor da sua hora pronto antes de você entrar em casa.",
+  "hero_cta_notify": "Avise-me no lançamento",
+  "hero_cta_how": "Como funciona",
+  "hero_note": "14 dias grátis · sem conta, sem anúncios · iPhone",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "botões para apertar"
+    },
+    {
+      "value": "24",
+      "label": "idiomas"
+    },
+    {
+      "value": "17",
+      "label": "tarifas fiscais embutidas"
+    }
+  ],
+  "money_h2": "Dois dias. Mais quilômetros. Menos dinheiro.",
+  "money_intro": "Terça: 142 quilômetros, três viagens. Ontem: 93,4 quilômetros, duas viagens. Um app de quilometragem diz que a terça foi o dia mais cheio — e está certo. Da terça sobraram R$ 120. De ontem, R$ 184.",
+  "money_day1_when": "Terça-feira, 25 de agosto",
+  "money_day1_distance": "142 km",
+  "money_day1_trips": "3 viagens",
+  "money_day1_money": "R$ 120,60",
+  "money_day2_when": "Ontem",
+  "money_day2_distance": "93,4 km",
+  "money_day2_trips": "2 viagens",
+  "money_day2_money": "R$ 184,40",
+  "money_label_distance": "Na estrada",
+  "money_label_trips": "Viagens",
+  "money_label_money": "Sobrou",
+  "money_punch": "48,6 quilômetros a mais. R$ 63,80 a menos.",
+  "money_note": "Os quilômetros são a metade fácil, e a que não diz nada. Qual dia valeu a pena está na outra coluna — e é essa coluna que o DropLane preenche por você, no mesmo dia, sem você anotar nada.",
+  "day_h2": "Quanto o dia rendeu de verdade?",
+  "day_intro": "R$ 229,60 parece um bom dia. Tire o combustível e o estacionamento, divida por 6 h 26 min na estrada, e deu R$ 5,28 por hora. É o número que ninguém ao volante tem — e o que o DropLane entrega assim que você encerra o turno.",
+  "day_film1_title": "O dia se somou sozinho",
+  "day_film1_body": "Duas viagens, e R$ 152,60 que sobram depois de tirar os custos. Nada foi digitado.",
+  "day_film2_title": "O relatório se monta sozinho",
+  "day_film2_body": "Marque o que entra, escolha retrato ou paisagem, e o PDF para o contador fica pronto para enviar.",
+  "day_film3_title": "E quanto a hora rendeu mesmo",
+  "day_film3_body": "R$ 5,28 por hora depois dos custos, e atrás disso a dedução da quilometragem.",
+  "day_tally_lead": "Um dia, das telas aí em cima",
+  "day_label_earned": "Ganho",
+  "day_label_costs": "Custos",
+  "day_label_kept": "Sobrou",
+  "day_earned": "R$ 229,60",
+  "day_costs": "R$ 77,00",
+  "day_kept": "R$ 152,60",
+  "day_rate_value": "R$ 5,28",
+  "day_hours_value": "6 h 26 min",
+  "day_label_hours": "na estrada",
+  "day_label_hour": "por hora",
+  "day_note": "Os números de um dia, direto das telas acima. Os seus vão ser outros — o que importa é tê-los no mesmo dia, dentro do veículo, em vez de descobrir só no fim do ano.",
+  "how_h2": "Três passos, e dois deles não são seus",
+  "how_intro": "No DropLane não existe botão de iniciar, de propósito. Ninguém lembra de apertar um às seis da manhã com o veículo cheio de encomendas.",
+  "how_steps": [
+    {
+      "title": "Ligue uma vez",
+      "body": "Instale o app e permita a localização em segundo plano. É a última configuração que existe."
+    },
+    {
+      "title": "Dirija",
+      "body": "Cada viagem se grava sozinha, com o trajeto, as paradas e quanto tempo você ficou em cada uma."
+    },
+    {
+      "title": "Classifique com um toque",
+      "body": "Com carga, vazio, a caminho de uma coleta, ou pessoal. Os totais e o valor para o fisco vêm sozinhos."
+    }
+  ],
+  "how_proof": "Depois os dias se empilham por conta própria. Escolha uma semana, um mês ou suas próprias datas, marque o que entra, e o PDF para o contador fica a um toque — feito de viagens que você nunca precisou registrar.",
+  "features_h2": "O que ele faz de verdade",
+  "features_intro": "Feito por um entregador com dez anos de estrada, para o trabalho como ele é de verdade.",
+  "features": [
+    {
+      "icon": "💷",
+      "title": "Quanto o dia rendeu",
+      "body": "Ganhos para dentro, combustível e custos para fora, e embaixo o número que importa — por dia, semana, mês."
+    },
+    {
+      "icon": "⛽",
+      "title": "Quanto uma hora rende",
+      "body": "Combustível, parcela e seguro distribuídos pelos dias que você trabalha, para o valor da hora ser o verdadeiro."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Quilometragem sem tocar no celular",
+      "body": "As viagens se gravam em segundo plano, do momento em que você sai ao momento em que estaciona."
+    },
+    {
+      "icon": "🧾",
+      "title": "Registros prontos para o contador",
+      "body": "Um PDF com cada viagem, seu trajeto e sua data. Tarifas de quilometragem de dezessete países embutidas."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Paradas e tempo de espera",
+      "body": "Veja quanto tempo você ficou em cada entrega ou no galpão, sem anotar nada."
+    },
+    {
+      "icon": "🔒",
+      "title": "Nada sai do seu celular",
+      "body": "Não tem conta para criar, nem rastreamento, nem anúncios. Seu histórico de trajetos é seu, e só é salvo no seu próprio iCloud."
+    },
+    {
+      "icon": "🔔",
+      "title": "Vencimentos",
+      "body": "Digite a leitura uma vez e o DropLane a mantém em dia com os quilômetros registrados — assim os avisos de revisão e vistoria contam em quilômetros, não só em datas."
+    },
+    {
+      "icon": "🔧",
+      "title": "Seu veículo",
+      "body": "Anote aqui revisões, pneus e consertos — com a foto da nota anexada, é todo o histórico da oficina no seu bolso."
+    },
+    {
+      "icon": "💳",
+      "title": "Cartão de combustível",
+      "body": "Defina o preço por litro do seu cartão. Anote os litros ao abastecer e o DropLane calcula o custo."
+    }
+  ],
+  "screens_h2": "O app inteiro, na luz do dia e no escuro",
+  "screens_intro": "Telas reais, de um mês de trabalho real. Vire a chave lá em cima e todas as telas aqui mudam junto.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Hoje",
+      "body": "Enquanto as rodas ainda giram."
+    },
+    {
+      "file": "day",
+      "title": "O dia no mapa",
+      "body": "Cada cor é uma viagem."
+    },
+    {
+      "file": "trip",
+      "title": "Uma viagem",
+      "body": "Horários, paradas, e que tipo de quilômetros."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Classificando uma viagem",
+      "body": "Com carga, vazio, até a coleta ou pessoal."
+    },
+    {
+      "file": "days",
+      "title": "Dias",
+      "body": "Cada dia, já somado."
+    },
+    {
+      "file": "stats",
+      "title": "Estatísticas",
+      "body": "A semana, em números claros."
+    },
+    {
+      "file": "insights",
+      "title": "Análises",
+      "body": "Quanto uma hora e um quilômetro rendem de verdade."
+    },
+    {
+      "file": "insights-tax",
+      "title": "Impostos",
+      "body": "Quanto valem os quilômetros deste período."
+    },
+    {
+      "file": "report",
+      "title": "O PDF",
+      "body": "Montado do jeito que o seu contador quer."
+    },
+    {
+      "file": "expense",
+      "title": "Custos",
+      "body": "Combustível, comida, estacionamento, pedágios."
+    },
+    {
+      "file": "vehicle",
+      "title": "Veículo",
+      "body": "Vistoria, IPVA e seguro, antes que apertem."
+    },
+    {
+      "file": "settings",
+      "title": "Ajustes",
+      "body": "Quilômetros ou milhas. Claro ou escuro."
+    }
+  ],
+  "countries_h2": "Onde o DropLane conhece as regras",
+  "countries_intro": "O app funciona em qualquer lugar. Nestes países ele sabe também a tarifa de quilometragem que o fisco permite, e como se chamam os documentos do seu veículo.",
+  "countries_note": "Está em outro lugar? Digite a tarifa que o seu fisco permite e o DropLane faz o resto.",
+  "languages_h2": "Leia no seu próprio idioma",
+  "languages_intro": "O app inteiro — cada tela, cada notificação, os relatórios — não só esta página. E o dinheiro fica na sua moeda, seja qual for o idioma em que você lê.",
+  "languages_caption_title": "Estatísticas",
+  "languages_caption_body": "A sua semana, no seu idioma e no seu dinheiro.",
+  "pricing_h2": "Um preço, tudo incluído",
+  "pricing_intro": "Quatorze dias grátis. Sem cartão para começar, e nada trancado atrás de um plano mais caro.",
+  "pricing_monthly": "Mensal",
+  "pricing_yearly": "Anual",
+  "pricing_per_month": "por mês, cancele quando quiser",
+  "pricing_per_year": "por ano — o jeito mais barato de entrar",
+  "pricing_best": "Melhor valor",
+  "pricing_bullet_all": "Todos os recursos, sem pacotes extras",
+  "pricing_bullet_trial": "Primeiro 14 dias grátis",
+  "pricing_bullet_saving": "Economize {saving} por ano — {percent}% mais barato",
+  "pricing_bullet_equivalent": "Dá {monthly} por mês",
+  "pricing_table_title": "O preço onde você está",
+  "pricing_search": "Procure o seu país",
+  "pricing_col_country": "País",
+  "pricing_col_month": "Mensal",
+  "pricing_col_year": "Anual",
+  "pricing_you": "Você",
+  "pricing_note": "Cada país tem o seu próprio preço em vez de um preço convertido, para ninguém pagar uma conta em libras disfarçada. A App Store mostra o seu antes de você concordar com qualquer coisa, impostos incluídos. Não está na lista? A App Store tem um preço para você mesmo assim, na sua moeda.",
+  "faq_h2": "Perguntas que os entregadores fazem de verdade",
+  "faq_intro": "Respostas diretas, de quem faz o trabalho.",
+  "faq": [
+    {
+      "q": "Isso não é só mais um app de quilometragem?",
+      "a": "Ele grava a quilometragem do mesmo jeito, sem botão de iniciar. A diferença é o que vem depois: os seus ganhos entram, o combustível, o estacionamento e os custos fixos saem, e o app diz quanto a hora rendeu de verdade. Um número de quilômetros sozinho nunca disse a ninguém se a rota valeu a pena."
+    },
+    {
+      "q": "Gasta a bateria?",
+      "a": "O DropLane não deixa o GPS ligado o dia inteiro. Ele fica quieto até perceber que você saiu de onde estacionou, grava enquanto você anda, e volta a dormir quando você para."
+    },
+    {
+      "q": "Preciso apertar iniciar?",
+      "a": "Não — e não existe botão para apertar. É exatamente esse o ponto. Se você tiver que lembrar, vai esquecer justo no dia que importa."
+    },
+    {
+      "q": "E se eu esquecer de classificar uma viagem?",
+      "a": "Nada se perde. As viagens sem classificação ficam esperando na tela Dias, e o app cutuca você em vez de adivinhar no seu lugar."
+    },
+    {
+      "q": "Meu histórico de trajetos vai parar em algum lugar?",
+      "a": "Não. Não tem conta nem servidor. Fica tudo no seu iPhone, e só é salvo no seu próprio iCloud se você quiser."
+    },
+    {
+      "q": "Eu ando de moto, não de van.",
+      "a": "Funciona. Os quilômetros de moto ou de bicicleta de carga são gravados do mesmo jeito. As tarifas de quilometragem embutidas são para veículos a motor, então o que dá para deduzir depende do seu país e da sua situação — vale perguntar ao contador."
+    },
+    {
+      "q": "A tarifa do meu país está aí dentro?",
+      "a": "Dezessete países têm a tarifa oficial embutida e mantida em dia. Em qualquer outro lugar, você digita a sua uma vez e o app faz a conta."
+    },
+    {
+      "q": "Dá para usar em quilômetros?",
+      "a": "Dá. Quilômetros ou milhas, a sua moeda, e o preço do combustível que você paga de verdade — está tudo nos Ajustes, logo na primeira tela."
+    },
+    {
+      "q": "Funciona onde não tem sinal?",
+      "a": "Funciona. A gravação usa o GPS do próprio iPhone e não quer internet nenhuma. As viagens feitas fora de sinal voltam marcadas com “Início” e “Fim” em vez de nomes de ruas, e o DropLane preenche na próxima vez que enxergar Wi-Fi. Uma semana em estradas sem barrinha soma certo do mesmo jeito."
+    },
+    {
+      "q": "O que acontece quando eu trocar de celular?",
+      "a": "Entre no mesmo iCloud e as suas viagens, ganhos e despesas voltam sozinhos. Não tem conta para criar nem senha para perder, porque nunca teve servidor nenhum guardando isso — o backup é seu, no seu próprio iCloud."
+    },
+    {
+      "q": "E se eu parar de pagar — perco os meus registros?",
+      "a": "Nada é apagado. As suas viagens ficam no iPhone e no seu próprio iCloud, exatamente onde estavam. Mas o DropLane precisa de uma assinatura ativa para abrir, então, se quiser os números em outro lugar, exporte o CSV antes de sair. Está nos Ajustes, e é um toque."
+    },
+    {
+      "q": "Como eu sei quanto o combustível custou de verdade antes da fatura do cartão chegar?",
+      "a": "Diga ao DropLane o preço por litro que o seu cartão cobra, e depois anote os litros ao abastecer. O custo sai no mesmo dia, então o lucro da semana está certo semanas antes de a fatura aparecer."
+    }
+  ],
+  "closer_h2": "Pare de adivinhar quanto o dia rendeu.",
+  "closer_body": "Quatorze dias grátis, sem conta, e nada para lembrar às seis da manhã.",
+  "footer_note": "DropLane — quilometragem e ganhos automáticos para entregadores autônomos. Feito por um entregador, em Torquay.",
+  "footer_privacy": "Privacidade",
+  "footer_terms": "Termos",
+  "footer_support": "Ajuda",
+  "alt_today": "A tela Hoje do DropLane: uma viagem sendo gravada no mapa, com a distância, as horas e os ganhos do dia.",
+  "alt_days": "A lista Dias: cada dia de trabalho com o seu lucro, a distância e o número de viagens.",
+  "alt_report": "O cartão do relatório: chaves para viagens, ganhos, despesas e fotos de recibos, e depois o PDF.",
+  "alt_stats": "A tela Estatísticas: líquido, ganho e custos da semana, com a distância por tipo.",
+  "papers_h2": "O relatório, em retrato ou paisagem",
+  "papers_intro": "Este é o PDF em si, não uma foto das chaves que o montam. Escolha o formato que servir para quem vai ler — em pé para arquivar, deitado quando a tabela de viagens precisa de espaço — e ele se refaz dos dois jeitos.",
+  "papers_portrait": "Retrato",
+  "papers_portrait_note": "Para arquivar e para imprimir em casa.",
+  "papers_landscape": "Paisagem",
+  "papers_landscape_note": "Linhas mais largas: cada viagem, seu trajeto e seus horários lado a lado.",
+  "papers_note": "O nome da sua empresa, o endereço e a logo ficam no cabeçalho. Marque o que entra — o resumo dia a dia, cada viagem, ganhos, despesas, fotos de recibos, um mapinha ao lado de cada viagem, a dedução de quilometragem do período — e o DropLane refaz o documento conforme você escolhe.",
+  "alt_report_portrait": "A primeira página de um relatório DropLane em retrato: cabeçalho, totais do período, ganhos e despesas, e a dedução de quilometragem.",
+  "alt_report_landscape": "A primeira página de um relatório DropLane em paisagem, com a tabela de viagens mais larga.",
+  "papers_choose": "O que entra",
+  "papers_zoom": "Ampliar",
+  "suggest_prompt": "Ler em português do Brasil",
+  "cta_soon": "Em breve",
+  "cta_coming": "Em breve na App Store",
+  "cta_notify": "Avise-me quando sair",
+  "privacy_h2": "Seus dados. Só seus.",
+  "privacy_intro": "Tudo fica no seu iPhone e no seu próprio iCloud. Sem conta, sem servidor, nada é vendido. Só você decide quem vê suas viagens.",
+  "privacy_stat_label": "Servidores com a sua localização",
+  "privacy_point1": "É isso que permite ao DropLane registrar os quilômetros. Seu histórico de localização nunca sai do seu iPhone.",
+  "privacy_point2": "Backup e restauração no iCloud, sem precisar de conta",
+  "privacy_point3": "Exportar CSV para seus registros",
+  "setup_shot_location": "Ativar localização",
+  "setup_shot_always": "Agora escolha Sempre",
+  "setup_shot_notifications": "Ativar notificações",
+  "setup_shot_vehicle": "O que você dirige?",
+  "pocket_h3": "Notificações",
+  "pocket_body": "«Sempre» permite gravar as viagens com o app fechado.",
+  "pocket_live_alt": "Viagem detectada — gravando",
+  "pocket_live_body": "Enquanto você dirige, uma Atividade ao Vivo mantém os quilômetros subindo na tela bloqueada — dá para ver a viagem sendo gravada sem desbloquear nada."
+}
