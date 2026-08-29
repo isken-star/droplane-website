@@ -28,7 +28,7 @@
   "hero_lede": "Nastartuj dodávku. To je celé. DropLane zaznamená každou jízdu i trasu, kterou jsi opravdu jel, odečte náklady od tržeb a tvoji hodinovku máš spočítanou dřív, než přijdeš domů.",
   "hero_cta_notify": "Dej mi vědět, až vyjde",
   "hero_cta_how": "Jak to funguje",
-  "hero_note": "14 dní zdarma · žádný účet, žádné reklamy · iPhone",
+  "hero_note": "žádný účet, žádné reklamy · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Oznámení",
   "pocket_body": "„Vždy“ umožní zaznamenávat jízdy i se zavřenou aplikací.",
   "pocket_live_alt": "Zjištěna jízda — nahrává se",
-  "pocket_live_body": "Když jedeš, živá aktivita nechá kilometry přibývat na zamčené obrazovce — vidíš, že se jízda nahrává, aniž bys cokoli odemykal."
+  "pocket_live_body": "Když jedeš, živá aktivita nechá kilometry přibývat na zamčené obrazovce — vidíš, že se jízda nahrává, aniž bys cokoli odemykal.",
+  "hero_trial": "14 dní zdarma",
+  "hero_trial_then": "poté {price} měsíčně",
+  "compare_them": "Aplikace na kilometry ti řeknou, kolik jsi najel.",
+  "compare_us": "DropLane ti řekne, jestli ten den stál za to."
 }

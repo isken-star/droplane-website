@@ -28,7 +28,7 @@
   "hero_lede": "Aracı çalıştır. Hepsi bu. DropLane her sürüşü ve gerçekte gittiğin yolu kaydeder, giderleri kazançtan düşer ve sen kapıdan girmeden saatlik kazancını hazır eder.",
   "hero_cta_notify": "Çıkınca haber ver",
   "hero_cta_how": "Nasıl çalışır",
-  "hero_note": "14 gün ücretsiz · hesap yok, reklam yok · iPhone",
+  "hero_note": "hesap yok, reklam yok · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Bildirimler",
   "pocket_body": "“Her Zaman”, sürüşlerin uygulama kapalıyken de kaydedilmesini sağlar.",
   "pocket_live_alt": "Sürüş algılandı — kayıt yapılıyor",
-  "pocket_live_body": "Sen sürerken bir Canlı Etkinlik kilit ekranında kilometreyi yükseltmeye devam eder — hiçbir şeyin kilidini açmadan sürüşün kaydedildiğini görürsün."
+  "pocket_live_body": "Sen sürerken bir Canlı Etkinlik kilit ekranında kilometreyi yükseltmeye devam eder — hiçbir şeyin kilidini açmadan sürüşün kaydedildiğini görürsün.",
+  "hero_trial": "14 gün ücretsiz",
+  "hero_trial_then": "sonra ayda {price}",
+  "compare_them": "Kilometre uygulamaları ne kadar sürdüğünü söyler.",
+  "compare_us": "DropLane günün buna değip değmediğini söyler."
 }

@@ -28,7 +28,7 @@
   "hero_lede": "Pornește duba. Atât. DropLane înregistrează fiecare drum și traseul pe care chiar l-ai făcut, scade cheltuielile din încasări, iar tariful tău pe oră te așteaptă înainte să intri pe ușă.",
   "hero_cta_notify": "Anunță-mă la lansare",
   "hero_cta_how": "Cum funcționează",
-  "hero_note": "14 zile gratis · fără cont, fără reclame · iPhone",
+  "hero_note": "fără cont, fără reclame · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Notificări",
   "pocket_body": "„Întotdeauna” permite înregistrarea curselor cu aplicația închisă.",
   "pocket_live_alt": "Cursă detectată — se înregistrează",
-  "pocket_live_body": "Cât timp conduci, o activitate live urcă kilometrii pe ecranul blocat — vezi cursa cum se înregistrează, fără să deblochezi nimic."
+  "pocket_live_body": "Cât timp conduci, o activitate live urcă kilometrii pe ecranul blocat — vezi cursa cum se înregistrează, fără să deblochezi nimic.",
+  "hero_trial": "14 zile gratis",
+  "hero_trial_then": "apoi {price} pe lună",
+  "compare_them": "Aplicațiile de kilometraj îți spun cât ai condus.",
+  "compare_us": "DropLane îți spune dacă ziua a meritat."
 }

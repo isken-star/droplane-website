@@ -28,7 +28,7 @@
   "hero_lede": "Käynnistä pakettiauto. Siinä kaikki. DropLane tallentaa jokaisen ajon ja reitin jota oikeasti ajoit, vähentää kulut tuloista, ja tuntipalkkasi odottaa jo ennen kuin olet ovesta sisällä.",
   "hero_cta_notify": "Ilmoita julkaisusta",
   "hero_cta_how": "Näin se toimii",
-  "hero_note": "14 päivää ilmaiseksi · ei tiliä, ei mainoksia · iPhone",
+  "hero_note": "ei tiliä, ei mainoksia · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "setup_shot_vehicle": "Millä ajat?",
   "pocket_h3": "Ilmoitukset",
   "pocket_live_alt": "Ajo havaittu — tallennus käynnissä",
-  "pocket_body": "”Aina” antaa ajojen tallentua, vaikka appi olisi suljettu."
+  "pocket_body": "”Aina” antaa ajojen tallentua, vaikka appi olisi suljettu.",
+  "hero_trial": "14 päivää ilmaiseksi",
+  "hero_trial_then": "sitten {price} kuussa",
+  "compare_them": "Kilometrisovellukset kertovat, kuinka paljon ajoit.",
+  "compare_us": "DropLane kertoo, kannattiko päivä."
 }

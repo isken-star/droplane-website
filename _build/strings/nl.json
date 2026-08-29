@@ -28,7 +28,7 @@
   "hero_lede": "Start de bus. Meer niet. DropLane legt elke rit vast en de route die je echt reed, haalt de kosten van de omzet af, en je uurtarief ligt klaar voor je binnen bent.",
   "hero_cta_notify": "Hou me op de hoogte",
   "hero_cta_how": "Hoe het werkt",
-  "hero_note": "14 dagen gratis · geen account, geen advertenties · iPhone",
+  "hero_note": "geen account, geen advertenties · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Meldingen",
   "pocket_body": "Met ‘Altijd’ worden ritten ook opgenomen als de app gesloten is.",
   "pocket_live_alt": "Rit gedetecteerd — opname loopt",
-  "pocket_live_body": "Terwijl je rijdt, laat een Live Activiteit de kilometers oplopen op je vergrendelscherm — je ziet de rit opgenomen worden zonder iets te ontgrendelen."
+  "pocket_live_body": "Terwijl je rijdt, laat een Live Activiteit de kilometers oplopen op je vergrendelscherm — je ziet de rit opgenomen worden zonder iets te ontgrendelen.",
+  "hero_trial": "14 dagen gratis",
+  "hero_trial_then": "daarna {price} per maand",
+  "compare_them": "Kilometer-apps vertellen je hoe ver je reed.",
+  "compare_us": "DropLane vertelt je of de dag het waard was."
 }

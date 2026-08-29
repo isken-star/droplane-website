@@ -28,7 +28,7 @@
   "hero_lede": "Dê a partida. Só isso. O DropLane grava cada viagem e o caminho que você fez mesmo, tira os custos dos ganhos, e deixa o valor da sua hora pronto antes de você entrar em casa.",
   "hero_cta_notify": "Avise-me no lançamento",
   "hero_cta_how": "Como funciona",
-  "hero_note": "14 dias grátis · sem conta, sem anúncios · iPhone",
+  "hero_note": "sem conta, sem anúncios · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Notificações",
   "pocket_body": "«Sempre» permite gravar as viagens com o app fechado.",
   "pocket_live_alt": "Viagem detectada — gravando",
-  "pocket_live_body": "Enquanto você dirige, uma Atividade ao Vivo mantém os quilômetros subindo na tela bloqueada — dá para ver a viagem sendo gravada sem desbloquear nada."
+  "pocket_live_body": "Enquanto você dirige, uma Atividade ao Vivo mantém os quilômetros subindo na tela bloqueada — dá para ver a viagem sendo gravada sem desbloquear nada.",
+  "hero_trial": "14 dias grátis",
+  "hero_trial_then": "depois {price} por mês",
+  "compare_them": "Os apps de quilometragem dizem quanto você dirigiu.",
+  "compare_us": "O DropLane diz se o dia valeu a pena."
 }

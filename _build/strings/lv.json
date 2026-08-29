@@ -28,7 +28,7 @@
   "hero_lede": "Iedarbini furgonu. Tas arī viss. DropLane pieraksta katru braucienu un maršrutu, pa kuru tiešām brauci, atskaita izmaksas no ieņēmumiem, un tava stundas likme jau gaida, pirms esi pārkāpis mājas slieksni.",
   "hero_cta_notify": "Paziņo, kad iznāks",
   "hero_cta_how": "Kā tas strādā",
-  "hero_note": "14 dienas bez maksas · bez konta, bez reklāmām · iPhone",
+  "hero_note": "bez konta, bez reklāmām · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Paziņojumi",
   "pocket_body": "„Vienmēr” ļauj braucieniem ierakstīties arī tad, kad lietotne ir aizvērta.",
   "pocket_live_alt": "Konstatēts brauciens — notiek ierakstīšana",
-  "pocket_live_body": "Kamēr brauc, tiešā aktivitāte tur kilometrus augam bloķētajā ekrānā — redzi, ka brauciens pierakstās, neko neatbloķējot."
+  "pocket_live_body": "Kamēr brauc, tiešā aktivitāte tur kilometrus augam bloķētajā ekrānā — redzi, ka brauciens pierakstās, neko neatbloķējot.",
+  "hero_trial": "14 dienas bez maksas",
+  "hero_trial_then": "pēc tam {price} mēnesī",
+  "compare_them": "Kilometru lietotnes pasaka, cik daudz nobrauci.",
+  "compare_us": "DropLane pasaka, vai diena bija tā vērta."
 }

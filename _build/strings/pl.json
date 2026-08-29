@@ -28,7 +28,7 @@
   "hero_lede": "Odpal busa. To wszystko. DropLane zapisuje każdy przejazd i trasę, którą naprawdę pokonałeś, odejmuje koszty od utargu, a twoja stawka godzinowa czeka gotowa, zanim wejdziesz do domu.",
   "hero_cta_notify": "Powiadom mnie o premierze",
   "hero_cta_how": "Jak to działa",
-  "hero_note": "14 dni za darmo · bez konta, bez reklam · iPhone",
+  "hero_note": "bez konta, bez reklam · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Powiadomienia",
   "pocket_body": "„Zawsze” pozwala nagrywać przejazdy przy zamkniętej aplikacji.",
   "pocket_live_alt": "Wykryto przejazd — trwa rejestrowanie",
-  "pocket_live_body": "Kiedy jedziesz, aktywność na żywo nabija kilometry na ekranie blokady — widzisz nagrywany przejazd, nie odblokowując niczego."
+  "pocket_live_body": "Kiedy jedziesz, aktywność na żywo nabija kilometry na ekranie blokady — widzisz nagrywany przejazd, nie odblokowując niczego.",
+  "hero_trial": "14 dni za darmo",
+  "hero_trial_then": "potem {price} miesięcznie",
+  "compare_them": "Aplikacje do kilometrów mówią ci, ile przejechałeś.",
+  "compare_us": "DropLane mówi ci, czy dzień był tego wart."
 }

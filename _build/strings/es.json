@@ -28,7 +28,7 @@
   "hero_lede": "Arranca la furgoneta. Ya está. DropLane registra cada trayecto y la ruta que hiciste de verdad, resta los gastos de lo cobrado y te deja tu precio por hora listo antes de entrar por la puerta.",
   "hero_cta_notify": "Avísame en el lanzamiento",
   "hero_cta_how": "Cómo funciona",
-  "hero_note": "14 días gratis · sin cuenta, sin anuncios · iPhone",
+  "hero_note": "sin cuenta, sin anuncios · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Notificaciones",
   "pocket_body": "«Siempre» permite grabar los viajes con la app cerrada.",
   "pocket_live_alt": "Viaje detectado — grabando",
-  "pocket_live_body": "Mientras conduces, una actividad en directo va sumando los kilómetros en la pantalla bloqueada: ves el viaje grabándose sin desbloquear nada."
+  "pocket_live_body": "Mientras conduces, una actividad en directo va sumando los kilómetros en la pantalla bloqueada: ves el viaje grabándose sin desbloquear nada.",
+  "hero_trial": "14 días gratis",
+  "hero_trial_then": "después {price} al mes",
+  "compare_them": "Las apps de kilometraje te dicen cuánto condujiste.",
+  "compare_us": "DropLane te dice si el día valió la pena."
 }

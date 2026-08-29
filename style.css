@@ -330,12 +330,44 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 /* Each part stays whole: "£6.99 a month" reads badly broken across lines. */
 .eyebrow > * { white-space: nowrap; }
 .eyebrow > * + *::before { content: "·"; color: var(--text-3); margin-right: 10px; }
-/* On a phone the badge earns its place with the country and the price; the
-   wording around them only makes it wrap. */
+/* The trial is the offer; the price is the detail behind it. Free carries the
+   brand colour and a tint behind it so the eye lands there first, and the
+   monthly figure reads as the sentence that follows. */
+.eyebrow .eyebrow-trial {
+  background: var(--tint); color: var(--brand);
+  padding: 3px 10px; border-radius: 999px; font-weight: 800;
+}
+/* No dots either side of it. The separator is drawn by ::before on the
+   element itself, so on a tinted pill it lands inside the tint; and the pill
+   is its own boundary anyway — "United Kingdom  14 days free  then £6.99"
+   reads without help. */
+.eyebrow > .eyebrow-trial::before,
+.eyebrow > .eyebrow-trial + *::before { content: none; margin-right: 0; }
+/* On a phone the badge earns its place with the country and the trial; the
+   price behind it is one clause too many at that width. */
 @media (max-width: 520px) {
   .eyebrow { font-size: 12.5px; }
-  .eyebrow .eyebrow-per, .eyebrow a { display: none; }
+  .eyebrow .eyebrow-cost, .eyebrow a { display: none; }
 }
+
+/* ---------------- the comparison ---------------- */
+
+/* Sits between the hero and the two-day proof, and says the thing the rest of
+   the page then demonstrates. Two sentences, one sober and one not: the
+   contrast is the argument, so the type carries it. */
+.compare { padding: clamp(6px, 2vw, 18px) 0 clamp(20px, 3vw, 34px); }
+.compare p {
+  margin: 0; max-width: 30ch;
+  font-size: clamp(21px, 2.9vw, 31px); font-weight: 800;
+  line-height: 1.22; letter-spacing: -.025em; text-wrap: balance;
+}
+/* A line each. Left to wrap naturally the two sentences share a line in
+   whichever language runs long — German did — and the contrast the whole
+   thing rests on stops being visible. */
+.compare-them, .compare-us { display: block; }
+.compare-them { color: var(--text-3); }
+.compare-us { color: var(--text); }
+@media (min-width: 760px) { .compare p { max-width: 46ch; } }
 
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;

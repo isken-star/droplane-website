@@ -28,7 +28,7 @@
   "hero_lede": "Start varebilen. Det er alt. DropLane registrerer hver tur og ruten du faktisk kjørte, trekker kostnadene fra inntekten, og timelønnen din ligger klar før du er innenfor døra.",
   "hero_cta_notify": "Få beskjed ved lansering",
   "hero_cta_how": "Slik virker det",
-  "hero_note": "14 dager gratis · ingen konto, ingen reklame · iPhone",
+  "hero_note": "ingen konto, ingen reklame · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "setup_shot_vehicle": "Hva kjører du?",
   "pocket_h3": "Varsler",
   "pocket_live_alt": "Tur oppdaget — tar opp",
-  "pocket_body": "«Alltid» lar turer registreres mens appen er lukket."
+  "pocket_body": "«Alltid» lar turer registreres mens appen er lukket.",
+  "hero_trial": "14 dager gratis",
+  "hero_trial_then": "deretter {price} i måneden",
+  "compare_them": "Kilometer-apper forteller deg hvor langt du kjørte.",
+  "compare_us": "DropLane forteller deg om dagen var verdt det."
 }

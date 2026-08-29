@@ -28,7 +28,7 @@
   "hero_lede": "Starta skåpbilen. Det är allt. DropLane registrerar varje körning och vägen den faktiskt tog, drar kostnaderna från intäkterna och har din timpenning klar innan du är innanför dörren.",
   "hero_cta_notify": "Få besked när den släpps",
   "hero_cta_how": "Så fungerar det",
-  "hero_note": "14 dagar gratis · inget konto, inga annonser · iPhone",
+  "hero_note": "inget konto, inga annonser · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "setup_shot_vehicle": "Vad kör du?",
   "pocket_h3": "Notiser",
   "pocket_live_alt": "Körning upptäckt — spelar in",
-  "pocket_body": "”Alltid” gör att körningar spelas in med appen stängd."
+  "pocket_body": "”Alltid” gör att körningar spelas in med appen stängd.",
+  "hero_trial": "14 dagar gratis",
+  "hero_trial_then": "sedan {price} i månaden",
+  "compare_them": "Kilometer-appar berättar hur långt du körde.",
+  "compare_us": "DropLane berättar om dagen var värd det."
 }

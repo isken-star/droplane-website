@@ -28,7 +28,7 @@
   "hero_lede": "Start bilen. Det var det. DropLane registrerer hver tur og den rute, du faktisk kørte, trækker udgifterne fra indtjeningen, og din timeløn ligger klar, når du har fri.",
   "hero_cta_notify": "Få besked ved lanceringen",
   "hero_cta_how": "Sådan virker det",
-  "hero_note": "14 dage gratis · ingen konto, ingen reklamer · iPhone",
+  "hero_note": "ingen konto, ingen reklamer · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Meddelelser",
   "pocket_body": "»Altid« lader ture blive optaget, mens appen er lukket.",
   "pocket_live_alt": "Tur registreret — optager",
-  "pocket_live_body": "Mens du kører, tæller en live-aktivitet dine miles op på låseskærmen — så du kan se turen blive optaget uden at låse noget op."
+  "pocket_live_body": "Mens du kører, tæller en live-aktivitet dine miles op på låseskærmen — så du kan se turen blive optaget uden at låse noget op.",
+  "hero_trial": "14 dage gratis",
+  "hero_trial_then": "derefter {price} om måneden",
+  "compare_them": "Kilometer-apps fortæller dig, hvor langt du kørte.",
+  "compare_us": "DropLane fortæller dig, om dagen var det værd."
 }

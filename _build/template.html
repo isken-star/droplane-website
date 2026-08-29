@@ -114,7 +114,7 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow" id="detected"><span class="eyebrow-flag">{{flag}}</span><b data-region="{{market}}">{{market_name}}</b><span class="eyebrow-cost"><span class="eyebrow-price">{{price_month}}</span> <span class="eyebrow-per">{{per_month_short}}</span></span><a href="#pricing">{{see_all}}</a></span>
+      <span class="eyebrow" id="detected"><span class="eyebrow-flag">{{flag}}</span><b data-region="{{market}}">{{market_name}}</b><span class="eyebrow-trial">{{hero_trial}}</span><span class="eyebrow-cost">{{hero_trial_then}}</span><a href="#pricing">{{see_all}}</a></span>
       <h1>{{hero_h1}}</h1>
       <p class="lede">{{hero_lede}}</p>
       <!-- While the app is coming soon the loud button is the launch list, not
@@ -144,6 +144,15 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- The one line that says what this is instead of what it does. It was
+     buried in the FAQ, twelve questions down, where the people who most
+     needed it were never going to reach it. -->
+<section class="compare">
+  <div class="wrap">
+    <p><span class="compare-them">{{compare_them}}</span> <span class="compare-us">{{compare_us}}</span></p>
   </div>
 </section>
 

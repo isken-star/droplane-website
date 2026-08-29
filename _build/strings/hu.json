@@ -28,7 +28,7 @@
   "hero_lede": "Indítsd el a furgont. Ennyi az egész. A DropLane rögzít minden utat és az útvonalat, amit tényleg megtettél, levonja a költségeket a bevételből, és az órabéred kész, mire hazaérsz.",
   "hero_cta_notify": "Szólj, ha megjelent",
   "hero_cta_how": "Hogyan működik",
-  "hero_note": "14 nap ingyen · nincs fiók, nincs reklám · iPhone",
+  "hero_note": "nincs fiók, nincs reklám · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Értesítések",
   "pocket_body": "A „Mindig” beállítással az utak zárt app mellett is rögzülnek.",
   "pocket_live_alt": "Út észlelve — rögzítés folyamatban",
-  "pocket_live_body": "Amíg vezetsz, egy élő tevékenység a zárolt képernyőn növeli a kilométereket — látod, hogy az út rögzül, anélkül hogy bármit feloldanál."
+  "pocket_live_body": "Amíg vezetsz, egy élő tevékenység a zárolt képernyőn növeli a kilométereket — látod, hogy az út rögzül, anélkül hogy bármit feloldanál.",
+  "hero_trial": "14 nap ingyen",
+  "hero_trial_then": "utána havi {price}",
+  "compare_them": "A kilométerszámláló appok megmondják, mennyit vezettél.",
+  "compare_us": "A DropLane megmondja, megérte-e a nap."
 }

@@ -28,7 +28,7 @@
   "hero_lede": "Motor an. Das war's. DropLane zeichnet die Fahrt auf, speichert die Strecke, die du wirklich gefahren bist, und rechnet den Tag ab, sobald du Feierabend machst.",
   "hero_cta_notify": "Benachrichtige mich zum Start",
   "hero_cta_how": "So funktioniert's",
-  "hero_note": "14 Tage gratis · kein Konto, keine Werbung · iPhone",
+  "hero_note": "kein Konto, keine Werbung · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Mitteilungen",
   "pocket_body": "„Immer“ lässt Fahrten auch bei geschlossener App aufzeichnen.",
   "pocket_live_alt": "Fahrt erkannt — Aufzeichnung läuft",
-  "pocket_live_body": "Während der Fahrt lässt eine Live-Aktivität die Kilometer auf dem Sperrbildschirm weiterlaufen — du siehst die Aufzeichnung, ohne irgendetwas zu entsperren."
+  "pocket_live_body": "Während der Fahrt lässt eine Live-Aktivität die Kilometer auf dem Sperrbildschirm weiterlaufen — du siehst die Aufzeichnung, ohne irgendetwas zu entsperren.",
+  "hero_trial": "14 Tage gratis",
+  "hero_trial_then": "danach {price} im Monat",
+  "compare_them": "Kilometer-Apps sagen dir, wie weit du gefahren bist.",
+  "compare_us": "DropLane sagt dir, ob der Tag sich gelohnt hat."
 }

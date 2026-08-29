@@ -28,7 +28,7 @@
   "hero_lede": "Užvesk furgoną. Tiek to ir tereikia. DropLane užrašo kiekvieną kelionę ir maršrutą, kuriuo iš tikrųjų važiavai, atima išlaidas iš pajamų, ir tavo valandinis įkainis jau laukia dar prieš tau pareinant namo.",
   "hero_cta_notify": "Pranešk, kai pasirodys",
   "hero_cta_how": "Kaip veikia",
-  "hero_note": "14 dienų nemokamai · be paskyros, be reklamų · iPhone",
+  "hero_note": "be paskyros, be reklamų · iPhone",
   "hero_facts": [
     {
       "value": "0",
@@ -323,5 +323,9 @@
   "pocket_h3": "Pranešimai",
   "pocket_body": "„Visada“ leidžia kelionėms įsirašyti uždarius programą.",
   "pocket_live_alt": "Aptikta kelionė — įrašoma",
-  "pocket_live_body": "Kol važiuoji, tiesioginė veikla augina kilometrus užrakintame ekrane — matai, kad kelionė rašoma, nieko neatrakindamas."
+  "pocket_live_body": "Kol važiuoji, tiesioginė veikla augina kilometrus užrakintame ekrane — matai, kad kelionė rašoma, nieko neatrakindamas.",
+  "hero_trial": "14 dienų nemokamai",
+  "hero_trial_then": "vėliau {price} per mėnesį",
+  "compare_them": "Kilometrų programos pasako, kiek nuvažiavai.",
+  "compare_us": "DropLane pasako, ar diena buvo verta."
 }
