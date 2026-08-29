@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="el-GR" data-theme="light" data-lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DropLane — Μάθε τι απέδωσε πραγματικά η μέρα</title>
+<meta name="description" content="Το DropLane καταγράφει μόνο του τις διαδρομές του κούριερ, αφαιρεί τα καύσιμα, το πάρκινγκ και τα πάγια έξοδα από τα έσοδα, και σου λέει τι απέδωσε πραγματικά η ώρα. Μαζί και βιβλίο διαδρομών έτοιμο για τον λογιστή, σε είκοσι τέσσερις γλώσσες, όλα στο κινητό σου.">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/gr/">
+<link rel="alternate" hreflang="en" href="https://www.droplane.co.uk/">
+<link rel="alternate" hreflang="en-US" href="https://www.droplane.co.uk/us/">
+<link rel="alternate" hreflang="en-AU" href="https://www.droplane.co.uk/au/">
+<link rel="alternate" hreflang="da" href="https://www.droplane.co.uk/da/">
+<link rel="alternate" hreflang="de" href="https://www.droplane.co.uk/de/">
+<link rel="alternate" hreflang="es" href="https://www.droplane.co.uk/es/">
+<link rel="alternate" hreflang="fr" href="https://www.droplane.co.uk/fr/">
+<link rel="alternate" hreflang="it" href="https://www.droplane.co.uk/it/">
+<link rel="alternate" hreflang="nl" href="https://www.droplane.co.uk/nl/">
+<link rel="alternate" hreflang="pl" href="https://www.droplane.co.uk/pl/">
+<link rel="alternate" hreflang="pt-PT" href="https://www.droplane.co.uk/pt/">
+<link rel="alternate" hreflang="pt" href="https://www.droplane.co.uk/br/">
+<link rel="alternate" hreflang="cs" href="https://www.droplane.co.uk/cz/">
+<link rel="alternate" hreflang="sk" href="https://www.droplane.co.uk/sk/">
+<link rel="alternate" hreflang="hu" href="https://www.droplane.co.uk/hu/">
+<link rel="alternate" hreflang="el" href="https://www.droplane.co.uk/gr/">
+<link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
+<link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
+<link rel="alternate" hreflang="sv" href="https://www.droplane.co.uk/sv/">
+<link rel="alternate" hreflang="nb" href="https://www.droplane.co.uk/nb/">
+<link rel="alternate" hreflang="fi" href="https://www.droplane.co.uk/fi/">
+<link rel="alternate" hreflang="ru" href="https://www.droplane.co.uk/ru/">
+<link rel="alternate" hreflang="lt" href="https://www.droplane.co.uk/lt/">
+<link rel="alternate" hreflang="lv" href="https://www.droplane.co.uk/lv/">
+<link rel="alternate" hreflang="uk" href="https://www.droplane.co.uk/ua/">
+<link rel="alternate" hreflang="tr" href="https://www.droplane.co.uk/tr/">
+<link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
+<meta property="og:title" content="DropLane — Μάθε τι απέδωσε πραγματικά η μέρα">
+<meta property="og:description" content="Το DropLane καταγράφει μόνο του τις διαδρομές του κούριερ, αφαιρεί τα καύσιμα, το πάρκινγκ και τα πάγια έξοδα από τα έσοδα, και σου λέει τι απέδωσε πραγματικά η ώρα. Μαζί και βιβλίο διαδρομών έτοιμο για τον λογιστή, σε είκοσι τέσσερις γλώσσες, όλα στο κινητό σου.">
+<meta property="og:url" content="https://www.droplane.co.uk/gr/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="el_GR">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/icon-512.png">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/gr/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="Κύριο μενού">
+      <a href="#money">Τι αποδίδει</a>
+      <a href="#how">Πώς δουλεύει</a>
+      <a href="#features">Τι κάνει</a>
+      <a href="#screens">Οθόνες</a>
+      <a href="#countries">Πού δουλεύει</a>
+      <a href="#pricing">Τιμή</a>
+      <a href="/support/">Βοήθεια</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="Γλώσσα">
+        <span class="lang-button-flag" aria-hidden="true">🇬🇷</span>
+        <span class="lang-button-name">Ελληνικά</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="Χρωματικό θέμα">
+        <button type="button" data-theme="light" aria-pressed="true" title="Φωτεινό">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>Φωτεινό</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="Σκούρο">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>Σκούρο</span>
+        </button>
+      </div>
+
+      <a class="head-cta head-cta-soon" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Σύντομα</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">Μενού</span><span class="close-label">Κλείσιμο</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">Διάβασε αυτή τη σελίδα στη γλώσσα σου</p>
+      <ul class="lang-list">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
+        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
+        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
+        <li><a href="/gr/" hreflang="el" aria-current="true" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
+        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
+        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
+        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+      </ul>
+      <p class="lang-panel-note">Η ίδια η εφαρμογή μιλά είκοσι τέσσερις γλώσσες — οι υπόλοιπες έρχονται κι εδώ.</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="Κύριο μενού">
+        <a href="#money">Τι αποδίδει</a>
+        <a href="#how">Πώς δουλεύει</a>
+        <a href="#features">Τι κάνει</a>
+        <a href="#screens">Οθόνες</a>
+        <a href="#countries">Πού δουλεύει</a>
+        <a href="#languages">Γλώσσες</a>
+        <a href="#pricing">Τιμή</a>
+        <a href="#faq">Ερωτήσεις</a>
+        <a href="/support/">Βοήθεια</a>
+      </nav>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Σύντομα στο App Store</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>Είκοσι τέσσερις γλώσσες.</strong> Διάλεξε τη δική σου — η εφαρμογή τη μιλά κι αυτή.</p>
+    <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
+  </div>
+</div>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇬🇷</span><b data-region="GR">Greece</b><span class="eyebrow-cost"><span class="eyebrow-price">4,99 €</span> <span class="eyebrow-per">τον μήνα</span></span><a href="#pricing">δες όλες</a></span>
+      <h1>Μάθε τι απέδωσε πραγματικά η μέρα.</h1>
+      <p class="lede">Βάλε μπρος το βαν. Αυτό ήταν. Το DropLane καταγράφει κάθε διαδρομή και τον δρόμο που πραγματικά έκανες, αφαιρεί τα έξοδα από τα έσοδα, και έχει έτοιμη την ωριαία σου αμοιβή πριν καν μπεις στο σπίτι.</p>
+      <!-- While the app is coming soon the loud button is the launch list, not
+           the price: the eyebrow above already carries the price and links to
+           the table. On launch day, swap this first link for Apple's official
+           "Download on the App Store" badge and drop hero_cta_notify. -->
+      <div class="cta-row">
+        <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Ειδοποίησέ με όταν βγει</a>
+        <a class="btn-ghost" href="#how">Πώς δουλεύει</a>
+      </div>
+      <p class="cta-note" style="margin:14px 0 0">14 μέρες δωρεάν · χωρίς λογαριασμό, χωρίς διαφημίσεις · iPhone</p>
+      <ul class="hero-facts">
+        <li><b>0</b><span>κουμπιά να πατήσεις</span></li>
+        <li><b>24</b><span>γλώσσες</span></li>
+        <li><b>17</b><span>ενσωματωμένοι φορολογικοί συντελεστές</span></li>
+      </ul>
+    </div>
+
+    <div class="stage">
+      <div class="device device-back">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/days.webp" width="640" height="1391" alt="Η λίστα Ημέρες: κάθε εργάσιμη μέρα με το κέρδος, την απόσταση και τον αριθμό των διαδρομών της." loading="eager">
+          <img class="only-light" src="/assets/screens/el/light/days.webp" width="640" height="1391" alt="Η λίστα Ημέρες: κάθε εργάσιμη μέρα με το κέρδος, την απόσταση και τον αριθμό των διαδρομών της." loading="eager">
+        </div>
+      </div>
+      <div class="device device-front">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/today.webp" width="640" height="1391" alt="Η οθόνη Σήμερα του DropLane: μια διαδρομή καταγράφεται στον χάρτη, με την απόσταση, τις ώρες και τα έσοδα της μέρας." loading="eager">
+          <img class="only-light" src="/assets/screens/el/light/today.webp" width="640" height="1391" alt="Η οθόνη Σήμερα του DropLane: μια διαδρομή καταγράφεται στον χάρτη, με την απόσταση, τις ώρες και τα έσοδα της μέρας." loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>Δύο μέρες. Περισσότερα χιλιόμετρα. Λιγότερα λεφτά.</h2>
+    <p class="section-intro">Τρίτη: 64,7 χιλιόμετρα, τρεις διαδρομές. Χθες: 40,4 χιλιόμετρα, δύο διαδρομές. Μια εφαρμογή χιλιομέτρων θα σου πει ότι η Τρίτη ήταν η γεμάτη μέρα — και έχει δίκιο. Από την Τρίτη έμειναν 57 ευρώ. Από χθες 72.</p>
+
+    <div class="twodays">
+      <div class="twoday">
+        <p class="twoday-when">Τρίτη 25 Αυγούστου</p>
+        <dl>
+          <div><dt>Στον δρόμο</dt><dd>64,7 km</dd></div>
+          <div><dt>Διαδρομές</dt><dd>3 διαδρομές</dd></div>
+        </dl>
+        <p class="twoday-money"><span>Έμειναν</span><b>57,35 €</b></p>
+      </div>
+      <div class="twoday">
+        <p class="twoday-when">Χθες</p>
+        <dl>
+          <div><dt>Στον δρόμο</dt><dd>40,4 km</dd></div>
+          <div><dt>Διαδρομές</dt><dd>2 διαδρομές</dd></div>
+        </dl>
+        <p class="twoday-money"><span>Έμειναν</span><b>71,80 €</b></p>
+      </div>
+    </div>
+
+    <p class="twodays-punch">24,3 χιλιόμετρα παραπάνω. 14,45 € λιγότερα.</p>
+    <p class="versus-note">Τα χιλιόμετρα είναι το εύκολο μισό — και αυτό που δεν σου λέει τίποτα. Ποια μέρα άξιζε, βρίσκεται στην άλλη στήλη, και αυτή ακριβώς τη στήλη τη συμπληρώνει για σένα το DropLane, την ίδια μέρα, χωρίς να γράψεις τίποτα.</p>
+  </div>
+</section>
+
+<section id="day">
+  <div class="wrap">
+    <h2>Τι απέδωσε πραγματικά η μέρα;</h2>
+    <p class="section-intro">73,80 € ακούγονται καλή μέρα. Βγάλε τα καύσιμα και το πάρκινγκ, μοίρασέ τα στις 5 ώ. 32 λεπ. στον δρόμο, και βγαίνουν 7,87 € την ώρα. Είναι ο αριθμός που κανείς στο τιμόνι δεν έχει — και αυτός που σου δίνει το DropLane πριν καν μπεις στο σπίτι.</p>
+
+    <div class="theatre">
+      <div class="films">
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <img class="only-dark" src="/assets/screens/el/dark/today.webp" width="640" height="1391" alt="Η μέρα προστέθηκε μόνη της — Δύο διαδρομές, και 63,40 € που μένουν αφού βγουν τα έξοδα. Δεν πληκτρολογήθηκε τίποτα." loading="lazy">
+            <img class="only-light" src="/assets/screens/el/light/today.webp" width="640" height="1391" alt="Η μέρα προστέθηκε μόνη της — Δύο διαδρομές, και 63,40 € που μένουν αφού βγουν τα έξοδα. Δεν πληκτρολογήθηκε τίποτα." loading="lazy">
+          </div></div>
+          <figcaption><b>Η μέρα προστέθηκε μόνη της</b>Δύο διαδρομές, και 63,40 € που μένουν αφού βγουν τα έξοδα. Δεν πληκτρολογήθηκε τίποτα.</figcaption>
+        </figure>
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <img class="only-dark" src="/assets/screens/el/dark/report.webp" width="640" height="1391" alt="Η αναφορά χτίζεται μόνη της — Τσέκαρε τι μπαίνει μέσα, διάλεξε κατακόρυφη ή οριζόντια, και το PDF για τον λογιστή είναι έτοιμο για αποστολή." loading="lazy">
+            <img class="only-light" src="/assets/screens/el/light/report.webp" width="640" height="1391" alt="Η αναφορά χτίζεται μόνη της — Τσέκαρε τι μπαίνει μέσα, διάλεξε κατακόρυφη ή οριζόντια, και το PDF για τον λογιστή είναι έτοιμο για αποστολή." loading="lazy">
+          </div></div>
+          <figcaption><b>Η αναφορά χτίζεται μόνη της</b>Τσέκαρε τι μπαίνει μέσα, διάλεξε κατακόρυφη ή οριζόντια, και το PDF για τον λογιστή είναι έτοιμο για αποστολή.</figcaption>
+        </figure>
+        <figure class="film">
+          <div class="device"><div class="device-screen">
+            <img class="only-dark" src="/assets/screens/el/dark/insights.webp" width="640" height="1391" alt="Και τι απέδωσε πραγματικά η ώρα — 7,87 € την ώρα μετά τα έξοδα, και από πίσω η έκπτωση χιλιομέτρων." loading="lazy">
+            <img class="only-light" src="/assets/screens/el/light/insights.webp" width="640" height="1391" alt="Και τι απέδωσε πραγματικά η ώρα — 7,87 € την ώρα μετά τα έξοδα, και από πίσω η έκπτωση χιλιομέτρων." loading="lazy">
+          </div></div>
+          <figcaption><b>Και τι απέδωσε πραγματικά η ώρα</b>7,87 € την ώρα μετά τα έξοδα, και από πίσω η έκπτωση χιλιομέτρων.</figcaption>
+        </figure>
+      </div>
+
+      <div class="tally">
+        <p class="tally-lead">Μία μέρα, από τις οθόνες παραπάνω</p>
+        <div class="sum">
+          <div class="sum-item"><span>Έσοδα</span><b>73,80 €</b></div>
+          <span class="sum-op" aria-hidden="true">&minus;</span>
+          <div class="sum-item"><span>Έξοδα</span><b class="is-cost">10,40 €</b></div>
+          <span class="sum-op" aria-hidden="true">=</span>
+          <div class="sum-item"><span>Έμειναν</span><b class="is-keep">63,40 €</b></div>
+        </div>
+        <ul class="rates">
+          <li class="rate-big"><b>7,87 €</b><span>την ώρα</span></li>
+          <li><b>5 ώ. 32 λεπ.</b><span>στον δρόμο</span></li>
+        </ul>
+        <p class="tally-note">Τα νούμερα μιας μέρας, κατευθείαν από τις οθόνες παραπάνω. Τα δικά σου θα είναι άλλα — το θέμα είναι να τα έχεις την ίδια μέρα, μέσα στο βαν, αντί να τα μαθαίνεις την άνοιξη.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="how">
+  <div class="wrap">
+    <h2>Τρία βήματα, και τα δύο δεν είναι δικά σου</h2>
+    <p class="section-intro">Στο DropLane δεν υπάρχει κουμπί έναρξης, επίτηδες. Στις έξι το πρωί με το βαν γεμάτο δέματα κανείς δεν θυμάται να πατήσει κάτι.</p>
+
+    <div class="steps">
+      <div class="card step">
+        <span class="num">1</span>
+        <h3>Το ανοίγεις μία φορά</h3>
+        <p>Εγκαθιστάς την εφαρμογή και επιτρέπεις την τοποθεσία στο παρασκήνιο. Άλλη ρύθμιση δεν υπάρχει.</p>
+      </div>
+      <div class="card step">
+        <span class="num">2</span>
+        <h3>Οδηγείς</h3>
+        <p>Κάθε διαδρομή αποθηκεύεται μόνη της, με τη ρότα, τις στάσεις και το πόσο έμεινες σε καθεμία.</p>
+      </div>
+      <div class="card step">
+        <span class="num">3</span>
+        <h3>Την ταξινομείς με ένα πάτημα</h3>
+        <p>Εργασία, άδεια, προς παραλαβή ή προσωπική. Τα σύνολα και το ποσό για την εφορία ακολουθούν μόνα τους.</p>
+      </div>
+    </div>
+
+    <!-- Step one, screen by screen. The captions are the screens' own
+         headlines out of the app, so they read the same on the page as they
+         do on the phone, in every language. -->
+    <div class="setup">
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/onboarding-location.webp" width="640" height="1391" alt="Ενεργοποίησε την τοποθεσία" loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/onboarding-location.webp" width="640" height="1391" alt="Ενεργοποίησε την τοποθεσία" loading="lazy">
+        </div></div>
+        <figcaption>Ενεργοποίησε την τοποθεσία</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/onboarding-location-always.webp" width="640" height="1391" alt="Τώρα επίλεξε «Πάντα»" loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/onboarding-location-always.webp" width="640" height="1391" alt="Τώρα επίλεξε «Πάντα»" loading="lazy">
+        </div></div>
+        <figcaption>Τώρα επίλεξε «Πάντα»</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/onboarding-notifications.webp" width="640" height="1391" alt="Ενεργοποίησε τις γνωστοποιήσεις" loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/onboarding-notifications.webp" width="640" height="1391" alt="Ενεργοποίησε τις γνωστοποιήσεις" loading="lazy">
+        </div></div>
+        <figcaption>Ενεργοποίησε τις γνωστοποιήσεις</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/onboarding-vehicle.webp" width="640" height="1391" alt="Τι οδηγείς;" loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/onboarding-vehicle.webp" width="640" height="1391" alt="Τι οδηγείς;" loading="lazy">
+        </div></div>
+        <figcaption>Τι οδηγείς;</figcaption>
+      </figure>
+    </div>
+
+    <!-- And then the phone goes in a pocket. These are the only pictures on
+         the page taken with the app shut: the lock screen, doing the job on
+         its own — the notifications telling the story afterwards, and the
+         Live Activity showing the drive being recorded right now. All the
+         lines are the app's own words. -->
+    <div class="pocket">
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/el/dark/notifications.webp" width="640" height="1391" alt="Γνωστοποιήσεις" loading="lazy">
+            <img class="only-light" src="/assets/screens/el/light/notifications.webp" width="640" height="1391" alt="Γνωστοποιήσεις" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/el/dark/live-activity.webp" width="640" height="1391" alt="Εντοπίστηκε διαδρομή — γίνεται καταγραφή" loading="lazy">
+            <img class="only-light" src="/assets/screens/el/light/live-activity.webp" width="640" height="1391" alt="Εντοπίστηκε διαδρομή — γίνεται καταγραφή" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <div class="pocket-words">
+        <h3>Γνωστοποιήσεις</h3>
+        <p>Το «Πάντα» επιτρέπει την καταγραφή διαδρομών με την εφαρμογή κλειστή.</p>
+        <p class="pocket-live">Όσο οδηγείς, μια Ζωντανή Δραστηριότητα κρατά τα χιλιόμετρα να ανεβαίνουν στην οθόνη κλειδώματος — βλέπεις τη διαδρομή να καταγράφεται χωρίς να ξεκλειδώσεις τίποτα.</p>
+      </div>
+    </div>
+
+    <div class="proof" id="report">
+      <div class="proof-words">
+        <h3>Η αναφορά, κατακόρυφη ή οριζόντια</h3>
+        <p>Μετά οι μέρες στοιβάζονται μόνες τους. Διάλεξε μια βδομάδα, έναν μήνα ή δικές σου ημερομηνίες, τσέκαρε τι μπαίνει μέσα, και το PDF για τον λογιστή απέχει ένα πάτημα — χτισμένο από διαδρομές που δεν χρειάστηκε ποτέ να καταγράψεις.</p>
+        <p class="proof-note">Αυτό είναι το ίδιο το PDF, όχι φωτογραφία των διακοπτών που το φτιάχνουν. Διάλεξε το σχήμα που βολεύει όποιον θα το διαβάσει — όρθιο για αρχείο, πλατύ όταν ο πίνακας διαδρομών θέλει χώρο — και ξαναχτίζεται και στα δύο.</p>
+      </div>
+
+      <div class="proof-output">
+        <figure class="proof-item proof-phone">
+          <div class="device">
+            <div class="device-screen">
+              <img class="only-dark" src="/assets/screens/el/dark/report.webp" width="640" height="1391" alt="Η κάρτα της αναφοράς: διακόπτες για διαδρομές, έσοδα, έξοδα και φωτογραφίες αποδείξεων, και μετά το PDF." loading="lazy">
+              <img class="only-light" src="/assets/screens/el/light/report.webp" width="640" height="1391" alt="Η κάρτα της αναφοράς: διακόπτες για διαδρομές, έσοδα, έξοδα και φωτογραφίες αποδείξεων, και μετά το PDF." loading="lazy">
+            </div>
+          </div>
+          <figcaption>Τι μπαίνει μέσα</figcaption>
+        </figure>
+
+        <figure class="proof-item">
+          <button class="paper-zoom" type="button" data-zoom="/assets/screens/el/paper/report-portrait-1.webp" data-zoom-label="Κατακόρυφη" aria-label="Μεγέθυνση — Κατακόρυφη">
+            <img src="/assets/screens/el/paper/report-portrait-1.webp" width="760" height="1075" alt="Η πρώτη σελίδα μιας αναφοράς DropLane σε κατακόρυφη διάταξη: κεφαλίδα, σύνολα περιόδου, έσοδα και έξοδα, και η έκπτωση χιλιομέτρων." loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">Μεγέθυνση</span>
+          </button>
+          <figcaption>Κατακόρυφη</figcaption>
+        </figure>
+
+        <figure class="proof-item proof-item-wide">
+          <button class="paper-zoom" type="button" data-zoom="/assets/screens/el/paper/report-landscape-2.webp" data-zoom-label="Οριζόντια" aria-label="Μεγέθυνση — Οριζόντια">
+            <img src="/assets/screens/el/paper/report-landscape-2.webp" width="1100" height="778" alt="Η πρώτη σελίδα μιας αναφοράς DropLane σε οριζόντια διάταξη, με τον πιο πλατύ πίνακα διαδρομών." loading="lazy">
+            <span class="paper-zoom-hint" aria-hidden="true">Μεγέθυνση</span>
+          </button>
+          <figcaption>Οριζόντια</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Privacy sits above "what it actually does" on purpose: it is the thing
+     that separates DropLane from every other mileage app, and a courier
+     handing over a month of their movements wants it answered early. Every
+     line here is the app's own onboarding copy, already translated. -->
+<section id="privacy">
+  <div class="wrap">
+    <h2>Τα δεδομένα σου. Μόνο δικά σου.</h2>
+    <p class="section-intro">Όλα μένουν στο iPhone σου και στο δικό σου iCloud. Χωρίς λογαριασμό, χωρίς διακομιστή, τίποτα δεν πουλιέται. Μόνο εσύ αποφασίζεις ποιος βλέπει τις διαδρομές σου.</p>
+
+    <div class="keeps">
+      <div class="keeps-words">
+        <p class="keeps-stat"><b>0</b><span>Διακομιστές με την τοποθεσία σου</span></p>
+        <ul class="keeps-list">
+          <li>Αυτό είναι που επιτρέπει στο DropLane να καταγράφει τα χιλιόμετρα. Το ιστορικό τοποθεσίας σου δεν φεύγει ποτέ από το iPhone σου.</li>
+          <li>Αντίγραφο και επαναφορά μέσω iCloud, χωρίς λογαριασμό</li>
+          <li>Εξαγωγή CSV για το αρχείο σου</li>
+        </ul>
+      </div>
+
+      <figure class="keeps-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/el/dark/onboarding-privacy.webp" width="640" height="1391" alt="Τα δεδομένα σου. Μόνο δικά σου." loading="lazy">
+            <img class="only-light" src="/assets/screens/el/light/onboarding-privacy.webp" width="640" height="1391" alt="Τα δεδομένα σου. Μόνο δικά σου." loading="lazy">
+          </div>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <h2>Τι κάνει στ&#x27; αλήθεια</h2>
+    <p class="section-intro">Φτιαγμένο από κούριερ με δέκα χρόνια στον δρόμο, για τη δουλειά όπως είναι στ&#x27; αλήθεια.</p>
+    <div class="cards">
+      <div class="card">
+        <span class="icon">💷</span>
+        <h3>Τι απέδωσε πραγματικά η μέρα</h3>
+        <p>Έσοδα μέσα, καύσιμα και έξοδα έξω, και από κάτω ο αριθμός που μετράει — ανά μέρα, βδομάδα, μήνα.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>Τι αποδίδει πραγματικά μια ώρα</h3>
+        <p>Καύσιμα, δόση και ασφάλεια μοιρασμένα στις μέρες που δουλεύεις, ώστε η ωριαία αμοιβή να είναι η αληθινή.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>Χιλιόμετρα χωρίς να αγγίξεις το κινητό</h3>
+        <p>Οι διαδρομές καταγράφονται στο παρασκήνιο, από τη στιγμή που ξεκινάς μέχρι τη στιγμή που παρκάρεις.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🧾</span>
+        <h3>Βιβλίο διαδρομών για τον λογιστή</h3>
+        <p>Ένα PDF με κάθε διαδρομή, τη ρότα και την ημερομηνία της. Συντελεστές χιλιομέτρων για δεκαεπτά χώρες μέσα.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🅿️</span>
+        <h3>Στάσεις και χρόνος αναμονής</h3>
+        <p>Δες πόσο έμεινες σε κάθε παράδοση ή στην αποθήκη, χωρίς να γράψεις τίποτα.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔒</span>
+        <h3>Τίποτα δεν φεύγει από το κινητό σου</h3>
+        <p>Κανένας λογαριασμός, καμία παρακολούθηση, καμία διαφήμιση. Το ιστορικό των διαδρομών σου είναι δικό σου και κρατιέται μόνο στο δικό σου iCloud.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔔</span>
+        <h3>Ανανεώσεις</h3>
+        <p>Γράψε την ένδειξη μία φορά και το DropLane τη μετρά συνέχεια από τα καταγεγραμμένα χιλιόμετρα — έτσι οι ειδοποιήσεις για σέρβις και ΚΤΕΟ μετρούν αντίστροφα σε χιλιόμετρα, όχι μόνο σε ημερομηνίες.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔧</span>
+        <h3>Το όχημά σου</h3>
+        <p>Κατέγραφε εδώ σέρβις, λάστιχα και επισκευές — με τη φωτογραφία του τιμολογίου συνημμένη, έχεις όλο το ιστορικό συνεργείου στην τσέπη σου.</p>
+      </div>
+      <div class="card">
+        <span class="icon">💳</span>
+        <h3>Κάρτα καυσίμων</h3>
+        <p>Όρισε την τιμή που χρεώνει η κάρτα σου ανά λίτρο. Κατέγραφε λίτρα όταν γεμίζεις και το DropLane βγάζει το κόστος.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="screens">
+  <div class="wrap">
+    <h2>Όλη η εφαρμογή, στο φως και στο σκοτάδι</h2>
+    <p class="section-intro">Αληθινές οθόνες, από έναν μήνα αληθινής δουλειάς. Γύρνα τον διακόπτη πάνω και κάθε οθόνη εδώ αλλάζει μαζί του.</p>
+  </div>
+  <div class="wrap">
+    <div class="rail">
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/today.webp" width="640" height="1391" alt="Σήμερα — Όσο οι ρόδες γυρίζουν ακόμα." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/today.webp" width="640" height="1391" alt="Σήμερα — Όσο οι ρόδες γυρίζουν ακόμα." loading="lazy">
+        </div></div>
+        <figcaption><b>Σήμερα</b>Όσο οι ρόδες γυρίζουν ακόμα.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/day.webp" width="640" height="1391" alt="Η μέρα στον χάρτη — Κάθε χρώμα είναι μία διαδρομή." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/day.webp" width="640" height="1391" alt="Η μέρα στον χάρτη — Κάθε χρώμα είναι μία διαδρομή." loading="lazy">
+        </div></div>
+        <figcaption><b>Η μέρα στον χάρτη</b>Κάθε χρώμα είναι μία διαδρομή.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/trip.webp" width="640" height="1391" alt="Μία διαδρομή — Ώρες, στάσεις, και τι είδους χιλιόμετρα." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/trip.webp" width="640" height="1391" alt="Μία διαδρομή — Ώρες, στάσεις, και τι είδους χιλιόμετρα." loading="lazy">
+        </div></div>
+        <figcaption><b>Μία διαδρομή</b>Ώρες, στάσεις, και τι είδους χιλιόμετρα.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/trip-sort.webp" width="640" height="1391" alt="Ταξινόμηση διαδρομής — Εργασία, άδεια, προς παραλαβή ή προσωπική." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/trip-sort.webp" width="640" height="1391" alt="Ταξινόμηση διαδρομής — Εργασία, άδεια, προς παραλαβή ή προσωπική." loading="lazy">
+        </div></div>
+        <figcaption><b>Ταξινόμηση διαδρομής</b>Εργασία, άδεια, προς παραλαβή ή προσωπική.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/days.webp" width="640" height="1391" alt="Ημέρες — Κάθε μέρα, ήδη αθροισμένη." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/days.webp" width="640" height="1391" alt="Ημέρες — Κάθε μέρα, ήδη αθροισμένη." loading="lazy">
+        </div></div>
+        <figcaption><b>Ημέρες</b>Κάθε μέρα, ήδη αθροισμένη.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/stats.webp" width="640" height="1391" alt="Στατιστικά — Η βδομάδα, σε καθαρά νούμερα." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/stats.webp" width="640" height="1391" alt="Στατιστικά — Η βδομάδα, σε καθαρά νούμερα." loading="lazy">
+        </div></div>
+        <figcaption><b>Στατιστικά</b>Η βδομάδα, σε καθαρά νούμερα.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/insights.webp" width="640" height="1391" alt="Αναλύσεις — Τι αποδίδουν πραγματικά μια ώρα κι ένα χιλιόμετρο." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/insights.webp" width="640" height="1391" alt="Αναλύσεις — Τι αποδίδουν πραγματικά μια ώρα κι ένα χιλιόμετρο." loading="lazy">
+        </div></div>
+        <figcaption><b>Αναλύσεις</b>Τι αποδίδουν πραγματικά μια ώρα κι ένα χιλιόμετρο.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/insights-tax.webp" width="640" height="1391" alt="Φόροι — Τι αξίζουν τα χιλιόμετρα της περιόδου." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/insights-tax.webp" width="640" height="1391" alt="Φόροι — Τι αξίζουν τα χιλιόμετρα της περιόδου." loading="lazy">
+        </div></div>
+        <figcaption><b>Φόροι</b>Τι αξίζουν τα χιλιόμετρα της περιόδου.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/report.webp" width="640" height="1391" alt="Το PDF — Χτισμένο όπως το θέλει ο λογιστής σου." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/report.webp" width="640" height="1391" alt="Το PDF — Χτισμένο όπως το θέλει ο λογιστής σου." loading="lazy">
+        </div></div>
+        <figcaption><b>Το PDF</b>Χτισμένο όπως το θέλει ο λογιστής σου.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/expense.webp" width="640" height="1391" alt="Έξοδα — Καύσιμα, φαγητό, πάρκινγκ, διόδια." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/expense.webp" width="640" height="1391" alt="Έξοδα — Καύσιμα, φαγητό, πάρκινγκ, διόδια." loading="lazy">
+        </div></div>
+        <figcaption><b>Έξοδα</b>Καύσιμα, φαγητό, πάρκινγκ, διόδια.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/vehicle.webp" width="640" height="1391" alt="Όχημα — ΚΤΕΟ, τέλη κυκλοφορίας και ασφάλεια, πριν σε προλάβουν." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/vehicle.webp" width="640" height="1391" alt="Όχημα — ΚΤΕΟ, τέλη κυκλοφορίας και ασφάλεια, πριν σε προλάβουν." loading="lazy">
+        </div></div>
+        <figcaption><b>Όχημα</b>ΚΤΕΟ, τέλη κυκλοφορίας και ασφάλεια, πριν σε προλάβουν.</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/el/dark/settings.webp" width="640" height="1391" alt="Ρυθμίσεις — Χιλιόμετρα ή μίλια. Φωτεινό ή σκούρο." loading="lazy">
+          <img class="only-light" src="/assets/screens/el/light/settings.webp" width="640" height="1391" alt="Ρυθμίσεις — Χιλιόμετρα ή μίλια. Φωτεινό ή σκούρο." loading="lazy">
+        </div></div>
+        <figcaption><b>Ρυθμίσεις</b>Χιλιόμετρα ή μίλια. Φωτεινό ή σκούρο.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="countries">
+  <div class="wrap">
+    <h2>Πού ξέρει το DropLane τους κανόνες</h2>
+    <p class="section-intro">Η εφαρμογή δουλεύει παντού. Σε αυτές τις χώρες ξέρει επιπλέον τον συντελεστή ανά χιλιόμετρο που δέχεται η εφορία, και πώς λέγονται τα χαρτιά του οχήματός σου.</p>
+    <ul class="chips">
+      <li><span class="flag">🇬🇧</span> <span data-region="GB">United Kingdom</span> <span class="rate">55p/mi</span></li>
+      <li><span class="flag">🇮🇪</span> <span data-region="IE">Ireland</span></li>
+      <li><span class="flag">🇺🇸</span> <span data-region="US">United States</span> <span class="rate">76¢/mi</span></li>
+      <li><span class="flag">🇨🇦</span> <span data-region="CA">Canada</span> <span class="rate">73¢/km</span></li>
+      <li><span class="flag">🇦🇺</span> <span data-region="AU">Australia</span> <span class="rate">91¢/km</span></li>
+      <li><span class="flag">🇩🇪</span> <span data-region="DE">Germany</span> <span class="rate">30c/km</span></li>
+      <li><span class="flag">🇳🇱</span> <span data-region="NL">Netherlands</span> <span class="rate">25c/km</span></li>
+      <li><span class="flag">🇧🇪</span> <span data-region="BE">Belgium</span> <span class="rate">47.61c/km</span></li>
+      <li><span class="flag">🇦🇹</span> <span data-region="AT">Austria</span> <span class="rate">50c/km</span></li>
+      <li><span class="flag">🇵🇹</span> <span data-region="PT">Portugal</span> <span class="rate">40c/km</span></li>
+      <li><span class="flag">🇵🇱</span> <span data-region="PL">Poland</span> <span class="rate">1.15 zł/km</span></li>
+      <li><span class="flag">🇨🇿</span> <span data-region="CZ">Czechia</span> <span class="rate">5.90 Kč/km</span></li>
+      <li><span class="flag">🇸🇰</span> <span data-region="SK">Slovakia</span> <span class="rate">31.3c/km</span></li>
+      <li><span class="flag">🇭🇺</span> <span data-region="HU">Hungary</span> <span class="rate">15 Ft/km</span></li>
+      <li><span class="flag">🇸🇪</span> <span data-region="SE">Sweden</span> <span class="rate">25 kr/mil</span></li>
+      <li><span class="flag">🇳🇴</span> <span data-region="NO">Norway</span> <span class="rate">3.50 kr/km</span></li>
+      <li><span class="flag">🇩🇰</span> <span data-region="DK">Denmark</span> <span class="rate">3.94 kr/km</span></li>
+      <li><span class="flag">🇫🇮</span> <span data-region="FI">Finland</span> <span class="rate">55c/km</span></li>
+      <li><span class="flag">🇷🇴</span> <span data-region="RO">Romania</span></li>
+      <li><span class="flag">🇧🇬</span> <span data-region="BG">Bulgaria</span></li>
+      <li><span class="flag">🇬🇷</span> <span data-region="GR">Greece</span></li>
+      <li><span class="flag">🇱🇹</span> <span data-region="LT">Lithuania</span></li>
+      <li><span class="flag">🇱🇻</span> <span data-region="LV">Latvia</span></li>
+      <li><span class="flag">🇹🇷</span> <span data-region="TR">Turkey</span></li>
+      <li><span class="flag">🇺🇦</span> <span data-region="UA">Ukraine</span></li>
+    </ul>
+    <p class="section-intro" style="margin:26px 0 0">Αλλού; Γράψε τον συντελεστή που επιτρέπει η δική σου εφορία και τα υπόλοιπα τα κάνει το DropLane.</p>
+  </div>
+</section>
+
+<section class="band" id="languages">
+  <div class="wrap split">
+    <div>
+      <h2>Διάβασέ το στη δική σου γλώσσα</h2>
+      <p class="section-intro">Όλη η εφαρμογή — κάθε οθόνη, κάθε ειδοποίηση, οι αναφορές — όχι μόνο αυτή η σελίδα. Και τα λεφτά μένουν στο δικό σου νόμισμα, σε όποια γλώσσα κι αν τη διαβάζεις.</p>
+      <ul class="langgrid">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
+        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
+        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
+        <li><a href="/gr/" hreflang="el" aria-current="true" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
+        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
+        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
+        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+      </ul>
+    </div>
+    <figure class="shot" style="width:auto;margin:0">
+      <div class="device" style="margin-inline:auto"><div class="device-screen">
+        <img class="only-dark" src="/assets/screens/el/dark/stats.webp" width="640" height="1391" alt="Η οθόνη Στατιστικά: καθαρά, έσοδα και έξοδα της βδομάδας, με την απόσταση ανά είδος." loading="lazy">
+        <img class="only-light" src="/assets/screens/el/light/stats.webp" width="640" height="1391" alt="Η οθόνη Στατιστικά: καθαρά, έσοδα και έξοδα της βδομάδας, με την απόσταση ανά είδος." loading="lazy">
+      </div></div>
+      <figcaption style="text-align:center"><b>Στατιστικά</b>Η βδομάδα σου, στη γλώσσα σου και στα λεφτά σου.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Μία τιμή, όλα μέσα</h2>
+    <p class="section-intro">Δεκατέσσερις μέρες δωρεάν. Χωρίς κάρτα για να ξεκινήσεις, και τίποτα κλειδωμένο πίσω από ακριβότερο πακέτο.</p>
+
+    <div class="price-grid">
+      <div class="price">
+        <h3>Μηνιαία</h3>
+        <p class="amount">4,99 €</p>
+        <p class="per">τον μήνα, ακυρώνεις όποτε θες</p>
+        <ul>
+          <li>Όλες οι λειτουργίες, χωρίς πρόσθετα</li>
+          <li>Πρώτα 14 μέρες δωρεάν</li>
+        </ul>
+      </div>
+      <div class="price best">
+        <span class="tag">Καλύτερη αξία</span>
+        <h3>Ετήσια</h3>
+        <p class="amount">34,99 €</p>
+        <p class="per">τον χρόνο — ο φθηνότερος δρόμος</p>
+        <ul>
+          <li>Όλες οι λειτουργίες, χωρίς πρόσθετα</li>
+          <li>Γλίτωσε 24,89 € τον χρόνο — 41% φθηνότερα</li>
+          <li>Βγαίνει 2,92 € τον μήνα</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pricetable">
+      <div class="pricetable-head">
+        <h3 style="font-size:20px;margin:0">Η τιμή εκεί που είσαι</h3>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input type="search" id="price-search" placeholder="Βρες τη χώρα σου" aria-label="Βρες τη χώρα σου">
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table class="prices">
+          <thead>
+            <tr><th scope="col">Χώρα</th><th scope="col">Μηνιαία</th><th scope="col">Ετήσια</th></tr>
+          </thead>
+          <tbody id="price-rows" data-you="Εσύ">
+            <tr data-cc="GB" data-flag="🇬🇧" data-name="United Kingdom"><td><span class="flag">🇬🇧</span><span data-region="GB">United Kingdom</span></td><td>£6.99</td><td>£49.99</td></tr>
+            <tr data-cc="IE" data-flag="🇮🇪" data-name="Ireland"><td><span class="flag">🇮🇪</span><span data-region="IE">Ireland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="US" data-flag="🇺🇸" data-name="United States"><td><span class="flag">🇺🇸</span><span data-region="US">United States</span></td><td>$6.99</td><td>$49.99</td></tr>
+            <tr data-cc="CA" data-flag="🇨🇦" data-name="Canada"><td><span class="flag">🇨🇦</span><span data-region="CA">Canada</span></td><td>C$9.99</td><td>C$69.99</td></tr>
+            <tr data-cc="AU" data-flag="🇦🇺" data-name="Australia"><td><span class="flag">🇦🇺</span><span data-region="AU">Australia</span></td><td>A$11.99</td><td>A$79.99</td></tr>
+            <tr data-cc="NZ" data-flag="🇳🇿" data-name="New Zealand"><td><span class="flag">🇳🇿</span><span data-region="NZ">New Zealand</span></td><td>NZ$12.99</td><td>NZ$89.99</td></tr>
+            <tr data-cc="DE" data-flag="🇩🇪" data-name="Germany"><td><span class="flag">🇩🇪</span><span data-region="DE">Germany</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FR" data-flag="🇫🇷" data-name="France"><td><span class="flag">🇫🇷</span><span data-region="FR">France</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="NL" data-flag="🇳🇱" data-name="Netherlands"><td><span class="flag">🇳🇱</span><span data-region="NL">Netherlands</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FI" data-flag="🇫🇮" data-name="Finland"><td><span class="flag">🇫🇮</span><span data-region="FI">Finland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="IT" data-flag="🇮🇹" data-name="Italy"><td><span class="flag">🇮🇹</span><span data-region="IT">Italy</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="ES" data-flag="🇪🇸" data-name="Spain"><td><span class="flag">🇪🇸</span><span data-region="ES">Spain</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="PT" data-flag="🇵🇹" data-name="Portugal"><td><span class="flag">🇵🇹</span><span data-region="PT">Portugal</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="GR" data-flag="🇬🇷" data-name="Greece"><td><span class="flag">🇬🇷</span><span data-region="GR">Greece</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SK" data-flag="🇸🇰" data-name="Slovakia"><td><span class="flag">🇸🇰</span><span data-region="SK">Slovakia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LT" data-flag="🇱🇹" data-name="Lithuania"><td><span class="flag">🇱🇹</span><span data-region="LT">Lithuania</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LV" data-flag="🇱🇻" data-name="Latvia"><td><span class="flag">🇱🇻</span><span data-region="LV">Latvia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SE" data-flag="🇸🇪" data-name="Sweden"><td><span class="flag">🇸🇪</span><span data-region="SE">Sweden</span></td><td>79 SEK</td><td>599 SEK</td></tr>
+            <tr data-cc="NO" data-flag="🇳🇴" data-name="Norway"><td><span class="flag">🇳🇴</span><span data-region="NO">Norway</span></td><td>79 NOK</td><td>599 NOK</td></tr>
+            <tr data-cc="DK" data-flag="🇩🇰" data-name="Denmark"><td><span class="flag">🇩🇰</span><span data-region="DK">Denmark</span></td><td>49 DKK</td><td>349 DKK</td></tr>
+            <tr data-cc="PL" data-flag="🇵🇱" data-name="Poland"><td><span class="flag">🇵🇱</span><span data-region="PL">Poland</span></td><td>24,99 zł</td><td>169,99 zł</td></tr>
+            <tr data-cc="CZ" data-flag="🇨🇿" data-name="Czechia"><td><span class="flag">🇨🇿</span><span data-region="CZ">Czechia</span></td><td>149 Kč</td><td>999 Kč</td></tr>
+            <tr data-cc="HU" data-flag="🇭🇺" data-name="Hungary"><td><span class="flag">🇭🇺</span><span data-region="HU">Hungary</span></td><td>2 490 Ft</td><td>16 990 Ft</td></tr>
+            <tr data-cc="RO" data-flag="🇷🇴" data-name="Romania"><td><span class="flag">🇷🇴</span><span data-region="RO">Romania</span></td><td>24,99 lei</td><td>169,99 lei</td></tr>
+            <tr data-cc="BG" data-flag="🇧🇬" data-name="Bulgaria"><td><span class="flag">🇧🇬</span><span data-region="BG">Bulgaria</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="TR" data-flag="🇹🇷" data-name="Turkey"><td><span class="flag">🇹🇷</span><span data-region="TR">Turkey</span></td><td>₺199,99</td><td>₺1.399,99</td></tr>
+            <tr data-cc="UA" data-flag="🇺🇦" data-name="Ukraine"><td><span class="flag">🇺🇦</span><span data-region="UA">Ukraine</span></td><td>$4.99</td><td>$34.99</td></tr>
+            <tr data-cc="BR" data-flag="🇧🇷" data-name="Brazil"><td><span class="flag">🇧🇷</span><span data-region="BR">Brazil</span></td><td>R$ 19,90</td><td>R$ 129,90</td></tr>
+            <tr data-cc="MX" data-flag="🇲🇽" data-name="Mexico"><td><span class="flag">🇲🇽</span><span data-region="MX">Mexico</span></td><td>MX$99</td><td>MX$649</td></tr>
+            <tr data-cc="ZA" data-flag="🇿🇦" data-name="South Africa"><td><span class="flag">🇿🇦</span><span data-region="ZA">South Africa</span></td><td>R99.99</td><td>R699.99</td></tr>
+            <tr data-cc="IN" data-flag="🇮🇳" data-name="India"><td><span class="flag">🇮🇳</span><span data-region="IN">India</span></td><td>₹299</td><td>₹1,999</td></tr>
+            <tr data-cc="CN" data-flag="🇨🇳" data-name="China"><td><span class="flag">🇨🇳</span><span data-region="CN">China</span></td><td>¥29</td><td>¥199</td></tr>
+            <tr data-cc="JP" data-flag="🇯🇵" data-name="Japan"><td><span class="flag">🇯🇵</span><span data-region="JP">Japan</span></td><td>¥980</td><td>¥6,800</td></tr>
+            <tr data-cc="KR" data-flag="🇰🇷" data-name="South Korea"><td><span class="flag">🇰🇷</span><span data-region="KR">South Korea</span></td><td>₩8,900</td><td>₩59,000</td></tr>
+            <tr data-cc="ID" data-flag="🇮🇩" data-name="Indonesia"><td><span class="flag">🇮🇩</span><span data-region="ID">Indonesia</span></td><td>Rp49.000</td><td>Rp329.000</td></tr>
+            <tr data-cc="AE" data-flag="🇦🇪" data-name="United Arab Emirates"><td><span class="flag">🇦🇪</span><span data-region="AE">United Arab Emirates</span></td><td>AED 24.99</td><td>AED 169.99</td></tr>
+            <tr data-cc="SA" data-flag="🇸🇦" data-name="Saudi Arabia"><td><span class="flag">🇸🇦</span><span data-region="SA">Saudi Arabia</span></td><td>SAR 24.99</td><td>SAR 169.99</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="table-note"><strong>Σύντομα στο App Store</strong> Κάθε χώρα έχει τη δική της τιμή αντί για μετατρεμμένη, ώστε να μην πληρώνει κανείς μεταμφιεσμένο λογαριασμό σε λίρες. Το App Store σού δείχνει τη δική σου πριν συμφωνήσεις σε οτιδήποτε, με τον φόρο μέσα. Δεν είσαι στη λίστα; Το App Store έχει τιμή και για σένα, στο δικό σου νόμισμα.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="faq">
+  <div class="wrap">
+    <h2>Ερωτήσεις που κάνουν στ&#x27; αλήθεια οι κούριερ</h2>
+    <p class="section-intro">Ίσιες απαντήσεις, από κάποιον που κάνει τη δουλειά.</p>
+    <div class="faq">
+      <details>
+        <summary>Δεν είναι απλώς άλλη μία εφαρμογή χιλιομέτρων;</summary>
+        <p>Τα χιλιόμετρα τα καταγράφει το ίδιο, χωρίς κουμπί έναρξης. Η διαφορά είναι σε αυτό που ακολουθεί: τα έσοδά σου μπαίνουν, τα καύσιμα, το πάρκινγκ και τα πάγια έξοδα βγαίνουν, και η εφαρμογή σου λέει τι απέδωσε πραγματικά η ώρα. Ένας αριθμός χιλιομέτρων μόνος του δεν είπε ποτέ σε κανέναν αν άξιζε η βάρδια.</p>
+      </details>
+      <details>
+        <summary>Τρώει μπαταρία;</summary>
+        <p>Το DropLane δεν αφήνει το GPS ανοιχτό όλη μέρα. Κάθεται ήσυχο μέχρι να καταλάβει ότι έφυγες από εκεί που πάρκαρες, καταγράφει όσο κινείσαι, και ξανακοιμάται όταν σταματάς.</p>
+      </details>
+      <details>
+        <summary>Πρέπει να πατήσω έναρξη;</summary>
+        <p>Όχι — και δεν υπάρχει καν κουμπί. Αυτό ακριβώς είναι το νόημα. Ό,τι πρέπει να θυμάσαι, θα το ξεχάσεις τη μέρα που μετράει.</p>
+      </details>
+      <details>
+        <summary>Κι αν ξεχάσω να ταξινομήσω μια διαδρομή;</summary>
+        <p>Δεν χάνεται τίποτα. Οι αταξινόμητες διαδρομές περιμένουν στην οθόνη Ημέρες, και η εφαρμογή σού το θυμίζει αντί να μαντεύει για σένα.</p>
+      </details>
+      <details>
+        <summary>Θα καταλήξει κάπου το ιστορικό των διαδρομών μου;</summary>
+        <p>Όχι. Δεν υπάρχει λογαριασμός ούτε διακομιστής. Όλα μένουν στο iPhone σου και κρατιούνται μόνο στο δικό σου iCloud, αν το θέλεις.</p>
+      </details>
+      <details>
+        <summary>Εγώ πάω με μηχανάκι, όχι με βαν.</summary>
+        <p>Δουλεύει. Τα χιλιόμετρα με μηχανάκι ή ποδήλατο μεταφορών καταγράφονται το ίδιο. Οι ενσωματωμένοι συντελεστές όμως αφορούν μηχανοκίνητα οχήματα, οπότε τι μπορείς να εκπέσεις εξαρτάται από τη χώρα και την περίπτωσή σου — αξίζει να ρωτήσεις λογιστή.</p>
+      </details>
+      <details>
+        <summary>Υπάρχει μέσα ο συντελεστής της χώρας μου;</summary>
+        <p>Δεκαεπτά χώρες έχουν τον επίσημο συντελεστή τους μέσα και ενημερωμένο. Οπουδήποτε αλλού γράφεις τον δικό σου μία φορά και η εφαρμογή κάνει τους λογαριασμούς.</p>
+      </details>
+      <details>
+        <summary>Μπορώ να το έχω σε χιλιόμετρα;</summary>
+        <p>Ναι. Χιλιόμετρα ή μίλια, το δικό σου νόμισμα, και η τιμή καυσίμου που πραγματικά πληρώνεις — όλα στις Ρυθμίσεις, στην πρώτη κιόλας οθόνη.</p>
+      </details>
+      <details>
+        <summary>Δουλεύει εκεί που δεν έχει σήμα;</summary>
+        <p>Ναι. Η καταγραφή τρέχει με το GPS του ίδιου του iPhone και δεν θέλει καθόλου ίντερνετ. Οι διαδρομές εκτός σήματος γυρίζουν με «Αρχή» και «Τέλος» αντί για ονόματα δρόμων, και το DropLane τα συμπληρώνει την επόμενη φορά που θα δει Wi-Fi. Μια βδομάδα σε επαρχιακούς δρόμους χωρίς γραμμές βγαίνει σωστά ούτως ή άλλως.</p>
+      </details>
+      <details>
+        <summary>Τι γίνεται όταν πάρω καινούριο κινητό;</summary>
+        <p>Μπες στο ίδιο iCloud και οι διαδρομές, τα έσοδα και τα έξοδά σου γυρίζουν μόνα τους. Δεν υπάρχει λογαριασμός να φτιάξεις ούτε κωδικός να χάσεις, γιατί ποτέ δεν υπήρξε διακομιστής που να κρατά κάτι από αυτά — το αντίγραφο είναι δικό σου, στο δικό σου iCloud.</p>
+      </details>
+      <details>
+        <summary>Κι αν σταματήσω να πληρώνω — χάνω τα αρχεία μου;</summary>
+        <p>Δεν διαγράφεται τίποτα. Οι διαδρομές σου μένουν στο iPhone και στο δικό σου iCloud, ακριβώς εκεί που ήταν. Το DropLane όμως θέλει ενεργή συνδρομή για να ανοίξει, οπότε αν θες τα νούμερα και αλλού, εξήγαγε το CSV πριν φύγεις. Είναι στις Ρυθμίσεις, με ένα πάτημα.</p>
+      </details>
+      <details>
+        <summary>Πώς ξέρω τι κόστισαν πραγματικά τα καύσιμα πριν έρθει ο λογαριασμός της κάρτας;</summary>
+        <p>Πες στο DropLane την τιμή ανά λίτρο που χρεώνει η κάρτα καυσίμων σου, και μετά γράψε τα λίτρα όταν γεμίζεις. Το κόστος βγαίνει την ίδια μέρα, οπότε το κέρδος της βδομάδας είναι σωστό βδομάδες πριν φανεί ο λογαριασμός.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="closer">
+      <h2>Σταμάτα να μαντεύεις τι απέδωσε η μέρα.</h2>
+      <p>Δεκατέσσερις μέρες δωρεάν, χωρίς λογαριασμό, και τίποτα να θυμάσαι στις έξι το πρωί.</p>
+      <a class="btn" href="mailto:help@droplane.co.uk?subject=DropLane%20launch%20list">Γράψε μου όταν βγει</a>
+      <p class="closer-note">Σύντομα στο App Store</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">DropLane — χιλιόμετρα και έσοδα για αυτοαπασχολούμενους κούριερ, αυτόματα. Φτιαγμένο από κούριερ, στο Torquay.</p>
+    <div class="foot-links">
+      <a href="/privacy/">Απόρρητο</a>
+      <a href="/terms/">Όροι</a>
+      <a href="/support/">Βοήθεια</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Κλείσιμο">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,327 @@
+{
+  "meta_title": "DropLane — Věz, co ti den doopravdy vydělal",
+  "meta_description": "DropLane sám zaznamená jízdy kurýra, odečte palivo, parkování a provozní náklady od tržeb a řekne ti, co doopravdy vydělala hodina. K tomu kniha jízd připravená pro účetní, ve čtyřiadvaceti jazycích, celé v telefonu.",
+  "nav_label": "Hlavní menu",
+  "nav_how": "Jak to funguje",
+  "nav_day": "Co vydělá",
+  "nav_features": "Co umí",
+  "nav_screens": "Obrazovky",
+  "nav_countries": "Kde funguje",
+  "nav_languages": "Jazyky",
+  "nav_pricing": "Cena",
+  "nav_faq": "Otázky",
+  "nav_support": "Podpora",
+  "cta_get": "Pořídit DropLane",
+  "menu": "Menu",
+  "close": "Zavřít",
+  "theme_label": "Barevné schéma",
+  "theme_light": "Světlé",
+  "theme_dark": "Tmavé",
+  "language_label": "Jazyk",
+  "language_title": "Přečti si tenhle web ve svém jazyce",
+  "language_note": "Aplikace sama mluví čtyřiadvaceti jazyky — zbytek se sem teprve chystá.",
+  "langbar_strong": "Čtyřiadvacet jazyků.",
+  "langbar_rest": "Vyber si ten svůj — aplikace ho umí taky.",
+  "per_month_short": "měsíčně",
+  "see_all": "zobrazit vše",
+  "hero_h1": "Věz, co ti den doopravdy vydělal.",
+  "hero_lede": "Nastartuj dodávku. To je celé. DropLane zaznamená každou jízdu i trasu, kterou jsi opravdu jel, odečte náklady od tržeb a tvoji hodinovku máš spočítanou dřív, než přijdeš domů.",
+  "hero_cta_notify": "Dej mi vědět, až vyjde",
+  "hero_cta_how": "Jak to funguje",
+  "hero_note": "14 dní zdarma · žádný účet, žádné reklamy · iPhone",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "tlačítek k mačkání"
+    },
+    {
+      "value": "24",
+      "label": "jazyků"
+    },
+    {
+      "value": "17",
+      "label": "sazeb za kilometr uvnitř"
+    }
+  ],
+  "money_h2": "Dva dny. Víc kilometrů. Míň peněz.",
+  "money_intro": "Úterý: 126 kilometrů, tři jízdy. Včera: 80,5 kilometru, dvě jízdy. Aplikace na kilometry ti řekne, že úterý byl plnější den — a má pravdu. Z úterý zbylo 2 098 Kč. Ze včerejška 2 505 Kč.",
+  "money_day1_when": "úterý 25. srpna",
+  "money_day1_distance": "126 km",
+  "money_day1_trips": "3 jízdy",
+  "money_day1_money": "2 098,30 Kč",
+  "money_day2_when": "Včera",
+  "money_day2_distance": "80,5 km",
+  "money_day2_trips": "2 jízdy",
+  "money_day2_money": "2 504,80 Kč",
+  "money_label_distance": "Na cestě",
+  "money_label_trips": "Jízdy",
+  "money_label_money": "Zbylo",
+  "money_punch": "O 45,5 kilometru víc. O 406,50 Kč míň.",
+  "money_note": "Kilometry jsou ta snadná polovina — a ta, která ti nic neřekne. Který den stál za to, je ve druhém sloupci, a právě ten za tebe DropLane vyplní, ještě týž den a bez jediné poznámky.",
+  "day_h2": "Co ten den doopravdy vydělal?",
+  "day_intro": "2 624 Kč zní jako dobrý den. Odečti palivo a parkování, rozpočítej to na 6 h 15 min na cestě, a vyjde 266,42 Kč za hodinu. To je číslo, které za volantem nikdo nemá — a to, které ti DropLane dá dřív, než přijdeš domů.",
+  "day_film1_title": "Den se sečetl sám",
+  "day_film1_body": "Dvě jízdy a 2 232,80 Kč, které zbyly po odečtení nákladů. Nic se nepsalo.",
+  "day_film2_title": "Report se postaví sám",
+  "day_film2_body": "Zaškrtni, co má být uvnitř, vyber na výšku nebo na šířku — a PDF pro účetní je připravené k odeslání.",
+  "day_film3_title": "A co doopravdy vydělala hodina",
+  "day_film3_body": "266,42 Kč za hodinu po nákladech a za tím náhrada za kilometry.",
+  "day_tally_lead": "Jeden den, z obrazovek nahoře",
+  "day_label_earned": "Vyděláno",
+  "day_label_costs": "Náklady",
+  "day_label_kept": "Zbylo",
+  "day_earned": "2 624,00 Kč",
+  "day_costs": "391,20 Kč",
+  "day_kept": "2 232,80 Kč",
+  "day_rate_value": "266,42 Kč",
+  "day_hours_value": "6 h 15 min",
+  "day_label_hours": "na cestě",
+  "day_label_hour": "za hodinu",
+  "day_note": "Čísla jednoho dne, přímo z obrazovek výše. Tvoje budou jiná — jde o to mít je týž den v autě, a ne je zjišťovat až na jaře.",
+  "how_h2": "Tři kroky, a dva z nich nejsou tvoje",
+  "how_intro": "V DropLane není tlačítko start, a to schválně. V šest ráno s dodávkou plnou balíků si na něj nikdo nevzpomene.",
+  "how_steps": [
+    {
+      "title": "Jednou zapneš",
+      "body": "Nainstaluješ aplikaci a povolíš polohu na pozadí. Víc nastavování už nepřijde."
+    },
+    {
+      "title": "Jedeš",
+      "body": "Každá jízda se uloží sama, i s trasou, zastávkami a tím, jak dlouho jsi na každé stál."
+    },
+    {
+      "title": "Klepnutím roztřídíš",
+      "body": "Pracovní, prázdná, k vyzvednutí nebo soukromá. Součty i částka pro finanční úřad se dopočítají samy."
+    }
+  ],
+  "how_proof": "Pak se dny vrší samy. Vybereš týden, měsíc nebo vlastní data, zaškrtneš, co má být uvnitř, a PDF pro účetní je na jedno klepnutí — postavené z jízd, které jsi nikdy nemusel zapisovat.",
+  "features_h2": "Co doopravdy umí",
+  "features_intro": "Postavil ji kurýr s deseti lety na silnici, pro práci takovou, jaká doopravdy je.",
+  "features": [
+    {
+      "icon": "💷",
+      "title": "Co den doopravdy vydělal",
+      "body": "Tržby dovnitř, palivo a náklady ven, a dole číslo, na kterém záleží — za den, za týden, za měsíc."
+    },
+    {
+      "icon": "⛽",
+      "title": "Co doopravdy vydělá hodina",
+      "body": "Palivo, splátka a pojištění rozpočítané na dny, kdy jezdíš, aby hodinovka byla ta skutečná."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Kilometry bez sáhnutí na telefon",
+      "body": "Jízdy se zaznamenávají na pozadí, od chvíle, kdy se rozjedeš, po chvíli, kdy zaparkuješ."
+    },
+    {
+      "icon": "🧾",
+      "title": "Kniha jízd pro účetní",
+      "body": "PDF s každou jízdou, její trasou a datem. Sazby za kilometr pro sedmnáct zemí uvnitř."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Zastávky a čekání",
+      "body": "Uvidíš, jak dlouho jsi stál na každé adrese nebo v depu, aniž bys cokoli zapisoval."
+    },
+    {
+      "icon": "🔒",
+      "title": "Z telefonu nic neodchází",
+      "body": "Žádný účet, žádné sledování, žádné reklamy. Historie tvých tras je tvoje a zálohuje se jen do tvého iCloudu."
+    },
+    {
+      "icon": "🔔",
+      "title": "Termíny",
+      "body": "Zadej stav jednou a DropLane ho dál dopočítává ze zaznamenaných kilometrů — upozornění na servis a STK tak můžou odpočítávat v kilometrech, ne jen v datech."
+    },
+    {
+      "icon": "🔧",
+      "title": "Tvoje vozidlo",
+      "body": "Zapisuj sem servisy, pneumatiky a opravy — s přiloženou fotkou faktury máš celou servisní historii v kapse."
+    },
+    {
+      "icon": "💳",
+      "title": "Tankovací karta",
+      "body": "Nastav cenu za litr z tvé karty. Při tankování zapiš litry a DropLane dopočítá náklady."
+    }
+  ],
+  "screens_h2": "Celá aplikace, za světla i ve tmě",
+  "screens_intro": "Skutečné obrazovky z měsíce skutečné práce. Přepni přepínač nahoře a každá se přepne s ním.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Dnes",
+      "body": "Zatímco se kola ještě točí."
+    },
+    {
+      "file": "day",
+      "title": "Den na mapě",
+      "body": "Každá barva je jedna jízda."
+    },
+    {
+      "file": "trip",
+      "title": "Jedna jízda",
+      "body": "Časy, zastávky a jaké to byly kilometry."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Třídění jízdy",
+      "body": "Pracovní, prázdná, k vyzvednutí nebo soukromá."
+    },
+    {
+      "file": "days",
+      "title": "Dny",
+      "body": "Každý den, už sečtený."
+    },
+    {
+      "file": "stats",
+      "title": "Statistiky",
+      "body": "Týden v jasných číslech."
+    },
+    {
+      "file": "insights",
+      "title": "Přehledy",
+      "body": "Co doopravdy vydělá hodina a kilometr."
+    },
+    {
+      "file": "insights-tax",
+      "title": "Daně",
+      "body": "Co jsou kilometry za tohle období."
+    },
+    {
+      "file": "report",
+      "title": "PDF",
+      "body": "Postavené tak, jak to chce účetní."
+    },
+    {
+      "file": "expense",
+      "title": "Náklady",
+      "body": "Palivo, jídlo, parkování, mýto."
+    },
+    {
+      "file": "vehicle",
+      "title": "Vozidlo",
+      "body": "STK, silniční daň a pojištění, než tě doženou."
+    },
+    {
+      "file": "settings",
+      "title": "Nastavení",
+      "body": "Kilometry, nebo míle. Světlé, nebo tmavé."
+    }
+  ],
+  "countries_h2": "Kde DropLane zná pravidla",
+  "countries_intro": "Aplikace funguje kdekoli. V těchhle zemích navíc zná sazbu za kilometr, kterou finanční úřad uznává, a to, jak se u vás jmenují papíry k vozidlu.",
+  "countries_note": "Jsi jinde? Zadej sazbu, kterou uznává tvůj finanční úřad, a zbytek udělá DropLane.",
+  "languages_h2": "Čti ji ve svém jazyce",
+  "languages_intro": "Celá aplikace — každá obrazovka, každé oznámení, reporty — ne jen tahle stránka. A peníze zůstávají v tvé měně, ať ji čteš v jakémkoli jazyce.",
+  "languages_caption_title": "Statistiky",
+  "languages_caption_body": "Tvůj týden, ve tvém jazyce a tvých penězích.",
+  "pricing_h2": "Jedna cena, všechno uvnitř",
+  "pricing_intro": "Čtrnáct dní zdarma. Na začátek bez karty a nic není schované za dražším tarifem.",
+  "pricing_monthly": "Měsíčně",
+  "pricing_yearly": "Ročně",
+  "pricing_per_month": "měsíčně, kdykoli zrušíš",
+  "pricing_per_year": "ročně — nejlevnější cesta dovnitř",
+  "pricing_best": "Nejvýhodnější",
+  "pricing_bullet_all": "Všechny funkce, žádné příplatky",
+  "pricing_bullet_trial": "Nejdřív 14 dní zdarma",
+  "pricing_bullet_saving": "Ušetři {saving} ročně — o {percent} % levněji",
+  "pricing_bullet_equivalent": "Vyjde na {monthly} měsíčně",
+  "pricing_table_title": "Cena tam, kde jsi ty",
+  "pricing_search": "Najdi svou zemi",
+  "pricing_col_country": "Země",
+  "pricing_col_month": "Měsíčně",
+  "pricing_col_year": "Ročně",
+  "pricing_you": "Ty",
+  "pricing_note": "Každá země má vlastní cenu, ne přepočtenou, aby nikdo neplatil přestrojený britský účet. App Store ti tu tvou ukáže včetně daně dřív, než s čímkoli souhlasíš. Nejsi v seznamu? App Store má cenu i pro tebe, ve tvé měně.",
+  "faq_h2": "Otázky, které kurýři opravdu kladou",
+  "faq_intro": "Rovné odpovědi od někoho, kdo tu práci dělá.",
+  "faq": [
+    {
+      "q": "Není to jen další aplikace na kilometry?",
+      "a": "Kilometry zaznamenává stejně, bez tlačítka start. Rozdíl je v tom, co přijde potom: tvoje tržby dovnitř, palivo, parkování a provozní náklady ven — a aplikace ti řekne, co doopravdy vydělala hodina. Samotný počet kilometrů ještě nikomu neřekl, jestli se ta trasa vyplatila."
+    },
+    {
+      "q": "Vysává to baterku?",
+      "a": "DropLane nenechá GPS běžet celý den. Tiše čeká, dokud nepozná, že jsi odjel od místa, kde jsi parkoval, nahrává, když se pohybuješ, a zase usne, jakmile zastavíš."
+    },
+    {
+      "q": "Musím mačkat start?",
+      "a": "Ne — a ani není co zmáčknout. O to přesně jde. Co si musíš pamatovat, na to zapomeneš zrovna ten den, kdy na tom záleží."
+    },
+    {
+      "q": "Co když zapomenu jízdu roztřídit?",
+      "a": "Nic se neztratí. Neroztříděné jízdy čekají na obrazovce Dny a aplikace tě šťouchne, místo aby hádala za tebe."
+    },
+    {
+      "q": "Skončí historie mých tras někde na serveru?",
+      "a": "Ne. Není tu žádný účet ani server. Všechno zůstává v tvém iPhonu a zálohuje se jen do tvého iCloudu, pokud budeš chtít."
+    },
+    {
+      "q": "Jezdím na kole, ne s dodávkou.",
+      "a": "To jde. Kilometry na nákladním kole se zaznamenají stejně. Vestavěné sazby za kilometr ale platí pro motorová vozidla, takže co si můžeš u kola uplatnit, závisí na zemi a tvé situaci — vyplatí se zeptat účetní."
+    },
+    {
+      "q": "Je tam sazba mé země?",
+      "a": "Sedmnáct zemí má oficiální sazbu uvnitř a udržovanou aktuální. Kdekoli jinde zadáš svou jednou a aplikace to spočítá."
+    },
+    {
+      "q": "Můžu to používat v kilometrech?",
+      "a": "Ano. Kilometry nebo míle, tvoje měna a cena paliva, kterou opravdu platíš — všechno v Nastavení, hned na první obrazovce."
+    },
+    {
+      "q": "Funguje to tam, kde není signál?",
+      "a": "Ano. Nahrávání běží na GPS samotného iPhonu a internet nepotřebuje vůbec. Jízdy mimo signál se vrátí označené „Začátek“ a „Konec“ místo názvů ulic a DropLane je doplní, jakmile příště uvidí Wi-Fi. Týden po polních cestách bez čárky se stejně sečte správně."
+    },
+    {
+      "q": "Co se stane, když budu mít nový telefon?",
+      "a": "Přihlásíš se do stejného iCloudu a jízdy, výdělky i výdaje se vrátí samy. Není co zakládat ani jaké heslo ztratit, protože nikdy nebyl server, který by cokoli z toho držel — záloha je tvoje, ve tvém iCloudu."
+    },
+    {
+      "q": "A když přestanu platit — přijdu o záznamy?",
+      "a": "Nic se nemaže. Tvoje jízdy zůstanou v iPhonu i ve tvém iCloudu přesně tam, kde byly. DropLane ale potřebuje k otevření aktivní předplatné, takže jestli chceš čísla i jinde, vyexportuj si předtím CSV. Je v Nastavení a stačí na to jedno klepnutí."
+    },
+    {
+      "q": "Jak poznám, co palivo doopravdy stálo, dřív než přijde vyúčtování karty?",
+      "a": "Řekni DropLane cenu za litr, kterou ti palivová karta účtuje, a při tankování zapiš litry. Náklad je hotový týž den, takže zisk týdne sedí týdny předtím, než vyúčtování dorazí."
+    }
+  ],
+  "closer_h2": "Přestaň hádat, co den vydělal.",
+  "closer_body": "Čtrnáct dní zdarma, žádný účet a nic, na co si musíš v šest ráno vzpomenout.",
+  "footer_note": "DropLane — kilometry a výdělky pro kurýry na volné noze, automaticky. Postavil ji kurýr, v Torquay.",
+  "footer_privacy": "Soukromí",
+  "footer_terms": "Podmínky",
+  "footer_support": "Podpora",
+  "alt_today": "Obrazovka Dnes v DropLane: jízda se nahrává na mapě, s denní vzdáleností, hodinami a tržbami.",
+  "alt_days": "Seznam Dny: každý pracovní den se svým ziskem, vzdáleností a počtem jízd.",
+  "alt_report": "Karta reportu: přepínače pro jízdy, výdělky, výdaje a fotky účtenek, a pak PDF.",
+  "alt_stats": "Obrazovka Statistiky: čistý zisk, tržby a náklady za týden, se vzdáleností podle typu.",
+  "papers_h2": "Report na výšku, nebo na šířku",
+  "papers_intro": "Tohle je samotné PDF, ne obrázek přepínačů, které ho staví. Vyber tvar, který sedne tomu, kdo to bude číst — na výšku do šanonu, na šířku, když tabulka jízd potřebuje místo — a přestaví se tak i tak.",
+  "papers_portrait": "Na výšku",
+  "papers_portrait_note": "Do šanonu a na domácí tiskárnu.",
+  "papers_landscape": "Na šířku",
+  "papers_landscape_note": "Širší řádky: každá jízda, její trasa a časy vedle sebe.",
+  "papers_note": "Název firmy, adresa a logo jsou v hlavičce. Zaškrtni, co má být uvnitř — rozpis den po dni, každá jízda, výdělky, výdaje, fotky účtenek, malá mapka u každé jízdy, náhrada za kilometry za období — a DropLane dokument průběžně přestaví.",
+  "alt_report_portrait": "První strana reportu DropLane na výšku: hlavička, součty za období, výdělky a výdaje a náhrada za kilometry.",
+  "alt_report_landscape": "První strana reportu DropLane na šířku, se širší tabulkou jízd.",
+  "papers_choose": "Co bude uvnitř",
+  "papers_zoom": "Zvětšit",
+  "suggest_prompt": "Číst česky",
+  "cta_soon": "Už brzy",
+  "cta_coming": "Brzy v App Storu",
+  "cta_notify": "Napiš mi, až to vyjde",
+  "privacy_h2": "Tvoje data. Jen tvoje.",
+  "privacy_intro": "Všechno zůstává v tvém iPhonu a v tvém vlastním iCloudu. Žádný účet, žádný server, nic se neprodává. Jen ty rozhoduješ, kdo tvé jízdy uvidí.",
+  "privacy_stat_label": "Servery s tvojí polohou",
+  "privacy_point1": "Právě tohle umožňuje DropLane zaznamenávat kilometry. Historie tvé polohy nikdy neopustí tvůj iPhone.",
+  "privacy_point2": "Záloha a obnovení přes iCloud, bez účtu",
+  "privacy_point3": "Export CSV pro tvou evidenci",
+  "setup_shot_location": "Zapnout polohu",
+  "setup_shot_always": "Teď zvol Vždy",
+  "setup_shot_notifications": "Zapnout oznámení",
+  "setup_shot_vehicle": "Čím jezdíš?",
+  "pocket_h3": "Oznámení",
+  "pocket_body": "„Vždy“ umožní zaznamenávat jízdy i se zavřenou aplikací.",
+  "pocket_live_alt": "Zjištěna jízda — nahrává se",
+  "pocket_live_body": "Když jedeš, živá aktivita nechá kilometry přibývat na zamčené obrazovce — vidíš, že se jízda nahrává, aniž bys cokoli odemykal."
+}
