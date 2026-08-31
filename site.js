@@ -291,3 +291,51 @@
     });
   }
 })();
+
+/* ---- counting visitors --------------------------------------------- */
+/* One job: are people finding the site, and do they go on to the App
+   Store. Anonymous and cookieless — nothing here identifies a reader.
+
+   Nothing below names a provider except through the two checks in send(),
+   so changing analytics means changing the one script tag in
+   _build/template.html and the three standalone pages, not this file. */
+
+(function () {
+  'use strict';
+
+  function send(name, data) {
+    try {
+      if (window.fathom) { window.fathom.trackEvent(name); return; }
+      if (window.umami) { window.umami.track(name, data); }
+    } catch (e) {}
+  }
+
+  /* The App Store badge is not on the site yet — it arrives when the app is
+     approved. This listener is deliberately written against any link rather
+     than against the badge, so it starts reporting the day that link lands,
+     with no second visit to this file. */
+
+  document.addEventListener('click', function (event) {
+    var target = event.target;
+    if (!target || !target.closest) return;
+
+    var link = target.closest('a[href]');
+    if (!link) return;
+
+    var href = link.getAttribute('href') || '';
+
+    if (href.indexOf('apps.apple.com') !== -1) { send('appstore-click'); return; }
+
+    /* Someone changing away from the language we offered them is the only
+       honest test of whether the twenty-four translations reach the right
+       readers, so it is worth a line of its own. */
+    if (link.closest('.lang-list') && link.hasAttribute('hreflang')) {
+      send('language-switch', { to: link.getAttribute('hreflang') });
+      return;
+    }
+
+    if (link.host && link.host !== location.host && /^https?:/i.test(link.protocol)) {
+      send('outbound-click', { url: href });
+    }
+  });
+})();
