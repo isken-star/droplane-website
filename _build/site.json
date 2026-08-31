@@ -1,6 +1,12 @@
 {
   "_comment": "Shared, untranslated data for build_site.py. Country names are English fallbacks; the page localises them at runtime with Intl.DisplayNames, so they never need translating by hand.",
 
+  "launch": {
+    "_comment": "On the day Apple approves, set launched to true and run Scripts/build_site.py. That is the whole launch: the coming-soon buttons become App Store links, and site.js starts reporting appstore-click on its own.",
+    "launched": false,
+    "app_store_url": "https://apps.apple.com/app/id6760871535"
+  },
+
   "languages": [
     { "code": "en", "dir": "",   "name": "English",    "flag": "🇬🇧", "locale": "en-GB", "og_locale": "en_GB", "market": "GB", "market_name": "United Kingdom", "price_month": "£6.99",   "price_year": "£49.99" },
     { "code": "en-US", "dir": "us", "name": "English (US)", "flag": "🇺🇸", "locale": "en-US", "og_locale": "en_US", "market": "US", "market_name": "United States", "price_month": "$6.99",   "price_year": "$49.99" },

@@ -386,6 +386,13 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 .cta-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 .cta-note { font-size: 14.5px; color: var(--text-3); }
 
+/* Apple's own artwork from launch day, so it is placed and sized rather than
+   restyled. 58px is the height .btn-ghost beside it comes out at, so the
+   badge and the ghost button sit level on one line. */
+.store-badge { display: inline-flex; line-height: 0; }
+.store-badge img { height: 58px; width: auto; display: block; }
+.store-badge:hover { filter: brightness(1.06); }
+
 /* ---------------- hero ---------------- */
 
 .hero { padding: clamp(28px, 5vw, 62px) 0 clamp(40px, 6vw, 78px); }
