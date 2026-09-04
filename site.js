@@ -165,7 +165,14 @@
     // page be offered dollars: the old check saw "en" on both sides and
     // stayed silent.
     var key = translated[tag] ? tag : (translated[code] ? code : null);
-    if (key && key !== pageLanguage.toLowerCase()) {
+    // A match by bare language must not offer the language the reader is
+    // already on: an en-GB browser on the Australian page has no "en-gb"
+    // page to reach, fell back to "en", and was told to "Read this in
+    // English". Only an exact regional match — en-US on the British page,
+    // where the difference is dollars — may cross within a language.
+    var pageCode = pageLanguage.toLowerCase().split('-')[0];
+    var sameLanguageFallback = key === code && code === pageCode;
+    if (key && key !== pageLanguage.toLowerCase() && !sameLanguageFallback) {
       var match = translated[key];
       suggestion.innerHTML = '<span class="flag">' + match.flag + '</span>' +
         '<span></span> →';

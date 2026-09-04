@@ -325,7 +325,10 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
    scanning the App Store for. The artwork carries the wordmark itself, so
    nothing is set beside it. Radius stays at the nav's 28% of the width. */
 .hero-brand {
-  display: inline-flex;
+  /* Block, not inline-flex: as an inline box it sat beside the eyebrow pill
+     wherever the pill was short enough to share the line — Italian, for one.
+     English only wrapped because its pill happened to be too long to fit. */
+  display: flex;
   margin: 0 0 18px;
 }
 .hero-brand img {
@@ -421,7 +424,10 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
   .hero-facts span { font-size: 12.5px; }
 }
 .hero-facts b { display: block; font-size: 25px; font-weight: 800; letter-spacing: -.02em; }
-.hero-facts span { font-size: 13px; color: var(--text-3); font-weight: 600; }
+/* The tiles are ~100px and "kilometervergoedingen" is wider than that on its
+   own; a word that cannot break pushed the Dutch and Finnish pages sideways
+   on a phone. Let it hyphenate — the page's lang attribute picks the rules. */
+.hero-facts span { font-size: 13px; color: var(--text-3); font-weight: 600; overflow-wrap: anywhere; hyphens: auto; }
 
 .stage { position: relative; display: flex; justify-content: center; align-items: center; }
 
@@ -874,6 +880,10 @@ table.prices .you-tag {
   table.prices th, table.prices td { padding: 11px 9px; font-size: 14.5px; }
   table.prices .flag { margin-right: 6px; }
   table.prices .you-tag { font-size: 9.5px; padding: 2px 6px; margin-left: 6px; }
+  /* A long label — Finnish's "Lähetä sähköposti kun se on ulkona" — was wider
+     than the phone and pushed the page sideways. Let it wrap inside the
+     button rather than carry the button off the screen. */
+  .cta-row .btn, .cta-row .btn-ghost, .closer .btn { white-space: normal; text-align: center; max-width: 100%; }
 }
 
 /* ---------------- faq: an iOS grouped list ---------------- */
