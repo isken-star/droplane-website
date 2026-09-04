@@ -320,6 +320,23 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 .lede { font-size: 19.5px; color: var(--text-2); margin: 0 0 28px; max-width: 44ch; }
 .section-intro { font-size: 18px; color: var(--text-2); max-width: 62ch; margin: 0 0 36px; }
 
+/* The brand, stated once at a size worth looking at. The nav mark is small
+   and utilitarian; this one is the product's face — the icon people will be
+   scanning the App Store for. "DropLane" is never translated. */
+.hero-brand {
+  display: inline-flex; align-items: center; gap: 14px;
+  margin: 0 0 22px;
+}
+.hero-brand img {
+  width: 60px; height: 60px; border-radius: 17px;
+  box-shadow: var(--shadow);
+}
+.hero-brand span {
+  font-size: 31px; font-weight: 800; letter-spacing: -.03em;
+  color: var(--text); line-height: 1;
+}
+.hero-brand i { font-style: normal; color: var(--money); }
+
 .eyebrow {
   display: inline-flex; align-items: center; flex-wrap: wrap; gap: 4px 10px;
   background: var(--card); border: 1px solid var(--line);

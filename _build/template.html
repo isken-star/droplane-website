@@ -117,6 +117,12 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
+      <!-- The mark at the size it deserves. Same file the nav already loaded,
+           so the browser has it cached and this costs no extra request. -->
+      <div class="hero-brand">
+        <img src="/assets/icon-180.png" alt="" width="60" height="60">
+        <span>Drop<i>Lane</i></span>
+      </div>
       <span class="eyebrow" id="detected"><span class="eyebrow-flag">{{flag}}</span><b data-region="{{market}}">{{market_name}}</b><span class="eyebrow-trial">{{hero_trial}}</span><span class="eyebrow-cost">{{hero_trial_then}}</span><a href="#pricing">{{see_all}}</a></span>
       <h1>{{hero_h1}}</h1>
       <p class="lede">{{hero_lede}}</p>
