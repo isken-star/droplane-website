@@ -942,3 +942,87 @@ footer .foot-note { color: var(--text-3); font-size: 14.5px; max-width: 46ch; ma
 footer .foot-links { display: flex; flex-wrap: wrap; gap: 18px; font-size: 15px; }
 footer a { color: var(--text-2); text-decoration: none; font-weight: 600; }
 footer a:hover { color: var(--text); text-decoration: underline; }
+
+/* ---------------- the bar that follows you down ---------------- */
+
+/* The hero asks once at the top, and then the reader scrolls past it. This
+   says the same sentence again — fourteen days free, then the market's own
+   monthly price — from the moment that hero button leaves the screen.
+
+   Two rules it keeps that most of these bars break: it never covers the
+   words underneath it (the body gets padding to match its height), and it
+   can be shut for good. A strip you cannot dismiss on a page someone is
+   reading is nagging, not selling. */
+
+:root { --cta-bar-h: 84px; }
+
+.cta-bar {
+  position: fixed; inset: auto 0 0 0; z-index: 60;
+  padding: 0 0 env(safe-area-inset-bottom);
+  background: var(--head-bg);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  backdrop-filter: saturate(180%) blur(14px);
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -14px 40px rgba(13, 22, 38, .10);
+  transform: translateY(101%);
+  transition: transform .32s cubic-bezier(.22, .61, .36, 1);
+}
+:root[data-theme="dark"] .cta-bar { box-shadow: 0 -14px 40px rgba(0, 0, 0, .5); }
+.cta-bar[data-shown="true"] { transform: translateY(0); }
+
+.cta-bar-in {
+  width: min(1120px, 100% - 36px); margin-inline: auto;
+  display: flex; align-items: center; gap: 16px;
+  min-height: var(--cta-bar-h); padding: 13px 0;
+}
+.cta-bar-mark { width: 46px; height: 46px; border-radius: 11px; flex: none; }
+.cta-bar-say { margin: 0; flex: 1 1 auto; min-width: 0; line-height: 1.3; }
+.cta-bar-say b { display: block; color: var(--text); font-size: 17px; font-weight: 800; }
+.cta-bar-say span { display: block; color: var(--text-2); font-size: 15px; }
+.cta-bar-go { flex: none; padding: 13px 24px; font-size: 16px; }
+
+.cta-bar-shut {
+  flex: none; width: 38px; height: 38px; padding: 0;
+  display: grid; place-items: center;
+  background: transparent; border: 0; border-radius: 50%;
+  color: var(--text-3); cursor: pointer;
+}
+.cta-bar-shut svg { width: 19px; height: 19px; }
+.cta-bar-shut:hover { background: var(--card-2); color: var(--text); }
+
+/* Nothing the bar covers is ever unreadable: the page grows by exactly the
+   height of the bar for as long as it is on screen. */
+:root[data-cta-bar="shown"] body { padding-bottom: var(--cta-bar-h); }
+
+@media (max-width: 620px) {
+  :root { --cta-bar-h: 78px; }
+  .cta-bar-in { gap: 12px; }
+  .cta-bar-mark { width: 40px; height: 40px; }
+  /* The button carries the app's name in every language, and "DropLane
+     holen" is half again the width of "Get DropLane". Let it stay one line
+     and take the room from the icon, which says nothing the words don't. */
+  .cta-bar-go { white-space: nowrap; }
+  .cta-bar-say b { font-size: 15.5px; }
+  .cta-bar-say span { font-size: 13.5px; }
+  .cta-bar-go { padding: 12px 17px; font-size: 15px; }
+  .cta-bar-shut { width: 32px; height: 32px; }
+}
+
+/* Under about 420px the icon is the first thing to go: two lines of price
+   beat a picture of a logo that is already in the tab and the header. */
+@media (max-width: 420px) {
+  .cta-bar-mark { display: none; }
+  .cta-bar-in { gap: 10px; }
+  /* "Установить DropLane" is twice the width of "Get DropLane" and may not
+     wrap, so on the narrowest phones the button gives up some type size
+     rather than pushing the price on to a fourth line. */
+  .cta-bar-go { padding: 11px 14px; font-size: 14px; }
+}
+
+/* A bar that slides is a nice touch; a bar that slides at someone who asked
+   for stillness is not. */
+@media (prefers-reduced-motion: reduce) {
+  .cta-bar { transition: none; }
+}
+
+@media print { .cta-bar { display: none; } }

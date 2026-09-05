@@ -288,6 +288,73 @@
     }
   }
 
+  /* ---- the bar that follows you down --------------------------------- */
+  /* It appears when the hero's own button leaves the screen, which is the
+     honest trigger: a fixed scroll distance would sometimes put a second
+     "Get DropLane" on screen beside the first, and where that happened would
+     depend on how long the headline runs in each of twenty-six languages.
+
+     Shutting it is remembered. Someone who said no should not be asked again
+     on the next page, or the next visit. */
+
+  var bar = document.getElementById('cta-bar');
+  var heroCta = document.querySelector('.cta-row');
+  var SHUT = 'dl-cta-bar-shut';
+
+  /* The page grows by the bar's real height, not a number guessed in the
+     stylesheet. Twenty-six languages set "Get DropLane" at twenty-six
+     lengths, and the German bar is a line taller than the English one on a
+     narrow phone — measure it, or the tallest languages cover the words they
+     are sitting on. */
+  function measureBar() {
+    // Rounded up, never down: offsetHeight truncates a fractional height, and
+    // a bar one pixel taller than the padding is a bar sitting on the words.
+    var tall = Math.ceil(bar.getBoundingClientRect().height);
+    root.style.setProperty('--cta-bar-h', tall + 'px');
+  }
+
+  function showBar(show) {
+    bar.hidden = false;
+    bar.setAttribute('data-shown', show ? 'true' : 'false');
+    if (show) { measureBar(); root.setAttribute('data-cta-bar', 'shown'); }
+    else { root.removeAttribute('data-cta-bar'); }
+  }
+
+  function shutBar() {
+    bar.setAttribute('data-shown', 'false');
+    root.removeAttribute('data-cta-bar');
+    try { localStorage.setItem(SHUT, '1'); } catch (err) {}
+  }
+
+  var alreadyShut = false;
+  try { alreadyShut = localStorage.getItem(SHUT) === '1'; } catch (err) {}
+
+  if (bar && heroCta && !alreadyShut && 'IntersectionObserver' in window) {
+    var shutButton = bar.querySelector('.cta-bar-shut');
+    if (shutButton) {
+      shutButton.addEventListener('click', function () {
+        shutBar();
+        // Back to the button it stood in for, so a keyboard reader is not
+        // dropped at the bottom of the document with nowhere to go.
+        var target = heroCta.querySelector('a, button');
+        if (target && document.activeElement === shutButton) { target.focus(); }
+        watcher.disconnect();
+      });
+    }
+
+    var watcher = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) { showBar(!entry.isIntersecting); });
+    }, { rootMargin: '0px 0px -40px 0px' });
+    watcher.observe(heroCta);
+
+    // Turning the phone, or a font arriving late, changes the height.
+    if ('ResizeObserver' in window) {
+      new ResizeObserver(function () {
+        if (root.getAttribute('data-cta-bar') === 'shown') { measureBar(); }
+      }).observe(bar);
+    }
+  }
+
   var search = document.getElementById('price-search');
   if (search && body) {
     search.addEventListener('input', function () {

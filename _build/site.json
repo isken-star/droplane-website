@@ -103,6 +103,13 @@
     { "cc": "KR", "flag": "🇰🇷", "name": "South Korea",          "month": "₩8,900",    "year": "₩59,000" },
     { "cc": "ID", "flag": "🇮🇩", "name": "Indonesia",            "month": "Rp49.000",  "year": "Rp329.000" },
     { "cc": "AE", "flag": "🇦🇪", "name": "United Arab Emirates", "month": "AED 24.99", "year": "AED 169.99" },
-    { "cc": "SA", "flag": "🇸🇦", "name": "Saudi Arabia",         "month": "SAR 24.99", "year": "SAR 169.99" }
+    { "cc": "SA", "flag": "🇸🇦", "name": "Saudi Arabia",         "month": "SAR 24.99", "year": "SAR 169.99" },
+    { "cc": "KZ", "flag": "🇰🇿", "name": "Kazakhstan",           "month": "2 490 ₸",   "year": "14 990 ₸" },
+    { "cc": "KG", "flag": "🇰🇬", "name": "Kyrgyzstan",           "month": "$2.99",     "year": "$19.99" },
+    { "cc": "UZ", "flag": "🇺🇿", "name": "Uzbekistan",           "month": "$2.99",     "year": "$19.99" },
+    { "cc": "TJ", "flag": "🇹🇯", "name": "Tajikistan",           "month": "$2.99",     "year": "$19.99" },
+    { "cc": "TM", "flag": "🇹🇲", "name": "Turkmenistan",         "month": "$3.99",     "year": "$27.99" },
+    { "cc": "AM", "flag": "🇦🇲", "name": "Armenia",              "month": "$3.99",     "year": "$27.99" },
+    { "cc": "AZ", "flag": "🇦🇿", "name": "Azerbaijan",           "month": "$3.99",     "year": "$27.99" }
   ]
 }
