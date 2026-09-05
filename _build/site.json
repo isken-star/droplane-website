@@ -3,7 +3,7 @@
 
   "launch": {
     "_comment": "On the day Apple approves, set launched to true and run Scripts/build_site.py. That is the whole launch: the coming-soon buttons become App Store links, and site.js starts reporting appstore-click on its own.",
-    "launched": false,
+    "launched": true,
     "app_store_url": "https://apps.apple.com/app/id6760871535"
   },
 
