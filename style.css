@@ -136,7 +136,10 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
    The rest live in the menu sheet and on the page itself. */
 .menu a[href$="#screens"], .menu a[href$="#countries"] { display: none; }
 @media (min-width: 1240px) { .menu a[href$="#countries"] { display: inline-flex; } }
-@media (max-width: 1120px) { .head-cta { display: none; } }
+/* The header button used to go at 1120px, back when a bar at the foot of the
+   page asked on every narrower screen. The bar is a phone's now, so this is
+   the only place a computer is asked — it stays until the burger takes over at
+   940px. fitMenu() drops nav links from the end to make room for it. */
 .menu a:hover { color: var(--text); background: var(--card-2); }
 
 .head-tools { display: flex; align-items: center; gap: 8px; margin-left: auto; }
@@ -241,11 +244,15 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
 }
 
 .head-cta {
-  display: inline-flex; align-items: center; justify-content: center;
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
   background: var(--grad); color: #fff; text-decoration: none; white-space: nowrap;
   font-weight: 700; font-size: 14.5px; padding: 9px 16px; border-radius: 999px;
   flex: 0 0 auto;
 }
+/* Optically centred rather than measured: the Apple mark's stem leaves a gap
+   at the top that makes a mathematically centred logo sit low. */
+.head-cta-apple { width: 16px; height: 16px; flex: none; margin-top: -2px; }
+
 /* Until the app is on the store this says when, not "download" — so it reads
    as news rather than a button that goes nowhere. */
 .head-cta-soon::before {
@@ -1035,6 +1042,13 @@ footer a:hover { color: var(--text); text-decoration: underline; }
    for stillness is not. */
 @media (prefers-reduced-motion: reduce) {
   .cta-bar { transition: none; }
+}
+
+/* A computer keeps the header button in view the whole way down the page, so
+   a second ask at the foot of the window is nagging. Phones lose their header
+   to the burger, which is where the bar earns its place. */
+@media (min-width: 941px) {
+  .cta-bar { display: none; }
 }
 
 @media print { .cta-bar { display: none; } }

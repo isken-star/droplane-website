@@ -300,6 +300,12 @@
   var bar = document.getElementById('cta-bar');
   var heroCta = document.querySelector('.cta-row');
   var SHUT = 'dl-cta-bar-shut';
+  /* Phones only. A computer keeps the header button in view all the way down,
+     so the bar would be a second ask for the same thing. The stylesheet hides
+     it there; this keeps the page's bottom padding honest too, and follows a
+     window being dragged across the line. */
+  var phone = window.matchMedia('(max-width: 940px)');
+  var pastHero = false;
 
   /* The page grows by the bar's real height, not a number guessed in the
      stylesheet. Twenty-six languages set "Get DropLane" at twenty-six
@@ -322,9 +328,10 @@
   }
 
   function showBar(show) {
+    var wanted = show && phone.matches;
     bar.hidden = false;
-    bar.setAttribute('data-shown', show ? 'true' : 'false');
-    if (show) { measureBar(); root.setAttribute('data-cta-bar', 'shown'); }
+    bar.setAttribute('data-shown', wanted ? 'true' : 'false');
+    if (wanted) { measureBar(); root.setAttribute('data-cta-bar', 'shown'); }
     else { root.removeAttribute('data-cta-bar'); }
   }
 
@@ -351,9 +358,17 @@
     }
 
     var watcher = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) { showBar(!entry.isIntersecting); });
+      entries.forEach(function (entry) {
+        pastHero = !entry.isIntersecting;
+        showBar(pastHero);
+      });
     }, { rootMargin: '0px 0px -40px 0px' });
     watcher.observe(heroCta);
+
+    // Widening the window past 940px has to take the padding away with the bar.
+    var onWidth = function () { showBar(pastHero); };
+    if (phone.addEventListener) { phone.addEventListener('change', onWidth); }
+    else if (phone.addListener) { phone.addListener(onWidth); }
 
     // Turning the phone, or a font arriving late, changes the height.
     if ('ResizeObserver' in window) {
