@@ -25,14 +25,14 @@
   "per_month_short": "a month",
   "see_all": "see all",
   "hero_h1": "Know what the day really paid.",
-  "hero_lede": "Start driving. That's it. DropLane records every drive and the route it actually took, takes the costs off the takings, and has your hourly rate waiting before you're through the door.",
+  "hero_lede": "Start driving. That's it. DropLane records every drive and the route it actually took, takes the costs off the takings, and has your real hourly rate worked out before you're home.",
   "hero_cta_notify": "Get notified at launch",
   "hero_cta_how": "How it works",
   "hero_note": "no account, no ads · iPhone",
   "hero_facts": [
     {
       "value": "0",
-      "label": "buttons to press"
+      "label": "start buttons"
     },
     {
       "value": "24",
@@ -40,7 +40,7 @@
     },
     {
       "value": "17",
-      "label": "tax rates built in"
+      "label": "mileage rates built in"
     }
   ],
   "money_h2": "Two days. Same kilometres. Not the same money.",
@@ -59,7 +59,7 @@
   "money_punch": "Four kilometres apart. $34.40 apart.",
   "money_note": "Kilometres are the easy half, and the half that tells you nothing. Which day was worth getting up for is in the other column — and that is the column DropLane fills in for you, on the day, without you writing anything down.",
   "day_h2": "What did the day actually pay?",
-  "day_intro": "$316.39 sounds like a good day. Five hours and fifty-six minutes and $17.75 of costs later, it worked out at $43.22 an hour. That is the number nobody driving has, and the one DropLane hands you before you're through the door.",
+  "day_intro": "$316.39 sounds like a good day. Five hours and fifty-six minutes and $17.75 of costs later, it worked out at $43.22 an hour. That is the number nobody driving has, and the one DropLane has ready before you're home.",
   "day_film1_title": "The day added itself up",
   "day_film1_body": "Two drives, 50.8 km, $298.64 kept — and one still to sort. Nothing was typed in.",
   "day_film2_title": "The report builds itself",
@@ -77,8 +77,8 @@
   "day_hours_value": "5 h 56 min",
   "day_label_hours": "on the road",
   "day_label_hour": "an hour",
-  "day_note": "One day's figures, straight off the app in the films above. Yours will be different — the point is having them on the day, in the van, instead of finding out in April.",
-  "how_h2": "Three steps, and two of them aren't yours",
+  "day_note": "One day's figures, straight off the app in the films above. Yours will be different — the point is having them on the day, in the van, instead of finding out in October.",
+  "how_h2": "Three steps, and only one is yours",
   "how_intro": "There is no start button in DropLane, on purpose. Nobody remembers to press one at six in the morning with a van full of parcels.",
   "how_steps": [
     {
@@ -90,18 +90,18 @@
       "body": "Every drive saves itself, with the route, the stops, and how long you were at each one."
     },
     {
-      "title": "Sort it in a tap",
-      "body": "Business, empty, on the way to a pick-up, or personal. The totals and the tax figure follow on their own."
+      "title": "Pick its type in a tap",
+      "body": "Business, empty, on the way to a pick-up, or personal. The totals and the mileage claim follow on their own."
     }
   ],
-  "how_proof": "Then the days stack up on their own. Pick a week, a month or your own dates, tick what goes in, and the PDF for the accountant is one tap away — built from drives you never had to log.",
-  "features_h2": "What it actually does",
+  "how_proof": "Then the drive history builds itself. Pick a week, a month or your own dates, tick what goes in, and the PDF for the accountant is one tap away — built from drives you never had to log.",
+  "features_h2": "What DropLane actually does",
   "features_intro": "Built by a courier with ten years on the road, for the job as it really is.",
   "features": [
     {
       "icon": "💷",
       "title": "What the day actually paid",
-      "body": "Earnings in, fuel and costs out, and the number that matters at the bottom — per day, week, month."
+      "body": "Fuel and the other costs come off the takings, and what you actually kept is at the bottom — per day, week, month."
     },
     {
       "icon": "⛽",
@@ -131,7 +131,7 @@
     {
       "icon": "🔔",
       "title": "Renewals",
-      "body": "Type the reading once and DropLane keeps it ticking from the kilometres it tracks — so service and roadworthy warnings can count down in kilometres, not just dates."
+      "body": "Type the odometer reading once and DropLane keeps it ticking from the kilometres it tracks — so service and roadworthy reminders can count down in kilometres, not just dates."
     },
     {
       "icon": "🔧",
@@ -141,10 +141,10 @@
     {
       "icon": "💳",
       "title": "Fuel card",
-      "body": "Set the price your card charges per litre. Log litres when you fill up and DropLane works out the cost."
+      "body": "Set the price your card charges per litre. Log the litres when you fill up and DropLane works out the cost."
     }
   ],
-  "screens_h2": "The whole app, in daylight and dark",
+  "screens_h2": "The whole app, in light mode and dark",
   "screens_intro": "Real screens, from a month of real work. Flip the switch at the top and every screen here changes with it.",
   "screens": [
     {
@@ -164,7 +164,7 @@
     },
     {
       "file": "trip-sort",
-      "title": "Sorting a drive",
+      "title": "A drive's type",
       "body": "Business, empty, running or personal."
     },
     {
@@ -208,31 +208,31 @@
       "body": "Kilometres or miles. Light or dark."
     }
   ],
-  "countries_h2": "Where DropLane knows the rules",
-  "countries_intro": "The app works anywhere. In these countries it also knows the mileage rate the tax office allows, and what your vehicle paperwork is called.",
+  "countries_h2": "The countries with a rate built in",
+  "countries_intro": "The app works anywhere. In these countries it also knows the cents-per-kilometre rate the ATO or your own tax office allows, and what your vehicle paperwork is called.",
   "countries_note": "Somewhere else? Type in the rate your own tax office allows and DropLane does the rest.",
   "languages_h2": "Read it in your own language",
   "languages_intro": "The whole app — every screen, every notification, the reports — not just this page. And the money stays in your currency, whichever language you read it in.",
   "languages_caption_title": "Stats",
   "languages_caption_body": "Your week, in your language and your money.",
   "pricing_h2": "One price, everything in it",
-  "pricing_intro": "Fourteen days free. No card to start, and nothing locked behind a higher tier.",
+  "pricing_intro": "Fourteen days free. No card to start, and every feature is there from the off — no higher tier, no add-ons.",
   "pricing_monthly": "Monthly",
   "pricing_yearly": "Yearly",
   "pricing_per_month": "per month, cancel any time",
-  "pricing_per_year": "per year — the cheapest way in",
+  "pricing_per_year": "per year — the better deal",
   "pricing_best": "Best value",
   "pricing_bullet_all": "Every feature, no add-ons",
   "pricing_bullet_trial": "14 days free first",
   "pricing_bullet_saving": "Save {saving} a year — {percent}% cheaper",
   "pricing_bullet_equivalent": "Works out at {monthly} a month",
-  "pricing_table_title": "The price where you are",
+  "pricing_table_title": "The price in your country",
   "pricing_search": "Find your country",
   "pricing_col_country": "Country",
   "pricing_col_month": "Monthly",
   "pricing_col_year": "Yearly",
   "pricing_you": "You",
-  "pricing_note": "Each country has its own price rather than a converted one, so nobody pays a sterling bill in disguise. The App Store shows yours before you agree to anything, including tax. Not listed? The App Store still has a price for you in your own currency.",
+  "pricing_note": "Each country has its own price rather than one converted out of sterling. The App Store shows you the exact amount in your own currency, GST included, before you agree to anything. Not in the list? The App Store has a price for you anyway.",
   "faq_h2": "Questions couriers actually ask",
   "faq_intro": "Straight answers, from someone who does the job.",
   "faq": [
@@ -249,8 +249,8 @@
       "a": "No — and there's no button to press. That's the whole point. If you have to remember, you'll forget on the day it matters."
     },
     {
-      "q": "What if I forget to sort a drive?",
-      "a": "Nothing is lost. Unsorted drives wait on the Days screen, and the app nudges you rather than guessing for you."
+      "q": "What if I forget to pick a drive's type?",
+      "a": "Nothing is lost. Drives without a type wait on the Days screen, and the app reminds you rather than guessing for you."
     },
     {
       "q": "Will my route history end up somewhere?",
@@ -270,7 +270,7 @@
     },
     {
       "q": "Does it work where there's no signal?",
-      "a": "Yes. Recording runs off your iPhone's own GPS and wants no internet at all. Drives taken out of signal come back labelled “Start” and “End” instead of street names, and DropLane fills those in the next time it sees Wi-Fi. A week down lanes with no bars still adds up right."
+      "a": "Yes. Recording runs off your iPhone's own GPS and wants no internet at all. Drives taken out of signal come back labelled “Start” and “End” instead of street names, and DropLane fills those in the next time it sees Wi-Fi. A week out on the back roads with no bars still adds up right."
     },
     {
       "q": "What happens when I get a new phone?",
