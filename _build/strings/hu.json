@@ -1,12 +1,12 @@
 {
-  "meta_title": "DropLane — Tudd meg, mit hozott a nap valójában",
-  "meta_description": "A DropLane magától rögzíti a futár útjait, levonja az üzemanyagot, a parkolást és az állandó költségeket a bevételből, és megmondja, mit hozott valójában az óra. Mellé útnyilvántartás a könyvelőnek, huszonnégy nyelven, mindez a telefonodon.",
+  "meta_title": "DropLane — tudd meg, mennyit kerestél valójában",
+  "meta_description": "A DropLane magától rögzíti a futár útjait, levonja az üzemanyagot, a parkolást és az állandó költségeket a bevételből, és megmutatja a valódi órabéredet. Mellé útnyilvántartás a könyvelőnek, huszonnégy nyelven, mindez a telefonodon.",
   "nav_label": "Főmenü",
   "nav_how": "Hogyan működik",
-  "nav_day": "Mit hoz",
-  "nav_features": "Mit tud",
+  "nav_day": "Mennyit keresel",
+  "nav_features": "Funkciók",
   "nav_screens": "Képernyők",
-  "nav_countries": "Hol működik",
+  "nav_countries": "Országok",
   "nav_languages": "Nyelvek",
   "nav_pricing": "Ár",
   "nav_faq": "Kérdések",
@@ -24,15 +24,15 @@
   "langbar_rest": "Válaszd ki a sajátodat — az app is beszéli.",
   "per_month_short": "havonta",
   "see_all": "összes",
-  "hero_h1": "Tudd meg, mit hozott a nap valójában.",
-  "hero_lede": "Indítsd el a furgont. Ennyi az egész. A DropLane rögzít minden utat és az útvonalat, amit tényleg megtettél, levonja a költségeket a bevételből, és az órabéred kész, mire hazaérsz.",
+  "hero_h1": "Tudd meg, mennyit kerestél valójában.",
+  "hero_lede": "Indítsd el a furgont. Ennyi az egész. A DropLane rögzít minden utat és az útvonalat, amit tényleg megtettél, levonja a költségeket a bevételből, és mire hazaérsz, kész a valódi órabéred.",
   "hero_cta_notify": "Szólj, ha megjelent",
   "hero_cta_how": "Hogyan működik",
   "hero_note": "nincs fiók, nincs reklám · iPhone",
   "hero_facts": [
     {
       "value": "0",
-      "label": "megnyomandó gomb"
+      "label": "indítógomb"
     },
     {
       "value": "24",
@@ -44,7 +44,7 @@
     }
   ],
   "money_h2": "Két nap. Több kilométer. Kevesebb pénz.",
-  "money_intro": "Kedd: 91,5 kilométer, három út. Tegnap: 55,4 kilométer, két út. Egy kilométerszámláló app azt mondja, a kedd volt a teltebb nap — és igaza is van. Keddről 30 250 Ft maradt. Tegnapról 35 760 Ft.",
+  "money_intro": "Kedd: 91,5 kilométer, három út. Tegnap: 55,4 kilométer, két út. Egy hagyományos kilométerszámláló app azt mondja, a kedd volt a teltebb nap — és igaza is van. Csakhogy keddről 30 250 Ft maradt, tegnapról pedig 35 760 Ft.",
   "money_day1_when": "augusztus 25., kedd",
   "money_day1_distance": "91,5 km",
   "money_day1_trips": "3 út",
@@ -55,31 +55,31 @@
   "money_day2_money": "35 760 Ft",
   "money_label_distance": "Úton",
   "money_label_trips": "Utak",
-  "money_label_money": "Maradt",
+  "money_label_money": "Nettó",
   "money_punch": "36,1 kilométerrel több. 5 510 Ft-tal kevesebb.",
-  "money_note": "A kilométer a könnyebb fele — és az, amelyik semmit sem mond. Hogy melyik nap érte meg, az a másik oszlopban áll, és épp azt tölti ki helyetted a DropLane, még aznap, anélkül hogy bármit felírnál.",
-  "day_h2": "Mit hozott a nap valójában?",
-  "day_intro": "36 900 Ft jó napnak hangzik. Vond le az üzemanyagot és a parkolást, oszd el az úton töltött 5 ó 45 p-cel, és 4152 Ft jön ki óránként. Ezt a számot a volán mögött senki sem ismeri — és ezt adja a kezedbe a DropLane, mire hazaérsz.",
-  "day_film1_title": "A nap magától összeadódott",
-  "day_film1_body": "Két út, és 31 860 Ft, ami a költségek levonása után maradt. Semmit nem kellett begépelni.",
-  "day_film2_title": "A jelentés magát építi",
+  "money_note": "A kilométert megszámolni a könnyebbik rész. Önmagában viszont alig mond valamit. Hogy melyik nap érte meg igazán, az a másik oszlopban áll — és épp azt tölti ki helyetted a DropLane, még aznap, anélkül hogy bármit felírnál.",
+  "day_h2": "Mennyit kerestél valójában egy nap",
+  "day_intro": "36 900 Ft jó napnak hangzik. Csakhogy az üzemanyagot és a parkolást levonva, az úton töltött 5 óra 45 percre elosztva 4 152 Ft jön ki óránként. Pontosan ezt a számot számolja ki magától a DropLane, rögtön a nap végén.",
+  "day_film1_title": "Minden magától kiszámolva",
+  "day_film1_body": "Két út, és 31 860 Ft, ami a költségek levonása után maradt. Semmit nem kellett kézzel begépelni.",
+  "day_film2_title": "A jelentés magától elkészül",
   "day_film2_body": "Pipáld ki, mi kerüljön bele, válassz álló vagy fekvő formát — és a PDF a könyvelőnek küldésre kész.",
-  "day_film3_title": "És mit hozott valójában az óra",
-  "day_film3_body": "4152 Ft óránként a költségek után, mögötte pedig az időszak kilométer-elszámolása.",
+  "day_film3_title": "És mennyit keresel valójában óránként",
+  "day_film3_body": "4 152 Ft óránként a költségek után, mellette pedig az időszak kilométer-elszámolása.",
   "day_tally_lead": "Egy nap, a fenti képernyőkről",
   "day_label_earned": "Kereset",
   "day_label_costs": "Költségek",
-  "day_label_kept": "Maradt",
+  "day_label_kept": "Nettó",
   "day_earned": "36 900 Ft",
   "day_costs": "5 040 Ft",
   "day_kept": "31 860 Ft",
-  "day_rate_value": "4152 Ft",
+  "day_rate_value": "4 152 Ft",
   "day_hours_value": "5 ó 45 p",
   "day_label_hours": "úton",
   "day_label_hour": "óránként",
   "day_note": "Egyetlen nap számai, egyenesen a fenti képernyőkről. A tieid mások lesznek — a lényeg, hogy aznap, a kocsiban legyenek meg, ne tavasszal derüljenek ki.",
-  "how_h2": "Három lépés, és kettő közülük nem a tiéd",
-  "how_intro": "A DropLane-ben szándékosan nincs indítógomb. Hajnali hatkor, csomagokkal teli furgonnal senki nem jut eszébe megnyomni.",
+  "how_h2": "Három lépés. Csak egy a tiéd.",
+  "how_intro": "A DropLane-ben szándékosan nincs indítógomb. Hajnali hatkor, csomagokkal teli furgonnal senkinek nem jut eszébe megnyomni.",
   "how_steps": [
     {
       "title": "Egyszer bekapcsolod",
@@ -90,23 +90,23 @@
       "body": "Minden út magától elmentődik, az útvonallal, a megállókkal és azzal, mennyit álltál mindegyiknél."
     },
     {
-      "title": "Egy koppintással besorolod",
-      "body": "Munka, üres, felvételre menet vagy magán. Az összegek és az adóhivatalnak szóló összeg maguktól követik."
+      "title": "Egy koppintással kiválasztod a típusát",
+      "body": "Munka, üres, felvételre menet vagy magán. Az összegek és a kilométer-elszámolás maguktól követik."
     }
   ],
-  "how_proof": "Aztán a napok maguktól gyűlnek. Válassz egy hetet, egy hónapot vagy saját dátumokat, pipáld ki, mi kerüljön bele, és a PDF a könyvelőnek egy koppintásra van — olyan utakból építve, amelyeket sosem kellett rögzítened.",
-  "features_h2": "Mit csinál valójában",
-  "features_intro": "Tíz év úttal a háta mögött építette egy futár, arra a munkára, amilyen az valójában.",
+  "how_proof": "Aztán az útnyilvántartás magától áll össze. Válassz egy hetet, egy hónapot vagy saját dátumokat, pipáld ki, mi kerüljön bele, és a PDF a könyvelőnek egy koppintásra van — olyan utakból építve, amelyeket sosem kellett rögzítened.",
+  "features_h2": "Mit tud valójában a DropLane",
+  "features_intro": "Egy futár építette, tíz év úttal a háta mögött — arra a munkára, amilyen az valójában.",
   "features": [
     {
       "icon": "💷",
-      "title": "Mit hozott a nap valójában",
-      "body": "Bevétel be, üzemanyag és költségek ki, és alul a szám, ami számít — naponta, hetente, havonta."
+      "title": "Mennyit kerestél valójában egy nap",
+      "body": "A bevételből levonódik az üzemanyag és a többi költség, alul pedig ott a nettó — naponta, hetente, havonta."
     },
     {
       "icon": "⛽",
-      "title": "Mit hoz valójában egy óra",
-      "body": "Üzemanyag, részlet és biztosítás elosztva a napokra, amikor dolgozol, hogy az órabér az igazi legyen."
+      "title": "A valódi órabéred",
+      "body": "Az üzemanyag, a részlet és a biztosítás elosztva a napokra, amikor dolgozol, hogy az órabér az igazi legyen."
     },
     {
       "icon": "🛣️",
@@ -131,7 +131,7 @@
     {
       "icon": "🔔",
       "title": "Lejáratok",
-      "body": "Írd be egyszer az állást, és a DropLane a rögzített utakból tovább pörgeti — így a szerviz- és műszakivizsga-jelzések a megtett táv szerint is visszaszámolnak, nem csak dátum szerint."
+      "body": "Írd be egyszer a kilométeróra állását, és a DropLane a rögzített utakból tovább vezeti — így a szerviz- és műszakivizsga-jelzések a megtett táv szerint is visszaszámolnak, nem csak dátum szerint."
     },
     {
       "icon": "🔧",
@@ -144,7 +144,7 @@
       "body": "Állítsd be, mennyit számít fel a kártyád literenként. Tankoláskor írd be a litereket, és a DropLane kiszámolja a költséget."
     }
   ],
-  "screens_h2": "A teljes app, nappali fényben és sötétben",
+  "screens_h2": "A teljes app — világos és sötét témában",
   "screens_intro": "Valódi képernyők egy hónapnyi valódi munkából. Kapcsold át fent a kapcsolót, és itt minden képernyő átvált vele.",
   "screens": [
     {
@@ -164,7 +164,7 @@
     },
     {
       "file": "trip-sort",
-      "title": "Út besorolása",
+      "title": "Az út típusa",
       "body": "Munka, üres, felvételre menet vagy magán."
     },
     {
@@ -180,12 +180,12 @@
     {
       "file": "insights",
       "title": "Elemzések",
-      "body": "Mit hoz valójában egy óra és egy kilométer."
+      "body": "Mennyit keresel valójában óránként és kilométerenként."
     },
     {
       "file": "insights-tax",
       "title": "Adó",
-      "body": "Mit érnek az időszak kilométerei."
+      "body": "Az időszak kilométer-elszámolása."
     },
     {
       "file": "report",
@@ -200,45 +200,45 @@
     {
       "file": "vehicle",
       "title": "Jármű",
-      "body": "Műszaki vizsga, gépjárműadó és biztosítás, mielőtt utolérnének."
+      "body": "Műszaki vizsga, gépjárműadó és biztosítás — mielőtt lejárnának."
     },
     {
       "file": "settings",
       "title": "Beállítások",
-      "body": "Kilométer vagy mérföld. Világos vagy sötét."
+      "body": "Kilométer vagy mérföld. Világos vagy sötét téma."
     }
   ],
-  "countries_h2": "Hol ismeri a DropLane a szabályokat",
-  "countries_intro": "Az app bárhol működik. Ezekben az országokban ráadásul ismeri a kilométerdíjat, amit az adóhivatal elfogad, és azt is, hogy nálatok minek hívják a jármű papírjait.",
-  "countries_note": "Máshol vagy? Írd be a díjat, amit a saját adóhivatalod elfogad, a többit elintézi a DropLane.",
+  "countries_h2": "Országok beépített díjakkal",
+  "countries_intro": "Az app bárhol működik. Ezekben az országokban ráadásul ismeri a kilométerdíjat, amit az adóhivatal elfogad, és azt is, hogy nálad minek hívják a jármű papírjait.",
+  "countries_note": "Nincs rajta az országod? Írd be a díjat, amit a saját adóhivatalod elfogad, a többit elintézi a DropLane.",
   "languages_h2": "Olvasd a saját nyelveden",
   "languages_intro": "A teljes app — minden képernyő, minden értesítés, a jelentések — nem csak ez az oldal. A pénz pedig a saját pénznemedben marad, akármilyen nyelven olvasod.",
   "languages_caption_title": "Statisztika",
   "languages_caption_body": "A heted, a saját nyelveden és a saját pénzedben.",
   "pricing_h2": "Egy ár, minden benne",
-  "pricing_intro": "Tizennégy nap ingyen. Kártya nélkül indul, és semmi nincs egy drágább csomag mögé zárva.",
+  "pricing_intro": "Tizennégy nap ingyen. A kezdéshez nem kell kártya, és minden funkció azonnal elérhető — nincs drágább csomag, nincs felár.",
   "pricing_monthly": "Havi",
   "pricing_yearly": "Éves",
   "pricing_per_month": "havonta, bármikor lemondható",
-  "pricing_per_year": "évente — a legolcsóbb út befelé",
+  "pricing_per_year": "évente — a legjobb választás",
   "pricing_best": "A legjobb ár",
   "pricing_bullet_all": "Minden funkció, nincs külön vásárlás",
   "pricing_bullet_trial": "Előbb 14 nap ingyen",
   "pricing_bullet_saving": "Spórolj évi {saving}-ot — {percent}%-kal olcsóbb",
   "pricing_bullet_equivalent": "Ez havi {monthly}",
-  "pricing_table_title": "Az ár nálad",
+  "pricing_table_title": "Az ár a te országodban",
   "pricing_search": "Keresd meg az országodat",
   "pricing_col_country": "Ország",
   "pricing_col_month": "Havi",
   "pricing_col_year": "Éves",
   "pricing_you": "Te",
-  "pricing_note": "Minden országnak saját ára van, nem átváltott, hogy senki ne fizessen álruhás font-számlát. Az App Store a tiédet adóval együtt mutatja, mielőtt bármibe beleegyeznél. Nem vagy a listán? Az App Store-nak akkor is van ára a számodra, a saját pénznemedben.",
+  "pricing_note": "Minden országnak saját ára van, nem a fontból átváltott. Mielőtt bármit jóváhagynál, az App Store megmutatja a pontos összeget a saját pénznemedben, adóval együtt. Nincs rajta a listán az országod? Az App Store-nak arra is van ára.",
   "faq_h2": "Kérdések, amiket a futárok tényleg feltesznek",
   "faq_intro": "Egyenes válaszok valakitől, aki csinálja a munkát.",
   "faq": [
     {
       "q": "Ez nem csak egy újabb kilométerszámláló app?",
-      "a": "A kilométert ugyanúgy rögzíti, indítógomb nélkül. A különbség az, ami utána jön: a bevételed be, az üzemanyag, a parkolás és az állandó költségek ki — és az app megmondja, mit hozott valójában az óra. Egy kilométerszám önmagában soha senkinek nem mondta meg, megérte-e az a kör."
+      "a": "A kilométert ugyanúgy rögzíti, indítógomb nélkül. A különbség az, ami utána jön: a bevételed be, az üzemanyag, a parkolás és az állandó költségek ki — és az app megmutatja a valódi órabéredet. A kilométerek önmagukban nem mondják meg, mennyit kerestél, és azt sem, hogy megérte-e a kör."
     },
     {
       "q": "Lemeríti az akkut?",
@@ -249,8 +249,8 @@
       "a": "Nem — és nincs is mit megnyomni. Pont ez a lényeg. Amire emlékezned kell, azt épp azon a napon felejted el, amikor számít."
     },
     {
-      "q": "Mi van, ha elfelejtek besorolni egy utat?",
-      "a": "Semmi nem vész el. A besorolatlan utak a Napok képernyőn várnak, és az app megbök, ahelyett hogy helyetted találgatna."
+      "q": "Mi van, ha elfelejtem kiválasztani egy út típusát?",
+      "a": "Semmi nem vész el. A típus nélküli utak a Napok képernyőn várnak, és az app emlékeztet rá, ahelyett hogy helyetted találgatna."
     },
     {
       "q": "Az útvonaltörténetem kikerül valahová?",
@@ -285,7 +285,7 @@
       "a": "Mondd meg a DropLane-nek a literenkénti árat, amit az üzemanyagkártyád felszámol, aztán tankoláskor írd be a litert. A költség aznap kész, így a hét nyeresége hetekkel a számla megérkezése előtt stimmel."
     }
   ],
-  "closer_h2": "Ne találgasd, mit hozott a nap.",
+  "closer_h2": "Ne találgasd, mennyit kerestél.",
   "closer_body": "Tizennégy nap ingyen, nincs fiók, és semmi, amire hajnali hatkor emlékezned kellene.",
   "footer_note": "DropLane — automatikus kilométer- és keresetnyilvántartás önálló futároknak. Egy futár építette, Torquay-ben.",
   "footer_privacy": "Adatvédelem",
@@ -294,7 +294,7 @@
   "alt_today": "A DropLane Ma képernyője: egy út rögzítése a térképen, a nap távolságával, óráival és bevételével.",
   "alt_days": "A Napok lista: minden munkanap a nyereségével, távolságával és útjainak számával.",
   "alt_report": "A jelentés kártyája: kapcsolók az utakhoz, keresetekhez, kiadásokhoz és a blokkfotókhoz, aztán a PDF.",
-  "alt_stats": "A Statisztika képernyő: a hét nettója, bevétele és költségei, típus szerinti távolsággal.",
+  "alt_stats": "A Statisztika képernyő: a hét nettója, bevétele és költségei, úttípus szerinti kilométerekkel.",
   "papers_h2": "A jelentés, álló vagy fekvő",
   "papers_intro": "Ez maga a PDF, nem a kapcsolók képe, amelyek elkészítik. Válaszd azt a formát, ami annak jó, aki olvasni fogja — álló az irattartóba, fekvő, ha az utak táblázatának hely kell —, és mindkét módon újraépül.",
   "papers_portrait": "Álló",
@@ -312,20 +312,20 @@
   "cta_notify": "Írj, ha megjelent",
   "privacy_h2": "A te adataid. Csakis a tieid.",
   "privacy_intro": "Minden az iPhone-odon és a saját iCloudodban marad. Se fiók, se szerver, semmit sem adunk el. Csak te döntöd el, ki látja az útjaidat.",
-  "privacy_stat_label": "A helyzetedet tároló szerverek",
+  "privacy_stat_label": "A helyzetedet tároló szerver",
   "privacy_point1": "Ez teszi lehetővé, hogy a DropLane rögzítse a megtett távot. A helyzeted előzményei sosem hagyják el az iPhone-odat.",
   "privacy_point2": "iCloud-mentés és -visszaállítás, fiók nélkül",
   "privacy_point3": "CSV-export a nyilvántartásodhoz",
   "setup_shot_location": "Helymeghatározás bekapcsolása",
-  "setup_shot_always": "Most válaszd a Mindig lehetőséget",
+  "setup_shot_always": "Most válaszd a „Mindig” lehetőséget",
   "setup_shot_notifications": "Értesítések bekapcsolása",
   "setup_shot_vehicle": "Mivel jársz?",
   "pocket_h3": "Értesítések",
   "pocket_body": "A „Mindig” beállítással az utak zárt app mellett is rögzülnek.",
   "pocket_live_alt": "Út észlelve — rögzítés folyamatban",
-  "pocket_live_body": "Amíg vezetsz, egy élő tevékenység a zárolt képernyőn növeli a kilométereket — látod, hogy az út rögzül, anélkül hogy bármit feloldanál.",
+  "pocket_live_body": "Amíg vezetsz, egy Élő tevékenység a zárolt képernyőn mutatja a kilométereket — látod, hogy az út rögzül, anélkül hogy bármit feloldanál.",
   "hero_trial": "14 nap ingyen",
   "hero_trial_then": "utána havi {price}",
-  "compare_them": "A kilométerszámláló appok megmondják, mennyit vezettél.",
-  "compare_us": "A DropLane megmondja, megérte-e a nap."
+  "compare_them": "A kilométerszámláló appok megmondják, hány kilométert mentél.",
+  "compare_us": "A DropLane megmondja, mennyit kerestél valójában."
 }
