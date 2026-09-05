@@ -262,10 +262,20 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
   background: #fff; margin-right: 8px; opacity: .9;
 }
 
-/* the mobile sheet is an app list, not a dropdown */
-.sheet { display: none; }
+/* Below 940px the row belongs to the burger entirely. */
 @media (max-width: 940px) {
   .menu, .head-cta { display: none; }
+}
+
+/* the mobile sheet is an app list, not a dropdown */
+.sheet { display: none; }
+
+/* Up to 1120px the burger comes with it. fitMenu() drops links from the end of
+   the row until they fit, and above 940px the row is still on screen — so
+   without this the links it drops have nowhere to go. That was fine while the
+   header button appeared only above 1120px; now that the button is there from
+   941px, it takes the room five links used to have. */
+@media (max-width: 1120px) {
   .burger { display: inline-flex; }
   .sheet {
     display: block; position: absolute; left: 0; right: 0; top: 100%;
