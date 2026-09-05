@@ -1,12 +1,12 @@
 {
-  "meta_title": "DropLane — Žinok, kiek diena iš tikrųjų uždirbo",
-  "meta_description": "DropLane pats užrašo kurjerio keliones, atima kurą, parkavimą ir nuolatines išlaidas iš pajamų ir pasako, kiek iš tikrųjų uždirbo valanda. Prie to — kelionių apskaita, paruošta buhalteriui, dvidešimt keturiomis kalbomis, viskas telefone.",
+  "meta_title": "DropLane — žinok, kiek iš tikrųjų uždirbi per dieną",
+  "meta_description": "DropLane pats užrašo kurjerio keliones, atima kurą, parkavimą ir nuolatines išlaidas iš pajamų ir parodo, kiek iš tikrųjų uždirbi per valandą. Prie to — kelionių apskaita, paruošta buhalteriui, dvidešimt keturiomis kalbomis, viskas telefone.",
   "nav_label": "Pagrindinis meniu",
   "nav_how": "Kaip veikia",
-  "nav_day": "Kiek uždirba",
-  "nav_features": "Ką daro",
+  "nav_day": "Kiek uždirbi",
+  "nav_features": "Funkcijos",
   "nav_screens": "Ekranai",
-  "nav_countries": "Kur veikia",
+  "nav_countries": "Šalys",
   "nav_languages": "Kalbos",
   "nav_pricing": "Kaina",
   "nav_faq": "Klausimai",
@@ -24,15 +24,15 @@
   "langbar_rest": "Pasirink savąją — programa ja irgi kalba.",
   "per_month_short": "per mėnesį",
   "see_all": "žiūrėti visas",
-  "hero_h1": "Žinok, kiek diena iš tikrųjų uždirbo.",
-  "hero_lede": "Užvesk furgoną. Tiek to ir tereikia. DropLane užrašo kiekvieną kelionę ir maršrutą, kuriuo iš tikrųjų važiavai, atima išlaidas iš pajamų, ir tavo valandinis įkainis jau laukia dar prieš tau pareinant namo.",
+  "hero_h1": "Žinok, kiek iš tikrųjų uždirbi per dieną.",
+  "hero_lede": "Užvesk furgoną. Ir viskas. DropLane užrašo kiekvieną kelionę ir maršrutą, kuriuo iš tikrųjų važiavai, atima išlaidas iš pajamų ir parodo, kiek iš tikrųjų uždirbi per valandą, dar prieš tau pareinant namo.",
   "hero_cta_notify": "Pranešk, kai pasirodys",
   "hero_cta_how": "Kaip veikia",
   "hero_note": "be paskyros, be reklamų · iPhone",
   "hero_facts": [
     {
       "value": "0",
-      "label": "mygtukų spausti"
+      "label": "paleidimo mygtukų"
     },
     {
       "value": "24",
@@ -44,7 +44,7 @@
     }
   ],
   "money_h2": "Dvi dienos. Daugiau kilometrų. Mažiau pinigų.",
-  "money_intro": "Antradienis: 133 kilometrai, trys kelionės. Vakar: 80,7 kilometro, dvi kelionės. Kilometrų programa pasakys, kad antradienis buvo pilnesnė diena — ir bus teisi. Iš antradienio liko 66 eurai. Iš vakar dienos — 84.",
+  "money_intro": "Antradienis: 133 kilometrai, trys kelionės. Vakar: 80,7 kilometro, dvi kelionės. Įprasta kilometrų programa pasakys, kad antradienis buvo pilnesnė diena — ir bus teisi. Tik iš antradienio liko 66 eurai, o iš vakar dienos — 84.",
   "money_day1_when": "rugpjūčio 25 d., antradienis",
   "money_day1_distance": "133 km",
   "money_day1_trips": "3 kelionės",
@@ -57,15 +57,15 @@
   "money_label_trips": "Kelionės",
   "money_label_money": "Liko",
   "money_punch": "52,3 kilometro daugiau. 17,82 € mažiau.",
-  "money_note": "Kilometrai — lengvoji pusė, ir ta, kuri tau nieko nepasako. Kuri diena buvo verta, matyti kitame stulpelyje, ir būtent jį DropLane užpildo už tave, tą pačią dieną, tau nieko nesižymint.",
-  "day_h2": "Kiek diena iš tikrųjų uždirbo?",
-  "day_intro": "90,20 € skamba kaip gera diena. Atimk kurą ir parkavimą, padalyk iš 6 val. 13 min kelyje, ir išeina 8,65 € per valandą. Tai skaičius, kurio prie vairo neturi niekas — ir tas, kurį DropLane paduoda tau dar prieš pareinant namo.",
-  "day_film1_title": "Diena susiskaičiavo pati",
-  "day_film1_body": "Dvi kelionės ir 74,24 €, kurie lieka atėmus išlaidas. Nieko nereikėjo rašyti.",
+  "money_note": "Suskaičiuoti kilometrus — lengviausia dalis. Vien iš jų mažai ką sužinosi. Kuri diena iš tikrųjų apsimokėjo, matyti kitame stulpelyje, ir būtent jį DropLane užpildo už tave, tą pačią dieną, tau nieko nesižymint.",
+  "day_h2": "Kiek iš tikrųjų uždirbai per dieną",
+  "day_intro": "90,20 € skamba kaip gera diena. Tik atėmus kurą ir parkavimą ir padalijus iš 6 val. 13 min kelyje, lieka 8,65 € per valandą. Būtent tą skaičių DropLane apskaičiuoja pats, vos dienai pasibaigus.",
+  "day_film1_title": "Viskas suskaičiuota automatiškai",
+  "day_film1_body": "Dvi kelionės ir 74,24 €, kurie lieka atėmus išlaidas. Nieko nereikėjo rašyti ranka.",
   "day_film2_title": "Ataskaita susikuria pati",
   "day_film2_body": "Pažymėk, kas įeina, pasirink stačią ar gulsčią — ir PDF buhalteriui paruoštas siųsti.",
-  "day_film3_title": "Ir kiek iš tikrųjų uždirbo valanda",
-  "day_film3_body": "8,65 € per valandą atėmus išlaidas, o už jų — kilometrų kompensacija.",
+  "day_film3_title": "Ir kiek iš tikrųjų uždirbi per valandą",
+  "day_film3_body": "8,65 € per valandą atėmus išlaidas, o šalia — kilometrų kompensacija.",
   "day_tally_lead": "Viena diena, iš ekranų viršuje",
   "day_label_earned": "Uždirbta",
   "day_label_costs": "Išlaidos",
@@ -78,7 +78,7 @@
   "day_label_hours": "kelyje",
   "day_label_hour": "per valandą",
   "day_note": "Vienos dienos skaičiai, tiesiai iš ekranų viršuje. Tavo bus kitokie — esmė ta, kad juos turi tą pačią dieną, furgone, o ne sužinai pavasarį.",
-  "how_h2": "Trys žingsniai, ir du iš jų — ne tavo",
+  "how_h2": "Trys žingsniai. Tavo — tik vienas.",
   "how_intro": "DropLane nėra paleidimo mygtuko, ir tai tyčia. Šeštą ryto su furgonu, pilnu siuntų, jo paspausti niekas neprisimena.",
   "how_steps": [
     {
@@ -90,22 +90,22 @@
       "body": "Kiekviena kelionė išsisaugo pati, su maršrutu, sustojimais ir tuo, kiek prie kiekvieno stovėjai."
     },
     {
-      "title": "Surūšiuoji vienu palietimu",
-      "body": "Darbo, tuščia, link paėmimo ar asmeninė. Sumos ir suma mokesčių inspekcijai susiskaičiuoja pačios."
+      "title": "Vienu palietimu pasirenki tipą",
+      "body": "Darbo, tuščia, link paėmimo ar asmeninė. Sumos ir kilometrų kompensacija susiskaičiuoja pačios."
     }
   ],
-  "how_proof": "Paskui dienos kaupiasi pačios. Pasirink savaitę, mėnesį ar savo datas, pažymėk, kas įeina, ir PDF buhalteriui — vienas palietimas, sudėtas iš kelionių, kurių niekada nereikėjo užrašinėti.",
-  "features_h2": "Ką iš tikrųjų daro",
+  "how_proof": "Paskui kelionių istorija susideda pati. Pasirink savaitę, mėnesį ar savo datas, pažymėk, kas įeina, ir PDF buhalteriui — vienas palietimas, sudėtas iš kelionių, kurių niekada nereikėjo užrašinėti.",
+  "features_h2": "Ką iš tikrųjų daro DropLane",
   "features_intro": "Sukurta kurjerio, turinčio dešimt metų kelio, tokiam darbui, koks jis iš tikrųjų yra.",
   "features": [
     {
       "icon": "💷",
-      "title": "Kiek diena iš tikrųjų uždirbo",
-      "body": "Pajamos vidun, kuras ir išlaidos laukan, o apačioje — skaičius, kuris svarbus: per dieną, savaitę, mėnesį."
+      "title": "Kiek iš tikrųjų uždirbai per dieną",
+      "body": "Iš pajamų atimamas kuras ir kitos išlaidos, o apačioje lieka tai, kas iš tikrųjų liko — per dieną, savaitę, mėnesį."
     },
     {
       "icon": "⛽",
-      "title": "Kiek iš tikrųjų uždirba valanda",
+      "title": "Kiek iš tikrųjų uždirbi per valandą",
       "body": "Kuras, įmoka ir draudimas paskirstyti dienoms, kuriomis dirbi, kad valandinis būtų tikrasis."
     },
     {
@@ -116,7 +116,7 @@
     {
       "icon": "🧾",
       "title": "Apskaita, paruošta buhalteriui",
-      "body": "PDF su kiekviena kelione, jos maršrutu ir data. Kilometro įkainiai septyniolikai šalių viduje."
+      "body": "PDF su kiekviena kelione, jos maršrutu ir data. Kilometro įkainiai septyniolikai šalių jau įdiegti."
     },
     {
       "icon": "🅿️",
@@ -131,7 +131,7 @@
     {
       "icon": "🔔",
       "title": "Terminai",
-      "body": "Įvesk rodmenį kartą, ir DropLane toliau jį skaičiuos pagal užfiksuotus kilometrus — tada priežiūros ir techninės apžiūros priminimai gali skaičiuoti kilometrais, ne tik datomis."
+      "body": "Įvesk odometro rodmenį kartą, ir DropLane toliau jį skaičiuos pagal užfiksuotus kilometrus — tada priežiūros ir techninės apžiūros priminimai gali skaičiuoti atgal kilometrais, ne tik datomis."
     },
     {
       "icon": "🔧",
@@ -144,7 +144,7 @@
       "body": "Nustatyk kainą už litrą pagal savo kortelę. Pilant degalus užrašyk litrus, ir DropLane apskaičiuos išlaidas."
     }
   ],
-  "screens_h2": "Visa programa, dienos šviesoje ir tamsoje",
+  "screens_h2": "Visa programa — šviesia ir tamsia tema",
   "screens_intro": "Tikri ekranai iš mėnesio tikro darbo. Perjunk jungiklį viršuje, ir kiekvienas ekranas čia persijungs kartu.",
   "screens": [
     {
@@ -164,7 +164,7 @@
     },
     {
       "file": "trip-sort",
-      "title": "Kelionės rūšiavimas",
+      "title": "Kelionės tipas",
       "body": "Darbo, tuščia, link paėmimo ar asmeninė."
     },
     {
@@ -180,12 +180,12 @@
     {
       "file": "insights",
       "title": "Įžvalgos",
-      "body": "Kiek iš tikrųjų uždirba valanda ir kilometras."
+      "body": "Kiek iš tikrųjų uždirbi per valandą ir už kilometrą."
     },
     {
       "file": "insights-tax",
       "title": "Mokesčiai",
-      "body": "Kiek verti šio laikotarpio kilometrai."
+      "body": "Laikotarpio kilometrų kompensacija."
     },
     {
       "file": "report",
@@ -200,45 +200,45 @@
     {
       "file": "vehicle",
       "title": "Transporto priemonė",
-      "body": "Techninė apžiūra, kelių mokestis ir draudimas — kol nepavijo."
+      "body": "Techninė apžiūra, kelių mokestis ir draudimas — kol nepasibaigė."
     },
     {
       "file": "settings",
       "title": "Nustatymai",
-      "body": "Kilometrai ar mylios. Šviesi ar tamsi."
+      "body": "Kilometrai ar mylios. Šviesi ar tamsi tema."
     }
   ],
-  "countries_h2": "Kur DropLane žino taisykles",
-  "countries_intro": "Programa veikia bet kur. Šiose šalyse ji dar žino kilometro įkainį, kurį pripažįsta mokesčių inspekcija, ir kaip pas jus vadinami transporto priemonės dokumentai.",
-  "countries_note": "Esi kitur? Įrašyk įkainį, kurį leidžia tavo mokesčių inspekcija, o likusia dalimi pasirūpins DropLane.",
+  "countries_h2": "Šalys su įdiegtais įkainiais",
+  "countries_intro": "Programa veikia bet kur. Šiose šalyse ji dar žino kilometro įkainį, kurį pripažįsta mokesčių inspekcija, ir kaip pas tave vadinami transporto priemonės dokumentai.",
+  "countries_note": "Tavo šalies sąraše nėra? Įrašyk įkainį, kurį leidžia tavo mokesčių inspekcija, o likusia dalimi pasirūpins DropLane.",
   "languages_h2": "Skaityk ją savo kalba",
   "languages_intro": "Visa programa — kiekvienas ekranas, kiekvienas pranešimas, ataskaitos — ne vien šis puslapis. O pinigai lieka tavo valiuta, kad ir kokia kalba skaitytum.",
   "languages_caption_title": "Statistika",
   "languages_caption_body": "Tavo savaitė, tavo kalba ir tavo pinigais.",
-  "pricing_h2": "Viena kaina, viskas viduje",
-  "pricing_intro": "Keturiolika dienų nemokamai. Pradėti kortelės nereikia, ir niekas neužrakinta už brangesnio plano.",
+  "pricing_h2": "Viena kaina, viskas įskaičiuota",
+  "pricing_intro": "Keturiolika dienų nemokamai. Pradėti kortelės nereikia, ir visos funkcijos veikia iš karto — jokių brangesnių planų, jokių priemokų.",
   "pricing_monthly": "Mėnesinis",
   "pricing_yearly": "Metinis",
   "pricing_per_month": "per mėnesį, atšauki kada nori",
-  "pricing_per_year": "per metus — pigiausias kelias vidun",
+  "pricing_per_year": "per metus — geriausias pasirinkimas",
   "pricing_best": "Geriausia kaina",
   "pricing_bullet_all": "Visos funkcijos, jokių priedų",
   "pricing_bullet_trial": "Pirma 14 dienų nemokamai",
   "pricing_bullet_saving": "Sutaupyk {saving} per metus — {percent} % pigiau",
   "pricing_bullet_equivalent": "Išeina {monthly} per mėnesį",
-  "pricing_table_title": "Kaina ten, kur esi tu",
+  "pricing_table_title": "Kaina tavo šalyje",
   "pricing_search": "Rask savo šalį",
   "pricing_col_country": "Šalis",
   "pricing_col_month": "Mėnesinis",
   "pricing_col_year": "Metinis",
   "pricing_you": "Tu",
-  "pricing_note": "Kiekviena šalis turi savo, o ne perskaičiuotą kainą, kad niekas nemokėtų persirengusios sąskaitos svarais. App Store parodys tavąją su mokesčiais dar prieš tau su kuo nors sutinkant. Nesi sąraše? App Store vis tiek turi kainą tau, tavo valiuta.",
+  "pricing_note": "Kiekviena šalis turi savo kainą, o ne perskaičiuotą iš svarų. Prieš tau ką nors patvirtinant App Store parodo tikslią sumą tavo valiuta, su mokesčiais. Tavo šalies nėra sąraše viršuje? App Store turi kainą ir jai.",
   "faq_h2": "Klausimai, kuriuos kurjeriai iš tikrųjų užduoda",
   "faq_intro": "Tiesūs atsakymai iš to, kuris tą darbą dirba.",
   "faq": [
     {
       "q": "Ar tai ne dar viena kilometrų programa?",
-      "a": "Kilometrus ji rašo taip pat, be paleidimo mygtuko. Skirtumas — kas vyksta po to: tavo pajamos vidun, kuras, parkavimas ir nuolatinės išlaidos laukan, ir programa pasako, kiek iš tikrųjų uždirbo valanda. Vien kilometrų skaičius dar niekam nepasakė, ar tas maršrutas buvo vertas."
+      "a": "Kilometrus ji rašo taip pat, be paleidimo mygtuko. Skirtumas — kas vyksta po to: tavo pajamos vidun, kuras, parkavimas ir nuolatinės išlaidos laukan, ir programa parodo, kiek iš tikrųjų uždirbi per valandą. Vien kilometrai nepasako, kiek uždirbai ir ar tas maršrutas apsimokėjo."
     },
     {
       "q": "Ar sekina bateriją?",
@@ -249,8 +249,8 @@
       "a": "Ne — ir spausti nėra ko. Būtent tame ir esmė. Tai, ką turi prisiminti, pamirši būtent tą dieną, kai tai svarbu."
     },
     {
-      "q": "O jei pamiršiu surūšiuoti kelionę?",
-      "a": "Niekas nedingsta. Nesurūšiuotos kelionės laukia Dienų ekrane, ir programa tave paragina, o ne spėlioja už tave."
+      "q": "O jei pamiršiu pasirinkti kelionės tipą?",
+      "a": "Niekas nedingsta. Kelionės be tipo laukia Dienų ekrane, ir programa tave paragina, o ne spėlioja už tave."
     },
     {
       "q": "Ar mano maršrutų istorija kur nors atsidurs?",
@@ -262,7 +262,7 @@
     },
     {
       "q": "Ar mano šalies įkainis ten yra?",
-      "a": "Septyniolika šalių turi savo oficialų įkainį viduje ir atnaujinamą. Bet kur kitur savąjį įrašai vieną kartą, o programa suskaičiuoja."
+      "a": "Septyniolika šalių turi įdiegtą oficialų įkainį, kuris nuolat atnaujinamas. Bet kur kitur savąjį įrašai vieną kartą, o programa suskaičiuoja."
     },
     {
       "q": "Ar galiu naudoti kilometrais?",
@@ -285,7 +285,7 @@
       "a": "Pasakyk DropLane kainą už litrą, kurią ima tavo kuro kortelė, ir pildydamas įrašyk litrus. Išlaidos suskaičiuojamos tą pačią dieną, tad savaitės pelnas teisingas savaitėmis anksčiau, nei ateina sąskaita."
     }
   ],
-  "closer_h2": "Liaukis spėlioti, kiek diena uždirbo.",
+  "closer_h2": "Liaukis spėlioti, kiek uždirbai.",
   "closer_body": "Keturiolika dienų nemokamai, jokios paskyros, ir nieko, ką reikėtų prisiminti šeštą ryto.",
   "footer_note": "DropLane — automatinė kilometrų ir pajamų apskaita savarankiškai dirbantiems kurjeriams. Sukurta kurjerio, Torkvėjuje.",
   "footer_privacy": "Privatumas",
@@ -294,7 +294,7 @@
   "alt_today": "DropLane ekranas Šiandien: kelionė rašoma žemėlapyje, su dienos atstumu, valandomis ir pajamomis.",
   "alt_days": "Dienų sąrašas: kiekviena darbo diena su savo pelnu, atstumu ir kelionių skaičiumi.",
   "alt_report": "Ataskaitos kortelė: jungikliai kelionėms, pajamoms, išlaidoms ir kvitų nuotraukoms, o tada PDF.",
-  "alt_stats": "Statistikos ekranas: savaitės grynasis, pajamos ir išlaidos, su atstumu pagal tipą.",
+  "alt_stats": "Statistikos ekranas: savaitės grynasis, pajamos ir išlaidos, su kilometrais pagal kelionės tipą.",
   "papers_h2": "Ataskaita — stačia ar gulsčia",
   "papers_intro": "Tai pats PDF, o ne jungiklių, kurie jį sudeda, nuotrauka. Pasirink formą, tinkančią tam, kas skaitys — stačią segtuvui, gulsčią, kai kelionių lentelei reikia vietos — ir ji persidėlios abiem atvejais.",
   "papers_portrait": "Stačia",
@@ -312,7 +312,7 @@
   "cta_notify": "Parašyk, kai pasirodys",
   "privacy_h2": "Tavo duomenys. Tik tavo.",
   "privacy_intro": "Viskas lieka tavo iPhone ir tavo paties iCloud. Jokios paskyros, jokio serverio, niekas neparduodama. Tik tu sprendi, kas mato tavo keliones.",
-  "privacy_stat_label": "Serveriai su tavo buvimo vieta",
+  "privacy_stat_label": "Serverių su tavo buvimo vieta",
   "privacy_point1": "Būtent tai leidžia DropLane įrašyti kilometrus. Tavo buvimo vietų istorija niekada nepalieka iPhone.",
   "privacy_point2": "iCloud kopija ir atkūrimas, jokios paskyros nereikia",
   "privacy_point3": "Eksportuoti CSV savo apskaitai",
@@ -323,9 +323,9 @@
   "pocket_h3": "Pranešimai",
   "pocket_body": "„Visada“ leidžia kelionėms įsirašyti uždarius programą.",
   "pocket_live_alt": "Aptikta kelionė — įrašoma",
-  "pocket_live_body": "Kol važiuoji, tiesioginė veikla augina kilometrus užrakintame ekrane — matai, kad kelionė rašoma, nieko neatrakindamas.",
+  "pocket_live_body": "Kol važiuoji, tiesioginė veikla rodo kilometrus užrakintame ekrane — matai, kad kelionė rašoma, nieko neatrakindamas.",
   "hero_trial": "14 dienų nemokamai",
   "hero_trial_then": "vėliau {price} per mėnesį",
-  "compare_them": "Kilometrų programos pasako, kiek nuvažiavai.",
-  "compare_us": "DropLane pasako, ar diena buvo verta."
+  "compare_them": "Kilometrų programos pasako, kiek kilometrų nuvažiavai.",
+  "compare_us": "DropLane pasako, kiek iš tikrųjų uždirbai."
 }
