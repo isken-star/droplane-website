@@ -1,12 +1,12 @@
 {
-  "meta_title": "DropLane — Să știi cât a adus ziua, de fapt",
-  "meta_description": "DropLane înregistrează singur drumurile curierului, scade combustibilul, parcarea și cheltuielile mașinii din încasări și îți spune cât a adus, de fapt, o oră. Plus o evidență a kilometrilor gata pentru contabil, în douăzeci și patru de limbi, totul pe telefon.",
+  "meta_title": "DropLane — să știi cât ai câștigat cu adevărat într-o zi",
+  "meta_description": "DropLane înregistrează singur cursele curierului, scade combustibilul, parcarea și cheltuielile mașinii din încasări și îți arată câștigul real pe oră. Plus o evidență a kilometrilor gata pentru contabil, în douăzeci și patru de limbi, totul pe telefon.",
   "nav_label": "Meniu principal",
   "nav_how": "Cum funcționează",
-  "nav_day": "Cât rămâne",
-  "nav_features": "Ce face",
+  "nav_day": "Câștig real",
+  "nav_features": "Funcții",
   "nav_screens": "Ecrane",
-  "nav_countries": "Unde funcționează",
+  "nav_countries": "Țări",
   "nav_languages": "Limbi",
   "nav_pricing": "Preț",
   "nav_faq": "Întrebări",
@@ -24,19 +24,19 @@
   "langbar_rest": "Alege-o pe a ta — aplicația o vorbește și ea.",
   "per_month_short": "pe lună",
   "see_all": "vezi tot",
-  "hero_h1": "Să știi cât a adus ziua, de fapt.",
-  "hero_lede": "Pornește duba. Atât. DropLane înregistrează fiecare drum și traseul pe care chiar l-ai făcut, scade cheltuielile din încasări, iar tariful tău pe oră te așteaptă înainte să intri pe ușă.",
+  "hero_h1": "Să știi cât ai câștigat cu adevărat într-o zi.",
+  "hero_lede": "Pornește duba. Atât. DropLane înregistrează fiecare cursă și traseul pe care chiar l-ai făcut, scade cheltuielile din încasări și îți arată câștigul real pe oră, încă înainte să ajungi acasă.",
   "hero_cta_notify": "Anunță-mă la lansare",
   "hero_cta_how": "Cum funcționează",
   "hero_note": "fără cont, fără reclame · iPhone",
   "hero_facts": [
     {
       "value": "0",
-      "label": "butoane de apăsat"
+      "label": "butoane de start"
     },
     {
       "value": "24",
-      "label": "limbi"
+      "label": "de limbi"
     },
     {
       "value": "17",
@@ -44,7 +44,7 @@
     }
   ],
   "money_h2": "Două zile. Mai mulți kilometri. Mai puțini bani.",
-  "money_intro": "Marți: 188 de kilometri, trei curse. Ieri: 111 kilometri, două curse. O aplicație de kilometri îți spune că marți a fost ziua mai plină — și are dreptate. Marți au rămas 90 de lei. Ieri, 190.",
+  "money_intro": "Marți: 188 de kilometri, trei curse. Ieri: 111 kilometri, două curse. O aplicație obișnuită de kilometraj îți spune că marți a fost ziua mai plină — și are dreptate. Numai că marți au rămas 90 de lei, iar ieri 190.",
   "money_day1_when": "Marți, 25 august",
   "money_day1_distance": "188 km",
   "money_day1_trips": "3 curse",
@@ -57,15 +57,15 @@
   "money_label_trips": "Curse",
   "money_label_money": "Rămâne",
   "money_punch": "Cu 77 de kilometri mai mult. Cu 99,40 RON mai puțin.",
-  "money_note": "Kilometrii sunt jumătatea ușoară — și cea care te poate duce complet greșit. Care zi a meritat stă în cealaltă coloană, și tocmai pe aceea ți-o completează DropLane, chiar în ziua aia, fără să notezi nimic.",
-  "day_h2": "Cât a adus ziua, de fapt?",
-  "day_intro": "262,40 de lei sună a zi bună. Scade combustibilul și parcarea, împarte la 6 ore și 50 de minute pe șosea, și au ieșit 6,55 RON pe oră. E cifra pe care nimeni la volan n-o are — și cea pe care DropLane ți-o dă înainte să intri pe ușă.",
-  "day_film1_title": "Ziua s-a adunat singură",
-  "day_film1_body": "Două curse, și 160,60 RON rămași după ce s-au scăzut cheltuielile. Nu s-a tastat nimic.",
+  "money_note": "Kilometrii sunt partea ușoară — și, singuri, nu-ți spun mai nimic. Care zi a meritat cu adevărat se vede în cealaltă coloană, și tocmai pe aceea ți-o completează DropLane, chiar în ziua aia, fără să notezi nimic.",
+  "day_h2": "Cât ai câștigat cu adevărat într-o zi",
+  "day_intro": "262,40 de lei sună a zi bună. Dar după ce scazi combustibilul și parcarea și împarți la cele 6 ore și 50 de minute pe șosea, rămân 6,55 RON pe oră. Exact cifra asta o calculează DropLane singur — chiar la finalul zilei.",
+  "day_film1_title": "Totul s-a calculat automat",
+  "day_film1_body": "Două curse și 160,60 RON rămași după ce s-au scăzut cheltuielile. Nu s-a tastat nimic.",
   "day_film2_title": "Raportul se face singur",
-  "day_film2_body": "Bifezi ce intră, alegi portret sau vedere, și PDF-ul pentru contabil e gata de trimis.",
-  "day_film3_title": "Și cât a adus ora, de fapt",
-  "day_film3_body": "6,55 RON pe oră după cheltuieli, cu deducerea de kilometraj în spate.",
+  "day_film2_body": "Bifezi ce intră, alegi pe lung sau pe lat, iar PDF-ul pentru contabil e gata de trimis.",
+  "day_film3_title": "Și câștigul tău real pe oră",
+  "day_film3_body": "6,55 RON pe oră după cheltuieli, iar alături deducerea pe kilometri.",
   "day_tally_lead": "O zi, de pe ecranele de mai sus",
   "day_label_earned": "Încasat",
   "day_label_costs": "Cheltuieli",
@@ -78,7 +78,7 @@
   "day_label_hours": "pe șosea",
   "day_label_hour": "pe oră",
   "day_note": "Cifrele unei zile, luate de pe ecranele de mai sus. Ale tale vor fi altele — ideea e să le ai chiar în ziua aceea, în dubă, nu să afli în aprilie.",
-  "how_h2": "Trei pași, iar doi nu sunt ai tăi",
+  "how_h2": "Trei pași. Doar unul e al tău.",
   "how_intro": "În DropLane nu există buton de start, și e intenționat. La șase dimineața, cu duba plină de colete, nimeni nu-și amintește să apese unul.",
   "how_steps": [
     {
@@ -90,23 +90,23 @@
       "body": "Fiecare cursă se salvează singură, cu traseul, opririle și cât ai stat la fiecare."
     },
     {
-      "title": "Sortează dintr-o atingere",
-      "body": "Serviciu, gol, în drum spre o ridicare sau personal. Totalurile și partea fiscală vin de la sine."
+      "title": "Alege tipul cursei dintr-o atingere",
+      "body": "Serviciu, gol, în drum spre o ridicare sau personal. Totalurile și deducerea pe kilometri se actualizează singure."
     }
   ],
-  "how_proof": "Apoi zilele se adună singure. Alege o săptămână, o lună sau propriile date, bifează ce intră, iar PDF-ul pentru contabil e la o atingere — construit din curse pe care nu a trebuit să le notezi niciodată.",
-  "features_h2": "Ce face de fapt",
-  "features_intro": "Făcută de un curier cu zece ani pe drum, pentru meseria așa cum e ea.",
+  "how_proof": "Apoi istoricul curselor se strânge singur. Alege o săptămână, o lună sau propriile date, bifează ce intră, iar PDF-ul pentru contabil e la o atingere — construit din curse pe care nu a trebuit să le notezi niciodată.",
+  "features_h2": "Ce face DropLane, de fapt",
+  "features_intro": "DropLane e făcută de un curier cu zece ani pe drum, pentru meseria așa cum e ea.",
   "features": [
     {
       "icon": "💷",
-      "title": "Cât a dat ziua cu adevărat",
-      "body": "Încasări într-o parte, motorină și cheltuieli în cealaltă, iar jos cifra care contează — pe zi, pe săptămână, pe lună."
+      "title": "Cât ai câștigat cu adevărat într-o zi",
+      "body": "Din încasări se scad motorina și celelalte cheltuieli, iar jos rămâne câștigul net — pe zi, pe săptămână, pe lună."
     },
     {
       "icon": "⛽",
-      "title": "Cât plătește o oră cu adevărat",
-      "body": "Motorina, rata și asigurarea împărțite pe zilele în care lucrezi, ca ora să fie cea reală."
+      "title": "Câștigul tău real pe oră",
+      "body": "Motorina, rata și asigurarea se împart pe zilele în care lucrezi, așa că tariful pe oră e cel real."
     },
     {
       "icon": "🛣️",
@@ -131,7 +131,7 @@
     {
       "icon": "🔔",
       "title": "Termene",
-      "body": "Scrie citirea o singură dată și DropLane o ține la zi din kilometrii urmăriți — ca avertizările de revizie și ITP să numere invers în kilometri, nu doar în date."
+      "body": "Scrie kilometrajul o singură dată și DropLane îl ține la zi din kilometrii înregistrați — ca alertele de revizie și ITP să numere invers în kilometri, nu doar în date."
     },
     {
       "icon": "🔧",
@@ -144,7 +144,7 @@
       "body": "Setează prețul pe litru de pe card. Notează litrii când alimentezi și DropLane calculează costul."
     }
   ],
-  "screens_h2": "Toată aplicația, la lumină și pe întuneric",
+  "screens_h2": "Toată aplicația — pe temă luminoasă și întunecată",
   "screens_intro": "Ecrane reale, dintr-o lună de muncă adevărată. Schimbă comutatorul de sus și se schimbă fiecare imagine de aici.",
   "screens": [
     {
@@ -164,7 +164,7 @@
     },
     {
       "file": "trip-sort",
-      "title": "Sortarea unei curse",
+      "title": "Tipul cursei",
       "body": "Serviciu, gol, spre ridicare sau personal."
     },
     {
@@ -180,12 +180,12 @@
     {
       "file": "insights",
       "title": "Analiză",
-      "body": "Cât plătesc cu adevărat o oră și un kilometru."
+      "body": "Cât aduc cu adevărat o oră și un kilometru."
     },
     {
       "file": "insights-tax",
       "title": "Impozit",
-      "body": "Cât valorează kilometrii din perioadă."
+      "body": "Deducerea pe kilometri din perioadă."
     },
     {
       "file": "report",
@@ -200,45 +200,45 @@
     {
       "file": "vehicle",
       "title": "Mașina",
-      "body": "ITP, rovinietă și asigurare, până nu expiră."
+      "body": "ITP, rovinietă și asigurare, înainte să expire."
     },
     {
       "file": "settings",
       "title": "Setări",
-      "body": "Kilometri sau mile. Luminos sau întunecat."
+      "body": "Kilometri sau mile. Temă luminoasă sau întunecată."
     }
   ],
-  "countries_h2": "Unde DropLane știe regulile",
+  "countries_h2": "Țările cu tarife incluse",
   "countries_intro": "Aplicația merge oriunde. În aceste țări știe în plus și tariful pe kilometru admis de fisc și cum se numesc actele mașinii tale.",
-  "countries_note": "În altă parte? Scrie tariful pe care îl admite fiscul tău, iar DropLane face restul.",
+  "countries_note": "Țara ta nu e pe listă? Scrie tariful pe care îl admite fiscul tău, iar DropLane face restul.",
   "languages_h2": "Citește-o în limba ta",
   "languages_intro": "Toată aplicația — fiecare ecran, fiecare notificare, rapoartele — nu doar pagina asta. Iar banii rămân în moneda ta, în orice limbă ai citi.",
   "languages_caption_title": "Statistici",
   "languages_caption_body": "Săptămâna ta, în limba ta și în banii tăi.",
   "pricing_h2": "Un preț, cu tot cu tot",
-  "pricing_intro": "Paisprezece zile gratis. Fără card ca să începi și fără nimic ascuns într-un pachet mai scump.",
+  "pricing_intro": "Paisprezece zile gratis. Nu ai nevoie de card ca să începi, iar toate funcțiile sunt incluse — fără pachete mai scumpe și fără costuri în plus.",
   "pricing_monthly": "Lunar",
   "pricing_yearly": "Anual",
   "pricing_per_month": "pe lună, renunți când vrei",
-  "pricing_per_year": "pe an — cel mai ieftin",
+  "pricing_per_year": "pe an — cea mai bună variantă",
   "pricing_best": "Cel mai bun preț",
   "pricing_bullet_all": "Toate funcțiile, fără plăți în plus",
   "pricing_bullet_trial": "Întâi 14 zile gratis",
   "pricing_bullet_saving": "Economisești {saving} pe an — cu {percent}% mai ieftin",
   "pricing_bullet_equivalent": "Adică {monthly} pe lună",
-  "pricing_table_title": "Prețul acolo unde ești",
+  "pricing_table_title": "Prețul în țara ta",
   "pricing_search": "Caută-ți țara",
   "pricing_col_country": "Țară",
   "pricing_col_month": "Lunar",
   "pricing_col_year": "Anual",
   "pricing_you": "Tu",
-  "pricing_note": "Fiecare țară are prețul ei, nu unul convertit, ca nimeni să nu plătească o factură britanicã deghizată. App Store îl arată pe al tău, cu taxe cu tot, înainte să accepți ceva. Nu ești pe listă? App Store tot are un preț pentru tine, în moneda ta.",
+  "pricing_note": "Fiecare țară are prețul ei, nu unul convertit din lire. Înainte să confirmi, App Store îți arată suma exactă în moneda ta, cu taxe cu tot. Țara ta nu e în lista de mai sus? App Store are un preț și pentru ea.",
   "faq_h2": "Întrebări pe care curierii chiar le pun",
   "faq_intro": "Răspunsuri drepte, de la cineva care face meseria.",
   "faq": [
     {
       "q": "Nu e încă o aplicație de kilometri?",
-      "a": "Kilometrii îi înregistrează la fel, fără buton de pornire. Diferența e ce urmează: intră încasările tale, ies combustibilul, parcarea și cheltuielile mașinii, iar aplicația îți spune cât a adus, de fapt, o oră. Un număr de kilometri singur n-a spus nimănui vreodată dacă tura a meritat."
+      "a": "Kilometrii îi înregistrează la fel, fără buton de pornire. Diferența e ce urmează: intră încasările tale, ies combustibilul, parcarea și cheltuielile mașinii, iar aplicația îți arată câștigul real pe oră. Numărul de kilometri, singur, nu-ți spune cât ai câștigat și nici dacă tura a meritat."
     },
     {
       "q": "Consumă bateria?",
@@ -249,8 +249,8 @@
       "a": "Nu — și nici nu există buton. Exact ăsta e rostul. Ce trebuie ținut minte se uită fix în ziua în care contează."
     },
     {
-      "q": "Dacă uit să sortez o cursă?",
-      "a": "Nu se pierde nimic. Cursele nesortate așteaptă în ecranul Zile, iar aplicația îți amintește în loc să ghicească în locul tău."
+      "q": "Dacă uit să aleg tipul unei curse?",
+      "a": "Nu se pierde nimic. Cursele fără tip ales așteaptă în ecranul Zile, iar aplicația îți amintește în loc să ghicească în locul tău."
     },
     {
       "q": "Ajunge istoricul meu undeva?",
@@ -285,7 +285,7 @@
       "a": "Spune-i lui DropLane prețul pe litru pe care ți-l ia cardul de combustibil și notează litrii când alimentezi. Costul iese chiar în ziua aceea, așa că profitul săptămânii e corect cu săptămâni înainte să apară factura."
     }
   ],
-  "closer_h2": "Nu mai ghici cât a ieșit ziua.",
+  "closer_h2": "Nu mai ghici cât ai câștigat.",
   "closer_body": "Paisprezece zile gratis, fără cont și fără nimic de ținut minte la șase dimineața.",
   "footer_note": "DropLane — kilometri și încasări automate pentru curierii pe cont propriu. Făcută de un curier, în Torquay.",
   "footer_privacy": "Confidențialitate",
@@ -294,7 +294,7 @@
   "alt_today": "Ecranul Azi din DropLane: o cursă care se înregistrează pe hartă, cu distanța, orele și încasările zilei.",
   "alt_days": "Lista Zile: fiecare zi lucrată cu profitul, distanța și numărul de curse.",
   "alt_report": "Fișa raportului: comutatoare pentru curse, încasări, cheltuieli și poze de bonuri, apoi PDF-ul.",
-  "alt_stats": "Ecranul Statistici: net, încasat și cheltuieli pe săptămână, cu distanța pe tipuri.",
+  "alt_stats": "Ecranul Statistici: net, încasat și cheltuieli pe săptămână, cu distanța pe tipuri de cursă.",
   "papers_h2": "Raportul, pe lung sau pe lat",
   "papers_intro": "Ăsta e PDF-ul în sine, nu o poză cu butoanele care îl fac. Alege formatul potrivit pentru cine îl citește — pe lung pentru dosar, pe lat când tabelul curselor are nevoie de loc — și se reface pe loc.",
   "papers_portrait": "Pe lung",
@@ -317,15 +317,15 @@
   "privacy_point2": "Backup și restaurare iCloud, fără cont",
   "privacy_point3": "Exportă CSV pentru evidența ta",
   "setup_shot_location": "Pornește locația",
-  "setup_shot_always": "Acum alege Întotdeauna",
+  "setup_shot_always": "Acum alege „Întotdeauna”",
   "setup_shot_notifications": "Activează notificările",
   "setup_shot_vehicle": "Cu ce conduci?",
   "pocket_h3": "Notificări",
   "pocket_body": "„Întotdeauna” permite înregistrarea curselor cu aplicația închisă.",
   "pocket_live_alt": "Cursă detectată — se înregistrează",
-  "pocket_live_body": "Cât timp conduci, o activitate live urcă kilometrii pe ecranul blocat — vezi cursa cum se înregistrează, fără să deblochezi nimic.",
+  "pocket_live_body": "Cât timp conduci, o Activitate live îți arată kilometrii pe ecranul blocat — vezi cursa cum se înregistrează, fără să deblochezi telefonul.",
   "hero_trial": "14 zile gratis",
   "hero_trial_then": "apoi {price} pe lună",
-  "compare_them": "Aplicațiile de kilometraj îți spun cât ai condus.",
-  "compare_us": "DropLane îți spune dacă ziua a meritat."
+  "compare_them": "Aplicațiile de kilometraj îți spun câți kilometri ai făcut.",
+  "compare_us": "DropLane îți spune cât ai câștigat cu adevărat."
 }
