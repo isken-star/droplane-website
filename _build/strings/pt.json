@@ -1,12 +1,12 @@
 {
-  "meta_title": "DropLane — Saiba quanto o dia rendeu de verdade",
-  "meta_description": "O DropLane grava sozinho as viagens de quem faz entregas, tira o combustível, o estacionamento e os custos fixos dos ganhos, e diz quanto a hora rendeu de verdade. Mais um registro de quilometragem pronto para o contador, em vinte e quatro idiomas, tudo no celular.",
+  "meta_title": "DropLane — descubra quanto você ganhou de verdade no dia",
+  "meta_description": "O DropLane grava sozinho as viagens de quem faz entregas, tira o combustível, o estacionamento e os custos fixos dos ganhos, e mostra quanto você ganha por hora de verdade. Mais um registro de quilometragem pronto para o contador, em vinte e quatro idiomas, tudo no celular.",
   "nav_label": "Menu principal",
   "nav_how": "Como funciona",
-  "nav_day": "Quanto rende",
-  "nav_features": "O que faz",
+  "nav_day": "Quanto você ganha",
+  "nav_features": "Recursos",
   "nav_screens": "Telas",
-  "nav_countries": "Onde funciona",
+  "nav_countries": "Países",
   "nav_languages": "Idiomas",
   "nav_pricing": "Preço",
   "nav_faq": "Perguntas",
@@ -24,15 +24,15 @@
   "langbar_rest": "Escolha o seu — o app também fala.",
   "per_month_short": "por mês",
   "see_all": "ver todos",
-  "hero_h1": "Saiba quanto o dia rendeu de verdade.",
-  "hero_lede": "Dê a partida. Só isso. O DropLane grava cada viagem e o caminho que você fez mesmo, tira os custos dos ganhos, e deixa o valor da sua hora pronto antes de você entrar em casa.",
+  "hero_h1": "Descubra quanto você ganhou de verdade no dia.",
+  "hero_lede": "Dê a partida. Só isso. O DropLane grava cada viagem e o caminho que você fez mesmo, tira os custos dos ganhos e mostra quanto você ganha por hora de verdade, antes mesmo de você chegar em casa.",
   "hero_cta_notify": "Avise-me no lançamento",
   "hero_cta_how": "Como funciona",
   "hero_note": "sem conta, sem anúncios · iPhone",
   "hero_facts": [
     {
       "value": "0",
-      "label": "botões para apertar"
+      "label": "botões de iniciar"
     },
     {
       "value": "24",
@@ -40,11 +40,11 @@
     },
     {
       "value": "17",
-      "label": "tarifas fiscais embutidas"
+      "label": "tarifas de quilometragem embutidas"
     }
   ],
   "money_h2": "Dois dias. Mais quilômetros. Menos dinheiro.",
-  "money_intro": "Terça: 142 quilômetros, três viagens. Ontem: 93,4 quilômetros, duas viagens. Um app de quilometragem diz que a terça foi o dia mais cheio — e está certo. Da terça sobraram R$ 120. De ontem, R$ 184.",
+  "money_intro": "Terça: 142 quilômetros, três viagens. Ontem: 93,4 quilômetros, duas viagens. Um app de quilometragem comum diz que a terça foi o dia mais cheio — e está certo. Só que da terça sobraram R$ 120 e de ontem R$ 184.",
   "money_day1_when": "Terça-feira, 25 de agosto",
   "money_day1_distance": "142 km",
   "money_day1_trips": "3 viagens",
@@ -57,15 +57,15 @@
   "money_label_trips": "Viagens",
   "money_label_money": "Sobrou",
   "money_punch": "48,6 quilômetros a mais. R$ 63,80 a menos.",
-  "money_note": "Os quilômetros são a metade fácil, e a que não diz nada. Qual dia valeu a pena está na outra coluna — e é essa coluna que o DropLane preenche por você, no mesmo dia, sem você anotar nada.",
-  "day_h2": "Quanto o dia rendeu de verdade?",
-  "day_intro": "R$ 229,60 parece um bom dia. Tire o combustível e o estacionamento, divida por 6 h 26 min na estrada, e deu R$ 5,28 por hora. É o número que ninguém ao volante tem — e o que o DropLane entrega assim que você encerra o turno.",
-  "day_film1_title": "O dia se somou sozinho",
-  "day_film1_body": "Duas viagens, e R$ 152,60 que sobram depois de tirar os custos. Nada foi digitado.",
+  "money_note": "Contar quilômetro é a parte fácil. E, sozinho, ele não diz quase nada. Qual dia valeu a pena está na outra coluna — e é essa coluna que o DropLane preenche por você, no mesmo dia, sem você anotar nada.",
+  "day_h2": "Quanto você ganhou de verdade no dia",
+  "day_intro": "R$ 229,60 parece um bom dia. Mas tirando o combustível e o estacionamento, e dividindo por 6 h 26 min na estrada, sobram R$ 5,28 por hora. É exatamente esse número que o DropLane calcula sozinho, assim que você encerra o turno.",
+  "day_film1_title": "Tudo calculado automaticamente",
+  "day_film1_body": "Duas viagens, e R$ 152,60 que sobram depois de tirar os custos. Nada foi digitado à mão.",
   "day_film2_title": "O relatório se monta sozinho",
   "day_film2_body": "Marque o que entra, escolha retrato ou paisagem, e o PDF para o contador fica pronto para enviar.",
-  "day_film3_title": "E quanto a hora rendeu mesmo",
-  "day_film3_body": "R$ 5,28 por hora depois dos custos, e atrás disso a dedução da quilometragem.",
+  "day_film3_title": "E quanto você ganha por hora de verdade",
+  "day_film3_body": "R$ 5,28 por hora depois dos custos, e logo ao lado a dedução de quilometragem.",
   "day_tally_lead": "Um dia, das telas aí em cima",
   "day_label_earned": "Ganho",
   "day_label_costs": "Custos",
@@ -78,7 +78,7 @@
   "day_label_hours": "na estrada",
   "day_label_hour": "por hora",
   "day_note": "Os números de um dia, direto das telas acima. Os seus vão ser outros — o que importa é tê-los no mesmo dia, dentro do veículo, em vez de descobrir só no fim do ano.",
-  "how_h2": "Três passos, e dois deles não são seus",
+  "how_h2": "Três passos. Só um é seu.",
   "how_intro": "No DropLane não existe botão de iniciar, de propósito. Ninguém lembra de apertar um às seis da manhã com o veículo cheio de encomendas.",
   "how_steps": [
     {
@@ -90,22 +90,22 @@
       "body": "Cada viagem se grava sozinha, com o trajeto, as paradas e quanto tempo você ficou em cada uma."
     },
     {
-      "title": "Classifique com um toque",
-      "body": "Com carga, vazio, a caminho de uma coleta, ou pessoal. Os totais e o valor para o fisco vêm sozinhos."
+      "title": "Escolha o tipo com um toque",
+      "body": "Com carga, vazio, a caminho de uma coleta, ou pessoal. Os totais e a dedução de quilometragem vêm sozinhos."
     }
   ],
-  "how_proof": "Depois os dias se empilham por conta própria. Escolha uma semana, um mês ou suas próprias datas, marque o que entra, e o PDF para o contador fica a um toque — feito de viagens que você nunca precisou registrar.",
-  "features_h2": "O que ele faz de verdade",
+  "how_proof": "Depois o histórico de viagens se forma sozinho. Escolha uma semana, um mês ou suas próprias datas, marque o que entra, e o PDF para o contador fica a um toque — feito de viagens que você nunca precisou registrar.",
+  "features_h2": "O que o DropLane faz de verdade",
   "features_intro": "Feito por um entregador com dez anos de estrada, para o trabalho como ele é de verdade.",
   "features": [
     {
       "icon": "💷",
-      "title": "Quanto o dia rendeu",
-      "body": "Ganhos para dentro, combustível e custos para fora, e embaixo o número que importa — por dia, semana, mês."
+      "title": "Quanto você ganhou de verdade no dia",
+      "body": "Dos ganhos saem o combustível e os outros custos, e embaixo fica o que sobrou de verdade — por dia, semana, mês."
     },
     {
       "icon": "⛽",
-      "title": "Quanto uma hora rende",
+      "title": "Quanto você ganha por hora de verdade",
       "body": "Combustível, parcela e seguro distribuídos pelos dias que você trabalha, para o valor da hora ser o verdadeiro."
     },
     {
@@ -131,7 +131,7 @@
     {
       "icon": "🔔",
       "title": "Vencimentos",
-      "body": "Digite a leitura uma vez e o DropLane a mantém em dia com os quilômetros registrados — assim os avisos de revisão e vistoria contam em quilômetros, não só em datas."
+      "body": "Digite o hodômetro uma vez e o DropLane o mantém em dia com os quilômetros registrados — assim os lembretes de revisão e vistoria contam em quilômetros, não só em datas."
     },
     {
       "icon": "🔧",
@@ -144,7 +144,7 @@
       "body": "Defina o preço por litro do seu cartão. Anote os litros ao abastecer e o DropLane calcula o custo."
     }
   ],
-  "screens_h2": "O app inteiro, na luz do dia e no escuro",
+  "screens_h2": "O app inteiro — no tema claro e escuro",
   "screens_intro": "Telas reais, de um mês de trabalho real. Vire a chave lá em cima e todas as telas aqui mudam junto.",
   "screens": [
     {
@@ -164,7 +164,7 @@
     },
     {
       "file": "trip-sort",
-      "title": "Classificando uma viagem",
+      "title": "Tipo de viagem",
       "body": "Com carga, vazio, até a coleta ou pessoal."
     },
     {
@@ -180,12 +180,12 @@
     {
       "file": "insights",
       "title": "Análises",
-      "body": "Quanto uma hora e um quilômetro rendem de verdade."
+      "body": "Quanto você ganha por hora e por quilômetro de verdade."
     },
     {
       "file": "insights-tax",
       "title": "Impostos",
-      "body": "Quanto valem os quilômetros deste período."
+      "body": "A dedução de quilometragem do período."
     },
     {
       "file": "report",
@@ -200,45 +200,45 @@
     {
       "file": "vehicle",
       "title": "Veículo",
-      "body": "Vistoria, IPVA e seguro, antes que apertem."
+      "body": "Vistoria, IPVA e seguro — antes de vencerem."
     },
     {
       "file": "settings",
       "title": "Ajustes",
-      "body": "Quilômetros ou milhas. Claro ou escuro."
+      "body": "Quilômetros ou milhas. Tema claro ou escuro."
     }
   ],
-  "countries_h2": "Onde o DropLane conhece as regras",
+  "countries_h2": "Países com tarifas embutidas",
   "countries_intro": "O app funciona em qualquer lugar. Nestes países ele sabe também a tarifa de quilometragem que o fisco permite, e como se chamam os documentos do seu veículo.",
-  "countries_note": "Está em outro lugar? Digite a tarifa que o seu fisco permite e o DropLane faz o resto.",
+  "countries_note": "O seu país não está na lista? Digite a tarifa que o seu fisco permite e o DropLane faz o resto.",
   "languages_h2": "Leia no seu próprio idioma",
   "languages_intro": "O app inteiro — cada tela, cada notificação, os relatórios — não só esta página. E o dinheiro fica na sua moeda, seja qual for o idioma em que você lê.",
   "languages_caption_title": "Estatísticas",
   "languages_caption_body": "A sua semana, no seu idioma e no seu dinheiro.",
   "pricing_h2": "Um preço, tudo incluído",
-  "pricing_intro": "Quatorze dias grátis. Sem cartão para começar, e nada trancado atrás de um plano mais caro.",
+  "pricing_intro": "Quatorze dias grátis. Não precisa de cartão para começar, e todos os recursos já vêm juntos — sem planos mais caros nem pacotes extras.",
   "pricing_monthly": "Mensal",
   "pricing_yearly": "Anual",
   "pricing_per_month": "por mês, cancele quando quiser",
-  "pricing_per_year": "por ano — o jeito mais barato de entrar",
+  "pricing_per_year": "por ano — a melhor opção",
   "pricing_best": "Melhor valor",
   "pricing_bullet_all": "Todos os recursos, sem pacotes extras",
   "pricing_bullet_trial": "Primeiro 14 dias grátis",
   "pricing_bullet_saving": "Economize {saving} por ano — {percent}% mais barato",
   "pricing_bullet_equivalent": "Dá {monthly} por mês",
-  "pricing_table_title": "O preço onde você está",
+  "pricing_table_title": "O preço no seu país",
   "pricing_search": "Procure o seu país",
   "pricing_col_country": "País",
   "pricing_col_month": "Mensal",
   "pricing_col_year": "Anual",
   "pricing_you": "Você",
-  "pricing_note": "Cada país tem o seu próprio preço em vez de um preço convertido, para ninguém pagar uma conta em libras disfarçada. A App Store mostra o seu antes de você concordar com qualquer coisa, impostos incluídos. Não está na lista? A App Store tem um preço para você mesmo assim, na sua moeda.",
+  "pricing_note": "Cada país tem o seu próprio preço, não um convertido de libras. Antes de você confirmar qualquer coisa, a App Store mostra o valor exato na sua moeda, impostos incluídos. O seu país não está na lista acima? A App Store tem um preço para ele assim mesmo.",
   "faq_h2": "Perguntas que os entregadores fazem de verdade",
   "faq_intro": "Respostas diretas, de quem faz o trabalho.",
   "faq": [
     {
       "q": "Isso não é só mais um app de quilometragem?",
-      "a": "Ele grava a quilometragem do mesmo jeito, sem botão de iniciar. A diferença é o que vem depois: os seus ganhos entram, o combustível, o estacionamento e os custos fixos saem, e o app diz quanto a hora rendeu de verdade. Um número de quilômetros sozinho nunca disse a ninguém se a rota valeu a pena."
+      "a": "Ele grava a quilometragem do mesmo jeito, sem botão de iniciar. A diferença é o que vem depois: os seus ganhos entram, o combustível, o estacionamento e os custos fixos saem, e o app mostra quanto você ganha por hora de verdade. Os quilômetros sozinhos não dizem quanto você ganhou nem se a rota valeu a pena."
     },
     {
       "q": "Gasta a bateria?",
@@ -249,8 +249,8 @@
       "a": "Não — e não existe botão para apertar. É exatamente esse o ponto. Se você tiver que lembrar, vai esquecer justo no dia que importa."
     },
     {
-      "q": "E se eu esquecer de classificar uma viagem?",
-      "a": "Nada se perde. As viagens sem classificação ficam esperando na tela Dias, e o app cutuca você em vez de adivinhar no seu lugar."
+      "q": "E se eu esquecer de escolher o tipo de uma viagem?",
+      "a": "Nada se perde. As viagens sem tipo ficam esperando na tela Dias, e o app lembra você em vez de adivinhar no seu lugar."
     },
     {
       "q": "Meu histórico de trajetos vai parar em algum lugar?",
@@ -285,7 +285,7 @@
       "a": "Diga ao DropLane o preço por litro que o seu cartão cobra, e depois anote os litros ao abastecer. O custo sai no mesmo dia, então o lucro da semana está certo semanas antes de a fatura aparecer."
     }
   ],
-  "closer_h2": "Pare de adivinhar quanto o dia rendeu.",
+  "closer_h2": "Pare de adivinhar quanto você ganhou.",
   "closer_body": "Quatorze dias grátis, sem conta, e nada para lembrar às seis da manhã.",
   "footer_note": "DropLane — quilometragem e ganhos automáticos para entregadores autônomos. Feito por um entregador, em Torquay.",
   "footer_privacy": "Privacidade",
@@ -294,9 +294,9 @@
   "alt_today": "A tela Hoje do DropLane: uma viagem sendo gravada no mapa, com a distância, as horas e os ganhos do dia.",
   "alt_days": "A lista Dias: cada dia de trabalho com o seu lucro, a distância e o número de viagens.",
   "alt_report": "O cartão do relatório: chaves para viagens, ganhos, despesas e fotos de recibos, e depois o PDF.",
-  "alt_stats": "A tela Estatísticas: líquido, ganho e custos da semana, com a distância por tipo.",
+  "alt_stats": "A tela Estatísticas: líquido, ganho e custos da semana, com os quilômetros por tipo de viagem.",
   "papers_h2": "O relatório, em retrato ou paisagem",
-  "papers_intro": "Este é o PDF em si, não uma foto das chaves que o montam. Escolha o formato que servir para quem vai ler — em pé para arquivar, deitado quando a tabela de viagens precisa de espaço — e ele se refaz dos dois jeitos.",
+  "papers_intro": "Este é o PDF em si, não uma foto das chaves que o montam. Escolha o formato que servir para quem vai ler — retrato para arquivar, paisagem quando a tabela de viagens precisa de espaço — e ele se refaz dos dois jeitos.",
   "papers_portrait": "Retrato",
   "papers_portrait_note": "Para arquivar e para imprimir em casa.",
   "papers_landscape": "Paisagem",
@@ -317,15 +317,15 @@
   "privacy_point2": "Backup e restauração no iCloud, sem precisar de conta",
   "privacy_point3": "Exportar CSV para seus registros",
   "setup_shot_location": "Ativar localização",
-  "setup_shot_always": "Agora escolha Sempre",
+  "setup_shot_always": "Agora escolha “Sempre”",
   "setup_shot_notifications": "Ativar notificações",
   "setup_shot_vehicle": "O que você dirige?",
   "pocket_h3": "Notificações",
-  "pocket_body": "«Sempre» permite gravar as viagens com o app fechado.",
+  "pocket_body": "“Sempre” permite gravar as viagens com o app fechado.",
   "pocket_live_alt": "Viagem detectada — gravando",
-  "pocket_live_body": "Enquanto você dirige, uma Atividade ao Vivo mantém os quilômetros subindo na tela bloqueada — dá para ver a viagem sendo gravada sem desbloquear nada.",
+  "pocket_live_body": "Enquanto você dirige, uma Atividade ao Vivo mostra os quilômetros na tela bloqueada — dá para ver a viagem sendo gravada sem desbloquear nada.",
   "hero_trial": "14 dias grátis",
   "hero_trial_then": "depois {price} por mês",
-  "compare_them": "Os apps de quilometragem dizem quanto você dirigiu.",
-  "compare_us": "O DropLane diz se o dia valeu a pena."
+  "compare_them": "Os apps de quilometragem dizem quantos quilômetros você rodou.",
+  "compare_us": "O DropLane diz quanto você ganhou de verdade."
 }
