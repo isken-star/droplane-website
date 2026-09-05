@@ -306,10 +306,18 @@
      lengths, and the German bar is a line taller than the English one on a
      narrow phone — measure it, or the tallest languages cover the words they
      are sitting on. */
+  var lastMeasured = 0;
+
   function measureBar() {
-    // Rounded up, never down: offsetHeight truncates a fractional height, and
-    // a bar one pixel taller than the padding is a bar sitting on the words.
+    // Rounded up, never down: a bar one pixel taller than the padding is a bar
+    // sitting on the words.
     var tall = Math.ceil(bar.getBoundingClientRect().height);
+    // Writing the same value back would be harmless; writing a value the bar
+    // then grows to fit would not. Nothing that sizes the bar may read
+    // --cta-bar-h, and this belt-and-braces check keeps a future mistake from
+    // becoming a runaway: no change, no write, so no second measurement.
+    if (tall === lastMeasured) { return; }
+    lastMeasured = tall;
     root.style.setProperty('--cta-bar-h', tall + 'px');
   }
 
