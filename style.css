@@ -249,9 +249,11 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
   font-weight: 700; font-size: 14.5px; padding: 9px 16px; border-radius: 999px;
   flex: 0 0 auto;
 }
-/* Optically centred rather than measured: the Apple mark's stem leaves a gap
-   at the top that makes a mathematically centred logo sit low. */
-.head-cta-apple { width: 16px; height: 16px; flex: none; margin-top: -2px; }
+/* Sized in em so one rule serves both buttons: 1.35em is 19.5px beside the
+   header's 14.5px text and 23px beside the closing block's 17px. Nudged up
+   because the mark's stem leaves a gap at the top, which makes a
+   mathematically centred logo sit low. */
+.apple-mark { width: 1.35em; height: 1.35em; flex: none; margin-top: -.14em; }
 
 /* Until the app is on the store this says when, not "download" — so it reads
    as news rather than a button that goes nowhere. */
