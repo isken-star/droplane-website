@@ -305,10 +305,16 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
 
 /* ---------------- language strip ---------------- */
 
+/* Only shown when the browser's language has a page of its own that this
+   is not: an English reader on the English page has no use for a strip about
+   languages above the headline, and on a phone it cost the first screen. The
+   header's language button is always there. */
 .langbar {
+  display: none;
   background: var(--card); border-bottom: 1px solid var(--line);
   padding: 9px 0; font-size: 14.5px;
 }
+.langbar.show { display: block; }
 .langbar .wrap { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .langbar p { margin: 0; color: var(--text-2); }
 .langbar strong { color: var(--text); }
@@ -353,6 +359,11 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 .hero-brand img {
   width: 72px; height: 72px; border-radius: 20px;
   box-shadow: var(--shadow);
+}
+/* On a phone the mark at 72px pushed the headline under the fold. */
+@media (max-width: 700px) {
+  .hero-brand { margin-bottom: 12px; }
+  .hero-brand img { width: 44px; height: 44px; border-radius: 12px; }
 }
 
 .eyebrow {
@@ -623,7 +634,7 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 /* What "turn it on once" actually looks like: four phones under the steps.
    Wide enough to read the headline on each, and no wider. */
 .setup {
-  margin-top: 26px; display: grid;
+  margin-top: 0; display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: clamp(12px, 1.8vw, 22px);
 }
@@ -822,6 +833,34 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 
 .split { display: grid; grid-template-columns: 1.35fr .65fr; gap: clamp(24px,4vw,44px); align-items: center; }
 @media (max-width: 900px) { .split { grid-template-columns: 1fr; } }
+
+/* ---------------- quotes ---------------- */
+
+/* One line above the headline that says what this is, for the reader who
+   arrived cold. Small caps rather than a pill: the eyebrow pill above it
+   already carries the price. */
+.kicker {
+  margin: 0 0 10px; font-size: 13.5px; font-weight: 800; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--brand);
+}
+.cta-android { margin: 8px 0 0; }
+.cta-android a { color: var(--text-3); text-decoration: underline; text-underline-offset: 3px; }
+.cta-android a:hover { color: var(--text); }
+
+.quotes { padding: 0 0 clamp(28px, 4vw, 48px); }
+.quotes-h { font-size: 15px; font-weight: 700; color: var(--text-3); margin: 0 0 14px; letter-spacing: .02em; }
+.quote-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 700px) { .quote-grid { grid-template-columns: 1fr; } }
+.quote {
+  margin: 0; background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 20px 22px;
+}
+.quote .stars { color: #F5A623; letter-spacing: 2px; font-size: 15px; display: block; margin-bottom: 8px; }
+.quote blockquote { margin: 0 0 10px; font-size: 17px; line-height: 1.45; color: var(--text); }
+.quote figcaption { font-size: 14px; color: var(--text-3); }
+
+.chips-h3 { font-size: 16px; color: var(--text-2); margin: 26px 0 12px; }
+.sign { color: var(--text-3); white-space: nowrap; }
 
 /* ---------------- pricing ---------------- */
 

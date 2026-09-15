@@ -29,20 +29,11 @@
   "hero_cta_notify": "Anunță-mă la lansare",
   "hero_cta_how": "Cum funcționează",
   "hero_note": "fără cont, fără reclame · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "butoane de start"
-    },
-    {
-      "value": "24",
-      "label": "de limbi"
-    },
-    {
-      "value": "17",
-      "label": "tarife pe kilometru incluse"
-    }
-  ],
+  "hero_kicker": "Kilometri și încasări automate pentru curierii pe cont propriu",
+  "hero_android": "Android e pe drum. Scrie-ne și îți spunem când apare.",
+  "reviews_h2": "Ce spun curierii pe App Store",
+  "countries_paperwork_h3": "Aici aplicația știe actele; tariful îl scrii tu",
+  "hero_facts": [{"value": "0", "label": "butoane de start"}, {"value": "0", "label": "servere care îți păstrează locația"}, {"value": "17", "label": "tarife pe kilometru incluse"}],
   "money_h2": "Două zile. Mai mulți kilometri. Mai puțini bani.",
   "money_intro": "Marți: 188 de kilometri, trei curse. Ieri: 111 kilometri, două curse. O aplicație obișnuită de kilometraj îți spune că marți a fost ziua mai plină — și are dreptate. Numai că marți au rămas 90 de lei, iar ieri 190.",
   "money_day1_when": "Marți, 25 august",

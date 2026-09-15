@@ -29,20 +29,11 @@
   "hero_cta_notify": "Çıkınca haber ver",
   "hero_cta_how": "Nasıl çalışır",
   "hero_note": "hesap yok, reklam yok · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "başlat düğmesi"
-    },
-    {
-      "value": "24",
-      "label": "dil"
-    },
-    {
-      "value": "17",
-      "label": "yerleşik kilometre oranı"
-    }
-  ],
+  "hero_kicker": "Kendi hesabına çalışan kuryeler için otomatik kilometre ve kazanç",
+  "hero_android": "Android yolda. Bize yaz, çıkınca haber verelim.",
+  "reviews_h2": "Kuryeler App Store'da ne diyor",
+  "countries_paperwork_h3": "Burada uygulama evrakları biliyor; oranı sen giriyorsun",
+  "hero_facts": [{"value": "0", "label": "başlat düğmesi"}, {"value": "0", "label": "konumunu tutan sunucu"}, {"value": "17", "label": "yerleşik kilometre oranı"}],
   "money_h2": "İki gün. Daha çok kilometre. Daha az para.",
   "money_intro": "Dün: 327 kilometre, üç sürüş. Bugün: 198 kilometre, iki sürüş. Sıradan bir kilometre uygulaması dünün daha dolu gün olduğunu söyler — haklıdır da. Ama dünden geriye ₺1.347 kaldı, bugünden ₺1.945.",
   "money_day1_when": "Dün",

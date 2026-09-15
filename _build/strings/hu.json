@@ -29,20 +29,11 @@
   "hero_cta_notify": "Szólj, ha megjelent",
   "hero_cta_how": "Hogyan működik",
   "hero_note": "nincs fiók, nincs reklám · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "indítógomb"
-    },
-    {
-      "value": "24",
-      "label": "nyelv"
-    },
-    {
-      "value": "17",
-      "label": "beépített kilométerdíj"
-    }
-  ],
+  "hero_kicker": "Automatikus kilométer- és keresetnyilvántartás önálló futároknak",
+  "hero_android": "Az Android úton van. Írj nekünk, és szólunk, amint megjelenik.",
+  "reviews_h2": "Ezt mondják a futárok az App Store-ban",
+  "countries_paperwork_h3": "Itt az app ismeri a papírokat; a díjat te írod be",
+  "hero_facts": [{"value": "0", "label": "indítógomb"}, {"value": "0", "label": "a helyzetedet tároló szerver"}, {"value": "17", "label": "beépített kilométerdíj"}],
   "money_h2": "Két nap. Több kilométer. Kevesebb pénz.",
   "money_intro": "Kedd: 91,5 kilométer, három út. Tegnap: 55,4 kilométer, két út. Egy hagyományos kilométerszámláló app azt mondja, a kedd volt a teltebb nap — és igaza is van. Csakhogy keddről 30 250 Ft maradt, tegnapról pedig 35 760 Ft.",
   "money_day1_when": "augusztus 25., kedd",

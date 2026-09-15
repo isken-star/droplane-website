@@ -29,20 +29,11 @@
   "hero_cta_notify": "Paziņo, kad iznāks",
   "hero_cta_how": "Kā tas strādā",
   "hero_note": "bez konta, bez reklāmām · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "sākuma pogu"
-    },
-    {
-      "value": "24",
-      "label": "valodas"
-    },
-    {
-      "value": "17",
-      "label": "iebūvētas kilometra likmes"
-    }
-  ],
+  "hero_kicker": "Automātiska kilometru un ieņēmumu uzskaite pašnodarbinātiem kurjeriem",
+  "hero_android": "Android versija ir ceļā. Uzraksti mums, un mēs paziņosim, kad tā iznāks.",
+  "reviews_h2": "Ko kurjeri saka App Store",
+  "countries_paperwork_h3": "Šeit lietotne zina dokumentus; likmi ievadi pats",
+  "hero_facts": [{"value": "0", "label": "sākuma pogu"}, {"value": "0", "label": "serveru ar tavu atrašanās vietu"}, {"value": "17", "label": "iebūvētas kilometra likmes"}],
   "money_h2": "Divas dienas. Vairāk kilometru. Mazāk naudas.",
   "money_intro": "Otrdiena: 155 kilometri, trīs braucieni. Vakar: 87,5 kilometri, divi braucieni. Parasta kilometru lietotne pateiks, ka otrdiena bija pilnākā diena — un tai būs taisnība. Tikai no otrdienas palika 58 eiro, bet no vakardienas — 78.",
   "money_day1_when": "otrdiena, 25. augusts",

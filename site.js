@@ -181,6 +181,8 @@
       suggestion.href = match.href;
       suggestion.hidden = false;
       suggestion.classList.add('show');
+      var strip = suggestion.closest('.langbar');
+      if (strip) { strip.classList.add('show'); }
     }
   }
 

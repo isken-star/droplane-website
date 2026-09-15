@@ -29,20 +29,11 @@
   "hero_cta_notify": "Ilmoita julkaisusta",
   "hero_cta_how": "Näin se toimii",
   "hero_note": "ei tiliä, ei mainoksia · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "käynnistyspainiketta"
-    },
-    {
-      "value": "24",
-      "label": "kieltä"
-    },
-    {
-      "value": "17",
-      "label": "sisäänrakennettua kilometrikorvausta"
-    }
-  ],
+  "hero_kicker": "Automaattinen ajopäiväkirja ja tulot itsenäisille kuriireille",
+  "hero_android": "Android on tulossa. Lähetä meille sähköpostia, niin kerromme, kun se julkaistaan.",
+  "reviews_h2": "Mitä kuriirit sanovat App Storessa",
+  "countries_paperwork_h3": "Täällä sovellus tuntee paperit; korvauksen kirjoitat itse",
+  "hero_facts": [{"value": "0", "label": "käynnistyspainiketta"}, {"value": "0", "label": "palvelinta, jolla sijaintisi on"}, {"value": "17", "label": "sisäänrakennettua kilometrikorvausta"}],
   "money_h2": "Kaksi päivää. Enemmän kilometrejä. Vähemmän rahaa.",
   "money_intro": "Keskiviikko: 53 kilometriä, kaksi ajoa. Eilen: 82 kilometriä, kolme ajoa. Tavallinen ajopäiväkirjasovellus kertoo, että eilinen oli täydempi päivä — ja se on oikeassa. Silti keskiviikosta jäi 147 euroa ja eilisestä 129.",
   "money_day1_when": "Keskiviikko 26. elokuuta",

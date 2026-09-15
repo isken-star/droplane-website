@@ -29,20 +29,11 @@
   "hero_cta_notify": "Hou me op de hoogte",
   "hero_cta_how": "Hoe het werkt",
   "hero_note": "geen account, geen advertenties · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "startknoppen"
-    },
-    {
-      "value": "24",
-      "label": "talen"
-    },
-    {
-      "value": "17",
-      "label": "ingebouwde kilometervergoedingen"
-    }
-  ],
+  "hero_kicker": "Kilometers en inkomsten voor zelfstandige koeriers, automatisch",
+  "hero_android": "Android komt eraan. Mail ons en we laten je weten wanneer het zover is.",
+  "reviews_h2": "Wat koeriers zeggen in de App Store",
+  "countries_paperwork_h3": "Hier kent de app de papieren; het tarief typ je zelf in",
+  "hero_facts": [{"value": "0", "label": "startknoppen"}, {"value": "0", "label": "servers met jouw locatie"}, {"value": "17", "label": "ingebouwde kilometervergoedingen"}],
   "money_h2": "Twee dagen. Meer kilometers. Minder geld.",
   "money_intro": "Dinsdag: 119 kilometer, drie ritten. Gisteren: 74 kilometer, twee ritten. Een gewone kilometerapp vertelt je dat dinsdag de vollere dag was — en dat klopt. Alleen bleef er van dinsdag € 96,55 over en van gisteren € 113,37.",
   "money_day1_when": "Dinsdag 25 augustus",

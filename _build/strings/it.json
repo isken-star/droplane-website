@@ -29,20 +29,11 @@
   "hero_cta_notify": "Avvisami al lancio",
   "hero_cta_how": "Come funziona",
   "hero_note": "nessun account, nessuna pubblicità · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "pulsanti di avvio"
-    },
-    {
-      "value": "24",
-      "label": "lingue"
-    },
-    {
-      "value": "17",
-      "label": "tariffe chilometriche incluse"
-    }
-  ],
+  "hero_kicker": "Chilometri e incassi automatici per corrieri autonomi",
+  "hero_android": "Android è in arrivo. Scrivici e ti avvisiamo quando esce.",
+  "reviews_h2": "Cosa dicono i corrieri sull'App Store",
+  "countries_paperwork_h3": "Qui l'app conosce i documenti; la tariffa la inserisci tu",
+  "hero_facts": [{"value": "0", "label": "pulsanti di avvio"}, {"value": "0", "label": "server che custodiscono la tua posizione"}, {"value": "17", "label": "tariffe chilometriche incluse"}],
   "money_h2": "Due giornate. Più chilometri. Meno soldi.",
   "money_intro": "Martedì: 220 chilometri, tre viaggi. Ieri: 144 chilometri, due viaggi. Una normale app per i chilometri ti dirà che martedì è stata la giornata più piena — e ha ragione. Solo che di martedì sono rimasti 63 €, e di ieri 87.",
   "money_day1_when": "Martedì 25 agosto",

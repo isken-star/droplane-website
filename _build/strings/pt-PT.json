@@ -29,20 +29,11 @@
   "hero_cta_notify": "Avisa-me no lançamento",
   "hero_cta_how": "Como funciona",
   "hero_note": "sem conta, sem anúncios · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "botões de arranque"
-    },
-    {
-      "value": "24",
-      "label": "línguas"
-    },
-    {
-      "value": "17",
-      "label": "tarifas de quilometragem incluídas"
-    }
-  ],
+  "hero_kicker": "Quilometragem e ganhos automáticos para estafetas independentes",
+  "hero_android": "O Android está a caminho. Escreve-nos e avisamos-te quando sair.",
+  "reviews_h2": "O que dizem os estafetas na App Store",
+  "countries_paperwork_h3": "Aqui a app conhece os papéis; a taxa escreves tu",
+  "hero_facts": [{"value": "0", "label": "botões de arranque"}, {"value": "0", "label": "servidores com a tua localização"}, {"value": "17", "label": "tarifas de quilometragem incluídas"}],
   "money_h2": "Dois dias. Mais quilómetros. Menos dinheiro.",
   "money_intro": "Terça: 125 quilómetros, três viagens. Ontem: 79,7 quilómetros, duas viagens. Uma app de quilometragem normal diz-te que a terça foi o dia mais cheio — e tem razão. Só que da terça sobraram 74 euros e de ontem 92.",
   "money_day1_when": "Terça-feira, 25 de agosto",

@@ -126,6 +126,7 @@
         <img src="/assets/icon-180.png" alt="DropLane" width="72" height="72">
       </div>
       <span class="eyebrow" id="detected"><span class="eyebrow-flag">{{flag}}</span><b data-region="{{market}}">{{market_name}}</b><span class="eyebrow-trial">{{hero_trial}}</span><span class="eyebrow-cost">{{hero_trial_then}}</span><a href="#pricing">{{see_all}}</a></span>
+      <p class="kicker">{{hero_kicker}}</p>
       <h1>{{hero_h1}}</h1>
       <p class="lede">{{hero_lede}}</p>
       <!-- While the app is coming soon the loud button is the launch list, not
@@ -136,6 +137,7 @@
         {{cta_hero}}
       </div>
       <p class="cta-note" style="margin:14px 0 0">{{hero_note}}</p>
+      <p class="cta-note cta-android"><a href="mailto:help@droplane.co.uk?subject=DropLane%20for%20Android">{{hero_android}}</a></p>
       <ul class="hero-facts">
 {{hero_facts}}
       </ul>
@@ -163,6 +165,17 @@
 <section class="compare">
   <div class="wrap">
     <p><span class="compare-them">{{compare_them}}</span> <span class="compare-us">{{compare_us}}</span></p>
+  </div>
+</section>
+
+<!-- Real reviews, quoted as written. They are in English on every page:
+     a courier's own words are worth more than a translation of them. -->
+<section class="quotes" aria-labelledby="quotes-h">
+  <div class="wrap">
+    <h2 class="quotes-h" id="quotes-h">{{reviews_h2}}</h2>
+    <div class="quote-grid">
+{{reviews}}
+    </div>
   </div>
 </section>
 
@@ -227,13 +240,6 @@
 
     <div class="steps">
 {{steps}}
-    </div>
-
-    <!-- Step one, screen by screen. The captions are the screens' own
-         headlines out of the app, so they read the same on the page as they
-         do on the phone, in every language. -->
-    <div class="setup">
-{{setup_shots}}
     </div>
 
     <!-- And then the phone goes in a pocket. These are the only pictures on
@@ -357,6 +363,10 @@
     <ul class="chips">
 {{countries}}
     </ul>
+    <h3 class="chips-h3">{{countries_paperwork_h3}}</h3>
+    <ul class="chips">
+{{countries_more}}
+    </ul>
     <p class="section-intro" style="margin:26px 0 0">{{countries_note}}</p>
   </div>
 </section>
@@ -435,10 +445,25 @@
   </div>
 </section>
 
+<!-- Step one, screen by screen. The captions are the screens' own
+     headlines out of the app, so they read the same on the page as they do
+     on the phone, in every language. Down here rather than under the steps:
+     permission prompts are a reason to hesitate, and they were arriving
+     before most of the reasons not to. -->
+<section id="setup">
+  <div class="wrap">
+    <h2>{{setup_h2}}</h2>
+    <p class="section-intro">{{setup_intro}}</p>
+    <div class="setup">
+{{setup_shots}}
+    </div>
+  </div>
+</section>
+
 <section class="band" id="faq">
   <div class="wrap">
     <h2>{{faq_h2}}</h2>
-    <p class="section-intro">{{faq_intro}}</p>
+    <p class="section-intro">{{faq_intro}} <span class="sign">— Iskender Davies</span></p>
     <div class="faq">
 {{faq}}
     </div>

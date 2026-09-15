@@ -29,20 +29,11 @@
   "hero_cta_notify": "Daj mi vedieť, keď vyjde",
   "hero_cta_how": "Ako to funguje",
   "hero_note": "žiadny účet, žiadne reklamy · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "tlačidiel štart"
-    },
-    {
-      "value": "24",
-      "label": "jazykov"
-    },
-    {
-      "value": "17",
-      "label": "zabudovaných sadzieb za kilometer"
-    }
-  ],
+  "hero_kicker": "Kilometre a zárobky pre kuriérov na voľnej nohe, automaticky",
+  "hero_android": "Android je na ceste. Napíš nám a dáme ti vedieť, keď vyjde.",
+  "reviews_h2": "Čo hovoria kuriéri v App Store",
+  "countries_paperwork_h3": "Tu aplikácia pozná doklady; sadzbu si zadáš sám",
+  "hero_facts": [{"value": "0", "label": "tlačidiel štart"}, {"value": "0", "label": "serverov s tvojou polohou"}, {"value": "17", "label": "zabudovaných sadzieb za kilometer"}],
   "money_h2": "Dva dni. Viac kilometrov. Menej peňazí.",
   "money_intro": "Utorok: 104 kilometrov, tri jazdy. Včera: 62,4 kilometra, dve jazdy. Bežná aplikácia na kilometre ti povie, že utorok bol plnší deň — a má pravdu. Lenže z utorka zostalo 88 eur a zo včerajška 103.",
   "money_day1_when": "utorok, 25. augusta",

@@ -29,20 +29,11 @@
   "hero_cta_notify": "Dej mi vědět, až vyjde",
   "hero_cta_how": "Jak to funguje",
   "hero_note": "žádný účet, žádné reklamy · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "tlačítek start"
-    },
-    {
-      "value": "24",
-      "label": "jazyků"
-    },
-    {
-      "value": "17",
-      "label": "vestavěných sazeb za kilometr"
-    }
-  ],
+  "hero_kicker": "Kilometry a výdělky pro kurýry na volné noze, automaticky",
+  "hero_android": "Android je na cestě. Napiš nám a dáme ti vědět, až vyjde.",
+  "reviews_h2": "Co říkají kurýři v App Storu",
+  "countries_paperwork_h3": "Tady aplikace zná doklady; sazbu si zadáš sám",
+  "hero_facts": [{"value": "0", "label": "tlačítek start"}, {"value": "0", "label": "serverů s tvojí polohou"}, {"value": "17", "label": "vestavěných sazeb za kilometr"}],
   "money_h2": "Dva dny. Víc kilometrů. Míň peněz.",
   "money_intro": "Úterý: 126 kilometrů, tři jízdy. Včera: 80,5 kilometru, dvě jízdy. Běžná aplikace na kilometry ti řekne, že úterý byl plnější den — a má pravdu. Jenže z úterý zbylo 2 098 Kč a ze včerejška 2 505 Kč.",
   "money_day1_when": "úterý 25. srpna",

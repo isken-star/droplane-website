@@ -29,20 +29,11 @@
   "hero_cta_notify": "Préviens-moi au lancement",
   "hero_cta_how": "Comment ça marche",
   "hero_note": "sans compte, sans publicité · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "bouton de démarrage"
-    },
-    {
-      "value": "24",
-      "label": "langues"
-    },
-    {
-      "value": "17",
-      "label": "barèmes kilométriques intégrés"
-    }
-  ],
+  "hero_kicker": "Kilomètres et recettes automatiques pour les coursiers indépendants",
+  "hero_android": "Android arrive. Écris-nous et on te prévient à la sortie.",
+  "reviews_h2": "Ce que disent les coursiers sur l'App Store",
+  "countries_paperwork_h3": "Ici l'app connaît les papiers ; le barème, c'est toi qui le saisis",
+  "hero_facts": [{"value": "0", "label": "bouton de démarrage"}, {"value": "0", "label": "serveur qui stocke ta position"}, {"value": "17", "label": "barèmes kilométriques intégrés"}],
   "money_h2": "Deux journées. Plus de kilomètres. Moins d'argent.",
   "money_intro": "Mardi : 113 kilomètres, trois trajets. Hier : 67 kilomètres, deux trajets. Une appli de kilométrage ordinaire te dira que mardi était la journée la plus chargée — et elle a raison. Sauf que mardi, il est resté 89 €, et hier 109.",
   "money_day1_when": "Mardi 25 août",

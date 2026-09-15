@@ -29,20 +29,11 @@
   "hero_cta_notify": "Avísame en el lanzamiento",
   "hero_cta_how": "Cómo funciona",
   "hero_note": "sin cuenta, sin anuncios · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "botones de inicio"
-    },
-    {
-      "value": "24",
-      "label": "idiomas"
-    },
-    {
-      "value": "17",
-      "label": "tarifas por kilómetro incluidas"
-    }
-  ],
+  "hero_kicker": "Kilómetros e ingresos automáticos para repartidores autónomos",
+  "hero_android": "Android está en camino. Escríbenos y te avisamos cuando salga.",
+  "reviews_h2": "Lo que dicen los repartidores en el App Store",
+  "countries_paperwork_h3": "Aquí la app conoce los papeles; la tarifa la escribes tú",
+  "hero_facts": [{"value": "0", "label": "botones de inicio"}, {"value": "0", "label": "servidores con tu ubicación"}, {"value": "17", "label": "tarifas por kilómetro incluidas"}],
   "money_h2": "Dos días. Más kilómetros. Menos dinero.",
   "money_intro": "Martes: 68 kilómetros, tres trayectos. Ayer: 41 kilómetros, dos trayectos. Una app de kilometraje normal te dirá que el martes fue el día más cargado — y tiene razón. Solo que del martes quedaron 80 € y de ayer, 98.",
   "money_day1_when": "Martes, 25 de agosto",

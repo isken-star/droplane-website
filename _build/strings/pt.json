@@ -29,20 +29,11 @@
   "hero_cta_notify": "Avise-me no lançamento",
   "hero_cta_how": "Como funciona",
   "hero_note": "sem conta, sem anúncios · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "botões de iniciar"
-    },
-    {
-      "value": "24",
-      "label": "idiomas"
-    },
-    {
-      "value": "17",
-      "label": "tarifas de quilometragem embutidas"
-    }
-  ],
+  "hero_kicker": "Quilometragem e ganhos automáticos para entregadores autônomos",
+  "hero_android": "O Android está a caminho. Mande um e-mail e a gente avisa quando sair.",
+  "reviews_h2": "O que os entregadores dizem na App Store",
+  "countries_paperwork_h3": "Aqui o app conhece os documentos; a taxa você digita",
+  "hero_facts": [{"value": "0", "label": "botões de iniciar"}, {"value": "0", "label": "servidores com a sua localização"}, {"value": "17", "label": "tarifas de quilometragem embutidas"}],
   "money_h2": "Dois dias. Mais quilômetros. Menos dinheiro.",
   "money_intro": "Terça: 142 quilômetros, três viagens. Ontem: 93,4 quilômetros, duas viagens. Um app de quilometragem comum diz que a terça foi o dia mais cheio — e está certo. Só que da terça sobraram R$ 120 e de ontem R$ 184.",
   "money_day1_when": "Terça-feira, 25 de agosto",

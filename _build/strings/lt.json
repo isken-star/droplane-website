@@ -29,20 +29,11 @@
   "hero_cta_notify": "Pranešk, kai pasirodys",
   "hero_cta_how": "Kaip veikia",
   "hero_note": "be paskyros, be reklamų · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "paleidimo mygtukų"
-    },
-    {
-      "value": "24",
-      "label": "kalbos"
-    },
-    {
-      "value": "17",
-      "label": "įdiegtų kilometro įkainių"
-    }
-  ],
+  "hero_kicker": "Automatinė kilometrų ir pajamų apskaita savarankiškai dirbantiems kurjeriams",
+  "hero_android": "Android versija jau pakeliui. Parašyk mums — pranešime, kai ji pasirodys.",
+  "reviews_h2": "Ką kurjeriai rašo „App Store“",
+  "countries_paperwork_h3": "Čia programa žino dokumentus; tarifą įvedi pats",
+  "hero_facts": [{"value": "0", "label": "paleidimo mygtukų"}, {"value": "0", "label": "serverių su tavo buvimo vieta"}, {"value": "17", "label": "įdiegtų kilometro įkainių"}],
   "money_h2": "Dvi dienos. Daugiau kilometrų. Mažiau pinigų.",
   "money_intro": "Antradienis: 133 kilometrai, trys kelionės. Vakar: 80,7 kilometro, dvi kelionės. Įprasta kilometrų programa pasakys, kad antradienis buvo pilnesnė diena — ir bus teisi. Tik iš antradienio liko 66 eurai, o iš vakar dienos — 84.",
   "money_day1_when": "rugpjūčio 25 d., antradienis",

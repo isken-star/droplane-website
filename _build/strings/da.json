@@ -29,20 +29,11 @@
   "hero_cta_notify": "Få besked ved lanceringen",
   "hero_cta_how": "Sådan virker det",
   "hero_note": "ingen konto, ingen reklamer · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "startknapper"
-    },
-    {
-      "value": "24",
-      "label": "sprog"
-    },
-    {
-      "value": "17",
-      "label": "indbyggede kørselssatser"
-    }
-  ],
+  "hero_kicker": "Automatisk kørselsregnskab og indtjening for selvstændige kurerer",
+  "hero_android": "Android er på vej. Skriv til os, så siger vi til, når den er ude.",
+  "reviews_h2": "Hvad kurerer siger på App Store",
+  "countries_paperwork_h3": "Her kender appen papirerne; satsen taster du selv ind",
+  "hero_facts": [{"value": "0", "label": "startknapper"}, {"value": "0", "label": "servere med din lokalitet"}, {"value": "17", "label": "indbyggede kørselssatser"}],
   "money_h2": "To dage. Flere kilometer. Færre penge.",
   "money_intro": "Onsdag: 64 kilometer, to ture. I går: 100 kilometer, tre ture. En almindelig kilometer-app fortæller dig, at i går var den travleste dag — og den har ret. Alligevel blev der 1.187 kroner tilbage onsdag og 1.013 i går.",
   "money_day1_when": "Onsdag 26. august",

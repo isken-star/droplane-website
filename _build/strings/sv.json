@@ -29,20 +29,11 @@
   "hero_cta_notify": "Få besked när den släpps",
   "hero_cta_how": "Så fungerar det",
   "hero_note": "inget konto, inga annonser · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "startknappar"
-    },
-    {
-      "value": "24",
-      "label": "språk"
-    },
-    {
-      "value": "17",
-      "label": "inbyggda milersättningar"
-    }
-  ],
+  "hero_kicker": "Automatisk körjournal och intäkter för egenanställda kurirer",
+  "hero_android": "Android är på väg. Mejla oss så säger vi till när den är ute.",
+  "reviews_h2": "Vad kurirer säger på App Store",
+  "countries_paperwork_h3": "Här känner appen till papperen; schablonen skriver du in själv",
+  "hero_facts": [{"value": "0", "label": "startknappar"}, {"value": "0", "label": "servrar som lagrar din plats"}, {"value": "17", "label": "inbyggda milersättningar"}],
   "money_h2": "Två dagar. Samma kilometer. Inte samma pengar.",
   "money_intro": "Båda är tre körningar och runt hundrafemtio kilometer, från samma telefon, i samma skåpbil. En vanlig körjournalsapp bokför dem som i stort sett samma dag. Det skiljer 277 kronor.",
   "money_day1_when": "Torsdag 30 juli",

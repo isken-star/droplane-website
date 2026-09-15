@@ -29,20 +29,11 @@
   "hero_cta_notify": "Få beskjed ved lansering",
   "hero_cta_how": "Slik virker det",
   "hero_note": "ingen konto, ingen reklame · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "startknapper"
-    },
-    {
-      "value": "24",
-      "label": "språk"
-    },
-    {
-      "value": "17",
-      "label": "innebygde kilometersatser"
-    }
-  ],
+  "hero_kicker": "Automatisk kjørebok og inntekt for selvstendige bud",
+  "hero_android": "Android er på vei. Send oss en e-post, så sier vi fra når den er ute.",
+  "reviews_h2": "Hva bud sier på App Store",
+  "countries_paperwork_h3": "Her kjenner appen papirene; satsen skriver du inn selv",
+  "hero_facts": [{"value": "0", "label": "startknapper"}, {"value": "0", "label": "servere som lagrer posisjonen din"}, {"value": "17", "label": "innebygde kilometersatser"}],
   "money_h2": "To dager. Samme kilometer. Ikke samme penger.",
   "money_intro": "Begge er tre turer og rundt hundre og seksti kilometer, fra samme telefon, i samme varebil. En vanlig kjørebok-app fører dem som stort sett samme dag. Det skiller 324 kroner.",
   "money_day1_when": "Torsdag 30. juli",

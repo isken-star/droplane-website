@@ -29,20 +29,11 @@
   "hero_cta_notify": "Get notified at launch",
   "hero_cta_how": "How it works",
   "hero_note": "no account, no ads · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "start buttons"
-    },
-    {
-      "value": "24",
-      "label": "languages"
-    },
-    {
-      "value": "17",
-      "label": "mileage rates built in"
-    }
-  ],
+  "hero_kicker": "Automatic mileage and earnings for self-employed couriers",
+  "hero_android": "Android is on its way. Email us and we'll tell you when it's out.",
+  "reviews_h2": "What couriers say on the App Store",
+  "countries_paperwork_h3": "These know your paperwork; the rate is yours to type in",
+  "hero_facts": [{"value": "0", "label": "start buttons"}, {"value": "0", "label": "servers holding your location"}, {"value": "17", "label": "mileage rates built in"}],
   "money_h2": "Two days. Same kilometres. Not the same money.",
   "money_intro": "Both of these are three drives and about eighty-five kilometres, off the same phone, in the same van. A mileage app files them as more or less the same day. They are thirty-four dollars apart.",
   "money_day1_when": "Thursday 30 July",

@@ -29,20 +29,11 @@
   "hero_cta_notify": "Powiadom mnie o premierze",
   "hero_cta_how": "Jak to działa",
   "hero_note": "bez konta, bez reklam · iPhone",
-  "hero_facts": [
-    {
-      "value": "0",
-      "label": "przycisków start"
-    },
-    {
-      "value": "24",
-      "label": "języki"
-    },
-    {
-      "value": "17",
-      "label": "wbudowanych stawek za kilometr"
-    }
-  ],
+  "hero_kicker": "Automatyczny przebieg i zarobki dla kurierów na swoim",
+  "hero_android": "Android jest w drodze. Napisz do nas, a damy znać, gdy wyjdzie.",
+  "reviews_h2": "Co kurierzy piszą w App Store",
+  "countries_paperwork_h3": "Tu aplikacja zna dokumenty; stawkę wpisujesz sam",
+  "hero_facts": [{"value": "0", "label": "przycisków start"}, {"value": "0", "label": "serwerów z twoją lokalizacją"}, {"value": "17", "label": "wbudowanych stawek za kilometr"}],
   "money_h2": "Dwa dni. Więcej kilometrów. Mniej pieniędzy.",
   "money_intro": "Wtorek: 144 kilometry, trzy przejazdy. Wczoraj: 88 kilometrów, dwa przejazdy. Zwykła aplikacja do liczenia kilometrów pokaże, że wtorek był cięższym dniem — i będzie miała rację. Tyle że na czysto z wtorku zostało 290 złotych, a z wczoraj 365.",
   "money_day1_when": "Wtorek, 25 sierpnia",
