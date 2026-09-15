@@ -16,6 +16,12 @@ python3 ../Scripts/build_site.py     # from website/, or Scripts/build_site.py f
 
 That rewrites `index.html`, `<lang>/index.html` and `sitemap.xml`. Never edit
 those by hand — edit `_build/template.html` or `_build/strings/<lang>.json`.
+Languages with App Store screens but no simulator set get the **compact page**:
+mark the language `"compact": true` in `_build/site.json`, convert the ten
+screens with `python3 ../Scripts/import_store_shots.py <MARKET> <lang>`, and
+give it a strings file with the compact page's ~80 keys (copy `ja.json`).
+The compact template is derived from the full one at build time, so a change
+to the full page reaches both.
 Share images (the picture a pasted link shows) come from
 `python3 ../Scripts/build_og.py`, one per language into `assets/og/`; run it
 after a headline, price or Days screenshot changes. The listing's rating in

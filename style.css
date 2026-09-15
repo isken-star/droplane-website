@@ -834,6 +834,10 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 .split { display: grid; grid-template-columns: 1.35fr .65fr; gap: clamp(24px,4vw,44px); align-items: center; }
 @media (max-width: 900px) { .split { grid-template-columns: 1fr; } }
 
+/* Korean breaks lines between words, never inside one; the browser default
+   would split 진짜로 across two lines of the headline. */
+:lang(ko) { word-break: keep-all; overflow-wrap: anywhere; }
+
 /* ---------------- quotes ---------------- */
 
 /* One line above the headline that says what this is, for the reader who

@@ -1,0 +1,226 @@
+{
+  "meta_title": "DropLane — 自營送貨司機的里程與收入自動記錄 App",
+  "meta_description": "為自營送貨司機打造的里程記錄 App。DropLane 自動記錄每一趟行程，從收入扣掉油錢和支出，告訴你每小時到底賺了多少。",
+  "nav_label": "主選單",
+  "nav_features": "功能",
+  "nav_screens": "畫面",
+  "nav_countries": "支援的國家",
+  "nav_languages": "語言",
+  "nav_pricing": "價格",
+  "nav_faq": "常見問題",
+  "nav_support": "支援",
+  "cta_get": "取得 DropLane",
+  "menu": "選單",
+  "close": "關閉",
+  "theme_label": "配色",
+  "theme_light": "淺色",
+  "theme_dark": "深色",
+  "language_label": "語言",
+  "language_title": "用你的語言閱讀本站",
+  "language_note": "App 本身支援 45 種語言，其餘語言的頁面陸續上線中。",
+  "langbar_strong": "多種語言。",
+  "langbar_rest": "選一種，App 也用同一種語言。",
+  "see_all": "各國價格",
+  "per_month_short": "/月",
+  "hero_kicker": "為自營送貨司機自動記錄里程與收入",
+  "hero_h1": "這一天，到底賺了多少。",
+  "hero_lede": "開車出發就好。DropLane 自動記錄每一趟行程和實際走的路線，從收入扣掉支出，在你到家之前就算好真正的時薪。",
+  "hero_cta_how": "看看畫面",
+  "hero_note": "不用帳號，沒有廣告 · iPhone",
+  "hero_android": "Android 版正在路上。寄封信給我們，上線時通知你。",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "個開始按鈕"
+    },
+    {
+      "value": "0",
+      "label": "台保存你位置的伺服器"
+    },
+    {
+      "value": "17",
+      "label": "個國家的里程扣除率內建"
+    }
+  ],
+  "hero_trial": "14 天免費",
+  "hero_trial_then": "之後每月 {price}",
+  "compare_them": "里程 App 告訴你跑了多遠。",
+  "compare_us": "DropLane 告訴你這一天值不值得。",
+  "reviews_h2": "司機在 App Store 上怎麼說",
+  "features_h2": "DropLane 實際上做什麼",
+  "features_intro": "由一位跑了十年路的送貨司機，按這份工作真實的樣子打造。",
+  "features": [
+    {
+      "icon": "💵",
+      "title": "這一天真正剩下多少",
+      "body": "油錢和其他支出從收入扣掉，真正進口袋的金額列在最下面——按日、按週、按月。"
+    },
+    {
+      "icon": "⛽",
+      "title": "一小時真正賺多少",
+      "body": "油錢、車貸、保險分攤到工作的日子裡，所以時薪這個數字才是真的。"
+    },
+    {
+      "icon": "🛣️",
+      "title": "不碰手機的里程記錄",
+      "body": "從駛離到停好車，行程在背景自動記錄。"
+    },
+    {
+      "icon": "🧾",
+      "title": "可以直接交給會計師的記錄",
+      "body": "一份 PDF，列出每趟行程、路線和日期。內建 17 個國家的里程扣除率。"
+    },
+    {
+      "icon": "🅿️",
+      "title": "停車與等待時間",
+      "body": "在每個送貨點或站所等了多久，一目了然，什麼都不用寫。"
+    },
+    {
+      "icon": "🔒",
+      "title": "資料不離開你的手機",
+      "body": "不用註冊帳號，沒有追蹤，沒有廣告。路線記錄是你的，只備份到你自己的 iCloud。"
+    },
+    {
+      "icon": "🔔",
+      "title": "到期提醒",
+      "body": "輸入一次里程表讀數，DropLane 會照記錄的里程持續累加，保養和驗車提醒可以按里程倒數，而不只是按日期。"
+    },
+    {
+      "icon": "🔧",
+      "title": "你的車輛",
+      "body": "記錄保養、輪胎和維修，附上發票照片，整本車輛保養史就在口袋裡。"
+    },
+    {
+      "icon": "💳",
+      "title": "油卡",
+      "body": "設定油卡的每公升單價，加油時記下公升數，DropLane 自動算出費用。"
+    }
+  ],
+  "screens_h2": "App 畫面",
+  "screens_intro": "真實畫面，來自一個月的真實工作。",
+  "screens": [
+    {
+      "file": "today",
+      "title": "今天",
+      "body": "車輪還在轉的時候。"
+    },
+    {
+      "file": "today-money",
+      "title": "今日收入",
+      "body": "收入減去支出後的淨收入。"
+    },
+    {
+      "file": "yesterday-rate",
+      "title": "昨天",
+      "body": "每小時到底賺了多少。"
+    },
+    {
+      "file": "days",
+      "title": "按日",
+      "body": "每一天都已經算好。"
+    },
+    {
+      "file": "report",
+      "title": "PDF 報告",
+      "body": "照會計師想要的方式產生。"
+    },
+    {
+      "file": "tax",
+      "title": "稅務",
+      "body": "這段期間的里程值多少錢。"
+    },
+    {
+      "file": "trip-sort",
+      "title": "行程類型",
+      "body": "載貨、空車、調度、私人。"
+    },
+    {
+      "file": "live-activity",
+      "title": "鎖定畫面",
+      "body": "不用解鎖，就能看到記錄中的里程。"
+    },
+    {
+      "file": "vehicle",
+      "title": "車輛",
+      "body": "驗車、牌照稅、保險，趕在到期之前。"
+    },
+    {
+      "file": "insights-spend",
+      "title": "支出",
+      "body": "油錢、餐費、停車、過路費。"
+    }
+  ],
+  "countries_h2": "內建里程扣除率的國家",
+  "countries_intro": "App 在任何地方都能用。在這些國家，它還知道稅務機關認可的里程扣除率，以及你的車輛證件叫什麼。",
+  "countries_paperwork_h3": "這些國家認得證件名稱，扣除率由你自己輸入",
+  "countries_note": "在別的地方？輸入一次稅務機關認可的費率，剩下的交給 DropLane。",
+  "languages_h2": "用你自己的語言閱讀",
+  "languages_intro": "不只是這個頁面，而是整個 App——每個畫面、每則通知、每份報告。不管用哪種語言閱讀，金額都是你自己的貨幣。",
+  "languages_caption_title": "今天",
+  "languages_caption_body": "用你的語言、你的貨幣，看這一天的數字。",
+  "alt_stats": "今天畫面：收入、支出、淨收入。",
+  "alt_days": "按日畫面：每個工作日的利潤、里程和行程數。",
+  "alt_today": "今天畫面：記錄中的行程和今日收入。",
+  "pricing_h2": "一個價格，全部功能",
+  "pricing_intro": "14 天免費。試用期結束前取消，不收任何費用。所有功能從一開始就能用——沒有更高的方案，沒有額外購買。",
+  "pricing_monthly": "月繳",
+  "pricing_yearly": "年繳",
+  "pricing_per_month": "每月，隨時取消",
+  "pricing_per_year": "每年——更划算",
+  "pricing_best": "最划算",
+  "pricing_bullet_all": "全部功能，沒有額外購買",
+  "pricing_bullet_trial": "先免費 14 天",
+  "pricing_cta": "免費試用 14 天",
+  "pricing_bullet_saving": "每年省 {saving}——便宜 {percent}%",
+  "pricing_bullet_equivalent": "換算每月 {monthly}",
+  "pricing_table_title": "你所在國家的價格",
+  "pricing_search": "尋找國家",
+  "pricing_col_country": "國家",
+  "pricing_col_month": "月繳",
+  "pricing_col_year": "年繳",
+  "pricing_you": "你",
+  "pricing_note": "每個國家的價格都是各自訂的，不是按匯率換算。在你同意之前，App Store 會用你的貨幣顯示含稅的準確金額。不在清單裡？App Store 一樣有你所在地區的價格。",
+  "faq_h2": "司機真正會問的問題",
+  "faq_intro": "來自一個真正做這行的人的直接回答。",
+  "faq": [
+    {
+      "q": "這不就是又一個里程 App 嗎？",
+      "a": "記錄里程的方式一樣，只是沒有開始按鈕。差別在後面：填入收入，扣掉油錢、停車費和營運支出，App 告訴你每小時到底賺了多少。光有里程數字，從來沒人知道這一趟值不值。"
+    },
+    {
+      "q": "會很耗電嗎？",
+      "a": "DropLane 不會整天開著 GPS。它安靜地等到你離開停車的地方，行駛中才記錄，停下來就回去休息。"
+    },
+    {
+      "q": "需要按開始嗎？",
+      "a": "不需要——根本沒有按鈕可按。這正是重點。需要記住的事，總會在最要緊的那天忘掉。"
+    },
+    {
+      "q": "忘了選行程類型怎麼辦？",
+      "a": "什麼都不會丟。沒有類型的行程會在按日畫面等著，App 會提醒你，而不是替你猜。"
+    },
+    {
+      "q": "我的路線記錄會傳到別的地方嗎？",
+      "a": "不會。沒有帳號，也沒有伺服器。一切都在你的 iPhone 上，只有你願意時才備份到你自己的 iCloud。"
+    },
+    {
+      "q": "沒有訊號的地方能用嗎？",
+      "a": "能。記錄靠 iPhone 自己的 GPS，完全不需要網路。沒訊號時記錄的行程會先標為「起點」和「終點」，等下次連上 Wi-Fi，DropLane 會補上街道名。"
+    },
+    {
+      "q": "換了新手機怎麼辦？",
+      "a": "登入同一個 iCloud，行程、收入和支出會自己回來。沒有帳號要建，也沒有密碼會弄丟。"
+    },
+    {
+      "q": "如果我停止付費，記錄會不見嗎？",
+      "a": "不會刪除任何東西。行程資料仍在你的 iPhone 和你自己的 iCloud 裡。不過打開 DropLane 需要有效的訂閱，所以如果想把資料帶走，請先在設定裡匯出 CSV，一鍵就好。"
+    }
+  ],
+  "closer_h2": "別再猜這一天賺了多少。",
+  "closer_body": "14 天免費，不用帳號，早上六點也沒什麼要記住的。",
+  "footer_note": "DropLane——為自營送貨司機自動記錄里程與收入。由一位送貨司機在英國托基打造。",
+  "footer_privacy": "隱私權",
+  "footer_terms": "條款",
+  "footer_support": "支援",
+  "suggest_prompt": "用繁體中文閱讀"
+}

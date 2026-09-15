@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-SG" data-theme="light" data-lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DropLane — 自雇送货司机的里程与收入自动记录应用</title>
+<meta name="description" content="为自雇送货司机打造的里程记录应用。DropLane 自动记录每一次行程，从收入中扣除油费和开支，告诉你每小时到底赚了多少。">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<!-- Safari on iPhone shows its own "View in App Store" strip from this one line. -->
+<meta name="apple-itunes-app" content="app-id=6760871535">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/sg/">
+<link rel="alternate" hreflang="en" href="https://www.droplane.co.uk/">
+<link rel="alternate" hreflang="en-US" href="https://www.droplane.co.uk/us/">
+<link rel="alternate" hreflang="en-AU" href="https://www.droplane.co.uk/au/">
+<link rel="alternate" hreflang="da" href="https://www.droplane.co.uk/da/">
+<link rel="alternate" hreflang="de" href="https://www.droplane.co.uk/de/">
+<link rel="alternate" hreflang="es" href="https://www.droplane.co.uk/es/">
+<link rel="alternate" hreflang="fr" href="https://www.droplane.co.uk/fr/">
+<link rel="alternate" hreflang="it" href="https://www.droplane.co.uk/it/">
+<link rel="alternate" hreflang="nl" href="https://www.droplane.co.uk/nl/">
+<link rel="alternate" hreflang="pl" href="https://www.droplane.co.uk/pl/">
+<link rel="alternate" hreflang="pt-PT" href="https://www.droplane.co.uk/pt/">
+<link rel="alternate" hreflang="pt" href="https://www.droplane.co.uk/br/">
+<link rel="alternate" hreflang="cs" href="https://www.droplane.co.uk/cz/">
+<link rel="alternate" hreflang="sk" href="https://www.droplane.co.uk/sk/">
+<link rel="alternate" hreflang="hu" href="https://www.droplane.co.uk/hu/">
+<link rel="alternate" hreflang="el" href="https://www.droplane.co.uk/gr/">
+<link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
+<link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
+<link rel="alternate" hreflang="sv" href="https://www.droplane.co.uk/sv/">
+<link rel="alternate" hreflang="nb" href="https://www.droplane.co.uk/nb/">
+<link rel="alternate" hreflang="fi" href="https://www.droplane.co.uk/fi/">
+<link rel="alternate" hreflang="ru" href="https://www.droplane.co.uk/ru/">
+<link rel="alternate" hreflang="lt" href="https://www.droplane.co.uk/lt/">
+<link rel="alternate" hreflang="lv" href="https://www.droplane.co.uk/lv/">
+<link rel="alternate" hreflang="uk" href="https://www.droplane.co.uk/ua/">
+<link rel="alternate" hreflang="tr" href="https://www.droplane.co.uk/tr/">
+<link rel="alternate" hreflang="ja" href="https://www.droplane.co.uk/jp/">
+<link rel="alternate" hreflang="ko" href="https://www.droplane.co.uk/kr/">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.droplane.co.uk/sg/">
+<link rel="alternate" hreflang="zh-Hant" href="https://www.droplane.co.uk/tw/">
+<link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
+<meta property="og:title" content="DropLane — 自雇送货司机的里程与收入自动记录应用">
+<meta property="og:description" content="为自雇送货司机打造的里程记录应用。DropLane 自动记录每一次行程，从收入中扣除油费和开支，告诉你每小时到底赚了多少。">
+<meta property="og:url" content="https://www.droplane.co.uk/sg/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_SG">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/og/sg.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="这一天，到底赚了多少。">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DropLane — 自雇送货司机的里程与收入自动记录应用">
+<meta name="twitter:description" content="为自雇送货司机打造的里程记录应用。DropLane 自动记录每一次行程，从收入中扣除油费和开支，告诉你每小时到底赚了多少。">
+<meta name="twitter:image" content="https://www.droplane.co.uk/assets/og/sg.jpg">
+<!-- What search engines read: the app, its price in this market, and the
+     listing's rating. Built from site.json, so a price change lands here. -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "DropLane", "alternateName": "DropLane: Mileage Tracker", "operatingSystem": "iOS", "applicationCategory": "FinanceApplication", "url": "https://www.droplane.co.uk/sg/", "image": "https://www.droplane.co.uk/assets/icon-512.png", "description": "为自雇送货司机打造的里程记录应用。DropLane 自动记录每一次行程，从收入中扣除油费和开支，告诉你每小时到底赚了多少。", "inLanguage": "zh-Hans-SG", "installUrl": "https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&ct=web-sg-schema&mt=8", "author": {"@type": "Person", "name": "Iskender Davies"}, "offers": [{"@type": "Offer", "name": "按月", "price": "9.98", "priceCurrency": "SGD", "category": "subscription"}, {"@type": "Offer", "name": "按年", "price": "69.98", "priceCurrency": "SGD", "category": "subscription"}], "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": 2, "bestRating": "5"}}</script>
+<!-- Anonymous visitor counting. No cookies, nothing that identifies a
+     reader. Swap this one tag to change provider; site.js does not care. -->
+<script src="https://cdn.usefathom.com/script.js" data-site="VHXQRPBR" defer></script>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/sg/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="主菜单">
+      <a href="#features">功能</a>
+      <a href="#screens">界面</a>
+      <a href="#countries">支持的国家</a>
+      <a href="#pricing">价格</a>
+      <a href="/support/">支持</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="语言">
+        <span class="lang-button-flag" aria-hidden="true">🇸🇬</span>
+        <span class="lang-button-name">简体中文</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="配色">
+        <button type="button" data-theme="light" aria-pressed="true" title="浅色">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>浅色</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="深色">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>深色</span>
+        </button>
+      </div>
+
+      <a class="head-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-sg-head&amp;mt=8" data-place="head"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>获取 DropLane</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">菜单</span><span class="close-label">关闭</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">用你的语言阅读本站</p>
+      <ul class="lang-list">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
+        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
+        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
+        <li><a href="/gr/" hreflang="el" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
+        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
+        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
+        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+        <li><a href="/jp/" hreflang="ja" data-suggest="日本語で読む" data-flag="🇯🇵"><span class="flag">🇯🇵</span> 日本語</a></li>
+        <li><a href="/kr/" hreflang="ko" data-suggest="한국어로 읽기" data-flag="🇰🇷"><span class="flag">🇰🇷</span> 한국어</a></li>
+        <li><a href="/sg/" hreflang="zh-Hans" aria-current="true" data-suggest="用简体中文阅读" data-flag="🇸🇬"><span class="flag">🇸🇬</span> 简体中文</a></li>
+        <li><a href="/tw/" hreflang="zh-Hant" data-suggest="用繁體中文閱讀" data-flag="🇹🇼"><span class="flag">🇹🇼</span> 繁體中文</a></li>
+      </ul>
+      <p class="lang-panel-note">应用本身支持 45 种语言，其余语言的页面正在陆续上线。</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="主菜单">
+        <a href="#features">功能</a>
+        <a href="#screens">界面</a>
+        <a href="#countries">支持的国家</a>
+        <a href="#languages">语言</a>
+        <a href="#pricing">价格</a>
+        <a href="#faq">常见问题</a>
+        <a href="/support/">支持</a>
+      </nav>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-sg-menu&amp;mt=8" data-place="menu">获取 DropLane</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>多种语言。</strong> 选一种，应用也用同一种语言。</p>
+    <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
+  </div>
+</div>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <!-- The mark at the size it deserves. The artwork already carries the
+           wordmark, so setting "DropLane" beside it said the name twice.
+           Same file the nav loaded, so it is cached and costs no request. -->
+      <div class="hero-brand">
+        <img src="/assets/icon-180.png" alt="DropLane" width="72" height="72">
+      </div>
+      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇸🇬</span><b data-region="SG">Singapore</b><span class="eyebrow-trial">14 天免费</span><span class="eyebrow-cost">之后每月 S$9.98</span><a href="#pricing">各国价格</a></span>
+      <p class="kicker">为自雇送货司机自动记录里程与收入</p>
+      <h1>这一天，到底赚了多少。</h1>
+      <p class="lede">开车出发就行。DropLane 自动记录每一次行程和实际走过的路线，从收入中扣掉开支，在你到家之前就算好真正的时薪。</p>
+      <!-- While the app is coming soon the loud button is the launch list, not
+           the price: the eyebrow above already carries the price and links to
+           the table. On launch day it becomes Apple's badge on its own —
+           set "launched" in _build/site.json and rebuild. -->
+      <div class="cta-row">
+        <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-sg-hero&amp;mt=8" data-place="hero"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="174" height="58"></a>
+        <a class="btn-ghost" href="#screens">看看界面</a>
+      </div>
+      <p class="cta-note" style="margin:14px 0 0">无需账户，没有广告 · iPhone</p>
+      <p class="cta-note cta-android"><a href="mailto:help@droplane.co.uk?subject=DropLane%20for%20Android">Android 版正在路上。给我们发封邮件，上线时通知你。</a></p>
+      <ul class="hero-facts">
+        <li><b>0</b><span>个开始按钮</span></li>
+        <li><b>0</b><span>台保存你位置的服务器</span></li>
+        <li><b>17</b><span>个国家的里程扣除率内置</span></li>
+      </ul>
+    </div>
+
+    <div class="stage">
+      <div class="device device-back">
+        <div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/days.webp" width="640" height="1391" alt="按天界面：每个工作日的利润、里程和行程数。" loading="eager">
+        </div>
+      </div>
+      <div class="device device-front">
+        <div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/today.webp" width="640" height="1391" alt="今天界面：记录中的行程和今日收入。" loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- The one line that says what this is instead of what it does. It was
+     buried in the FAQ, twelve questions down, where the people who most
+     needed it were never going to reach it. -->
+<section class="compare">
+  <div class="wrap">
+    <p><span class="compare-them">里程应用告诉你跑了多远。</span> <span class="compare-us">DropLane 告诉你这一天值不值得。</span></p>
+  </div>
+</section>
+
+<!-- Real reviews, quoted as written. They are in English on every page:
+     a courier's own words are worth more than a translation of them. -->
+<section class="quotes" aria-labelledby="quotes-h">
+  <div class="wrap">
+    <h2 class="quotes-h" id="quotes-h">司机在 App Store 上怎么说</h2>
+    <div class="quote-grid">
+      <figure class="quote">
+        <span class="stars" aria-label="5/5">★★★★★</span>
+        <blockquote lang="en">Just found this app in the store. Fantastic app for me as a self employed courier. Tells me exactly how much I&#x27;ve really earnt per job. I like how its linked to maps</blockquote>
+        <figcaption>greatwhite surfer · App Store</figcaption>
+      </figure>
+      <figure class="quote">
+        <span class="stars" aria-label="5/5">★★★★★</span>
+        <blockquote lang="en">You open it up once and it records all my data i need</blockquote>
+        <figcaption>Kami.ya · App Store</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section id="features">
+  <div class="wrap">
+    <h2>DropLane 实际上做什么</h2>
+    <p class="section-intro">由一位跑了十年路的送货司机，按这份工作真实的样子打造。</p>
+    <div class="cards">
+      <div class="card">
+        <span class="icon">💵</span>
+        <h3>这一天真正剩下多少</h3>
+        <p>油费和其他开支从收入里扣掉，真正落到口袋的金额列在最下面——按天、按周、按月。</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>一小时真正赚多少</h3>
+        <p>油费、车贷、保险分摊到工作的日子里，所以时薪这个数字才是真的。</p>
+      </div>
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>不碰手机的里程记录</h3>
+        <p>从驶离到停好车，行程在后台自动记录。</p>
+      </div>
+      <div class="card">
+        <span class="icon">🧾</span>
+        <h3>可以直接交给会计的记录</h3>
+        <p>一份 PDF，列出每次行程、路线和日期。内置 17 个国家的里程扣除率。</p>
+      </div>
+      <div class="card">
+        <span class="icon">🅿️</span>
+        <h3>停车与等待时间</h3>
+        <p>在每个送货点或站点等了多久，一目了然，什么都不用写。</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔒</span>
+        <h3>数据不出你的手机</h3>
+        <p>不用注册账户，没有跟踪，没有广告。路线记录是你的，只备份到你自己的 iCloud。</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔔</span>
+        <h3>到期提醒</h3>
+        <p>输入一次里程表读数，DropLane 会按记录的里程持续累加，保养和检验提醒可以按里程倒数，而不只是按日期。</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔧</span>
+        <h3>你的车辆</h3>
+        <p>记录保养、轮胎和维修，附上发票照片，整本车辆保养史就在口袋里。</p>
+      </div>
+      <div class="card">
+        <span class="icon">💳</span>
+        <h3>油卡</h3>
+        <p>设置油卡的每升单价，加油时记下升数，DropLane 自动算出费用。</p>
+      </div>
+    </div>
+    <div class="cta-mid">
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-sg-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>获取 DropLane</a>
+      <span class="cta-note">14 天免费 · 之后每月 S$9.98</span>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="screens">
+  <div class="wrap">
+    <h2>应用界面</h2>
+    <p class="section-intro">真实界面，来自一个月的真实工作。</p>
+  </div>
+  <div class="wrap">
+    <div class="rail">
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/today.webp" width="640" height="1391" alt="今天 — 车轮还在转的时候。" loading="lazy">
+        </div></div>
+        <figcaption><b>今天</b>车轮还在转的时候。</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/today-money.webp" width="640" height="1391" alt="今日收入 — 收入减去开支后的净收入。" loading="lazy">
+        </div></div>
+        <figcaption><b>今日收入</b>收入减去开支后的净收入。</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/yesterday-rate.webp" width="640" height="1391" alt="昨天 — 每小时到底赚了多少。" loading="lazy">
+        </div></div>
+        <figcaption><b>昨天</b>每小时到底赚了多少。</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/days.webp" width="640" height="1391" alt="按天 — 每一天都已经算好。" loading="lazy">
+        </div></div>
+        <figcaption><b>按天</b>每一天都已经算好。</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/report.webp" width="640" height="1391" alt="PDF 报告 — 按会计想要的方式生成。" loading="lazy">
+        </div></div>
+        <figcaption><b>PDF 报告</b>按会计想要的方式生成。</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/tax.webp" width="640" height="1391" alt="税务 — 这段时间的里程值多少钱。" loading="lazy">
+        </div></div>
+        <figcaption><b>税务</b>这段时间的里程值多少钱。</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/trip-sort.webp" width="640" height="1391" alt="行程类型 — 载货、空驶、调度、私人。" loading="lazy">
+        </div></div>
+        <figcaption><b>行程类型</b>载货、空驶、调度、私人。</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/live-activity.webp" width="640" height="1391" alt="锁定屏幕 — 不用解锁，就能看到记录中的里程。" loading="lazy">
+        </div></div>
+        <figcaption><b>锁定屏幕</b>不用解锁，就能看到记录中的里程。</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/vehicle.webp" width="640" height="1391" alt="车辆 — 检验、路税、保险，赶在到期之前。" loading="lazy">
+        </div></div>
+        <figcaption><b>车辆</b>检验、路税、保险，赶在到期之前。</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/zh-Hans/light/insights-spend.webp" width="640" height="1391" alt="开支 — 油费、餐费、停车、过路费。" loading="lazy">
+        </div></div>
+        <figcaption><b>开支</b>油费、餐费、停车、过路费。</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="countries">
+  <div class="wrap">
+    <h2>内置里程扣除率的国家</h2>
+    <p class="section-intro">应用在任何地方都能用。在这些国家，它还知道税务机关认可的里程扣除率，以及你的车辆证件叫什么。</p>
+    <ul class="chips">
+      <li><span class="flag">🇬🇧</span> <span data-region="GB">United Kingdom</span> <span class="rate">55p/mi</span></li>
+      <li><span class="flag">🇺🇸</span> <span data-region="US">United States</span> <span class="rate">76¢/mi</span></li>
+      <li><span class="flag">🇨🇦</span> <span data-region="CA">Canada</span> <span class="rate">73¢/km</span></li>
+      <li><span class="flag">🇦🇺</span> <span data-region="AU">Australia</span> <span class="rate">91¢/km</span></li>
+      <li><span class="flag">🇩🇪</span> <span data-region="DE">Germany</span> <span class="rate">30c/km</span></li>
+      <li><span class="flag">🇳🇱</span> <span data-region="NL">Netherlands</span> <span class="rate">25c/km</span></li>
+      <li><span class="flag">🇧🇪</span> <span data-region="BE">Belgium</span> <span class="rate">47.61c/km</span></li>
+      <li><span class="flag">🇦🇹</span> <span data-region="AT">Austria</span> <span class="rate">50c/km</span></li>
+      <li><span class="flag">🇵🇹</span> <span data-region="PT">Portugal</span> <span class="rate">40c/km</span></li>
+      <li><span class="flag">🇵🇱</span> <span data-region="PL">Poland</span> <span class="rate">1.15 zł/km</span></li>
+      <li><span class="flag">🇨🇿</span> <span data-region="CZ">Czechia</span> <span class="rate">5.90 Kč/km</span></li>
+      <li><span class="flag">🇸🇰</span> <span data-region="SK">Slovakia</span> <span class="rate">31.3c/km</span></li>
+      <li><span class="flag">🇭🇺</span> <span data-region="HU">Hungary</span> <span class="rate">15 Ft/km</span></li>
+      <li><span class="flag">🇸🇪</span> <span data-region="SE">Sweden</span> <span class="rate">25 kr/mil</span></li>
+      <li><span class="flag">🇳🇴</span> <span data-region="NO">Norway</span> <span class="rate">3.50 kr/km</span></li>
+      <li><span class="flag">🇩🇰</span> <span data-region="DK">Denmark</span> <span class="rate">3.94 kr/km</span></li>
+      <li><span class="flag">🇫🇮</span> <span data-region="FI">Finland</span> <span class="rate">55c/km</span></li>
+    </ul>
+    <h3 class="chips-h3">这些国家认得证件名称，扣除率由你自己输入</h3>
+    <ul class="chips">
+      <li><span class="flag">🇮🇪</span> <span data-region="IE">Ireland</span></li>
+      <li><span class="flag">🇷🇴</span> <span data-region="RO">Romania</span></li>
+      <li><span class="flag">🇧🇬</span> <span data-region="BG">Bulgaria</span></li>
+      <li><span class="flag">🇬🇷</span> <span data-region="GR">Greece</span></li>
+      <li><span class="flag">🇱🇹</span> <span data-region="LT">Lithuania</span></li>
+      <li><span class="flag">🇱🇻</span> <span data-region="LV">Latvia</span></li>
+      <li><span class="flag">🇹🇷</span> <span data-region="TR">Turkey</span></li>
+      <li><span class="flag">🇺🇦</span> <span data-region="UA">Ukraine</span></li>
+    </ul>
+    <p class="section-intro" style="margin:26px 0 0">在别的地方？输入一次税务机关认可的费率，剩下的交给 DropLane。</p>
+  </div>
+</section>
+
+<section class="band" id="languages">
+  <div class="wrap split">
+    <div>
+      <h2>用你自己的语言阅读</h2>
+      <p class="section-intro">不只是这个页面，而是整个应用——每个界面、每条通知、每份报告。无论用哪种语言阅读，金额都是你自己的货币。</p>
+      <ul class="langgrid">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
+        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
+        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
+        <li><a href="/gr/" hreflang="el" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
+        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
+        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
+        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+        <li><a href="/jp/" hreflang="ja" data-suggest="日本語で読む" data-flag="🇯🇵"><span class="flag">🇯🇵</span> 日本語</a></li>
+        <li><a href="/kr/" hreflang="ko" data-suggest="한국어로 읽기" data-flag="🇰🇷"><span class="flag">🇰🇷</span> 한국어</a></li>
+        <li><a href="/sg/" hreflang="zh-Hans" aria-current="true" data-suggest="用简体中文阅读" data-flag="🇸🇬"><span class="flag">🇸🇬</span> 简体中文</a></li>
+        <li><a href="/tw/" hreflang="zh-Hant" data-suggest="用繁體中文閱讀" data-flag="🇹🇼"><span class="flag">🇹🇼</span> 繁體中文</a></li>
+      </ul>
+    </div>
+    <figure class="shot" style="width:auto;margin:0">
+      <div class="device" style="margin-inline:auto"><div class="device-screen">
+        <img src="/assets/screens/zh-Hans/light/today-money.webp" width="640" height="1391" alt="今天界面：收入、开支、净收入。" loading="lazy">
+      </div></div>
+      <figcaption style="text-align:center"><b>今天</b>用你的语言、你的货币，看这一天的数字。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>一个价格，全部功能</h2>
+    <p class="section-intro">14 天免费。试用期结束前取消，不收任何费用。所有功能从一开始就可用——没有更高的档位，没有附加购买。</p>
+
+    <div class="price-grid">
+      <div class="price">
+        <h3>按月</h3>
+        <p class="amount">S$9.98</p>
+        <p class="per">每月，随时取消</p>
+        <ul>
+          <li>全部功能，没有附加购买</li>
+          <li>先免费 14 天</li>
+        </ul>
+        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-sg-pricing&amp;mt=8" data-place="pricing">免费试用 14 天</a>
+      </div>
+      <div class="price best">
+        <span class="tag">最划算</span>
+        <h3>按年</h3>
+        <p class="amount">S$69.98</p>
+        <p class="per">每年——更划算</p>
+        <ul>
+          <li>全部功能，没有附加购买</li>
+          <li>每年省 S$49.78——便宜 41%</li>
+          <li>折合每月 S$5.83</li>
+        </ul>
+        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-sg-pricing&amp;mt=8" data-place="pricing">免费试用 14 天</a>
+      </div>
+    </div>
+
+    <div class="pricetable">
+      <div class="pricetable-head">
+        <h3 style="font-size:20px;margin:0">你所在国家的价格</h3>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input type="search" id="price-search" placeholder="查找国家" aria-label="查找国家">
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table class="prices">
+          <thead>
+            <tr><th scope="col">国家</th><th scope="col">按月</th><th scope="col">按年</th></tr>
+          </thead>
+          <tbody id="price-rows" data-you="你">
+            <tr data-cc="GB" data-flag="🇬🇧" data-name="United Kingdom"><td><span class="flag">🇬🇧</span><span data-region="GB">United Kingdom</span></td><td>£6.99</td><td>£49.99</td></tr>
+            <tr data-cc="IE" data-flag="🇮🇪" data-name="Ireland"><td><span class="flag">🇮🇪</span><span data-region="IE">Ireland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="US" data-flag="🇺🇸" data-name="United States"><td><span class="flag">🇺🇸</span><span data-region="US">United States</span></td><td>$6.99</td><td>$49.99</td></tr>
+            <tr data-cc="CA" data-flag="🇨🇦" data-name="Canada"><td><span class="flag">🇨🇦</span><span data-region="CA">Canada</span></td><td>C$9.99</td><td>C$69.99</td></tr>
+            <tr data-cc="AU" data-flag="🇦🇺" data-name="Australia"><td><span class="flag">🇦🇺</span><span data-region="AU">Australia</span></td><td>A$11.99</td><td>A$79.99</td></tr>
+            <tr data-cc="NZ" data-flag="🇳🇿" data-name="New Zealand"><td><span class="flag">🇳🇿</span><span data-region="NZ">New Zealand</span></td><td>NZ$12.99</td><td>NZ$89.99</td></tr>
+            <tr data-cc="DE" data-flag="🇩🇪" data-name="Germany"><td><span class="flag">🇩🇪</span><span data-region="DE">Germany</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FR" data-flag="🇫🇷" data-name="France"><td><span class="flag">🇫🇷</span><span data-region="FR">France</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="NL" data-flag="🇳🇱" data-name="Netherlands"><td><span class="flag">🇳🇱</span><span data-region="NL">Netherlands</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FI" data-flag="🇫🇮" data-name="Finland"><td><span class="flag">🇫🇮</span><span data-region="FI">Finland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="IT" data-flag="🇮🇹" data-name="Italy"><td><span class="flag">🇮🇹</span><span data-region="IT">Italy</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="ES" data-flag="🇪🇸" data-name="Spain"><td><span class="flag">🇪🇸</span><span data-region="ES">Spain</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="PT" data-flag="🇵🇹" data-name="Portugal"><td><span class="flag">🇵🇹</span><span data-region="PT">Portugal</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="GR" data-flag="🇬🇷" data-name="Greece"><td><span class="flag">🇬🇷</span><span data-region="GR">Greece</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SK" data-flag="🇸🇰" data-name="Slovakia"><td><span class="flag">🇸🇰</span><span data-region="SK">Slovakia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LT" data-flag="🇱🇹" data-name="Lithuania"><td><span class="flag">🇱🇹</span><span data-region="LT">Lithuania</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LV" data-flag="🇱🇻" data-name="Latvia"><td><span class="flag">🇱🇻</span><span data-region="LV">Latvia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SE" data-flag="🇸🇪" data-name="Sweden"><td><span class="flag">🇸🇪</span><span data-region="SE">Sweden</span></td><td>79 SEK</td><td>599 SEK</td></tr>
+            <tr data-cc="NO" data-flag="🇳🇴" data-name="Norway"><td><span class="flag">🇳🇴</span><span data-region="NO">Norway</span></td><td>79 NOK</td><td>599 NOK</td></tr>
+            <tr data-cc="DK" data-flag="🇩🇰" data-name="Denmark"><td><span class="flag">🇩🇰</span><span data-region="DK">Denmark</span></td><td>49 DKK</td><td>349 DKK</td></tr>
+            <tr data-cc="PL" data-flag="🇵🇱" data-name="Poland"><td><span class="flag">🇵🇱</span><span data-region="PL">Poland</span></td><td>24,99 zł</td><td>169,99 zł</td></tr>
+            <tr data-cc="CZ" data-flag="🇨🇿" data-name="Czechia"><td><span class="flag">🇨🇿</span><span data-region="CZ">Czechia</span></td><td>149 Kč</td><td>999 Kč</td></tr>
+            <tr data-cc="HU" data-flag="🇭🇺" data-name="Hungary"><td><span class="flag">🇭🇺</span><span data-region="HU">Hungary</span></td><td>2 490 Ft</td><td>16 990 Ft</td></tr>
+            <tr data-cc="RO" data-flag="🇷🇴" data-name="Romania"><td><span class="flag">🇷🇴</span><span data-region="RO">Romania</span></td><td>24,99 lei</td><td>169,99 lei</td></tr>
+            <tr data-cc="BG" data-flag="🇧🇬" data-name="Bulgaria"><td><span class="flag">🇧🇬</span><span data-region="BG">Bulgaria</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="TR" data-flag="🇹🇷" data-name="Turkey"><td><span class="flag">🇹🇷</span><span data-region="TR">Turkey</span></td><td>₺199,99</td><td>₺1.399,99</td></tr>
+            <tr data-cc="UA" data-flag="🇺🇦" data-name="Ukraine"><td><span class="flag">🇺🇦</span><span data-region="UA">Ukraine</span></td><td>$4.99</td><td>$34.99</td></tr>
+            <tr data-cc="BR" data-flag="🇧🇷" data-name="Brazil"><td><span class="flag">🇧🇷</span><span data-region="BR">Brazil</span></td><td>R$ 19,90</td><td>R$ 129,90</td></tr>
+            <tr data-cc="MX" data-flag="🇲🇽" data-name="Mexico"><td><span class="flag">🇲🇽</span><span data-region="MX">Mexico</span></td><td>MX$99</td><td>MX$649</td></tr>
+            <tr data-cc="ZA" data-flag="🇿🇦" data-name="South Africa"><td><span class="flag">🇿🇦</span><span data-region="ZA">South Africa</span></td><td>R99.99</td><td>R699.99</td></tr>
+            <tr data-cc="IN" data-flag="🇮🇳" data-name="India"><td><span class="flag">🇮🇳</span><span data-region="IN">India</span></td><td>₹299</td><td>₹1,999</td></tr>
+            <tr data-cc="CN" data-flag="🇨🇳" data-name="China"><td><span class="flag">🇨🇳</span><span data-region="CN">China</span></td><td>¥29</td><td>¥199</td></tr>
+            <tr data-cc="JP" data-flag="🇯🇵" data-name="Japan"><td><span class="flag">🇯🇵</span><span data-region="JP">Japan</span></td><td>¥980</td><td>¥6,800</td></tr>
+            <tr data-cc="KR" data-flag="🇰🇷" data-name="South Korea"><td><span class="flag">🇰🇷</span><span data-region="KR">South Korea</span></td><td>₩8,900</td><td>₩59,000</td></tr>
+            <tr data-cc="SG" data-flag="🇸🇬" data-name="Singapore"><td><span class="flag">🇸🇬</span><span data-region="SG">Singapore</span></td><td>S$9.98</td><td>S$69.98</td></tr>
+            <tr data-cc="TW" data-flag="🇹🇼" data-name="Taiwan"><td><span class="flag">🇹🇼</span><span data-region="TW">Taiwan</span></td><td>NT$220</td><td>NT$1,490</td></tr>
+            <tr data-cc="ID" data-flag="🇮🇩" data-name="Indonesia"><td><span class="flag">🇮🇩</span><span data-region="ID">Indonesia</span></td><td>Rp49.000</td><td>Rp329.000</td></tr>
+            <tr data-cc="AE" data-flag="🇦🇪" data-name="United Arab Emirates"><td><span class="flag">🇦🇪</span><span data-region="AE">United Arab Emirates</span></td><td>AED 24.99</td><td>AED 169.99</td></tr>
+            <tr data-cc="SA" data-flag="🇸🇦" data-name="Saudi Arabia"><td><span class="flag">🇸🇦</span><span data-region="SA">Saudi Arabia</span></td><td>SAR 24.99</td><td>SAR 169.99</td></tr>
+            <tr data-cc="KZ" data-flag="🇰🇿" data-name="Kazakhstan"><td><span class="flag">🇰🇿</span><span data-region="KZ">Kazakhstan</span></td><td>2 490 ₸</td><td>14 990 ₸</td></tr>
+            <tr data-cc="KG" data-flag="🇰🇬" data-name="Kyrgyzstan"><td><span class="flag">🇰🇬</span><span data-region="KG">Kyrgyzstan</span></td><td>$2.99</td><td>$19.99</td></tr>
+            <tr data-cc="UZ" data-flag="🇺🇿" data-name="Uzbekistan"><td><span class="flag">🇺🇿</span><span data-region="UZ">Uzbekistan</span></td><td>$2.99</td><td>$19.99</td></tr>
+            <tr data-cc="TJ" data-flag="🇹🇯" data-name="Tajikistan"><td><span class="flag">🇹🇯</span><span data-region="TJ">Tajikistan</span></td><td>$2.99</td><td>$19.99</td></tr>
+            <tr data-cc="TM" data-flag="🇹🇲" data-name="Turkmenistan"><td><span class="flag">🇹🇲</span><span data-region="TM">Turkmenistan</span></td><td>$3.99</td><td>$27.99</td></tr>
+            <tr data-cc="AM" data-flag="🇦🇲" data-name="Armenia"><td><span class="flag">🇦🇲</span><span data-region="AM">Armenia</span></td><td>$3.99</td><td>$27.99</td></tr>
+            <tr data-cc="AZ" data-flag="🇦🇿" data-name="Azerbaijan"><td><span class="flag">🇦🇿</span><span data-region="AZ">Azerbaijan</span></td><td>$3.99</td><td>$27.99</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="table-note">每个国家的价格都是单独定的，不是按汇率换算的。在你同意之前，App Store 会用你的货币显示含税的准确金额。不在列表里？App Store 同样有你所在地区的价格。</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="band" id="faq">
+  <div class="wrap">
+    <h2>司机真正会问的问题</h2>
+    <p class="section-intro">来自一个真正干这行的人的直接回答。 <span class="sign">— Iskender Davies</span></p>
+    <div class="faq">
+      <details>
+        <summary>这不就是又一个里程应用吗？</summary>
+        <p>记录里程的方式一样，只是没有开始按钮。区别在后面：填入收入，扣掉油费、停车费和运营开支，应用告诉你每小时到底赚了多少。光有里程数字，从来没人知道这一趟值不值。</p>
+      </details>
+      <details>
+        <summary>会很耗电吗？</summary>
+        <p>DropLane 不会整天开着 GPS。它安静地等到你离开停车的地方，行驶中才记录，停下来就回去休息。</p>
+      </details>
+      <details>
+        <summary>需要按开始吗？</summary>
+        <p>不需要——根本没有按钮可按。这正是重点。需要记住的事，总会在最要紧的那天忘掉。</p>
+      </details>
+      <details>
+        <summary>忘了选行程类型怎么办？</summary>
+        <p>什么都不会丢。没有类型的行程会在按天界面等着，应用会提醒你，而不是替你猜。</p>
+      </details>
+      <details>
+        <summary>我的路线记录会传到别处吗？</summary>
+        <p>不会。没有账户，也没有服务器。一切都在你的 iPhone 上，只有你愿意时才备份到你自己的 iCloud。</p>
+      </details>
+      <details>
+        <summary>没有信号的地方能用吗？</summary>
+        <p>能。记录靠 iPhone 自己的 GPS，完全不需要网络。没信号时记录的行程会先标为「起点」和「终点」，等下次连上 Wi-Fi，DropLane 会补上街道名。</p>
+      </details>
+      <details>
+        <summary>换了新手机怎么办？</summary>
+        <p>登录同一个 iCloud，行程、收入和开支会自己回来。没有账户要建，也没有密码会丢。</p>
+      </details>
+      <details>
+        <summary>如果我停止付费，记录会丢吗？</summary>
+        <p>不会删除任何东西。行程数据仍在你的 iPhone 和你自己的 iCloud 里。不过打开 DropLane 需要有效订阅，所以如果想把数据带走，请先在设置里导出 CSV，一键就好。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="closer">
+      <h2>别再猜这一天赚了多少。</h2>
+      <p>14 天免费，不用账户，早上六点也没什么要记住的。</p>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-sg-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>获取 DropLane</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">DropLane——为自雇送货司机自动记录里程与收入。由一位送货司机在英国托基打造。</p>
+    <div class="foot-links">
+      <a href="/privacy/">隐私</a>
+      <a href="/terms/">条款</a>
+      <a href="/support/">支持</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="关闭">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<div class="cta-bar" id="cta-bar" role="region" aria-label="获取 DropLane" hidden>
+  <div class="cta-bar-in">
+    <img class="cta-bar-mark" src="/assets/icon-180.png" alt="" width="46" height="46" loading="lazy" decoding="async">
+    <p class="cta-bar-say">
+      <b>14 天免费</b>
+      <span>之后每月 S$9.98</span>
+    </p>
+    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-sg-bar&amp;mt=8" data-place="bar">获取 DropLane</a>
+    <button class="cta-bar-shut" type="button" aria-label="关闭">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

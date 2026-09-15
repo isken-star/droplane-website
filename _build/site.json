@@ -44,7 +44,11 @@
     { "code": "lt", "dir": "lt", "name": "Lietuvių", "flag": "🇱🇹", "locale": "lt-LT", "og_locale": "lt_LT", "market": "LT", "currency": "EUR", "market_name": "Lithuania", "price_month": "4,99 €", "price_year": "34,99 €" },
     { "code": "lv", "dir": "lv", "name": "Latviešu", "flag": "🇱🇻", "locale": "lv-LV", "og_locale": "lv_LV", "market": "LV", "currency": "EUR", "market_name": "Latvia", "price_month": "4,99 €", "price_year": "34,99 €" },
     { "code": "uk", "dir": "ua", "name": "Українська", "flag": "🇺🇦", "locale": "uk-UA", "og_locale": "uk_UA", "market": "UA", "currency": "USD", "market_name": "Ukraine", "price_month": "$4.99", "price_year": "$34.99" },
-    { "code": "tr", "dir": "tr", "name": "Türkçe", "flag": "🇹🇷", "locale": "tr-TR", "og_locale": "tr_TR", "market": "TR", "currency": "TRY", "market_name": "Turkey", "price_month": "₺199,99", "price_year": "₺1.399,99" }
+    { "code": "tr", "dir": "tr", "name": "Türkçe", "flag": "🇹🇷", "locale": "tr-TR", "og_locale": "tr_TR", "market": "TR", "currency": "TRY", "market_name": "Turkey", "price_month": "₺199,99", "price_year": "₺1.399,99" },
+    { "code": "ja", "dir": "jp", "name": "日本語", "flag": "🇯🇵", "locale": "ja-JP", "og_locale": "ja_JP", "market": "JP", "currency": "JPY", "market_name": "Japan", "price_month": "¥980", "price_year": "¥6,800", "compact": true },
+    { "code": "ko", "dir": "kr", "name": "한국어", "flag": "🇰🇷", "locale": "ko-KR", "og_locale": "ko_KR", "market": "KR", "currency": "KRW", "market_name": "South Korea", "price_month": "₩8,900", "price_year": "₩59,000", "compact": true },
+    { "code": "zh-Hans", "dir": "sg", "name": "简体中文", "flag": "🇸🇬", "locale": "zh-Hans-SG", "og_locale": "zh_SG", "market": "SG", "currency": "SGD", "market_name": "Singapore", "price_month": "S$9.98", "price_year": "S$69.98", "compact": true },
+    { "code": "zh-Hant", "dir": "tw", "name": "繁體中文", "flag": "🇹🇼", "locale": "zh-Hant-TW", "og_locale": "zh_TW", "market": "TW", "currency": "TWD", "market_name": "Taiwan", "price_month": "NT$220", "price_year": "NT$1,490", "compact": true }
   ],
 
   "screens": ["today", "day", "trip", "days", "stats", "insights", "report", "expense", "vehicle", "settings"],
@@ -112,6 +116,8 @@
     { "cc": "CN", "flag": "🇨🇳", "name": "China",                "month": "¥29",       "year": "¥199" },
     { "cc": "JP", "flag": "🇯🇵", "name": "Japan",                "month": "¥980",      "year": "¥6,800" },
     { "cc": "KR", "flag": "🇰🇷", "name": "South Korea",          "month": "₩8,900",    "year": "₩59,000" },
+    { "cc": "SG", "flag": "🇸🇬", "name": "Singapore",            "month": "S$9.98",    "year": "S$69.98" },
+    { "cc": "TW", "flag": "🇹🇼", "name": "Taiwan",               "month": "NT$220",    "year": "NT$1,490" },
     { "cc": "ID", "flag": "🇮🇩", "name": "Indonesia",            "month": "Rp49.000",  "year": "Rp329.000" },
     { "cc": "AE", "flag": "🇦🇪", "name": "United Arab Emirates", "month": "AED 24.99", "year": "AED 169.99" },
     { "cc": "SA", "flag": "🇸🇦", "name": "Saudi Arabia",         "month": "SAR 24.99", "year": "SAR 169.99" },
