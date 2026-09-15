@@ -16,6 +16,11 @@ python3 ../Scripts/build_site.py     # from website/, or Scripts/build_site.py f
 
 That rewrites `index.html`, `<lang>/index.html` and `sitemap.xml`. Never edit
 those by hand — edit `_build/template.html` or `_build/strings/<lang>.json`.
+Share images (the picture a pasted link shows) come from
+`python3 ../Scripts/build_og.py`, one per language into `assets/og/`; run it
+after a headline, price or Days screenshot changes. The listing's rating in
+`_build/site.json` feeds the structured data, so update it when it moves.
+The two `/guides/` pages are hand-written, like support and privacy.
 Screenshots come from `Scripts/capture_screenshots.sh`; see
 `Docs/SCREENSHOTS.md`. The clips in the hero and under "What did the day
 actually pay?" come from `Scripts/cut_film.sh`; see `Docs/FILM.md`.

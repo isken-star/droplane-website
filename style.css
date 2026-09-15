@@ -862,6 +862,36 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 .chips-h3 { font-size: 16px; color: var(--text-2); margin: 26px 0 12px; }
 .sign { color: var(--text-3); white-space: nowrap; }
 
+/* ---------------- guides ---------------- */
+
+.guide-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 900px; }
+@media (max-width: 700px) { .guide-grid { grid-template-columns: 1fr; } }
+.guide-card {
+  display: block; background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 22px 24px; text-decoration: none; color: inherit;
+}
+.guide-card:hover { border-color: var(--line-2); background: var(--card-2); }
+.guide-card h3 { margin: 0 0 8px; font-size: 19px; color: var(--text); }
+.guide-card p { margin: 0 0 12px; color: var(--text-2); font-size: 15.5px; }
+.guide-card span { color: var(--brand); font-weight: 700; font-size: 15px; }
+
+/* A guide is the support page's shape with a little more air. */
+.page.guide .wrap { max-width: 720px; }
+.page.guide p, .page.guide li { line-height: 1.6; }
+.page.guide .lede { font-size: 20px; color: var(--text-2); margin: 0 0 8px; }
+.page.guide table { width: 100%; border-collapse: collapse; margin: 14px 0 6px; font-size: 16.5px; }
+.page.guide th, .page.guide td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); color: var(--text-2); }
+.page.guide th { color: var(--text); font-weight: 700; }
+.page.guide td:last-child, .page.guide th:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+.page.guide .sum-box {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 18px 22px; margin: 18px 0;
+}
+.page.guide .sum-box p { margin: 4px 0; }
+.page.guide .sum-box b { color: var(--text); font-variant-numeric: tabular-nums; }
+.page.guide .guide-cta { margin: 34px 0 0; display: flex; flex-wrap: wrap; gap: 14px 18px; align-items: center; }
+.page.guide .fine { font-size: 14.5px; color: var(--text-3); }
+
 /* ---------------- pricing ---------------- */
 
 .price-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 760px; }
