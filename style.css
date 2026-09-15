@@ -454,6 +454,9 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
   .hero-facts span { font-size: 12.5px; }
 }
 .hero-facts b { display: block; font-size: 25px; font-weight: 800; letter-spacing: -.02em; }
+/* The currency signs and the lock are the "number" of their tiles. */
+.hero-facts b.signs { letter-spacing: .04em; white-space: nowrap; }
+.hero-facts b svg { width: 1em; height: 1em; display: block; color: var(--money); margin-bottom: 2px; }
 /* The tiles are ~100px and "kilometervergoedingen" is wider than that on its
    own; a word that cannot break pushed the Dutch and Finnish pages sideways
    on a phone. Let it hyphenate — the page's lang attribute picks the rules. */
@@ -851,7 +854,7 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
    pill under the note. The sentence about emailing is the tooltip, and the
    pill is still the mailto link, so the interest is still captured. */
 .android-soon {
-  display: inline-flex; align-items: center; gap: 8px; margin-top: 10px;
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 18px;
   padding: 7px 12px 7px 10px; border-radius: 999px;
   background: var(--card); border: 1px solid var(--line);
   color: var(--text-2); text-decoration: none; font-size: 13.5px; font-weight: 600;

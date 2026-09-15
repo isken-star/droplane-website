@@ -19,8 +19,8 @@
   "theme_dark": "Dark",
   "language_label": "Language",
   "language_title": "Read this site in your language",
-  "language_note": "The app itself speaks twenty-four languages — the rest are on their way here.",
-  "langbar_strong": "Twenty-four languages.",
+  "language_note": "The app itself speaks 45 languages — the rest are on their way here.",
+  "langbar_strong": "45 languages.",
   "langbar_rest": "Pick yours — the app speaks it too.",
   "per_month_short": "a month",
   "see_all": "see all",
@@ -33,7 +33,20 @@
   "hero_android": "Android is on its way. Email us and we'll tell you when it's out.",
   "reviews_h2": "What couriers say on the App Store",
   "countries_paperwork_h3": "These know your paperwork; the rate is yours to type in",
-  "hero_facts": [{"value": "0", "label": "start buttons"}, {"value": "0", "label": "servers holding your location"}, {"value": "17", "label": "mileage rates built in"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "start buttons"
+    },
+    {
+      "value": "0",
+      "label": "servers holding your location"
+    },
+    {
+      "value": "17",
+      "label": "mileage rates built in"
+    }
+  ],
   "money_h2": "Two days. More miles. Less money.",
   "money_intro": "Tuesday: 76 miles, three drives. Yesterday: 46 miles, two drives. A mileage app will tell you Tuesday was the fuller day — and it's right. Tuesday left $145. Yesterday left $164.",
   "money_day1_when": "Tuesday, August 25",
@@ -319,5 +332,6 @@
   "hero_trial": "14 days free",
   "hero_trial_then": "then {price} a month",
   "compare_them": "Mileage trackers tell you how far you drove.",
-  "compare_us": "DropLane tells you whether the day was worth it."
+  "compare_us": "DropLane tells you whether the day was worth it.",
+  "fact_currency": "in your own currency"
 }

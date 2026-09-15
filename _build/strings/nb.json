@@ -19,8 +19,8 @@
   "theme_dark": "Mørkt",
   "language_label": "Språk",
   "language_title": "Les siden på ditt språk",
-  "language_note": "Appen selv snakker tjuefire språk — resten er på vei hit.",
-  "langbar_strong": "Tjuefire språk.",
+  "language_note": "Appen selv snakker 45 språk — resten er på vei hit.",
+  "langbar_strong": "45 språk.",
   "langbar_rest": "Velg ditt — appen snakker det også.",
   "per_month_short": "i måneden",
   "see_all": "se alle",
@@ -33,7 +33,20 @@
   "hero_android": "Android er på vei. Send oss en e-post, så sier vi fra når den er ute.",
   "reviews_h2": "Hva bud sier på App Store",
   "countries_paperwork_h3": "Her kjenner appen papirene; satsen skriver du inn selv",
-  "hero_facts": [{"value": "0", "label": "startknapper"}, {"value": "0", "label": "servere som lagrer posisjonen din"}, {"value": "17", "label": "innebygde kilometersatser"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "startknapper"
+    },
+    {
+      "value": "0",
+      "label": "servere som lagrer posisjonen din"
+    },
+    {
+      "value": "17",
+      "label": "innebygde kilometersatser"
+    }
+  ],
   "money_h2": "To dager. Samme kilometer. Ikke samme penger.",
   "money_intro": "Begge er tre turer og rundt hundre og seksti kilometer, fra samme telefon, i samme varebil. En vanlig kjørebok-app fører dem som stort sett samme dag. Det skiller 324 kroner.",
   "money_day1_when": "Torsdag 30. juli",
@@ -319,5 +332,6 @@
   "hero_trial": "14 dager gratis",
   "hero_trial_then": "deretter {price} i måneden",
   "compare_them": "Vanlige kjørebok-apper forteller deg hvor langt du kjørte.",
-  "compare_us": "DropLane forteller deg hva du faktisk tjente."
+  "compare_us": "DropLane forteller deg hva du faktisk tjente.",
+  "fact_currency": "i din egen valuta"
 }

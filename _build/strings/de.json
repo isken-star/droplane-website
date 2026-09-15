@@ -19,8 +19,8 @@
   "theme_dark": "Dunkel",
   "language_label": "Sprache",
   "language_title": "Diese Seite in deiner Sprache",
-  "language_note": "Die App selbst spricht vierundzwanzig Sprachen — der Rest kommt hier nach.",
-  "langbar_strong": "Vierundzwanzig Sprachen.",
+  "language_note": "Die App selbst spricht 45 Sprachen — der Rest kommt hier nach.",
+  "langbar_strong": "45 Sprachen.",
   "langbar_rest": "Such dir deine aus — die App spricht sie auch.",
   "per_month_short": "im Monat",
   "see_all": "alle ansehen",
@@ -33,7 +33,20 @@
   "hero_android": "Android ist unterwegs. Schreib uns, und wir sagen dir Bescheid, sobald es da ist.",
   "reviews_h2": "Was Kurierfahrer im App Store sagen",
   "countries_paperwork_h3": "Hier kennt die App die Papiere; den Satz tippst du selbst ein",
-  "hero_facts": [{"value": "0", "label": "Startknöpfe"}, {"value": "0", "label": "server mit deinem Standort"}, {"value": "17", "label": "eingebaute Kilometersätze"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "Startknöpfe"
+    },
+    {
+      "value": "0",
+      "label": "server mit deinem Standort"
+    },
+    {
+      "value": "17",
+      "label": "eingebaute Kilometersätze"
+    }
+  ],
   "money_h2": "Zwei Tage. Mehr Strecke. Weniger Geld.",
   "money_intro": "Dienstag: 177 Kilometer, drei Fahrten. Gestern: 104 Kilometer, zwei Fahrten. Eine reine Kilometer-App sagt dir, der Dienstag war der vollere Tag — und damit hat sie recht. Übrig blieben vom Dienstag trotzdem nur 91 Euro, von gestern 115.",
   "money_day1_when": "Dienstag, 25. August",
@@ -319,5 +332,6 @@
   "hero_trial": "14 Tage gratis",
   "hero_trial_then": "danach {price} im Monat",
   "compare_them": "Reine Kilometer-Apps sagen dir, wie weit du gefahren bist.",
-  "compare_us": "DropLane sagt dir, ob sich der Tag gelohnt hat."
+  "compare_us": "DropLane sagt dir, ob sich der Tag gelohnt hat.",
+  "fact_currency": "in deiner Währung"
 }

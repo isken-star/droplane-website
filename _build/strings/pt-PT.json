@@ -19,8 +19,8 @@
   "theme_dark": "Escuro",
   "language_label": "Língua",
   "language_title": "Lê este site na tua língua",
-  "language_note": "A app fala vinte e quatro línguas — as restantes estão a caminho daqui.",
-  "langbar_strong": "Vinte e quatro línguas.",
+  "language_note": "A app fala 45 línguas — as restantes estão a caminho daqui.",
+  "langbar_strong": "45 línguas.",
   "langbar_rest": "Escolhe a tua — a app também a fala.",
   "per_month_short": "por mês",
   "see_all": "ver todos",
@@ -33,7 +33,20 @@
   "hero_android": "O Android está a caminho. Escreve-nos e avisamos-te quando sair.",
   "reviews_h2": "O que dizem os estafetas na App Store",
   "countries_paperwork_h3": "Aqui a app conhece os papéis; a taxa escreves tu",
-  "hero_facts": [{"value": "0", "label": "botões de arranque"}, {"value": "0", "label": "servidores com a tua localização"}, {"value": "17", "label": "tarifas de quilometragem incluídas"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "botões de arranque"
+    },
+    {
+      "value": "0",
+      "label": "servidores com a tua localização"
+    },
+    {
+      "value": "17",
+      "label": "tarifas de quilometragem incluídas"
+    }
+  ],
   "money_h2": "Dois dias. Mais quilómetros. Menos dinheiro.",
   "money_intro": "Terça: 125 quilómetros, três viagens. Ontem: 79,7 quilómetros, duas viagens. Uma app de quilometragem normal diz-te que a terça foi o dia mais cheio — e tem razão. Só que da terça sobraram 74 euros e de ontem 92.",
   "money_day1_when": "Terça-feira, 25 de agosto",
@@ -319,5 +332,6 @@
   "hero_trial": "14 dias grátis",
   "hero_trial_then": "depois {price} por mês",
   "compare_them": "As apps de quilometragem dizem-te quantos quilómetros fizeste.",
-  "compare_us": "A DropLane diz-te quanto ganhaste mesmo."
+  "compare_us": "A DropLane diz-te quanto ganhaste mesmo.",
+  "fact_currency": "na tua moeda"
 }

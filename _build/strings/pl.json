@@ -19,8 +19,8 @@
   "theme_dark": "Ciemny",
   "language_label": "Język",
   "language_title": "Przeczytaj tę stronę w swoim języku",
-  "language_note": "Sama aplikacja mówi w dwudziestu czterech językach — reszta pojawi się i tutaj.",
-  "langbar_strong": "Dwadzieścia cztery języki.",
+  "language_note": "Sama aplikacja mówi w 45 językach — reszta pojawi się i tutaj.",
+  "langbar_strong": "45 języków.",
   "langbar_rest": "Wybierz swój — aplikacja też nim mówi.",
   "per_month_short": "miesięcznie",
   "see_all": "zobacz wszystkie",
@@ -33,7 +33,20 @@
   "hero_android": "Android jest w drodze. Napisz do nas, a damy znać, gdy wyjdzie.",
   "reviews_h2": "Co kurierzy piszą w App Store",
   "countries_paperwork_h3": "Tu aplikacja zna dokumenty; stawkę wpisujesz sam",
-  "hero_facts": [{"value": "0", "label": "przycisków start"}, {"value": "0", "label": "serwerów z twoją lokalizacją"}, {"value": "17", "label": "wbudowanych stawek za kilometr"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "przycisków start"
+    },
+    {
+      "value": "0",
+      "label": "serwerów z twoją lokalizacją"
+    },
+    {
+      "value": "17",
+      "label": "wbudowanych stawek za kilometr"
+    }
+  ],
   "money_h2": "Dwa dni. Więcej kilometrów. Mniej pieniędzy.",
   "money_intro": "Wtorek: 144 kilometry, trzy przejazdy. Wczoraj: 88 kilometrów, dwa przejazdy. Zwykła aplikacja do liczenia kilometrów pokaże, że wtorek był cięższym dniem — i będzie miała rację. Tyle że na czysto z wtorku zostało 290 złotych, a z wczoraj 365.",
   "money_day1_when": "Wtorek, 25 sierpnia",
@@ -319,5 +332,6 @@
   "hero_trial": "14 dni za darmo",
   "hero_trial_then": "potem {price} miesięcznie",
   "compare_them": "Zwykłe aplikacje do liczenia kilometrów pokażą, jaki masz przebieg.",
-  "compare_us": "DropLane pokaże, ile z tego zostaje na czysto."
+  "compare_us": "DropLane pokaże, ile z tego zostaje na czysto.",
+  "fact_currency": "w twojej walucie"
 }

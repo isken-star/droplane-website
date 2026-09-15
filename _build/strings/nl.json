@@ -19,8 +19,8 @@
   "theme_dark": "Donker",
   "language_label": "Taal",
   "language_title": "Lees deze site in jouw taal",
-  "language_note": "De app zelf spreekt vierentwintig talen — de rest volgt hier.",
-  "langbar_strong": "Vierentwintig talen.",
+  "language_note": "De app zelf spreekt 45 talen — de rest volgt hier.",
+  "langbar_strong": "45 talen.",
   "langbar_rest": "Kies de jouwe — de app spreekt hem ook.",
   "per_month_short": "per maand",
   "see_all": "bekijk alle",
@@ -33,7 +33,20 @@
   "hero_android": "Android komt eraan. Mail ons en we laten je weten wanneer het zover is.",
   "reviews_h2": "Wat koeriers zeggen in de App Store",
   "countries_paperwork_h3": "Hier kent de app de papieren; het tarief typ je zelf in",
-  "hero_facts": [{"value": "0", "label": "startknoppen"}, {"value": "0", "label": "servers met jouw locatie"}, {"value": "17", "label": "ingebouwde kilometervergoedingen"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "startknoppen"
+    },
+    {
+      "value": "0",
+      "label": "servers met jouw locatie"
+    },
+    {
+      "value": "17",
+      "label": "ingebouwde kilometervergoedingen"
+    }
+  ],
   "money_h2": "Twee dagen. Meer kilometers. Minder geld.",
   "money_intro": "Dinsdag: 119 kilometer, drie ritten. Gisteren: 74 kilometer, twee ritten. Een gewone kilometerapp vertelt je dat dinsdag de vollere dag was — en dat klopt. Alleen bleef er van dinsdag € 96,55 over en van gisteren € 113,37.",
   "money_day1_when": "Dinsdag 25 augustus",
@@ -319,5 +332,6 @@
   "hero_trial": "14 dagen gratis",
   "hero_trial_then": "daarna {price} per maand",
   "compare_them": "Kilometer-apps vertellen je hoe ver je reed.",
-  "compare_us": "DropLane vertelt je wat je er echt aan overhield."
+  "compare_us": "DropLane vertelt je wat je er echt aan overhield.",
+  "fact_currency": "in je eigen valuta"
 }

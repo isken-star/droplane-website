@@ -223,5 +223,6 @@
   "footer_terms": "Uvjeti",
   "footer_support": "Podrška",
   "suggest_prompt": "Čitaj na hrvatskom",
-  "cta_soon": "Uskoro"
+  "cta_soon": "Uskoro",
+  "fact_currency": "u tvojoj valuti"
 }

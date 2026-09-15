@@ -19,8 +19,8 @@
   "theme_dark": "Tumšā",
   "language_label": "Valoda",
   "language_title": "Lasi šo lapu savā valodā",
-  "language_note": "Pati lietotne runā divdesmit četrās valodās — pārējās šurp vēl ceļā.",
-  "langbar_strong": "Divdesmit četras valodas.",
+  "language_note": "Pati lietotne runā 45 valodās — pārējās šurp vēl ceļā.",
+  "langbar_strong": "45 valodas.",
   "langbar_rest": "Izvēlies savu — lietotne to arī runā.",
   "per_month_short": "mēnesī",
   "see_all": "skatīt visas",
@@ -33,7 +33,20 @@
   "hero_android": "Android versija ir ceļā. Uzraksti mums, un mēs paziņosim, kad tā iznāks.",
   "reviews_h2": "Ko kurjeri saka App Store",
   "countries_paperwork_h3": "Šeit lietotne zina dokumentus; likmi ievadi pats",
-  "hero_facts": [{"value": "0", "label": "sākuma pogu"}, {"value": "0", "label": "serveru ar tavu atrašanās vietu"}, {"value": "17", "label": "iebūvētas kilometra likmes"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "sākuma pogu"
+    },
+    {
+      "value": "0",
+      "label": "serveru ar tavu atrašanās vietu"
+    },
+    {
+      "value": "17",
+      "label": "iebūvētas kilometra likmes"
+    }
+  ],
   "money_h2": "Divas dienas. Vairāk kilometru. Mazāk naudas.",
   "money_intro": "Otrdiena: 155 kilometri, trīs braucieni. Vakar: 87,5 kilometri, divi braucieni. Parasta kilometru lietotne pateiks, ka otrdiena bija pilnākā diena — un tai būs taisnība. Tikai no otrdienas palika 58 eiro, bet no vakardienas — 78.",
   "money_day1_when": "otrdiena, 25. augusts",
@@ -319,5 +332,6 @@
   "hero_trial": "14 dienas bez maksas",
   "hero_trial_then": "pēc tam {price} mēnesī",
   "compare_them": "Kilometru lietotnes pasaka, cik kilometru nobrauci.",
-  "compare_us": "DropLane pasaka, cik tu patiešām nopelnīji."
+  "compare_us": "DropLane pasaka, cik tu patiešām nopelnīji.",
+  "fact_currency": "tavā valūtā"
 }

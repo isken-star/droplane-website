@@ -19,8 +19,8 @@
   "theme_dark": "Mørkt",
   "language_label": "Sprog",
   "language_title": "Læs siden på dit sprog",
-  "language_note": "Selve appen taler fireogtyve sprog — resten er på vej hertil.",
-  "langbar_strong": "Fireogtyve sprog.",
+  "language_note": "Selve appen taler 45 sprog — resten er på vej hertil.",
+  "langbar_strong": "45 sprog.",
   "langbar_rest": "Vælg dit — appen taler det også.",
   "per_month_short": "om måneden",
   "see_all": "se alle",
@@ -33,7 +33,20 @@
   "hero_android": "Android er på vej. Skriv til os, så siger vi til, når den er ude.",
   "reviews_h2": "Hvad kurerer siger på App Store",
   "countries_paperwork_h3": "Her kender appen papirerne; satsen taster du selv ind",
-  "hero_facts": [{"value": "0", "label": "startknapper"}, {"value": "0", "label": "servere med din lokalitet"}, {"value": "17", "label": "indbyggede kørselssatser"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "startknapper"
+    },
+    {
+      "value": "0",
+      "label": "servere med din lokalitet"
+    },
+    {
+      "value": "17",
+      "label": "indbyggede kørselssatser"
+    }
+  ],
   "money_h2": "To dage. Flere kilometer. Færre penge.",
   "money_intro": "Onsdag: 64 kilometer, to ture. I går: 100 kilometer, tre ture. En almindelig kilometer-app fortæller dig, at i går var den travleste dag — og den har ret. Alligevel blev der 1.187 kroner tilbage onsdag og 1.013 i går.",
   "money_day1_when": "Onsdag 26. august",
@@ -319,5 +332,6 @@
   "hero_trial": "14 dage gratis",
   "hero_trial_then": "derefter {price} om måneden",
   "compare_them": "Almindelige kilometer-apps fortæller dig, hvor langt du kørte.",
-  "compare_us": "DropLane fortæller dig, hvad du faktisk tjente."
+  "compare_us": "DropLane fortæller dig, hvad du faktisk tjente.",
+  "fact_currency": "i din egen valuta"
 }

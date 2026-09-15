@@ -19,8 +19,8 @@
   "theme_dark": "Sötét",
   "language_label": "Nyelv",
   "language_title": "Olvasd ezt az oldalt a saját nyelveden",
-  "language_note": "Maga az app huszonnégy nyelven beszél — a többi még úton van ide.",
-  "langbar_strong": "Huszonnégy nyelv.",
+  "language_note": "Maga az app 45 nyelven beszél — a többi még úton van ide.",
+  "langbar_strong": "45 nyelv.",
   "langbar_rest": "Válaszd ki a sajátodat — az app is beszéli.",
   "per_month_short": "havonta",
   "see_all": "összes",
@@ -33,7 +33,20 @@
   "hero_android": "Az Android úton van. Írj nekünk, és szólunk, amint megjelenik.",
   "reviews_h2": "Ezt mondják a futárok az App Store-ban",
   "countries_paperwork_h3": "Itt az app ismeri a papírokat; a díjat te írod be",
-  "hero_facts": [{"value": "0", "label": "indítógomb"}, {"value": "0", "label": "a helyzetedet tároló szerver"}, {"value": "17", "label": "beépített kilométerdíj"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "indítógomb"
+    },
+    {
+      "value": "0",
+      "label": "a helyzetedet tároló szerver"
+    },
+    {
+      "value": "17",
+      "label": "beépített kilométerdíj"
+    }
+  ],
   "money_h2": "Két nap. Több kilométer. Kevesebb pénz.",
   "money_intro": "Kedd: 91,5 kilométer, három út. Tegnap: 55,4 kilométer, két út. Egy hagyományos kilométerszámláló app azt mondja, a kedd volt a teltebb nap — és igaza is van. Csakhogy keddről 30 250 Ft maradt, tegnapról pedig 35 760 Ft.",
   "money_day1_when": "augusztus 25., kedd",
@@ -319,5 +332,6 @@
   "hero_trial": "14 nap ingyen",
   "hero_trial_then": "utána havi {price}",
   "compare_them": "A kilométerszámláló appok megmondják, hány kilométert mentél.",
-  "compare_us": "A DropLane megmondja, mennyit kerestél valójában."
+  "compare_us": "A DropLane megmondja, mennyit kerestél valójában.",
+  "fact_currency": "a saját pénznemedben"
 }

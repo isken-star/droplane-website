@@ -19,8 +19,8 @@
   "theme_dark": "Koyu",
   "language_label": "Dil",
   "language_title": "Bu siteyi kendi dilinde oku",
-  "language_note": "Uygulamanın kendisi yirmi dört dil konuşuyor — kalanı da buraya geliyor.",
-  "langbar_strong": "Yirmi dört dil.",
+  "language_note": "Uygulamanın kendisi 45 dil konuşuyor — kalanı da buraya geliyor.",
+  "langbar_strong": "45 dil.",
   "langbar_rest": "Kendi dilini seç — uygulama da onu konuşuyor.",
   "per_month_short": "aylık",
   "see_all": "hepsini gör",
@@ -33,7 +33,20 @@
   "hero_android": "Android yolda. Bize yaz, çıkınca haber verelim.",
   "reviews_h2": "Kuryeler App Store'da ne diyor",
   "countries_paperwork_h3": "Burada uygulama evrakları biliyor; oranı sen giriyorsun",
-  "hero_facts": [{"value": "0", "label": "başlat düğmesi"}, {"value": "0", "label": "konumunu tutan sunucu"}, {"value": "17", "label": "yerleşik kilometre oranı"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "başlat düğmesi"
+    },
+    {
+      "value": "0",
+      "label": "konumunu tutan sunucu"
+    },
+    {
+      "value": "17",
+      "label": "yerleşik kilometre oranı"
+    }
+  ],
   "money_h2": "İki gün. Daha çok kilometre. Daha az para.",
   "money_intro": "Dün: 327 kilometre, üç sürüş. Bugün: 198 kilometre, iki sürüş. Sıradan bir kilometre uygulaması dünün daha dolu gün olduğunu söyler — haklıdır da. Ama dünden geriye ₺1.347 kaldı, bugünden ₺1.945.",
   "money_day1_when": "Dün",
@@ -319,5 +332,6 @@
   "hero_trial": "14 gün ücretsiz",
   "hero_trial_then": "sonra ayda {price}",
   "compare_them": "Kilometre uygulamaları ne kadar yol gittiğini söyler.",
-  "compare_us": "DropLane gerçekte ne kazandığını söyler."
+  "compare_us": "DropLane gerçekte ne kazandığını söyler.",
+  "fact_currency": "kendi para biriminde"
 }

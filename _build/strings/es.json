@@ -19,8 +19,8 @@
   "theme_dark": "Oscuro",
   "language_label": "Idioma",
   "language_title": "Lee esta web en tu idioma",
-  "language_note": "La app habla veinticuatro idiomas — el resto llegará también aquí.",
-  "langbar_strong": "Veinticuatro idiomas.",
+  "language_note": "La app habla 45 idiomas — el resto llegará también aquí.",
+  "langbar_strong": "45 idiomas.",
   "langbar_rest": "Elige el tuyo — la app también lo habla.",
   "per_month_short": "al mes",
   "see_all": "ver todos",
@@ -33,7 +33,20 @@
   "hero_android": "Android está en camino. Escríbenos y te avisamos cuando salga.",
   "reviews_h2": "Lo que dicen los repartidores en el App Store",
   "countries_paperwork_h3": "Aquí la app conoce los papeles; la tarifa la escribes tú",
-  "hero_facts": [{"value": "0", "label": "botones de inicio"}, {"value": "0", "label": "servidores con tu ubicación"}, {"value": "17", "label": "tarifas por kilómetro incluidas"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "botones de inicio"
+    },
+    {
+      "value": "0",
+      "label": "servidores con tu ubicación"
+    },
+    {
+      "value": "17",
+      "label": "tarifas por kilómetro incluidas"
+    }
+  ],
   "money_h2": "Dos días. Más kilómetros. Menos dinero.",
   "money_intro": "Martes: 68 kilómetros, tres trayectos. Ayer: 41 kilómetros, dos trayectos. Una app de kilometraje normal te dirá que el martes fue el día más cargado — y tiene razón. Solo que del martes quedaron 80 € y de ayer, 98.",
   "money_day1_when": "Martes, 25 de agosto",
@@ -319,5 +332,6 @@
   "hero_trial": "14 días gratis",
   "hero_trial_then": "después {price} al mes",
   "compare_them": "Las apps de kilometraje te dicen cuántos kilómetros has hecho.",
-  "compare_us": "DropLane te dice cuánto has ganado de verdad."
+  "compare_us": "DropLane te dice cuánto has ganado de verdad.",
+  "fact_currency": "en tu moneda"
 }

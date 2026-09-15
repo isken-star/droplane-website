@@ -19,8 +19,8 @@
   "theme_dark": "Sombre",
   "language_label": "Langue",
   "language_title": "Lire ce site dans ta langue",
-  "language_note": "L'application parle vingt-quatre langues — le reste arrive ici.",
-  "langbar_strong": "Vingt-quatre langues.",
+  "language_note": "L'application parle 45 langues — le reste arrive ici.",
+  "langbar_strong": "45 langues.",
   "langbar_rest": "Choisis la tienne — l'application la parle aussi.",
   "per_month_short": "par mois",
   "see_all": "voir tout",
@@ -33,7 +33,20 @@
   "hero_android": "Android arrive. Écris-nous et on te prévient à la sortie.",
   "reviews_h2": "Ce que disent les coursiers sur l'App Store",
   "countries_paperwork_h3": "Ici l'app connaît les papiers ; le barème, c'est toi qui le saisis",
-  "hero_facts": [{"value": "0", "label": "bouton de démarrage"}, {"value": "0", "label": "serveur qui stocke ta position"}, {"value": "17", "label": "barèmes kilométriques intégrés"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "bouton de démarrage"
+    },
+    {
+      "value": "0",
+      "label": "serveur qui stocke ta position"
+    },
+    {
+      "value": "17",
+      "label": "barèmes kilométriques intégrés"
+    }
+  ],
   "money_h2": "Deux journées. Plus de kilomètres. Moins d'argent.",
   "money_intro": "Mardi : 113 kilomètres, trois trajets. Hier : 67 kilomètres, deux trajets. Une appli de kilométrage ordinaire te dira que mardi était la journée la plus chargée — et elle a raison. Sauf que mardi, il est resté 89 €, et hier 109.",
   "money_day1_when": "Mardi 25 août",
@@ -319,5 +332,6 @@
   "hero_trial": "14 jours gratuits",
   "hero_trial_then": "puis {price} par mois",
   "compare_them": "Les applis de kilométrage te disent combien de kilomètres tu as faits.",
-  "compare_us": "DropLane te dit ce que tu as vraiment gagné."
+  "compare_us": "DropLane te dit ce que tu as vraiment gagné.",
+  "fact_currency": "dans ta monnaie"
 }

@@ -19,8 +19,8 @@
   "theme_dark": "Tmavé",
   "language_label": "Jazyk",
   "language_title": "Přečti si tenhle web ve svém jazyce",
-  "language_note": "Aplikace sama mluví čtyřiadvaceti jazyky — zbytek se sem teprve chystá.",
-  "langbar_strong": "Čtyřiadvacet jazyků.",
+  "language_note": "Aplikace sama mluví 45 jazyky — zbytek se sem teprve chystá.",
+  "langbar_strong": "45 jazyků.",
   "langbar_rest": "Vyber si ten svůj — aplikace ho umí taky.",
   "per_month_short": "měsíčně",
   "see_all": "zobrazit vše",
@@ -33,7 +33,20 @@
   "hero_android": "Android je na cestě. Napiš nám a dáme ti vědět, až vyjde.",
   "reviews_h2": "Co říkají kurýři v App Storu",
   "countries_paperwork_h3": "Tady aplikace zná doklady; sazbu si zadáš sám",
-  "hero_facts": [{"value": "0", "label": "tlačítek start"}, {"value": "0", "label": "serverů s tvojí polohou"}, {"value": "17", "label": "vestavěných sazeb za kilometr"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "tlačítek start"
+    },
+    {
+      "value": "0",
+      "label": "serverů s tvojí polohou"
+    },
+    {
+      "value": "17",
+      "label": "vestavěných sazeb za kilometr"
+    }
+  ],
   "money_h2": "Dva dny. Víc kilometrů. Míň peněz.",
   "money_intro": "Úterý: 126 kilometrů, tři jízdy. Včera: 80,5 kilometru, dvě jízdy. Běžná aplikace na kilometry ti řekne, že úterý byl plnější den — a má pravdu. Jenže z úterý zbylo 2 098 Kč a ze včerejška 2 505 Kč.",
   "money_day1_when": "úterý 25. srpna",
@@ -319,5 +332,6 @@
   "hero_trial": "14 dní zdarma",
   "hero_trial_then": "poté {price} měsíčně",
   "compare_them": "Aplikace na kilometry ti řeknou, kolik kilometrů jsi najel.",
-  "compare_us": "DropLane ti řekne, kolik sis doopravdy vydělal."
+  "compare_us": "DropLane ti řekne, kolik sis doopravdy vydělal.",
+  "fact_currency": "ve tvé měně"
 }

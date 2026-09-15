@@ -56,7 +56,10 @@
     { "code": "hr", "dir": "hr", "name": "Hrvatski", "flag": "🇭🇷", "locale": "hr-HR", "og_locale": "hr_HR", "market": "HR", "currency": "EUR", "market_name": "Croatia", "price_month": "7,99 €", "price_year": "59,99 €", "compact": true },
     { "code": "sl", "dir": "si", "name": "Slovenščina", "flag": "🇸🇮", "locale": "sl-SI", "og_locale": "sl_SI", "market": "SI", "currency": "EUR", "market_name": "Slovenia", "price_month": "7,99 €", "price_year": "59,99 €", "compact": true },
     { "code": "ca", "dir": "ca", "name": "Català", "flag": "🇪🇸", "locale": "ca-ES", "og_locale": "ca_ES", "market": "ES", "currency": "EUR", "market_name": "Spain", "price_month": "5,99 €", "price_year": "39,99 €", "compact": true },
-    { "code": "ms", "dir": "my", "name": "Bahasa Melayu", "flag": "🇲🇾", "locale": "ms-MY", "og_locale": "ms_MY", "market": "MY", "currency": "MYR", "market_name": "Malaysia", "price_month": "RM19.90", "price_year": "RM129.90", "compact": true }
+    { "code": "ms", "dir": "my", "name": "Bahasa Melayu", "flag": "🇲🇾", "locale": "ms-MY", "og_locale": "ms_MY", "market": "MY", "currency": "MYR", "market_name": "Malaysia", "price_month": "RM19.90", "price_year": "RM129.90", "compact": true },
+    { "code": "pa", "dir": "pa", "name": "ਪੰਜਾਬੀ", "flag": "🇮🇳", "locale": "pa-IN", "og_locale": "pa_IN", "market": "IN", "currency": "INR", "market_name": "India", "price_month": "₹299", "price_year": "₹1,999", "compact": true },
+    { "code": "ta", "dir": "ta", "name": "தமிழ்", "flag": "🇮🇳", "locale": "ta-IN", "og_locale": "ta_IN", "market": "IN", "currency": "INR", "market_name": "India", "price_month": "₹299", "price_year": "₹1,999", "compact": true },
+    { "code": "bn", "dir": "bn", "name": "বাংলা", "flag": "🇮🇳", "locale": "bn-IN", "og_locale": "bn_IN", "market": "IN", "currency": "INR", "market_name": "India", "price_month": "₹299", "price_year": "₹1,999", "compact": true }
   ],
 
   "screens": ["today", "day", "trip", "days", "stats", "insights", "report", "expense", "vehicle", "settings"],

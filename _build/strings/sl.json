@@ -223,5 +223,6 @@
   "footer_terms": "Pogoji",
   "footer_support": "Podpora",
   "suggest_prompt": "Beri v slovenščini",
-  "cta_soon": "Kmalu"
+  "cta_soon": "Kmalu",
+  "fact_currency": "v tvoji valuti"
 }

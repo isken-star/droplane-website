@@ -19,8 +19,8 @@
   "theme_dark": "Mörkt",
   "language_label": "Språk",
   "language_title": "Läs sidan på ditt språk",
-  "language_note": "Appen själv talar tjugofyra språk — resten är på väg hit.",
-  "langbar_strong": "Tjugofyra språk.",
+  "language_note": "Appen själv talar 45 språk — resten är på väg hit.",
+  "langbar_strong": "45 språk.",
   "langbar_rest": "Välj ditt — appen talar det också.",
   "per_month_short": "i månaden",
   "see_all": "se alla",
@@ -33,7 +33,20 @@
   "hero_android": "Android är på väg. Mejla oss så säger vi till när den är ute.",
   "reviews_h2": "Vad kurirer säger på App Store",
   "countries_paperwork_h3": "Här känner appen till papperen; schablonen skriver du in själv",
-  "hero_facts": [{"value": "0", "label": "startknappar"}, {"value": "0", "label": "servrar som lagrar din plats"}, {"value": "17", "label": "inbyggda milersättningar"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "startknappar"
+    },
+    {
+      "value": "0",
+      "label": "servrar som lagrar din plats"
+    },
+    {
+      "value": "17",
+      "label": "inbyggda milersättningar"
+    }
+  ],
   "money_h2": "Två dagar. Samma kilometer. Inte samma pengar.",
   "money_intro": "Båda är tre körningar och runt hundrafemtio kilometer, från samma telefon, i samma skåpbil. En vanlig körjournalsapp bokför dem som i stort sett samma dag. Det skiljer 277 kronor.",
   "money_day1_when": "Torsdag 30 juli",
@@ -319,5 +332,6 @@
   "hero_trial": "14 dagar gratis",
   "hero_trial_then": "sedan {price} i månaden",
   "compare_them": "Vanliga körjournalsappar berättar hur långt du körde.",
-  "compare_us": "DropLane berättar vad du faktiskt tjänade."
+  "compare_us": "DropLane berättar vad du faktiskt tjänade.",
+  "fact_currency": "i din egen valuta"
 }

@@ -19,8 +19,8 @@
   "theme_dark": "Escuro",
   "language_label": "Idioma",
   "language_title": "Leia este site no seu idioma",
-  "language_note": "O app fala vinte e quatro idiomas — os outros estão a caminho daqui.",
-  "langbar_strong": "Vinte e quatro idiomas.",
+  "language_note": "O app fala 45 idiomas — os outros estão a caminho daqui.",
+  "langbar_strong": "45 idiomas.",
   "langbar_rest": "Escolha o seu — o app também fala esse idioma.",
   "per_month_short": "por mês",
   "see_all": "ver todos",
@@ -33,7 +33,20 @@
   "hero_android": "O Android está a caminho. Mande um e-mail e a gente avisa quando sair.",
   "reviews_h2": "O que os entregadores dizem na App Store",
   "countries_paperwork_h3": "Aqui o app conhece os documentos; a taxa você digita",
-  "hero_facts": [{"value": "0", "label": "botões de iniciar"}, {"value": "0", "label": "servidores com a sua localização"}, {"value": "17", "label": "tarifas de quilometragem embutidas"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "botões de iniciar"
+    },
+    {
+      "value": "0",
+      "label": "servidores com a sua localização"
+    },
+    {
+      "value": "17",
+      "label": "tarifas de quilometragem embutidas"
+    }
+  ],
   "money_h2": "Dois dias. Mais quilômetros. Menos dinheiro.",
   "money_intro": "Terça: 142 quilômetros, três viagens. Ontem: 93,4 quilômetros, duas viagens. Um app de quilometragem comum diz que a terça foi o dia mais cheio — e está certo. Só que da terça sobraram R$ 120 e de ontem R$ 184.",
   "money_day1_when": "Terça-feira, 25 de agosto",
@@ -319,5 +332,6 @@
   "hero_trial": "14 dias grátis",
   "hero_trial_then": "depois {price} por mês",
   "compare_them": "Os apps de quilometragem dizem quantos quilômetros você rodou.",
-  "compare_us": "O DropLane diz quanto você ganhou de verdade."
+  "compare_us": "O DropLane diz quanto você ganhou de verdade.",
+  "fact_currency": "na sua moeda"
 }

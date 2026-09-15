@@ -19,8 +19,8 @@
   "theme_dark": "Tumma",
   "language_label": "Kieli",
   "language_title": "Lue sivu omalla kielelläsi",
-  "language_note": "Sovellus itse puhuu kahtakymmentäneljää kieltä — loput ovat tulossa tänne.",
-  "langbar_strong": "Kaksikymmentäneljä kieltä.",
+  "language_note": "Sovellus itse puhuu 45 kieltä — loput ovat tulossa tänne.",
+  "langbar_strong": "45 kieltä.",
   "langbar_rest": "Valitse omasi — sovellus puhuu sitä myös.",
   "per_month_short": "kuukaudessa",
   "see_all": "näytä kaikki",
@@ -33,7 +33,20 @@
   "hero_android": "Android on tulossa. Lähetä meille sähköpostia, niin kerromme, kun se julkaistaan.",
   "reviews_h2": "Mitä kuriirit sanovat App Storessa",
   "countries_paperwork_h3": "Täällä sovellus tuntee paperit; korvauksen kirjoitat itse",
-  "hero_facts": [{"value": "0", "label": "käynnistyspainiketta"}, {"value": "0", "label": "palvelinta, jolla sijaintisi on"}, {"value": "17", "label": "sisäänrakennettua kilometrikorvausta"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "käynnistyspainiketta"
+    },
+    {
+      "value": "0",
+      "label": "palvelinta, jolla sijaintisi on"
+    },
+    {
+      "value": "17",
+      "label": "sisäänrakennettua kilometrikorvausta"
+    }
+  ],
   "money_h2": "Kaksi päivää. Enemmän kilometrejä. Vähemmän rahaa.",
   "money_intro": "Keskiviikko: 53 kilometriä, kaksi ajoa. Eilen: 82 kilometriä, kolme ajoa. Tavallinen ajopäiväkirjasovellus kertoo, että eilinen oli täydempi päivä — ja se on oikeassa. Silti keskiviikosta jäi 147 euroa ja eilisestä 129.",
   "money_day1_when": "Keskiviikko 26. elokuuta",
@@ -319,5 +332,6 @@
   "hero_trial": "14 päivää ilmaiseksi",
   "hero_trial_then": "sitten {price} kuussa",
   "compare_them": "Kilometrisovellukset kertovat, kuinka monta kilometriä ajoit.",
-  "compare_us": "DropLane kertoo, mitä oikeasti tienasit."
+  "compare_us": "DropLane kertoo, mitä oikeasti tienasit.",
+  "fact_currency": "omassa valuutassasi"
 }

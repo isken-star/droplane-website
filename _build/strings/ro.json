@@ -19,8 +19,8 @@
   "theme_dark": "Întunecat",
   "language_label": "Limbă",
   "language_title": "Citește site-ul în limba ta",
-  "language_note": "Aplicația vorbește douăzeci și patru de limbi — restul ajung și aici.",
-  "langbar_strong": "Douăzeci și patru de limbi.",
+  "language_note": "Aplicația vorbește 45 de limbi — restul ajung și aici.",
+  "langbar_strong": "45 de limbi.",
   "langbar_rest": "Alege-o pe a ta — aplicația o vorbește și ea.",
   "per_month_short": "pe lună",
   "see_all": "vezi tot",
@@ -33,7 +33,20 @@
   "hero_android": "Android e pe drum. Scrie-ne și îți spunem când apare.",
   "reviews_h2": "Ce spun curierii pe App Store",
   "countries_paperwork_h3": "Aici aplicația știe actele; tariful îl scrii tu",
-  "hero_facts": [{"value": "0", "label": "butoane de start"}, {"value": "0", "label": "servere care îți păstrează locația"}, {"value": "17", "label": "tarife pe kilometru incluse"}],
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "butoane de start"
+    },
+    {
+      "value": "0",
+      "label": "servere care îți păstrează locația"
+    },
+    {
+      "value": "17",
+      "label": "tarife pe kilometru incluse"
+    }
+  ],
   "money_h2": "Două zile. Mai mulți kilometri. Mai puțini bani.",
   "money_intro": "Marți: 188 de kilometri, trei curse. Ieri: 111 kilometri, două curse. O aplicație obișnuită de kilometraj îți spune că marți a fost ziua mai plină — și are dreptate. Numai că marți au rămas 90 de lei, iar ieri 190.",
   "money_day1_when": "Marți, 25 august",
@@ -319,5 +332,6 @@
   "hero_trial": "14 zile gratis",
   "hero_trial_then": "apoi {price} pe lună",
   "compare_them": "Aplicațiile de kilometraj îți spun câți kilometri ai făcut.",
-  "compare_us": "DropLane îți spune cât ai câștigat cu adevărat."
+  "compare_us": "DropLane îți spune cât ai câștigat cu adevărat.",
+  "fact_currency": "în moneda ta"
 }
