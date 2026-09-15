@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="ur-IN" dir="rtl" data-theme="light" data-lang="ur">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DropLane — کام کے لیے گاڑی چلانے والوں کے لیے کلومیٹر اور کمائی کا خودکار حساب</title>
+<meta name="description" content="ڈیلیوری ڈرائیوروں کے لیے کلومیٹر ٹریکر۔ DropLane ہر ٹرپ خود ریکارڈ کرتا ہے، کمائی سے ایندھن اور اخراجات منہا کرتا ہے، اور بتاتا ہے کہ گھنٹے میں واقعی کتنا ملا۔">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<!-- Safari on iPhone shows its own "View in App Store" strip from this one line. -->
+<meta name="apple-itunes-app" content="app-id=6760871535">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/ur/">
+<link rel="alternate" hreflang="en" href="https://www.droplane.co.uk/">
+<link rel="alternate" hreflang="en-US" href="https://www.droplane.co.uk/us/">
+<link rel="alternate" hreflang="en-AU" href="https://www.droplane.co.uk/au/">
+<link rel="alternate" hreflang="da" href="https://www.droplane.co.uk/da/">
+<link rel="alternate" hreflang="de" href="https://www.droplane.co.uk/de/">
+<link rel="alternate" hreflang="es" href="https://www.droplane.co.uk/es/">
+<link rel="alternate" hreflang="fr" href="https://www.droplane.co.uk/fr/">
+<link rel="alternate" hreflang="it" href="https://www.droplane.co.uk/it/">
+<link rel="alternate" hreflang="nl" href="https://www.droplane.co.uk/nl/">
+<link rel="alternate" hreflang="pl" href="https://www.droplane.co.uk/pl/">
+<link rel="alternate" hreflang="pt-PT" href="https://www.droplane.co.uk/pt/">
+<link rel="alternate" hreflang="pt" href="https://www.droplane.co.uk/br/">
+<link rel="alternate" hreflang="cs" href="https://www.droplane.co.uk/cz/">
+<link rel="alternate" hreflang="sk" href="https://www.droplane.co.uk/sk/">
+<link rel="alternate" hreflang="hu" href="https://www.droplane.co.uk/hu/">
+<link rel="alternate" hreflang="el" href="https://www.droplane.co.uk/gr/">
+<link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
+<link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
+<link rel="alternate" hreflang="sv" href="https://www.droplane.co.uk/sv/">
+<link rel="alternate" hreflang="nb" href="https://www.droplane.co.uk/nb/">
+<link rel="alternate" hreflang="fi" href="https://www.droplane.co.uk/fi/">
+<link rel="alternate" hreflang="ru" href="https://www.droplane.co.uk/ru/">
+<link rel="alternate" hreflang="lt" href="https://www.droplane.co.uk/lt/">
+<link rel="alternate" hreflang="lv" href="https://www.droplane.co.uk/lv/">
+<link rel="alternate" hreflang="uk" href="https://www.droplane.co.uk/ua/">
+<link rel="alternate" hreflang="tr" href="https://www.droplane.co.uk/tr/">
+<link rel="alternate" hreflang="ja" href="https://www.droplane.co.uk/jp/">
+<link rel="alternate" hreflang="ko" href="https://www.droplane.co.uk/kr/">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.droplane.co.uk/sg/">
+<link rel="alternate" hreflang="zh-Hant" href="https://www.droplane.co.uk/tw/">
+<link rel="alternate" hreflang="hi" href="https://www.droplane.co.uk/in/">
+<link rel="alternate" hreflang="id" href="https://www.droplane.co.uk/id/">
+<link rel="alternate" hreflang="vi" href="https://www.droplane.co.uk/vn/">
+<link rel="alternate" hreflang="th" href="https://www.droplane.co.uk/th/">
+<link rel="alternate" hreflang="hr" href="https://www.droplane.co.uk/hr/">
+<link rel="alternate" hreflang="sl" href="https://www.droplane.co.uk/si/">
+<link rel="alternate" hreflang="ca" href="https://www.droplane.co.uk/ca/">
+<link rel="alternate" hreflang="ms" href="https://www.droplane.co.uk/my/">
+<link rel="alternate" hreflang="pa" href="https://www.droplane.co.uk/pa/">
+<link rel="alternate" hreflang="ta" href="https://www.droplane.co.uk/ta/">
+<link rel="alternate" hreflang="bn" href="https://www.droplane.co.uk/bn/">
+<link rel="alternate" hreflang="es-MX" href="https://www.droplane.co.uk/mx/">
+<link rel="alternate" hreflang="fr-CA" href="https://www.droplane.co.uk/qc/">
+<link rel="alternate" hreflang="en-CA" href="https://www.droplane.co.uk/en-ca/">
+<link rel="alternate" hreflang="ar" href="https://www.droplane.co.uk/ae/">
+<link rel="alternate" hreflang="ur" href="https://www.droplane.co.uk/ur/">
+<link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
+<meta property="og:title" content="DropLane — کام کے لیے گاڑی چلانے والوں کے لیے کلومیٹر اور کمائی کا خودکار حساب">
+<meta property="og:description" content="ڈیلیوری ڈرائیوروں کے لیے کلومیٹر ٹریکر۔ DropLane ہر ٹرپ خود ریکارڈ کرتا ہے، کمائی سے ایندھن اور اخراجات منہا کرتا ہے، اور بتاتا ہے کہ گھنٹے میں واقعی کتنا ملا۔">
+<meta property="og:url" content="https://www.droplane.co.uk/ur/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ur_IN">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/og/ur.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="جانیں کہ دن نے واقعی کتنا دیا۔">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DropLane — کام کے لیے گاڑی چلانے والوں کے لیے کلومیٹر اور کمائی کا خودکار حساب">
+<meta name="twitter:description" content="ڈیلیوری ڈرائیوروں کے لیے کلومیٹر ٹریکر۔ DropLane ہر ٹرپ خود ریکارڈ کرتا ہے، کمائی سے ایندھن اور اخراجات منہا کرتا ہے، اور بتاتا ہے کہ گھنٹے میں واقعی کتنا ملا۔">
+<meta name="twitter:image" content="https://www.droplane.co.uk/assets/og/ur.jpg">
+<!-- What search engines read: the app, its price in this market, and the
+     listing's rating. Built from site.json, so a price change lands here. -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "DropLane", "alternateName": "DropLane: Mileage Tracker", "operatingSystem": "iOS", "applicationCategory": "FinanceApplication", "url": "https://www.droplane.co.uk/ur/", "image": "https://www.droplane.co.uk/assets/icon-512.png", "description": "ڈیلیوری ڈرائیوروں کے لیے کلومیٹر ٹریکر۔ DropLane ہر ٹرپ خود ریکارڈ کرتا ہے، کمائی سے ایندھن اور اخراجات منہا کرتا ہے، اور بتاتا ہے کہ گھنٹے میں واقعی کتنا ملا۔", "inLanguage": "ur-IN", "installUrl": "https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&ct=web-ur-schema&mt=8", "author": {"@type": "Person", "name": "Iskender Davies"}, "offers": [{"@type": "Offer", "name": "ماہانہ", "price": "299", "priceCurrency": "INR", "category": "subscription"}, {"@type": "Offer", "name": "سالانہ", "price": "1999", "priceCurrency": "INR", "category": "subscription"}], "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": 2, "bestRating": "5"}}</script>
+<!-- Anonymous visitor counting. No cookies, nothing that identifies a
+     reader. Swap this one tag to change provider; site.js does not care. -->
+<script src="https://cdn.usefathom.com/script.js" data-site="VHXQRPBR" defer></script>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/ur/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="مرکزی">
+      <a href="#features">کیا کرتا ہے</a>
+      <a href="#screens">اسکرینیں</a>
+      <a href="#countries">کہاں چلتا ہے</a>
+      <a href="#pricing">قیمت</a>
+      <a href="/support/">مدد</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="زبان">
+        <span class="lang-button-flag" aria-hidden="true">🇮🇳</span>
+        <span class="lang-button-name">اردو</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="رنگ">
+        <button type="button" data-theme="light" aria-pressed="true" title="ہلکا">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>ہلکا</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="گہرا">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>گہرا</span>
+        </button>
+      </div>
+
+      <a class="head-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ur-head&amp;mt=8" data-place="head"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>DropLane حاصل کریں</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">مینو</span><span class="close-label">بند کریں</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">یہ سائٹ اپنی زبان میں پڑھیں</p>
+      <ul class="lang-list">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
+        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
+        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
+        <li><a href="/gr/" hreflang="el" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
+        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
+        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
+        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+        <li><a href="/jp/" hreflang="ja" data-suggest="日本語で読む" data-flag="🇯🇵"><span class="flag">🇯🇵</span> 日本語</a></li>
+        <li><a href="/kr/" hreflang="ko" data-suggest="한국어로 읽기" data-flag="🇰🇷"><span class="flag">🇰🇷</span> 한국어</a></li>
+        <li><a href="/sg/" hreflang="zh-Hans" data-suggest="用简体中文阅读" data-flag="🇸🇬"><span class="flag">🇸🇬</span> 简体中文</a></li>
+        <li><a href="/tw/" hreflang="zh-Hant" data-suggest="用繁體中文閱讀" data-flag="🇹🇼"><span class="flag">🇹🇼</span> 繁體中文</a></li>
+        <li><a href="/in/" hreflang="hi" data-suggest="हिन्दी में पढ़ें" data-flag="🇮🇳"><span class="flag">🇮🇳</span> हिन्दी</a></li>
+        <li><a href="/id/" hreflang="id" data-suggest="Baca dalam bahasa Indonesia" data-flag="🇮🇩"><span class="flag">🇮🇩</span> Bahasa Indonesia</a></li>
+        <li><a href="/vn/" hreflang="vi" data-suggest="Đọc bằng tiếng Việt" data-flag="🇻🇳"><span class="flag">🇻🇳</span> Tiếng Việt</a></li>
+        <li><a href="/th/" hreflang="th" data-suggest="อ่านเป็นภาษาไทย" data-flag="🇹🇭"><span class="flag">🇹🇭</span> ไทย</a></li>
+        <li><a href="/hr/" hreflang="hr" data-suggest="Čitaj na hrvatskom" data-flag="🇭🇷"><span class="flag">🇭🇷</span> Hrvatski</a></li>
+        <li><a href="/si/" hreflang="sl" data-suggest="Beri v slovenščini" data-flag="🇸🇮"><span class="flag">🇸🇮</span> Slovenščina</a></li>
+        <li><a href="/ca/" hreflang="ca" data-suggest="Llegeix-ho en català" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Català</a></li>
+        <li><a href="/my/" hreflang="ms" data-suggest="Baca dalam Bahasa Melayu" data-flag="🇲🇾"><span class="flag">🇲🇾</span> Bahasa Melayu</a></li>
+        <li><a href="/pa/" hreflang="pa" data-suggest="ਪੰਜਾਬੀ ਵਿੱਚ ਪੜ੍ਹੋ" data-flag="🇮🇳"><span class="flag">🇮🇳</span> ਪੰਜਾਬੀ</a></li>
+        <li><a href="/ta/" hreflang="ta" data-suggest="தமிழில் படியுங்கள்" data-flag="🇮🇳"><span class="flag">🇮🇳</span> தமிழ்</a></li>
+        <li><a href="/bn/" hreflang="bn" data-suggest="বাংলায় পড়ুন" data-flag="🇮🇳"><span class="flag">🇮🇳</span> বাংলা</a></li>
+        <li><a href="/mx/" hreflang="es-MX" data-suggest="Leer en español (México)" data-flag="🇲🇽"><span class="flag">🇲🇽</span> Español (MX)</a></li>
+        <li><a href="/qc/" hreflang="fr-CA" data-suggest="Lire en français (Canada)" data-flag="🇨🇦"><span class="flag">🇨🇦</span> Français (CA)</a></li>
+        <li><a href="/en-ca/" hreflang="en-CA" data-suggest="Read this in Canadian English" data-flag="🇨🇦"><span class="flag">🇨🇦</span> English (CA)</a></li>
+        <li><a href="/ae/" hreflang="ar" data-suggest="اقرأ بالعربية" data-flag="🇦🇪"><span class="flag">🇦🇪</span> العربية</a></li>
+        <li><a href="/ur/" hreflang="ur" aria-current="true" data-suggest="اردو میں پڑھیں" data-flag="🇮🇳"><span class="flag">🇮🇳</span> اردو</a></li>
+      </ul>
+      <p class="lang-panel-note">ایپ خود 45 زبانیں بولتی ہے — باقی زبانوں کے صفحات آ رہے ہیں۔</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="مرکزی">
+        <a href="#features">کیا کرتا ہے</a>
+        <a href="#screens">اسکرینیں</a>
+        <a href="#countries">کہاں چلتا ہے</a>
+        <a href="#languages">زبانیں</a>
+        <a href="#pricing">قیمت</a>
+        <a href="#faq">سوالات</a>
+        <a href="/support/">مدد</a>
+      </nav>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ur-menu&amp;mt=8" data-place="menu">DropLane حاصل کریں</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>کئی زبانیں۔</strong> اپنی چنیں — ایپ بھی وہی بولتی ہے۔</p>
+    <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
+  </div>
+</div>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">کام کے لیے گاڑی چلانے والے ہر شخص کے لیے کلومیٹر، کمائی اور اخراجات، خودکار</p>
+      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇮🇳</span><b data-region="IN">India</b><span class="eyebrow-trial">14 دن مفت</span><span class="eyebrow-cost">پھر ₹299 ماہانہ</span><a href="#pricing">سب ممالک</a></span>
+      <h1>جانیں کہ دن نے واقعی کتنا دیا۔</h1>
+      <p class="lede">بس گاڑی چلائیں۔ DropLane ہر ٹرپ اور اس کا اصل راستہ ریکارڈ کرتا ہے، کمائی سے اخراجات منہا کرتا ہے، اور گھر پہنچنے سے پہلے آپ کی اصل فی گھنٹہ کمائی نکال دیتا ہے۔</p>
+      <!-- While the app is coming soon the loud button is the launch list, not
+           the price: the eyebrow above already carries the price and links to
+           the table. On launch day it becomes Apple's badge on its own —
+           set "launched" in _build/site.json and rebuild. -->
+      <div class="cta-row">
+        <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ur-hero&amp;mt=8" data-place="hero"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="174" height="58"></a>
+        <a class="btn-ghost" href="#screens">اسکرینیں دیکھیں</a>
+      </div>
+      <a class="android-soon" href="mailto:help@droplane.co.uk?subject=DropLane%20for%20Android" title="Android آ رہا ہے۔ ہمیں ای میل کریں، آنے پر بتا دیں گے۔">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.5l1.7-2.9a.35.35 0 0 0-.6-.35l-1.75 3A9.9 9.9 0 0 0 12 8.2a9.9 9.9 0 0 0-4.95 1.05l-1.75-3a.35.35 0 0 0-.6.35l1.7 2.9A9.4 9.4 0 0 0 2 17.3h20a9.4 9.4 0 0 0-4.4-7.8zM7.6 14.4a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9zm8.8 0a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9z"/></svg>
+        <span>Android</span><b>جلد آ رہا ہے</b>
+      </a>
+      <ul class="hero-facts">
+        <li><b>45</b><span>زبانیں</span></li>
+        <li><b class="signs">£ € $ ₹ ¥</b><span>ہر کرنسی</span></li>
+        <li><b>نجی</b><span>ڈیٹا آپ کے فون میں رہتا ہے</span></li>
+      </ul>
+    </div>
+
+    <div class="stage">
+      <div class="device device-back">
+        <div class="device-screen">
+          <img src="/assets/screens/ur/light/days.webp" width="640" height="1391" alt="دن کی اسکرین: ہر کام کے دن کا منافع، فاصلہ اور ٹرپ۔" loading="eager">
+        </div>
+      </div>
+      <div class="device device-front">
+        <div class="device-screen">
+          <img src="/assets/screens/ur/light/today.webp" width="640" height="1391" alt="آج کی اسکرین: ریکارڈ ہوتا ٹرپ اور آج کی کمائی۔" loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- The one line that says what this is instead of what it does. It was
+     buried in the FAQ, twelve questions down, where the people who most
+     needed it were never going to reach it. -->
+<section class="compare">
+  <div class="wrap">
+    <p><span class="compare-them">کلومیٹر ٹریکر بتاتے ہیں کہ آپ کتنا چلے۔</span> <span class="compare-us">DropLane بتاتا ہے کہ دن فائدے کا تھا یا نہیں۔</span></p>
+  </div>
+</section>
+
+<!-- Real reviews, quoted as written. They are in English on every page:
+     a courier's own words are worth more than a translation of them. -->
+<section class="quotes" aria-labelledby="quotes-h">
+  <div class="wrap">
+    <h2 class="quotes-h" id="quotes-h">App Store پر ڈرائیور کیا کہتے ہیں</h2>
+    <div class="quote-grid">
+      <figure class="quote">
+        <span class="stars" aria-label="5/5">★★★★★</span>
+        <blockquote lang="en">Just found this app in the store. Fantastic app for me as a self employed courier. Tells me exactly how much I&#x27;ve really earnt per job. I like how its linked to maps</blockquote>
+        <figcaption>greatwhite surfer · App Store</figcaption>
+      </figure>
+      <figure class="quote">
+        <span class="stars" aria-label="5/5">★★★★★</span>
+        <blockquote lang="en">You open it up once and it records all my data i need</blockquote>
+        <figcaption>Kami.ya · App Store</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section id="features">
+  <div class="wrap">
+    <h2>DropLane اصل میں کیا کرتا ہے</h2>
+    <p class="section-intro">دس سال سڑک پر گزارنے والے ایک ڈیلیوری ڈرائیور نے بنایا — کام جیسا واقعی ہے، اس کے لیے۔</p>
+    <div class="cards">
+      <div class="card">
+        <span class="icon">💵</span>
+        <h3>دن میں واقعی کتنا بچا</h3>
+        <p>ایندھن اور باقی اخراجات کمائی سے منہا ہوتے ہیں، اور جو واقعی آپ کے پاس بچا وہ سب سے نیچے — دن، ہفتے، مہینے کے حساب سے۔</p>
+      </div>
+      <div class="card">
+        <span class="icon">⛽</span>
+        <h3>ایک گھنٹے کی اصل کمائی</h3>
+        <p>ایندھن، قسط اور بیمہ کام کے دنوں میں بٹ جاتے ہیں، اس لیے فی گھنٹہ عدد سچا ہوتا ہے۔</p>
+      </div>
+      <div class="card">
+        <span class="icon">🛣️</span>
+        <h3>فون چھوئے بغیر کلومیٹر</h3>
+        <p>گاڑی چلنے سے پارک ہونے تک، ٹرپ پس منظر میں خود ریکارڈ ہوتے ہیں۔</p>
+      </div>
+      <div class="card">
+        <span class="icon">🧾</span>
+        <h3>اکاؤنٹنٹ کو دینے لائق ریکارڈ</h3>
+        <p>ہر ٹرپ، اس کے راستے اور تاریخ کے ساتھ ایک PDF۔ 17 ممالک کے کلومیٹر ریٹ پہلے سے موجود۔</p>
+      </div>
+      <div class="card">
+        <span class="icon">🅿️</span>
+        <h3>رکنا اور انتظار</h3>
+        <p>ہر ڈیلیوری یا ہب پر کتنی دیر رکے — کچھ لکھے بغیر دیکھیں۔</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔒</span>
+        <h3>فون سے باہر کچھ نہیں جاتا</h3>
+        <p>نہ اکاؤنٹ بنانا، نہ ٹریکنگ، نہ اشتہار۔ آپ کے راستوں کی تاریخ آپ کی ہے، بیک اپ صرف آپ کے اپنے iCloud میں۔</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔔</span>
+        <h3>تجدید کی تاریخیں</h3>
+        <p>اوڈومیٹر کی ریڈنگ ایک بار درج کریں، DropLane اسے ریکارڈ کیے کلومیٹر سے آگے بڑھاتا رہے گا — سروس اور فٹنس کی یاد دہانی تاریخ ہی نہیں، کلومیٹر سے بھی۔</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔧</span>
+        <h3>آپ کی گاڑی</h3>
+        <p>سروس، ٹائر اور مرمت یہاں درج کریں — بل کی تصویر کے ساتھ — تو گاڑی کی پوری تاریخ آپ کی جیب میں۔</p>
+      </div>
+      <div class="card">
+        <span class="icon">💳</span>
+        <h3>ایندھن کارڈ</h3>
+        <p>کارڈ کا فی لیٹر ریٹ سیٹ کریں۔ بھرواتے وقت لیٹر درج کریں اور DropLane خرچ نکال دے گا۔</p>
+      </div>
+    </div>
+    <div class="cta-mid">
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ur-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>DropLane حاصل کریں</a>
+      <span class="cta-note">14 دن مفت · پھر ₹299 ماہانہ</span>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="screens">
+  <div class="wrap">
+    <h2>ایپ کی اسکرینیں</h2>
+    <p class="section-intro">اصل اسکرینیں، ایک مہینے کے اصل کام سے۔</p>
+  </div>
+  <div class="wrap">
+    <div class="rail">
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/ur/light/today.webp" width="640" height="1391" alt="آج — جب پہیے ابھی چل رہے ہوں۔" loading="lazy">
+        </div></div>
+        <figcaption><b>آج</b>جب پہیے ابھی چل رہے ہوں۔</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/ur/light/today-money.webp" width="640" height="1391" alt="آج کی کمائی — کمائی سے اخراجات منہا کر کے، خالص۔" loading="lazy">
+        </div></div>
+        <figcaption><b>آج کی کمائی</b>کمائی سے اخراجات منہا کر کے، خالص۔</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/ur/light/yesterday-rate.webp" width="640" height="1391" alt="گزشتہ کل — ایک گھنٹے میں واقعی کتنا ملا۔" loading="lazy">
+        </div></div>
+        <figcaption><b>گزشتہ کل</b>ایک گھنٹے میں واقعی کتنا ملا۔</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/ur/light/days.webp" width="640" height="1391" alt="دن — ہر دن، حساب پہلے سے لگا ہوا۔" loading="lazy">
+        </div></div>
+        <figcaption><b>دن</b>ہر دن، حساب پہلے سے لگا ہوا۔</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/ur/light/report.webp" width="640" height="1391" alt="PDF رپورٹ — جیسی آپ کے اکاؤنٹنٹ کو چاہیے۔" loading="lazy">
+        </div></div>
+        <figcaption><b>PDF رپورٹ</b>جیسی آپ کے اکاؤنٹنٹ کو چاہیے۔</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/ur/light/tax.webp" width="640" height="1391" alt="ٹیکس — اس مدت کے کلومیٹر کتنے کے ہیں۔" loading="lazy">
+        </div></div>
+        <figcaption><b>ٹیکس</b>اس مدت کے کلومیٹر کتنے کے ہیں۔</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/ur/light/trip-sort.webp" width="640" height="1391" alt="ٹرپ کی قسم — کام، خالی، پک اپ کی طرف، یا ذاتی۔" loading="lazy">
+        </div></div>
+        <figcaption><b>ٹرپ کی قسم</b>کام، خالی، پک اپ کی طرف، یا ذاتی۔</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/ur/light/live-activity.webp" width="640" height="1391" alt="لاک اسکرین — بغیر ان لاک کیے، ریکارڈ ہوتے کلومیٹر۔" loading="lazy">
+        </div></div>
+        <figcaption><b>لاک اسکرین</b>بغیر ان لاک کیے، ریکارڈ ہوتے کلومیٹر۔</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/ur/light/vehicle.webp" width="640" height="1391" alt="گاڑی — فٹنس، ٹیکس، بیمہ — وقت نکلنے سے پہلے۔" loading="lazy">
+        </div></div>
+        <figcaption><b>گاڑی</b>فٹنس، ٹیکس، بیمہ — وقت نکلنے سے پہلے۔</figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="device"><div class="device-screen">
+          <img src="/assets/screens/ur/light/insights-spend.webp" width="640" height="1391" alt="اخراجات — ایندھن، کھانا، پارکنگ، ٹول۔" loading="lazy">
+        </div></div>
+        <figcaption><b>اخراجات</b>ایندھن، کھانا، پارکنگ، ٹول۔</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="countries">
+  <div class="wrap">
+    <h2>جن ممالک کا ریٹ پہلے سے موجود ہے</h2>
+    <p class="section-intro">ایپ کہیں بھی چلتی ہے۔ ان ممالک میں یہ ٹیکس محکمے کا منظور شدہ کلومیٹر ریٹ اور گاڑی کے کاغذات کے نام بھی جانتی ہے۔</p>
+    <ul class="chips">
+      <li><span class="flag">🇬🇧</span> <span data-region="GB">United Kingdom</span> <span class="rate">55p/mi</span></li>
+      <li><span class="flag">🇺🇸</span> <span data-region="US">United States</span> <span class="rate">76¢/mi</span></li>
+      <li><span class="flag">🇨🇦</span> <span data-region="CA">Canada</span> <span class="rate">73¢/km</span></li>
+      <li><span class="flag">🇦🇺</span> <span data-region="AU">Australia</span> <span class="rate">91¢/km</span></li>
+      <li><span class="flag">🇩🇪</span> <span data-region="DE">Germany</span> <span class="rate">30c/km</span></li>
+      <li><span class="flag">🇳🇱</span> <span data-region="NL">Netherlands</span> <span class="rate">25c/km</span></li>
+      <li><span class="flag">🇧🇪</span> <span data-region="BE">Belgium</span> <span class="rate">47.61c/km</span></li>
+      <li><span class="flag">🇦🇹</span> <span data-region="AT">Austria</span> <span class="rate">50c/km</span></li>
+      <li><span class="flag">🇵🇹</span> <span data-region="PT">Portugal</span> <span class="rate">40c/km</span></li>
+      <li><span class="flag">🇵🇱</span> <span data-region="PL">Poland</span> <span class="rate">1.15 zł/km</span></li>
+      <li><span class="flag">🇨🇿</span> <span data-region="CZ">Czechia</span> <span class="rate">5.90 Kč/km</span></li>
+      <li><span class="flag">🇸🇰</span> <span data-region="SK">Slovakia</span> <span class="rate">31.3c/km</span></li>
+      <li><span class="flag">🇭🇺</span> <span data-region="HU">Hungary</span> <span class="rate">15 Ft/km</span></li>
+      <li><span class="flag">🇸🇪</span> <span data-region="SE">Sweden</span> <span class="rate">25 kr/mil</span></li>
+      <li><span class="flag">🇳🇴</span> <span data-region="NO">Norway</span> <span class="rate">3.50 kr/km</span></li>
+      <li><span class="flag">🇩🇰</span> <span data-region="DK">Denmark</span> <span class="rate">3.94 kr/km</span></li>
+      <li><span class="flag">🇫🇮</span> <span data-region="FI">Finland</span> <span class="rate">55c/km</span></li>
+    </ul>
+    <h3 class="chips-h3">یہاں کاغذات کے نام معلوم ہیں؛ ریٹ آپ خود لکھیں گے</h3>
+    <ul class="chips">
+      <li><span class="flag">🇮🇪</span> <span data-region="IE">Ireland</span></li>
+      <li><span class="flag">🇷🇴</span> <span data-region="RO">Romania</span></li>
+      <li><span class="flag">🇧🇬</span> <span data-region="BG">Bulgaria</span></li>
+      <li><span class="flag">🇬🇷</span> <span data-region="GR">Greece</span></li>
+      <li><span class="flag">🇱🇹</span> <span data-region="LT">Lithuania</span></li>
+      <li><span class="flag">🇱🇻</span> <span data-region="LV">Latvia</span></li>
+      <li><span class="flag">🇹🇷</span> <span data-region="TR">Turkey</span></li>
+      <li><span class="flag">🇺🇦</span> <span data-region="UA">Ukraine</span></li>
+    </ul>
+    <p class="section-intro" style="margin:26px 0 0">کہیں اور ہیں؟ اپنے ٹیکس محکمے کا منظور شدہ ریٹ ایک بار لکھیں، باقی DropLane کر دے گا۔</p>
+  </div>
+</section>
+
+<section class="band" id="languages">
+  <div class="wrap split">
+    <div>
+      <h2>اپنی زبان میں پڑھیں</h2>
+      <p class="section-intro">صرف یہ صفحہ نہیں — پوری ایپ، ہر اسکرین، ہر نوٹیفکیشن، رپورٹیں بھی۔ اور پیسہ آپ کی اپنی کرنسی میں رہتا ہے، چاہے کسی بھی زبان میں پڑھیں۔</p>
+      <ul class="langgrid">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
+        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
+        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
+        <li><a href="/gr/" hreflang="el" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
+        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
+        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
+        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+        <li><a href="/jp/" hreflang="ja" data-suggest="日本語で読む" data-flag="🇯🇵"><span class="flag">🇯🇵</span> 日本語</a></li>
+        <li><a href="/kr/" hreflang="ko" data-suggest="한국어로 읽기" data-flag="🇰🇷"><span class="flag">🇰🇷</span> 한국어</a></li>
+        <li><a href="/sg/" hreflang="zh-Hans" data-suggest="用简体中文阅读" data-flag="🇸🇬"><span class="flag">🇸🇬</span> 简体中文</a></li>
+        <li><a href="/tw/" hreflang="zh-Hant" data-suggest="用繁體中文閱讀" data-flag="🇹🇼"><span class="flag">🇹🇼</span> 繁體中文</a></li>
+        <li><a href="/in/" hreflang="hi" data-suggest="हिन्दी में पढ़ें" data-flag="🇮🇳"><span class="flag">🇮🇳</span> हिन्दी</a></li>
+        <li><a href="/id/" hreflang="id" data-suggest="Baca dalam bahasa Indonesia" data-flag="🇮🇩"><span class="flag">🇮🇩</span> Bahasa Indonesia</a></li>
+        <li><a href="/vn/" hreflang="vi" data-suggest="Đọc bằng tiếng Việt" data-flag="🇻🇳"><span class="flag">🇻🇳</span> Tiếng Việt</a></li>
+        <li><a href="/th/" hreflang="th" data-suggest="อ่านเป็นภาษาไทย" data-flag="🇹🇭"><span class="flag">🇹🇭</span> ไทย</a></li>
+        <li><a href="/hr/" hreflang="hr" data-suggest="Čitaj na hrvatskom" data-flag="🇭🇷"><span class="flag">🇭🇷</span> Hrvatski</a></li>
+        <li><a href="/si/" hreflang="sl" data-suggest="Beri v slovenščini" data-flag="🇸🇮"><span class="flag">🇸🇮</span> Slovenščina</a></li>
+        <li><a href="/ca/" hreflang="ca" data-suggest="Llegeix-ho en català" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Català</a></li>
+        <li><a href="/my/" hreflang="ms" data-suggest="Baca dalam Bahasa Melayu" data-flag="🇲🇾"><span class="flag">🇲🇾</span> Bahasa Melayu</a></li>
+        <li><a href="/pa/" hreflang="pa" data-suggest="ਪੰਜਾਬੀ ਵਿੱਚ ਪੜ੍ਹੋ" data-flag="🇮🇳"><span class="flag">🇮🇳</span> ਪੰਜਾਬੀ</a></li>
+        <li><a href="/ta/" hreflang="ta" data-suggest="தமிழில் படியுங்கள்" data-flag="🇮🇳"><span class="flag">🇮🇳</span> தமிழ்</a></li>
+        <li><a href="/bn/" hreflang="bn" data-suggest="বাংলায় পড়ুন" data-flag="🇮🇳"><span class="flag">🇮🇳</span> বাংলা</a></li>
+        <li><a href="/mx/" hreflang="es-MX" data-suggest="Leer en español (México)" data-flag="🇲🇽"><span class="flag">🇲🇽</span> Español (MX)</a></li>
+        <li><a href="/qc/" hreflang="fr-CA" data-suggest="Lire en français (Canada)" data-flag="🇨🇦"><span class="flag">🇨🇦</span> Français (CA)</a></li>
+        <li><a href="/en-ca/" hreflang="en-CA" data-suggest="Read this in Canadian English" data-flag="🇨🇦"><span class="flag">🇨🇦</span> English (CA)</a></li>
+        <li><a href="/ae/" hreflang="ar" data-suggest="اقرأ بالعربية" data-flag="🇦🇪"><span class="flag">🇦🇪</span> العربية</a></li>
+        <li><a href="/ur/" hreflang="ur" aria-current="true" data-suggest="اردو میں پڑھیں" data-flag="🇮🇳"><span class="flag">🇮🇳</span> اردو</a></li>
+      </ul>
+    </div>
+    <figure class="shot" style="width:auto;margin:0">
+      <div class="device" style="margin-inline:auto"><div class="device-screen">
+        <img src="/assets/screens/ur/light/today-money.webp" width="640" height="1391" alt="آج کی اسکرین: کمائی، اخراجات، خالص۔" loading="lazy">
+      </div></div>
+      <figcaption style="text-align:center"><b>آج</b>آپ کی زبان اور آپ کے پیسے میں، دن کے اعداد۔</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>ایک قیمت، سب کچھ شامل</h2>
+    <p class="section-intro">14 دن مفت۔ ٹرائل ختم ہونے سے پہلے منسوخ کریں تو کچھ نہیں لگتا۔ ہر فیچر پہلے دن سے — نہ کوئی بڑا پلان، نہ ایڈ آن۔</p>
+
+    <div class="price-grid">
+      <div class="price">
+        <h3>ماہانہ</h3>
+        <p class="amount">₹299</p>
+        <p class="per">فی ماہ، کبھی بھی منسوخ کریں</p>
+        <ul>
+          <li>ہر فیچر، کوئی ایڈ آن نہیں</li>
+          <li>پہلے 14 دن مفت</li>
+        </ul>
+        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ur-pricing&amp;mt=8" data-place="pricing">14 دن مفت شروع کریں</a>
+      </div>
+      <div class="price best">
+        <span class="tag">سب سے فائدہ مند</span>
+        <h3>سالانہ</h3>
+        <p class="amount">₹1,999</p>
+        <p class="per">فی سال — بہتر سودا</p>
+        <ul>
+          <li>ہر فیچر، کوئی ایڈ آن نہیں</li>
+          <li>سال میں ₹1,589 کی بچت — 44% سستا</li>
+          <li>یعنی ₹167 فی ماہ</li>
+        </ul>
+        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ur-pricing&amp;mt=8" data-place="pricing">14 دن مفت شروع کریں</a>
+      </div>
+    </div>
+
+    <div class="pricetable">
+      <div class="pricetable-head">
+        <h3 style="font-size:20px;margin:0">آپ کے ملک میں قیمت</h3>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input type="search" id="price-search" placeholder="اپنا ملک تلاش کریں" aria-label="اپنا ملک تلاش کریں">
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table class="prices">
+          <thead>
+            <tr><th scope="col">ملک</th><th scope="col">ماہانہ</th><th scope="col">سالانہ</th></tr>
+          </thead>
+          <tbody id="price-rows" data-you="آپ">
+            <tr data-cc="GB" data-flag="🇬🇧" data-name="United Kingdom"><td><span class="flag">🇬🇧</span><span data-region="GB">United Kingdom</span></td><td>£6.99</td><td>£49.99</td></tr>
+            <tr data-cc="IE" data-flag="🇮🇪" data-name="Ireland"><td><span class="flag">🇮🇪</span><span data-region="IE">Ireland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="US" data-flag="🇺🇸" data-name="United States"><td><span class="flag">🇺🇸</span><span data-region="US">United States</span></td><td>$6.99</td><td>$49.99</td></tr>
+            <tr data-cc="CA" data-flag="🇨🇦" data-name="Canada"><td><span class="flag">🇨🇦</span><span data-region="CA">Canada</span></td><td>C$9.99</td><td>C$69.99</td></tr>
+            <tr data-cc="AU" data-flag="🇦🇺" data-name="Australia"><td><span class="flag">🇦🇺</span><span data-region="AU">Australia</span></td><td>A$11.99</td><td>A$79.99</td></tr>
+            <tr data-cc="NZ" data-flag="🇳🇿" data-name="New Zealand"><td><span class="flag">🇳🇿</span><span data-region="NZ">New Zealand</span></td><td>NZ$12.99</td><td>NZ$89.99</td></tr>
+            <tr data-cc="DE" data-flag="🇩🇪" data-name="Germany"><td><span class="flag">🇩🇪</span><span data-region="DE">Germany</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FR" data-flag="🇫🇷" data-name="France"><td><span class="flag">🇫🇷</span><span data-region="FR">France</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="NL" data-flag="🇳🇱" data-name="Netherlands"><td><span class="flag">🇳🇱</span><span data-region="NL">Netherlands</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="FI" data-flag="🇫🇮" data-name="Finland"><td><span class="flag">🇫🇮</span><span data-region="FI">Finland</span></td><td>€6.99</td><td>€49.99</td></tr>
+            <tr data-cc="IT" data-flag="🇮🇹" data-name="Italy"><td><span class="flag">🇮🇹</span><span data-region="IT">Italy</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="ES" data-flag="🇪🇸" data-name="Spain"><td><span class="flag">🇪🇸</span><span data-region="ES">Spain</span></td><td>€5.99</td><td>€39.99</td></tr>
+            <tr data-cc="PT" data-flag="🇵🇹" data-name="Portugal"><td><span class="flag">🇵🇹</span><span data-region="PT">Portugal</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="GR" data-flag="🇬🇷" data-name="Greece"><td><span class="flag">🇬🇷</span><span data-region="GR">Greece</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SK" data-flag="🇸🇰" data-name="Slovakia"><td><span class="flag">🇸🇰</span><span data-region="SK">Slovakia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LT" data-flag="🇱🇹" data-name="Lithuania"><td><span class="flag">🇱🇹</span><span data-region="LT">Lithuania</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="LV" data-flag="🇱🇻" data-name="Latvia"><td><span class="flag">🇱🇻</span><span data-region="LV">Latvia</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="SE" data-flag="🇸🇪" data-name="Sweden"><td><span class="flag">🇸🇪</span><span data-region="SE">Sweden</span></td><td>79 SEK</td><td>599 SEK</td></tr>
+            <tr data-cc="NO" data-flag="🇳🇴" data-name="Norway"><td><span class="flag">🇳🇴</span><span data-region="NO">Norway</span></td><td>79 NOK</td><td>599 NOK</td></tr>
+            <tr data-cc="DK" data-flag="🇩🇰" data-name="Denmark"><td><span class="flag">🇩🇰</span><span data-region="DK">Denmark</span></td><td>49 DKK</td><td>349 DKK</td></tr>
+            <tr data-cc="PL" data-flag="🇵🇱" data-name="Poland"><td><span class="flag">🇵🇱</span><span data-region="PL">Poland</span></td><td>24,99 zł</td><td>169,99 zł</td></tr>
+            <tr data-cc="CZ" data-flag="🇨🇿" data-name="Czechia"><td><span class="flag">🇨🇿</span><span data-region="CZ">Czechia</span></td><td>149 Kč</td><td>999 Kč</td></tr>
+            <tr data-cc="HU" data-flag="🇭🇺" data-name="Hungary"><td><span class="flag">🇭🇺</span><span data-region="HU">Hungary</span></td><td>2 490 Ft</td><td>16 990 Ft</td></tr>
+            <tr data-cc="RO" data-flag="🇷🇴" data-name="Romania"><td><span class="flag">🇷🇴</span><span data-region="RO">Romania</span></td><td>24,99 lei</td><td>169,99 lei</td></tr>
+            <tr data-cc="BG" data-flag="🇧🇬" data-name="Bulgaria"><td><span class="flag">🇧🇬</span><span data-region="BG">Bulgaria</span></td><td>€4.99</td><td>€34.99</td></tr>
+            <tr data-cc="TR" data-flag="🇹🇷" data-name="Turkey"><td><span class="flag">🇹🇷</span><span data-region="TR">Turkey</span></td><td>₺199,99</td><td>₺1.399,99</td></tr>
+            <tr data-cc="UA" data-flag="🇺🇦" data-name="Ukraine"><td><span class="flag">🇺🇦</span><span data-region="UA">Ukraine</span></td><td>$4.99</td><td>$34.99</td></tr>
+            <tr data-cc="BR" data-flag="🇧🇷" data-name="Brazil"><td><span class="flag">🇧🇷</span><span data-region="BR">Brazil</span></td><td>R$ 19,90</td><td>R$ 129,90</td></tr>
+            <tr data-cc="MX" data-flag="🇲🇽" data-name="Mexico"><td><span class="flag">🇲🇽</span><span data-region="MX">Mexico</span></td><td>MX$99</td><td>MX$649</td></tr>
+            <tr data-cc="ZA" data-flag="🇿🇦" data-name="South Africa"><td><span class="flag">🇿🇦</span><span data-region="ZA">South Africa</span></td><td>R99.99</td><td>R699.99</td></tr>
+            <tr data-cc="IN" data-flag="🇮🇳" data-name="India"><td><span class="flag">🇮🇳</span><span data-region="IN">India</span></td><td>₹299</td><td>₹1,999</td></tr>
+            <tr data-cc="CN" data-flag="🇨🇳" data-name="China"><td><span class="flag">🇨🇳</span><span data-region="CN">China</span></td><td>¥29</td><td>¥199</td></tr>
+            <tr data-cc="JP" data-flag="🇯🇵" data-name="Japan"><td><span class="flag">🇯🇵</span><span data-region="JP">Japan</span></td><td>¥980</td><td>¥6,800</td></tr>
+            <tr data-cc="KR" data-flag="🇰🇷" data-name="South Korea"><td><span class="flag">🇰🇷</span><span data-region="KR">South Korea</span></td><td>₩8,900</td><td>₩59,000</td></tr>
+            <tr data-cc="SG" data-flag="🇸🇬" data-name="Singapore"><td><span class="flag">🇸🇬</span><span data-region="SG">Singapore</span></td><td>S$9.98</td><td>S$69.98</td></tr>
+            <tr data-cc="TW" data-flag="🇹🇼" data-name="Taiwan"><td><span class="flag">🇹🇼</span><span data-region="TW">Taiwan</span></td><td>NT$220</td><td>NT$1,490</td></tr>
+            <tr data-cc="VN" data-flag="🇻🇳" data-name="Vietnam"><td><span class="flag">🇻🇳</span><span data-region="VN">Vietnam</span></td><td>99.000đ</td><td>599.000đ</td></tr>
+            <tr data-cc="TH" data-flag="🇹🇭" data-name="Thailand"><td><span class="flag">🇹🇭</span><span data-region="TH">Thailand</span></td><td>฿149</td><td>฿999</td></tr>
+            <tr data-cc="HR" data-flag="🇭🇷" data-name="Croatia"><td><span class="flag">🇭🇷</span><span data-region="HR">Croatia</span></td><td>7,99 €</td><td>59,99 €</td></tr>
+            <tr data-cc="SI" data-flag="🇸🇮" data-name="Slovenia"><td><span class="flag">🇸🇮</span><span data-region="SI">Slovenia</span></td><td>7,99 €</td><td>59,99 €</td></tr>
+            <tr data-cc="MY" data-flag="🇲🇾" data-name="Malaysia"><td><span class="flag">🇲🇾</span><span data-region="MY">Malaysia</span></td><td>RM19.90</td><td>RM129.90</td></tr>
+            <tr data-cc="ID" data-flag="🇮🇩" data-name="Indonesia"><td><span class="flag">🇮🇩</span><span data-region="ID">Indonesia</span></td><td>Rp49.000</td><td>Rp329.000</td></tr>
+            <tr data-cc="AE" data-flag="🇦🇪" data-name="United Arab Emirates"><td><span class="flag">🇦🇪</span><span data-region="AE">United Arab Emirates</span></td><td>AED 24.99</td><td>AED 169.99</td></tr>
+            <tr data-cc="SA" data-flag="🇸🇦" data-name="Saudi Arabia"><td><span class="flag">🇸🇦</span><span data-region="SA">Saudi Arabia</span></td><td>SAR 24.99</td><td>SAR 169.99</td></tr>
+            <tr data-cc="KZ" data-flag="🇰🇿" data-name="Kazakhstan"><td><span class="flag">🇰🇿</span><span data-region="KZ">Kazakhstan</span></td><td>2 490 ₸</td><td>14 990 ₸</td></tr>
+            <tr data-cc="KG" data-flag="🇰🇬" data-name="Kyrgyzstan"><td><span class="flag">🇰🇬</span><span data-region="KG">Kyrgyzstan</span></td><td>$2.99</td><td>$19.99</td></tr>
+            <tr data-cc="UZ" data-flag="🇺🇿" data-name="Uzbekistan"><td><span class="flag">🇺🇿</span><span data-region="UZ">Uzbekistan</span></td><td>$2.99</td><td>$19.99</td></tr>
+            <tr data-cc="TJ" data-flag="🇹🇯" data-name="Tajikistan"><td><span class="flag">🇹🇯</span><span data-region="TJ">Tajikistan</span></td><td>$2.99</td><td>$19.99</td></tr>
+            <tr data-cc="TM" data-flag="🇹🇲" data-name="Turkmenistan"><td><span class="flag">🇹🇲</span><span data-region="TM">Turkmenistan</span></td><td>$3.99</td><td>$27.99</td></tr>
+            <tr data-cc="AM" data-flag="🇦🇲" data-name="Armenia"><td><span class="flag">🇦🇲</span><span data-region="AM">Armenia</span></td><td>$3.99</td><td>$27.99</td></tr>
+            <tr data-cc="AZ" data-flag="🇦🇿" data-name="Azerbaijan"><td><span class="flag">🇦🇿</span><span data-region="AZ">Azerbaijan</span></td><td>$3.99</td><td>$27.99</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="table-note">ہر ملک کی قیمت الگ سے طے ہے، کسی اور کرنسی سے بدل کر نہیں۔ App Store آپ کے راضی ہونے سے پہلے ٹیکس سمیت درست رقم آپ کی کرنسی میں دکھاتا ہے۔ فہرست میں نہیں؟ App Store پر پھر بھی آپ کے لیے قیمت ہے۔</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="band" id="faq">
+  <div class="wrap">
+    <h2>ڈرائیور واقعی جو پوچھتے ہیں</h2>
+    <p class="section-intro">سیدھے جواب، اس سے جو یہ کام خود کرتا ہے۔ <span class="sign">— Iskender Davies</span></p>
+    <div class="faq">
+      <details>
+        <summary>کیا یہ بس ایک اور کلومیٹر ٹریکر ہے؟</summary>
+        <p>کلومیٹر اسی طرح ریکارڈ ہوتے ہیں، بغیر اسٹارٹ بٹن کے۔ فرق اس کے بعد کا ہے: آپ کی کمائی جاتی ہے، ایندھن، پارکنگ اور گاڑی کے اخراجات منہا ہوتے ہیں، اور ایپ بتاتی ہے کہ ایک گھنٹے میں واقعی کتنا ملا۔ صرف کلومیٹر کا عدد کبھی کسی کو یہ نہیں بتا سکا کہ چکر فائدے کا تھا یا نہیں۔</p>
+      </details>
+      <details>
+        <summary>کیا بیٹری کھاتا ہے؟</summary>
+        <p>DropLane سارا دن GPS چالو نہیں رکھتا۔ یہ خاموشی سے تب تک رکا رہتا ہے جب تک آپ پارک کی جگہ سے نکل نہ جائیں، چلتے ہوئے ریکارڈ کرتا ہے، اور رکتے ہی پھر سو جاتا ہے۔</p>
+      </details>
+      <details>
+        <summary>کیا اسٹارٹ دبانا پڑتا ہے؟</summary>
+        <p>نہیں — اور دبانے کے لیے کوئی بٹن ہے ہی نہیں۔ یہی تو بات ہے۔ جو یاد رکھنا پڑے، وہ اسی دن بھول جاتا ہے جب سب سے ضروری ہو۔</p>
+      </details>
+      <details>
+        <summary>ٹرپ کی قسم چننا بھول جاؤں تو؟</summary>
+        <p>کچھ نہیں کھوتا۔ بغیر قسم کے ٹرپ دن کی اسکرین پر انتظار کرتے ہیں، اور ایپ آپ کی جگہ اندازہ لگانے کے بجائے آپ کو یاد دلاتی ہے۔</p>
+      </details>
+      <details>
+        <summary>کیا میرے راستوں کی تاریخ کہیں پہنچے گی؟</summary>
+        <p>نہیں۔ نہ اکاؤنٹ ہے، نہ سرور۔ سب کچھ آپ کے iPhone میں رہتا ہے، اور بیک اپ صرف آپ کے اپنے iCloud میں، وہ بھی اگر آپ چاہیں۔</p>
+      </details>
+      <details>
+        <summary>جہاں نیٹ ورک نہ ہو، وہاں چلتا ہے؟</summary>
+        <p>ہاں۔ ریکارڈنگ iPhone کے اپنے GPS سے ہوتی ہے اور انٹرنیٹ بالکل نہیں چاہیے۔ بغیر نیٹ ورک کے ٹرپ پہلے سڑک کے نام کی جگہ &quot;شروع&quot; اور &quot;اختتام&quot; دکھاتے ہیں، اور اگلی بار Wi-Fi ملتے ہی DropLane انہیں بھر دیتا ہے۔</p>
+      </details>
+      <details>
+        <summary>نیا فون لوں تو کیا ہوگا؟</summary>
+        <p>اسی iCloud میں سائن ان کریں اور آپ کے ٹرپ، کمائی اور اخراجات خود واپس آ جاتے ہیں۔ نہ کوئی اکاؤنٹ بنانا، نہ کوئی پاس ورڈ کھونا۔</p>
+      </details>
+      <details>
+        <summary>پیسے دینا بند کر دوں تو ریکارڈ چلے جائیں گے؟</summary>
+        <p>کچھ نہیں مٹتا۔ آپ کے ٹرپ iPhone اور آپ کے اپنے iCloud میں ویسے ہی رہتے ہیں۔ لیکن DropLane کھولنے کے لیے فعال سبسکرپشن چاہیے، اس لیے اعداد کہیں اور لے جانے ہوں تو پہلے سیٹنگز سے CSV نکال لیں۔ ایک ٹیپ میں۔</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="closer">
+      <h2>اب اندازہ نہیں، حساب۔</h2>
+      <p>14 دن مفت، کوئی اکاؤنٹ نہیں، اور صبح چھ بجے یاد رکھنے کو کچھ نہیں۔</p>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ur-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>DropLane حاصل کریں</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">DropLane — کام کے لیے گاڑی چلانے والے ہر شخص کے لیے کلومیٹر اور کمائی، خودکار۔ انگلینڈ کے ٹورکی میں، ایک ڈیلیوری ڈرائیور نے بنایا۔</p>
+    <div class="foot-links">
+      <a href="/privacy/">پرائیویسی</a>
+      <a href="/terms/">شرائط</a>
+      <a href="/support/">مدد</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="بند کریں">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<div class="cta-bar" id="cta-bar" role="region" aria-label="DropLane حاصل کریں" hidden>
+  <div class="cta-bar-in">
+    <img class="cta-bar-mark" src="/assets/icon-180.png" alt="" width="46" height="46" loading="lazy" decoding="async">
+    <p class="cta-bar-say">
+      <b>14 دن مفت</b>
+      <span>پھر ₹299 ماہانہ</span>
+    </p>
+    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ur-bar&amp;mt=8" data-place="bar">DropLane حاصل کریں</a>
+    <button class="cta-bar-shut" type="button" aria-label="بند کریں">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

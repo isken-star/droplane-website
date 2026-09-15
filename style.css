@@ -125,7 +125,7 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
 }
 .brand img { width: 32px; height: 32px; border-radius: 9px; }
 
-.menu { display: flex; align-items: center; gap: 2px; margin-left: 10px; min-width: 0; overflow: hidden; }
+.menu { display: flex; align-items: center; gap: 2px; margin-inline-start: 10px; min-width: 0; overflow: hidden; }
 .menu a {
   color: var(--text-2); text-decoration: none; white-space: nowrap;
   font-weight: 600; font-size: 14.5px;
@@ -142,7 +142,7 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
    940px. fitMenu() drops nav links from the end to make room for it. */
 .menu a:hover { color: var(--text); background: var(--card-2); }
 
-.head-tools { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+.head-tools { display: flex; align-items: center; gap: 8px; margin-inline-start: auto; }
 
 /* the language button — the first thing a driver who doesn't read English
    needs, so it sits left of the theme switch and shows its own name */
@@ -165,7 +165,7 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
 }
 
 .lang-panel {
-  position: absolute; left: 0; right: 0; top: 100%;
+  position: absolute; inset-inline-start: 0; inset-inline-end: 0; top: 100%;
   background: var(--bg); border-bottom: 1px solid var(--line);
   box-shadow: var(--shadow); padding: 0;
   max-height: 0; overflow: hidden; visibility: hidden;
@@ -259,7 +259,7 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
    as news rather than a button that goes nowhere. */
 .head-cta-soon::before {
   content: ""; width: 7px; height: 7px; border-radius: 50%;
-  background: #fff; margin-right: 8px; opacity: .9;
+  background: #fff; margin-inline-end: 8px; opacity: .9;
 }
 
 /* Below 940px the row belongs to the burger entirely. */
@@ -278,7 +278,7 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
 @media (max-width: 1120px) {
   .burger { display: inline-flex; }
   .sheet {
-    display: block; position: absolute; left: 0; right: 0; top: 100%;
+    display: block; position: absolute; inset-inline-start: 0; inset-inline-end: 0; top: 100%;
     background: var(--bg); border-bottom: 1px solid var(--line);
     box-shadow: var(--shadow); padding: 12px 0 18px;
     max-height: 0; overflow: hidden; visibility: hidden;
@@ -342,6 +342,9 @@ h2 {
   letter-spacing: -.03em; margin: 0 0 12px; text-wrap: balance;
 }
 h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px; }
+/* A single long word in a heading — Tamil verbs, German nouns — breaks rather
+   than pushing the page wider than the phone. */
+h1, h2, h3 { overflow-wrap: break-word; }
 .lede { font-size: 19.5px; color: var(--text-2); margin: 0 0 28px; max-width: 44ch; }
 .section-intro { font-size: 18px; color: var(--text-2); max-width: 62ch; margin: 0 0 36px; }
 
@@ -375,7 +378,7 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 .eyebrow b { color: var(--text); }
 /* Each part stays whole: "£6.99 a month" reads badly broken across lines. */
 .eyebrow > * { white-space: nowrap; }
-.eyebrow > * + *::before { content: "·"; color: var(--text-3); margin-right: 10px; }
+.eyebrow > * + *::before { content: "·"; color: var(--text-3); margin-inline-end: 10px; }
 /* The trial is the offer; the price is the detail behind it. Free carries the
    brand colour and a tint behind it so the eye lands there first, and the
    monthly figure reads as the sentence that follows. */
@@ -388,7 +391,7 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
    is its own boundary anyway — "United Kingdom  14 days free  then £6.99"
    reads without help. */
 .eyebrow > .eyebrow-trial::before,
-.eyebrow > .eyebrow-trial + *::before { content: none; margin-right: 0; }
+.eyebrow > .eyebrow-trial + *::before { content: none; margin-inline-end: 0; }
 /* On a phone the badge earns its place with the country and the trial; the
    price behind it is one clause too many at that width. */
 @media (max-width: 520px) {
@@ -453,13 +456,14 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 /* Three typed tiles, each value centred over its label, all values in one
    fixed-height box so "45", the currency signs and "Private" share a baseline. */
 .hero-facts li { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.hero-grid > div { min-width: 0; }
 .hero-facts b {
   display: flex; align-items: flex-end; justify-content: center; height: 30px; line-height: 1;
   font-size: 25px; font-weight: 800; letter-spacing: -.02em; white-space: nowrap;
 }
 .hero-facts b.signs { letter-spacing: .04em; }
 @media (max-width: 620px) {
-  .hero-facts { max-width: none; }
+  .hero-facts { max-width: 100%; }
   .hero-facts b { height: 26px; font-size: 21px; }
 }
 /* The tiles are ~100px and "kilometervergoedingen" is wider than that on its
@@ -471,14 +475,14 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 .stage { position: relative; display: flex; justify-content: center; align-items: center; }
 
 /* A second phone behind the first: the day's list next to the day's drive. */
-.device-front { position: relative; z-index: 2; margin-right: clamp(56px, 11vw, 132px); }
+.device-front { position: relative; z-index: 2; margin-inline-end: clamp(56px, 11vw, 132px); }
 .device-back {
-  position: absolute; right: 2%; top: 9%; z-index: 1;
+  position: absolute; inset-inline-end: 2%; top: 9%; z-index: 1;
   width: clamp(150px, 16vw, 188px); transform: rotate(4deg);
   filter: saturate(.95);
 }
-@media (max-width: 940px) { .device-front { margin-right: clamp(0px, 14vw, 110px); } }
-@media (max-width: 620px) { .device-back { display: none; } .device-front { margin-right: 0; } }
+@media (max-width: 940px) { .device-front { margin-inline-end: clamp(0px, 14vw, 110px); } }
+@media (max-width: 620px) { .device-back { display: none; } .device-front { margin-inline-end: 0; } }
 
 .device {
   width: clamp(232px, 27vw, 288px);
@@ -499,9 +503,9 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
   box-shadow: var(--shadow-lg);
   border: 1px solid var(--line);
 }
-.float-a { left: -2%; top: 13%; }
-.float-b { right: -2%; bottom: 9%; }
-@media (max-width: 1080px) { .float-a { left: 0; } .float-b { right: 0; } }
+.float-a { inset-inline-start: -2%; top: 13%; }
+.float-b { inset-inline-end: -2%; bottom: 9%; }
+@media (max-width: 1080px) { .float-a { inset-inline-start: 0; } .float-b { inset-inline-end: 0; } }
 @media (max-width: 940px)  { .hero-grid { grid-template-columns: 1fr; } .stage { margin-top: 8px; } }
 /* the floating cards would only crowd the phone on a small screen */
 @media (max-width: 620px)  { .float { display: none !important; } }
@@ -698,11 +702,11 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 
 .keeps-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
 .keeps-list li {
-  position: relative; padding-left: 30px;
+  position: relative; padding-inline-start: 30px;
   color: var(--text-2); font-size: 16.5px; line-height: 1.55;
 }
 .keeps-list li::before {
-  content: ""; position: absolute; left: 0; top: .42em;
+  content: ""; position: absolute; inset-inline-start: 0; top: .42em;
   width: 16px; height: 16px; border-radius: 5px;
   background: var(--tint);
   box-shadow: inset 0 0 0 1.5px var(--brand-2);
@@ -765,7 +769,7 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 :root[data-theme="dark"] .paper-zoom img { border-color: #2C3542; }
 
 .paper-zoom-hint {
-  position: absolute; right: 6px; bottom: 6px;
+  position: absolute; inset-inline-end: 6px; bottom: 6px;
   background: rgba(8,12,18,.72); color: #fff;
   font-size: 10.5px; font-weight: 700; line-height: 1;
   padding: 5px 8px; border-radius: 999px;
@@ -793,7 +797,7 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
   font-size: 14.5px; font-weight: 600;
 }
 .lightbox-close {
-  position: absolute; top: 14px; right: 16px;
+  position: absolute; top: 14px; inset-inline-end: 16px;
   width: 42px; height: 42px; border-radius: 50%;
   border: 1px solid rgba(255,255,255,.28); background: rgba(255,255,255,.12);
   color: #fff; font-size: 24px; line-height: 1; cursor: pointer;
@@ -870,7 +874,7 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 }
 .android-soon svg { width: 18px; height: 18px; color: #3DDC84; }
 .android-soon b { font-weight: 700; color: var(--text-3); }
-.android-soon b::before { content: "·"; margin-right: 8px; color: var(--line-2); }
+.android-soon b::before { content: "·"; margin-inline-end: 8px; color: var(--line-2); }
 .android-soon:hover { border-color: var(--line-2); color: var(--text); }
 
 .quotes { padding: 0 0 clamp(28px, 4vw, 48px); }
@@ -906,9 +910,9 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 .page.guide p, .page.guide li { line-height: 1.6; }
 .page.guide .lede { font-size: 20px; color: var(--text-2); margin: 0 0 8px; }
 .page.guide table { width: 100%; border-collapse: collapse; margin: 14px 0 6px; font-size: 16.5px; }
-.page.guide th, .page.guide td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); color: var(--text-2); }
+.page.guide th, .page.guide td { text-align: start; padding: 10px 12px; border-bottom: 1px solid var(--line); color: var(--text-2); }
 .page.guide th { color: var(--text); font-weight: 700; }
-.page.guide td:last-child, .page.guide th:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+.page.guide td:last-child, .page.guide th:last-child { text-align: end; font-variant-numeric: tabular-nums; }
 .page.guide .sum-box {
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 18px 22px; margin: 18px 0;
@@ -928,7 +932,7 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 }
 .price.best { border-color: transparent; box-shadow: 0 0 0 2px var(--brand), var(--shadow); }
 .price .tag {
-  position: absolute; top: -12px; left: 22px;
+  position: absolute; top: -12px; inset-inline-start: 22px;
   background: var(--grad); color: #fff; font-size: 11.5px; font-weight: 800;
   letter-spacing: .09em; text-transform: uppercase; padding: 5px 11px; border-radius: 8px;
 }
@@ -941,12 +945,12 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 .price ul { margin: 0; padding: 0; list-style: none; }
 .price li { font-size: 15.5px; color: var(--text-2); padding: 5px 0 5px 26px; position: relative; }
 .price li::before {
-  content: "✓"; position: absolute; left: 0; top: 4px;
+  content: "✓"; position: absolute; inset-inline-start: 0; top: 4px;
   color: var(--money); font-weight: 800;
 }
 /* The card's button: full width, so both cards end on the same line and
    the eye lands on a thing to press rather than a list that just stops. */
-.price .price-cta { width: 100%; margin-top: 20px; }
+.price .price-cta { width: 100%; margin-top: 20px; white-space: normal; text-align: center; }
 
 /* The mid-page ask: one button and the trial sentence, after the day's sums
    and after the feature grid, so a reader who is already persuaded never has
@@ -978,11 +982,11 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
 }
 table.prices { width: 100%; border-collapse: collapse; min-width: 460px; }
 table.prices th, table.prices td {
-  text-align: right; padding: 12px 16px; font-size: 15.5px;
+  text-align: end; padding: 12px 16px; font-size: 15.5px;
   border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
-table.prices th:first-child, table.prices td:first-child { text-align: left; white-space: normal; }
+table.prices th:first-child, table.prices td:first-child { text-align: start; white-space: normal; }
 table.prices thead th {
   position: sticky; top: 0; z-index: 1; background: var(--card-2);
   font-size: 11.5px; letter-spacing: .09em; text-transform: uppercase;
@@ -990,10 +994,10 @@ table.prices thead th {
 }
 table.prices tbody tr:last-child td { border-bottom: 0; }
 table.prices td:first-child { font-weight: 600; }
-table.prices .flag { margin-right: 9px; font-size: 17px; }
+table.prices .flag { margin-inline-end: 9px; font-size: 17px; }
 table.prices tr.you td { background: var(--tint); }
 table.prices .you-tag {
-  display: inline-block; margin-left: 8px; vertical-align: 1px;
+  display: inline-block; margin-inline-start: 8px; vertical-align: 1px;
   background: var(--brand); color: #fff; font-size: 10.5px; font-weight: 800;
   letter-spacing: .07em; text-transform: uppercase; padding: 2px 7px; border-radius: 999px;
 }
@@ -1003,8 +1007,8 @@ table.prices .you-tag {
 @media (max-width: 540px) {
   table.prices { min-width: 0; }
   table.prices th, table.prices td { padding: 11px 9px; font-size: 14.5px; }
-  table.prices .flag { margin-right: 6px; }
-  table.prices .you-tag { font-size: 9.5px; padding: 2px 6px; margin-left: 6px; }
+  table.prices .flag { margin-inline-end: 6px; }
+  table.prices .you-tag { font-size: 9.5px; padding: 2px 6px; margin-inline-start: 6px; }
   /* A long label — Finnish's "Lähetä sähköposti kun se on ulkona" — was wider
      than the phone and pushed the page sideways. Let it wrap inside the
      button rather than carry the button off the screen. */
@@ -1054,7 +1058,7 @@ table.prices .you-tag {
 .updated { color: var(--text-3); font-size: 15px; margin-top: 0; }
 .callout {
   background: var(--card); border: 1px solid var(--line);
-  border-left: 5px solid var(--brand);
+  border-inline-start: 5px solid var(--brand);
   border-radius: 0 var(--radius) var(--radius) 0; padding: 18px 22px; margin: 26px 0;
 }
 .callout p { margin: 0; }
@@ -1170,3 +1174,21 @@ footer a:hover { color: var(--text); text-decoration: underline; }
 }
 
 @media print { .cta-bar { display: none; } }
+
+
+/* ---------------- right to left ---------------- */
+
+/* Arabic and Urdu pages carry dir="rtl" on <html>; the logical properties
+   above mirror the layout. What is left is type: Inter has neither script,
+   tracking of any kind breaks the joins between letters, and Nastaliq —
+   the face Urdu is read in — hangs deep below the baseline and needs air. */
+html[dir="rtl"] * { letter-spacing: 0 !important; }
+html[dir="rtl"] .kicker, html[dir="rtl"] .price .tag, html[dir="rtl"] .twoday-when { text-transform: none; }
+html[lang^="ar"] { font-family: -apple-system, BlinkMacSystemFont, "SF Arabic", "Segoe UI", "Noto Sans Arabic", "Geeza Pro", sans-serif; }
+html[lang^="ur"] { font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Urdu Typesetting", "Geeza Pro", sans-serif; }
+html[lang^="ur"] body { line-height: 1.95; }
+html[lang^="ur"] h1 { line-height: 1.6; font-size: clamp(30px, 5.2vw, 52px); }
+html[lang^="ur"] h2 { line-height: 1.6; }
+html[lang^="ur"] h3, html[lang^="ur"] .btn, html[lang^="ur"] .btn-ghost, html[lang^="ur"] .head-cta,
+html[lang^="ur"] .eyebrow, html[lang^="ur"] .kicker, html[lang^="ur"] .hero-facts span { line-height: 1.7; }
+html[lang^="ur"] .hero-facts b { height: 40px; }

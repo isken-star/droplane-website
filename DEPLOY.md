@@ -22,6 +22,8 @@ screens with `python3 ../Scripts/import_store_shots.py <MARKET> <lang>`, and
 give it a strings file with the compact page's ~80 keys (copy `ja.json`).
 The compact template is derived from the full one at build time, so a change
 to the full page reaches both.
+Right-to-left languages also carry `"rtl": true`; the stylesheet uses logical
+properties, so the page mirrors on its own.
 Share images (the picture a pasted link shows) come from
 `python3 ../Scripts/build_og.py`, one per language into `assets/og/`; run it
 after a headline, price or Days screenshot changes. It renders each card with

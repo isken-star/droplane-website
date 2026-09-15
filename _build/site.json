@@ -62,7 +62,9 @@
     { "code": "bn", "dir": "bn", "name": "বাংলা", "flag": "🇮🇳", "locale": "bn-IN", "og_locale": "bn_IN", "market": "IN", "currency": "INR", "market_name": "India", "price_month": "₹299", "price_year": "₹1,999", "compact": true },
     { "code": "es-MX", "dir": "mx", "name": "Español (MX)", "flag": "🇲🇽", "locale": "es-MX", "og_locale": "es_MX", "market": "MX", "currency": "MXN", "market_name": "Mexico", "price_month": "MX$99", "price_year": "MX$649", "compact": true },
     { "code": "fr-CA", "dir": "qc", "name": "Français (CA)", "flag": "🇨🇦", "locale": "fr-CA", "og_locale": "fr_CA", "market": "CA", "currency": "CAD", "market_name": "Canada", "price_month": "9,99 $", "price_year": "69,99 $", "compact": true },
-    { "code": "en-CA", "dir": "en-ca", "name": "English (CA)", "flag": "🇨🇦", "locale": "en-CA", "og_locale": "en_CA", "market": "CA", "currency": "CAD", "market_name": "Canada", "price_month": "C$9.99", "price_year": "C$69.99", "compact": true }
+    { "code": "en-CA", "dir": "en-ca", "name": "English (CA)", "flag": "🇨🇦", "locale": "en-CA", "og_locale": "en_CA", "market": "CA", "currency": "CAD", "market_name": "Canada", "price_month": "C$9.99", "price_year": "C$69.99", "compact": true },
+    { "code": "ar", "dir": "ae", "name": "العربية", "flag": "🇦🇪", "locale": "ar-AE", "og_locale": "ar_AE", "market": "AE", "currency": "AED", "market_name": "United Arab Emirates", "price_month": "AED 24.99", "price_year": "AED 169.99", "compact": true, "rtl": true },
+    { "code": "ur", "dir": "ur", "name": "اردو", "flag": "🇮🇳", "locale": "ur-IN", "og_locale": "ur_IN", "market": "IN", "currency": "INR", "market_name": "India", "price_month": "₹299", "price_year": "₹1,999", "compact": true, "rtl": true }
   ],
 
   "screens": ["today", "day", "trip", "days", "stats", "insights", "report", "expense", "vehicle", "settings"],

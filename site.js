@@ -175,7 +175,7 @@
     if (key && key !== pageLanguage.toLowerCase() && !sameLanguageFallback) {
       var match = translated[key];
       suggestion.innerHTML = '<span class="flag">' + match.flag + '</span>' +
-        '<span></span> →';
+        '<span></span> ' + (document.documentElement.dir === 'rtl' ? '←' : '→');
       suggestion.querySelectorAll('span')[1].textContent = match.prompt;
       suggestion.setAttribute('lang', key);
       suggestion.href = match.href;
