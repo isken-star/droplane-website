@@ -52,7 +52,11 @@
     { "code": "hi", "dir": "in", "name": "हिन्दी", "flag": "🇮🇳", "locale": "hi-IN", "og_locale": "hi_IN", "market": "IN", "currency": "INR", "market_name": "India", "price_month": "₹299", "price_year": "₹1,999", "compact": true },
     { "code": "id", "dir": "id", "name": "Bahasa Indonesia", "flag": "🇮🇩", "locale": "id-ID", "og_locale": "id_ID", "market": "ID", "currency": "IDR", "market_name": "Indonesia", "price_month": "Rp49.000", "price_year": "Rp329.000", "compact": true },
     { "code": "vi", "dir": "vn", "name": "Tiếng Việt", "flag": "🇻🇳", "locale": "vi-VN", "og_locale": "vi_VN", "market": "VN", "currency": "VND", "market_name": "Vietnam", "price_month": "99.000đ", "price_year": "599.000đ", "compact": true },
-    { "code": "th", "dir": "th", "name": "ไทย", "flag": "🇹🇭", "locale": "th-TH", "og_locale": "th_TH", "market": "TH", "currency": "THB", "market_name": "Thailand", "price_month": "฿149", "price_year": "฿999", "compact": true }
+    { "code": "th", "dir": "th", "name": "ไทย", "flag": "🇹🇭", "locale": "th-TH", "og_locale": "th_TH", "market": "TH", "currency": "THB", "market_name": "Thailand", "price_month": "฿149", "price_year": "฿999", "compact": true },
+    { "code": "hr", "dir": "hr", "name": "Hrvatski", "flag": "🇭🇷", "locale": "hr-HR", "og_locale": "hr_HR", "market": "HR", "currency": "EUR", "market_name": "Croatia", "price_month": "7,99 €", "price_year": "59,99 €", "compact": true },
+    { "code": "sl", "dir": "si", "name": "Slovenščina", "flag": "🇸🇮", "locale": "sl-SI", "og_locale": "sl_SI", "market": "SI", "currency": "EUR", "market_name": "Slovenia", "price_month": "7,99 €", "price_year": "59,99 €", "compact": true },
+    { "code": "ca", "dir": "ca", "name": "Català", "flag": "🇪🇸", "locale": "ca-ES", "og_locale": "ca_ES", "market": "ES", "currency": "EUR", "market_name": "Spain", "price_month": "5,99 €", "price_year": "39,99 €", "compact": true },
+    { "code": "ms", "dir": "my", "name": "Bahasa Melayu", "flag": "🇲🇾", "locale": "ms-MY", "og_locale": "ms_MY", "market": "MY", "currency": "MYR", "market_name": "Malaysia", "price_month": "RM19.90", "price_year": "RM129.90", "compact": true }
   ],
 
   "screens": ["today", "day", "trip", "days", "stats", "insights", "report", "expense", "vehicle", "settings"],
@@ -124,6 +128,9 @@
     { "cc": "TW", "flag": "🇹🇼", "name": "Taiwan",               "month": "NT$220",    "year": "NT$1,490" },
     { "cc": "VN", "flag": "🇻🇳", "name": "Vietnam",              "month": "99.000đ",   "year": "599.000đ" },
     { "cc": "TH", "flag": "🇹🇭", "name": "Thailand",             "month": "฿149",      "year": "฿999" },
+    { "cc": "HR", "flag": "🇭🇷", "name": "Croatia",              "month": "7,99 €",    "year": "59,99 €" },
+    { "cc": "SI", "flag": "🇸🇮", "name": "Slovenia",             "month": "7,99 €",    "year": "59,99 €" },
+    { "cc": "MY", "flag": "🇲🇾", "name": "Malaysia",             "month": "RM19.90",   "year": "RM129.90" },
     { "cc": "ID", "flag": "🇮🇩", "name": "Indonesia",            "month": "Rp49.000",  "year": "Rp329.000" },
     { "cc": "AE", "flag": "🇦🇪", "name": "United Arab Emirates", "month": "AED 24.99", "year": "AED 169.99" },
     { "cc": "SA", "flag": "🇸🇦", "name": "Saudi Arabia",         "month": "SAR 24.99", "year": "SAR 169.99" },

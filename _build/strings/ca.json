@@ -1,0 +1,227 @@
+{
+  "meta_title": "DropLane — Quilòmetres i ingressos automàtics per a repartidors autònoms",
+  "meta_description": "Quilometratge per a repartidors autònoms. DropLane registra cada viatge tot sol, resta combustible i despeses dels ingressos i et diu què ha pagat cada hora.",
+  "nav_label": "Principal",
+  "nav_features": "Què fa",
+  "nav_screens": "Pantalles",
+  "nav_countries": "On funciona",
+  "nav_languages": "Idiomes",
+  "nav_pricing": "Preu",
+  "nav_faq": "Preguntes",
+  "nav_support": "Suport",
+  "cta_get": "Aconsegueix DropLane",
+  "menu": "Menú",
+  "close": "Tanca",
+  "theme_label": "Tema de color",
+  "theme_light": "Clar",
+  "theme_dark": "Fosc",
+  "language_label": "Idioma",
+  "language_title": "Llegeix aquest web en el teu idioma",
+  "language_note": "L'app parla 45 idiomes — les pàgines de la resta estan en camí.",
+  "langbar_strong": "Molts idiomes.",
+  "langbar_rest": "Tria el teu — l'app també el parla.",
+  "see_all": "tots els països",
+  "per_month_short": "al mes",
+  "hero_kicker": "Quilòmetres i ingressos automàtics per a repartidors autònoms",
+  "hero_h1": "Saber què ha pagat de veritat el dia.",
+  "hero_lede": "Arrenca i prou. DropLane registra cada viatge i la ruta que has fet de veritat, resta les despeses dels ingressos i et té el sou per hora real calculat abans que arribis a casa.",
+  "hero_cta_how": "Mira les pantalles",
+  "hero_note": "sense compte, sense anuncis · iPhone",
+  "hero_android": "Android està en camí. Escriu-nos i t'avisarem quan surti.",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "botons d'inici"
+    },
+    {
+      "value": "0",
+      "label": "servidors amb la teva ubicació"
+    },
+    {
+      "value": "17",
+      "label": "països amb la tarifa per km incorporada"
+    }
+  ],
+  "hero_trial": "14 dies gratis",
+  "hero_trial_then": "després {price} al mes",
+  "compare_them": "Les apps de quilometratge et diuen quant has conduït.",
+  "compare_us": "DropLane et diu si el dia ha valgut la pena.",
+  "reviews_h2": "Què diuen els repartidors a l'App Store",
+  "features_h2": "Què fa DropLane de veritat",
+  "features_intro": "Feta per un repartidor amb deu anys a la carretera, per a la feina tal com és.",
+  "features": [
+    {
+      "icon": "💶",
+      "title": "Què ha pagat el dia de veritat",
+      "body": "El combustible i les altres despeses es resten dels ingressos, i el que t'has quedat de veritat és a baix — per dia, setmana, mes."
+    },
+    {
+      "icon": "⛽",
+      "title": "Què paga una hora de veritat",
+      "body": "Combustible, finançament i assegurança repartits entre els dies que treballes, perquè la xifra per hora sigui la real."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Quilòmetres sense tocar el mòbil",
+      "body": "Els viatges es registren sols en segon pla, des que arrenques fins que aparques."
+    },
+    {
+      "icon": "🧾",
+      "title": "Registres a punt per al gestor",
+      "body": "Un PDF amb cada viatge, la seva ruta i la data. Tarifes per quilòmetre incorporades per a 17 països."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Parades i temps d'espera",
+      "body": "Mira quanta estona has estat a cada entrega o al magatzem, sense apuntar res."
+    },
+    {
+      "icon": "🔒",
+      "title": "Res no surt del teu mòbil",
+      "body": "Cap compte per crear, cap seguiment, cap anunci. L'historial de rutes és teu, amb còpia només al teu iCloud."
+    },
+    {
+      "icon": "🔔",
+      "title": "Venciments",
+      "body": "Escriu el quilometratge un cop i DropLane el va sumant amb els quilòmetres registrats — així els recordatoris de revisió i ITV poden comptar enrere en quilòmetres, no només en dates."
+    },
+    {
+      "icon": "🔧",
+      "title": "El teu vehicle",
+      "body": "Registra aquí revisions, pneumàtics i reparacions — amb la foto de la factura — i tens tot l'historial del taller a la butxaca."
+    },
+    {
+      "icon": "💳",
+      "title": "Targeta de combustible",
+      "body": "Posa el preu per litre que et cobra la targeta. Apunta els litres quan omplis i DropLane calcula el cost."
+    }
+  ],
+  "screens_h2": "Les pantalles de l'app",
+  "screens_intro": "Pantalles reals, d'un mes de feina real.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Avui",
+      "body": "Mentre les rodes encara giren."
+    },
+    {
+      "file": "today-money",
+      "title": "Ingressos d'avui",
+      "body": "Ingressos menys despeses, net."
+    },
+    {
+      "file": "yesterday-rate",
+      "title": "Ahir",
+      "body": "Què ha pagat l'hora de veritat."
+    },
+    {
+      "file": "days",
+      "title": "Dies",
+      "body": "Cada dia, ja sumat."
+    },
+    {
+      "file": "report",
+      "title": "L'informe PDF",
+      "body": "Tal com el vol el gestor."
+    },
+    {
+      "file": "tax",
+      "title": "Impostos",
+      "body": "Què valen els quilòmetres d'aquest període."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Tipus de viatge",
+      "body": "Amb càrrega, buit, cap a una recollida o personal."
+    },
+    {
+      "file": "live-activity",
+      "title": "Pantalla de bloqueig",
+      "body": "Els quilòmetres registrant-se, sense desbloquejar."
+    },
+    {
+      "file": "vehicle",
+      "title": "Vehicle",
+      "body": "ITV, impost de circulació, assegurança — abans que vencin."
+    },
+    {
+      "file": "insights-spend",
+      "title": "Despeses",
+      "body": "Combustible, menjar, pàrquing, peatges."
+    }
+  ],
+  "countries_h2": "Els països amb la tarifa incorporada",
+  "countries_intro": "L'app funciona a tot arreu. En aquests països també sap la tarifa per quilòmetre que admet Hisenda i com es diuen els papers del teu vehicle.",
+  "countries_paperwork_h3": "Aquí coneix els papers; la tarifa l'escrius tu",
+  "countries_note": "Ets en un altre lloc? Escriu un cop la tarifa que admet la teva hisenda i DropLane fa la resta.",
+  "languages_h2": "Llegeix-ho en el teu idioma",
+  "languages_intro": "Tota l'app — cada pantalla, cada notificació, els informes — no només aquesta pàgina. I els diners es queden en la teva moneda, en l'idioma que sigui.",
+  "languages_caption_title": "Avui",
+  "languages_caption_body": "Les xifres del dia, en el teu idioma i els teus diners.",
+  "alt_stats": "La pantalla Avui: ingressos, despeses, net.",
+  "alt_days": "La pantalla Dies: cada dia de feina amb el benefici, la distància i el nombre de viatges.",
+  "alt_today": "La pantalla Avui: el viatge registrant-se i els ingressos d'avui.",
+  "pricing_h2": "Un preu, tot inclòs",
+  "pricing_intro": "Catorze dies gratis. Cancel·la abans que acabi la prova i no pagues res. Totes les funcions hi són des del principi — sense plans superiors ni extres.",
+  "pricing_monthly": "Mensual",
+  "pricing_yearly": "Anual",
+  "pricing_per_month": "al mes, cancel·la quan vulguis",
+  "pricing_per_year": "a l'any — surt més a compte",
+  "pricing_best": "Més a compte",
+  "pricing_bullet_all": "Totes les funcions, sense extres",
+  "pricing_bullet_trial": "Primer 14 dies gratis",
+  "pricing_cta": "Comença 14 dies gratis",
+  "pricing_bullet_saving": "Estalvia {saving} l'any — un {percent} % més barat",
+  "pricing_bullet_equivalent": "Surt a {monthly} al mes",
+  "pricing_table_title": "El preu al teu país",
+  "pricing_search": "Troba el teu país",
+  "pricing_col_country": "País",
+  "pricing_col_month": "Mensual",
+  "pricing_col_year": "Anual",
+  "pricing_you": "Tu",
+  "pricing_note": "Cada país té el seu preu, no un de convertit d'una altra moneda. L'App Store et mostra l'import exacte en la teva moneda, IVA inclòs, abans que acceptis res. No hi ets a la llista? L'App Store té un preu per a tu igualment.",
+  "faq_h2": "Preguntes que els repartidors fan de veritat",
+  "faq_intro": "Respostes directes, d'algú que fa la feina.",
+  "faq": [
+    {
+      "q": "No és només una altra app de quilometratge?",
+      "a": "Registra els quilòmetres igual, sense botó d'inici. La diferència és el que ve després: hi poses els ingressos, es resten el combustible, el pàrquing i les despeses del vehicle, i l'app et diu què ha pagat l'hora de veritat. Una xifra de quilòmetres sola mai no ha dit a ningú si la ruta valia la pena."
+    },
+    {
+      "q": "Gasta bateria?",
+      "a": "DropLane no té el GPS engegat tot el dia. S'espera en silenci fins que nota que has marxat d'on havies aparcat, registra mentre et mous i torna a dormir quan pares."
+    },
+    {
+      "q": "He de prémer inici?",
+      "a": "No — i no hi ha cap botó per prémer. Aquesta és la gràcia. El que has de recordar, ho oblides just el dia que importa."
+    },
+    {
+      "q": "I si m'oblido de triar el tipus de viatge?",
+      "a": "No es perd res. Els viatges sense tipus esperen a la pantalla Dies, i l'app t'ho recorda en lloc d'endevinar-ho per tu."
+    },
+    {
+      "q": "El meu historial de rutes anirà a parar enlloc?",
+      "a": "No. No hi ha compte ni servidor. Tot viu al teu iPhone, i només es copia al teu iCloud si tu vols."
+    },
+    {
+      "q": "Funciona on no hi ha cobertura?",
+      "a": "Sí. El registre va amb el GPS del mateix iPhone i no necessita internet per a res. Els viatges sense cobertura tornen amb «Inici» i «Final» en lloc del nom dels carrers, i DropLane els completa la propera vegada que veu Wi-Fi."
+    },
+    {
+      "q": "Què passa quan canvio de mòbil?",
+      "a": "Entra al mateix iCloud i els viatges, els ingressos i les despeses tornen sols. No hi ha cap compte per crear ni cap contrasenya per perdre."
+    },
+    {
+      "q": "Si deixo de pagar, perdo els registres?",
+      "a": "No s'esborra res. Els viatges es queden a l'iPhone i al teu iCloud, exactament on eren. Però DropLane necessita una subscripció activa per obrir-se, així que si vols les xifres en un altre lloc, exporta el CSV abans. És a Configuració, amb un toc."
+    }
+  ],
+  "closer_h2": "Deixa d'endevinar què ha fet el dia.",
+  "closer_body": "Catorze dies gratis, sense compte, i res a recordar a les sis del matí.",
+  "footer_note": "DropLane — quilòmetres i ingressos automàtics per a repartidors autònoms. Feta per un repartidor, a Torquay.",
+  "footer_privacy": "Privadesa",
+  "footer_terms": "Condicions",
+  "footer_support": "Suport",
+  "suggest_prompt": "Llegeix-ho en català",
+  "cta_soon": "Properament"
+}

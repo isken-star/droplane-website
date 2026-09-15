@@ -1,0 +1,227 @@
+{
+  "meta_title": "DropLane — Kilometri in zaslužek za samostojne dostavljavce, samodejno",
+  "meta_description": "Kilometrina za samostojne dostavljavce. DropLane sam beleži vsako vožnjo, od zaslužka odšteje gorivo in stroške ter pokaže, koliko je ura zares prinesla.",
+  "nav_label": "Glavni",
+  "nav_features": "Kaj zmore",
+  "nav_screens": "Zasloni",
+  "nav_countries": "Kje deluje",
+  "nav_languages": "Jeziki",
+  "nav_pricing": "Cena",
+  "nav_faq": "Vprašanja",
+  "nav_support": "Podpora",
+  "cta_get": "Prenesi DropLane",
+  "menu": "Meni",
+  "close": "Zapri",
+  "theme_label": "Tema",
+  "theme_light": "Svetla",
+  "theme_dark": "Temna",
+  "language_label": "Jezik",
+  "language_title": "Beri to stran v svojem jeziku",
+  "language_note": "Aplikacija sama govori 45 jezikov — strani za ostale prihajajo.",
+  "langbar_strong": "Veliko jezikov.",
+  "langbar_rest": "Izberi svojega — aplikacija ga govori tudi.",
+  "see_all": "vse države",
+  "per_month_short": "na mesec",
+  "hero_kicker": "Kilometri in zaslužek za samostojne dostavljavce, samodejno",
+  "hero_h1": "Vedi, koliko je dan zares prinesel.",
+  "hero_lede": "Samo pelji. DropLane beleži vsako vožnjo in pot, po kateri si zares šel, od zaslužka odšteje stroške in ti izračuna pravo urno postavko, še preden prideš domov.",
+  "hero_cta_how": "Poglej zaslone",
+  "hero_note": "brez računa, brez oglasov · iPhone",
+  "hero_android": "Android prihaja. Pošlji nam e-pošto in sporočimo ti, ko izide.",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "gumbov za začetek"
+    },
+    {
+      "value": "0",
+      "label": "strežnikov s tvojo lokacijo"
+    },
+    {
+      "value": "17",
+      "label": "držav z vgrajeno kilometrino"
+    }
+  ],
+  "hero_trial": "14 dni brezplačno",
+  "hero_trial_then": "nato {price} na mesec",
+  "compare_them": "Aplikacije za kilometre ti povedo, koliko si prevozil.",
+  "compare_us": "DropLane ti pove, ali se je dan splačal.",
+  "reviews_h2": "Kaj dostavljavci pravijo v App Storu",
+  "features_h2": "Kaj DropLane zares počne",
+  "features_intro": "Naredil ga je dostavljavec z desetimi leti na cesti, za delo, kakršno v resnici je.",
+  "features": [
+    {
+      "icon": "💶",
+      "title": "Koliko je dan zares prinesel",
+      "body": "Gorivo in drugi stroški se odštejejo od zaslužka, kar ti je zares ostalo, pa piše na dnu — po dnevu, tednu, mesecu."
+    },
+    {
+      "icon": "⛽",
+      "title": "Koliko je ura zares vredna",
+      "body": "Gorivo, leasing in zavarovanje so razporejeni po dnevih, ko delaš, zato je urna postavka prava."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Kilometri, ne da bi se dotaknil telefona",
+      "body": "Vožnje se same beležijo v ozadju, od trenutka, ko speljesš, do trenutka, ko parkiraš."
+    },
+    {
+      "icon": "🧾",
+      "title": "Evidenca, pripravljena za računovodjo",
+      "body": "PDF z vsako vožnjo, njeno potjo in datumom. Vgrajena kilometrina za 17 držav."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Postanki in čakanje",
+      "body": "Vidi, koliko si čakal na vsaki dostavi ali v skladišču, ne da bi karkoli zapisal."
+    },
+    {
+      "icon": "🔒",
+      "title": "Nič ne zapusti tvojega telefona",
+      "body": "Brez odpiranja računa, brez sledenja, brez oglasov. Zgodovina tvojih poti je tvoja, varnostna kopija samo v tvojem iCloudu."
+    },
+    {
+      "icon": "🔔",
+      "title": "Roki",
+      "body": "Enkrat vpiši stanje števca in DropLane ga nadaljuje iz zabeleženih kilometrov — opomniki za servis in tehnični pregled lahko odštevajo v kilometrih, ne le v datumih."
+    },
+    {
+      "icon": "🔧",
+      "title": "Tvoje vozilo",
+      "body": "Tu beleži servise, gume in popravila — s fotografijo računa — in vsa zgodovina vozila je v tvojem žepu."
+    },
+    {
+      "icon": "💳",
+      "title": "Kartica za gorivo",
+      "body": "Nastavi ceno na liter, ki ti jo kartica zaračuna. Ob točenju vpiši litre in DropLane izračuna strošek."
+    }
+  ],
+  "screens_h2": "Zasloni aplikacije",
+  "screens_intro": "Pravi zasloni, iz meseca pravega dela.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Danes",
+      "body": "Ko se kolesa še vrtijo."
+    },
+    {
+      "file": "today-money",
+      "title": "Današnji zaslužek",
+      "body": "Zaslužek minus stroški, neto."
+    },
+    {
+      "file": "yesterday-rate",
+      "title": "Včeraj",
+      "body": "Koliko je ura zares prinesla."
+    },
+    {
+      "file": "days",
+      "title": "Dnevi",
+      "body": "Vsak dan, že seštet."
+    },
+    {
+      "file": "report",
+      "title": "Poročilo PDF",
+      "body": "Tako, kot ga hoče računovodja."
+    },
+    {
+      "file": "tax",
+      "title": "Davki",
+      "body": "Koliko so vredni kilometri tega obdobja."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Vrsta vožnje",
+      "body": "Službeno, prazno, po tovor ali osebno."
+    },
+    {
+      "file": "live-activity",
+      "title": "Zaklenjeni zaslon",
+      "body": "Kilometri, ki se beležijo, brez odklepanja."
+    },
+    {
+      "file": "vehicle",
+      "title": "Vozilo",
+      "body": "Registracija, tehnični pregled, zavarovanje — preden potečejo."
+    },
+    {
+      "file": "insights-spend",
+      "title": "Stroški",
+      "body": "Gorivo, hrana, parkiranje, cestnina."
+    }
+  ],
+  "countries_h2": "Države z vgrajeno kilometrino",
+  "countries_intro": "Aplikacija deluje povsod. V teh državah pozna tudi kilometrino, ki jo davčna priznava, in kako se imenujejo papirji tvojega vozila.",
+  "countries_paperwork_h3": "Tu pozna imena papirjev; kilometrino vpišeš sam",
+  "countries_note": "Kje drugje? Enkrat vpiši stopnjo, ki jo tvoja davčna priznava, in DropLane opravi ostalo.",
+  "languages_h2": "Beri v svojem jeziku",
+  "languages_intro": "Vsa aplikacija — vsak zaslon, vsako obvestilo, poročila — ne le ta stran. Denar pa ostane v tvoji valuti, v katerem koli jeziku bereš.",
+  "languages_caption_title": "Danes",
+  "languages_caption_body": "Številke dneva, v tvojem jeziku in tvojem denarju.",
+  "alt_stats": "Zaslon Danes: zaslužek, stroški, neto.",
+  "alt_days": "Zaslon Dnevi: vsak delovni dan z dobičkom, razdaljo in številom voženj.",
+  "alt_today": "Zaslon Danes: vožnja, ki se beleži, in današnji zaslužek.",
+  "pricing_h2": "Ena cena, vse vključeno",
+  "pricing_intro": "Štirinajst dni brezplačno. Prekliči pred koncem preizkusa in ne plačaš nič. Vse funkcije so tu od začetka — ni višjega paketa, ni dodatkov.",
+  "pricing_monthly": "Mesečno",
+  "pricing_yearly": "Letno",
+  "pricing_per_month": "na mesec, prekliči kadar koli",
+  "pricing_per_year": "na leto — boljša ponudba",
+  "pricing_best": "Najugodneje",
+  "pricing_bullet_all": "Vse funkcije, brez dodatkov",
+  "pricing_bullet_trial": "Najprej 14 dni brezplačno",
+  "pricing_cta": "Začni 14 dni brezplačno",
+  "pricing_bullet_saving": "Prihranek {saving} na leto — {percent} % ceneje",
+  "pricing_bullet_equivalent": "Znese {monthly} na mesec",
+  "pricing_table_title": "Cena v tvoji državi",
+  "pricing_search": "Poišči svojo državo",
+  "pricing_col_country": "Država",
+  "pricing_col_month": "Mesečno",
+  "pricing_col_year": "Letno",
+  "pricing_you": "Ti",
+  "pricing_note": "Vsaka država ima svojo ceno, ne preračunane iz druge valute. App Store ti pokaže točen znesek v tvoji valuti, z DDV, preden v kar koli privoliš. Te ni na seznamu? App Store ima ceno tudi zate.",
+  "faq_h2": "Vprašanja, ki jih dostavljavci zares postavljajo",
+  "faq_intro": "Naravnost odgovori, od nekoga, ki to delo opravlja.",
+  "faq": [
+    {
+      "q": "Ali ni to samo še ena aplikacija za kilometre?",
+      "a": "Kilometre beleži na enak način, brez gumba za začetek. Razlika je v tem, kar sledi: vpišeš zaslužek, gorivo, parkiranje in stroški vozila se odštejejo, aplikacija pa ti pove, koliko je ura zares prinesla. Sama številka kilometrov še nikomur ni povedala, ali se je tura splačala."
+    },
+    {
+      "q": "Ali prazni baterijo?",
+      "a": "DropLane ne drži GPS-a prižganega ves dan. Mirno čaka, dokler ne opazi, da si zapustil mesto, kjer si parkiral, beleži, ko se premikaš, in spet zaspi, ko se ustaviš."
+    },
+    {
+      "q": "Moram pritisniti začetek?",
+      "a": "Ne — in gumba za to sploh ni. V tem je bistvo. Kar si moraš zapomniti, pozabiš ravno tisti dan, ko je pomembno."
+    },
+    {
+      "q": "Kaj če pozabim izbrati vrsto vožnje?",
+      "a": "Nič se ne izgubi. Vožnje brez vrste čakajo na zaslonu Dnevi in aplikacija te opomni, namesto da bi ugibala namesto tebe."
+    },
+    {
+      "q": "Bo zgodovina mojih poti kje pristala?",
+      "a": "Ne. Ni računa in ni strežnika. Vse je na tvojem iPhonu, varnostna kopija pa gre samo v tvoj iCloud, če to želiš."
+    },
+    {
+      "q": "Deluje tam, kjer ni signala?",
+      "a": "Da. Beleženje uporablja GPS samega iPhona in sploh ne potrebuje interneta. Vožnje brez signala se vrnejo z oznakama »Začetek« in »Konec« namesto imen ulic, DropLane pa jih dopolni, ko naslednjič vidi Wi-Fi."
+    },
+    {
+      "q": "Kaj se zgodi, ko dobim nov telefon?",
+      "a": "Prijavi se v isti iCloud in vožnje, zaslužki ter stroški se vrnejo sami. Ni računa za odpiranje in ni gesla za izgubiti."
+    },
+    {
+      "q": "Če neham plačevati, izgubim evidenco?",
+      "a": "Nič se ne izbriše. Vožnje ostanejo na iPhonu in v tvojem iCloudu, točno tam, kjer so bile. Toda DropLane za odpiranje potrebuje aktivno naročnino, zato številke, če jih hočeš drugje, prej izvozi v CSV. V Nastavitvah je, z enim dotikom."
+    }
+  ],
+  "closer_h2": "Nehaj ugibati, koliko je dan prinesel.",
+  "closer_body": "Štirinajst dni brezplačno, brez računa in nič, kar bi si moral zapomniti ob šestih zjutraj.",
+  "footer_note": "DropLane — kilometri in zaslužek za samostojne dostavljavce, samodejno. Naredil dostavljavec, v Torquayu.",
+  "footer_privacy": "Zasebnost",
+  "footer_terms": "Pogoji",
+  "footer_support": "Podpora",
+  "suggest_prompt": "Beri v slovenščini",
+  "cta_soon": "Kmalu"
+}

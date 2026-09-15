@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — Mileage & earnings tracker for self-employed couriers",
-  "meta_description": "Mileage tracker for self-employed couriers. DropLane records every drive on its own, takes fuel and costs off the takings, and shows what the hour really paid.",
+  "meta_title": "DropLane — Mileage & earnings tracker for anyone who drives for work",
+  "meta_description": "Mileage tracker for couriers, tradespeople and reps. DropLane records every drive itself, takes fuel and costs off the takings, and shows what the hour paid.",
   "nav_label": "Main",
   "nav_how": "How it works",
   "nav_day": "What it pays",
@@ -30,7 +30,7 @@
   "hero_cta_how": "How it works",
   "hero_note": "no account, no ads · iPhone",
   "guides": {"h2": "Guides", "intro": "Written for UK couriers, by one. Not tax advice — the numbers to check, and where to check them.", "items": [{"href": "/guides/courier-mileage-allowance-uk/", "title": "Mileage allowance for self-employed couriers, 2026/27", "blurb": "55p a mile to 10,000 miles, 25p after. What counts, what the flat rate replaces, and the record HMRC expects."}, {"href": "/guides/what-a-courier-really-earns-per-hour/", "title": "What a courier round really pays per hour", "blurb": "The sum behind a day's takings: fuel, the fixed costs' share, waiting time, and the one figure worth comparing."}]},
-  "hero_kicker": "Automatic mileage and earnings for self-employed couriers",
+  "hero_kicker": "Automatic mileage, earnings and expenses for anyone who drives for work",
   "hero_android": "Android is on its way. Email us and we'll tell you when it's out.",
   "reviews_h2": "What couriers say on the App Store",
   "countries_paperwork_h3": "These know your paperwork; the rate is yours to type in",
