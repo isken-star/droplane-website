@@ -17,6 +17,8 @@
   })();
 </script>
 <meta name="theme-color" content="#EEF1F6">
+<!-- Safari on iPhone shows its own "View in App Store" strip from this one line. -->
+<meta name="apple-itunes-app" content="app-id={{app_id}}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
@@ -214,6 +216,7 @@
         <p class="tally-note">{{day_note}}</p>
       </div>
     </div>
+    {{cta_after_day}}
   </div>
 </section>
 
@@ -331,6 +334,7 @@
     <div class="cards">
 {{features}}
     </div>
+    {{cta_after_features}}
   </div>
 </section>
 
@@ -390,6 +394,7 @@
           <li>{{pricing_bullet_all}}</li>
           <li>{{pricing_bullet_trial}}</li>
         </ul>
+        {{cta_price}}
       </div>
       <div class="price best">
         <span class="tag">{{pricing_best}}</span>
@@ -401,6 +406,7 @@
           <li>{{pricing_bullet_saving}}</li>
           <li>{{pricing_bullet_equivalent}}</li>
         </ul>
+        {{cta_price}}
       </div>
     </div>
 

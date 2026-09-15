@@ -421,7 +421,14 @@
 
     var href = link.getAttribute('href') || '';
 
-    if (href.indexOf('apps.apple.com') !== -1) { send('appstore-click'); return; }
+    if (href.indexOf('apps.apple.com') !== -1) {
+      send('appstore-click');
+      /* The same click again, named for where on the page it happened, so
+         the hero, the pricing cards and the bar can be compared. */
+      var place = link.getAttribute('data-place');
+      if (place) { send('appstore-click-' + place); }
+      return;
+    }
 
     /* Someone changing away from the language we offered them is the only
        honest test of whether the twenty-four translations reach the right

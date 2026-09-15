@@ -849,6 +849,17 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
   content: "✓"; position: absolute; left: 0; top: 4px;
   color: var(--money); font-weight: 800;
 }
+/* The card's button: full width, so both cards end on the same line and
+   the eye lands on a thing to press rather than a list that just stops. */
+.price .price-cta { width: 100%; margin-top: 20px; }
+
+/* The mid-page ask: one button and the trial sentence, after the day's sums
+   and after the feature grid, so a reader who is already persuaded never has
+   to scroll to the end to act. */
+.cta-mid {
+  display: flex; flex-wrap: wrap; gap: 14px 18px; align-items: center;
+  margin-top: 34px;
+}
 
 .pricetable { margin-top: 34px; }
 .pricetable-head {

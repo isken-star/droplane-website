@@ -7,6 +7,11 @@
     "app_store_url": "https://apps.apple.com/app/id6760871535"
   },
 
+  "campaign": {
+    "_comment": "App Store Connect campaign links. Paste the pt= number from App Store Connect → Analytics → Sources → Campaigns → Generate Campaign Link, rebuild, and App Analytics reports downloads per page and per button (ct=web-<page>-<place>). Empty means plain links.",
+    "provider_token": "128520847"
+  },
+
   "languages": [
     { "code": "en", "dir": "",   "name": "English",    "flag": "🇬🇧", "locale": "en-GB", "og_locale": "en_GB", "market": "GB", "market_name": "United Kingdom", "price_month": "£6.99",   "price_year": "£49.99" },
     { "code": "en-US", "dir": "us", "name": "English (US)", "flag": "🇺🇸", "locale": "en-US", "og_locale": "en_US", "market": "US", "market_name": "United States", "price_month": "$6.99",   "price_year": "$49.99" },
