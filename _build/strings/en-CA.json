@@ -1,0 +1,345 @@
+{
+  "meta_title": "DropLane — Mileage & earnings tracker for anyone who drives for work",
+  "meta_description": "Mileage tracker for couriers, tradespeople and reps in Canada. DropLane records every drive itself, takes fuel and costs off, and shows what the hour paid.",
+  "nav_label": "Main",
+  "nav_how": "How it works",
+  "nav_day": "What it pays",
+  "nav_features": "What it does",
+  "nav_screens": "Screens",
+  "nav_countries": "Where it works",
+  "nav_languages": "Languages",
+  "nav_pricing": "Price",
+  "nav_faq": "Questions",
+  "nav_support": "Support",
+  "cta_get": "Get DropLane",
+  "menu": "Menu",
+  "close": "Close",
+  "theme_label": "Colour theme",
+  "theme_light": "Light",
+  "theme_dark": "Dark",
+  "language_label": "Language",
+  "language_title": "Read this site in your language",
+  "language_note": "The app itself speaks 45 languages — the rest are on their way here.",
+  "langbar_strong": "45 languages.",
+  "langbar_rest": "Pick yours — the app speaks it too.",
+  "per_month_short": "a month",
+  "see_all": "see all",
+  "hero_h1": "Know what the day really paid.",
+  "hero_lede": "Start driving. That's it. DropLane records every drive and the route it actually took, takes the costs off the takings, and has your real hourly rate worked out before you're home.",
+  "hero_cta_notify": "Get notified at launch",
+  "hero_cta_how": "How it works",
+  "hero_note": "no account, no ads · iPhone",
+  "guides": {
+    "h2": "Guides",
+    "intro": "Written for UK couriers, by one. Not tax advice — the numbers to check, and where to check them.",
+    "items": [
+      {
+        "href": "/guides/courier-mileage-allowance-uk/",
+        "title": "Mileage allowance for self-employed couriers, 2026/27",
+        "blurb": "55p a mile to 10,000 miles, 25p after. What counts, what the flat rate replaces, and the record the CRA expects."
+      },
+      {
+        "href": "/guides/what-a-courier-really-earns-per-hour/",
+        "title": "What a courier round really pays per hour",
+        "blurb": "The sum behind a day's takings: fuel, the fixed costs' share, waiting time, and the one figure worth comparing."
+      }
+    ]
+  },
+  "hero_kicker": "Automatic mileage, earnings and expenses for anyone who drives for work",
+  "hero_android": "Android is on its way. Email us and we'll tell you when it's out.",
+  "reviews_h2": "What couriers say on the App Store",
+  "countries_paperwork_h3": "These know your paperwork; the rate is yours to type in",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "start buttons"
+    },
+    {
+      "value": "0",
+      "label": "servers holding your location"
+    },
+    {
+      "value": "17",
+      "label": "mileage rates built in"
+    }
+  ],
+  "money_h2": "Two days. More miles. Less money.",
+  "money_intro": "Tuesday: 96 miles, three drives. Yesterday: 62 miles, two drives. A mileage app will tell you Tuesday was the fuller day — and it's right. Tuesday left £99. Yesterday left £116.",
+  "money_day1_when": "Tuesday 25 August",
+  "money_day1_distance": "96.1 miles",
+  "money_day1_trips": "3 drives",
+  "money_day1_money": "£99.22",
+  "money_day2_when": "Yesterday",
+  "money_day2_distance": "62.1 miles",
+  "money_day2_trips": "2 drives",
+  "money_day2_money": "£116.06",
+  "money_label_distance": "On the road",
+  "money_label_trips": "Drives",
+  "money_label_money": "Kept",
+  "money_punch": "Thirty-four miles more. £16.84 less.",
+  "money_note": "Miles are the easy half, and the half that tells you nothing. Which day was worth getting up for is in the other column — and that is the column DropLane fills in for you, on the day, without you writing anything down.",
+  "day_h2": "What did the day actually pay?",
+  "day_intro": "£179.01 sounds like a good day. Eight hours and forty-three minutes, three hundred and twelve miles and £45.49 of costs later, it worked out at £15.32 an hour. That is the number nobody driving has, and the one DropLane has ready before you're home.",
+  "day_film1_title": "The day added itself up",
+  "day_film1_body": "Three drives, 312 miles, £133.52 — and one still to sort. Nothing was typed in.",
+  "day_film2_title": "The report builds itself",
+  "day_film2_body": "Tick what goes in, pick portrait or landscape, and the PDF for the accountant is ready to send.",
+  "day_film3_title": "And what the hour really paid",
+  "day_film3_body": "£15.32 an hour after costs, 71p a mile, and £103.96 of mileage to claim.",
+  "day_tally_lead": "One day — 312 miles, three drives, 8 h 43 m",
+  "day_label_earned": "Earned",
+  "day_label_costs": "Costs",
+  "day_label_kept": "Kept",
+  "day_earned": "£179.01",
+  "day_costs": "£45.49",
+  "day_kept": "£133.52",
+  "day_rate_value": "£15.32",
+  "day_hours_value": "8 h 43 m",
+  "day_label_hours": "on the road",
+  "day_label_hour": "an hour",
+  "day_note": "One day's figures, straight off the app in the films above. Yours will be different — the point is having them on the day, in the van, instead of finding out in January.",
+  "how_h2": "Three steps, and only one is yours",
+  "how_intro": "There is no start button in DropLane, on purpose. Nobody remembers to press one at six in the morning with a van full of parcels.",
+  "how_steps": [
+    {
+      "title": "Turn it on once",
+      "body": "Install the app and allow location in the background. That's the last bit of setup there is."
+    },
+    {
+      "title": "Drive",
+      "body": "Every drive saves itself, with the route, the stops, and how long you were at each one."
+    },
+    {
+      "title": "Pick its type in a tap",
+      "body": "Business, empty, on the way to a pick-up, or personal. The totals and the mileage claim follow on their own."
+    }
+  ],
+  "how_proof": "Then the drive history builds itself. Pick a week, a month or your own dates, tick what goes in, and the PDF for the accountant is one tap away — built from drives you never had to log.",
+  "features_h2": "What DropLane actually does",
+  "features_intro": "Built by a courier with ten years on the road, for the job as it really is.",
+  "features": [
+    {
+      "icon": "💷",
+      "title": "What the day actually paid",
+      "body": "Fuel and the other costs come off the takings, and what you actually kept is at the bottom — per day, week, month."
+    },
+    {
+      "icon": "⛽",
+      "title": "What an hour really pays",
+      "body": "Fuel, finance and insurance spread across the days you work, so the hourly figure is the true one."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Mileage without touching the phone",
+      "body": "Drives record themselves in the background, from the moment you pull away to the moment you park."
+    },
+    {
+      "icon": "🧾",
+      "title": "Records ready for your accountant",
+      "body": "A PDF with every drive, its route and its date. Mileage rates built in for seventeen countries."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Stops and waiting time",
+      "body": "See how long you sat at each drop or depot, without writing anything down."
+    },
+    {
+      "icon": "🔒",
+      "title": "Nothing leaves your phone",
+      "body": "No account to make, no tracking, no ads. Your route history is yours, backed up only to your own iCloud."
+    },
+    {
+      "icon": "🔔",
+      "title": "Renewals",
+      "body": "Type the odometer reading once and DropLane keeps it ticking from your tracked miles — so service and inspection reminders can count down in kilometres, not just dates."
+    },
+    {
+      "icon": "🔧",
+      "title": "Your vehicle",
+      "body": "Log services, tires, and repairs here — with the invoice photo attached, it's your full garage history in your pocket."
+    },
+    {
+      "icon": "💳",
+      "title": "Fuel card",
+      "body": "Set the price your card charges per litre. Log the litres when you fill up and DropLane works out the cost."
+    }
+  ],
+  "screens_h2": "The whole app, in light mode and dark",
+  "screens_intro": "Real screens, from a month of real work. Flip the switch at the top and every screen here changes with it.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Today",
+      "body": "While the wheels are still turning."
+    },
+    {
+      "file": "today-money",
+      "title": "Earned today",
+      "body": "Takings minus costs, net."
+    },
+    {
+      "file": "yesterday-rate",
+      "title": "Yesterday",
+      "body": "What the hour really paid."
+    },
+    {
+      "file": "days",
+      "title": "Days",
+      "body": "Every day, already totalled."
+    },
+    {
+      "file": "report",
+      "title": "The PDF",
+      "body": "Built the way your accountant wants it."
+    },
+    {
+      "file": "tax",
+      "title": "Tax",
+      "body": "What this period's kilometres are worth."
+    },
+    {
+      "file": "trip-sort",
+      "title": "A drive's type",
+      "body": "Business, empty, running or personal."
+    },
+    {
+      "file": "live-activity",
+      "title": "Lock screen",
+      "body": "The kilometres recording, without unlocking."
+    },
+    {
+      "file": "vehicle",
+      "title": "Vehicle",
+      "body": "Inspection, registration, insurance — before they bite."
+    },
+    {
+      "file": "insights-spend",
+      "title": "Costs",
+      "body": "Fuel, food, parking, tolls."
+    }
+  ],
+  "countries_h2": "The countries with a rate built in",
+  "countries_intro": "The app works anywhere. In these countries it also knows the mileage rate the CRA allows, and what your vehicle paperwork is called.",
+  "countries_note": "Somewhere else? Type in the rate the CRA or your own tax office allows and DropLane does the rest.",
+  "languages_h2": "Read it in your own language",
+  "languages_intro": "The whole app — every screen, every notification, the reports — not just this page. And the money stays in your currency, whichever language you read it in.",
+  "languages_caption_title": "Today",
+  "languages_caption_body": "Your day, in your language and your money.",
+  "pricing_h2": "One price, everything in it",
+  "pricing_intro": "Fourteen days free. Cancel before the trial ends and you pay nothing. Every feature is there from the off — no higher tier, no add-ons.",
+  "pricing_monthly": "Monthly",
+  "pricing_yearly": "Yearly",
+  "pricing_per_month": "per month, cancel any time",
+  "pricing_per_year": "per year — the better deal",
+  "pricing_best": "Best value",
+  "pricing_bullet_all": "Every feature, no add-ons",
+  "pricing_bullet_trial": "14 days free first",
+  "pricing_cta": "Start 14 days free",
+  "pricing_bullet_saving": "Save {saving} a year — {percent}% cheaper",
+  "pricing_bullet_equivalent": "Works out at {monthly} a month",
+  "pricing_table_title": "The price in your country",
+  "pricing_search": "Find your country",
+  "pricing_col_country": "Country",
+  "pricing_col_month": "Monthly",
+  "pricing_col_year": "Yearly",
+  "pricing_you": "You",
+  "pricing_note": "Each country has its own price rather than one converted out of sterling. The App Store shows you the exact amount in your own currency, VAT included, before you agree to anything. Not in the list? The App Store has a price for you anyway.",
+  "faq_h2": "Questions couriers actually ask",
+  "faq_intro": "Straight answers, from someone who does the job.",
+  "faq": [
+    {
+      "q": "Isn't this just another mileage tracker?",
+      "a": "It records mileage the same way, without a start button. The difference is what happens after: your takings go in, the fuel, parking and running costs come off, and the app tells you what the hour actually paid. A mileage figure on its own never told anyone whether the round was worth doing."
+    },
+    {
+      "q": "Does it drain the battery?",
+      "a": "DropLane doesn't keep the GPS running all day. It sits quietly until it notices you've left where you parked, records while you're moving, and goes back to sleep when you stop."
+    },
+    {
+      "q": "Do I have to press start?",
+      "a": "No — and there's no button to press. That's the whole point. If you have to remember, you'll forget on the day it matters."
+    },
+    {
+      "q": "What if I forget to pick a drive's type?",
+      "a": "Nothing is lost. Drives without a type wait on the Days screen, and the app reminds you rather than guessing for you."
+    },
+    {
+      "q": "Will my route history end up somewhere?",
+      "a": "No. There's no account and no server. Everything lives on your iPhone, and backs up only to your own iCloud if you want it to."
+    },
+    {
+      "q": "I drive a bike, not a van.",
+      "a": "That works. Cargo-bike miles are recorded the same way. The built-in mileage rates are for motor vehicles, though, so what a bike can claim depends on your country and your circumstances — worth asking an accountant."
+    },
+    {
+      "q": "Is my country's mileage rate in there?",
+      "a": "Seventeen countries have their official rate built in and kept current. Anywhere else, type your own rate once and the app does the maths."
+    },
+    {
+      "q": "Can I use it in kilometres?",
+      "a": "Yes. Miles or kilometres, your own currency, and the fuel price you actually pay — all in Settings, on the first screen."
+    },
+    {
+      "q": "Does it work where there's no signal?",
+      "a": "Yes. Recording runs off your iPhone's own GPS and wants no internet at all. Drives taken out of signal come back labelled “Start” and “End” instead of street names, and DropLane fills those in the next time it sees Wi-Fi. A week down lanes with no bars still adds up right."
+    },
+    {
+      "q": "What happens when I get a new phone?",
+      "a": "Sign in to the same iCloud and your drives, earnings and expenses come back on their own. There is no account to make and no password to lose, because there was never a server holding any of it — the backup is yours, in your own iCloud."
+    },
+    {
+      "q": "What if I stop paying — do I lose my records?",
+      "a": "Nothing is deleted. Your drives stay on the iPhone and in your own iCloud, exactly where they were. But DropLane needs an active subscription to open, so if you want the figures somewhere else, export the CSV before you go. It's in Settings, and it's one tap."
+    },
+    {
+      "q": "How do I know what fuel really cost before the card invoice arrives?",
+      "a": "Tell DropLane the price per litre your fuel card charges, then log the litres when you fill up. The cost is worked out on the day, so the week's profit is right weeks before the invoice turns up."
+    }
+  ],
+  "closer_h2": "Stop guessing what the day made.",
+  "closer_body": "Fourteen days free, no account, and nothing to remember at six in the morning.",
+  "footer_note": "DropLane — automatic mileage, earnings and expenses for anyone who drives for work. Built by a courier, in Torquay.",
+  "footer_privacy": "Privacy",
+  "footer_terms": "Terms",
+  "footer_support": "Support",
+  "alt_today": "The Today screen: the drive recording and today's earnings.",
+  "alt_days": "The Days list: every working day with its profit, distance and number of trips.",
+  "alt_report": "The report card: switches for trips, earnings, expenses and receipt photos, then the PDF.",
+  "alt_stats": "The Stats screen: net, earned and costs for the week, with distance by type.",
+  "papers_h2": "The report, portrait or landscape",
+  "papers_intro": "This is the PDF itself, not a picture of the switches that make it. Pick the shape that suits whoever reads it — upright for filing, wide when the trips table needs the room — and it rebuilds either way.",
+  "papers_portrait": "Portrait",
+  "papers_portrait_note": "For filing and for printing at home.",
+  "papers_landscape": "Landscape",
+  "papers_landscape_note": "Wider rows: every drive, its route and its times side by side.",
+  "papers_note": "Your business name, address and logo sit in the header. Tick what goes in — day-by-day breakdown, every trip, earnings, expenses, receipt photos, a little map beside each drive, the mileage allowance for the period — and DropLane rebuilds the document as you go.",
+  "alt_report_portrait": "The first page of a DropLane report in portrait: header, totals for the period, earnings and expenses, and the mileage allowance.",
+  "alt_report_landscape": "The first page of a DropLane report in landscape, with the wider trips table.",
+  "papers_choose": "What goes in",
+  "papers_zoom": "Enlarge",
+  "suggest_prompt": "Read this in Canadian English",
+  "cta_soon": "Coming soon",
+  "cta_coming": "Coming to the App Store",
+  "cta_notify": "Email me when it's out",
+  "privacy_h2": "Your data. Yours alone.",
+  "privacy_intro": "Everything stays on your iPhone and in your own iCloud. No account, no server, nothing sold. Only you decide who sees your trips.",
+  "privacy_stat_label": "Servers holding your location",
+  "privacy_point1": "This is what lets DropLane record the miles. Your location history never leaves your iPhone.",
+  "privacy_point2": "iCloud backup and restore, no account needed",
+  "privacy_point3": "Export CSV for your records",
+  "setup_shot_location": "Turn on location",
+  "setup_shot_always": "Now choose Always",
+  "setup_shot_notifications": "Enable notifications",
+  "setup_shot_vehicle": "What do you drive?",
+  "pocket_h3": "Notifications",
+  "pocket_body": "\"Always\" lets drives record with the app closed.",
+  "pocket_live_alt": "Drive detected — recording",
+  "pocket_live_body": "While you're driving, a Live Activity keeps the miles climbing on the lock screen — so you can see the drive being recorded without unlocking anything.",
+  "hero_trial": "14 days free",
+  "hero_trial_then": "then {price} a month",
+  "compare_them": "Mileage trackers tell you how far you drove.",
+  "compare_us": "DropLane tells you whether the day was worth it.",
+  "fact_currency": "Every currency",
+  "fact_private": "Data stays on your phone",
+  "fact_private_value": "Private"
+}
