@@ -1,0 +1,226 @@
+{
+  "meta_title": "DropLane — Pencatat kilometer dan pendapatan otomatis untuk kurir lepas",
+  "meta_description": "Aplikasi pencatat kilometer untuk kurir dan driver lepas. DropLane merekam setiap perjalanan sendiri, memotong BBM dan biaya dari pendapatan, dan menunjukkan berapa yang benar-benar didapat per jam.",
+  "nav_label": "Utama",
+  "nav_features": "Fitur",
+  "nav_screens": "Tampilan",
+  "nav_countries": "Negara",
+  "nav_languages": "Bahasa",
+  "nav_pricing": "Harga",
+  "nav_faq": "Tanya jawab",
+  "nav_support": "Bantuan",
+  "cta_get": "Dapatkan DropLane",
+  "menu": "Menu",
+  "close": "Tutup",
+  "theme_label": "Tema warna",
+  "theme_light": "Terang",
+  "theme_dark": "Gelap",
+  "language_label": "Bahasa",
+  "language_title": "Baca situs ini dalam bahasamu",
+  "language_note": "Aplikasinya sendiri tersedia dalam 45 bahasa — halaman untuk bahasa lainnya menyusul.",
+  "langbar_strong": "Banyak bahasa.",
+  "langbar_rest": "Pilih bahasamu — aplikasinya juga memakainya.",
+  "see_all": "semua negara",
+  "per_month_short": "/bulan",
+  "hero_kicker": "Kilometer dan pendapatan otomatis untuk kurir dan driver lepas",
+  "hero_h1": "Tahu berapa yang benar-benar didapat hari ini.",
+  "hero_lede": "Tinggal jalan. DropLane merekam setiap perjalanan dan rute yang benar-benar ditempuh, memotong biaya dari pendapatan, dan menghitung penghasilan per jam yang sebenarnya sebelum kamu sampai di rumah.",
+  "hero_cta_how": "Lihat tampilannya",
+  "hero_note": "tanpa akun, tanpa iklan · iPhone",
+  "hero_android": "Versi Android sedang disiapkan. Kirim email, kami kabari saat rilis.",
+  "hero_facts": [
+    {
+      "value": "0",
+      "label": "tombol mulai"
+    },
+    {
+      "value": "0",
+      "label": "server yang menyimpan lokasimu"
+    },
+    {
+      "value": "17",
+      "label": "negara dengan tarif kilometer bawaan"
+    }
+  ],
+  "hero_trial": "14 hari gratis",
+  "hero_trial_then": "lalu {price} per bulan",
+  "compare_them": "Pencatat kilometer memberi tahu seberapa jauh kamu jalan.",
+  "compare_us": "DropLane memberi tahu apakah harinya sepadan.",
+  "reviews_h2": "Kata kurir di App Store",
+  "features_h2": "Yang benar-benar dilakukan DropLane",
+  "features_intro": "Dibuat oleh kurir dengan sepuluh tahun di jalan, untuk pekerjaan seperti apa adanya.",
+  "features": [
+    {
+      "icon": "💵",
+      "title": "Berapa yang benar-benar tersisa hari ini",
+      "body": "BBM dan biaya lain dipotong dari pendapatan, dan yang benar-benar kamu bawa pulang ada di bawah — per hari, minggu, bulan."
+    },
+    {
+      "icon": "⛽",
+      "title": "Berapa sebenarnya satu jam menghasilkan",
+      "body": "BBM, cicilan, dan asuransi dibagi ke hari-hari kerjamu, jadi angka per jamnya angka yang sebenarnya."
+    },
+    {
+      "icon": "🛣️",
+      "title": "Kilometer tanpa menyentuh HP",
+      "body": "Perjalanan terekam sendiri di latar belakang, dari saat jalan sampai parkir."
+    },
+    {
+      "icon": "🧾",
+      "title": "Catatan yang siap untuk pembukuan",
+      "body": "PDF dengan setiap perjalanan, rutenya, dan tanggalnya. Tarif kilometer bawaan untuk 17 negara."
+    },
+    {
+      "icon": "🅿️",
+      "title": "Berhenti dan waktu tunggu",
+      "body": "Lihat berapa lama kamu menunggu di tiap titik antar atau gudang, tanpa mencatat apa pun."
+    },
+    {
+      "icon": "🔒",
+      "title": "Tidak ada yang keluar dari HP-mu",
+      "body": "Tanpa akun, tanpa pelacakan, tanpa iklan. Riwayat rutemu milikmu, dicadangkan hanya ke iCloud-mu sendiri."
+    },
+    {
+      "icon": "🔔",
+      "title": "Jatuh tempo",
+      "body": "Ketik angka odometer sekali, dan DropLane terus menambahkannya dari kilometer yang terekam — jadi pengingat servis dan pajak bisa dihitung mundur dalam kilometer, bukan hanya tanggal."
+    },
+    {
+      "icon": "🔧",
+      "title": "Kendaraanmu",
+      "body": "Catat servis, ban, dan perbaikan di sini — dengan foto nota terlampir, riwayat bengkel lengkap ada di sakumu."
+    },
+    {
+      "icon": "💳",
+      "title": "Kartu BBM",
+      "body": "Atur harga per liter yang dikenakan kartumu. Catat liternya saat isi, dan DropLane menghitung biayanya."
+    }
+  ],
+  "screens_h2": "Tampilan aplikasi",
+  "screens_intro": "Tampilan asli, dari sebulan kerja sungguhan.",
+  "screens": [
+    {
+      "file": "today",
+      "title": "Hari Ini",
+      "body": "Saat roda masih berputar."
+    },
+    {
+      "file": "today-money",
+      "title": "Pendapatan hari ini",
+      "body": "Pendapatan dikurangi biaya, bersih."
+    },
+    {
+      "file": "yesterday-rate",
+      "title": "Kemarin",
+      "body": "Berapa yang benar-benar didapat per jam."
+    },
+    {
+      "file": "days",
+      "title": "Hari",
+      "body": "Setiap hari, sudah dijumlahkan."
+    },
+    {
+      "file": "report",
+      "title": "Laporan PDF",
+      "body": "Dibuat seperti yang diminta pembukuan."
+    },
+    {
+      "file": "tax",
+      "title": "Pajak",
+      "body": "Berapa nilai kilometer periode ini."
+    },
+    {
+      "file": "trip-sort",
+      "title": "Jenis perjalanan",
+      "body": "Muatan, kosong, menuju penjemputan, atau pribadi."
+    },
+    {
+      "file": "live-activity",
+      "title": "Layar kunci",
+      "body": "Kilometer yang terekam, tanpa membuka kunci."
+    },
+    {
+      "file": "vehicle",
+      "title": "Kendaraan",
+      "body": "STNK, pajak, asuransi — sebelum jatuh tempo."
+    },
+    {
+      "file": "insights-spend",
+      "title": "Biaya",
+      "body": "BBM, makan, parkir, tol."
+    }
+  ],
+  "countries_h2": "Negara dengan tarif bawaan",
+  "countries_intro": "Aplikasinya bisa dipakai di mana saja. Di negara-negara ini, ia juga tahu tarif kilometer yang diakui kantor pajak, dan apa nama surat-surat kendaraanmu.",
+  "countries_paperwork_h3": "Di sini nama surat-suratnya dikenal; tarifnya kamu ketik sendiri",
+  "countries_note": "Di tempat lain? Ketik tarif yang diakui kantor pajakmu sekali, dan DropLane mengerjakan sisanya.",
+  "languages_h2": "Baca dalam bahasamu sendiri",
+  "languages_intro": "Seluruh aplikasi — setiap tampilan, setiap notifikasi, laporannya — bukan hanya halaman ini. Dan uangnya tetap dalam mata uangmu, bahasa apa pun yang kamu pakai.",
+  "languages_caption_title": "Hari Ini",
+  "languages_caption_body": "Angka harimu, dalam bahasamu dan uangmu.",
+  "alt_stats": "Tampilan Hari Ini: pendapatan, biaya, bersih.",
+  "alt_days": "Tampilan Hari: setiap hari kerja dengan untung, jarak, dan jumlah perjalanan.",
+  "alt_today": "Tampilan Hari Ini: perjalanan yang sedang terekam dan pendapatan hari ini.",
+  "pricing_h2": "Satu harga, semua termasuk",
+  "pricing_intro": "14 hari gratis. Batalkan sebelum masa coba berakhir dan kamu tidak membayar apa pun. Semua fitur ada sejak awal — tidak ada paket lebih tinggi, tidak ada tambahan.",
+  "pricing_monthly": "Bulanan",
+  "pricing_yearly": "Tahunan",
+  "pricing_per_month": "per bulan, batalkan kapan saja",
+  "pricing_per_year": "per tahun — lebih hemat",
+  "pricing_best": "Paling hemat",
+  "pricing_bullet_all": "Semua fitur, tanpa tambahan",
+  "pricing_bullet_trial": "14 hari gratis dulu",
+  "pricing_cta": "Mulai 14 hari gratis",
+  "pricing_bullet_saving": "Hemat {saving} setahun — {percent}% lebih murah",
+  "pricing_bullet_equivalent": "Setara {monthly} per bulan",
+  "pricing_table_title": "Harga di negaramu",
+  "pricing_search": "Cari negaramu",
+  "pricing_col_country": "Negara",
+  "pricing_col_month": "Bulanan",
+  "pricing_col_year": "Tahunan",
+  "pricing_you": "Kamu",
+  "pricing_note": "Setiap negara punya harganya sendiri, bukan hasil konversi. App Store menunjukkan jumlah pastinya dalam mata uangmu, termasuk pajak, sebelum kamu menyetujui apa pun. Tidak ada di daftar? App Store tetap punya harga untukmu.",
+  "faq_h2": "Yang benar-benar ditanyakan kurir",
+  "faq_intro": "Jawaban langsung, dari orang yang mengerjakannya sendiri.",
+  "faq": [
+    {
+      "q": "Bukankah ini cuma pencatat kilometer lagi?",
+      "a": "Cara merekam kilometernya sama, tanpa tombol mulai. Bedanya sesudah itu: pendapatanmu masuk, BBM, parkir, dan biaya operasional dipotong, dan aplikasi memberi tahu berapa yang benar-benar didapat per jam. Angka kilometer saja tidak pernah memberi tahu siapa pun apakah narik hari itu sepadan."
+    },
+    {
+      "q": "Apakah boros baterai?",
+      "a": "DropLane tidak menyalakan GPS seharian. Ia diam sampai tahu kamu meninggalkan tempat parkir, merekam saat kamu bergerak, dan tidur lagi saat kamu berhenti."
+    },
+    {
+      "q": "Harus menekan mulai?",
+      "a": "Tidak — dan memang tidak ada tombolnya. Itu intinya. Kalau harus diingat, pasti lupa tepat di hari yang penting."
+    },
+    {
+      "q": "Kalau lupa memilih jenis perjalanan?",
+      "a": "Tidak ada yang hilang. Perjalanan tanpa jenis menunggu di tampilan Hari, dan aplikasi mengingatkanmu, bukan menebak untukmu."
+    },
+    {
+      "q": "Apakah riwayat ruteku dikirim ke mana-mana?",
+      "a": "Tidak. Tidak ada akun dan tidak ada server. Semuanya ada di iPhone-mu, dan dicadangkan hanya ke iCloud-mu sendiri kalau kamu mau."
+    },
+    {
+      "q": "Bisa dipakai tanpa sinyal?",
+      "a": "Bisa. Perekaman memakai GPS iPhone sendiri dan sama sekali tidak perlu internet. Perjalanan tanpa sinyal tampil dengan label \"Mulai\" dan \"Selesai\" sebagai ganti nama jalan, dan DropLane melengkapinya begitu ada Wi-Fi."
+    },
+    {
+      "q": "Kalau ganti HP bagaimana?",
+      "a": "Masuk ke iCloud yang sama dan perjalanan, pendapatan, serta biayamu kembali sendiri. Tidak ada akun yang harus dibuat, tidak ada kata sandi yang bisa hilang."
+    },
+    {
+      "q": "Kalau berhenti bayar, catatanku hilang?",
+      "a": "Tidak ada yang dihapus. Perjalananmu tetap di iPhone dan di iCloud-mu sendiri. Tapi DropLane butuh langganan aktif untuk dibuka, jadi kalau angkanya mau dibawa ke tempat lain, ekspor CSV dulu dari Pengaturan. Satu ketukan."
+    }
+  ],
+  "closer_h2": "Berhenti menebak berapa yang didapat hari ini.",
+  "closer_body": "14 hari gratis, tanpa akun, dan tidak ada yang perlu diingat jam enam pagi.",
+  "footer_note": "DropLane — kilometer dan pendapatan otomatis untuk kurir dan driver lepas. Dibuat oleh seorang kurir, di Torquay, Inggris.",
+  "footer_privacy": "Privasi",
+  "footer_terms": "Ketentuan",
+  "footer_support": "Bantuan",
+  "suggest_prompt": "Baca dalam bahasa Indonesia"
+}

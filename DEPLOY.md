@@ -24,7 +24,9 @@ The compact template is derived from the full one at build time, so a change
 to the full page reaches both.
 Share images (the picture a pasted link shows) come from
 `python3 ../Scripts/build_og.py`, one per language into `assets/og/`; run it
-after a headline, price or Days screenshot changes. The listing's rating in
+after a headline, price or Days screenshot changes. It renders each card with
+Google Chrome in headless mode, so Chrome must be installed; that is what gives
+Hindi, Thai and the CJK pages properly shaped text. The listing's rating in
 `_build/site.json` feeds the structured data, so update it when it moves.
 The two `/guides/` pages are hand-written, like support and privacy.
 Screenshots come from `Scripts/capture_screenshots.sh`; see
