@@ -224,5 +224,6 @@
   "footer_support": "지원",
   "suggest_prompt": "한국어로 읽기",
   "cta_soon": "출시 예정",
-  "fact_currency": "내 통화 그대로"
+  "fact_currency": "모든 통화",
+  "fact_private": "휴대폰 안에만"
 }

@@ -333,5 +333,6 @@
   "hero_trial_then": "poté {price} měsíčně",
   "compare_them": "Aplikace na kilometry ti řeknou, kolik kilometrů jsi najel.",
   "compare_us": "DropLane ti řekne, kolik sis doopravdy vydělal.",
-  "fact_currency": "ve tvé měně"
+  "fact_currency": "Každá měna",
+  "fact_private": "Zůstává v telefonu"
 }

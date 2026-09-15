@@ -333,5 +333,6 @@
   "hero_trial_then": "potem {price} miesięcznie",
   "compare_them": "Zwykłe aplikacje do liczenia kilometrów pokażą, jaki masz przebieg.",
   "compare_us": "DropLane pokaże, ile z tego zostaje na czysto.",
-  "fact_currency": "w twojej walucie"
+  "fact_currency": "Każda waluta",
+  "fact_private": "Zostaje w telefonie"
 }

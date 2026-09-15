@@ -224,5 +224,6 @@
   "footer_support": "Podpora",
   "suggest_prompt": "Beri v slovenščini",
   "cta_soon": "Kmalu",
-  "fact_currency": "v tvoji valuti"
+  "fact_currency": "Vsaka valuta",
+  "fact_private": "Ostane na telefonu"
 }

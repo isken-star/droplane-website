@@ -333,5 +333,6 @@
   "hero_trial_then": "deretter {price} i måneden",
   "compare_them": "Vanlige kjørebok-apper forteller deg hvor langt du kjørte.",
   "compare_us": "DropLane forteller deg hva du faktisk tjente.",
-  "fact_currency": "i din egen valuta"
+  "fact_currency": "Alle valutaer",
+  "fact_private": "Blir på telefonen"
 }

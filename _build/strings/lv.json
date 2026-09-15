@@ -333,5 +333,6 @@
   "hero_trial_then": "pēc tam {price} mēnesī",
   "compare_them": "Kilometru lietotnes pasaka, cik kilometru nobrauci.",
   "compare_us": "DropLane pasaka, cik tu patiešām nopelnīji.",
-  "fact_currency": "tavā valūtā"
+  "fact_currency": "Visas valūtas",
+  "fact_private": "Paliek telefonā"
 }

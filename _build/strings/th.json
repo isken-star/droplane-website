@@ -224,5 +224,6 @@
   "footer_support": "ช่วยเหลือ",
   "suggest_prompt": "อ่านเป็นภาษาไทย",
   "cta_soon": "เร็วๆ นี้",
-  "fact_currency": "ในสกุลเงินของคุณ"
+  "fact_currency": "ทุกสกุลเงิน",
+  "fact_private": "อยู่ในมือถือคุณ"
 }

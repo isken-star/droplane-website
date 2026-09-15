@@ -333,5 +333,6 @@
   "hero_trial_then": "sitten {price} kuussa",
   "compare_them": "Kilometrisovellukset kertovat, kuinka monta kilometriä ajoit.",
   "compare_us": "DropLane kertoo, mitä oikeasti tienasit.",
-  "fact_currency": "omassa valuutassasi"
+  "fact_currency": "Kaikki valuutat",
+  "fact_private": "Pysyy puhelimessasi"
 }

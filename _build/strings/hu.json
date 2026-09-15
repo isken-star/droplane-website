@@ -333,5 +333,6 @@
   "hero_trial_then": "utána havi {price}",
   "compare_them": "A kilométerszámláló appok megmondják, hány kilométert mentél.",
   "compare_us": "A DropLane megmondja, mennyit kerestél valójában.",
-  "fact_currency": "a saját pénznemedben"
+  "fact_currency": "Minden pénznem",
+  "fact_private": "A telefonodon marad"
 }

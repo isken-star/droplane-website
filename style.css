@@ -446,21 +446,29 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
   display: grid; grid-template-columns: 1.02fr .98fr;
   gap: clamp(28px, 5vw, 56px); align-items: center;
 }
-.hero-facts { display: flex; flex-wrap: wrap; gap: 22px 34px; margin: 30px 0 0; padding: 0; list-style: none; }
-.hero-facts li { min-width: 92px; }
-@media (max-width: 620px) {
-  .hero-facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-  .hero-facts b { font-size: 22px; }
-  .hero-facts span { font-size: 12.5px; }
+.hero-facts {
+  display: grid; grid-template-columns: repeat(3, auto); justify-content: start;
+  column-gap: clamp(22px, 4vw, 44px); margin: 30px 0 0; padding: 0; list-style: none;
 }
-.hero-facts b { display: block; font-size: 25px; font-weight: 800; letter-spacing: -.02em; }
-/* The currency signs and the lock are the "number" of their tiles. */
+.hero-facts li { display: flex; flex-direction: column; }
+/* Every value sits in the same box, bottom-aligned, so the digits, the
+   currency signs and the lock share one baseline. */
+.hero-facts b {
+  display: flex; align-items: flex-end; height: 30px; line-height: 1;
+  font-size: 25px; font-weight: 800; letter-spacing: -.02em;
+}
 .hero-facts b.signs { letter-spacing: .04em; white-space: nowrap; }
-.hero-facts b svg { width: 1em; height: 1em; display: block; color: var(--money); margin-bottom: 2px; }
+.hero-facts b svg { width: 27px; height: 27px; display: block; color: var(--money); }
+@media (max-width: 620px) {
+  .hero-facts { grid-template-columns: repeat(3, auto); justify-content: space-between; column-gap: 12px; }
+  .hero-facts b { height: 26px; font-size: 22px; }
+  .hero-facts b svg { width: 23px; height: 23px; }
+}
 /* The tiles are ~100px and "kilometervergoedingen" is wider than that on its
    own; a word that cannot break pushed the Dutch and Finnish pages sideways
    on a phone. Let it hyphenate — the page's lang attribute picks the rules. */
-.hero-facts span { font-size: 13px; color: var(--text-3); font-weight: 600; overflow-wrap: anywhere; hyphens: auto; }
+.hero-facts span { font-size: 13px; color: var(--text-3); font-weight: 600; margin-top: 8px; white-space: nowrap; }
+@media (max-width: 620px) { .hero-facts span { font-size: clamp(10.5px, 3.2vw, 12.5px); } }
 
 .stage { position: relative; display: flex; justify-content: center; align-items: center; }
 

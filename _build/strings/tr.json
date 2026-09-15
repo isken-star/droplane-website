@@ -333,5 +333,6 @@
   "hero_trial_then": "sonra ayda {price}",
   "compare_them": "Kilometre uygulamaları ne kadar yol gittiğini söyler.",
   "compare_us": "DropLane gerçekte ne kazandığını söyler.",
-  "fact_currency": "kendi para biriminde"
+  "fact_currency": "Her para birimi",
+  "fact_private": "Telefonunda kalır"
 }

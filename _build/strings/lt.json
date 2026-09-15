@@ -333,5 +333,6 @@
   "hero_trial_then": "vėliau {price} per mėnesį",
   "compare_them": "Kilometrų programos pasako, kiek kilometrų nuvažiavai.",
   "compare_us": "DropLane pasako, kiek iš tikrųjų uždirbai.",
-  "fact_currency": "tavo valiuta"
+  "fact_currency": "Visos valiutos",
+  "fact_private": "Lieka telefone"
 }

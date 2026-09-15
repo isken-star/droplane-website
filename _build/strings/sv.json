@@ -333,5 +333,6 @@
   "hero_trial_then": "sedan {price} i månaden",
   "compare_them": "Vanliga körjournalsappar berättar hur långt du körde.",
   "compare_us": "DropLane berättar vad du faktiskt tjänade.",
-  "fact_currency": "i din egen valuta"
+  "fact_currency": "Alla valutor",
+  "fact_private": "Stannar i telefonen"
 }

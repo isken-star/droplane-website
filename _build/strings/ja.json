@@ -224,5 +224,6 @@
   "footer_support": "サポート",
   "suggest_prompt": "日本語で読む",
   "cta_soon": "近日公開",
-  "fact_currency": "あなたの通貨で"
+  "fact_currency": "すべての通貨",
+  "fact_private": "端末の外に出ません"
 }

@@ -333,5 +333,6 @@
   "hero_trial_then": "apoi {price} pe lună",
   "compare_them": "Aplicațiile de kilometraj îți spun câți kilometri ai făcut.",
   "compare_us": "DropLane îți spune cât ai câștigat cu adevărat.",
-  "fact_currency": "în moneda ta"
+  "fact_currency": "Orice monedă",
+  "fact_private": "Rămâne pe telefon"
 }

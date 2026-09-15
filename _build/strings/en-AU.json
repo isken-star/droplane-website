@@ -333,5 +333,6 @@
   "hero_trial_then": "then {price} a month",
   "compare_them": "Mileage trackers tell you how far you drove.",
   "compare_us": "DropLane tells you whether the day was worth it.",
-  "fact_currency": "in your own currency"
+  "fact_currency": "Every currency",
+  "fact_private": "Stays on your phone"
 }

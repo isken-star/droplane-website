@@ -333,5 +333,6 @@
   "hero_trial_then": "depois {price} por mês",
   "compare_them": "As apps de quilometragem dizem-te quantos quilómetros fizeste.",
   "compare_us": "A DropLane diz-te quanto ganhaste mesmo.",
-  "fact_currency": "na tua moeda"
+  "fact_currency": "Todas as moedas",
+  "fact_private": "Fica no teu telemóvel"
 }

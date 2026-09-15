@@ -333,5 +333,6 @@
   "hero_trial_then": "después {price} al mes",
   "compare_them": "Las apps de kilometraje te dicen cuántos kilómetros has hecho.",
   "compare_us": "DropLane te dice cuánto has ganado de verdad.",
-  "fact_currency": "en tu moneda"
+  "fact_currency": "Todas las monedas",
+  "fact_private": "Se queda en tu móvil"
 }

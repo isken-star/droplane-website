@@ -224,5 +224,6 @@
   "footer_support": "Podrška",
   "suggest_prompt": "Čitaj na hrvatskom",
   "cta_soon": "Uskoro",
-  "fact_currency": "u tvojoj valuti"
+  "fact_currency": "Svaka valuta",
+  "fact_private": "Ostaje na mobitelu"
 }

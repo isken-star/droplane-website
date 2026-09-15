@@ -224,5 +224,6 @@
   "footer_support": "Suport",
   "suggest_prompt": "Llegeix-ho en català",
   "cta_soon": "Properament",
-  "fact_currency": "en la teva moneda"
+  "fact_currency": "Totes les monedes",
+  "fact_private": "Es queda al teu mòbil"
 }
