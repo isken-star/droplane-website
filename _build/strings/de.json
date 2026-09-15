@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Kilometer und Einnahmen für selbstständige Kurierfahrer, automatisch",
+  "meta_title": "DropLane — Kilometer, Einnahmen, Ausgaben — automatisch für alle, die im Job fahren",
   "meta_description": "DropLane zeichnet Kurierfahrten allein auf, zieht Sprit, Parkgebühren und laufende Kosten vom Umsatz ab und sagt dir, was die Stunde wirklich gebracht hat.",
   "nav_label": "Hauptmenü",
   "nav_how": "So funktioniert’s",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Benachrichtige mich zum Start",
   "hero_cta_how": "So funktioniert’s",
   "hero_note": "kein Konto, keine Werbung · iPhone",
-  "hero_kicker": "Kilometer und Einnahmen für selbstständige Kurierfahrer, automatisch",
+  "hero_kicker": "Kilometer, Einnahmen, Ausgaben — automatisch für alle, die im Job fahren",
   "hero_android": "Android ist unterwegs. Schreib uns, und wir sagen dir Bescheid, sobald es da ist.",
   "reviews_h2": "Was Kurierfahrer im App Store sagen",
   "countries_paperwork_h3": "Hier kennt die App die Papiere; den Satz tippst du selbst ein",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Hör auf zu raten, was der Tag gebracht hat.",
   "closer_body": "Vierzehn Tage gratis, kein Konto, und nichts, woran du um sechs Uhr früh denken musst.",
-  "footer_note": "DropLane — Kilometer und Einnahmen für selbstständige Kurierfahrer, automatisch. Gebaut von einem Kurierfahrer, in Torquay.",
+  "footer_note": "DropLane — Kilometer, Einnahmen, Ausgaben — automatisch für alle, die im Job fahren. Gebaut von einem Kurierfahrer, in Torquay.",
   "footer_privacy": "Datenschutz",
   "footer_terms": "Nutzungsbedingungen",
   "footer_support": "Hilfe",
@@ -334,5 +334,6 @@
   "compare_them": "Reine Kilometer-Apps sagen dir, wie weit du gefahren bist.",
   "compare_us": "DropLane sagt dir, ob sich der Tag gelohnt hat.",
   "fact_currency": "Jede Währung",
-  "fact_private": "Bleibt auf dem Handy"
+  "fact_private": "Daten bleiben auf dem Handy",
+  "fact_private_value": "Privat"
 }

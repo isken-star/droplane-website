@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — 개인사업자 배송기사를 위한 주행거리·수입 자동 기록 앱",
+  "meta_title": "DropLane — 일로 운전하는 모든 분을 위한 주행거리·수입·경비 자동 기록",
   "meta_description": "개인사업자 배송기사를 위한 주행거리 앱. DropLane이 주행을 자동으로 기록하고, 유류비와 경비를 수입에서 빼서 시간당 실제로 얼마를 벌었는지 보여줍니다.",
   "nav_label": "메인",
   "nav_features": "기능",
@@ -22,7 +22,7 @@
   "langbar_rest": "언어를 고르세요. 앱도 같은 언어로 씁니다.",
   "see_all": "국가별 가격",
   "per_month_short": "/월",
-  "hero_kicker": "개인사업자 배송기사를 위한 주행거리와 수입 자동 기록",
+  "hero_kicker": "일로 운전하는 모든 분을 위한 주행거리·수입·경비 자동 기록",
   "hero_h1": "오늘 하루, 진짜로 얼마 벌었는지.",
   "hero_lede": "출발하기만 하면 됩니다. DropLane이 모든 주행과 실제 경로를 기록하고, 경비를 수입에서 빼서, 집에 도착하기 전에 진짜 시급을 계산해 둡니다.",
   "hero_cta_how": "화면 보기",
@@ -218,12 +218,13 @@
   ],
   "closer_h2": "오늘 얼마 벌었는지, 이제 추측하지 마세요.",
   "closer_body": "14일 무료, 계정 없음, 새벽 6시에 기억할 것도 없음.",
-  "footer_note": "DropLane — 개인사업자 배송기사를 위한 주행거리와 수입 자동 기록. 영국 토키에서, 배송기사가 만들었습니다.",
+  "footer_note": "DropLane — 일로 운전하는 모든 분을 위한 주행거리·수입·경비 자동 기록. 영국 토키에서, 배송기사가 만들었습니다.",
   "footer_privacy": "개인정보",
   "footer_terms": "이용약관",
   "footer_support": "지원",
   "suggest_prompt": "한국어로 읽기",
   "cta_soon": "출시 예정",
   "fact_currency": "모든 통화",
-  "fact_private": "휴대폰 안에만"
+  "fact_private": "데이터는 휴대폰에만",
+  "fact_private_value": "비공개"
 }

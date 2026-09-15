@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Automatisk kjørebok og inntekt for selvstendige bud",
+  "meta_title": "DropLane — Kjøring, inntekt og utgifter automatisk — for alle som kjører i jobben",
   "meta_description": "DropLane registrerer turene til bud og sjåfører av seg selv, trekker drivstoff, parkering og driftskostnader fra inntekten og viser hva timen faktisk ga.",
   "nav_label": "Hovedmeny",
   "nav_how": "Slik virker det",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Få beskjed ved lansering",
   "hero_cta_how": "Slik virker det",
   "hero_note": "ingen konto, ingen reklame · iPhone",
-  "hero_kicker": "Automatisk kjørebok og inntekt for selvstendige bud",
+  "hero_kicker": "Kjøring, inntekt og utgifter automatisk — for alle som kjører i jobben",
   "hero_android": "Android er på vei. Send oss en e-post, så sier vi fra når den er ute.",
   "reviews_h2": "Hva bud sier på App Store",
   "countries_paperwork_h3": "Her kjenner appen papirene; satsen skriver du inn selv",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Slutt å gjette hva du tjente.",
   "closer_body": "Fjorten dager gratis, ingen konto, og ingenting å huske klokka seks om morgenen.",
-  "footer_note": "DropLane — automatisk kjørebok og inntekt for selvstendige bud. Bygget av et bud, i Torquay.",
+  "footer_note": "DropLane — kjøring, inntekt og utgifter automatisk — for alle som kjører i jobben. Bygget av et bud, i Torquay.",
   "footer_privacy": "Personvern",
   "footer_terms": "Vilkår",
   "footer_support": "Support",
@@ -334,5 +334,6 @@
   "compare_them": "Vanlige kjørebok-apper forteller deg hvor langt du kjørte.",
   "compare_us": "DropLane forteller deg hva du faktisk tjente.",
   "fact_currency": "Alle valutaer",
-  "fact_private": "Blir på telefonen"
+  "fact_private": "Data blir på telefonen",
+  "fact_private_value": "Privat"
 }

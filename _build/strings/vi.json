@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Ghi quãng đường và thu nhập tự động cho shipper, tài xế giao hàng tự do",
+  "meta_title": "DropLane — Quãng đường, thu nhập và chi phí tự động cho bất kỳ ai lái xe vì công việc",
   "meta_description": "Ứng dụng ghi quãng đường cho shipper và tài xế giao hàng tự do. DropLane tự ghi lại mọi chuyến, trừ xăng và chi phí khỏi thu nhập, và cho biết mỗi giờ thực sự kiếm được bao nhiêu.",
   "nav_label": "Chính",
   "nav_features": "Tính năng",
@@ -22,7 +22,7 @@
   "langbar_rest": "Chọn ngôn ngữ của bạn — ứng dụng cũng dùng đúng ngôn ngữ đó.",
   "see_all": "tất cả quốc gia",
   "per_month_short": "/tháng",
-  "hero_kicker": "Ghi quãng đường và thu nhập tự động cho shipper và tài xế giao hàng tự do",
+  "hero_kicker": "Quãng đường, thu nhập và chi phí tự động cho bất kỳ ai lái xe vì công việc",
   "hero_h1": "Biết hôm nay thực sự kiếm được bao nhiêu.",
   "hero_lede": "Cứ lái xe đi. DropLane tự ghi lại mọi chuyến và lộ trình thực tế, trừ chi phí khỏi thu nhập, và tính xong thu nhập thực mỗi giờ trước khi bạn về đến nhà.",
   "hero_cta_how": "Xem màn hình",
@@ -218,12 +218,13 @@
   ],
   "closer_h2": "Đừng đoán hôm nay kiếm được bao nhiêu nữa.",
   "closer_body": "14 ngày miễn phí, không tài khoản, và sáu giờ sáng chẳng có gì phải nhớ.",
-  "footer_note": "DropLane — ghi quãng đường và thu nhập tự động cho shipper và tài xế giao hàng tự do. Do một tài xế giao hàng làm ra, ở Torquay, Anh.",
+  "footer_note": "DropLane — quãng đường, thu nhập và chi phí tự động cho bất kỳ ai lái xe vì công việc. Do một tài xế giao hàng làm ra, ở Torquay, Anh.",
   "footer_privacy": "Quyền riêng tư",
   "footer_terms": "Điều khoản",
   "footer_support": "Hỗ trợ",
   "suggest_prompt": "Đọc bằng tiếng Việt",
   "cta_soon": "Sắp ra mắt",
   "fact_currency": "Mọi loại tiền",
-  "fact_private": "Ở trên điện thoại bạn"
+  "fact_private": "Dữ liệu ở trong máy bạn",
+  "fact_private_value": "Riêng tư"
 }

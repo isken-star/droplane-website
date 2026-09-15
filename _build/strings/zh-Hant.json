@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — 自營送貨司機的里程與收入自動記錄 App",
+  "meta_title": "DropLane — 為所有為工作開車的人自動記錄里程、收入與支出",
   "meta_description": "為自營送貨司機打造的里程記錄 App。DropLane 自動記錄每一趟行程，從收入扣掉油錢和支出，告訴你每小時到底賺了多少。",
   "nav_label": "主選單",
   "nav_features": "功能",
@@ -22,7 +22,7 @@
   "langbar_rest": "選一種，App 也用同一種語言。",
   "see_all": "各國價格",
   "per_month_short": "/月",
-  "hero_kicker": "為自營送貨司機自動記錄里程與收入",
+  "hero_kicker": "為所有為工作開車的人自動記錄里程、收入與支出",
   "hero_h1": "這一天，到底賺了多少。",
   "hero_lede": "開車出發就好。DropLane 自動記錄每一趟行程和實際走的路線，從收入扣掉支出，在你到家之前就算好真正的時薪。",
   "hero_cta_how": "看看畫面",
@@ -218,12 +218,13 @@
   ],
   "closer_h2": "別再猜這一天賺了多少。",
   "closer_body": "14 天免費，不用帳號，早上六點也沒什麼要記住的。",
-  "footer_note": "DropLane——為自營送貨司機自動記錄里程與收入。由一位送貨司機在英國托基打造。",
+  "footer_note": "DropLane — 為所有為工作開車的人自動記錄里程、收入與支出。由一位送貨司機在英國托基打造。",
   "footer_privacy": "隱私權",
   "footer_terms": "條款",
   "footer_support": "支援",
   "suggest_prompt": "用繁體中文閱讀",
   "cta_soon": "即將推出",
   "fact_currency": "所有貨幣",
-  "fact_private": "只留在你的手機"
+  "fact_private": "資料只留在你的手機",
+  "fact_private_value": "私密"
 }

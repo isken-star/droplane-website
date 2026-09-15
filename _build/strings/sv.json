@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Automatisk körjournal och intäkter för egenanställda kurirer",
+  "meta_title": "DropLane — Körning, intäkter och utgifter automatiskt — för alla som kör i jobbet",
   "meta_description": "DropLane registrerar kurirens körningar av sig själv, drar bränsle, parkering och driftskostnader från intäkterna och visar vad du faktiskt tjänar i timmen.",
   "nav_label": "Huvudmeny",
   "nav_how": "Så fungerar det",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Få besked när den släpps",
   "hero_cta_how": "Så fungerar det",
   "hero_note": "inget konto, inga annonser · iPhone",
-  "hero_kicker": "Automatisk körjournal och intäkter för egenanställda kurirer",
+  "hero_kicker": "Körning, intäkter och utgifter automatiskt — för alla som kör i jobbet",
   "hero_android": "Android är på väg. Mejla oss så säger vi till när den är ute.",
   "reviews_h2": "Vad kurirer säger på App Store",
   "countries_paperwork_h3": "Här känner appen till papperen; schablonen skriver du in själv",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Sluta gissa vad du tjänade.",
   "closer_body": "Fjorton dagar gratis, inget konto, och ingenting att komma ihåg klockan sex på morgonen.",
-  "footer_note": "DropLane — automatisk körjournal och intäkter för egenanställda kurirer. Byggd av en kurir, i Torquay.",
+  "footer_note": "DropLane — körning, intäkter och utgifter automatiskt — för alla som kör i jobbet. Byggd av en kurir, i Torquay.",
   "footer_privacy": "Integritet",
   "footer_terms": "Villkor",
   "footer_support": "Support",
@@ -334,5 +334,6 @@
   "compare_them": "Vanliga körjournalsappar berättar hur långt du körde.",
   "compare_us": "DropLane berättar vad du faktiskt tjänade.",
   "fact_currency": "Alla valutor",
-  "fact_private": "Stannar i telefonen"
+  "fact_private": "Data stannar i telefonen",
+  "fact_private_value": "Privat"
 }

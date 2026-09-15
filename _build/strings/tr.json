@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Kendi hesabına çalışan kuryeler için otomatik kilometre ve kazanç",
+  "meta_title": "DropLane — İş için araç kullanan herkes için otomatik kilometre, kazanç ve gider",
   "meta_description": "DropLane bir kuryenin sürüşlerini kendi başına kaydeder; yakıtı, otoparkı ve sabit giderleri kazançtan düşer ve gerçek saatlik kazancını gösterir.",
   "nav_label": "Ana menü",
   "nav_how": "Nasıl çalışır",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Çıkınca haber ver",
   "hero_cta_how": "Nasıl çalışır",
   "hero_note": "hesap yok, reklam yok · iPhone",
-  "hero_kicker": "Kendi hesabına çalışan kuryeler için otomatik kilometre ve kazanç",
+  "hero_kicker": "İş için araç kullanan herkes için otomatik kilometre, kazanç ve gider",
   "hero_android": "Android yolda. Bize yaz, çıkınca haber verelim.",
   "reviews_h2": "Kuryeler App Store'da ne diyor",
   "countries_paperwork_h3": "Burada uygulama evrakları biliyor; oranı sen giriyorsun",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Ne kazandığını tahmin etmeyi bırak.",
   "closer_body": "On dört gün ücretsiz, hesap yok ve sabahın altısında hatırlanacak hiçbir şey yok.",
-  "footer_note": "DropLane — kendi hesabına çalışan kuryeler için otomatik kilometre ve kazanç. Torquay’de bir kurye tarafından yapıldı.",
+  "footer_note": "DropLane — i̇ş için araç kullanan herkes için otomatik kilometre, kazanç ve gider. Torquay’de bir kurye tarafından yapıldı.",
   "footer_privacy": "Gizlilik",
   "footer_terms": "Koşullar",
   "footer_support": "Yardım",
@@ -334,5 +334,6 @@
   "compare_them": "Kilometre uygulamaları ne kadar yol gittiğini söyler.",
   "compare_us": "DropLane gerçekte ne kazandığını söyler.",
   "fact_currency": "Her para birimi",
-  "fact_private": "Telefonunda kalır"
+  "fact_private": "Veriler telefonunda kalır",
+  "fact_private_value": "Gizli"
 }

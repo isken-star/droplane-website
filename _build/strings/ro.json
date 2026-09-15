@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Kilometri și încasări automate pentru curierii pe cont propriu",
+  "meta_title": "DropLane — Kilometri, încasări și cheltuieli automat — pentru oricine conduce pentru muncă",
   "meta_description": "DropLane înregistrează singur cursele curierului, scade combustibilul, parcarea și cheltuielile mașinii din încasări și îți arată câștigul real pe oră.",
   "nav_label": "Meniu principal",
   "nav_how": "Cum funcționează",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Anunță-mă la lansare",
   "hero_cta_how": "Cum funcționează",
   "hero_note": "fără cont, fără reclame · iPhone",
-  "hero_kicker": "Kilometri și încasări automate pentru curierii pe cont propriu",
+  "hero_kicker": "Kilometri, încasări și cheltuieli automat — pentru oricine conduce pentru muncă",
   "hero_android": "Android e pe drum. Scrie-ne și îți spunem când apare.",
   "reviews_h2": "Ce spun curierii pe App Store",
   "countries_paperwork_h3": "Aici aplicația știe actele; tariful îl scrii tu",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Nu mai ghici cât ai câștigat.",
   "closer_body": "Paisprezece zile gratis, fără cont și fără nimic de ținut minte la șase dimineața.",
-  "footer_note": "DropLane — kilometri și încasări automate pentru curierii pe cont propriu. Făcută de un curier, în Torquay.",
+  "footer_note": "DropLane — kilometri, încasări și cheltuieli automat — pentru oricine conduce pentru muncă. Făcută de un curier, în Torquay.",
   "footer_privacy": "Confidențialitate",
   "footer_terms": "Termeni",
   "footer_support": "Ajutor",
@@ -334,5 +334,6 @@
   "compare_them": "Aplicațiile de kilometraj îți spun câți kilometri ai făcut.",
   "compare_us": "DropLane îți spune cât ai câștigat cu adevărat.",
   "fact_currency": "Orice monedă",
-  "fact_private": "Rămâne pe telefon"
+  "fact_private": "Datele rămân pe telefon",
+  "fact_private_value": "Privat"
 }

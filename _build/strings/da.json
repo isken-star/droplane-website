@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Automatisk kørselsregnskab og indtjening for selvstændige kurerer",
+  "meta_title": "DropLane — Kørsel, indtjening og udgifter automatisk — for alle, der kører i arbejdet",
   "meta_description": "DropLane registrerer bud- og varebilsture af sig selv, trækker brændstof, parkering og driftsudgifter fra indtjeningen og viser, hvad timen faktisk gav.",
   "nav_label": "Hovedmenu",
   "nav_how": "Sådan virker det",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Få besked ved lanceringen",
   "hero_cta_how": "Sådan virker det",
   "hero_note": "ingen konto, ingen reklamer · iPhone",
-  "hero_kicker": "Automatisk kørselsregnskab og indtjening for selvstændige kurerer",
+  "hero_kicker": "Kørsel, indtjening og udgifter automatisk — for alle, der kører i arbejdet",
   "hero_android": "Android er på vej. Skriv til os, så siger vi til, når den er ude.",
   "reviews_h2": "Hvad kurerer siger på App Store",
   "countries_paperwork_h3": "Her kender appen papirerne; satsen taster du selv ind",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Hold op med at gætte på, hvad du tjente.",
   "closer_body": "Fjorten dage gratis, ingen konto, og intet at huske klokken seks om morgenen.",
-  "footer_note": "DropLane — automatisk kørselsregnskab og indtjening for selvstændige kurerer. Lavet af en kurer, i Torquay.",
+  "footer_note": "DropLane — kørsel, indtjening og udgifter automatisk — for alle, der kører i arbejdet. Lavet af en kurer, i Torquay.",
   "footer_privacy": "Privatliv",
   "footer_terms": "Betingelser",
   "footer_support": "Support",
@@ -334,5 +334,6 @@
   "compare_them": "Almindelige kilometer-apps fortæller dig, hvor langt du kørte.",
   "compare_us": "DropLane fortæller dig, hvad du faktisk tjente.",
   "fact_currency": "Alle valutaer",
-  "fact_private": "Bliver på din telefon"
+  "fact_private": "Data bliver på din telefon",
+  "fact_private_value": "Privat"
 }

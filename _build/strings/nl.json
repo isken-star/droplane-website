@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Kilometers en inkomsten voor zelfstandige koeriers, automatisch",
+  "meta_title": "DropLane — Kilometers, inkomsten, uitgaven — automatisch voor wie rijdt voor werk",
   "meta_description": "DropLane legt de ritten van de koerier vanzelf vast, haalt brandstof, parkeergeld en autokosten van de omzet af en vertelt je wat je echt per uur verdient.",
   "nav_label": "Hoofdmenu",
   "nav_how": "Hoe het werkt",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Hou me op de hoogte",
   "hero_cta_how": "Hoe het werkt",
   "hero_note": "geen account, geen advertenties · iPhone",
-  "hero_kicker": "Kilometers en inkomsten voor zelfstandige koeriers, automatisch",
+  "hero_kicker": "Kilometers, inkomsten, uitgaven — automatisch voor wie rijdt voor werk",
   "hero_android": "Android komt eraan. Mail ons en we laten je weten wanneer het zover is.",
   "reviews_h2": "Wat koeriers zeggen in de App Store",
   "countries_paperwork_h3": "Hier kent de app de papieren; het tarief typ je zelf in",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Stop met gokken wat je verdiend hebt.",
   "closer_body": "Veertien dagen gratis, geen account, en niets om om zes uur 's ochtends aan te denken.",
-  "footer_note": "DropLane — kilometers en inkomsten voor zelfstandige koeriers, automatisch. Gebouwd door een koerier, in Torquay.",
+  "footer_note": "DropLane — kilometers, inkomsten, uitgaven — automatisch voor wie rijdt voor werk. Gebouwd door een koerier, in Torquay.",
   "footer_privacy": "Privacy",
   "footer_terms": "Voorwaarden",
   "footer_support": "Support",
@@ -334,5 +334,6 @@
   "compare_them": "Kilometer-apps vertellen je hoe ver je reed.",
   "compare_us": "DropLane vertelt je wat je er echt aan overhield.",
   "fact_currency": "Elke valuta",
-  "fact_private": "Blijft op je telefoon"
+  "fact_private": "Data blijft op je telefoon",
+  "fact_private_value": "Privé"
 }

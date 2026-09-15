@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Kilometry a výdělky pro kurýry na volné noze, automaticky",
+  "meta_title": "DropLane — Kilometry, výdělky a výdaje automaticky — pro každého, kdo jezdí kvůli práci",
   "meta_description": "DropLane sám zaznamená jízdy kurýra, odečte palivo, parkování a provozní náklady od tržeb a ukáže ti skutečnou hodinovku.",
   "nav_label": "Hlavní menu",
   "nav_how": "Jak to funguje",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Dej mi vědět, až vyjde",
   "hero_cta_how": "Jak to funguje",
   "hero_note": "žádný účet, žádné reklamy · iPhone",
-  "hero_kicker": "Kilometry a výdělky pro kurýry na volné noze, automaticky",
+  "hero_kicker": "Kilometry, výdělky a výdaje automaticky — pro každého, kdo jezdí kvůli práci",
   "hero_android": "Android je na cestě. Napiš nám a dáme ti vědět, až vyjde.",
   "reviews_h2": "Co říkají kurýři v App Storu",
   "countries_paperwork_h3": "Tady aplikace zná doklady; sazbu si zadáš sám",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Přestaň hádat, kolik sis vydělal.",
   "closer_body": "Čtrnáct dní zdarma, žádný účet a nic, na co si musíš v šest ráno vzpomenout.",
-  "footer_note": "DropLane — kilometry a výdělky pro kurýry na volné noze, automaticky. Postavil ji kurýr, v Torquay.",
+  "footer_note": "DropLane — kilometry, výdělky a výdaje automaticky — pro každého, kdo jezdí kvůli práci. Postavil ji kurýr, v Torquay.",
   "footer_privacy": "Soukromí",
   "footer_terms": "Podmínky",
   "footer_support": "Podpora",
@@ -334,5 +334,6 @@
   "compare_them": "Aplikace na kilometry ti řeknou, kolik kilometrů jsi najel.",
   "compare_us": "DropLane ti řekne, kolik sis doopravdy vydělal.",
   "fact_currency": "Každá měna",
-  "fact_private": "Zůstává v telefonu"
+  "fact_private": "Data zůstávají v telefonu",
+  "fact_private_value": "Soukromé"
 }

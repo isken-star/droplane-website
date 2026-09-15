@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Automaattinen ajopäiväkirja ja tulot itsenäisille kuriireille",
+  "meta_title": "DropLane — Ajot, tulot ja kulut automaattisesti — kaikille, jotka ajavat työkseen",
   "meta_description": "DropLane tallentaa kuriirin ajot itsestään, vähentää polttoaineen, pysäköinnin ja käyttökulut tuloista ja kertoo mitä oikeasti tienaat tunnissa.",
   "nav_label": "Päävalikko",
   "nav_how": "Näin se toimii",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Ilmoita julkaisusta",
   "hero_cta_how": "Näin se toimii",
   "hero_note": "ei tiliä, ei mainoksia · iPhone",
-  "hero_kicker": "Automaattinen ajopäiväkirja ja tulot itsenäisille kuriireille",
+  "hero_kicker": "Ajot, tulot ja kulut automaattisesti — kaikille, jotka ajavat työkseen",
   "hero_android": "Android on tulossa. Lähetä meille sähköpostia, niin kerromme, kun se julkaistaan.",
   "reviews_h2": "Mitä kuriirit sanovat App Storessa",
   "countries_paperwork_h3": "Täällä sovellus tuntee paperit; korvauksen kirjoitat itse",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Lopeta arvailu siitä mitä tienasit.",
   "closer_body": "Neljätoista päivää ilmaiseksi, ei tiliä, eikä mitään muistettavaa kuudelta aamulla.",
-  "footer_note": "DropLane — automaattinen ajopäiväkirja ja tulot itsenäisille kuriireille. Rakentanut kuriiri, Torquayssa.",
+  "footer_note": "DropLane — ajot, tulot ja kulut automaattisesti — kaikille, jotka ajavat työkseen. Rakentanut kuriiri, Torquayssa.",
   "footer_privacy": "Tietosuoja",
   "footer_terms": "Ehdot",
   "footer_support": "Tuki",
@@ -334,5 +334,6 @@
   "compare_them": "Kilometrisovellukset kertovat, kuinka monta kilometriä ajoit.",
   "compare_us": "DropLane kertoo, mitä oikeasti tienasit.",
   "fact_currency": "Kaikki valuutat",
-  "fact_private": "Pysyy puhelimessasi"
+  "fact_private": "Tiedot pysyvät puhelimessa",
+  "fact_private_value": "Yksityinen"
 }

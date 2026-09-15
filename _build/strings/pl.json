@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Automatyczny przebieg i zarobki dla kurierów na swoim",
+  "meta_title": "DropLane — Przebieg, zarobki i wydatki automatycznie — dla każdego, kto jeździ w pracy",
   "meta_description": "DropLane sam zapisuje przejazdy kuriera, odejmuje paliwo, parkingi i koszty auta od przychodów i pokazuje twoją realną stawkę godzinową.",
   "nav_label": "Menu główne",
   "nav_how": "Jak to działa",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Powiadom mnie o premierze",
   "hero_cta_how": "Jak to działa",
   "hero_note": "bez konta, bez reklam · iPhone",
-  "hero_kicker": "Automatyczny przebieg i zarobki dla kurierów na swoim",
+  "hero_kicker": "Przebieg, zarobki i wydatki automatycznie — dla każdego, kto jeździ w pracy",
   "hero_android": "Android jest w drodze. Napisz do nas, a damy znać, gdy wyjdzie.",
   "reviews_h2": "Co kurierzy piszą w App Store",
   "countries_paperwork_h3": "Tu aplikacja zna dokumenty; stawkę wpisujesz sam",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Przestań zgadywać, ile zostaje z dnia.",
   "closer_body": "Czternaście dni za darmo, bez konta i bez niczego do zapamiętania o szóstej rano.",
-  "footer_note": "DropLane — automatyczny przebieg i zarobki dla kurierów na swoim. Zrobione przez kuriera, w Torquay.",
+  "footer_note": "DropLane — przebieg, zarobki i wydatki automatycznie — dla każdego, kto jeździ w pracy. Zrobione przez kuriera, w Torquay.",
   "footer_privacy": "Prywatność",
   "footer_terms": "Regulamin",
   "footer_support": "Pomoc",
@@ -334,5 +334,6 @@
   "compare_them": "Zwykłe aplikacje do liczenia kilometrów pokażą, jaki masz przebieg.",
   "compare_us": "DropLane pokaże, ile z tego zostaje na czysto.",
   "fact_currency": "Każda waluta",
-  "fact_private": "Zostaje w telefonie"
+  "fact_private": "Dane zostają w telefonie",
+  "fact_private_value": "Prywatne"
 }

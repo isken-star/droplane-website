@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Pencatat kilometer dan pendapatan otomatis untuk kurir lepas",
+  "meta_title": "DropLane — Kilometer, pendapatan, dan biaya otomatis untuk siapa pun yang menyetir untuk kerja",
   "meta_description": "Aplikasi pencatat kilometer untuk kurir dan driver lepas. DropLane merekam setiap perjalanan sendiri, memotong BBM dan biaya dari pendapatan, dan menunjukkan berapa yang benar-benar didapat per jam.",
   "nav_label": "Utama",
   "nav_features": "Fitur",
@@ -22,7 +22,7 @@
   "langbar_rest": "Pilih bahasamu — aplikasinya juga memakainya.",
   "see_all": "semua negara",
   "per_month_short": "/bulan",
-  "hero_kicker": "Kilometer dan pendapatan otomatis untuk kurir dan driver lepas",
+  "hero_kicker": "Kilometer, pendapatan, dan biaya otomatis untuk siapa pun yang menyetir untuk kerja",
   "hero_h1": "Tahu berapa yang benar-benar didapat hari ini.",
   "hero_lede": "Tinggal jalan. DropLane merekam setiap perjalanan dan rute yang benar-benar ditempuh, memotong biaya dari pendapatan, dan menghitung penghasilan per jam yang sebenarnya sebelum kamu sampai di rumah.",
   "hero_cta_how": "Lihat tampilannya",
@@ -218,12 +218,13 @@
   ],
   "closer_h2": "Berhenti menebak berapa yang didapat hari ini.",
   "closer_body": "14 hari gratis, tanpa akun, dan tidak ada yang perlu diingat jam enam pagi.",
-  "footer_note": "DropLane — kilometer dan pendapatan otomatis untuk kurir dan driver lepas. Dibuat oleh seorang kurir, di Torquay, Inggris.",
+  "footer_note": "DropLane — kilometer, pendapatan, dan biaya otomatis untuk siapa pun yang menyetir untuk kerja. Dibuat oleh seorang kurir, di Torquay, Inggris.",
   "footer_privacy": "Privasi",
   "footer_terms": "Ketentuan",
   "footer_support": "Bantuan",
   "suggest_prompt": "Baca dalam bahasa Indonesia",
   "cta_soon": "Segera hadir",
   "fact_currency": "Semua mata uang",
-  "fact_private": "Tetap di HP-mu"
+  "fact_private": "Data tetap di HP-mu",
+  "fact_private_value": "Privat"
 }

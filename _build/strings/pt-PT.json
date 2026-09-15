@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Quilometragem e ganhos automáticos para estafetas independentes",
+  "meta_title": "DropLane — Km, ganhos e despesas automáticos para quem conduz por trabalho",
   "meta_description": "A DropLane grava sozinha as viagens de quem faz entregas, tira combustível, estacionamento e custos correntes aos ganhos e diz-te quanto ganhas mesmo à hora.",
   "nav_label": "Menu principal",
   "nav_how": "Como funciona",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Avisa-me no lançamento",
   "hero_cta_how": "Como funciona",
   "hero_note": "sem conta, sem anúncios · iPhone",
-  "hero_kicker": "Quilometragem e ganhos automáticos para estafetas independentes",
+  "hero_kicker": "Km, ganhos e despesas automáticos para quem conduz por trabalho",
   "hero_android": "O Android está a caminho. Escreve-nos e avisamos-te quando sair.",
   "reviews_h2": "O que dizem os estafetas na App Store",
   "countries_paperwork_h3": "Aqui a app conhece os papéis; a taxa escreves tu",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Deixa de adivinhar quanto ganhaste.",
   "closer_body": "Catorze dias grátis, sem conta, e nada para te lembrares às seis da manhã.",
-  "footer_note": "DropLane — quilometragem e ganhos automáticos para estafetas independentes. Feita por um estafeta, em Torquay.",
+  "footer_note": "DropLane — km, ganhos e despesas automáticos para quem conduz por trabalho. Feita por um estafeta, em Torquay.",
   "footer_privacy": "Privacidade",
   "footer_terms": "Termos",
   "footer_support": "Ajuda",
@@ -334,5 +334,6 @@
   "compare_them": "As apps de quilometragem dizem-te quantos quilómetros fizeste.",
   "compare_us": "A DropLane diz-te quanto ganhaste mesmo.",
   "fact_currency": "Todas as moedas",
-  "fact_private": "Fica no teu telemóvel"
+  "fact_private": "Dados ficam no telemóvel",
+  "fact_private_value": "Privado"
 }

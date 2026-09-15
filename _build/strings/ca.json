@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Quilòmetres i ingressos automàtics per a repartidors autònoms",
+  "meta_title": "DropLane — Quilòmetres, ingressos i despeses automàtics per a qui condueix per feina",
   "meta_description": "Quilometratge per a repartidors autònoms. DropLane registra cada viatge tot sol, resta combustible i despeses dels ingressos i et diu què ha pagat cada hora.",
   "nav_label": "Principal",
   "nav_features": "Què fa",
@@ -22,7 +22,7 @@
   "langbar_rest": "Tria el teu — l'app també el parla.",
   "see_all": "tots els països",
   "per_month_short": "al mes",
-  "hero_kicker": "Quilòmetres i ingressos automàtics per a repartidors autònoms",
+  "hero_kicker": "Quilòmetres, ingressos i despeses automàtics per a qui condueix per feina",
   "hero_h1": "Saber què ha pagat de veritat el dia.",
   "hero_lede": "Arrenca i prou. DropLane registra cada viatge i la ruta que has fet de veritat, resta les despeses dels ingressos i et té el sou per hora real calculat abans que arribis a casa.",
   "hero_cta_how": "Mira les pantalles",
@@ -218,12 +218,13 @@
   ],
   "closer_h2": "Deixa d'endevinar què ha fet el dia.",
   "closer_body": "Catorze dies gratis, sense compte, i res a recordar a les sis del matí.",
-  "footer_note": "DropLane — quilòmetres i ingressos automàtics per a repartidors autònoms. Feta per un repartidor, a Torquay.",
+  "footer_note": "DropLane — quilòmetres, ingressos i despeses automàtics per a qui condueix per feina. Feta per un repartidor, a Torquay.",
   "footer_privacy": "Privadesa",
   "footer_terms": "Condicions",
   "footer_support": "Suport",
   "suggest_prompt": "Llegeix-ho en català",
   "cta_soon": "Properament",
   "fact_currency": "Totes les monedes",
-  "fact_private": "Es queda al teu mòbil"
+  "fact_private": "Dades només al mòbil",
+  "fact_private_value": "Privat"
 }

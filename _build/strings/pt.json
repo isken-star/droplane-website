@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Quilometragem e ganhos automáticos para entregadores autônomos",
+  "meta_title": "DropLane — Km, ganhos e despesas automáticos para quem dirige a trabalho",
   "meta_description": "O DropLane grava sozinho as viagens de quem faz entregas, tira combustível, estacionamento e custos fixos dos ganhos e mostra quanto você ganha mesmo por hora.",
   "nav_label": "Menu principal",
   "nav_how": "Como funciona",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Avise-me no lançamento",
   "hero_cta_how": "Como funciona",
   "hero_note": "sem conta, sem anúncios · iPhone",
-  "hero_kicker": "Quilometragem e ganhos automáticos para entregadores autônomos",
+  "hero_kicker": "Km, ganhos e despesas automáticos para quem dirige a trabalho",
   "hero_android": "O Android está a caminho. Mande um e-mail e a gente avisa quando sair.",
   "reviews_h2": "O que os entregadores dizem na App Store",
   "countries_paperwork_h3": "Aqui o app conhece os documentos; a taxa você digita",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Pare de adivinhar quanto você ganhou.",
   "closer_body": "Quatorze dias grátis, sem conta, e nada para lembrar às seis da manhã.",
-  "footer_note": "DropLane — quilometragem e ganhos automáticos para entregadores autônomos. Feito por um entregador, em Torquay.",
+  "footer_note": "DropLane — km, ganhos e despesas automáticos para quem dirige a trabalho. Feito por um entregador, em Torquay.",
   "footer_privacy": "Privacidade",
   "footer_terms": "Termos",
   "footer_support": "Ajuda",
@@ -334,5 +334,6 @@
   "compare_them": "Os apps de quilometragem dizem quantos quilômetros você rodou.",
   "compare_us": "O DropLane diz quanto você ganhou de verdade.",
   "fact_currency": "Todas as moedas",
-  "fact_private": "Fica no seu celular"
+  "fact_private": "Dados ficam no celular",
+  "fact_private_value": "Privado"
 }

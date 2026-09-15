@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Automātiska kilometru un ieņēmumu uzskaite pašnodarbinātiem kurjeriem",
+  "meta_title": "DropLane — Kilometri, ieņēmumi, izdevumi — automātiski, ja brauc darba dēļ",
   "meta_description": "DropLane pats pieraksta kurjera braucienus, atskaita degvielu, stāvvietu un pastāvīgās izmaksas no ieņēmumiem un parāda, cik tu patiešām nopelni stundā.",
   "nav_label": "Galvenā izvēlne",
   "nav_how": "Kā tas strādā",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Paziņo, kad iznāks",
   "hero_cta_how": "Kā tas strādā",
   "hero_note": "bez konta, bez reklāmām · iPhone",
-  "hero_kicker": "Automātiska kilometru un ieņēmumu uzskaite pašnodarbinātiem kurjeriem",
+  "hero_kicker": "Kilometri, ieņēmumi, izdevumi — automātiski, ja brauc darba dēļ",
   "hero_android": "Android versija ir ceļā. Uzraksti mums, un mēs paziņosim, kad tā iznāks.",
   "reviews_h2": "Ko kurjeri saka App Store",
   "countries_paperwork_h3": "Šeit lietotne zina dokumentus; likmi ievadi pats",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Beidz minēt, cik nopelnīji.",
   "closer_body": "Četrpadsmit dienas bez maksas, bez konta, un nekā, kas jāatceras sešos no rīta.",
-  "footer_note": "DropLane — automātiska kilometru un ieņēmumu uzskaite pašnodarbinātiem kurjeriem. Uzbūvējis kurjers, Torkvijā.",
+  "footer_note": "DropLane — kilometri, ieņēmumi, izdevumi — automātiski, ja brauc darba dēļ. Uzbūvējis kurjers, Torkvijā.",
   "footer_privacy": "Privātums",
   "footer_terms": "Noteikumi",
   "footer_support": "Palīdzība",
@@ -334,5 +334,6 @@
   "compare_them": "Kilometru lietotnes pasaka, cik kilometru nobrauci.",
   "compare_us": "DropLane pasaka, cik tu patiešām nopelnīji.",
   "fact_currency": "Visas valūtas",
-  "fact_private": "Paliek telefonā"
+  "fact_private": "Dati paliek telefonā",
+  "fact_private_value": "Privāti"
 }

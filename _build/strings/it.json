@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Chilometri e incassi automatici per corrieri autonomi",
+  "meta_title": "DropLane — Chilometri, incassi e spese automatici per chi guida per lavoro",
   "meta_description": "DropLane registra da solo i viaggi del corriere, toglie carburante, parcheggi e spese del mezzo dagli incassi e ti dice quanto guadagni davvero all'ora.",
   "nav_label": "Menu principale",
   "nav_how": "Come funziona",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Avvisami al lancio",
   "hero_cta_how": "Come funziona",
   "hero_note": "nessun account, nessuna pubblicità · iPhone",
-  "hero_kicker": "Chilometri e incassi automatici per corrieri autonomi",
+  "hero_kicker": "Chilometri, incassi e spese automatici per chi guida per lavoro",
   "hero_android": "Android è in arrivo. Scrivici e ti avvisiamo quando esce.",
   "reviews_h2": "Cosa dicono i corrieri sull'App Store",
   "countries_paperwork_h3": "Qui l'app conosce i documenti; la tariffa la inserisci tu",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Smetti di indovinare quanto hai guadagnato.",
   "closer_body": "Quattordici giorni gratis, nessun account e niente da ricordare alle sei del mattino.",
-  "footer_note": "DropLane — chilometri e incassi automatici per corrieri autonomi. Fatta da un corriere, a Torquay.",
+  "footer_note": "DropLane — chilometri, incassi e spese automatici per chi guida per lavoro. Fatta da un corriere, a Torquay.",
   "footer_privacy": "Privacy",
   "footer_terms": "Termini",
   "footer_support": "Assistenza",
@@ -334,5 +334,6 @@
   "compare_them": "Le app per i chilometri ti dicono quanti chilometri hai fatto.",
   "compare_us": "DropLane ti dice quanto hai guadagnato davvero.",
   "fact_currency": "Ogni valuta",
-  "fact_private": "Resta sul telefono"
+  "fact_private": "I dati restano sul telefono",
+  "fact_private_value": "Privato"
 }

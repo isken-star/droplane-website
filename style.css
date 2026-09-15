@@ -447,22 +447,20 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
   gap: clamp(28px, 5vw, 56px); align-items: center;
 }
 .hero-facts {
-  display: grid; grid-template-columns: repeat(3, auto); justify-content: start;
-  column-gap: clamp(22px, 4vw, 44px); margin: 30px 0 0; padding: 0; list-style: none;
+  display: grid; grid-template-columns: repeat(3, max-content); justify-content: space-between;
+  max-width: 560px; margin: 30px 0 0; padding: 0; list-style: none;
 }
-.hero-facts li { display: flex; flex-direction: column; }
-/* Every value sits in the same box, bottom-aligned, so the digits, the
-   currency signs and the lock share one baseline. */
+/* Three typed tiles, each value centred over its label, all values in one
+   fixed-height box so "45", the currency signs and "Private" share a baseline. */
+.hero-facts li { display: flex; flex-direction: column; align-items: center; text-align: center; }
 .hero-facts b {
-  display: flex; align-items: flex-end; height: 30px; line-height: 1;
-  font-size: 25px; font-weight: 800; letter-spacing: -.02em;
+  display: flex; align-items: flex-end; justify-content: center; height: 30px; line-height: 1;
+  font-size: 25px; font-weight: 800; letter-spacing: -.02em; white-space: nowrap;
 }
-.hero-facts b.signs { letter-spacing: .04em; white-space: nowrap; }
-.hero-facts b svg { width: 27px; height: 27px; display: block; color: var(--money); }
+.hero-facts b.signs { letter-spacing: .04em; }
 @media (max-width: 620px) {
-  .hero-facts { grid-template-columns: repeat(3, auto); justify-content: space-between; column-gap: 12px; }
-  .hero-facts b { height: 26px; font-size: 22px; }
-  .hero-facts b svg { width: 23px; height: 23px; }
+  .hero-facts { max-width: none; }
+  .hero-facts b { height: 26px; font-size: 21px; }
 }
 /* The tiles are ~100px and "kilometervergoedingen" is wider than that on its
    own; a word that cannot break pushed the Dutch and Finnish pages sideways
@@ -858,6 +856,9 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
   margin: 0 0 14px; font-size: 13.5px; font-weight: 800; letter-spacing: .08em;
   text-transform: uppercase; color: var(--brand);
 }
+/* Two lines on a phone rather than three: the same words, a touch tighter. */
+.kicker { text-wrap: balance; }
+@media (max-width: 620px) { .kicker { font-size: 12px; letter-spacing: .04em; line-height: 1.4; } }
 /* Android is on its way: the robot, the word, and "coming soon" in a small
    pill under the note. The sentence about emailing is the tooltip, and the
    pill is still the mailto link, so the interest is still captured. */

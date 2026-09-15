@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Kilometraža i zarada za samostalne dostavljače, automatski",
+  "meta_title": "DropLane — Kilometraža, zarada i troškovi automatski — za svakoga tko vozi za posao",
   "meta_description": "Kilometraža za samostalne dostavljače. DropLane sam bilježi svaku vožnju, od zarade oduzme gorivo i troškove i pokaže koliko je sat stvarno donio.",
   "nav_label": "Glavni",
   "nav_features": "Što radi",
@@ -22,7 +22,7 @@
   "langbar_rest": "Odaberi svoj — aplikacija ga također govori.",
   "see_all": "sve zemlje",
   "per_month_short": "mjesečno",
-  "hero_kicker": "Kilometraža i zarada za samostalne dostavljače, automatski",
+  "hero_kicker": "Kilometraža, zarada i troškovi automatski — za svakoga tko vozi za posao",
   "hero_h1": "Znaj koliko je dan stvarno donio.",
   "hero_lede": "Samo kreni. DropLane bilježi svaku vožnju i rutu kojom si stvarno išao, oduzme troškove od zarade i izračuna tvoju pravu satnicu prije nego što stigneš kući.",
   "hero_cta_how": "Pogledaj zaslone",
@@ -218,12 +218,13 @@
   ],
   "closer_h2": "Prestani nagađati koliko je dan donio.",
   "closer_body": "Četrnaest dana besplatno, bez računa i ništa što bi trebalo pamtiti u šest ujutro.",
-  "footer_note": "DropLane — kilometraža i zarada za samostalne dostavljače, automatski. Napravio dostavljač, u Torquayu.",
+  "footer_note": "DropLane — kilometraža, zarada i troškovi automatski — za svakoga tko vozi za posao. Napravio dostavljač, u Torquayu.",
   "footer_privacy": "Privatnost",
   "footer_terms": "Uvjeti",
   "footer_support": "Podrška",
   "suggest_prompt": "Čitaj na hrvatskom",
   "cta_soon": "Uskoro",
   "fact_currency": "Svaka valuta",
-  "fact_private": "Ostaje na mobitelu"
+  "fact_private": "Podaci ostaju na mobitelu",
+  "fact_private_value": "Privatno"
 }

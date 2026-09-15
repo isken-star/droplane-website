@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Kilómetros e ingresos automáticos para repartidores autónomos",
+  "meta_title": "DropLane — Kilómetros, ingresos y gastos automáticos si conduces por trabajo",
   "meta_description": "DropLane registra solo los trayectos del repartidor, resta combustible, parking y gastos de la furgoneta a lo cobrado y te dice lo que ganas de verdad por hora.",
   "nav_label": "Menú principal",
   "nav_how": "Cómo funciona",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Avísame en el lanzamiento",
   "hero_cta_how": "Cómo funciona",
   "hero_note": "sin cuenta, sin anuncios · iPhone",
-  "hero_kicker": "Kilómetros e ingresos automáticos para repartidores autónomos",
+  "hero_kicker": "Kilómetros, ingresos y gastos automáticos si conduces por trabajo",
   "hero_android": "Android está en camino. Escríbenos y te avisamos cuando salga.",
   "reviews_h2": "Lo que dicen los repartidores en el App Store",
   "countries_paperwork_h3": "Aquí la app conoce los papeles; la tarifa la escribes tú",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Deja de adivinar lo que has ganado.",
   "closer_body": "Catorce días gratis, sin cuenta, y nada que recordar a las seis de la mañana.",
-  "footer_note": "DropLane — kilómetros e ingresos automáticos para repartidores autónomos. Hecha por un repartidor, en Torquay.",
+  "footer_note": "DropLane — kilómetros, ingresos y gastos automáticos si conduces por trabajo. Hecha por un repartidor, en Torquay.",
   "footer_privacy": "Privacidad",
   "footer_terms": "Condiciones",
   "footer_support": "Soporte",
@@ -334,5 +334,6 @@
   "compare_them": "Las apps de kilometraje te dicen cuántos kilómetros has hecho.",
   "compare_us": "DropLane te dice cuánto has ganado de verdad.",
   "fact_currency": "Todas las monedas",
-  "fact_private": "Se queda en tu móvil"
+  "fact_private": "Datos solo en tu móvil",
+  "fact_private_value": "Privado"
 }

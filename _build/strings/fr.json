@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Kilomètres et recettes automatiques pour les coursiers indépendants",
+  "meta_title": "DropLane — Kilomètres, recettes et dépenses automatiques pour qui roule au travail",
   "meta_description": "DropLane enregistre seul les trajets du coursier, retire carburant, stationnement et frais de route des recettes et te dit ce que tu gagnes vraiment de l'heure.",
   "nav_label": "Menu principal",
   "nav_how": "Comment ça marche",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Préviens-moi au lancement",
   "hero_cta_how": "Comment ça marche",
   "hero_note": "sans compte, sans publicité · iPhone",
-  "hero_kicker": "Kilomètres et recettes automatiques pour les coursiers indépendants",
+  "hero_kicker": "Kilomètres, recettes et dépenses automatiques pour qui roule au travail",
   "hero_android": "Android arrive. Écris-nous et on te prévient à la sortie.",
   "reviews_h2": "Ce que disent les coursiers sur l'App Store",
   "countries_paperwork_h3": "Ici l'app connaît les papiers ; le barème, c'est toi qui le saisis",
@@ -292,7 +292,7 @@
   ],
   "closer_h2": "Arrête de deviner ce que tu as gagné.",
   "closer_body": "Quatorze jours gratuits, sans compte, et rien à retenir à six heures du matin.",
-  "footer_note": "DropLane — kilomètres et recettes automatiques pour les coursiers indépendants. Conçue par un coursier, à Torquay.",
+  "footer_note": "DropLane — kilomètres, recettes et dépenses automatiques pour qui roule au travail. Conçue par un coursier, à Torquay.",
   "footer_privacy": "Confidentialité",
   "footer_terms": "Conditions",
   "footer_support": "Aide",
@@ -334,5 +334,6 @@
   "compare_them": "Les applis de kilométrage te disent combien de kilomètres tu as faits.",
   "compare_us": "DropLane te dit ce que tu as vraiment gagné.",
   "fact_currency": "Toutes les monnaies",
-  "fact_private": "Reste sur ton téléphone"
+  "fact_private": "Données sur ton mobile",
+  "fact_private_value": "Privé"
 }

@@ -1,5 +1,5 @@
 {
-  "meta_title": "DropLane — Kilometri in zaslužek za samostojne dostavljavce, samodejno",
+  "meta_title": "DropLane — Kilometri, zaslužek in stroški samodejno — za vsakogar, ki vozi za delo",
   "meta_description": "Kilometrina za samostojne dostavljavce. DropLane sam beleži vsako vožnjo, od zaslužka odšteje gorivo in stroške ter pokaže, koliko je ura zares prinesla.",
   "nav_label": "Glavni",
   "nav_features": "Kaj zmore",
@@ -22,7 +22,7 @@
   "langbar_rest": "Izberi svojega — aplikacija ga govori tudi.",
   "see_all": "vse države",
   "per_month_short": "na mesec",
-  "hero_kicker": "Kilometri in zaslužek za samostojne dostavljavce, samodejno",
+  "hero_kicker": "Kilometri, zaslužek in stroški samodejno — za vsakogar, ki vozi za delo",
   "hero_h1": "Vedi, koliko je dan zares prinesel.",
   "hero_lede": "Samo pelji. DropLane beleži vsako vožnjo in pot, po kateri si zares šel, od zaslužka odšteje stroške in ti izračuna pravo urno postavko, še preden prideš domov.",
   "hero_cta_how": "Poglej zaslone",
@@ -218,12 +218,13 @@
   ],
   "closer_h2": "Nehaj ugibati, koliko je dan prinesel.",
   "closer_body": "Štirinajst dni brezplačno, brez računa in nič, kar bi si moral zapomniti ob šestih zjutraj.",
-  "footer_note": "DropLane — kilometri in zaslužek za samostojne dostavljavce, samodejno. Naredil dostavljavec, v Torquayu.",
+  "footer_note": "DropLane — kilometri, zaslužek in stroški samodejno — za vsakogar, ki vozi za delo. Naredil dostavljavec, v Torquayu.",
   "footer_privacy": "Zasebnost",
   "footer_terms": "Pogoji",
   "footer_support": "Podpora",
   "suggest_prompt": "Beri v slovenščini",
   "cta_soon": "Kmalu",
   "fact_currency": "Vsaka valuta",
-  "fact_private": "Ostane na telefonu"
+  "fact_private": "Podatki ostanejo na telefonu",
+  "fact_private_value": "Zasebno"
 }
