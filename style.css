@@ -181,7 +181,13 @@ a { color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset
 }
 .lang-panel-note { margin: 14px 0 0; font-size: 14px; color: var(--text-3); }
 .lang-list {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+  /* The track has to hold the longest endonym on one line — "Bahasa
+     Indonesia", about 126px of text beside an 18px flag. A narrower
+     track wraps that one label, and a wrapped label makes its whole row
+     taller than the other seven. auto-fill never draws a track under the
+     minimum, so this width is the guarantee; the columns simply drop by
+     one sooner as the window narrows. */
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 8px; margin: 0; padding: 0; list-style: none;
 }
 .lang-list a {
@@ -831,7 +837,13 @@ h1, h2, h3 { overflow-wrap: break-word; }
   font-variant-numeric: tabular-nums; }
 
 .langgrid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+  /* The track has to hold the longest endonym on one line — "Bahasa
+     Indonesia", about 126px of text beside an 18px flag. A narrower
+     track wraps that one label, and a wrapped label makes its whole row
+     taller than the other seven. auto-fill never draws a track under the
+     minimum, so this width is the guarantee; the columns simply drop by
+     one sooner as the window narrows. */
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 8px; margin: 0; padding: 0; list-style: none;
 }
 .langgrid a {
@@ -1071,6 +1083,13 @@ footer .foot-note { color: var(--text-3); font-size: 14.5px; max-width: 46ch; ma
 footer .foot-links { display: flex; flex-wrap: wrap; gap: 18px; font-size: 15px; }
 footer a { color: var(--text-2); text-decoration: none; font-weight: 600; }
 footer a:hover { color: var(--text); text-decoration: underline; }
+
+/* The Instagram link sits in the same row as Privacy and Terms, so it is
+   sized like a word, not like a button: the glyph takes the line's own
+   colour and rides on the cap height beside the label. The row is flex, so
+   the gap mirrors on its own in right-to-left pages. */
+footer .foot-social { display: inline-flex; align-items: center; gap: 7px; }
+footer .foot-social svg { width: 17px; height: 17px; flex: none; }
 
 /* ---------------- the bar that follows you down ---------------- */
 

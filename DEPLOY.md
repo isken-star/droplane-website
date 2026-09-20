@@ -30,6 +30,8 @@ after a headline, price or Days screenshot changes. It renders each card with
 Google Chrome in headless mode, so Chrome must be installed; that is what gives
 Hindi, Thai and the CJK pages properly shaped text. The listing's rating in
 `_build/site.json` feeds the structured data, so update it when it moves.
+The `social` block in the same file is the Instagram link in every footer's
+`sameAs`; the footer link itself is in `_build/template.html`.
 The two `/guides/` pages are hand-written, like support and privacy.
 Screenshots come from `Scripts/capture_screenshots.sh`; see
 `Docs/SCREENSHOTS.md`. The clips in the hero and under "What did the day

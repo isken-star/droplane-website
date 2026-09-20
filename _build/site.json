@@ -18,6 +18,12 @@
     "provider_token": "128520847"
   },
 
+  "social": {
+    "_comment": "Profiles the app is also published on. They become the record's sameAs, which is how a search engine knows the account and the site are the same thing; the footer link lives in the template. Add a profile here only once it is live and posting.",
+    "instagram": "https://www.instagram.com/droplane.app/",
+    "facebook": "https://www.facebook.com/droplaneapp"
+  },
+
   "languages": [
     { "code": "en", "dir": "",   "name": "English",    "flag": "🇬🇧", "locale": "en-GB", "og_locale": "en_GB", "market": "GB", "currency": "GBP", "market_name": "United Kingdom", "price_month": "£6.99",   "price_year": "£49.99" },
     { "code": "en-US", "dir": "us", "name": "English (US)", "flag": "🇺🇸", "locale": "en-US", "og_locale": "en_US", "market": "US", "currency": "USD", "market_name": "United States", "price_month": "$6.99",   "price_year": "$49.99" },
