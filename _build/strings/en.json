@@ -25,10 +25,16 @@
   "per_month_short": "a month",
   "see_all": "see plans",
   "hero_h1": "Know what the day really paid.",
-  "hero_lede": "The mileage tracker that also does the takings. Start driving, and DropLane records every drive on its own, takes fuel and costs off what you earned, and has your real hourly rate ready before you're home.",
-  "hero_maker": "Built by a courier with ten years on the road, in Torquay.",
+  "hero_lede": "DropLane records every drive on its own, takes your costs off the takings, and shows what you really earned, by the day and by the hour.",
   "hero_cta_notify": "Get notified at launch",
-  "hero_cta_how": "How it works",
+  "hero_cta_how": "See how it works ↓",
+  "hero_support": "No account · Cancel any time · iPhone",
+  "trust": [
+    "Built by a courier, ten years on the road",
+    "Your location stays on your iPhone",
+    "Nothing to press. It records on its own.",
+    "46 languages, in your own currency"
+  ],
   "hero_note": "no account, no ads · iPhone",
   "guides": {
     "h2": "Guides",
@@ -46,7 +52,7 @@
       }
     ]
   },
-  "hero_kicker": "Automatic mileage, earnings and expenses for anyone who drives for work",
+  "hero_kicker": "Automatic mileage · Real profit · Real hourly rate",
   "hero_android": "Android is on its way. Email us and we'll tell you when it's out.",
   "reviews_h2": "From the App Store",
   "countries_paperwork_h3": "These know your paperwork; the rate is yours to type in",
@@ -115,8 +121,8 @@
       "body": "Business, empty, on the way to a pick-up, or personal. The totals and the mileage claim follow on their own."
     }
   ],
-  "how_proof": "Then the drive history builds itself. Pick a week, a month or your own dates, tick what goes in, and the PDF for the accountant is one tap away — built from drives you never had to log.",
-  "features_h2": "What DropLane actually does",
+  "how_proof": "Pick a week, a month or your own dates, tick what goes in, and the PDF for the accountant is one tap away, built from drives you never had to log.",
+  "features_h2": "What you get back",
   "features_intro": "Made for the job as it really is, by someone who does it.",
   "features_also": "It also looks after the van: services, tyres and repairs logged with the invoice photo, MOT and service reminders that count down in miles, and fuel-card costs worked out on the day you fill up.",
   "features": [
@@ -142,7 +148,7 @@
     },
     {
       "icon": "🅿️",
-      "title": "Stops and waiting time",
+      "title": "Where the hours went",
       "body": "See how long you sat at each drop or depot, without writing anything down."
     },
     {
@@ -226,8 +232,8 @@
   "pricing_intro": "Fourteen days free. Cancel before the trial ends and you pay nothing. Every feature is there from the off — no higher tier, no add-ons.",
   "pricing_monthly": "Monthly",
   "pricing_yearly": "Yearly",
-  "pricing_per_month": "per month, cancel any time",
-  "pricing_per_year": "per year — the better deal",
+  "pricing_per_month": "a month, cancel any time",
+  "pricing_per_year": "a year, billed once a year",
   "pricing_best": "Best value",
   "pricing_bullet_all": "Every feature, no add-ons",
   "pricing_bullet_trial": "14 days free first",
@@ -240,9 +246,10 @@
   "pricing_col_month": "Monthly",
   "pricing_col_year": "Yearly",
   "pricing_you": "You",
-  "pricing_note": "Billed by Apple through the App Store, VAT included, and cancelled in your iPhone's Settings like any other subscription. Cancel before the fourteen days are up and nothing is charged. Outside the UK, the App Store shows the price for your own country.",
+  "pricing_note": "Apple charges nothing for 14 days. Cancel in Settings before then and you pay nothing. Outside the UK, the App Store shows the price for your own country.",
   "faq_h2": "Questions couriers actually ask",
   "faq_intro": "Straight answers, from someone who does the job.",
+  "faq_more": "More questions",
   "faq": [
     {
       "q": "Isn't this just another mileage tracker?",
@@ -307,8 +314,8 @@
   "alt_days": "The Days list: every working day with its profit, distance and number of trips.",
   "alt_report": "The report card: switches for trips, earnings, expenses and receipt photos, then the PDF.",
   "alt_stats": "The Stats screen: net, earned and costs for the week, with distance by type.",
-  "papers_h2": "The report, portrait or landscape",
-  "papers_intro": "This is the PDF itself, not a picture of the switches that make it. Pick the shape that suits whoever reads it — upright for filing, wide when the trips table needs the room — and it rebuilds either way.",
+  "papers_h2": "One tap, and your accountant has it",
+  "papers_intro": "Every drive with its route and date, the mileage allowance for the period, your costs and your receipt photos. Portrait for filing, landscape when the trips table needs the room.",
   "papers_portrait": "Portrait",
   "papers_portrait_note": "For filing and for printing at home.",
   "papers_landscape": "Landscape",
@@ -323,7 +330,7 @@
   "cta_coming": "Coming to the App Store",
   "cta_notify": "Email me when it's out",
   "privacy_h2": "Your data. Yours alone.",
-  "privacy_intro": "Everything stays on your iPhone and in your own iCloud. No account, no server, nothing sold. Only you decide who sees your trips.",
+  "privacy_intro": "Your location stays on your iPhone and your own iCloud. No account, no server, nothing sold. Only you decide who sees your trips.",
   "privacy_stat_label": "Servers holding your location",
   "privacy_point1": "This is what lets DropLane record the miles. Your location history never leaves your iPhone.",
   "privacy_point2": "iCloud backup and restore, no account needed",
@@ -332,14 +339,14 @@
   "setup_shot_always": "Now choose Always",
   "setup_shot_notifications": "Enable notifications",
   "setup_shot_vehicle": "What do you drive?",
-  "setup_h3": "Step one, screen by screen",
+  "setup_h3": "See the four setup screens",
   "pocket_h3": "Notifications",
   "pocket_body": "\"Always\" lets drives record with the app closed.",
   "pocket_live_alt": "Drive detected — recording",
   "pocket_live_body": "While you're driving, a Live Activity keeps the miles climbing on the lock screen — so you can see the drive being recorded without unlocking anything.",
   "hero_trial": "14 days free",
   "hero_trial_then": "then {price} a month",
-  "hero_trial_then_yearly": "then from {price} a month",
+  "hero_trial_then_plans": "then {year} a year or {month} a month",
   "compare_them": "Mileage trackers tell you how far you drove.",
   "compare_us": "DropLane tells you whether the day was worth it.",
   "fact_currency": "Every currency",

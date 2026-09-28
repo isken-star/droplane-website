@@ -93,7 +93,7 @@
      reader. Swap this one tag to change provider; site.js does not care. -->
 <script src="https://cdn.usefathom.com/script.js" data-site="VHXQRPBR" defer></script>
 </head>
-<body>
+<body class="lean">
 
 <header class="site-head">
   <div class="wrap head-row">
@@ -198,7 +198,7 @@
         <a href="#faq">Questions</a>
         <a href="/support/">Support</a>
       </nav>
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-en-menu&amp;mt=8" data-place="menu">Get DropLane</a>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-en-menu&amp;mt=8" data-place="menu">Start 14 days free</a>
     </div>
   </div>
 </header>
@@ -215,23 +215,23 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="kicker">Automatic mileage, earnings and expenses for anyone who drives for work</p>
-      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇬🇧</span><b data-region="GB">United Kingdom</b><span class="eyebrow-trial">14 days free</span><span class="eyebrow-cost">then from £4.17 a month</span><a href="#pricing">see plans</a></span>
+      <p class="kicker">Automatic mileage · Real profit · Real hourly rate</p>
+      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇬🇧</span><b data-region="GB">United Kingdom</b><span class="eyebrow-trial">14 days free</span><span class="eyebrow-cost">then £49.99 a year or £6.99 a month</span></span>
       <h1>Know what the day really paid.</h1>
-      <p class="lede">The mileage tracker that also does the takings. Start driving, and DropLane records every drive on its own, takes fuel and costs off what you earned, and has your real hourly rate ready before you&#x27;re home.</p>
+      <p class="lede">DropLane records every drive on its own, takes your costs off the takings, and shows what you really earned, by the day and by the hour.</p>
       <!-- While the app is coming soon the loud button is the launch list, not
            the price: the eyebrow above already carries the price and links to
            the table. On launch day it becomes Apple's badge on its own —
            set "launched" in _build/site.json and rebuild. -->
       <div class="cta-row">
-        <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-en-hero&amp;mt=8" data-place="hero"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="174" height="58"></a>
-        <a class="btn-ghost" href="#how">How it works</a>
+        <a class="btn btn-hero" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-en-hero&amp;mt=8" data-place="hero"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Start 14 days free</a>
       </div>
-      <p class="hero-maker">Built by a courier with ten years on the road, in Torquay.</p>
-      <ul class="hero-facts">
-        <li><b>46</b><span>Languages</span></li>
-        <li><b class="signs">£ € $ ₹ ¥</b><span>Every currency</span></li>
-        <li><b>Private</b><span>Data stays on your phone</span></li>
+      <p class="hero-support">No account · Cancel any time · iPhone <a class="hero-how" href="#how">See how it works ↓</a></p>
+      <ul class="trust">
+        <li>Built by a courier, ten years on the road</li>
+        <li>Your location stays on your iPhone</li>
+        <li>Nothing to press. It records on its own.</li>
+        <li>46 languages, in your own currency</li>
       </ul>
     </div>
 
@@ -334,8 +334,9 @@
       </div>
     </div>
 
-    <h3 class="setup-h3">Step one, screen by screen</h3>
-    <div class="setup">
+    <details class="setup-fold">
+      <summary>See the four setup screens</summary>
+      <div class="setup">
       <figure class="setup-shot">
         <div class="device"><div class="device-screen">
           <img class="only-dark" src="/assets/screens/en/dark/onboarding-location.webp" width="640" height="1391" alt="Turn on location" loading="lazy">
@@ -364,7 +365,8 @@
         </div></div>
         <figcaption>What do you drive?</figcaption>
       </figure>
-    </div>
+      </div>
+    </details>
 
     <!-- And then the phone goes in a pocket. These are the only pictures on
          the page taken with the app shut: the lock screen, doing the job on
@@ -397,21 +399,12 @@
 
     <div class="proof" id="report">
       <div class="proof-words">
-        <h3>The report, portrait or landscape</h3>
-        <p>Then the drive history builds itself. Pick a week, a month or your own dates, tick what goes in, and the PDF for the accountant is one tap away — built from drives you never had to log.</p>
-        <p class="proof-note">This is the PDF itself, not a picture of the switches that make it. Pick the shape that suits whoever reads it — upright for filing, wide when the trips table needs the room — and it rebuilds either way.</p>
+        <h3>One tap, and your accountant has it</h3>
+        <p>Pick a week, a month or your own dates, tick what goes in, and the PDF for the accountant is one tap away, built from drives you never had to log.</p>
+        <p class="proof-note">Every drive with its route and date, the mileage allowance for the period, your costs and your receipt photos. Portrait for filing, landscape when the trips table needs the room.</p>
       </div>
 
       <div class="proof-output">
-        <figure class="proof-item proof-phone">
-          <div class="device">
-            <div class="device-screen">
-              <img class="only-dark" src="/assets/screens/en/dark/report.webp" width="640" height="1391" alt="The report card: switches for trips, earnings, expenses and receipt photos, then the PDF." loading="lazy">
-              <img class="only-light" src="/assets/screens/en/light/report.webp" width="640" height="1391" alt="The report card: switches for trips, earnings, expenses and receipt photos, then the PDF." loading="lazy">
-            </div>
-          </div>
-          <figcaption>What goes in</figcaption>
-        </figure>
 
         <figure class="proof-item">
           <button class="paper-zoom" type="button" data-zoom="/assets/screens/en/paper/report-portrait-1.webp" data-zoom-label="Portrait" aria-label="Enlarge — Portrait">
@@ -420,53 +413,16 @@
           </button>
           <figcaption>Portrait</figcaption>
         </figure>
-
-        <figure class="proof-item proof-item-wide">
-          <button class="paper-zoom" type="button" data-zoom="/assets/screens/en/paper/report-landscape-2.webp" data-zoom-label="Landscape" aria-label="Enlarge — Landscape">
-            <img src="/assets/screens/en/paper/report-landscape-2.webp" width="1100" height="778" alt="The first page of a DropLane report in landscape, with the wider trips table." loading="lazy">
-            <span class="paper-zoom-hint" aria-hidden="true">Enlarge</span>
-          </button>
-          <figcaption>Landscape</figcaption>
-        </figure>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Privacy sits above "what it actually does" on purpose: it is the thing
-     that separates DropLane from every other mileage app, and a courier
-     handing over a month of their movements wants it answered early. Every
-     line here is the app's own onboarding copy, already translated. -->
-<section id="privacy">
-  <div class="wrap">
-    <h2>Your data. Yours alone.</h2>
-    <p class="section-intro">Everything stays on your iPhone and in your own iCloud. No account, no server, nothing sold. Only you decide who sees your trips.</p>
 
-    <div class="keeps">
-      <div class="keeps-words">
-        <p class="keeps-stat"><b>0</b><span>Servers holding your location</span></p>
-        <ul class="keeps-list">
-          <li>This is what lets DropLane record the miles. Your location history never leaves your iPhone.</li>
-          <li>iCloud backup and restore, no account needed</li>
-          <li>Export CSV for your records</li>
-        </ul>
-      </div>
-
-      <figure class="keeps-phone">
-        <div class="device">
-          <div class="device-screen">
-            <img class="only-dark" src="/assets/screens/en/dark/onboarding-privacy.webp" width="640" height="1391" alt="Your data. Yours alone." loading="lazy">
-            <img class="only-light" src="/assets/screens/en/light/onboarding-privacy.webp" width="640" height="1391" alt="Your data. Yours alone." loading="lazy">
-          </div>
-        </div>
-      </figure>
-    </div>
-  </div>
-</section>
 
 <section id="features">
   <div class="wrap">
-    <h2>What DropLane actually does</h2>
+    <h2>What you get back</h2>
     <p class="section-intro">Made for the job as it really is, by someone who does it.</p>
     <div class="cards">
       <div class="card">
@@ -491,7 +447,7 @@
       </div>
       <div class="card">
         <span class="icon">🅿️</span>
-        <h3>Stops and waiting time</h3>
+        <h3>Where the hours went</h3>
         <p>See how long you sat at each drop or depot, without writing anything down.</p>
       </div>
       <div class="card">
@@ -502,8 +458,39 @@
     </div>
     <p class="features-also">It also looks after the van: services, tyres and repairs logged with the invoice photo, MOT and service reminders that count down in miles, and fuel-card costs worked out on the day you fill up.</p>
     <div class="cta-mid">
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-en-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Get DropLane</a>
-      <span class="cta-note">14 days free · then from £4.17 a month</span>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-en-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Start 14 days free</a>
+      <span class="cta-note">No account · Cancel any time · iPhone</span>
+    </div>
+  </div>
+</section>
+
+<!-- Privacy sits above "what it actually does" on purpose: it is the thing
+     that separates DropLane from every other mileage app, and a courier
+     handing over a month of their movements wants it answered early. Every
+     line here is the app's own onboarding copy, already translated. -->
+<section id="privacy">
+  <div class="wrap">
+    <h2>Your data. Yours alone.</h2>
+    <p class="section-intro">Your location stays on your iPhone and your own iCloud. No account, no server, nothing sold. Only you decide who sees your trips.</p>
+
+    <div class="keeps">
+      <div class="keeps-words">
+        <p class="keeps-stat"><b>0</b><span>Servers holding your location</span></p>
+        <ul class="keeps-list">
+          <li>This is what lets DropLane record the miles. Your location history never leaves your iPhone.</li>
+          <li>iCloud backup and restore, no account needed</li>
+          <li>Export CSV for your records</li>
+        </ul>
+      </div>
+
+      <figure class="keeps-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/en/dark/onboarding-privacy.webp" width="640" height="1391" alt="Your data. Yours alone." loading="lazy">
+            <img class="only-light" src="/assets/screens/en/light/onboarding-privacy.webp" width="640" height="1391" alt="Your data. Yours alone." loading="lazy">
+          </div>
+        </div>
+      </figure>
     </div>
   </div>
 </section>
@@ -524,7 +511,7 @@
         <span class="tag">Best value</span>
         <h3>Yearly</h3>
         <p class="amount">£49.99</p>
-        <p class="per">per year — the better deal</p>
+        <p class="per">a year, billed once a year</p>
         <ul>
           <li>Every feature, no add-ons</li>
           <li>Save £33.89 a year — 40% cheaper</li>
@@ -535,7 +522,7 @@
       <div class="price">
         <h3>Monthly</h3>
         <p class="amount">£6.99</p>
-        <p class="per">per month, cancel any time</p>
+        <p class="per">a month, cancel any time</p>
         <ul>
           <li>Every feature, no add-ons</li>
           <li>14 days free first</li>
@@ -544,7 +531,7 @@
       </div>
     </div>
 
-    <p class="table-note pricing-note">Billed by Apple through the App Store, VAT included, and cancelled in your iPhone&#x27;s Settings like any other subscription. Cancel before the fourteen days are up and nothing is charged. Outside the UK, the App Store shows the price for your own country.</p>
+    <p class="table-note pricing-note">Apple charges nothing for 14 days. Cancel in Settings before then and you pay nothing. Outside the UK, the App Store shows the price for your own country.</p>
   </div>
 </section>
 
@@ -579,6 +566,8 @@
         <summary>I drive a bike, not a van.</summary>
         <p>That works. Cargo-bike miles are recorded the same way. The built-in mileage rates are for motor vehicles, though, so what a bike can claim depends on your country and your circumstances — worth asking an accountant.</p>
       </details>
+      <details class="faq-more">
+        <summary>More questions</summary>
       <details>
         <summary>Is my country&#x27;s mileage rate in there?</summary>
         <p>Seventeen countries have their official rate built in and kept current. Anywhere else, type your own rate once and the app does the maths.</p>
@@ -606,6 +595,7 @@
       <details>
         <summary>Is there an Android version?</summary>
         <p>Not yet. DropLane is iPhone only for now, and Android is on its way. Email help@droplane.co.uk and we&#x27;ll tell you the day it&#x27;s out.</p>
+      </details>
       </details>
     </div>
   </div>
@@ -635,7 +625,7 @@
     <div class="closer">
       <h2>Stop guessing what the day made.</h2>
       <p>Fourteen days free, no account, and nothing to remember at six in the morning.</p>
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-en-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Get DropLane</a>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-en-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Start 14 days free</a>
     </div>
   </div>
 </section>
@@ -669,9 +659,9 @@
     <img class="cta-bar-mark" src="/assets/icon-180.png" alt="" width="46" height="46" loading="lazy" decoding="async">
     <p class="cta-bar-say">
       <b>14 days free</b>
-      <span>then from £4.17 a month</span>
+      <span>then £49.99 a year or £6.99 a month</span>
     </p>
-    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-en-bar&amp;mt=8" data-place="bar">Get DropLane</a>
+    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-en-bar&amp;mt=8" data-place="bar">Start 14 days free</a>
     <button class="cta-bar-shut" type="button" aria-label="Close">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>

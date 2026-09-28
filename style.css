@@ -894,7 +894,58 @@ h1, h2, h3 { overflow-wrap: break-word; }
    setup phones under the steps rather than after pricing; the sentence after
    the six feature cards for what they left out; the pricing note standing
    alone where the country table was. */
-.hero-maker { margin: 18px 0 0; font-size: 14.5px; font-weight: 600; color: var(--text-3); max-width: 46ch; }
+.hero .btn-hero { font-size: 18px; padding: 16px 30px; }
+.hero-support {
+  margin: 14px 0 0; font-size: 14.5px; font-weight: 600; color: var(--text-3);
+  display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center;
+}
+.hero-how { color: var(--brand); text-decoration: none; font-weight: 700; white-space: nowrap; }
+.hero-how:hover { text-decoration: underline; }
+/* Four facts, a tick each, in the quiet grey of the support line: a strip
+   to be believed rather than a row of badges. */
+.trust {
+  margin: 26px 0 0; padding: 0; list-style: none;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px 18px; max-width: 560px;
+}
+.trust li {
+  display: flex; gap: 9px; align-items: flex-start;
+  font-size: 14.5px; font-weight: 600; color: var(--text-2); line-height: 1.35;
+}
+.trust li::before {
+  content: ""; flex: none; width: 18px; height: 18px; margin-top: 1px; border-radius: 50%;
+  background: var(--tint) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231866D8' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center / 11px no-repeat;
+}
+@media (max-width: 480px) { .trust { grid-template-columns: 1fr; gap: 8px; } }
+/* On a phone the lean page keeps the middle short: the two lock-screen
+   phones sit side by side instead of stacked, and the feature cards put the
+   icon beside the title rather than above it. */
+@media (max-width: 720px) {
+  body.lean .pocket { grid-template-columns: 1fr 1fr; gap: 14px; }
+  body.lean .pocket-phone { width: 100%; }
+  body.lean .pocket-phone .device { width: 100%; max-width: 190px; margin-inline: auto; }
+  body.lean .pocket-words { grid-column: 1 / -1; }
+  body.lean .pocket-words p { max-width: none; }
+  body.lean .card:not(.step) {
+    padding: 18px; display: grid; grid-template-columns: 38px 1fr; column-gap: 12px; align-items: start;
+  }
+  body.lean .card:not(.step) .icon { grid-row: 1 / span 2; margin: 0; width: 38px; height: 38px; font-size: 18px; }
+  body.lean .card:not(.step) h3 { grid-column: 2; margin: 0 0 6px; padding-top: 6px; }
+  body.lean .card:not(.step) p { grid-column: 2; font-size: 15.5px; }
+}
+/* The four setup phones fold away until asked for. */
+.setup-fold { margin-top: 26px; }
+.setup-fold summary {
+  cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 8px;
+  font-weight: 700; font-size: 15px; color: var(--brand);
+}
+.setup-fold summary::-webkit-details-marker { display: none; }
+.setup-fold summary::before { content: "+"; font-size: 20px; line-height: 1; }
+.setup-fold[open] summary::before { content: "–"; }
+.setup-fold .setup { margin-top: 18px; }
+/* The questions past the sixth, behind one row. */
+.faq .faq-more > summary { justify-content: center; color: var(--brand); font-size: 15.5px; }
+.faq .faq-more > summary::after { content: none; }
+.faq .faq-more[open] > summary { border-bottom: 1px solid var(--line); }
 .setup-h3 { margin: 34px 0 14px; font-size: 16px; color: var(--text-2); }
 .features-also { font-size: 16px; color: var(--text-3); max-width: 70ch; margin: 22px 0 0; }
 .pricing-note { margin-top: 24px; max-width: 62ch; }
