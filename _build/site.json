@@ -13,6 +13,12 @@
     "count": 2
   },
 
+  "reviews_comment": "App Store reviews, quoted exactly as written. Add a new one as another row of \"reviews\"; \"home\": true puts it on the British page, which shows only the strongest. Every page's grid takes any number of cards.",
+  "reviews": [
+    { "text": "Just found this app in the store. Fantastic app for me as a self employed courier. Tells me exactly how much I've really earnt per job. I like how its linked to maps", "who": "greatwhite surfer", "home": true },
+    { "text": "You open it up once and it records all my data i need", "who": "Kami.ya" }
+  ],
+
   "campaign": {
     "_comment": "App Store Connect campaign links. Paste the pt= number from App Store Connect → Analytics → Sources → Campaigns → Generate Campaign Link, rebuild, and App Analytics reports downloads per page and per button (ct=web-<page>-<place>). Empty means plain links.",
     "provider_token": "128520847"

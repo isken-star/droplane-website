@@ -28,8 +28,10 @@ and language grids, the price table, the price eyebrow, the setup screens and
 the PDF pages (those live on `/support/` now, hand-written). One button in
 the hero ("Start 14 days free", the label every other ask on the page
 shares), a reassurance line and a trust strip in place of the number tiles,
-one review, five screens of the app after the steps, privacy before four
-benefit cards, the yearly plan first, and five questions from `faq_home` with
+three screens under the hero (`outcomes` in en.json: earned, kept, the
+hour), the reviews marked `"home"` in site.json, the lock-screen pair under
+the steps, three benefit cards then privacy, the yearly plan first, and five
+questions from `faq_home` with
 a link to `/faq/`, which the build writes from the same strings file with a
 FAQPage record. Also derived at build time, in `lean_template()`. The structured data carries the listing's rating only once
 `rating.count` in `site.json` reaches ten.

@@ -35,6 +35,24 @@
     "46 languages",
     "Every currency"
   ],
+  "outcomes_label": "Three numbers DropLane has ready before you're home",
+  "outcomes": [
+    {
+      "file": "today",
+      "title": "What I earned today",
+      "alt": "The Today screen: a drive recording on the map, and £102.98 earned today from £121.36 of takings and £18.38 of costs."
+    },
+    {
+      "file": "day",
+      "title": "What I actually kept after costs",
+      "alt": "A day's page: £102.98 profit for the day, the day on the map, and the distance by type."
+    },
+    {
+      "file": "insights",
+      "title": "My real hourly rate",
+      "alt": "The Insights screen: £81.38 profit after regular costs, £12.39 an hour, £3.70 a mile, 6 h 34 min on the road."
+    }
+  ],
   "hero_note": "no account, no ads · iPhone",
   "guides": {
     "h2": "Guides",
@@ -71,7 +89,7 @@
     }
   ],
   "money_h2": "Two days. More miles. Less money.",
-  "money_intro": "Tuesday: 96 miles, three drives. Yesterday: 62 miles, two drives. A mileage app will tell you Tuesday was the fuller day — and it's right. Tuesday left £99. Yesterday left £116.",
+  "money_intro": "Two real days. Tuesday was 34 miles longer, and left £16.84 less.",
   "money_day1_when": "Tuesday 25 August",
   "money_day1_distance": "96.1 miles",
   "money_day1_trips": "3 drives",
@@ -83,8 +101,8 @@
   "money_label_distance": "On the road",
   "money_label_trips": "Drives",
   "money_label_money": "Kept",
-  "money_punch": "Thirty-four miles more. £16.84 less.",
-  "money_note": "Mileage alone doesn't tell you whether a day was worth it. DropLane puts your miles, earnings and costs together and shows what you actually kept.",
+  "money_punch": "Driving more doesn't always mean earning more.",
+  "money_note": "DropLane shows which jobs, days and hours are actually making you money.",
   "day_h2": "What did the day actually pay?",
   "day_intro": "£179.01 sounds like a good day. Eight hours and forty-three minutes, three hundred and twelve miles and £45.49 of costs later, it worked out at £15.32 an hour. That is the number nobody driving has, and the one DropLane has ready before you're home.",
   "day_film1_title": "The day added itself up",
@@ -135,11 +153,6 @@
       "icon": "⏱️",
       "title": "Know your real hourly rate",
       "body": "See which days and jobs actually pay, once fuel, finance and insurance are spread across the days you work."
-    },
-    {
-      "icon": "🛣️",
-      "title": "Automatic mileage",
-      "body": "No start button. Just drive, and every mile records itself in the background."
     },
     {
       "icon": "🧾",

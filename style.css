@@ -934,6 +934,13 @@ h1, h2, h3 { overflow-wrap: break-word; }
 }
 /* The setup phones on the support page. */
 .page .setup { margin: 22px 0 30px; }
+/* The three screens under the hero: centred where they fit, a rail where
+   they don't. The label is the only copy. */
+.outcomes { padding: 0 0 clamp(18px, 3vw, 30px); }
+.outcomes-rail { justify-content: center; padding-top: 0; }
+@media (max-width: 760px) { .outcomes-rail { justify-content: flex-start; } }
+.outcome figcaption { text-align: center; }
+.outcome figcaption b { font-size: 16px; }
 /* The way to the rest of the questions. */
 .faq-all { margin: 16px 0 0; font-size: 15.5px; font-weight: 700; }
 .faq-all a { color: var(--brand); text-decoration: none; }
@@ -945,7 +952,8 @@ h1, h2, h3 { overflow-wrap: break-word; }
 
 .quotes { padding: 0 0 clamp(28px, 4vw, 48px); }
 .quotes-h { font-size: 15px; font-weight: 700; color: var(--text-3); margin: 0 0 14px; letter-spacing: .02em; }
-.quote-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+/* As many cards as there are reviews: two across at 760px, three at 1100. */
+.quote-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
 @media (max-width: 700px) { .quote-grid { grid-template-columns: 1fr; } }
 .quote {
   margin: 0; background: var(--card); border: 1px solid var(--line);
