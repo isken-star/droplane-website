@@ -932,20 +932,12 @@ h1, h2, h3 { overflow-wrap: break-word; }
   body.lean .card:not(.step) h3 { grid-column: 2; margin: 0 0 6px; padding-top: 6px; }
   body.lean .card:not(.step) p { grid-column: 2; font-size: 15.5px; }
 }
-/* The four setup phones fold away until asked for. */
-.setup-fold { margin-top: 26px; }
-.setup-fold summary {
-  cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 8px;
-  font-weight: 700; font-size: 15px; color: var(--brand);
-}
-.setup-fold summary::-webkit-details-marker { display: none; }
-.setup-fold summary::before { content: "+"; font-size: 20px; line-height: 1; }
-.setup-fold[open] summary::before { content: "–"; }
-.setup-fold .setup { margin-top: 18px; }
-/* The questions past the sixth, behind one row. */
-.faq .faq-more > summary { justify-content: center; color: var(--brand); font-size: 15.5px; }
-.faq .faq-more > summary::after { content: none; }
-.faq .faq-more[open] > summary { border-bottom: 1px solid var(--line); }
+/* The setup phones on the support page. */
+.page .setup { margin: 22px 0 30px; }
+/* The way to the rest of the questions. */
+.faq-all { margin: 16px 0 0; font-size: 15.5px; font-weight: 700; }
+.faq-all a { color: var(--brand); text-decoration: none; }
+.faq-all a:hover { text-decoration: underline; }
 .setup-h3 { margin: 34px 0 14px; font-size: 16px; color: var(--text-2); }
 .features-also { font-size: 16px; color: var(--text-3); max-width: 70ch; margin: 22px 0 0; }
 .pricing-note { margin-top: 24px; max-width: 62ch; }

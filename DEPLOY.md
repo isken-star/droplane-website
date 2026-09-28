@@ -23,14 +23,15 @@ give it a strings file with the compact page's ~80 keys (copy `ja.json`).
 The compact template is derived from the full one at build time, so a change
 to the full page reaches both.
 The British page is the **lean page** (`"lean": true` on `en` in `site.json`):
-the full template minus the second telling of the day's sums, the screens
-rail, the country and language grids and the price table. One button in the
-hero ("Start 14 days free", the label every other ask on the page shares), a
-trust strip in place of the number tiles, the setup screens folded under the
-steps, one review, one PDF page, privacy after the feature cards, the yearly
-plan first, both plans quoted in the eyebrow and the bar, and the questions
-past the sixth behind "More questions". Also derived at build time, in
-`lean_template()`. The structured data carries the listing's rating only once
+the full template minus the second telling of the day's sums, the country
+and language grids, the price table, the price eyebrow, the setup screens and
+the PDF pages (those live on `/support/` now, hand-written). One button in
+the hero ("Start 14 days free", the label every other ask on the page
+shares), a reassurance line and a trust strip in place of the number tiles,
+one review, five screens of the app after the steps, privacy before four
+benefit cards, the yearly plan first, and five questions from `faq_home` with
+a link to `/faq/`, which the build writes from the same strings file with a
+FAQPage record. Also derived at build time, in `lean_template()`. The structured data carries the listing's rating only once
 `rating.count` in `site.json` reaches ten.
 Right-to-left languages also carry `"rtl": true`; the stylesheet uses logical
 properties, so the page mirrors on its own.
