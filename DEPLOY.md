@@ -22,7 +22,7 @@ screens with `python3 ../Scripts/import_store_shots.py <MARKET> <lang>`, and
 give it a strings file with the compact page's ~80 keys (copy `ja.json`).
 The compact template is derived from the full one at build time, so a change
 to the full page reaches both.
-The British page is the **lean page** (`"lean": true` on `en` in `site.json`):
+The four English pages (`en`, `en-US`, `en-AU`, `en-CA`) are the **lean page** (`"lean": true` in `site.json`):
 the full template minus the second telling of the day's sums, the country
 and language grids, the price table, the price eyebrow, the setup screens and
 the PDF pages (those live on `/support/` now, hand-written). One button in
