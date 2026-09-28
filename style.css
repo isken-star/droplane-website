@@ -934,6 +934,34 @@ h1, h2, h3 { overflow-wrap: break-word; }
 }
 /* The setup phones on the support page. */
 .page .setup { margin: 22px 0 30px; }
+/* The four setup phones fold away until asked for. */
+.setup-fold { margin-top: 26px; }
+.setup-fold summary {
+  cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 8px;
+  font-weight: 700; font-size: 15px; color: var(--brand);
+}
+.setup-fold summary::-webkit-details-marker { display: none; }
+.setup-fold summary::before { content: "+"; font-size: 20px; line-height: 1; }
+.setup-fold[open] summary::before { content: "–"; }
+.setup-fold .setup { margin-top: 18px; }
+/* "Two days" on the lean page: the day, the miles, the money kept. */
+body.lean .twoday-when { margin-bottom: 8px; }
+body.lean .twoday-miles { margin: 0; font-size: clamp(22px, 2.8vw, 28px); font-weight: 800; letter-spacing: -.02em; color: var(--text); }
+body.lean .twoday-money { justify-content: flex-start; gap: 10px; margin-top: 12px; padding-top: 12px; }
+.twodays-punch2 { margin: 8px 0 0; font-size: clamp(18px, 2.2vw, 21px); font-weight: 700; color: var(--text-2); }
+/* A phone from an ad: the top of the lean page is compact enough that the
+   app is on the first screen, and the trust strip is three lines. */
+@media (max-width: 720px) {
+  body.lean .hero { padding-top: 16px; padding-bottom: 22px; }
+  body.lean .kicker { margin-bottom: 10px; }
+  body.lean h1 { margin: 8px 0 10px; }
+  body.lean .lede { margin-bottom: 18px; font-size: 18px; }
+  body.lean .hero-support { margin-top: 12px; }
+  body.lean .trust { margin-top: 16px; gap: 7px; }
+  body.lean .trust li:nth-child(4) { display: none; }
+  body.lean .stage { margin-top: 16px; }
+  body.lean .outcomes .shot, body.lean .outcomes .shot .device { width: 250px; }
+}
 /* The three screens under the hero: centred where they fit, a rail where
    they don't. The label is the only copy. */
 .outcomes { padding: 0 0 clamp(18px, 3vw, 30px); }

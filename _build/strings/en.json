@@ -30,10 +30,10 @@
   "hero_cta_how": "See how it works ↓",
   "hero_support": "14 days free · No account · Cancel any time",
   "trust": [
+    "Records drives automatically",
+    "Location stays on your iPhone",
     "Built by a courier with 10+ years on the road",
-    "Your location stays on your iPhone",
-    "46 languages",
-    "Every currency"
+    "46 languages, every currency"
   ],
   "outcomes_label": "Three numbers DropLane has ready before you're home",
   "outcomes": [
@@ -90,7 +90,7 @@
   ],
   "money_h2": "Two days. More miles. Less money.",
   "money_intro": "Two real days. Tuesday was 34 miles longer, and left £16.84 less.",
-  "money_day1_when": "Tuesday 25 August",
+  "money_day1_when": "Tuesday",
   "money_day1_distance": "96.1 miles",
   "money_day1_trips": "3 drives",
   "money_day1_money": "£99.22",
@@ -100,9 +100,10 @@
   "money_day2_money": "£116.06",
   "money_label_distance": "On the road",
   "money_label_trips": "Drives",
-  "money_label_money": "Kept",
-  "money_punch": "Driving more doesn't always mean earning more.",
-  "money_note": "DropLane shows which jobs, days and hours are actually making you money.",
+  "money_label_money": "kept",
+  "money_punch": "34 miles more. £16.84 less.",
+  "money_punch2": "Driving more doesn't always mean earning more.",
+  "money_note": "Mileage tells you how far you drove. DropLane tells you whether it was worth it.",
   "day_h2": "What did the day actually pay?",
   "day_intro": "£179.01 sounds like a good day. Eight hours and forty-three minutes, three hundred and twelve miles and £45.49 of costs later, it worked out at £15.32 an hour. That is the number nobody driving has, and the one DropLane has ready before you're home.",
   "day_film1_title": "The day added itself up",
@@ -142,7 +143,7 @@
   "how_proof": "Pick a week, a month or your own dates, tick what goes in, and the PDF for the accountant is one tap away, built from drives you never had to log.",
   "features_h2": "What you get back",
   "features_intro": "Made for the job as it really is, by someone who does it.",
-  "features_also": "It also looks after the van: services, tyres and repairs logged with the invoice photo, MOT and service reminders that count down in miles, and fuel-card costs worked out on the day you fill up.",
+  "features_also": "It also looks after the van: services, tyres and repairs logged with the invoice photo, MOT and service reminders that count down in miles, and fuel-card costs worked out on the day you fill up. And it speaks 46 languages, with the money in your currency.",
   "features": [
     {
       "icon": "💷",
@@ -316,6 +317,7 @@
   "setup_shot_always": "Now choose Always",
   "setup_shot_notifications": "Enable notifications",
   "setup_shot_vehicle": "What do you drive?",
+  "setup_h3": "See how setup works",
   "pocket_h3": "Notifications",
   "pocket_body": "\"Always\" lets drives record with the app closed.",
   "pocket_live_alt": "Drive detected — recording",
