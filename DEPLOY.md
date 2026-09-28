@@ -24,9 +24,12 @@ The compact template is derived from the full one at build time, so a change
 to the full page reaches both.
 The British page is the **lean page** (`"lean": true` on `en` in `site.json`):
 the full template minus the second telling of the day's sums, the screens
-rail, the country and language grids and the price table, with the setup
-screens under the steps, one review, the yearly plan first and the eyebrow
-quoting the yearly plan by the month. Also derived at build time, in
+rail, the country and language grids and the price table. One button in the
+hero ("Start 14 days free", the label every other ask on the page shares), a
+trust strip in place of the number tiles, the setup screens folded under the
+steps, one review, one PDF page, privacy after the feature cards, the yearly
+plan first, both plans quoted in the eyebrow and the bar, and the questions
+past the sixth behind "More questions". Also derived at build time, in
 `lean_template()`. The structured data carries the listing's rating only once
 `rating.count` in `site.json` reaches ten.
 Right-to-left languages also carry `"rtl": true`; the stylesheet uses logical
