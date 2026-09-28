@@ -19,13 +19,14 @@
   "theme_dark": "Dark",
   "language_label": "Language",
   "language_title": "Read this site in your language",
-  "language_note": "The app itself speaks 45 languages — the rest are on their way here.",
-  "langbar_strong": "45 languages.",
+  "language_note": "The app speaks all 46 — every screen, every notification, the reports.",
+  "langbar_strong": "46 languages.",
   "langbar_rest": "Pick yours — the app speaks it too.",
   "per_month_short": "a month",
-  "see_all": "see all",
+  "see_all": "see plans",
   "hero_h1": "Know what the day really paid.",
-  "hero_lede": "Start driving. That's it. DropLane records every drive and the route it actually took, takes the costs off the takings, and has your real hourly rate worked out before you're home.",
+  "hero_lede": "The mileage tracker that also does the takings. Start driving, and DropLane records every drive on its own, takes fuel and costs off what you earned, and has your real hourly rate ready before you're home.",
+  "hero_maker": "Built by Iskender Davies, a courier with ten years on the road, in Torquay.",
   "hero_cta_notify": "Get notified at launch",
   "hero_cta_how": "How it works",
   "hero_note": "no account, no ads · iPhone",
@@ -47,7 +48,7 @@
   },
   "hero_kicker": "Automatic mileage, earnings and expenses for anyone who drives for work",
   "hero_android": "Android is on its way. Email us and we'll tell you when it's out.",
-  "reviews_h2": "What couriers say on the App Store",
+  "reviews_h2": "From the App Store",
   "countries_paperwork_h3": "These know your paperwork; the rate is yours to type in",
   "hero_facts": [
     {
@@ -116,7 +117,8 @@
   ],
   "how_proof": "Then the drive history builds itself. Pick a week, a month or your own dates, tick what goes in, and the PDF for the accountant is one tap away — built from drives you never had to log.",
   "features_h2": "What DropLane actually does",
-  "features_intro": "Built by a courier with ten years on the road, for the job as it really is.",
+  "features_intro": "Made for the job as it really is, by someone who does it.",
+  "features_also": "It also looks after the van: services, tyres and repairs logged with the invoice photo, MOT and service reminders that count down in miles, and fuel-card costs worked out on the day you fill up.",
   "features": [
     {
       "icon": "💷",
@@ -147,21 +149,6 @@
       "icon": "🔒",
       "title": "Nothing leaves your phone",
       "body": "No account to make, no tracking, no ads. Your route history is yours, backed up only to your own iCloud."
-    },
-    {
-      "icon": "🔔",
-      "title": "Renewals",
-      "body": "Type the odometer reading once and DropLane keeps it ticking from your tracked miles — so service and MOT reminders can count down in miles, not just dates."
-    },
-    {
-      "icon": "🔧",
-      "title": "Your vehicle",
-      "body": "Log services, tyres, and repairs here — with the invoice photo attached, it's your full garage history in your pocket."
-    },
-    {
-      "icon": "💳",
-      "title": "Fuel card",
-      "body": "Set the price your card charges per litre. Log the litres when you fill up and DropLane works out the cost."
     }
   ],
   "screens_h2": "The whole app, in light mode and dark",
@@ -253,7 +240,7 @@
   "pricing_col_month": "Monthly",
   "pricing_col_year": "Yearly",
   "pricing_you": "You",
-  "pricing_note": "Each country has its own price rather than one converted out of sterling. The App Store shows you the exact amount in your own currency, VAT included, before you agree to anything. Not in the list? The App Store has a price for you anyway.",
+  "pricing_note": "Billed by Apple through the App Store, VAT included, and cancelled in your iPhone's Settings like any other subscription. Cancel before the fourteen days are up and nothing is charged. Outside the UK, the App Store shows the price for your own country.",
   "faq_h2": "Questions couriers actually ask",
   "faq_intro": "Straight answers, from someone who does the job.",
   "faq": [
@@ -299,11 +286,15 @@
     },
     {
       "q": "What if I stop paying — do I lose my records?",
-      "a": "Nothing is deleted. Your drives stay on the iPhone and in your own iCloud, exactly where they were. But DropLane needs an active subscription to open, so if you want the figures somewhere else, export the CSV before you go. It's in Settings, and it's one tap."
+      "a": "Nothing is deleted, and the app keeps recording. Your drives stay on the iPhone and in your own iCloud, and the miles you drive while lapsed are waiting when you subscribe again. What locks is the reading: Today, Days, Stats, the PDF and the CSV export stay shut until you do. If you want the figures somewhere else, export the CSV before the subscription ends — it's in Settings, and it's one tap."
     },
     {
       "q": "How do I know what fuel really cost before the card invoice arrives?",
       "a": "Tell DropLane the price per litre your fuel card charges, then log the litres when you fill up. The cost is worked out on the day, so the week's profit is right weeks before the invoice turns up."
+    },
+    {
+      "q": "Is there an Android version?",
+      "a": "Not yet. DropLane is iPhone only for now, and Android is on its way. Email help@droplane.co.uk and we'll tell you the day it's out."
     }
   ],
   "closer_h2": "Stop guessing what the day made.",
@@ -341,12 +332,14 @@
   "setup_shot_always": "Now choose Always",
   "setup_shot_notifications": "Enable notifications",
   "setup_shot_vehicle": "What do you drive?",
+  "setup_h3": "Step one, screen by screen",
   "pocket_h3": "Notifications",
   "pocket_body": "\"Always\" lets drives record with the app closed.",
   "pocket_live_alt": "Drive detected — recording",
   "pocket_live_body": "While you're driving, a Live Activity keeps the miles climbing on the lock screen — so you can see the drive being recorded without unlocking anything.",
   "hero_trial": "14 days free",
   "hero_trial_then": "then {price} a month",
+  "hero_trial_then_yearly": "then from {price} a month",
   "compare_them": "Mileage trackers tell you how far you drove.",
   "compare_us": "DropLane tells you whether the day was worth it.",
   "fact_currency": "Every currency",

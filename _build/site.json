@@ -25,7 +25,7 @@
   },
 
   "languages": [
-    { "code": "en", "dir": "",   "name": "English",    "flag": "🇬🇧", "locale": "en-GB", "og_locale": "en_GB", "market": "GB", "currency": "GBP", "market_name": "United Kingdom", "price_month": "£6.99",   "price_year": "£49.99" },
+    { "code": "en", "dir": "",   "name": "English",    "flag": "🇬🇧", "locale": "en-GB", "og_locale": "en_GB", "market": "GB", "currency": "GBP", "market_name": "United Kingdom", "price_month": "£6.99",   "price_year": "£49.99", "lean": true },
     { "code": "en-US", "dir": "us", "name": "English (US)", "flag": "🇺🇸", "locale": "en-US", "og_locale": "en_US", "market": "US", "currency": "USD", "market_name": "United States", "price_month": "$6.99",   "price_year": "$49.99" },
     { "code": "en-AU", "dir": "au", "name": "English (AU)", "flag": "🇦🇺", "locale": "en-AU", "og_locale": "en_AU", "market": "AU", "currency": "AUD", "market_name": "Australia",     "price_month": "A$11.99", "price_year": "A$79.99" },
     { "code": "da", "dir": "da", "name": "Dansk",      "flag": "🇩🇰", "locale": "da-DK", "og_locale": "da_DK", "market": "DK", "currency": "DKK", "market_name": "Denmark",        "price_month": "49 DKK",  "price_year": "349 DKK" },

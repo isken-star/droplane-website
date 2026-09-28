@@ -889,6 +889,17 @@ h1, h2, h3 { overflow-wrap: break-word; }
 .android-soon b::before { content: "·"; margin-inline-end: 8px; color: var(--line-2); }
 .android-soon:hover { border-color: var(--line-2); color: var(--text); }
 
+/* The British page (site.json "lean"): who made it, under the hero buttons —
+   the one line of credibility a courier wants before the price; the four
+   setup phones under the steps rather than after pricing; the sentence after
+   the six feature cards for what they left out; the pricing note standing
+   alone where the country table was. */
+.hero-maker { margin: 18px 0 0; font-size: 14.5px; font-weight: 600; color: var(--text-3); max-width: 46ch; }
+.setup-h3 { margin: 34px 0 14px; font-size: 16px; color: var(--text-2); }
+.features-also { font-size: 16px; color: var(--text-3); max-width: 70ch; margin: 22px 0 0; }
+.pricing-note { margin-top: 24px; max-width: 62ch; }
+.quote-grid.single { grid-template-columns: 1fr; max-width: 760px; }
+
 .quotes { padding: 0 0 clamp(28px, 4vw, 48px); }
 .quotes-h { font-size: 15px; font-weight: 700; color: var(--text-3); margin: 0 0 14px; letter-spacing: .02em; }
 .quote-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
