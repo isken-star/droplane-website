@@ -1,0 +1,207 @@
+{
+  "alt_days": "“Kunlar” roʻyxati: har bir ish kuni foydasi, masofasi va safarlar soni bilan.",
+  "alt_today": "DropLane’ning “Bugun” ekrani: xaritada safar yozib olinmoqda, yonida kunning masofasi, soatlari va daromadi.",
+  "close": "Yopish",
+  "closer_body": "Oʻn toʻrt kun bepul, akkauntsiz, ertalab soat oltida eslab qoladigan hech narsa yoʻq.",
+  "closer_h2": "Kun qancha keltirganini endi taxmin qilib oʻtirmaysiz.",
+  "compare_them": "Probeg ilovalari qancha yoʻl yurganingizni aytadi.",
+  "compare_us": "DropLane esa oʻsha kun bunga arziganmi-yoʻqmi, shuni aytadi.",
+  "cta_get": "DropLane’ni yuklab olish",
+  "faq": [
+    {
+      "q": "Bu shunchaki yana bitta probeg hisoblagich emasmi?",
+      "a": "Probegni u ham xuddi shunday, “Boshlash” tugmasisiz yozib oladi. Farqi keyin boshlanadi: daromadingiz qoʻshiladi, yoqilgʻi, parkovka va boshqa xarajatlar ayriladi, soʻng ilova har bir soat aslida qancha keltirganini koʻrsatadi. Birgina probeg raqamidan hech kim reys arziganmi-yoʻqmi, bila olmagan."
+    },
+    {
+      "q": "Batareyani tez tugatib qoʻymaydimi?",
+      "a": "DropLane GPS’ni kun boʻyi yoqib qoʻymaydi. Mashinani qoʻygan joyingizdan ketganingizni sezmaguncha jim kutadi, harakatlanayotganingizda yozib oladi, toʻxtaganingizda yana uxlab qoladi."
+    },
+    {
+      "q": "“Boshlash” tugmasini bosishim kerakmi?",
+      "a": "Yoʻq — bosadigan tugmaning oʻzi yoʻq. Butun gap shunda. Eslab qolish kerak boʻlsa, aynan kerakli kuni esdan chiqarasiz."
+    },
+    {
+      "q": "Safar turini tanlashni unutib qoʻysam-chi?",
+      "a": "Hech narsa yoʻqolmaydi. Turi tanlanmagan safarlar “Kunlar” ekranida kutib turadi, ilova esa siz uchun taxmin qilmay, oʻzingizga eslatadi."
+    },
+    {
+      "q": "Marshrutlarim tarixi biror joyga ketib qolmaydimi?",
+      "a": "Yoʻq. Na akkaunt, na server bor. Hammasi iPhone’ingizda saqlanadi va faqat xohlasangiz, oʻz iCloud’ingizga zaxiralanadi."
+    },
+    {
+      "q": "Men furgon emas, velosiped haydayman.",
+      "a": "Bu ham boʻladi. Yuk velosipedidagi masofa ham xuddi shunday yoziladi. Lekin ilovadagi probeg stavkalari avtotransport uchun, shuning uchun velosipedda nimani hisoblash mumkinligi davlatingiz va sharoitingizga bogʻliq — buxgalterdan soʻragan maʼqul."
+    },
+    {
+      "q": "Mening davlatimning probeg stavkasi bormi?",
+      "a": "Oʻn yetti davlatning rasmiy stavkasi ilovaga kiritilgan va doim yangilanib turadi. Oʻzbekiston ular qatorida yoʻq, shuning uchun oʻz stavkangizni bir marta kiriting — qolgan hisobni ilovaning oʻzi qiladi."
+    },
+    {
+      "q": "Kilometrda ishlatsa boʻladimi?",
+      "a": "Ha. Kilometr yoki mil, oʻz valyutangiz va aslida toʻlayotgan yoqilgʻi narxingiz — hammasi Sozlamalarda, birinchi ekranda."
+    },
+    {
+      "q": "Aloqa yoʻq joyda ishlaydimi?",
+      "a": "Ha. Yozib olish iPhone’ingizning oʻz GPS’i orqali ishlaydi, internet umuman kerak emas. Aloqasiz joyda yozilgan safarlar koʻcha nomlari oʻrniga “Boshlanish” va “Tugash” belgilari bilan saqlanadi, DropLane esa keyingi marta Wi-Fi’ga ulanganda ularni toʻldirib qoʻyadi. Tarmoq ushlamaydigan qishloq yoʻllarida oʻtgan bir hafta ham toʻgʻri hisoblanadi."
+    },
+    {
+      "q": "Yangi telefon olsam nima boʻladi?",
+      "a": "Oʻsha iCloud’ga kiring — safarlaringiz, daromad va xarajatlaringiz oʻzi qaytib keladi. Ochiladigan akkaunt ham, unutiladigan parol ham yoʻq, chunki bularning hammasini saqlaydigan server hech qachon boʻlmagan — zaxira nusxa oʻz iCloud’ingizda, faqat sizniki."
+    },
+    {
+      "q": "Toʻlashni toʻxtatsam-chi — yozuvlarim yoʻqoladimi?",
+      "a": "Hech narsa oʻchirilmaydi, ilova safarlarni yozishda davom etadi. Safarlaringiz iPhone’da va oʻz iCloud’ingizda qoladi, obunasiz davrda haydagan kilometrlaringiz esa qayta obuna boʻlganingizda sizni kutib turadi. Faqat koʻrish yopiladi: “Bugun”, “Kunlar”, “Statistika”, “Tahlil”, PDF va CSV eksporti qayta obuna boʻlguningizcha yopiq turadi. Raqamlar boshqa joyda kerak boʻlsa, obuna tugamasdan CSV’ni eksport qilib oling — u Sozlamalarda, bitta bosish kifoya."
+    },
+    {
+      "q": "Karta boʻyicha hisob kelmasidan oldin yoqilgʻi aslida qanchaga tushganini qanday bilaman?",
+      "a": "DropLane’ga yoqilgʻi kartangizning bir litr narxini ayting, quyganingizda esa litrini yozib qoʻying. Narxi oʻsha kuniyoq hisoblanadi, shuning uchun haftalik foyda hisob kelishidan bir necha hafta oldin toʻgʻri boʻladi."
+    },
+    {
+      "q": "Android versiyasi bormi?",
+      "a": "Hozircha yoʻq. DropLane faqat iPhone uchun, Android versiyasi esa tayyorlanmoqda. help@droplane.co.uk manziliga yozing — chiqqan kuniyoq xabar beramiz."
+    }
+  ],
+  "faq_all": "Barcha savollar →",
+  "faq_h2": "Kuryerlar chindan beradigan savollar",
+  "faq_home": [
+    "“Boshlash” tugmasini bosishim kerakmi?",
+    "Marshrutlarim tarixi biror joyga ketib qolmaydimi?",
+    "Aloqa yoʻq joyda ishlaydimi?",
+    "Men furgon emas, velosiped haydayman.",
+    "Toʻlashni toʻxtatsam-chi — yozuvlarim yoʻqoladimi?"
+  ],
+  "faq_intro": "Bu ishni oʻzi qiladigan odamdan toʻgʻridan-toʻgʻri javoblar.",
+  "faq_meta_description": "Kuryerlarning DropLane haqidagi savollariga uni yaratgan kuryer javob beradi: yozib olish, batareya, maxfiylik, aloqa va toʻlamay qoʻysangiz nima boʻladi.",
+  "faq_page_title": "Kuryerlar chindan beradigan savollar — DropLane",
+  "features": [
+    {
+      "icon": "💰",
+      "title": "Haqiqiy foydangizni biling",
+      "body": "Daromad minus yoqilgʻi va xarajatlar — kun, hafta va oy boʻyicha."
+    },
+    {
+      "icon": "⏱️",
+      "title": "Haqiqiy soatlik daromadingizni biling",
+      "body": "Yoqilgʻi, kredit va sugʻurta ish kunlaringizga taqsimlanganda, qaysi kunlar va buyurtmalar aslida foyda keltirishini koʻrasiz."
+    },
+    {
+      "icon": "🧾",
+      "title": "Yozuvlar kerak paytda tayyor",
+      "body": "Safarlar, probeg va buxgalter uchun PDF — kilometr stavkasini oʻzingiz belgilaysiz."
+    }
+  ],
+  "features_also": "Ilova furgoningiz hisobini ham yuritadi: servis, shina va taʼmirlash hisob-faktura surati bilan yoziladi, texnik koʻrik muddatidan oldin eslatma keladi, servisgacha qolgan kilometrlar sanab boriladi, yoqilgʻi kartasidagi xarajat esa quygan kuningizdayoq hisoblanadi. Buning ustiga ilova 46 tilda gapiradi va pulni oʻz valyutangizda koʻrsatadi.",
+  "features_h2": "Siz nima olasiz",
+  "features_intro": "Ish aslida qanday boʻlsa, shunga moslab, bu ishni oʻzi qiladigan odam yaratgan.",
+  "footer_note": "DropLane — ish yuzasidan mashina haydaydigan har bir kishi uchun avtomatik probeg, daromad va xarajatlar hisobi. Torki shahrida kuryer yaratgan.",
+  "footer_privacy": "Maxfiylik",
+  "footer_support": "Yordam",
+  "footer_terms": "Shartlar",
+  "hero_cta_how": "Qanday ishlashini koʻring ↓",
+  "hero_h1": "Kun aslida qancha keltirganini biling.",
+  "hero_kicker": "Avtomatik probeg · Haqiqiy foyda · Haqiqiy soatlik daromad",
+  "hero_lede": "DropLane har bir safarni oʻzi yozib oladi, xarajatlaringizni ayiradi va aslida qancha topganingizni koʻrsatadi.",
+  "hero_support": "14 kun bepul · Akkauntsiz · Istalgan vaqtda bekor qilish mumkin",
+  "hero_trial": "14 kun bepul",
+  "hero_trial_then_plans": "soʻng yiliga {year} yoki oyiga {month}",
+  "how_h2": "Uch qadam, ulardan faqat bittasi sizniki",
+  "how_intro": "DropLane’da “Boshlash” tugmasi ataylab yoʻq. Ertalab soat oltida posilkaga toʻla furgonda uni bosishni hech kim eslamaydi.",
+  "how_steps": [
+    {
+      "title": "Bir marta yoqing",
+      "body": "Ilovani oʻrnating va fonda joylashuvdan foydalanishga ruxsat bering. Butun sozlash shu bilan tugaydi."
+    },
+    {
+      "title": "Haydayvering",
+      "body": "Har bir safar oʻzi saqlanadi — marshruti, toʻxtashlari va har birida qancha turganingiz bilan."
+    },
+    {
+      "title": "Turini bir bosishda tanlang",
+      "body": "Ish, boʻsh, buyurtmaga yoki shaxsiy. Jami summalar va probeg kompensatsiyasi oʻzi hisoblanadi."
+    }
+  ],
+  "langbar_rest": "Oʻz tilingizni tanlang — ilova ham shu tilda gapiradi.",
+  "langbar_strong": "46 til.",
+  "language_label": "Til",
+  "language_note": "Ilova 46 tilning hammasida gapiradi — har bir ekran, har bir bildirishnoma, har bir PDF.",
+  "language_title": "Saytni oʻz tilingizda oʻqing",
+  "menu": "Menyu",
+  "meta_description": "Kuryerlar, ustalar va savdo vakillari uchun probeg hisobi. DropLane har safarni oʻzi yozadi, daromaddan xarajatni ayirib, soatiga qancha tushganini koʻrsatadi.",
+  "meta_title": "DropLane — ish yuzasidan mashina haydaydiganlar uchun probeg va daromad hisobi",
+  "money_intro": "Ikki haqiqiy kun. Shanbadagi yoʻl kechagidan 28 km uzunroq boʻldi, lekin qoʻlda 57 900 soʻm kamroq qoldi.",
+  "money_label_money": "qoʻlda qoldi",
+  "money_note": "Probeg qancha yoʻl yurganingizni aytadi. DropLane esa bunga arziganmi-yoʻqmi, shuni aytadi.",
+  "money_punch2": "Koʻp haydash har doim ham koʻp topish degani emas.",
+  "nav_day": "Qancha keltiradi",
+  "nav_faq": "Savollar",
+  "nav_features": "Imkoniyatlar",
+  "nav_how": "Qanday ishlaydi",
+  "nav_label": "Asosiy menyu",
+  "nav_pricing": "Narx",
+  "nav_support": "Yordam",
+  "outcomes": [
+    {
+      "file": "today",
+      "title": "Bugun qancha topdim",
+      "alt": "“Bugun” ekrani: Toshkent xaritasida safar yozilmoqda; 472 000 soʻm daromaddan 164 900 soʻm xarajat ayrilib, bugun qoʻlda 307 100 soʻm qoldi."
+    },
+    {
+      "file": "day",
+      "title": "Xarajatlardan keyin qoʻlimda qancha qoldi",
+      "alt": "Bir kunning sahifasi: kun foydasi 307 100 soʻm, 121 km, soatiga 41 221 soʻm, kilometriga 2 538 soʻm, pastda kun xaritada."
+    },
+    {
+      "file": "insights",
+      "title": "Haqiqiy soatlik daromadim",
+      "alt": "“Tahlil” ekrani: doimiy xarajatlardan keyingi foyda 181 100 soʻm, soatiga 24 309 soʻm, kilometriga 2 538 soʻm, yoʻlda 7 s 27 daq."
+    }
+  ],
+  "outcomes_label": "Uyga yetguningizcha DropLane tayyorlab qoʻyadigan uchta raqam",
+  "pocket_body": "“Doim” ilova yopiq boʻlsa ham safarlarni yozib olishga imkon beradi.",
+  "pocket_h3": "Bildirishnomalar",
+  "pocket_live_alt": "Qulflangan ekrandagi jonli faollik kartasi: “YOZILMOQDA” belgisi, kilometrlarda oshib borayotgan masofa, safar turini tanlash tugmalari va qizil toʻxtatish tugmasi.",
+  "pocket_live_body": "Mashina haydab ketayotganingizda qulflangan ekrandagi jonli faollik kilometrlarni sanab boradi — telefonni ochmasdan ham safar yozib olinayotganini koʻrasiz.",
+  "pricing_best": "Eng foydali",
+  "pricing_bullet_all": "Barcha imkoniyatlar, qoʻshimcha toʻlovsiz",
+  "pricing_bullet_equivalent": "Oyiga {monthly} boʻlib chiqadi",
+  "pricing_bullet_saving": "Yiliga {saving} tejaysiz — {percent}% arzonroq",
+  "pricing_bullet_trial": "Dastlabki 14 kun bepul",
+  "pricing_cta": "14 kun bepul boshlash",
+  "pricing_h2": "Bitta narx, ichida hammasi bor",
+  "pricing_intro": "Oʻn toʻrt kun bepul. Sinov tugamasdan bekor qilsangiz, hech narsa toʻlamaysiz. Barcha imkoniyatlar birinchi kundanoq ochiq — qimmatroq tarif ham, qoʻshimcha toʻlov ham yoʻq.",
+  "pricing_monthly": "Oylik",
+  "pricing_note": "Apple 14 kun davomida hech narsa olmaydi. Shu muddat ichida Sozlamalarda bekor qilsangiz, hech narsa toʻlamaysiz. Oʻzbekistondan tashqarida App Store oʻz davlatingiz narxini koʻrsatadi.",
+  "pricing_per_month": "oyiga, istalgan vaqtda bekor qilish mumkin",
+  "pricing_per_year": "yiliga, yilda bir marta toʻlanadi",
+  "pricing_yearly": "Yillik",
+  "privacy_h2": "Sizning maʼlumotlaringiz. Faqat sizniki.",
+  "privacy_intro": "Joylashuvingiz iPhone’ingizda va oʻz iCloud’ingizda qoladi. Na akkaunt, na server, hech narsa sotilmaydi. Safarlaringizni kim koʻrishini faqat siz hal qilasiz.",
+  "privacy_point1": "Aynan shu DropLane’ga masofani yozishga imkon beradi. Joylashuv tarixingiz hech qachon iPhone’ingizdan chiqmaydi.",
+  "privacy_point2": "iCloud zaxira va tiklash, akkaunt kerak emas",
+  "privacy_point3": "Yozuvlaringiz uchun CSV eksport qilish",
+  "privacy_stat_label": "Joylashuvingizni saqlaydigan serverlar",
+  "reviews_h2": "Buyuk Britaniya App Store’idan",
+  "setup_h3": "Sozlash qanday oʻtishini koʻring",
+  "setup_shot_always": "Endi “Doim”ni tanlang",
+  "setup_shot_location": "Joylashuvni yoqish",
+  "setup_shot_notifications": "Bildirishnomalarni yoqish",
+  "setup_shot_vehicle": "Nima haydaysiz?",
+  "suggest_prompt": "Oʻzbekcha oʻqish",
+  "theme_dark": "Qorongʻi",
+  "theme_label": "Rang mavzusi",
+  "theme_light": "Yorugʻ",
+  "trust": [
+    "Safarlarni oʻzi yozib oladi",
+    "Joylashuv iPhone’da qoladi",
+    "10+ yil yoʻlda yurgan kuryer yaratgan",
+    "46 til, istalgan valyuta"
+  ],
+  "money_day1_when": "shanba",
+  "money_day1_distance": "177 km",
+  "money_day1_money": "129 300 soʻm",
+  "money_day2_when": "Kecha",
+  "money_day2_distance": "149 km",
+  "money_day2_money": "187 200 soʻm",
+  "money_punch": "28 km koʻproq. 57 900 soʻm kamroq.",
+  "money_h2": "Ikki kun. Koʻproq kilometr. Kamroq pul."
+}
