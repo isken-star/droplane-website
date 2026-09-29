@@ -402,10 +402,12 @@
 (function () {
   'use strict';
 
-  function send(name, data) {
+  /* Fathom reports an event by its name alone, so any detail worth
+     reading in the dashboard has to be part of the name. */
+  function send(name) {
     try {
       if (window.fathom) { window.fathom.trackEvent(name); return; }
-      if (window.umami) { window.umami.track(name, data); }
+      if (window.umami) { window.umami.track(name); }
     } catch (e) {}
   }
 
@@ -436,12 +438,14 @@
        honest test of whether the twenty-four translations reach the right
        readers, so it is worth a line of its own. */
     if (link.closest('.lang-list') && link.hasAttribute('hreflang')) {
-      send('language-switch', { to: link.getAttribute('hreflang') });
+      send('language-switch-' + link.getAttribute('hreflang'));
       return;
     }
 
+    /* Named by site ("outbound-instagram.com"), not by full address, so the
+       list stays short enough to read. */
     if (link.host && link.host !== location.host && /^https?:/i.test(link.protocol)) {
-      send('outbound-click', { url: href });
+      send('outbound-' + link.hostname.replace(/^www\./, ''));
     }
   });
 })();
