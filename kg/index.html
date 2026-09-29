@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ky-KG" data-theme="light" data-lang="ky">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DropLane — жумуш үчүн унаа айдагандарга километраж жана киреше эсеби</title>
+<meta name="description" content="Курьерлер, усталар жана соода өкүлдөрү үчүн километраж эсеби. DropLane ар бир сапарды өзү жазат, чыгымдарды кемитип, саатыңыз канча алып келгенин көрсөтөт.">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<!-- Safari on iPhone shows its own "View in App Store" strip from this one line. -->
+<meta name="apple-itunes-app" content="app-id=6760871535">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/kg/">
+<link rel="alternate" hreflang="en" href="https://www.droplane.co.uk/">
+<link rel="alternate" hreflang="en-US" href="https://www.droplane.co.uk/us/">
+<link rel="alternate" hreflang="en-AU" href="https://www.droplane.co.uk/au/">
+<link rel="alternate" hreflang="da" href="https://www.droplane.co.uk/da/">
+<link rel="alternate" hreflang="de" href="https://www.droplane.co.uk/de/">
+<link rel="alternate" hreflang="es" href="https://www.droplane.co.uk/es/">
+<link rel="alternate" hreflang="fr" href="https://www.droplane.co.uk/fr/">
+<link rel="alternate" hreflang="it" href="https://www.droplane.co.uk/it/">
+<link rel="alternate" hreflang="nl" href="https://www.droplane.co.uk/nl/">
+<link rel="alternate" hreflang="pl" href="https://www.droplane.co.uk/pl/">
+<link rel="alternate" hreflang="pt-PT" href="https://www.droplane.co.uk/pt/">
+<link rel="alternate" hreflang="pt" href="https://www.droplane.co.uk/br/">
+<link rel="alternate" hreflang="cs" href="https://www.droplane.co.uk/cz/">
+<link rel="alternate" hreflang="sk" href="https://www.droplane.co.uk/sk/">
+<link rel="alternate" hreflang="hu" href="https://www.droplane.co.uk/hu/">
+<link rel="alternate" hreflang="el" href="https://www.droplane.co.uk/gr/">
+<link rel="alternate" hreflang="ro" href="https://www.droplane.co.uk/ro/">
+<link rel="alternate" hreflang="bg" href="https://www.droplane.co.uk/bg/">
+<link rel="alternate" hreflang="sv" href="https://www.droplane.co.uk/sv/">
+<link rel="alternate" hreflang="nb" href="https://www.droplane.co.uk/nb/">
+<link rel="alternate" hreflang="fi" href="https://www.droplane.co.uk/fi/">
+<link rel="alternate" hreflang="ru" href="https://www.droplane.co.uk/ru/">
+<link rel="alternate" hreflang="lt" href="https://www.droplane.co.uk/lt/">
+<link rel="alternate" hreflang="lv" href="https://www.droplane.co.uk/lv/">
+<link rel="alternate" hreflang="uk" href="https://www.droplane.co.uk/ua/">
+<link rel="alternate" hreflang="tr" href="https://www.droplane.co.uk/tr/">
+<link rel="alternate" hreflang="ky" href="https://www.droplane.co.uk/kg/">
+<link rel="alternate" hreflang="ja" href="https://www.droplane.co.uk/jp/">
+<link rel="alternate" hreflang="ko" href="https://www.droplane.co.uk/kr/">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.droplane.co.uk/sg/">
+<link rel="alternate" hreflang="zh-Hant" href="https://www.droplane.co.uk/tw/">
+<link rel="alternate" hreflang="hi" href="https://www.droplane.co.uk/in/">
+<link rel="alternate" hreflang="id" href="https://www.droplane.co.uk/id/">
+<link rel="alternate" hreflang="vi" href="https://www.droplane.co.uk/vn/">
+<link rel="alternate" hreflang="th" href="https://www.droplane.co.uk/th/">
+<link rel="alternate" hreflang="hr" href="https://www.droplane.co.uk/hr/">
+<link rel="alternate" hreflang="sl" href="https://www.droplane.co.uk/si/">
+<link rel="alternate" hreflang="ca" href="https://www.droplane.co.uk/ca/">
+<link rel="alternate" hreflang="ms" href="https://www.droplane.co.uk/my/">
+<link rel="alternate" hreflang="pa" href="https://www.droplane.co.uk/pa/">
+<link rel="alternate" hreflang="ta" href="https://www.droplane.co.uk/ta/">
+<link rel="alternate" hreflang="bn" href="https://www.droplane.co.uk/bn/">
+<link rel="alternate" hreflang="es-MX" href="https://www.droplane.co.uk/mx/">
+<link rel="alternate" hreflang="fr-CA" href="https://www.droplane.co.uk/qc/">
+<link rel="alternate" hreflang="en-CA" href="https://www.droplane.co.uk/en-ca/">
+<link rel="alternate" hreflang="ar" href="https://www.droplane.co.uk/ae/">
+<link rel="alternate" hreflang="ur" href="https://www.droplane.co.uk/ur/">
+<link rel="alternate" hreflang="x-default" href="https://www.droplane.co.uk/">
+<meta property="og:title" content="DropLane — жумуш үчүн унаа айдагандарга километраж жана киреше эсеби">
+<meta property="og:description" content="Курьерлер, усталар жана соода өкүлдөрү үчүн километраж эсеби. DropLane ар бир сапарды өзү жазат, чыгымдарды кемитип, саатыңыз канча алып келгенин көрсөтөт.">
+<meta property="og:url" content="https://www.droplane.co.uk/kg/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ky_KG">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/og/kg.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Күн чындыгында канча алып келгенин билиңиз.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DropLane — жумуш үчүн унаа айдагандарга километраж жана киреше эсеби">
+<meta name="twitter:description" content="Курьерлер, усталар жана соода өкүлдөрү үчүн километраж эсеби. DropLane ар бир сапарды өзү жазат, чыгымдарды кемитип, саатыңыз канча алып келгенин көрсөтөт.">
+<meta name="twitter:image" content="https://www.droplane.co.uk/assets/og/kg.jpg">
+<!-- What search engines read: the app, its price in this market, and the
+     listing's rating. Built from site.json, so a price change lands here. -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "DropLane", "alternateName": "DropLane: Mileage Tracker", "operatingSystem": "iOS", "applicationCategory": "FinanceApplication", "url": "https://www.droplane.co.uk/kg/", "image": "https://www.droplane.co.uk/assets/icon-512.png", "description": "Курьерлер, усталар жана соода өкүлдөрү үчүн километраж эсеби. DropLane ар бир сапарды өзү жазат, чыгымдарды кемитип, саатыңыз канча алып келгенин көрсөтөт.", "inLanguage": "ky-KG", "installUrl": "https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&ct=web-kg-schema&mt=8", "author": {"@type": "Organization", "name": "DropLane"}, "offers": [{"@type": "Offer", "name": "Ай сайын", "price": "2.99", "priceCurrency": "USD", "category": "subscription"}, {"@type": "Offer", "name": "Жылдык", "price": "19.99", "priceCurrency": "USD", "category": "subscription"}], "sameAs": ["https://www.instagram.com/droplane.app/", "https://www.facebook.com/droplaneapp"]}</script>
+<!-- Anonymous visitor counting. No cookies, nothing that identifies a
+     reader. Swap this one tag to change provider; site.js does not care. -->
+<script src="https://cdn.usefathom.com/script.js" data-site="VHXQRPBR" defer></script>
+</head>
+<body class="lean">
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/kg/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="Негизги меню">
+      <a href="#money">Канча алып келет</a>
+      <a href="#how">Кантип иштейт</a>
+      <a href="#features">Мүмкүнчүлүктөр</a>
+      <a href="#pricing">Баасы</a>
+      <a href="/support/">Колдоо</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="Тил">
+        <span class="lang-button-flag" aria-hidden="true">🇰🇬</span>
+        <span class="lang-button-name">Кыргызча</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="Түс темасы">
+        <button type="button" data-theme="light" aria-pressed="true" title="Жарык">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>Жарык</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="Караңгы">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>Караңгы</span>
+        </button>
+      </div>
+
+      <a class="head-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-kg-head&amp;mt=8" data-place="head"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>DropLane’ди жүктөп алуу</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">Меню</span><span class="close-label">Жабуу</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">Сайтты өз тилиңизде окуңуз</p>
+      <ul class="lang-list">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
+        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
+        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
+        <li><a href="/gr/" hreflang="el" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
+        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
+        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
+        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+        <li><a href="/kg/" hreflang="ky" aria-current="true" data-suggest="Кыргызча окуу" data-flag="🇰🇬"><span class="flag">🇰🇬</span> Кыргызча</a></li>
+        <li><a href="/jp/" hreflang="ja" data-suggest="日本語で読む" data-flag="🇯🇵"><span class="flag">🇯🇵</span> 日本語</a></li>
+        <li><a href="/kr/" hreflang="ko" data-suggest="한국어로 읽기" data-flag="🇰🇷"><span class="flag">🇰🇷</span> 한국어</a></li>
+        <li><a href="/sg/" hreflang="zh-Hans" data-suggest="用简体中文阅读" data-flag="🇸🇬"><span class="flag">🇸🇬</span> 简体中文</a></li>
+        <li><a href="/tw/" hreflang="zh-Hant" data-suggest="用繁體中文閱讀" data-flag="🇹🇼"><span class="flag">🇹🇼</span> 繁體中文</a></li>
+        <li><a href="/in/" hreflang="hi" data-suggest="हिन्दी में पढ़ें" data-flag="🇮🇳"><span class="flag">🇮🇳</span> हिन्दी</a></li>
+        <li><a href="/id/" hreflang="id" data-suggest="Baca dalam bahasa Indonesia" data-flag="🇮🇩"><span class="flag">🇮🇩</span> Bahasa Indonesia</a></li>
+        <li><a href="/vn/" hreflang="vi" data-suggest="Đọc bằng tiếng Việt" data-flag="🇻🇳"><span class="flag">🇻🇳</span> Tiếng Việt</a></li>
+        <li><a href="/th/" hreflang="th" data-suggest="อ่านเป็นภาษาไทย" data-flag="🇹🇭"><span class="flag">🇹🇭</span> ไทย</a></li>
+        <li><a href="/hr/" hreflang="hr" data-suggest="Čitaj na hrvatskom" data-flag="🇭🇷"><span class="flag">🇭🇷</span> Hrvatski</a></li>
+        <li><a href="/si/" hreflang="sl" data-suggest="Beri v slovenščini" data-flag="🇸🇮"><span class="flag">🇸🇮</span> Slovenščina</a></li>
+        <li><a href="/ca/" hreflang="ca" data-suggest="Llegeix-ho en català" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Català</a></li>
+        <li><a href="/my/" hreflang="ms" data-suggest="Baca dalam Bahasa Melayu" data-flag="🇲🇾"><span class="flag">🇲🇾</span> Bahasa Melayu</a></li>
+        <li><a href="/pa/" hreflang="pa" data-suggest="ਪੰਜਾਬੀ ਵਿੱਚ ਪੜ੍ਹੋ" data-flag="🇮🇳"><span class="flag">🇮🇳</span> ਪੰਜਾਬੀ</a></li>
+        <li><a href="/ta/" hreflang="ta" data-suggest="தமிழில் படியுங்கள்" data-flag="🇮🇳"><span class="flag">🇮🇳</span> தமிழ்</a></li>
+        <li><a href="/bn/" hreflang="bn" data-suggest="বাংলায় পড়ুন" data-flag="🇮🇳"><span class="flag">🇮🇳</span> বাংলা</a></li>
+        <li><a href="/mx/" hreflang="es-MX" data-suggest="Leer en español (México)" data-flag="🇲🇽"><span class="flag">🇲🇽</span> Español (MX)</a></li>
+        <li><a href="/qc/" hreflang="fr-CA" data-suggest="Lire en français (Canada)" data-flag="🇨🇦"><span class="flag">🇨🇦</span> Français (CA)</a></li>
+        <li><a href="/en-ca/" hreflang="en-CA" data-suggest="Read this in Canadian English" data-flag="🇨🇦"><span class="flag">🇨🇦</span> English (CA)</a></li>
+        <li><a href="/ae/" hreflang="ar" data-suggest="اقرأ بالعربية" data-flag="🇦🇪"><span class="flag">🇦🇪</span> العربية</a></li>
+        <li><a href="/ur/" hreflang="ur" data-suggest="اردو میں پڑھیں" data-flag="🇮🇳"><span class="flag">🇮🇳</span> اردو</a></li>
+      </ul>
+      <p class="lang-panel-note">Колдонмо 46 тилдин баарында сүйлөйт — ар бир экран, ар бир билдирме, ар бир PDF.</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="Негизги меню">
+        <a href="#money">Канча алып келет</a>
+        <a href="#how">Кантип иштейт</a>
+        <a href="#features">Мүмкүнчүлүктөр</a>
+        <a href="#pricing">Баасы</a>
+        <a href="#faq">Суроолор</a>
+        <a href="/support/">Колдоо</a>
+      </nav>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-kg-menu&amp;mt=8" data-place="menu">14 күн акысыз баштоо</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>46 тил.</strong> Өз тилиңизди тандаңыз — колдонмо да ошол тилде сүйлөйт.</p>
+    <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
+  </div>
+</div>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">Автоматтык километраж · Чыныгы пайда · Чыныгы сааттык киреше</p>
+      <h1>Күн чындыгында канча алып келгенин билиңиз.</h1>
+      <p class="lede">DropLane ар бир сапарды өзү жазат, чыгымдарыңызды кемитет жана чындыгында канча тапканыңызды көрсөтөт.</p>
+      <!-- While the app is coming soon the loud button is the launch list, not
+           the price: the eyebrow above already carries the price and links to
+           the table. On launch day it becomes Apple's badge on its own —
+           set "launched" in _build/site.json and rebuild. -->
+      <div class="cta-row">
+        <a class="btn btn-hero" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-kg-hero&amp;mt=8" data-place="hero"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>14 күн акысыз баштоо</a>
+      </div>
+      <p class="hero-support">14 күн акысыз · Аккаунтсуз · Каалаган убакта жокко чыгарасыз <a class="hero-how" href="#how">Кантип иштээрин көрүңүз ↓</a></p>
+      <ul class="trust">
+        <li>Сапарларды өзү жазат</li>
+        <li>Геолокация iPhone’до калат</li>
+        <li>10+ жыл жолдо жүргөн курьер жасаган</li>
+        <li>46 тил, каалаган валюта</li>
+      </ul>
+    </div>
+
+    <div class="stage">
+      <div class="device device-back">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ky/dark/days.webp" width="640" height="1391" alt="«Күндөр» тизмеси: ар бир жумуш күнү пайдасы, аралыгы жана сапарларынын саны менен." loading="eager">
+          <img class="only-light" src="/assets/screens/ky/light/days.webp" width="640" height="1391" alt="«Күндөр» тизмеси: ар бир жумуш күнү пайдасы, аралыгы жана сапарларынын саны менен." loading="eager">
+        </div>
+      </div>
+      <div class="device device-front">
+        <div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ky/dark/today.webp" width="640" height="1391" alt="DropLane’дин «Бүгүн» экраны: картада сапар жазылып жатат, жанында күндүн аралыгы, сааттары жана кирешеси." loading="eager">
+          <img class="only-light" src="/assets/screens/ky/light/today.webp" width="640" height="1391" alt="DropLane’дин «Бүгүн» экраны: картада сапар жазылып жатат, жанында күндүн аралыгы, сааттары жана кирешеси." loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- The three numbers the page is about, as the app shows them. -->
+<section class="outcomes" aria-label="Үйгө жеткенче DropLane даярдап коё турган үч сан">
+  <div class="wrap">
+    <div class="rail outcomes-rail">
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ky/dark/today.webp" width="640" height="1391" alt="«Бүгүн» экраны: Бишкектин картасында сапар жазылып жатат, ал эми бүгүнкү киреше 2 590,90 сом: 3 540,00 сом түшүп, 949,10 сом чыгым болду." loading="lazy">
+          <img class="only-light" src="/assets/screens/ky/light/today.webp" width="640" height="1391" alt="«Бүгүн» экраны: Бишкектин картасында сапар жазылып жатат, ал эми бүгүнкү киреше 2 590,90 сом: 3 540,00 сом түшүп, 949,10 сом чыгым болду." loading="lazy">
+        </div></div>
+        <figcaption><b>Бүгүн канча таптым</b></figcaption>
+      </figure>
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ky/dark/day.webp" width="640" height="1391" alt="Бир күндүн барагы: күндүн пайдасы 2 590,90 сом, 86,8 км, саатына 385,74 сом, бир километрге 29,85 сом, төмөндө күн картада." loading="lazy">
+          <img class="only-light" src="/assets/screens/ky/light/day.webp" width="640" height="1391" alt="Бир күндүн барагы: күндүн пайдасы 2 590,90 сом, 86,8 км, саатына 385,74 сом, бир километрге 29,85 сом, төмөндө күн картада." loading="lazy">
+        </div></div>
+        <figcaption><b>Чыгымдан кийин колумда чындап канча калды</b></figcaption>
+      </figure>
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ky/dark/insights.webp" width="640" height="1391" alt="«Талдоо» экраны: туруктуу чыгымдардан кийинки пайда 1 109,36 сом, саатына 165,17 сом, бир километрге 29,85 сом, жолдо 6 с 43 мүн." loading="lazy">
+          <img class="only-light" src="/assets/screens/ky/light/insights.webp" width="640" height="1391" alt="«Талдоо» экраны: туруктуу чыгымдардан кийинки пайда 1 109,36 сом, саатына 165,17 сом, бир километрге 29,85 сом, жолдо 6 с 43 мүн." loading="lazy">
+        </div></div>
+        <figcaption><b>Чыныгы сааттык кирешем</b></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- The one line that says what this is instead of what it does. It was
+     buried in the FAQ, twelve questions down, where the people who most
+     needed it were never going to reach it. -->
+<section class="compare">
+  <div class="wrap">
+    <p><span class="compare-them">Километраж колдонмолору канча жол жүргөнүңүздү айтат.</span> <span class="compare-us">DropLane болсо ошол күн акталдыбы же жокпу — ошону айтат.</span></p>
+  </div>
+</section>
+
+<!-- Real reviews, quoted as written. They are in English on every page:
+     a courier's own words are worth more than a translation of them. -->
+<section class="quotes" aria-labelledby="quotes-h">
+  <div class="wrap">
+    <h2 class="quotes-h" id="quotes-h">Британиялык App Store’дон</h2>
+    <div class="quote-grid">
+      <figure class="quote">
+        <span class="stars" aria-label="5/5">★★★★★</span>
+        <blockquote lang="en">Just found this app in the store. Fantastic app for me as a self employed courier. Tells me exactly how much I&#x27;ve really earnt per job. I like how its linked to maps</blockquote>
+        <figcaption>greatwhite surfer · App Store</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>Эки күн. Көбүрөөк километр. Азыраак акча.</h2>
+
+    <div class="twodays">
+      <div class="twoday">
+        <p class="twoday-when">Ишемби</p>
+        <p class="twoday-miles">110 км</p>
+        <p class="twoday-money"><b>1 511,20 сом</b><span>таза калды</span></p>
+      </div>
+      <div class="twoday">
+        <p class="twoday-when">Кечээ</p>
+        <p class="twoday-miles">98,3 км</p>
+        <p class="twoday-money"><b>1 881,00 сом</b><span>таза калды</span></p>
+      </div>
+    </div>
+
+    <p class="twodays-punch">11,7 км көбүрөөк. 369,80 сом азыраак.</p>
+    <p class="twodays-punch2">Көп айдаганыңыз дайыма эле көп тапканыңыз эмес.</p>
+    <p class="versus-note">Километраж канча жол жүргөнүңүздү айтат. DropLane болсо ошол жол акталдыбы же жокпу — ошону айтат.</p>
+  </div>
+</section>
+
+
+
+<section class="band" id="how">
+  <div class="wrap">
+    <h2>Үч кадам, алардын бирөө гана сизге тиешелүү</h2>
+    <p class="section-intro">DropLane’де «Баштоо» баскычы атайын жок. Таңкы алтыда посылкага толгон фургон менен аны басууну эч ким эстебейт.</p>
+
+    <div class="steps">
+      <div class="card step">
+        <span class="num">1</span>
+        <h3>Бир жолу күйгүзүңүз</h3>
+        <p>Колдонмону орнотуп, фондо геолокацияга уруксат бериңиз. Бардык жөндөө ушуну менен бүтөт.</p>
+      </div>
+      <div class="card step">
+        <span class="num">2</span>
+        <h3>Айдай бериңиз</h3>
+        <p>Ар бир сапар өзү сакталат — маршруту, токтоолору жана ар биринде канча турганыңыз менен.</p>
+      </div>
+      <div class="card step">
+        <span class="num">3</span>
+        <h3>Түрүн бир басуу менен тандаңыз</h3>
+        <p>Жумуш, бош, буйрутмага же жеке. Жыйынтыктар жана километраж компенсациясы өзү эсептелет.</p>
+      </div>
+    </div>
+
+    <details class="setup-fold">
+      <summary>Жөндөө кантип өтөрүн көрүңүз</summary>
+      <div class="setup">
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ky/dark/onboarding-location.webp" width="640" height="1391" alt="Геолокацияны күйгүзүү" loading="lazy">
+          <img class="only-light" src="/assets/screens/ky/light/onboarding-location.webp" width="640" height="1391" alt="Геолокацияны күйгүзүү" loading="lazy">
+        </div></div>
+        <figcaption>Геолокацияны күйгүзүү</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ky/dark/onboarding-location-always.webp" width="640" height="1391" alt="Эми «Ар дайым» тандаңыз" loading="lazy">
+          <img class="only-light" src="/assets/screens/ky/light/onboarding-location-always.webp" width="640" height="1391" alt="Эми «Ар дайым» тандаңыз" loading="lazy">
+        </div></div>
+        <figcaption>Эми «Ар дайым» тандаңыз</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ky/dark/onboarding-notifications.webp" width="640" height="1391" alt="Билдирмелерди күйгүзүү" loading="lazy">
+          <img class="only-light" src="/assets/screens/ky/light/onboarding-notifications.webp" width="640" height="1391" alt="Билдирмелерди күйгүзүү" loading="lazy">
+        </div></div>
+        <figcaption>Билдирмелерди күйгүзүү</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ky/dark/onboarding-vehicle.webp" width="640" height="1391" alt="Эмне айдайсыз?" loading="lazy">
+          <img class="only-light" src="/assets/screens/ky/light/onboarding-vehicle.webp" width="640" height="1391" alt="Эмне айдайсыз?" loading="lazy">
+        </div></div>
+        <figcaption>Эмне айдайсыз?</figcaption>
+      </figure>
+      </div>
+    </details>
+
+    <!-- And then the phone goes in a pocket. These are the only pictures on
+         the page taken with the app shut: the lock screen, doing the job on
+         its own — the notifications telling the story afterwards, and the
+         Live Activity showing the drive being recorded right now. All the
+         lines are the app's own words. -->
+    <div class="pocket">
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/ky/dark/notifications.webp" width="640" height="1391" alt="Билдирмелер" loading="lazy">
+            <img class="only-light" src="/assets/screens/ky/light/notifications.webp" width="640" height="1391" alt="Билдирмелер" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/ky/dark/live-activity.webp" width="640" height="1391" alt="Кулпуланган экрандагы реалдуу убакыттагы аракет: «ЖАЗЫЛУУДА» белгиси, километр менен өсүп жаткан аралык, сапардын түрүн тандоочу баскычтар жана кызыл токтотуу баскычы." loading="lazy">
+            <img class="only-light" src="/assets/screens/ky/light/live-activity.webp" width="640" height="1391" alt="Кулпуланган экрандагы реалдуу убакыттагы аракет: «ЖАЗЫЛУУДА» белгиси, километр менен өсүп жаткан аралык, сапардын түрүн тандоочу баскычтар жана кызыл токтотуу баскычы." loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <div class="pocket-words">
+        <h3>Билдирмелер</h3>
+        <p>«Ар дайым» колдонмо жабык турганда да сапарларды жазууга мүмкүндүк берет.</p>
+        <p class="pocket-live">Унаа айдап баратканыңызда кулпуланган экрандагы реалдуу убакыттагы аракет километрди санап турат — телефондун кулпусун ачпай эле сапар жазылып жатканын көрөсүз.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="features">
+  <div class="wrap">
+    <h2>Сиз эмне аласыз</h2>
+    <p class="section-intro">Жумуш чындыгында кандай болсо, ошого ылайыкталып, ошол жумушту өзү аткарган адам тарабынан жасалган.</p>
+    <div class="cards">
+      <div class="card">
+        <span class="icon">💰</span>
+        <h3>Чыныгы пайдаңызды билиңиз</h3>
+        <p>Киреше минус күйүүчү май жана чыгымдар — күн, апта жана ай боюнча.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⏱️</span>
+        <h3>Чыныгы сааттык кирешеңизди билиңиз</h3>
+        <p>Күйүүчү май, насыя жана камсыздандыруу жумуш күндөрүңүзгө бөлүштүрүлгөндө, кайсы күндөр жана буйрутмалар чындап пайда алып келерин көрөсүз.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🧾</span>
+        <h3>Жазуулар керек учурда даяр</h3>
+        <p>Сапарлар, километраж жана бухгалтерге PDF — километр ставкасын өзүңүз коёсуз.</p>
+      </div>
+    </div>
+    <p class="features-also">Колдонмо фургонуңузду да карап турат: тейлөө, дөңгөлөк жана оңдоо эсеп-фактуранын сүрөтү менен кошо жазылат, техкароонун мөөнөтү жакындаганда эскертет, тейлөө эскертүүлөрү километр менен кери санайт, ал эми күйүүчү май картасы менен куйулган майдын баасы куйган күнү эле эсептелет. Анын үстүнө ал 46 тилде сүйлөйт, акчаны өз валютаңызда көрсөтөт.</p>
+    <div class="cta-mid">
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-kg-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>14 күн акысыз баштоо</a>
+      <span class="cta-note">14 күн акысыз · Аккаунтсуз · Каалаган убакта жокко чыгарасыз</span>
+    </div>
+  </div>
+</section>
+
+<!-- Privacy sits above "what it actually does" on purpose: it is the thing
+     that separates DropLane from every other mileage app, and a courier
+     handing over a month of their movements wants it answered early. Every
+     line here is the app's own onboarding copy, already translated. -->
+<section id="privacy">
+  <div class="wrap">
+    <h2>Сиздин маалыматыңыз. Сиздики гана.</h2>
+    <p class="section-intro">Геолокацияңыз iPhone’уңузда жана өз iCloud’уңузда калат. Аккаунт да, сервер да жок, эч нерсе сатылбайт. Сапарларыңызды ким көрөрүн өзүңүз гана чечесиз.</p>
+
+    <div class="keeps">
+      <div class="keeps-words">
+        <p class="keeps-stat"><b>0</b><span>Геолокацияңызды сактаган серверлер</span></p>
+        <ul class="keeps-list">
+          <li>Так ушул DropLane’ге аралыкты жазууга мүмкүндүк берет. Геолокация тарыхыңыз iPhone’уңуздан эч качан чыкпайт.</li>
+          <li>iCloud камдык көчүрмө жана калыбына келтирүү, аккаунт керек эмес</li>
+          <li>Жазууларыңыз үчүн CSV экспорттоо</li>
+        </ul>
+      </div>
+
+      <figure class="keeps-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/ky/dark/onboarding-privacy.webp" width="640" height="1391" alt="Сиздин маалыматыңыз. Сиздики гана." loading="lazy">
+            <img class="only-light" src="/assets/screens/ky/light/onboarding-privacy.webp" width="640" height="1391" alt="Сиздин маалыматыңыз. Сиздики гана." loading="lazy">
+          </div>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Бир баа, ичинде баары бар</h2>
+    <p class="section-intro">Он төрт күн акысыз. Сыноо мөөнөтү бүтө электе жокко чыгарсаңыз, эч нерсе төлөбөйсүз. Бардык мүмкүнчүлүктөр биринчи күндөн ачык — кымбатыраак тариф да, кошумча төлөм да жок.</p>
+
+    <div class="price-grid">
+      <div class="price best">
+        <span class="tag">Эң пайдалуу</span>
+        <h3>Жылдык</h3>
+        <p class="amount">$19.99</p>
+        <p class="per">жылына, жылда бир жолу төлөнөт</p>
+        <ul>
+          <li>Бардык мүмкүнчүлүктөр, кошумча төлөмсүз</li>
+          <li>Жылына $15.89 үнөмдөйсүз — 44% арзан</li>
+          <li>Айына $1.67 болуп чыгат</li>
+        </ul>
+        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-kg-pricing&amp;mt=8" data-place="pricing">14 күн акысыз баштоо</a>
+      </div>
+      <div class="price">
+        <h3>Ай сайын</h3>
+        <p class="amount">$2.99</p>
+        <p class="per">айына, каалаган убакта жокко чыгарса болот</p>
+        <ul>
+          <li>Бардык мүмкүнчүлүктөр, кошумча төлөмсүз</li>
+          <li>Алгачкы 14 күн акысыз</li>
+        </ul>
+        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-kg-pricing&amp;mt=8" data-place="pricing">14 күн акысыз баштоо</a>
+      </div>
+    </div>
+
+    <p class="table-note pricing-note">Apple 14 күн бою эч нерсе албайт. Ага чейин Жөндөөлөрдөн жокко чыгарсаңыз, эч нерсе төлөбөйсүз. Кыргызстандан тышкары App Store өз өлкөңүздүн баасын көрсөтөт.</p>
+  </div>
+</section>
+
+
+
+<section class="band" id="faq">
+  <div class="wrap">
+    <h2>Курьерлер чындап берген суроолор</h2>
+    <p class="section-intro">Бул жумушту өзү аткарган адамдан түз жооптор.</p>
+    <div class="faq">
+      <details>
+        <summary>«Баштоо» баскычын басуу керекпи?</summary>
+        <p>Жок — баса турган баскычтын өзү жок. Максат да ушунда. Эстеп жүрүү керек болсо, так керектүү күнү унутуп каласыз.</p>
+      </details>
+      <details>
+        <summary>Маршруттарымдын тарыхы бир жакка кетип калбайбы?</summary>
+        <p>Жок. Аккаунт да, сервер да жок. Баары iPhone’уңузда сакталат, кааласаңыз гана өз iCloud’уңузга камдык көчүрмөсү түшөт.</p>
+      </details>
+      <details>
+        <summary>Мен фургон эмес, велосипед айдайм.</summary>
+        <p>Бул да болот. Жүк велосипединин аралыгы да так ошондой жазылат. Бирок колдонмодогу километраж ставкалары автоунаалар үчүн, ошондуктан велосипед үчүн эмнени эсептөөгө болору өлкөңүзгө жана абалыңызга жараша — бухгалтерден сураганыңыз оң.</p>
+      </details>
+      <details>
+        <summary>Байланыш жок жерде иштейби?</summary>
+        <p>Ооба. Жазуу iPhone’уңуздун өз GPS’и аркылуу жүрөт, интернет такыр керек эмес. Байланышсыз жерде жазылган сапарлар көчө аттарынын ордуна «Башы» жана «Аягы» деген белги менен сакталат, ал эми DropLane кийинки жолу Wi-Fi’га туташканда аларды толуктап коёт. Тармак кармабаган айыл жолдорунда өткөн бир апта да туура эсептелет.</p>
+      </details>
+      <details>
+        <summary>Төлөөнү токтотсомчу — жазууларым жоголобу?</summary>
+        <p>Эч нерсе өчүрүлбөйт, колдонмо сапарларды жаза берет. Сапарларыңыз iPhone’до жана өз iCloud’уңузда калат, ал эми жазылуусуз жүргөн километрлериңиз кайра жазылганыңызда сизди күтүп турат. Жабылганы — көрүү гана: «Бүгүн», «Күндөр», «Статистика», «Талдоо», PDF жана CSV экспорту ошого чейин ачылбайт. Сандар башка жерде керек болсо, жазылуу бүтө электе CSV’ни экспорттоп алыңыз — ал Жөндөөлөрдө, бир басуу жетиштүү.</p>
+      </details>
+    </div>
+    <p class="faq-all"><a href="/kg/faq/">Бардык суроолор →</a></p>
+  </div>
+</section>
+
+
+
+<section>
+  <div class="wrap">
+    <div class="closer">
+      <h2>Күн канча алып келгенин эми божомолдоп отурбайсыз.</h2>
+      <p>Он төрт күн акысыз, аккаунтсуз, таңкы алтыда эч нерсени эстеп жүрүүнүн да кереги жок.</p>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-kg-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>14 күн акысыз баштоо</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">DropLane — жумуш үчүн унаа айдагандардын баарына автоматтык километраж, киреше жана чыгым эсеби. Торкиде курьер жасаган.</p>
+    <div class="foot-links">
+      <a href="/privacy/">Купуялык</a>
+      <a href="/terms/">Шарттар</a>
+      <a href="/support/">Колдоо</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+      <a class="foot-social" href="https://www.instagram.com/droplane.app/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="4"/><path d="M17.4 6.6h.01"/></svg>Instagram</a>
+      <a class="foot-social" href="https://www.facebook.com/droplaneapp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.2"/><path d="M15.1 7.9h-1.4a2.1 2.1 0 0 0-2.1 2.1V21"/><path d="M9.2 13.1h5.1"/></svg>Facebook</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Жабуу">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<div class="cta-bar" id="cta-bar" role="region" aria-label="DropLane’ди жүктөп алуу" hidden>
+  <div class="cta-bar-in">
+    <img class="cta-bar-mark" src="/assets/icon-180.png" alt="" width="46" height="46" loading="lazy" decoding="async">
+    <p class="cta-bar-say">
+      <b>14 күн акысыз</b>
+      <span>андан кийин жылына $19.99 же айына $2.99</span>
+    </p>
+    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-kg-bar&amp;mt=8" data-place="bar">14 күн акысыз баштоо</a>
+    <button class="cta-bar-shut" type="button" aria-label="Жабуу">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
