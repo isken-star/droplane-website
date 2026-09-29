@@ -253,7 +253,7 @@
     },
     {
       "q": "Et si j'arrête de payer, je perds mes relevés ?",
-      "a": "Rien n'est supprimé, et l'application continue d'enregistrer. Tes trajets restent sur l'iPhone et dans ton propre iCloud, et les kilomètres parcourus pendant l'interruption t'attendent quand tu te réabonnes. Ce qui se verrouille, c'est la consultation : Aujourd'hui, Jours, Stats, le PDF et l'export CSV restent fermés jusqu'à ton réabonnement. Si tu veux tes chiffres ailleurs, exporte le CSV avant la fin de l'abonnement — c'est dans les Réglages, en une touche."
+      "a": "Rien n'est supprimé, et l'application continue d'enregistrer. Tes trajets restent sur l'iPhone et dans ton propre iCloud, et les kilomètres parcourus pendant l'interruption t'attendent quand tu te réabonnes. Ce qui se verrouille, c'est la consultation : Aujourd'hui, Jours, Stats, Analyses, le PDF et l'export CSV restent fermés jusqu'à ton réabonnement. Si tu veux tes chiffres ailleurs, exporte le CSV avant la fin de l'abonnement — c'est dans les Réglages, en une touche."
     },
     {
       "q": "Comment savoir ce que le carburant a vraiment coûté avant de recevoir la facture de la carte ?",

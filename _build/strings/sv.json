@@ -253,7 +253,7 @@
     },
     {
       "q": "Om jag slutar betala — förlorar jag mina uppgifter?",
-      "a": "Ingenting raderas, och appen fortsätter att registrera. Dina körningar ligger kvar i telefonen och i ditt eget iCloud, och kilometrarna du kör utan abonnemang väntar på dig när du börjar betala igen. Det som låses är att läsa dem: I dag, Dagar, Statistik, PDF:en och CSV-exporten är stängda tills dess. Vill du ha siffrorna någon annanstans, exportera CSV-filen innan abonnemanget tar slut — det gör du i Inställningar, med ett enda tryck."
+      "a": "Ingenting raderas, och appen fortsätter att registrera. Dina körningar ligger kvar i telefonen och i ditt eget iCloud, och kilometrarna du kör utan abonnemang väntar på dig när du börjar betala igen. Det som låses är att läsa dem: I dag, Dagar, Statistik, Insikter, PDF:en och CSV-exporten är stängda tills dess. Vill du ha siffrorna någon annanstans, exportera CSV-filen innan abonnemanget tar slut — det gör du i Inställningar, med ett enda tryck."
     },
     {
       "q": "Hur vet jag vad bränslet verkligen kostade innan kortfakturan kommer?",

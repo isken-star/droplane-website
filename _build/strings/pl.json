@@ -253,7 +253,7 @@
     },
     {
       "q": "A jeśli przestanę płacić — stracę swoje zapisy?",
-      "a": "Nic nie jest usuwane, a aplikacja dalej zapisuje przejazdy. Zostają na iPhonie i w twoim własnym iCloud, a kilometry przejechane bez subskrypcji czekają na ciebie, gdy ją odnowisz. Blokuje się tylko wgląd: Dzisiaj, Dni, Statystyki, PDF i eksport CSV są zamknięte, dopóki nie odnowisz subskrypcji. Jeśli chcesz mieć liczby gdzie indziej, wyeksportuj CSV, zanim subskrypcja wygaśnie — jest w Ustawieniach, jedno dotknięcie."
+      "a": "Nic nie jest usuwane, a aplikacja dalej zapisuje przejazdy. Zostają na iPhonie i w twoim własnym iCloud, a kilometry przejechane bez subskrypcji czekają na ciebie, gdy ją odnowisz. Blokuje się tylko wgląd: Dzisiaj, Dni, Statystyki, Analizy, PDF i eksport CSV są zamknięte, dopóki nie odnowisz subskrypcji. Jeśli chcesz mieć liczby gdzie indziej, wyeksportuj CSV, zanim subskrypcja wygaśnie — jest w Ustawieniach, jedno dotknięcie."
     },
     {
       "q": "Skąd mam wiedzieć, ile naprawdę kosztowało paliwo, zanim przyjdzie faktura z karty?",

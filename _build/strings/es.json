@@ -253,7 +253,7 @@
     },
     {
       "q": "¿Y si dejo de pagar, pierdo mis registros?",
-      "a": "No se borra nada, y la app sigue registrando. Tus viajes se quedan en el iPhone y en tu propio iCloud, y los kilómetros que hagas sin suscripción te esperan cuando vuelvas a suscribirte. Lo que se bloquea es la consulta: Hoy, Días, Estadísticas, el PDF y la exportación CSV quedan cerrados hasta entonces. Si quieres las cifras en otro sitio, exporta el CSV antes de que termine la suscripción: está en Ajustes, a un toque."
+      "a": "No se borra nada, y la app sigue registrando. Tus viajes se quedan en el iPhone y en tu propio iCloud, y los kilómetros que hagas sin suscripción te esperan cuando vuelvas a suscribirte. Lo que se bloquea es la consulta: Hoy, Días, Estadísticas, Análisis, el PDF y la exportación CSV quedan cerrados hasta entonces. Si quieres las cifras en otro sitio, exporta el CSV antes de que termine la suscripción: está en Ajustes, a un toque."
     },
     {
       "q": "¿Cómo sé lo que costó el combustible antes de que llegue la factura de la tarjeta?",

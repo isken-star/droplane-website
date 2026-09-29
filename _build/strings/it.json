@@ -253,7 +253,7 @@
     },
     {
       "q": "E se smetto di pagare, perdo i miei dati?",
-      "a": "Non viene cancellato niente, e l'app continua a registrare. I viaggi restano sull'iPhone e nel tuo iCloud, e i chilometri che fai ad abbonamento scaduto ti aspettano quando ti abboni di nuovo. Si blocca solo la consultazione: Oggi, Giorni, Statistiche, il PDF e l'esportazione CSV restano chiusi fino ad allora. Se vuoi i numeri altrove, esporta il CSV prima che l'abbonamento scada: è nelle Impostazioni, basta un tocco."
+      "a": "Non viene cancellato niente, e l'app continua a registrare. I viaggi restano sull'iPhone e nel tuo iCloud, e i chilometri che fai ad abbonamento scaduto ti aspettano quando ti abboni di nuovo. Si blocca solo la consultazione: Oggi, Giorni, Statistiche, Analisi, il PDF e l'esportazione CSV restano chiusi fino ad allora. Se vuoi i numeri altrove, esporta il CSV prima che l'abbonamento scada: è nelle Impostazioni, basta un tocco."
     },
     {
       "q": "Come faccio a sapere quanto è costato il carburante prima che arrivi la fattura della carta?",

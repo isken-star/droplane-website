@@ -253,7 +253,7 @@
     },
     {
       "q": "Ödemeyi bırakırsam kayıtlarımı kaybeder miyim?",
-      "a": "Hiçbir şey silinmez ve uygulama kaydetmeye devam eder. Sürüşlerin iPhone’da ve kendi iCloud’unda kalır; aboneliğin yokken yaptığın kilometreler de yeniden abone olduğunda seni bekler. Kilitlenen, kayıtlara bakabildiğin kısım: Bugün, Günler, İstatistikler, PDF ve CSV dışa aktarma yeniden abone olana kadar kapalı kalır. Rakamları başka bir yerde de istiyorsan aboneliğin bitmeden CSV’yi dışa aktar — Ayarlar’da, tek dokunuşla."
+      "a": "Hiçbir şey silinmez ve uygulama kaydetmeye devam eder. Sürüşlerin iPhone’da ve kendi iCloud’unda kalır; aboneliğin yokken yaptığın kilometreler de yeniden abone olduğunda seni bekler. Kilitlenen, kayıtlara bakabildiğin kısım: Bugün, Günler, İstatistikler, Analizler, PDF ve CSV dışa aktarma yeniden abone olana kadar kapalı kalır. Rakamları başka bir yerde de istiyorsan aboneliğin bitmeden CSV’yi dışa aktar — Ayarlar’da, tek dokunuşla."
     },
     {
       "q": "Kart ekstresi gelmeden yakıtın gerçekte ne tuttuğunu nasıl bilirim?",

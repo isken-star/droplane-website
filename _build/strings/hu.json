@@ -253,7 +253,7 @@
     },
     {
       "q": "És ha abbahagyom a fizetést — elvesznek a nyilvántartásaim?",
-      "a": "Semmi nem törlődik, és az app tovább rögzít. Az utak az iPhone-on és a saját iCloudodban maradnak, és az előfizetés nélkül megtett kilométerek is ott várnak, amikor újra előfizetsz. Csak a megtekintés zárul le: a Ma, a Napok, a Statisztika, a PDF és a CSV-export zárva marad, amíg újra elő nem fizetsz. Ha máshol is szeretnéd a számokat, exportáld a CSV-t, mielőtt lejár az előfizetés — a Beállításokban van, egy koppintás."
+      "a": "Semmi nem törlődik, és az app tovább rögzít. Az utak az iPhone-on és a saját iCloudodban maradnak, és az előfizetés nélkül megtett kilométerek is ott várnak, amikor újra előfizetsz. Csak a megtekintés zárul le: a Ma, a Napok, a Statisztika, az Elemzések, a PDF és a CSV-export zárva marad, amíg újra elő nem fizetsz. Ha máshol is szeretnéd a számokat, exportáld a CSV-t, mielőtt lejár az előfizetés — a Beállításokban van, egy koppintás."
     },
     {
       "q": "Honnan tudom, mibe került valójában az üzemanyag, mielőtt megjön a kártyaszámla?",

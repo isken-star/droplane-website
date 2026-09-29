@@ -253,7 +253,7 @@
     },
     {
       "q": "Un ja pārstāšu maksāt — vai pazaudēšu ierakstus?",
-      "a": "Nekas netiek dzēsts, un lietotne turpina ierakstīt. Tavi braucieni paliek iPhone un tavā paša iCloud, un kilometri, ko nobrauc bez abonementa, tevi sagaidīs, kad abonēsi atkal. Bloķēta tiek tikai skatīšanās: ekrāni Šodien, Dienas un Statistika, kā arī PDF un CSV eksports ir slēgti, līdz atkal abonēsi. Ja gribi skaitļus arī citur, eksportē CSV, pirms abonements beidzas — tas ir Iestatījumos, viens pieskāriens."
+      "a": "Nekas netiek dzēsts, un lietotne turpina ierakstīt. Tavi braucieni paliek iPhone un tavā paša iCloud, un kilometri, ko nobrauc bez abonementa, tevi sagaidīs, kad abonēsi atkal. Bloķēta tiek tikai skatīšanās: ekrāni Šodien, Dienas, Statistika un Analīze, kā arī PDF un CSV eksports ir slēgti, līdz atkal abonēsi. Ja gribi skaitļus arī citur, eksportē CSV, pirms abonements beidzas — tas ir Iestatījumos, viens pieskāriens."
     },
     {
       "q": "Kā uzzināt, ko degviela patiešām maksāja, pirms atnāk kartes rēķins?",

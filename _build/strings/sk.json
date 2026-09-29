@@ -253,7 +253,7 @@
     },
     {
       "q": "A keď prestanem platiť — prídem o záznamy?",
-      "a": "Nič sa nemaže a aplikácia ďalej zaznamenáva. Jazdy zostávajú v iPhone aj v tvojom vlastnom iCloude a kilometre, ktoré najazdíš bez predplatného, na teba počkajú, kým si ho obnovíš. Zamkne sa len prezeranie: Dnes, Dni, Štatistiky, PDF a export CSV zostanú zatvorené, kým predplatné neobnovíš. Ak chceš mať čísla aj inde, vyexportuj si CSV skôr, než predplatné skončí — je v Nastaveniach a stačí jedno ťuknutie."
+      "a": "Nič sa nemaže a aplikácia ďalej zaznamenáva. Jazdy zostávajú v iPhone aj v tvojom vlastnom iCloude a kilometre, ktoré najazdíš bez predplatného, na teba počkajú, kým si ho obnovíš. Zamkne sa len prezeranie: Dnes, Dni, Štatistiky, Prehľady, PDF a export CSV zostanú zatvorené, kým predplatné neobnovíš. Ak chceš mať čísla aj inde, vyexportuj si CSV skôr, než predplatné skončí — je v Nastaveniach a stačí jedno ťuknutie."
     },
     {
       "q": "Ako zistím, čo palivo naozaj stálo, skôr než príde vyúčtovanie karty?",

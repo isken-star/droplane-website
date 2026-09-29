@@ -253,7 +253,7 @@
     },
     {
       "q": "Entä jos lopetan maksamisen — menetänkö tietoni?",
-      "a": "Mitään ei poisteta, ja sovellus jatkaa tallentamista. Ajosi pysyvät iPhonessa ja omassa iCloudissasi, ja tilauksen tauolla ajamasi kilometrit odottavat sinua, kun tilaat uudelleen. Lukkoon menee vain katselu: Tänään, Päivät, Tilastot, PDF ja CSV-vienti pysyvät kiinni, kunnes tilaat. Jos haluat luvut muualle, vie CSV ennen kuin tilaus päättyy — se on Asetuksissa, yhden napautuksen päässä."
+      "a": "Mitään ei poisteta, ja sovellus jatkaa tallentamista. Ajosi pysyvät iPhonessa ja omassa iCloudissasi, ja tilauksen tauolla ajamasi kilometrit odottavat sinua, kun tilaat uudelleen. Lukkoon menee vain katselu: Tänään, Päivät, Tilastot, Analyysit, PDF ja CSV-vienti pysyvät kiinni, kunnes tilaat. Jos haluat luvut muualle, vie CSV ennen kuin tilaus päättyy — se on Asetuksissa, yhden napautuksen päässä."
     },
     {
       "q": "Mistä tiedän, mitä polttoaine oikeasti maksoi, ennen kuin korttilasku tulee?",
