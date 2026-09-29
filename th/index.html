@@ -93,16 +93,16 @@
      reader. Swap this one tag to change provider; site.js does not care. -->
 <script src="https://cdn.usefathom.com/script.js" data-site="VHXQRPBR" defer></script>
 </head>
-<body>
+<body class="lean">
 
 <header class="site-head">
   <div class="wrap head-row">
     <a class="brand" href="/th/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
 
     <nav class="menu" aria-label="หลัก">
+      <a href="#money">ได้เท่าไหร่</a>
+      <a href="#how">วิธีการทำงาน</a>
       <a href="#features">ทำอะไรได้</a>
-      <a href="#screens">หน้าจอ</a>
-      <a href="#countries">ประเทศ</a>
       <a href="#pricing">ราคา</a>
       <a href="/support/">ช่วยเหลือ</a>
     </nav>
@@ -191,22 +191,21 @@
   <div class="sheet" id="sheet" data-open="false">
     <div class="wrap">
       <nav class="sheet-list" aria-label="หลัก">
+        <a href="#money">ได้เท่าไหร่</a>
+        <a href="#how">วิธีการทำงาน</a>
         <a href="#features">ทำอะไรได้</a>
-        <a href="#screens">หน้าจอ</a>
-        <a href="#countries">ประเทศ</a>
-        <a href="#languages">ภาษา</a>
         <a href="#pricing">ราคา</a>
         <a href="#faq">คำถาม</a>
         <a href="/support/">ช่วยเหลือ</a>
       </nav>
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-menu&amp;mt=8" data-place="menu">รับ DropLane</a>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-menu&amp;mt=8" data-place="menu">เริ่มฟรี 14 วัน</a>
     </div>
   </div>
 </header>
 
 <div class="langbar">
   <div class="wrap">
-    <p><strong>หลายภาษา</strong> เลือกภาษาของคุณ แอปก็ใช้ภาษาเดียวกัน</p>
+    <p><strong>46 ภาษา</strong> เลือกภาษาของคุณ แอปก็ใช้ภาษาเดียวกัน</p>
     <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
   </div>
 </div>
@@ -216,40 +215,67 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="kicker">ระยะทาง รายได้ และค่าใช้จ่าย บันทึกอัตโนมัติ สำหรับทุกคนที่ขับรถเพื่องาน</p>
-      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇹🇭</span><b data-region="TH">Thailand</b><span class="eyebrow-trial">ฟรี 14 วัน</span><span class="eyebrow-cost">จากนั้น ฿149 ต่อเดือน</span><a href="#pricing">ราคาทุกประเทศ</a></span>
+      <p class="kicker">บันทึกระยะทางอัตโนมัติ · กำไรจริง · รายได้ต่อชั่วโมงจริง</p>
       <h1>รู้ว่าวันนี้ได้เงินจริงๆ เท่าไหร่</h1>
-      <p class="lede">แค่ออกรถ DropLane จะบันทึกทุกเที่ยวและเส้นทางที่วิ่งจริง หักค่าใช้จ่ายออกจากรายได้ และคำนวณรายได้ต่อชั่วโมงที่แท้จริงไว้ให้ก่อนคุณถึงบ้าน</p>
+      <p class="lede">DropLane บันทึกทุกเที่ยวให้อัตโนมัติ หักค่าใช้จ่ายออก แล้วบอกว่าคุณได้เงินจริงๆ เท่าไหร่</p>
       <!-- While the app is coming soon the loud button is the launch list, not
            the price: the eyebrow above already carries the price and links to
            the table. On launch day it becomes Apple's badge on its own —
            set "launched" in _build/site.json and rebuild. -->
       <div class="cta-row">
-        <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-hero&amp;mt=8" data-place="hero"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="174" height="58"></a>
-        <a class="btn-ghost" href="#screens">ดูหน้าจอ</a>
+        <a class="btn btn-hero" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-hero&amp;mt=8" data-place="hero"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>เริ่มฟรี 14 วัน</a>
       </div>
-      <a class="android-soon" href="mailto:help@droplane.co.uk?subject=DropLane%20for%20Android" title="เวอร์ชัน Android กำลังมา ส่งอีเมลมาแล้วเราจะแจ้งเมื่อเปิดใช้">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.5l1.7-2.9a.35.35 0 0 0-.6-.35l-1.75 3A9.9 9.9 0 0 0 12 8.2a9.9 9.9 0 0 0-4.95 1.05l-1.75-3a.35.35 0 0 0-.6.35l1.7 2.9A9.4 9.4 0 0 0 2 17.3h20a9.4 9.4 0 0 0-4.4-7.8zM7.6 14.4a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9zm8.8 0a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9z"/></svg>
-        <span>Android</span><b>เร็วๆ นี้</b>
-      </a>
-      <ul class="hero-facts">
-        <li><b>46</b><span>ภาษา</span></li>
-        <li><b class="signs">£ € $ ₹ ¥</b><span>ทุกสกุลเงิน</span></li>
-        <li><b>ส่วนตัว</b><span>ข้อมูลอยู่ในมือถือคุณ</span></li>
+      <p class="hero-support">ฟรี 14 วัน · ไม่ต้องมีบัญชี · ยกเลิกได้ทุกเมื่อ <a class="hero-how" href="#how">ดูวิธีการทำงาน ↓</a></p>
+      <ul class="trust">
+        <li>บันทึกเที่ยวให้อัตโนมัติ</li>
+        <li>ตำแหน่งอยู่แค่ใน iPhone ของคุณ</li>
+        <li>สร้างโดยคนขับส่งของที่วิ่งงานมากว่า 10 ปี</li>
+        <li>46 ภาษา ทุกสกุลเงิน</li>
       </ul>
     </div>
 
     <div class="stage">
       <div class="device device-back">
         <div class="device-screen">
-          <img src="/assets/screens/th/light/days.webp" width="640" height="1391" alt="หน้าจอวัน: ทุกวันทำงานพร้อมกำไร ระยะทาง และจำนวนเที่ยว" loading="eager">
+          <img class="only-dark" src="/assets/screens/th/dark/days.webp" width="640" height="1391" alt="หน้าจอวัน: ทุกวันทำงานพร้อมกำไร ระยะทาง และจำนวนเที่ยว" loading="eager">
+          <img class="only-light" src="/assets/screens/th/light/days.webp" width="640" height="1391" alt="หน้าจอวัน: ทุกวันทำงานพร้อมกำไร ระยะทาง และจำนวนเที่ยว" loading="eager">
         </div>
       </div>
       <div class="device device-front">
         <div class="device-screen">
-          <img src="/assets/screens/th/light/today.webp" width="640" height="1391" alt="หน้าจอวันนี้: เที่ยวที่กำลังบันทึกและรายได้วันนี้" loading="eager">
+          <img class="only-dark" src="/assets/screens/th/dark/today.webp" width="640" height="1391" alt="หน้าจอวันนี้: เที่ยวที่กำลังบันทึกและรายได้วันนี้" loading="eager">
+          <img class="only-light" src="/assets/screens/th/light/today.webp" width="640" height="1391" alt="หน้าจอวันนี้: เที่ยวที่กำลังบันทึกและรายได้วันนี้" loading="eager">
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- The three numbers the page is about, as the app shows them. -->
+<section class="outcomes" aria-label="ตัวเลขสามตัวที่ DropLane เตรียมไว้ให้ก่อนคุณถึงบ้าน">
+  <div class="wrap">
+    <div class="rail outcomes-rail">
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/th/dark/today.webp" width="640" height="1391" alt="หน้าจอวันนี้: เที่ยวที่กำลังบันทึกบนแผนที่กรุงเทพฯ และวันนี้ได้ ฿1,968.00 จากรายได้ ฿2,360.00 หักค่าใช้จ่าย ฿392.00" loading="lazy">
+          <img class="only-light" src="/assets/screens/th/light/today.webp" width="640" height="1391" alt="หน้าจอวันนี้: เที่ยวที่กำลังบันทึกบนแผนที่กรุงเทพฯ และวันนี้ได้ ฿1,968.00 จากรายได้ ฿2,360.00 หักค่าใช้จ่าย ฿392.00" loading="lazy">
+        </div></div>
+        <figcaption><b>วันนี้ได้เท่าไหร่</b></figcaption>
+      </figure>
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/th/dark/day.webp" width="640" height="1391" alt="หน้าของวัน: กำไรประจำวัน ฿1,968.00 จาก 106 กม. ได้ ฿272.07 ต่อชั่วโมง และ ฿18.57 ต่อ กม. พร้อมทั้งวันบนแผนที่" loading="lazy">
+          <img class="only-light" src="/assets/screens/th/light/day.webp" width="640" height="1391" alt="หน้าของวัน: กำไรประจำวัน ฿1,968.00 จาก 106 กม. ได้ ฿272.07 ต่อชั่วโมง และ ฿18.57 ต่อ กม. พร้อมทั้งวันบนแผนที่" loading="lazy">
+        </div></div>
+        <figcaption><b>หักค่าใช้จ่ายแล้วเหลือจริงเท่าไหร่</b></figcaption>
+      </figure>
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/th/dark/insights.webp" width="640" height="1391" alt="หน้าจอวิเคราะห์: กำไรหลังหักค่าใช้จ่ายประจำ ฿1,271.08 ได้ ฿175.73 ต่อชั่วโมง ฿18.57 ต่อ กม. อยู่บนถนน 7 ชม. 14 นาที" loading="lazy">
+          <img class="only-light" src="/assets/screens/th/light/insights.webp" width="640" height="1391" alt="หน้าจอวิเคราะห์: กำไรหลังหักค่าใช้จ่ายประจำ ฿1,271.08 ได้ ฿175.73 ต่อชั่วโมง ฿18.57 ต่อ กม. อยู่บนถนน 7 ชม. 14 นาที" loading="lazy">
+        </div></div>
+        <figcaption><b>รายได้ต่อชั่วโมงที่แท้จริง</b></figcaption>
+      </figure>
     </div>
   </div>
 </section>
@@ -267,259 +293,197 @@
      a courier's own words are worth more than a translation of them. -->
 <section class="quotes" aria-labelledby="quotes-h">
   <div class="wrap">
-    <h2 class="quotes-h" id="quotes-h">คนขับพูดถึงอย่างไรใน App Store</h2>
+    <h2 class="quotes-h" id="quotes-h">จาก App Store สหราชอาณาจักร</h2>
     <div class="quote-grid">
       <figure class="quote">
         <span class="stars" aria-label="5/5">★★★★★</span>
         <blockquote lang="en">Just found this app in the store. Fantastic app for me as a self employed courier. Tells me exactly how much I&#x27;ve really earnt per job. I like how its linked to maps</blockquote>
         <figcaption>greatwhite surfer · App Store</figcaption>
       </figure>
-      <figure class="quote">
-        <span class="stars" aria-label="5/5">★★★★★</span>
-        <blockquote lang="en">You open it up once and it records all my data i need</blockquote>
-        <figcaption>Kami.ya · App Store</figcaption>
-      </figure>
     </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>สองวัน ระยะทางมากกว่า แต่เงินน้อยกว่า</h2>
+
+    <div class="twodays">
+      <div class="twoday">
+        <p class="twoday-when">วันเสาร์</p>
+        <p class="twoday-miles">169 กม.</p>
+        <p class="twoday-money"><b>฿1,224.00</b><span>เข้ากระเป๋า</span></p>
+      </div>
+      <div class="twoday">
+        <p class="twoday-when">เมื่อวาน</p>
+        <p class="twoday-miles">137 กม.</p>
+        <p class="twoday-money"><b>฿1,472.00</b><span>เข้ากระเป๋า</span></p>
+      </div>
+    </div>
+
+    <p class="twodays-punch">ขับไกลกว่า 32 กม. ได้เงินน้อยกว่า ฿248.00</p>
+    <p class="twodays-punch2">ขับมากขึ้น ไม่ได้แปลว่าจะได้เงินมากขึ้นเสมอไป</p>
+    <p class="versus-note">กิโลเมตรบอกว่าคุณขับไปไกลแค่ไหน DropLane บอกว่ามันคุ้มหรือเปล่า</p>
   </div>
 </section>
 
 
 
+<section class="band" id="how">
+  <div class="wrap">
+    <h2>สามขั้นตอน และมีแค่ขั้นเดียวที่เป็นหน้าที่คุณ</h2>
+    <p class="section-intro">DropLane ตั้งใจไม่มีปุ่มเริ่ม หกโมงเช้า ของเต็มรถ ไม่มีใครจำได้หรอกว่าต้องกด</p>
 
+    <div class="steps">
+      <div class="card step">
+        <span class="num">1</span>
+        <h3>เปิดครั้งเดียว</h3>
+        <p>ติดตั้งแอปแล้วอนุญาตตำแหน่งที่ตั้งในเบื้องหลัง แค่นั้นก็ตั้งค่าเสร็จแล้ว</p>
+      </div>
+      <div class="card step">
+        <span class="num">2</span>
+        <h3>ขับไปตามปกติ</h3>
+        <p>ทุกเที่ยวบันทึกเอง พร้อมเส้นทาง จุดจอด และเวลาที่จอดแต่ละจุด</p>
+      </div>
+      <div class="card step">
+        <span class="num">3</span>
+        <h3>แตะครั้งเดียวเลือกประเภท</h3>
+        <p>มีงาน วิ่งเปล่า ไปรับงาน หรือส่วนตัว ยอดรวมและยอดขอลดหย่อนตามระยะทางคำนวณให้เอง</p>
+      </div>
+    </div>
 
+    <details class="setup-fold">
+      <summary>ดูขั้นตอนการตั้งค่า</summary>
+      <div class="setup">
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/th/dark/onboarding-location.webp" width="640" height="1391" alt="เปิดตำแหน่งที่ตั้ง" loading="lazy">
+          <img class="only-light" src="/assets/screens/th/light/onboarding-location.webp" width="640" height="1391" alt="เปิดตำแหน่งที่ตั้ง" loading="lazy">
+        </div></div>
+        <figcaption>เปิดตำแหน่งที่ตั้ง</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/th/dark/onboarding-location-always.webp" width="640" height="1391" alt="ตอนนี้เลือก “อนุญาตเสมอ”" loading="lazy">
+          <img class="only-light" src="/assets/screens/th/light/onboarding-location-always.webp" width="640" height="1391" alt="ตอนนี้เลือก “อนุญาตเสมอ”" loading="lazy">
+        </div></div>
+        <figcaption>ตอนนี้เลือก “อนุญาตเสมอ”</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/th/dark/onboarding-notifications.webp" width="640" height="1391" alt="เปิดการแจ้งเตือน" loading="lazy">
+          <img class="only-light" src="/assets/screens/th/light/onboarding-notifications.webp" width="640" height="1391" alt="เปิดการแจ้งเตือน" loading="lazy">
+        </div></div>
+        <figcaption>เปิดการแจ้งเตือน</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/th/dark/onboarding-vehicle.webp" width="640" height="1391" alt="คุณขับอะไร" loading="lazy">
+          <img class="only-light" src="/assets/screens/th/light/onboarding-vehicle.webp" width="640" height="1391" alt="คุณขับอะไร" loading="lazy">
+        </div></div>
+        <figcaption>คุณขับอะไร</figcaption>
+      </figure>
+      </div>
+    </details>
 
+    <!-- And then the phone goes in a pocket. These are the only pictures on
+         the page taken with the app shut: the lock screen, doing the job on
+         its own — the notifications telling the story afterwards, and the
+         Live Activity showing the drive being recorded right now. All the
+         lines are the app's own words. -->
+    <div class="pocket">
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/th/dark/notifications.webp" width="640" height="1391" alt="การแจ้งเตือน" loading="lazy">
+            <img class="only-light" src="/assets/screens/th/light/notifications.webp" width="640" height="1391" alt="การแจ้งเตือน" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/th/dark/live-activity.webp" width="640" height="1391" alt="กิจกรรมสดบนหน้าจอล็อก: กำลังบันทึก 140 km มีปุ่มเลือกประเภทเที่ยวสี่ปุ่ม และปุ่มหยุดสีแดง" loading="lazy">
+            <img class="only-light" src="/assets/screens/th/light/live-activity.webp" width="640" height="1391" alt="กิจกรรมสดบนหน้าจอล็อก: กำลังบันทึก 140 km มีปุ่มเลือกประเภทเที่ยวสี่ปุ่ม และปุ่มหยุดสีแดง" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <div class="pocket-words">
+        <h3>การแจ้งเตือน</h3>
+        <p>“อนุญาตเสมอ” ทำให้บันทึกเที่ยวได้แม้ปิดแอปแล้ว</p>
+        <p class="pocket-live">ระหว่างขับ กิจกรรมสดบนหน้าจอล็อกจะนับกิโลเมตรขึ้นเรื่อยๆ คุณจึงเห็นว่าเที่ยวกำลังถูกบันทึกโดยไม่ต้องปลดล็อกอะไรเลย</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
 <section id="features">
   <div class="wrap">
-    <h2>DropLane ทำอะไรได้จริงๆ</h2>
-    <p class="section-intro">สร้างโดยคนขับส่งของที่อยู่บนถนนมาสิบปี เพื่องานแบบที่มันเป็นจริงๆ</p>
+    <h2>คุณได้อะไรบ้าง</h2>
+    <p class="section-intro">สร้างมาเพื่องานแบบที่เป็นจริงๆ โดยคนที่ทำงานนี้เอง</p>
     <div class="cards">
       <div class="card">
-        <span class="icon">💵</span>
-        <h3>วันนี้เหลือเงินจริงๆ เท่าไหร่</h3>
-        <p>ค่าน้ำมันและค่าใช้จ่ายอื่นถูกหักออกจากรายได้ เงินที่เหลือในกระเป๋าจริงๆ อยู่บรรทัดล่างสุด แยกเป็นรายวัน รายสัปดาห์ รายเดือน</p>
+        <span class="icon">💰</span>
+        <h3>รู้กำไรที่แท้จริง</h3>
+        <p>รายได้หักค่าน้ำมันและค่าใช้จ่าย รายวัน รายสัปดาห์ และรายเดือน</p>
       </div>
       <div class="card">
-        <span class="icon">⛽</span>
-        <h3>หนึ่งชั่วโมงได้จริงๆ เท่าไหร่</h3>
-        <p>ค่าน้ำมัน ค่างวด และประกันถูกเฉลี่ยลงในวันที่คุณทำงาน ตัวเลขรายได้ต่อชั่วโมงจึงเป็นตัวเลขจริง</p>
-      </div>
-      <div class="card">
-        <span class="icon">🛣️</span>
-        <h3>บันทึกระยะทางโดยไม่ต้องแตะมือถือ</h3>
-        <p>เที่ยวถูกบันทึกเองในเบื้องหลัง ตั้งแต่ออกรถจนจอด</p>
+        <span class="icon">⏱️</span>
+        <h3>รู้รายได้ต่อชั่วโมงที่แท้จริง</h3>
+        <p>ดูว่าวันไหนและงานไหนคุ้มจริง เมื่อค่าน้ำมัน ค่างวด และประกันถูกเฉลี่ยลงในวันที่คุณทำงาน</p>
       </div>
       <div class="card">
         <span class="icon">🧾</span>
-        <h3>บันทึกที่ส่งให้นักบัญชีได้เลย</h3>
-        <p>ไฟล์ PDF ที่มีทุกเที่ยว เส้นทาง และวันที่ พร้อมอัตราหักค่าระยะทางในตัวสำหรับ 17 ประเทศ</p>
-      </div>
-      <div class="card">
-        <span class="icon">🅿️</span>
-        <h3>จุดจอดและเวลารอ</h3>
-        <p>ดูได้ว่ารอที่จุดส่งหรือคลังแต่ละแห่งนานเท่าไหร่ โดยไม่ต้องจดอะไรเลย</p>
-      </div>
-      <div class="card">
-        <span class="icon">🔒</span>
-        <h3>ไม่มีอะไรออกจากมือถือของคุณ</h3>
-        <p>ไม่ต้องสร้างบัญชี ไม่มีการติดตาม ไม่มีโฆษณา ประวัติเส้นทางเป็นของคุณ สำรองไว้ใน iCloud ของคุณเองเท่านั้น</p>
-      </div>
-      <div class="card">
-        <span class="icon">🔔</span>
-        <h3>การต่ออายุ</h3>
-        <p>กรอกเลขไมล์ครั้งเดียว DropLane จะนับต่อจากระยะทางที่บันทึกได้ เตือนเข้าศูนย์และตรวจสภาพเป็นระยะทางได้ ไม่ใช่แค่วันที่</p>
-      </div>
-      <div class="card">
-        <span class="icon">🔧</span>
-        <h3>รถของคุณ</h3>
-        <p>บันทึกการเข้าศูนย์ เปลี่ยนยาง และซ่อมไว้ที่นี่ พร้อมรูปใบเสร็จ ประวัติอู่ทั้งหมดอยู่ในกระเป๋าคุณ</p>
-      </div>
-      <div class="card">
-        <span class="icon">💳</span>
-        <h3>บัตรน้ำมัน</h3>
-        <p>ตั้งราคาต่อลิตรที่บัตรของคุณคิด กรอกจำนวนลิตรตอนเติม แล้ว DropLane คำนวณค่าใช้จ่ายให้</p>
+        <h3>เอกสารพร้อมเมื่อต้องใช้</h3>
+        <p>เที่ยว ระยะทาง และไฟล์ PDF สำหรับนักบัญชี พร้อมอัตราต่อกิโลเมตรที่คุณตั้งเอง</p>
       </div>
     </div>
+    <p class="features-also">แอปยังดูแลรถให้ด้วย บันทึกการเช็กระยะ ยาง และการซ่อม พร้อมรูปใบเสร็จ เตือนก่อนถึงกำหนดตรวจสภาพรถ เตือนเช็กระยะแบบนับถอยหลังเป็นกิโลเมตร และคำนวณค่าน้ำมันจากบัตรน้ำมันตั้งแต่วันที่เติม แถมยังรองรับ 46 ภาษา โดยแสดงเงินเป็นสกุลของคุณ</p>
     <div class="cta-mid">
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>รับ DropLane</a>
-      <span class="cta-note">ฟรี 14 วัน · จากนั้น ฿149 ต่อเดือน</span>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>เริ่มฟรี 14 วัน</a>
+      <span class="cta-note">ฟรี 14 วัน · ไม่ต้องมีบัญชี · ยกเลิกได้ทุกเมื่อ</span>
     </div>
   </div>
 </section>
 
-<section class="band" id="screens">
+<!-- Privacy sits above "what it actually does" on purpose: it is the thing
+     that separates DropLane from every other mileage app, and a courier
+     handing over a month of their movements wants it answered early. Every
+     line here is the app's own onboarding copy, already translated. -->
+<section id="privacy">
   <div class="wrap">
-    <h2>หน้าจอของแอป</h2>
-    <p class="section-intro">หน้าจอจริง จากการทำงานจริงหนึ่งเดือน</p>
-  </div>
-  <div class="wrap">
-    <div class="rail">
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/th/light/today.webp" width="640" height="1391" alt="วันนี้ — ขณะที่ล้อยังหมุนอยู่" loading="lazy">
-        </div></div>
-        <figcaption><b>วันนี้</b>ขณะที่ล้อยังหมุนอยู่</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/th/light/today-money.webp" width="640" height="1391" alt="รายได้วันนี้ — รายได้หักค่าใช้จ่าย เหลือสุทธิ" loading="lazy">
-        </div></div>
-        <figcaption><b>รายได้วันนี้</b>รายได้หักค่าใช้จ่าย เหลือสุทธิ</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/th/light/yesterday-rate.webp" width="640" height="1391" alt="เมื่อวาน — ชั่วโมงหนึ่งได้จริงๆ เท่าไหร่" loading="lazy">
-        </div></div>
-        <figcaption><b>เมื่อวาน</b>ชั่วโมงหนึ่งได้จริงๆ เท่าไหร่</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/th/light/days.webp" width="640" height="1391" alt="วัน — ทุกวัน รวมยอดไว้ให้แล้ว" loading="lazy">
-        </div></div>
-        <figcaption><b>วัน</b>ทุกวัน รวมยอดไว้ให้แล้ว</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/th/light/report.webp" width="640" height="1391" alt="รายงาน PDF — ในแบบที่นักบัญชีต้องการ" loading="lazy">
-        </div></div>
-        <figcaption><b>รายงาน PDF</b>ในแบบที่นักบัญชีต้องการ</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/th/light/tax.webp" width="640" height="1391" alt="ภาษี — ระยะทางช่วงนี้มีมูลค่าเท่าไหร่" loading="lazy">
-        </div></div>
-        <figcaption><b>ภาษี</b>ระยะทางช่วงนี้มีมูลค่าเท่าไหร่</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/th/light/trip-sort.webp" width="640" height="1391" alt="ประเภทเที่ยว — มีงาน วิ่งเปล่า ไปรับของ หรือส่วนตัว" loading="lazy">
-        </div></div>
-        <figcaption><b>ประเภทเที่ยว</b>มีงาน วิ่งเปล่า ไปรับของ หรือส่วนตัว</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/th/light/live-activity.webp" width="640" height="1391" alt="หน้าจอล็อก — เห็นระยะทางที่กำลังบันทึกโดยไม่ต้องปลดล็อก" loading="lazy">
-        </div></div>
-        <figcaption><b>หน้าจอล็อก</b>เห็นระยะทางที่กำลังบันทึกโดยไม่ต้องปลดล็อก</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/th/light/vehicle.webp" width="640" height="1391" alt="รถ — ตรวจสภาพ ต่อภาษี ประกัน ก่อนจะถึงกำหนด" loading="lazy">
-        </div></div>
-        <figcaption><b>รถ</b>ตรวจสภาพ ต่อภาษี ประกัน ก่อนจะถึงกำหนด</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/th/light/insights-spend.webp" width="640" height="1391" alt="ค่าใช้จ่าย — น้ำมัน อาหาร ที่จอดรถ ทางด่วน" loading="lazy">
-        </div></div>
-        <figcaption><b>ค่าใช้จ่าย</b>น้ำมัน อาหาร ที่จอดรถ ทางด่วน</figcaption>
+    <h2>ข้อมูลของคุณ เป็นของคุณคนเดียว</h2>
+    <p class="section-intro">ตำแหน่งของคุณอยู่แค่ใน iPhone และ iCloud ของคุณเอง ไม่มีบัญชี ไม่มีเซิร์ฟเวอร์ ไม่มีการขายข้อมูล คุณคนเดียวที่เลือกได้ว่าใครจะเห็นเที่ยวของคุณ</p>
+
+    <div class="keeps">
+      <div class="keeps-words">
+        <p class="keeps-stat"><b>0</b><span>เซิร์ฟเวอร์ที่เก็บตำแหน่งของคุณ</span></p>
+        <ul class="keeps-list">
+          <li>ตำแหน่งที่ตั้งคือสิ่งที่ทำให้ DropLane บันทึกระยะทางได้ ประวัติตำแหน่งของคุณไม่เคยออกไปจาก iPhone</li>
+          <li>สำรองและกู้คืนผ่าน iCloud ไม่ต้องมีบัญชี</li>
+          <li>ส่งออก CSV เก็บไว้เป็นหลักฐาน</li>
+        </ul>
+      </div>
+
+      <figure class="keeps-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/th/dark/onboarding-privacy.webp" width="640" height="1391" alt="ข้อมูลของคุณ เป็นของคุณคนเดียว" loading="lazy">
+            <img class="only-light" src="/assets/screens/th/light/onboarding-privacy.webp" width="640" height="1391" alt="ข้อมูลของคุณ เป็นของคุณคนเดียว" loading="lazy">
+          </div>
+        </div>
       </figure>
     </div>
   </div>
 </section>
 
-<section id="countries">
-  <div class="wrap">
-    <h2>ประเทศที่มีอัตราในตัว</h2>
-    <p class="section-intro">แอปใช้ได้ทุกที่ ในประเทศเหล่านี้แอปยังรู้อัตราหักค่าระยะทางที่กรมสรรพากรยอมรับ และรู้ว่าเอกสารรถของคุณเรียกว่าอะไร</p>
-    <ul class="chips">
-      <li><span class="flag">🇬🇧</span> <span data-region="GB">United Kingdom</span> <span class="rate">55p/mi</span></li>
-      <li><span class="flag">🇺🇸</span> <span data-region="US">United States</span> <span class="rate">76¢/mi</span></li>
-      <li><span class="flag">🇨🇦</span> <span data-region="CA">Canada</span> <span class="rate">73¢/km</span></li>
-      <li><span class="flag">🇦🇺</span> <span data-region="AU">Australia</span> <span class="rate">91¢/km</span></li>
-      <li><span class="flag">🇩🇪</span> <span data-region="DE">Germany</span> <span class="rate">30c/km</span></li>
-      <li><span class="flag">🇳🇱</span> <span data-region="NL">Netherlands</span> <span class="rate">25c/km</span></li>
-      <li><span class="flag">🇧🇪</span> <span data-region="BE">Belgium</span> <span class="rate">47.61c/km</span></li>
-      <li><span class="flag">🇦🇹</span> <span data-region="AT">Austria</span> <span class="rate">50c/km</span></li>
-      <li><span class="flag">🇵🇹</span> <span data-region="PT">Portugal</span> <span class="rate">40c/km</span></li>
-      <li><span class="flag">🇵🇱</span> <span data-region="PL">Poland</span> <span class="rate">1.15 zł/km</span></li>
-      <li><span class="flag">🇨🇿</span> <span data-region="CZ">Czechia</span> <span class="rate">5.90 Kč/km</span></li>
-      <li><span class="flag">🇸🇰</span> <span data-region="SK">Slovakia</span> <span class="rate">31.3c/km</span></li>
-      <li><span class="flag">🇭🇺</span> <span data-region="HU">Hungary</span> <span class="rate">15 Ft/km</span></li>
-      <li><span class="flag">🇸🇪</span> <span data-region="SE">Sweden</span> <span class="rate">25 kr/mil</span></li>
-      <li><span class="flag">🇳🇴</span> <span data-region="NO">Norway</span> <span class="rate">3.50 kr/km</span></li>
-      <li><span class="flag">🇩🇰</span> <span data-region="DK">Denmark</span> <span class="rate">3.94 kr/km</span></li>
-      <li><span class="flag">🇫🇮</span> <span data-region="FI">Finland</span> <span class="rate">55c/km</span></li>
-    </ul>
-    <h3 class="chips-h3">ประเทศเหล่านี้รู้ชื่อเอกสาร ส่วนอัตราคุณกรอกเอง</h3>
-    <ul class="chips">
-      <li><span class="flag">🇮🇪</span> <span data-region="IE">Ireland</span></li>
-      <li><span class="flag">🇷🇴</span> <span data-region="RO">Romania</span></li>
-      <li><span class="flag">🇧🇬</span> <span data-region="BG">Bulgaria</span></li>
-      <li><span class="flag">🇬🇷</span> <span data-region="GR">Greece</span></li>
-      <li><span class="flag">🇱🇹</span> <span data-region="LT">Lithuania</span></li>
-      <li><span class="flag">🇱🇻</span> <span data-region="LV">Latvia</span></li>
-      <li><span class="flag">🇹🇷</span> <span data-region="TR">Turkey</span></li>
-      <li><span class="flag">🇺🇦</span> <span data-region="UA">Ukraine</span></li>
-    </ul>
-    <p class="section-intro" style="margin:26px 0 0">อยู่ที่อื่น? กรอกอัตราที่กรมสรรพากรของคุณยอมรับครั้งเดียว ที่เหลือ DropLane จัดการให้</p>
-  </div>
-</section>
 
-<section class="band" id="languages">
-  <div class="wrap split">
-    <div>
-      <h2>อ่านในภาษาของคุณเอง</h2>
-      <p class="section-intro">ทั้งแอป ทุกหน้าจอ ทุกการแจ้งเตือน รวมถึงรายงาน ไม่ใช่แค่หน้านี้ และเงินยังเป็นสกุลของคุณ ไม่ว่าจะอ่านภาษาใด</p>
-      <ul class="langgrid">
-        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
-        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
-        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
-        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
-        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
-        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
-        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
-        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
-        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
-        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
-        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
-        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
-        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
-        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
-        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
-        <li><a href="/gr/" hreflang="el" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
-        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
-        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
-        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
-        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
-        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
-        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
-        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
-        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
-        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
-        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
-        <li><a href="/jp/" hreflang="ja" data-suggest="日本語で読む" data-flag="🇯🇵"><span class="flag">🇯🇵</span> 日本語</a></li>
-        <li><a href="/kr/" hreflang="ko" data-suggest="한국어로 읽기" data-flag="🇰🇷"><span class="flag">🇰🇷</span> 한국어</a></li>
-        <li><a href="/sg/" hreflang="zh-Hans" data-suggest="用简体中文阅读" data-flag="🇸🇬"><span class="flag">🇸🇬</span> 简体中文</a></li>
-        <li><a href="/tw/" hreflang="zh-Hant" data-suggest="用繁體中文閱讀" data-flag="🇹🇼"><span class="flag">🇹🇼</span> 繁體中文</a></li>
-        <li><a href="/in/" hreflang="hi" data-suggest="हिन्दी में पढ़ें" data-flag="🇮🇳"><span class="flag">🇮🇳</span> हिन्दी</a></li>
-        <li><a href="/id/" hreflang="id" data-suggest="Baca dalam bahasa Indonesia" data-flag="🇮🇩"><span class="flag">🇮🇩</span> Bahasa Indonesia</a></li>
-        <li><a href="/vn/" hreflang="vi" data-suggest="Đọc bằng tiếng Việt" data-flag="🇻🇳"><span class="flag">🇻🇳</span> Tiếng Việt</a></li>
-        <li><a href="/th/" hreflang="th" aria-current="true" data-suggest="อ่านเป็นภาษาไทย" data-flag="🇹🇭"><span class="flag">🇹🇭</span> ไทย</a></li>
-        <li><a href="/hr/" hreflang="hr" data-suggest="Čitaj na hrvatskom" data-flag="🇭🇷"><span class="flag">🇭🇷</span> Hrvatski</a></li>
-        <li><a href="/si/" hreflang="sl" data-suggest="Beri v slovenščini" data-flag="🇸🇮"><span class="flag">🇸🇮</span> Slovenščina</a></li>
-        <li><a href="/ca/" hreflang="ca" data-suggest="Llegeix-ho en català" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Català</a></li>
-        <li><a href="/my/" hreflang="ms" data-suggest="Baca dalam Bahasa Melayu" data-flag="🇲🇾"><span class="flag">🇲🇾</span> Bahasa Melayu</a></li>
-        <li><a href="/pa/" hreflang="pa" data-suggest="ਪੰਜਾਬੀ ਵਿੱਚ ਪੜ੍ਹੋ" data-flag="🇮🇳"><span class="flag">🇮🇳</span> ਪੰਜਾਬੀ</a></li>
-        <li><a href="/ta/" hreflang="ta" data-suggest="தமிழில் படியுங்கள்" data-flag="🇮🇳"><span class="flag">🇮🇳</span> தமிழ்</a></li>
-        <li><a href="/bn/" hreflang="bn" data-suggest="বাংলায় পড়ুন" data-flag="🇮🇳"><span class="flag">🇮🇳</span> বাংলা</a></li>
-        <li><a href="/mx/" hreflang="es-MX" data-suggest="Leer en español (México)" data-flag="🇲🇽"><span class="flag">🇲🇽</span> Español (MX)</a></li>
-        <li><a href="/qc/" hreflang="fr-CA" data-suggest="Lire en français (Canada)" data-flag="🇨🇦"><span class="flag">🇨🇦</span> Français (CA)</a></li>
-        <li><a href="/en-ca/" hreflang="en-CA" data-suggest="Read this in Canadian English" data-flag="🇨🇦"><span class="flag">🇨🇦</span> English (CA)</a></li>
-        <li><a href="/ae/" hreflang="ar" data-suggest="اقرأ بالعربية" data-flag="🇦🇪"><span class="flag">🇦🇪</span> العربية</a></li>
-        <li><a href="/ur/" hreflang="ur" data-suggest="اردو میں پڑھیں" data-flag="🇮🇳"><span class="flag">🇮🇳</span> اردو</a></li>
-      </ul>
-    </div>
-    <figure class="shot" style="width:auto;margin:0">
-      <div class="device" style="margin-inline:auto"><div class="device-screen">
-        <img src="/assets/screens/th/light/today-money.webp" width="640" height="1391" alt="หน้าจอวันนี้: รายได้ ค่าใช้จ่าย สุทธิ" loading="lazy">
-      </div></div>
-      <figcaption style="text-align:center"><b>วันนี้</b>ตัวเลขของวัน ในภาษาและเงินของคุณ</figcaption>
-    </figure>
-  </div>
-</section>
+
+
+
+
 
 <section id="pricing">
   <div class="wrap">
@@ -527,6 +491,18 @@
     <p class="section-intro">ฟรี 14 วัน ยกเลิกก่อนหมดช่วงทดลองแล้วไม่ต้องจ่ายอะไรเลย ทุกฟีเจอร์ใช้ได้ตั้งแต่แรก ไม่มีแพ็กเกจที่สูงกว่า ไม่มีซื้อเพิ่ม</p>
 
     <div class="price-grid">
+      <div class="price best">
+        <span class="tag">คุ้มที่สุด</span>
+        <h3>รายปี</h3>
+        <p class="amount">฿999</p>
+        <p class="per">ต่อปี เรียกเก็บปีละครั้ง</p>
+        <ul>
+          <li>ทุกฟีเจอร์ ไม่มีซื้อเพิ่ม</li>
+          <li>ประหยัด ฿789 ต่อปี ถูกกว่า 44%</li>
+          <li>เฉลี่ย ฿83 ต่อเดือน</li>
+        </ul>
+        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-pricing&amp;mt=8" data-place="pricing">เริ่มฟรี 14 วัน</a>
+      </div>
       <div class="price">
         <h3>รายเดือน</h3>
         <p class="amount">฿149</p>
@@ -537,92 +513,9 @@
         </ul>
         <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-pricing&amp;mt=8" data-place="pricing">เริ่มฟรี 14 วัน</a>
       </div>
-      <div class="price best">
-        <span class="tag">คุ้มที่สุด</span>
-        <h3>รายปี</h3>
-        <p class="amount">฿999</p>
-        <p class="per">ต่อปี คุ้มกว่า</p>
-        <ul>
-          <li>ทุกฟีเจอร์ ไม่มีซื้อเพิ่ม</li>
-          <li>ประหยัด ฿789 ต่อปี ถูกกว่า 44%</li>
-          <li>เฉลี่ย ฿83 ต่อเดือน</li>
-        </ul>
-        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-pricing&amp;mt=8" data-place="pricing">เริ่มฟรี 14 วัน</a>
-      </div>
     </div>
 
-    <div class="pricetable">
-      <div class="pricetable-head">
-        <h3 style="font-size:20px;margin:0">ราคาในประเทศของคุณ</h3>
-        <label class="search">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
-          <input type="search" id="price-search" placeholder="ค้นหาประเทศ" aria-label="ค้นหาประเทศ">
-        </label>
-      </div>
-
-      <div class="table-wrap">
-        <table class="prices">
-          <thead>
-            <tr><th scope="col">ประเทศ</th><th scope="col">รายเดือน</th><th scope="col">รายปี</th></tr>
-          </thead>
-          <tbody id="price-rows" data-you="คุณ">
-            <tr data-cc="GB" data-flag="🇬🇧" data-name="United Kingdom"><td><span class="flag">🇬🇧</span><span data-region="GB">United Kingdom</span></td><td>£6.99</td><td>£49.99</td></tr>
-            <tr data-cc="IE" data-flag="🇮🇪" data-name="Ireland"><td><span class="flag">🇮🇪</span><span data-region="IE">Ireland</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="US" data-flag="🇺🇸" data-name="United States"><td><span class="flag">🇺🇸</span><span data-region="US">United States</span></td><td>$6.99</td><td>$49.99</td></tr>
-            <tr data-cc="CA" data-flag="🇨🇦" data-name="Canada"><td><span class="flag">🇨🇦</span><span data-region="CA">Canada</span></td><td>C$9.99</td><td>C$69.99</td></tr>
-            <tr data-cc="AU" data-flag="🇦🇺" data-name="Australia"><td><span class="flag">🇦🇺</span><span data-region="AU">Australia</span></td><td>A$11.99</td><td>A$79.99</td></tr>
-            <tr data-cc="NZ" data-flag="🇳🇿" data-name="New Zealand"><td><span class="flag">🇳🇿</span><span data-region="NZ">New Zealand</span></td><td>NZ$12.99</td><td>NZ$89.99</td></tr>
-            <tr data-cc="DE" data-flag="🇩🇪" data-name="Germany"><td><span class="flag">🇩🇪</span><span data-region="DE">Germany</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="FR" data-flag="🇫🇷" data-name="France"><td><span class="flag">🇫🇷</span><span data-region="FR">France</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="NL" data-flag="🇳🇱" data-name="Netherlands"><td><span class="flag">🇳🇱</span><span data-region="NL">Netherlands</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="FI" data-flag="🇫🇮" data-name="Finland"><td><span class="flag">🇫🇮</span><span data-region="FI">Finland</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="IT" data-flag="🇮🇹" data-name="Italy"><td><span class="flag">🇮🇹</span><span data-region="IT">Italy</span></td><td>€5.99</td><td>€39.99</td></tr>
-            <tr data-cc="ES" data-flag="🇪🇸" data-name="Spain"><td><span class="flag">🇪🇸</span><span data-region="ES">Spain</span></td><td>€5.99</td><td>€39.99</td></tr>
-            <tr data-cc="PT" data-flag="🇵🇹" data-name="Portugal"><td><span class="flag">🇵🇹</span><span data-region="PT">Portugal</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="GR" data-flag="🇬🇷" data-name="Greece"><td><span class="flag">🇬🇷</span><span data-region="GR">Greece</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="SK" data-flag="🇸🇰" data-name="Slovakia"><td><span class="flag">🇸🇰</span><span data-region="SK">Slovakia</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="LT" data-flag="🇱🇹" data-name="Lithuania"><td><span class="flag">🇱🇹</span><span data-region="LT">Lithuania</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="LV" data-flag="🇱🇻" data-name="Latvia"><td><span class="flag">🇱🇻</span><span data-region="LV">Latvia</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="SE" data-flag="🇸🇪" data-name="Sweden"><td><span class="flag">🇸🇪</span><span data-region="SE">Sweden</span></td><td>79 SEK</td><td>599 SEK</td></tr>
-            <tr data-cc="NO" data-flag="🇳🇴" data-name="Norway"><td><span class="flag">🇳🇴</span><span data-region="NO">Norway</span></td><td>79 NOK</td><td>599 NOK</td></tr>
-            <tr data-cc="DK" data-flag="🇩🇰" data-name="Denmark"><td><span class="flag">🇩🇰</span><span data-region="DK">Denmark</span></td><td>49 DKK</td><td>349 DKK</td></tr>
-            <tr data-cc="PL" data-flag="🇵🇱" data-name="Poland"><td><span class="flag">🇵🇱</span><span data-region="PL">Poland</span></td><td>24,99 zł</td><td>169,99 zł</td></tr>
-            <tr data-cc="CZ" data-flag="🇨🇿" data-name="Czechia"><td><span class="flag">🇨🇿</span><span data-region="CZ">Czechia</span></td><td>149 Kč</td><td>999 Kč</td></tr>
-            <tr data-cc="HU" data-flag="🇭🇺" data-name="Hungary"><td><span class="flag">🇭🇺</span><span data-region="HU">Hungary</span></td><td>2 490 Ft</td><td>16 990 Ft</td></tr>
-            <tr data-cc="RO" data-flag="🇷🇴" data-name="Romania"><td><span class="flag">🇷🇴</span><span data-region="RO">Romania</span></td><td>24,99 lei</td><td>169,99 lei</td></tr>
-            <tr data-cc="BG" data-flag="🇧🇬" data-name="Bulgaria"><td><span class="flag">🇧🇬</span><span data-region="BG">Bulgaria</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="TR" data-flag="🇹🇷" data-name="Turkey"><td><span class="flag">🇹🇷</span><span data-region="TR">Turkey</span></td><td>₺199,99</td><td>₺1.399,99</td></tr>
-            <tr data-cc="UA" data-flag="🇺🇦" data-name="Ukraine"><td><span class="flag">🇺🇦</span><span data-region="UA">Ukraine</span></td><td>$4.99</td><td>$34.99</td></tr>
-            <tr data-cc="BR" data-flag="🇧🇷" data-name="Brazil"><td><span class="flag">🇧🇷</span><span data-region="BR">Brazil</span></td><td>R$ 19,90</td><td>R$ 129,90</td></tr>
-            <tr data-cc="MX" data-flag="🇲🇽" data-name="Mexico"><td><span class="flag">🇲🇽</span><span data-region="MX">Mexico</span></td><td>MX$99</td><td>MX$649</td></tr>
-            <tr data-cc="ZA" data-flag="🇿🇦" data-name="South Africa"><td><span class="flag">🇿🇦</span><span data-region="ZA">South Africa</span></td><td>R99.99</td><td>R699.99</td></tr>
-            <tr data-cc="IN" data-flag="🇮🇳" data-name="India"><td><span class="flag">🇮🇳</span><span data-region="IN">India</span></td><td>₹299</td><td>₹1,999</td></tr>
-            <tr data-cc="CN" data-flag="🇨🇳" data-name="China"><td><span class="flag">🇨🇳</span><span data-region="CN">China</span></td><td>¥29</td><td>¥199</td></tr>
-            <tr data-cc="JP" data-flag="🇯🇵" data-name="Japan"><td><span class="flag">🇯🇵</span><span data-region="JP">Japan</span></td><td>¥980</td><td>¥6,800</td></tr>
-            <tr data-cc="KR" data-flag="🇰🇷" data-name="South Korea"><td><span class="flag">🇰🇷</span><span data-region="KR">South Korea</span></td><td>₩8,900</td><td>₩59,000</td></tr>
-            <tr data-cc="SG" data-flag="🇸🇬" data-name="Singapore"><td><span class="flag">🇸🇬</span><span data-region="SG">Singapore</span></td><td>S$9.98</td><td>S$69.98</td></tr>
-            <tr data-cc="TW" data-flag="🇹🇼" data-name="Taiwan"><td><span class="flag">🇹🇼</span><span data-region="TW">Taiwan</span></td><td>NT$220</td><td>NT$1,490</td></tr>
-            <tr data-cc="VN" data-flag="🇻🇳" data-name="Vietnam"><td><span class="flag">🇻🇳</span><span data-region="VN">Vietnam</span></td><td>99.000đ</td><td>599.000đ</td></tr>
-            <tr data-cc="TH" data-flag="🇹🇭" data-name="Thailand"><td><span class="flag">🇹🇭</span><span data-region="TH">Thailand</span></td><td>฿149</td><td>฿999</td></tr>
-            <tr data-cc="HR" data-flag="🇭🇷" data-name="Croatia"><td><span class="flag">🇭🇷</span><span data-region="HR">Croatia</span></td><td>7,99 €</td><td>59,99 €</td></tr>
-            <tr data-cc="SI" data-flag="🇸🇮" data-name="Slovenia"><td><span class="flag">🇸🇮</span><span data-region="SI">Slovenia</span></td><td>7,99 €</td><td>59,99 €</td></tr>
-            <tr data-cc="MY" data-flag="🇲🇾" data-name="Malaysia"><td><span class="flag">🇲🇾</span><span data-region="MY">Malaysia</span></td><td>RM19.90</td><td>RM129.90</td></tr>
-            <tr data-cc="ID" data-flag="🇮🇩" data-name="Indonesia"><td><span class="flag">🇮🇩</span><span data-region="ID">Indonesia</span></td><td>Rp49.000</td><td>Rp329.000</td></tr>
-            <tr data-cc="AE" data-flag="🇦🇪" data-name="United Arab Emirates"><td><span class="flag">🇦🇪</span><span data-region="AE">United Arab Emirates</span></td><td>AED 24.99</td><td>AED 169.99</td></tr>
-            <tr data-cc="SA" data-flag="🇸🇦" data-name="Saudi Arabia"><td><span class="flag">🇸🇦</span><span data-region="SA">Saudi Arabia</span></td><td>SAR 24.99</td><td>SAR 169.99</td></tr>
-            <tr data-cc="KZ" data-flag="🇰🇿" data-name="Kazakhstan"><td><span class="flag">🇰🇿</span><span data-region="KZ">Kazakhstan</span></td><td>2 490 ₸</td><td>14 990 ₸</td></tr>
-            <tr data-cc="KG" data-flag="🇰🇬" data-name="Kyrgyzstan"><td><span class="flag">🇰🇬</span><span data-region="KG">Kyrgyzstan</span></td><td>$2.99</td><td>$19.99</td></tr>
-            <tr data-cc="UZ" data-flag="🇺🇿" data-name="Uzbekistan"><td><span class="flag">🇺🇿</span><span data-region="UZ">Uzbekistan</span></td><td>$2.99</td><td>$19.99</td></tr>
-            <tr data-cc="TJ" data-flag="🇹🇯" data-name="Tajikistan"><td><span class="flag">🇹🇯</span><span data-region="TJ">Tajikistan</span></td><td>$2.99</td><td>$19.99</td></tr>
-            <tr data-cc="TM" data-flag="🇹🇲" data-name="Turkmenistan"><td><span class="flag">🇹🇲</span><span data-region="TM">Turkmenistan</span></td><td>$3.99</td><td>$27.99</td></tr>
-            <tr data-cc="AM" data-flag="🇦🇲" data-name="Armenia"><td><span class="flag">🇦🇲</span><span data-region="AM">Armenia</span></td><td>$3.99</td><td>$27.99</td></tr>
-            <tr data-cc="AZ" data-flag="🇦🇿" data-name="Azerbaijan"><td><span class="flag">🇦🇿</span><span data-region="AZ">Azerbaijan</span></td><td>$3.99</td><td>$27.99</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <p class="table-note">แต่ละประเทศมีราคาของตัวเอง ไม่ใช่แปลงมาจากสกุลอื่น App Store จะแสดงจำนวนเงินที่แน่นอนในสกุลของคุณ รวมภาษีแล้ว ก่อนที่คุณจะตกลง ไม่มีในรายการ? App Store ก็ยังมีราคาสำหรับคุณ</p>
-    </div>
+    <p class="table-note pricing-note">Apple ไม่เก็บเงินใน 14 วันแรก ยกเลิกในการตั้งค่าก่อนครบกำหนดก็ไม่ต้องจ่ายอะไรเลย นอกประเทศไทย App Store จะแสดงราคาของประเทศคุณเอง</p>
   </div>
 </section>
 
@@ -634,47 +527,38 @@
     <p class="section-intro">คำตอบตรงๆ จากคนที่ทำงานนี้เอง</p>
     <div class="faq">
       <details>
-        <summary>นี่ก็แค่แอปวัดระยะทางอีกตัวไม่ใช่เหรอ?</summary>
-        <p>บันทึกระยะทางแบบเดียวกัน แต่ไม่มีปุ่มเริ่ม ความต่างอยู่ที่หลังจากนั้น: กรอกรายได้เข้าไป ค่าน้ำมัน ค่าจอด และค่าใช้จ่ายรถถูกหักออก แล้วแอปบอกว่าชั่วโมงหนึ่งได้จริงๆ เท่าไหร่ ตัวเลขระยะทางอย่างเดียวไม่เคยบอกใครได้ว่ารอบนั้นคุ้มหรือเปล่า</p>
-      </details>
-      <details>
-        <summary>กินแบตไหม?</summary>
-        <p>DropLane ไม่เปิด GPS ทั้งวัน มันรอเงียบๆ จนรู้ว่าคุณออกจากที่จอด บันทึกตอนคุณเคลื่อนที่ แล้วกลับไปพักเมื่อคุณหยุด</p>
-      </details>
-      <details>
         <summary>ต้องกดเริ่มไหม?</summary>
         <p>ไม่ต้อง และไม่มีปุ่มให้กดด้วย นั่นแหละคือประเด็น ถ้าต้องจำ ก็จะลืมในวันที่สำคัญที่สุด</p>
-      </details>
-      <details>
-        <summary>ถ้าลืมเลือกประเภทเที่ยวล่ะ?</summary>
-        <p>ไม่มีอะไรหาย เที่ยวที่ยังไม่มีประเภทจะรออยู่ที่หน้าจอวัน และแอปจะเตือนคุณแทนที่จะเดาให้</p>
       </details>
       <details>
         <summary>ประวัติเส้นทางของฉันจะไปอยู่ที่ไหนไหม?</summary>
         <p>ไม่ ไม่มีบัญชีและไม่มีเซิร์ฟเวอร์ ทุกอย่างอยู่บน iPhone ของคุณ และสำรองไปที่ iCloud ของคุณเองเท่านั้น ถ้าคุณต้องการ</p>
       </details>
       <details>
-        <summary>ไม่มีสัญญาณใช้ได้ไหม?</summary>
-        <p>ได้ การบันทึกใช้ GPS ของ iPhone เองและไม่ต้องใช้อินเทอร์เน็ตเลย เที่ยวที่บันทึกตอนไม่มีสัญญาณจะแสดงเป็น &quot;เริ่ม&quot; และ &quot;สิ้นสุด&quot; แทนชื่อถนน แล้ว DropLane จะเติมให้เมื่อเจอ Wi-Fi ครั้งถัดไป</p>
+        <summary>ถ้าขี่จักรยาน ไม่ได้ขับรถตู้ล่ะ?</summary>
+        <p>ใช้ได้ ระยะทางที่ขี่ด้วยจักรยานบรรทุกก็บันทึกแบบเดียวกัน แต่อัตราระยะทางที่มีในแอปใช้กับยานยนต์ ส่วนจักรยานจะขอลดหย่อนได้เท่าไรขึ้นกับประเทศและสถานการณ์ของคุณ — ควรถามนักบัญชี</p>
       </details>
       <details>
-        <summary>เปลี่ยนมือถือใหม่แล้วจะเป็นยังไง?</summary>
-        <p>ลงชื่อเข้า iCloud เดิม เที่ยว รายได้ และค่าใช้จ่ายจะกลับมาเอง ไม่มีบัญชีต้องสร้าง ไม่มีรหัสผ่านให้ลืม</p>
+        <summary>ไม่มีสัญญาณใช้ได้ไหม?</summary>
+        <p>ได้ การบันทึกใช้ GPS ของ iPhone เองและไม่ต้องใช้อินเทอร์เน็ตเลย เที่ยวที่บันทึกตอนไม่มีสัญญาณจะแสดงเป็น “เริ่ม” และ “สิ้นสุด” แทนชื่อถนน แล้ว DropLane จะเติมให้เมื่อเจอ Wi-Fi ครั้งถัดไป ขับทั้งสัปดาห์ในที่ที่ไม่มีสัญญาณ ยอดก็ยังรวมได้ถูกต้อง</p>
       </details>
       <details>
         <summary>ถ้าหยุดจ่าย ข้อมูลจะหายไหม?</summary>
-        <p>ไม่มีอะไรถูกลบ เที่ยวของคุณยังอยู่บน iPhone และใน iCloud ของคุณเองเหมือนเดิม แต่ DropLane ต้องมีการสมัครที่ใช้งานอยู่จึงจะเปิดได้ ถ้าอยากเอาตัวเลขไปที่อื่น ให้ส่งออก CSV จากตั้งค่าก่อน แตะครั้งเดียว</p>
+        <p>ไม่มีอะไรถูกลบ และแอปยังบันทึกต่อไป เที่ยวของคุณยังอยู่บน iPhone และใน iCloud ของคุณเอง ระยะทางที่ขับระหว่างที่ไม่ได้สมัครก็จะรออยู่เมื่อคุณสมัครอีกครั้ง สิ่งที่ถูกล็อกคือการดูข้อมูล: แท็บ “วันนี้” “วัน” “สถิติ” และ “วิเคราะห์” รวมถึงไฟล์ PDF และการส่งออก CSV จะปิดไว้จนกว่าคุณจะสมัครใหม่ ถ้าอยากเอาตัวเลขไปไว้ที่อื่น ให้ส่งออก CSV ก่อนการสมัครหมดอายุ อยู่ในตั้งค่า แตะครั้งเดียว</p>
       </details>
     </div>
+    <p class="faq-all"><a href="/th/faq/">ดูคำถามทั้งหมด →</a></p>
   </div>
 </section>
+
+
 
 <section>
   <div class="wrap">
     <div class="closer">
       <h2>เลิกเดาว่าวันนี้ได้เท่าไหร่</h2>
-      <p>ฟรี 14 วัน ไม่ต้องสมัคร และไม่มีอะไรต้องจำตอนหกโมงเช้า</p>
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>รับ DropLane</a>
+      <p>ฟรี 14 วัน ไม่ต้องมีบัญชี และไม่มีอะไรต้องจำตอนหกโมงเช้า</p>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>เริ่มฟรี 14 วัน</a>
     </div>
   </div>
 </section>
@@ -708,9 +592,9 @@
     <img class="cta-bar-mark" src="/assets/icon-180.png" alt="" width="46" height="46" loading="lazy" decoding="async">
     <p class="cta-bar-say">
       <b>ฟรี 14 วัน</b>
-      <span>จากนั้น ฿149 ต่อเดือน</span>
+      <span>จากนั้น ฿999 ต่อปี หรือ ฿149 ต่อเดือน</span>
     </p>
-    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-bar&amp;mt=8" data-place="bar">รับ DropLane</a>
+    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-th-bar&amp;mt=8" data-place="bar">เริ่มฟรี 14 วัน</a>
     <button class="cta-bar-shut" type="button" aria-label="ปิด">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>

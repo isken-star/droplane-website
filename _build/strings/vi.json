@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Quãng đường, thu nhập và chi phí tự động cho bất kỳ ai lái xe vì công việc",
-  "meta_description": "Ứng dụng ghi quãng đường cho shipper và tài xế giao hàng tự do. DropLane tự ghi lại mọi chuyến, trừ xăng và chi phí khỏi thu nhập, và cho biết mỗi giờ thực sự kiếm được bao nhiêu.",
+  "meta_description": "Ứng dụng ghi quãng đường cho shipper và tài xế tự do. DropLane tự ghi mọi chuyến, trừ xăng và chi phí, và cho biết mỗi giờ thực sự kiếm được bao nhiêu.",
   "nav_label": "Chính",
   "nav_features": "Tính năng",
   "nav_screens": "Màn hình",
@@ -18,14 +18,14 @@
   "language_label": "Ngôn ngữ",
   "language_title": "Đọc trang này bằng ngôn ngữ của bạn",
   "language_note": "Ứng dụng có đủ cả 46 ngôn ngữ — mọi màn hình, mọi thông báo, mọi tệp PDF.",
-  "langbar_strong": "Nhiều ngôn ngữ.",
+  "langbar_strong": "46 ngôn ngữ.",
   "langbar_rest": "Chọn ngôn ngữ của bạn — ứng dụng cũng dùng đúng ngôn ngữ đó.",
   "see_all": "tất cả quốc gia",
   "per_month_short": "/tháng",
-  "hero_kicker": "Quãng đường, thu nhập và chi phí tự động cho bất kỳ ai lái xe vì công việc",
+  "hero_kicker": "Tự động ghi km · Lợi nhuận thực · Thu nhập thực mỗi giờ",
   "hero_h1": "Biết hôm nay thực sự kiếm được bao nhiêu.",
-  "hero_lede": "Cứ lái xe đi. DropLane tự ghi lại mọi chuyến và lộ trình thực tế, trừ chi phí khỏi thu nhập, và tính xong thu nhập thực mỗi giờ trước khi bạn về đến nhà.",
-  "hero_cta_how": "Xem màn hình",
+  "hero_lede": "DropLane tự động ghi lại mọi chuyến, trừ đi chi phí và cho bạn thấy mình thực sự kiếm được bao nhiêu.",
+  "hero_cta_how": "Xem cách hoạt động ↓",
   "hero_note": "không tài khoản, không quảng cáo · iPhone",
   "hero_android": "Bản Android đang được làm. Gửi email cho chúng tôi, khi ra mắt sẽ báo bạn.",
   "hero_facts": [
@@ -46,54 +46,24 @@
   "hero_trial_then": "sau đó {price} mỗi tháng",
   "compare_them": "Ứng dụng đo quãng đường cho bạn biết đã chạy bao xa.",
   "compare_us": "DropLane cho bạn biết ngày hôm đó có đáng không.",
-  "reviews_h2": "Tài xế nói gì trên App Store",
-  "features_h2": "DropLane thực sự làm gì",
-  "features_intro": "Do một tài xế giao hàng với mười năm trên đường tạo ra, cho công việc đúng như nó vốn có.",
+  "reviews_h2": "Từ App Store Anh",
+  "features_h2": "Bạn nhận lại được gì",
+  "features_intro": "Do chính người trong nghề làm ra, cho công việc đúng như thực tế.",
   "features": [
     {
-      "icon": "💵",
-      "title": "Hôm nay thực sự còn lại bao nhiêu",
-      "body": "Xăng và các chi phí khác được trừ khỏi thu nhập, số tiền bạn thực sự giữ được nằm ở dòng cuối — theo ngày, tuần, tháng."
+      "icon": "💰",
+      "title": "Biết lợi nhuận thực",
+      "body": "Thu nhập trừ xăng dầu và chi phí, theo ngày, tuần và tháng."
     },
     {
-      "icon": "⛽",
-      "title": "Một giờ thực sự kiếm được bao nhiêu",
-      "body": "Xăng, trả góp và bảo hiểm được chia đều cho những ngày bạn làm, nên con số mỗi giờ là con số thật."
-    },
-    {
-      "icon": "🛣️",
-      "title": "Ghi quãng đường mà không chạm điện thoại",
-      "body": "Chuyến đi tự ghi lại trong nền, từ lúc lăn bánh đến lúc đỗ xe."
+      "icon": "⏱️",
+      "title": "Biết thu nhập thực mỗi giờ",
+      "body": "Xem ngày nào, chuyến nào thực sự có lời, khi xăng dầu, tiền trả góp và bảo hiểm đã được chia đều cho những ngày bạn làm."
     },
     {
       "icon": "🧾",
-      "title": "Sổ sách sẵn sàng cho kế toán",
-      "body": "Một file PDF với mọi chuyến, lộ trình và ngày tháng. Có sẵn mức khấu trừ theo km cho 17 quốc gia."
-    },
-    {
-      "icon": "🅿️",
-      "title": "Điểm dừng và thời gian chờ",
-      "body": "Xem bạn đã chờ bao lâu ở mỗi điểm giao hay kho, không cần ghi chép gì."
-    },
-    {
-      "icon": "🔒",
-      "title": "Không gì rời khỏi điện thoại của bạn",
-      "body": "Không phải tạo tài khoản, không theo dõi, không quảng cáo. Lịch sử lộ trình là của bạn, chỉ sao lưu vào iCloud của chính bạn."
-    },
-    {
-      "icon": "🔔",
-      "title": "Gia hạn",
-      "body": "Nhập số odo một lần, DropLane sẽ cộng tiếp từ quãng đường đã ghi — nên nhắc bảo dưỡng và đăng kiểm có thể đếm ngược theo km, không chỉ theo ngày."
-    },
-    {
-      "icon": "🔧",
-      "title": "Xe của bạn",
-      "body": "Ghi lại bảo dưỡng, lốp và sửa chữa ở đây — kèm ảnh hóa đơn — cả lịch sử gara nằm trong túi bạn."
-    },
-    {
-      "icon": "💳",
-      "title": "Thẻ nhiên liệu",
-      "body": "Đặt giá mỗi lít mà thẻ của bạn tính. Ghi số lít khi đổ, DropLane tính ra chi phí."
+      "title": "Sổ sách sẵn sàng khi cần",
+      "body": "Các chuyến, số km và file PDF cho kế toán, với mức quãng đường do bạn tự đặt."
     }
   ],
   "screens_h2": "Màn hình ứng dụng",
@@ -166,7 +136,7 @@
   "pricing_monthly": "Theo tháng",
   "pricing_yearly": "Theo năm",
   "pricing_per_month": "mỗi tháng, hủy bất cứ lúc nào",
-  "pricing_per_year": "mỗi năm — lợi hơn",
+  "pricing_per_year": "mỗi năm, thanh toán mỗi năm một lần",
   "pricing_best": "Lợi nhất",
   "pricing_bullet_all": "Mọi tính năng, không mua thêm",
   "pricing_bullet_trial": "14 ngày miễn phí trước",
@@ -179,13 +149,13 @@
   "pricing_col_month": "Theo tháng",
   "pricing_col_year": "Theo năm",
   "pricing_you": "Bạn",
-  "pricing_note": "Mỗi nước có giá riêng, không phải quy đổi từ tiền khác. App Store hiển thị đúng số tiền bằng tiền của bạn, đã gồm thuế, trước khi bạn đồng ý. Không có trong danh sách? App Store vẫn có giá cho bạn.",
+  "pricing_note": "Apple không thu tiền trong 14 ngày đầu. Hủy trong Cài đặt trước thời hạn đó thì bạn không phải trả gì. Ngoài Việt Nam, App Store hiển thị giá của nước bạn.",
   "faq_h2": "Những câu tài xế thực sự hỏi",
   "faq_intro": "Trả lời thẳng, từ người làm chính công việc này.",
   "faq": [
     {
       "q": "Đây chẳng phải lại một ứng dụng đo quãng đường nữa sao?",
-      "a": "Cách ghi quãng đường thì giống, chỉ không có nút bắt đầu. Khác biệt nằm ở phần sau: bạn nhập thu nhập, xăng, gửi xe và chi phí vận hành được trừ đi, và ứng dụng cho biết mỗi giờ thực sự được bao nhiêu. Chỉ con số quãng đường thì chưa bao giờ cho ai biết chuyến đó có đáng không."
+      "a": "Cách ghi quãng đường thì giống, chỉ không có nút bắt đầu. Khác biệt nằm ở phần sau: thu nhập của bạn được nhập vào, còn xăng, phí gửi xe và chi phí vận hành bị trừ đi, rồi ứng dụng cho biết mỗi giờ thực sự được bao nhiêu. Chỉ con số quãng đường thì chưa bao giờ cho ai biết chuyến đó có đáng không."
     },
     {
       "q": "Có tốn pin không?",
@@ -204,16 +174,36 @@
       "a": "Không. Không có tài khoản, không có máy chủ. Mọi thứ nằm trên iPhone của bạn, và chỉ sao lưu vào iCloud của chính bạn nếu bạn muốn."
     },
     {
+      "q": "Tôi chạy xe đạp chứ không phải xe van.",
+      "a": "Vẫn dùng được. Quãng đường đi bằng xe đạp chở hàng được ghi y như vậy. Có điều mức quãng đường có sẵn là dành cho xe cơ giới, nên xe đạp kê được bao nhiêu còn tùy nước bạn và hoàn cảnh của bạn — nên hỏi kế toán."
+    },
+    {
+      "q": "Có sẵn mức quãng đường của Việt Nam không?",
+      "a": "Mười bảy nước đã có sẵn mức chính thức và luôn được cập nhật. Việt Nam không nằm trong số đó, nên bạn chỉ cần nhập mức của mình một lần, phần còn lại ứng dụng tự tính."
+    },
+    {
+      "q": "Dùng đơn vị km được không?",
+      "a": "Được. Dặm hay km, tiền của bạn, và giá xăng dầu bạn thực trả — tất cả nằm trong Cài đặt, ngay màn hình đầu tiên."
+    },
+    {
       "q": "Không có sóng thì dùng được không?",
-      "a": "Được. Việc ghi dùng GPS của chính iPhone và hoàn toàn không cần internet. Chuyến ghi lúc mất sóng sẽ hiện \"Bắt đầu\" và \"Kết thúc\" thay cho tên đường, và DropLane điền vào khi có Wi-Fi lần sau."
+      "a": "Được. Việc ghi dùng GPS của chính iPhone và hoàn toàn không cần internet. Chuyến ghi lúc mất sóng sẽ hiện “Bắt đầu” và “Kết thúc” thay cho tên đường, và DropLane điền vào khi có Wi-Fi lần sau. Cả tuần chạy đường không có sóng thì số liệu vẫn cộng đúng."
     },
     {
       "q": "Đổi điện thoại mới thì sao?",
-      "a": "Đăng nhập cùng iCloud và các chuyến, thu nhập, chi phí tự quay lại. Không có tài khoản phải tạo, không có mật khẩu để mất."
+      "a": "Đăng nhập cùng iCloud và các chuyến, thu nhập, chi phí tự quay lại. Không có tài khoản phải tạo, không có mật khẩu để mất, vì chưa từng có máy chủ nào giữ những thứ đó — bản sao lưu là của bạn, trong iCloud của chính bạn."
     },
     {
       "q": "Nếu tôi ngừng trả phí, dữ liệu có mất không?",
-      "a": "Không xóa gì cả. Các chuyến vẫn nằm trên iPhone và trong iCloud của bạn. Nhưng DropLane cần gói đăng ký còn hiệu lực để mở, nên nếu muốn mang số liệu đi nơi khác, hãy xuất CSV trước trong Cài đặt. Một chạm."
+      "a": "Không có gì bị xóa, và ứng dụng vẫn tiếp tục ghi. Các chuyến vẫn nằm trên iPhone và trong iCloud của chính bạn, và quãng đường bạn chạy trong thời gian ngừng đăng ký sẽ chờ sẵn khi bạn đăng ký lại. Thứ bị khóa là phần xem số liệu: các tab Hôm nay, Ngày, Thống kê, Phân tích, file PDF và tính năng xuất CSV sẽ đóng lại cho đến khi bạn đăng ký lại. Nếu muốn mang số liệu đi nơi khác, hãy xuất CSV trước khi gói đăng ký hết hạn — trong Cài đặt, chỉ một chạm."
+    },
+    {
+      "q": "Làm sao biết tiền nhiên liệu thực sự trước khi hóa đơn thẻ về?",
+      "a": "Cho DropLane biết giá mỗi lít mà thẻ nhiên liệu của bạn tính, rồi ghi số lít mỗi lần đổ. Chi phí được tính ngay trong ngày, nên lợi nhuận của tuần đã đúng từ nhiều tuần trước khi hóa đơn tới."
+    },
+    {
+      "q": "Có bản Android không?",
+      "a": "Chưa có. Hiện DropLane chỉ có trên iPhone, và bản Android đang được làm. Gửi email tới help@droplane.co.uk, chúng tôi sẽ báo bạn ngay khi ra mắt."
     }
   ],
   "closer_h2": "Đừng đoán hôm nay kiếm được bao nhiêu nữa.",
@@ -226,5 +216,87 @@
   "cta_soon": "Sắp ra mắt",
   "fact_currency": "Mọi loại tiền",
   "fact_private": "Dữ liệu ở trong máy bạn",
-  "fact_private_value": "Riêng tư"
+  "fact_private_value": "Riêng tư",
+  "hero_support": "14 ngày miễn phí · Không cần tài khoản · Hủy bất cứ lúc nào",
+  "hero_trial_then_plans": "sau đó {year} mỗi năm hoặc {month} mỗi tháng",
+  "trust": [
+    "Tự động ghi lại mọi chuyến",
+    "Vị trí chỉ nằm trên iPhone của bạn",
+    "Do tài xế đã giao hàng hơn 10 năm làm ra",
+    "46 ngôn ngữ, mọi loại tiền tệ"
+  ],
+  "outcomes_label": "Ba con số DropLane tính sẵn trước khi bạn về đến nhà",
+  "outcomes": [
+    {
+      "file": "today",
+      "title": "Hôm nay tôi kiếm được bao nhiêu",
+      "alt": "Màn hình Hôm nay: một chuyến đang được ghi trên bản đồ TP. Hồ Chí Minh, và hôm nay kiếm được 1.048.000 ₫, từ 1.298.000 ₫ thu nhập trừ 250.000 ₫ chi phí."
+    },
+    {
+      "file": "day",
+      "title": "Trừ chi phí, tôi thực sự còn bao nhiêu",
+      "alt": "Trang của một ngày: lợi nhuận trong ngày 1.048.000 ₫ trên 107 km, 152.621 ₫ mỗi giờ, 9.794 ₫ mỗi km, và cả ngày trên bản đồ."
+    },
+    {
+      "file": "insights",
+      "title": "Thu nhập thực mỗi giờ của tôi",
+      "alt": "Màn hình Phân tích: lợi nhuận sau chi phí cố định 598.000 ₫, 87.087 ₫ mỗi giờ, 9.794 ₫ mỗi km, 6 giờ 52 phút trên đường."
+    }
+  ],
+  "money_label_money": "còn lại",
+  "money_punch2": "Chạy nhiều hơn chưa chắc đã kiếm nhiều hơn.",
+  "money_note": "Số km cho bạn biết đã chạy bao xa. DropLane cho bạn biết có đáng hay không.",
+  "nav_day": "Thu về bao nhiêu",
+  "nav_how": "Cách hoạt động",
+  "how_h2": "Ba bước, và chỉ một bước là việc của bạn",
+  "how_intro": "DropLane cố ý không có nút bắt đầu. Sáu giờ sáng, xe chất đầy hàng, chẳng ai nhớ mà bấm.",
+  "how_steps": [
+    {
+      "title": "Bật một lần",
+      "body": "Cài ứng dụng và cho phép truy cập vị trí ở chế độ nền. Vậy là xong phần cài đặt."
+    },
+    {
+      "title": "Cứ chạy",
+      "body": "Mỗi chuyến tự lưu lại, kèm lộ trình, các điểm dừng và thời gian bạn dừng ở từng điểm."
+    },
+    {
+      "title": "Chạm một cái để phân loại",
+      "body": "Có hàng, chạy rỗng, đi lấy hay cá nhân. Số liệu tổng và phần kê khai quãng đường tự cập nhật theo."
+    }
+  ],
+  "setup_h3": "Xem cách thiết lập",
+  "setup_shot_location": "Bật vị trí",
+  "setup_shot_always": "Giờ chọn “Luôn cho phép”",
+  "setup_shot_notifications": "Bật thông báo",
+  "setup_shot_vehicle": "Bạn chạy xe gì?",
+  "pocket_h3": "Thông báo",
+  "pocket_body": "“Luôn cho phép” giúp ghi lại chuyến ngay cả khi đã đóng ứng dụng.",
+  "pocket_live_alt": "Hoạt động trực tiếp trên màn hình khóa: ĐANG GHI, 132 km, bốn nút phân loại chuyến và một nút dừng màu đỏ",
+  "pocket_live_body": "Trong lúc bạn chạy xe, Hoạt động trực tiếp trên màn hình khóa cho thấy số km tăng dần — bạn biết chuyến đang được ghi mà không cần mở khóa máy.",
+  "features_also": "Ứng dụng còn lo cả chuyện xe: bảo dưỡng, lốp và sửa chữa được ghi lại kèm ảnh hóa đơn, lời nhắc trước hạn đăng kiểm, lời nhắc bảo dưỡng đếm ngược theo km, và tiền thẻ nhiên liệu được tính ngay trong ngày bạn đổ. Ứng dụng cũng có đủ 46 ngôn ngữ, và hiển thị tiền bằng đơn vị tiền tệ của bạn.",
+  "privacy_h2": "Dữ liệu của bạn. Chỉ của bạn.",
+  "privacy_intro": "Vị trí của bạn chỉ nằm trên iPhone và iCloud của chính bạn. Không tài khoản, không máy chủ, không bán gì cả. Chỉ bạn quyết định ai được xem các chuyến của mình.",
+  "privacy_stat_label": "Máy chủ giữ vị trí của bạn",
+  "privacy_point1": "Nhờ vị trí mà DropLane ghi được quãng đường. Lịch sử vị trí của bạn không bao giờ rời khỏi iPhone.",
+  "privacy_point2": "Sao lưu và khôi phục qua iCloud, không cần tài khoản",
+  "privacy_point3": "Xuất CSV để lưu hồ sơ",
+  "faq_all": "Xem tất cả câu hỏi →",
+  "faq_page_title": "Những câu tài xế thực sự hỏi — DropLane",
+  "faq_meta_description": "Mọi câu tài xế hỏi về DropLane, do chính tài xế làm ra ứng dụng trả lời: ghi chuyến, pin, quyền riêng tư, sóng, và chuyện gì xảy ra khi ngừng trả phí.",
+  "faq_home": [
+    "Có phải bấm bắt đầu không?",
+    "Lịch sử lộ trình của tôi có đi đâu không?",
+    "Không có sóng thì dùng được không?",
+    "Tôi chạy xe đạp chứ không phải xe van.",
+    "Nếu tôi ngừng trả phí, dữ liệu có mất không?"
+  ],
+  "money_day1_when": "Thứ Bảy",
+  "money_day1_distance": "141 km",
+  "money_day1_money": "682.000 ₫",
+  "money_day2_when": "Hôm qua",
+  "money_day2_distance": "124 km",
+  "money_day2_money": "796.000 ₫",
+  "money_intro": "Hai ngày có thật. Thứ Bảy chạy nhiều hơn 17 km, nhưng còn lại ít hơn 114.000 ₫.",
+  "money_punch": "Nhiều hơn 17 km. Ít hơn 114.000 ₫.",
+  "money_h2": "Hai ngày. Nhiều km hơn. Ít tiền hơn."
 }
