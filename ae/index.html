@@ -93,16 +93,16 @@
      reader. Swap this one tag to change provider; site.js does not care. -->
 <script src="https://cdn.usefathom.com/script.js" data-site="VHXQRPBR" defer></script>
 </head>
-<body>
+<body class="lean">
 
 <header class="site-head">
   <div class="wrap head-row">
     <a class="brand" href="/ae/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
 
     <nav class="menu" aria-label="الرئيسية">
+      <a href="#money">كم يبقى لك</a>
+      <a href="#how">كيف يعمل</a>
       <a href="#features">ماذا يفعل</a>
-      <a href="#screens">الشاشات</a>
-      <a href="#countries">أين يعمل</a>
       <a href="#pricing">السعر</a>
       <a href="/support/">الدعم</a>
     </nav>
@@ -191,22 +191,21 @@
   <div class="sheet" id="sheet" data-open="false">
     <div class="wrap">
       <nav class="sheet-list" aria-label="الرئيسية">
+        <a href="#money">كم يبقى لك</a>
+        <a href="#how">كيف يعمل</a>
         <a href="#features">ماذا يفعل</a>
-        <a href="#screens">الشاشات</a>
-        <a href="#countries">أين يعمل</a>
-        <a href="#languages">اللغات</a>
         <a href="#pricing">السعر</a>
         <a href="#faq">أسئلة</a>
         <a href="/support/">الدعم</a>
       </nav>
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-menu&amp;mt=8" data-place="menu">احصل على DropLane</a>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-menu&amp;mt=8" data-place="menu">ابدأ 14 يومًا مجانًا</a>
     </div>
   </div>
 </header>
 
 <div class="langbar">
   <div class="wrap">
-    <p><strong>لغات كثيرة.</strong> اختر لغتك — التطبيق يتحدثها أيضًا.</p>
+    <p><strong>46 لغة.</strong> اختر لغتك — التطبيق يتحدثها أيضًا.</p>
     <a class="lang-suggest" id="lang-suggest" href="#languages" hidden></a>
   </div>
 </div>
@@ -216,40 +215,67 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="kicker">مسافات ودخل ومصاريف تلقائيًا لكل من يقود سيارته للعمل</p>
-      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇦🇪</span><b data-region="AE">United Arab Emirates</b><span class="eyebrow-trial">14 يومًا مجانًا</span><span class="eyebrow-cost">ثم ⁦AED 24.99⁩ شهريًا</span><a href="#pricing">كل الدول</a></span>
+      <p class="kicker">المسافات تلقائيًا · الربح الحقيقي · أجر الساعة الحقيقي</p>
       <h1>اعرف كم دفع لك اليوم فعلًا.</h1>
-      <p class="lede">انطلق بالسيارة، هذا كل شيء. يسجّل DropLane كل رحلة والطريق الذي سلكته فعلًا، ويخصم المصاريف من الدخل، ويحسب لك أجر الساعة الحقيقي قبل أن تصل إلى البيت.</p>
+      <p class="lede">يسجّل DropLane كل رحلة تلقائيًا، ويخصم مصاريفك، ويريك كم كسبت فعلًا.</p>
       <!-- While the app is coming soon the loud button is the launch list, not
            the price: the eyebrow above already carries the price and links to
            the table. On launch day it becomes Apple's badge on its own —
            set "launched" in _build/site.json and rebuild. -->
       <div class="cta-row">
-        <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-hero&amp;mt=8" data-place="hero"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="174" height="58"></a>
-        <a class="btn-ghost" href="#screens">شاهد الشاشات</a>
+        <a class="btn btn-hero" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-hero&amp;mt=8" data-place="hero"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>ابدأ 14 يومًا مجانًا</a>
       </div>
-      <a class="android-soon" href="mailto:help@droplane.co.uk?subject=DropLane%20for%20Android" title="نسخة Android في الطريق. راسلنا بالبريد ونخبرك حين تصدر.">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.5l1.7-2.9a.35.35 0 0 0-.6-.35l-1.75 3A9.9 9.9 0 0 0 12 8.2a9.9 9.9 0 0 0-4.95 1.05l-1.75-3a.35.35 0 0 0-.6.35l1.7 2.9A9.4 9.4 0 0 0 2 17.3h20a9.4 9.4 0 0 0-4.4-7.8zM7.6 14.4a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9zm8.8 0a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9z"/></svg>
-        <span>Android</span><b>قريبًا</b>
-      </a>
-      <ul class="hero-facts">
-        <li><b>46</b><span>اللغات</span></li>
-        <li><b class="signs">£ € $ ₹ ¥</b><span>كل العملات</span></li>
-        <li><b>خاص</b><span>بياناتك تبقى على هاتفك</span></li>
+      <p class="hero-support">14 يومًا مجانًا · بلا حساب · ألغِ متى شئت <a class="hero-how" href="#how">شاهد كيف يعمل ↓</a></p>
+      <ul class="trust">
+        <li>يسجّل الرحلات تلقائيًا</li>
+        <li>موقعك يبقى على iPhone الخاص بك</li>
+        <li>صنعه سائق توصيل بخبرة تتجاوز 10 سنوات</li>
+        <li>46 لغة، وكل العملات</li>
       </ul>
     </div>
 
     <div class="stage">
       <div class="device device-back">
         <div class="device-screen">
-          <img src="/assets/screens/ar/light/days.webp" width="640" height="1391" alt="شاشة الأيام: كل يوم عمل مع ربحه ومسافته وعدد رحلاته." loading="eager">
+          <img class="only-dark" src="/assets/screens/ar/dark/days.webp" width="640" height="1391" alt="شاشة الأيام: كل يوم عمل مع ربحه ومسافته وعدد رحلاته." loading="eager">
+          <img class="only-light" src="/assets/screens/ar/light/days.webp" width="640" height="1391" alt="شاشة الأيام: كل يوم عمل مع ربحه ومسافته وعدد رحلاته." loading="eager">
         </div>
       </div>
       <div class="device device-front">
         <div class="device-screen">
-          <img src="/assets/screens/ar/light/today.webp" width="640" height="1391" alt="شاشة اليوم: الرحلة التي تُسجَّل ودخل اليوم." loading="eager">
+          <img class="only-dark" src="/assets/screens/ar/dark/today.webp" width="640" height="1391" alt="شاشة اليوم: الرحلة التي تُسجَّل ودخل اليوم." loading="eager">
+          <img class="only-light" src="/assets/screens/ar/light/today.webp" width="640" height="1391" alt="شاشة اليوم: الرحلة التي تُسجَّل ودخل اليوم." loading="eager">
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- The three numbers the page is about, as the app shows them. -->
+<section class="outcomes" aria-label="ثلاثة أرقام يجهّزها DropLane قبل أن تصل إلى البيت">
+  <div class="wrap">
+    <div class="rail outcomes-rail">
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ar/dark/today.webp" width="640" height="1391" alt="شاشة اليوم: رحلة تُسجَّل على خريطة دبي، وكسب اليوم ⁦504.60 د.إ.⁩ من دخل قدره ⁦590.00 د.إ.⁩ وتكاليف قدرها ⁦85.40 د.إ.⁩" loading="lazy">
+          <img class="only-light" src="/assets/screens/ar/light/today.webp" width="640" height="1391" alt="شاشة اليوم: رحلة تُسجَّل على خريطة دبي، وكسب اليوم ⁦504.60 د.إ.⁩ من دخل قدره ⁦590.00 د.إ.⁩ وتكاليف قدرها ⁦85.40 د.إ.⁩" loading="lazy">
+        </div></div>
+        <figcaption><b>ما كسبته اليوم</b></figcaption>
+      </figure>
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ar/dark/day.webp" width="640" height="1391" alt="صفحة يوم واحد: ربح اليوم ⁦504.60 د.إ.⁩ لمسافة 246 كم، و⁦55.96 د.إ.⁩ في الساعة، و⁦2.05 د.إ.⁩ لكل كم، ومسار اليوم على الخريطة." loading="lazy">
+          <img class="only-light" src="/assets/screens/ar/light/day.webp" width="640" height="1391" alt="صفحة يوم واحد: ربح اليوم ⁦504.60 د.إ.⁩ لمسافة 246 كم، و⁦55.96 د.إ.⁩ في الساعة، و⁦2.05 د.إ.⁩ لكل كم، ومسار اليوم على الخريطة." loading="lazy">
+        </div></div>
+        <figcaption><b>ما بقي لي فعلًا بعد التكاليف</b></figcaption>
+      </figure>
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ar/dark/insights.webp" width="640" height="1391" alt="شاشة التحليلات: ⁦389.22 د.إ.⁩ ربحًا بعد التكاليف الثابتة، و⁦43.17 د.إ.⁩ في الساعة، و⁦2.05 د.إ.⁩ لكل كم، و9 س 1 د على الطريق." loading="lazy">
+          <img class="only-light" src="/assets/screens/ar/light/insights.webp" width="640" height="1391" alt="شاشة التحليلات: ⁦389.22 د.إ.⁩ ربحًا بعد التكاليف الثابتة، و⁦43.17 د.إ.⁩ في الساعة، و⁦2.05 د.إ.⁩ لكل كم، و9 س 1 د على الطريق." loading="lazy">
+        </div></div>
+        <figcaption><b>أجري الحقيقي في الساعة</b></figcaption>
+      </figure>
     </div>
   </div>
 </section>
@@ -267,259 +293,197 @@
      a courier's own words are worth more than a translation of them. -->
 <section class="quotes" aria-labelledby="quotes-h">
   <div class="wrap">
-    <h2 class="quotes-h" id="quotes-h">ماذا يقول السائقون في App Store</h2>
+    <h2 class="quotes-h" id="quotes-h">من App Store في المملكة المتحدة</h2>
     <div class="quote-grid">
       <figure class="quote">
         <span class="stars" aria-label="5/5">★★★★★</span>
         <blockquote lang="en">Just found this app in the store. Fantastic app for me as a self employed courier. Tells me exactly how much I&#x27;ve really earnt per job. I like how its linked to maps</blockquote>
         <figcaption>greatwhite surfer · App Store</figcaption>
       </figure>
-      <figure class="quote">
-        <span class="stars" aria-label="5/5">★★★★★</span>
-        <blockquote lang="en">You open it up once and it records all my data i need</blockquote>
-        <figcaption>Kami.ya · App Store</figcaption>
-      </figure>
     </div>
+  </div>
+</section>
+
+<section class="band" id="money">
+  <div class="wrap">
+    <h2>يومان. كيلومترات أكثر. ربح أقل.</h2>
+
+    <div class="twodays">
+      <div class="twoday">
+        <p class="twoday-when">السبت</p>
+        <p class="twoday-miles">289 كم</p>
+        <p class="twoday-money"><b>⁦363.00 د.إ.⁩</b><span>صافيًا</span></p>
+      </div>
+      <div class="twoday">
+        <p class="twoday-when">أمس</p>
+        <p class="twoday-miles">268 كم</p>
+        <p class="twoday-money"><b>⁦398.80 د.إ.⁩</b><span>صافيًا</span></p>
+      </div>
+    </div>
+
+    <p class="twodays-punch">21 كم أكثر. ⁦35.80 د.إ.⁩ أقل.</p>
+    <p class="twodays-punch2">أن تقود أكثر لا يعني دائمًا أن تكسب أكثر.</p>
+    <p class="versus-note">الكيلومترات تخبرك كم قطعت. أما DropLane فيخبرك إن كان ذلك يستحق العناء.</p>
   </div>
 </section>
 
 
 
+<section class="band" id="how">
+  <div class="wrap">
+    <h2>ثلاث خطوات، واحدة منها فقط عليك</h2>
+    <p class="section-intro">لا يوجد زر بدء في DropLane، وهذا مقصود. لا أحد يتذكر أن يضغطه في السادسة صباحًا والفان مليء بالطرود.</p>
 
+    <div class="steps">
+      <div class="card step">
+        <span class="num">1</span>
+        <h3>شغّله مرة واحدة</h3>
+        <p>ثبّت التطبيق واسمح له بالوصول إلى موقعك في الخلفية. هذا كل ما في الإعداد.</p>
+      </div>
+      <div class="card step">
+        <span class="num">2</span>
+        <h3>انطلق</h3>
+        <p>كل رحلة تُحفظ من تلقاء نفسها، مع المسار والتوقفات والمدة التي قضيتها عند كل توقف.</p>
+      </div>
+      <div class="card step">
+        <span class="num">3</span>
+        <h3>اختر نوعها بلمسة</h3>
+        <p>عمل، أو فارغة، أو في طريقك للاستلام، أو شخصية. وتُحدَّث المجاميع وحساب المسافات تلقائيًا.</p>
+      </div>
+    </div>
 
+    <details class="setup-fold">
+      <summary>شاهد خطوات الإعداد</summary>
+      <div class="setup">
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ar/dark/onboarding-location.webp" width="640" height="1391" alt="تفعيل الموقع" loading="lazy">
+          <img class="only-light" src="/assets/screens/ar/light/onboarding-location.webp" width="640" height="1391" alt="تفعيل الموقع" loading="lazy">
+        </div></div>
+        <figcaption>تفعيل الموقع</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ar/dark/onboarding-location-always.webp" width="640" height="1391" alt="الآن اختر «دائمًا»" loading="lazy">
+          <img class="only-light" src="/assets/screens/ar/light/onboarding-location-always.webp" width="640" height="1391" alt="الآن اختر «دائمًا»" loading="lazy">
+        </div></div>
+        <figcaption>الآن اختر «دائمًا»</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ar/dark/onboarding-notifications.webp" width="640" height="1391" alt="تفعيل الإشعارات" loading="lazy">
+          <img class="only-light" src="/assets/screens/ar/light/onboarding-notifications.webp" width="640" height="1391" alt="تفعيل الإشعارات" loading="lazy">
+        </div></div>
+        <figcaption>تفعيل الإشعارات</figcaption>
+      </figure>
+      <figure class="setup-shot">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/ar/dark/onboarding-vehicle.webp" width="640" height="1391" alt="ماذا تقود؟" loading="lazy">
+          <img class="only-light" src="/assets/screens/ar/light/onboarding-vehicle.webp" width="640" height="1391" alt="ماذا تقود؟" loading="lazy">
+        </div></div>
+        <figcaption>ماذا تقود؟</figcaption>
+      </figure>
+      </div>
+    </details>
 
+    <!-- And then the phone goes in a pocket. These are the only pictures on
+         the page taken with the app shut: the lock screen, doing the job on
+         its own — the notifications telling the story afterwards, and the
+         Live Activity showing the drive being recorded right now. All the
+         lines are the app's own words. -->
+    <div class="pocket">
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/ar/dark/notifications.webp" width="640" height="1391" alt="الإشعارات" loading="lazy">
+            <img class="only-light" src="/assets/screens/ar/light/notifications.webp" width="640" height="1391" alt="الإشعارات" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/ar/dark/live-activity.webp" width="640" height="1391" alt="نشاط مباشر على شاشة القفل: «جارٍ التسجيل»، و140 كم، وأزرار لتصنيف الرحلة، وزر إيقاف أحمر" loading="lazy">
+            <img class="only-light" src="/assets/screens/ar/light/live-activity.webp" width="640" height="1391" alt="نشاط مباشر على شاشة القفل: «جارٍ التسجيل»، و140 كم، وأزرار لتصنيف الرحلة، وزر إيقاف أحمر" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <div class="pocket-words">
+        <h3>الإشعارات</h3>
+        <p>«دائمًا» يتيح تسجيل الرحلات والتطبيق مغلق.</p>
+        <p class="pocket-live">أثناء القيادة، يعرض نشاط مباشر على شاشة القفل الكيلومترات وهي تتزايد — فترى أن الرحلة تُسجَّل دون أن تفتح قفل الهاتف.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
 <section id="features">
   <div class="wrap">
-    <h2>ماذا يفعل DropLane فعلًا</h2>
-    <p class="section-intro">صنعه سائق توصيل قضى عشر سنوات على الطريق، للعمل كما هو في الواقع.</p>
+    <h2>ما الذي تحصل عليه</h2>
+    <p class="section-intro">صُنع للعمل كما هو في الواقع، على يد من يمارسه بنفسه.</p>
     <div class="cards">
       <div class="card">
-        <span class="icon">💵</span>
-        <h3>كم بقي لك من اليوم فعلًا</h3>
-        <p>يُخصم الوقود وبقية المصاريف من الدخل، وما بقي لك فعلًا يظهر في الأسفل — لكل يوم وأسبوع وشهر.</p>
+        <span class="icon">💰</span>
+        <h3>اعرف ربحك الحقيقي</h3>
+        <p>الدخل ناقص الوقود والتكاليف، لكل يوم وأسبوع وشهر.</p>
       </div>
       <div class="card">
-        <span class="icon">⛽</span>
-        <h3>كم تدفع الساعة فعلًا</h3>
-        <p>الوقود والأقساط والتأمين موزعة على أيام عملك، فيكون رقم الساعة هو الرقم الحقيقي.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🛣️</span>
-        <h3>مسافات دون أن تلمس الهاتف</h3>
-        <p>تُسجَّل الرحلات بنفسها في الخلفية، من لحظة الانطلاق إلى لحظة الوقوف.</p>
+        <span class="icon">⏱️</span>
+        <h3>اعرف أجر ساعتك الحقيقي</h3>
+        <p>ترى أي الأيام والمهام مربحة فعلًا، بعد توزيع الوقود والأقساط والتأمين على أيام عملك.</p>
       </div>
       <div class="card">
         <span class="icon">🧾</span>
-        <h3>سجلات جاهزة للمحاسب</h3>
-        <p>ملف PDF فيه كل رحلة وطريقها وتاريخها. معدلات المسافة مدمجة لسبع عشرة دولة.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🅿️</span>
-        <h3>التوقفات ووقت الانتظار</h3>
-        <p>اعرف كم انتظرت عند كل تسليم أو مستودع، دون أن تكتب شيئًا.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🔒</span>
-        <h3>لا شيء يغادر هاتفك</h3>
-        <p>لا حساب تنشئه، لا تتبع، لا إعلانات. سجل طرقك ملكك، ونسخته الاحتياطية في iCloud الخاص بك فقط.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🔔</span>
-        <h3>التجديدات</h3>
-        <p>أدخل قراءة العداد مرة واحدة، ويواصل DropLane زيادتها من المسافات المسجلة — فتعدّ تذكيرات الصيانة والفحص تنازليًا بالكيلومترات، لا بالتواريخ فقط.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🔧</span>
-        <h3>مركبتك</h3>
-        <p>سجّل الصيانة والإطارات والإصلاحات هنا — مع صورة الفاتورة — فيكون تاريخ الورشة كله في جيبك.</p>
-      </div>
-      <div class="card">
-        <span class="icon">💳</span>
-        <h3>بطاقة الوقود</h3>
-        <p>حدد سعر اللتر الذي تحاسبك به بطاقتك. سجّل اللترات عند التعبئة ويحسب DropLane التكلفة.</p>
+        <h3>سجلات جاهزة حين تحتاجها</h3>
+        <p>الرحلات والكيلومترات وملف PDF لمحاسبك، محسوبًا بمعدل الكيلومتر الذي تحدده أنت.</p>
       </div>
     </div>
+    <p class="features-also">ويعتني بالفان أيضًا: الصيانة والإطارات والإصلاحات تُسجَّل مع صورة الفاتورة، وتذكير قبل موعد الفحص الدوري، وتذكيرات بالصيانة تعدّ الكيلومترات تنازليًا، وتكلفة بطاقة الوقود تُحسب يوم التعبئة نفسه. ويتحدث 46 لغة، والمال بعملتك.</p>
     <div class="cta-mid">
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>احصل على DropLane</a>
-      <span class="cta-note">14 يومًا مجانًا · ثم ⁦AED 24.99⁩ شهريًا</span>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>ابدأ 14 يومًا مجانًا</a>
+      <span class="cta-note">14 يومًا مجانًا · بلا حساب · ألغِ متى شئت</span>
     </div>
   </div>
 </section>
 
-<section class="band" id="screens">
+<!-- Privacy sits above "what it actually does" on purpose: it is the thing
+     that separates DropLane from every other mileage app, and a courier
+     handing over a month of their movements wants it answered early. Every
+     line here is the app's own onboarding copy, already translated. -->
+<section id="privacy">
   <div class="wrap">
-    <h2>شاشات التطبيق</h2>
-    <p class="section-intro">شاشات حقيقية، من شهر من العمل الحقيقي.</p>
-  </div>
-  <div class="wrap">
-    <div class="rail">
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/ar/light/today.webp" width="640" height="1391" alt="اليوم — والعجلات ما زالت تدور." loading="lazy">
-        </div></div>
-        <figcaption><b>اليوم</b>والعجلات ما زالت تدور.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/ar/light/today-money.webp" width="640" height="1391" alt="دخل اليوم — الدخل ناقص المصاريف، صافيًا." loading="lazy">
-        </div></div>
-        <figcaption><b>دخل اليوم</b>الدخل ناقص المصاريف، صافيًا.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/ar/light/yesterday-rate.webp" width="640" height="1391" alt="أمس — كم دفعت الساعة فعلًا." loading="lazy">
-        </div></div>
-        <figcaption><b>أمس</b>كم دفعت الساعة فعلًا.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/ar/light/days.webp" width="640" height="1391" alt="الأيام — كل يوم، مجموعًا سلفًا." loading="lazy">
-        </div></div>
-        <figcaption><b>الأيام</b>كل يوم، مجموعًا سلفًا.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/ar/light/report.webp" width="640" height="1391" alt="تقرير PDF — بالشكل الذي يريده المحاسب." loading="lazy">
-        </div></div>
-        <figcaption><b>تقرير PDF</b>بالشكل الذي يريده المحاسب.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/ar/light/tax.webp" width="640" height="1391" alt="الضرائب — كم تساوي مسافات هذه الفترة." loading="lazy">
-        </div></div>
-        <figcaption><b>الضرائب</b>كم تساوي مسافات هذه الفترة.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/ar/light/trip-sort.webp" width="640" height="1391" alt="نوع الرحلة — عمل، أو فارغة، أو في طريقك للاستلام، أو شخصية." loading="lazy">
-        </div></div>
-        <figcaption><b>نوع الرحلة</b>عمل، أو فارغة، أو في طريقك للاستلام، أو شخصية.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/ar/light/live-activity.webp" width="640" height="1391" alt="شاشة القفل — المسافات تُسجَّل، دون فتح القفل." loading="lazy">
-        </div></div>
-        <figcaption><b>شاشة القفل</b>المسافات تُسجَّل، دون فتح القفل.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/ar/light/vehicle.webp" width="640" height="1391" alt="المركبة — الفحص والتسجيل والتأمين — قبل أن تنتهي." loading="lazy">
-        </div></div>
-        <figcaption><b>المركبة</b>الفحص والتسجيل والتأمين — قبل أن تنتهي.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img src="/assets/screens/ar/light/insights-spend.webp" width="640" height="1391" alt="التكاليف — وقود، طعام، مواقف، رسوم طرق." loading="lazy">
-        </div></div>
-        <figcaption><b>التكاليف</b>وقود، طعام، مواقف، رسوم طرق.</figcaption>
+    <h2>بياناتك. لك وحدك.</h2>
+    <p class="section-intro">يبقى موقعك على iPhone الخاص بك وفي iCloud الخاص بك. لا حساب، ولا خادم، ولا يُباع شيء. أنت وحدك تقرر من يرى رحلاتك.</p>
+
+    <div class="keeps">
+      <div class="keeps-words">
+        <p class="keeps-stat"><b>0</b><span>خادم يحتفظ بموقعك</span></p>
+        <ul class="keeps-list">
+          <li>بهذا يستطيع DropLane تسجيل المسافات. وسجل مواقعك لا يغادر iPhone الخاص بك أبدًا.</li>
+          <li>نسخ احتياطي واستعادة عبر iCloud، بلا حساب</li>
+          <li>تصدير CSV لسجلاتك</li>
+        </ul>
+      </div>
+
+      <figure class="keeps-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/ar/dark/onboarding-privacy.webp" width="640" height="1391" alt="بياناتك. لك وحدك." loading="lazy">
+            <img class="only-light" src="/assets/screens/ar/light/onboarding-privacy.webp" width="640" height="1391" alt="بياناتك. لك وحدك." loading="lazy">
+          </div>
+        </div>
       </figure>
     </div>
   </div>
 </section>
 
-<section id="countries">
-  <div class="wrap">
-    <h2>الدول ذات المعدل المدمج</h2>
-    <p class="section-intro">يعمل التطبيق في أي مكان. وفي هذه الدول يعرف أيضًا معدل المسافة الذي تقبله الضرائب، وأسماء أوراق مركبتك.</p>
-    <ul class="chips">
-      <li><span class="flag">🇬🇧</span> <span data-region="GB">United Kingdom</span> <span class="rate">55p/mi</span></li>
-      <li><span class="flag">🇺🇸</span> <span data-region="US">United States</span> <span class="rate">76¢/mi</span></li>
-      <li><span class="flag">🇨🇦</span> <span data-region="CA">Canada</span> <span class="rate">73¢/km</span></li>
-      <li><span class="flag">🇦🇺</span> <span data-region="AU">Australia</span> <span class="rate">91¢/km</span></li>
-      <li><span class="flag">🇩🇪</span> <span data-region="DE">Germany</span> <span class="rate">30c/km</span></li>
-      <li><span class="flag">🇳🇱</span> <span data-region="NL">Netherlands</span> <span class="rate">25c/km</span></li>
-      <li><span class="flag">🇧🇪</span> <span data-region="BE">Belgium</span> <span class="rate">47.61c/km</span></li>
-      <li><span class="flag">🇦🇹</span> <span data-region="AT">Austria</span> <span class="rate">50c/km</span></li>
-      <li><span class="flag">🇵🇹</span> <span data-region="PT">Portugal</span> <span class="rate">40c/km</span></li>
-      <li><span class="flag">🇵🇱</span> <span data-region="PL">Poland</span> <span class="rate">1.15 zł/km</span></li>
-      <li><span class="flag">🇨🇿</span> <span data-region="CZ">Czechia</span> <span class="rate">5.90 Kč/km</span></li>
-      <li><span class="flag">🇸🇰</span> <span data-region="SK">Slovakia</span> <span class="rate">31.3c/km</span></li>
-      <li><span class="flag">🇭🇺</span> <span data-region="HU">Hungary</span> <span class="rate">15 Ft/km</span></li>
-      <li><span class="flag">🇸🇪</span> <span data-region="SE">Sweden</span> <span class="rate">25 kr/mil</span></li>
-      <li><span class="flag">🇳🇴</span> <span data-region="NO">Norway</span> <span class="rate">3.50 kr/km</span></li>
-      <li><span class="flag">🇩🇰</span> <span data-region="DK">Denmark</span> <span class="rate">3.94 kr/km</span></li>
-      <li><span class="flag">🇫🇮</span> <span data-region="FI">Finland</span> <span class="rate">55c/km</span></li>
-    </ul>
-    <h3 class="chips-h3">هنا يعرف أسماء الأوراق؛ والمعدل تكتبه أنت</h3>
-    <ul class="chips">
-      <li><span class="flag">🇮🇪</span> <span data-region="IE">Ireland</span></li>
-      <li><span class="flag">🇷🇴</span> <span data-region="RO">Romania</span></li>
-      <li><span class="flag">🇧🇬</span> <span data-region="BG">Bulgaria</span></li>
-      <li><span class="flag">🇬🇷</span> <span data-region="GR">Greece</span></li>
-      <li><span class="flag">🇱🇹</span> <span data-region="LT">Lithuania</span></li>
-      <li><span class="flag">🇱🇻</span> <span data-region="LV">Latvia</span></li>
-      <li><span class="flag">🇹🇷</span> <span data-region="TR">Turkey</span></li>
-      <li><span class="flag">🇺🇦</span> <span data-region="UA">Ukraine</span></li>
-    </ul>
-    <p class="section-intro" style="margin:26px 0 0">في مكان آخر؟ اكتب المعدل الذي تقبله دائرة الضرائب عندك مرة واحدة، ويتولى DropLane الباقي.</p>
-  </div>
-</section>
 
-<section class="band" id="languages">
-  <div class="wrap split">
-    <div>
-      <h2>اقرأه بلغتك</h2>
-      <p class="section-intro">التطبيق كله — كل شاشة وكل إشعار والتقارير — لا هذه الصفحة فقط. ويبقى المال بعملتك، بأي لغة قرأت.</p>
-      <ul class="langgrid">
-        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
-        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
-        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
-        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
-        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
-        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
-        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
-        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
-        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
-        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
-        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
-        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
-        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
-        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
-        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
-        <li><a href="/gr/" hreflang="el" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
-        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
-        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
-        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
-        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
-        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
-        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
-        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
-        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
-        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
-        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
-        <li><a href="/jp/" hreflang="ja" data-suggest="日本語で読む" data-flag="🇯🇵"><span class="flag">🇯🇵</span> 日本語</a></li>
-        <li><a href="/kr/" hreflang="ko" data-suggest="한국어로 읽기" data-flag="🇰🇷"><span class="flag">🇰🇷</span> 한국어</a></li>
-        <li><a href="/sg/" hreflang="zh-Hans" data-suggest="用简体中文阅读" data-flag="🇸🇬"><span class="flag">🇸🇬</span> 简体中文</a></li>
-        <li><a href="/tw/" hreflang="zh-Hant" data-suggest="用繁體中文閱讀" data-flag="🇹🇼"><span class="flag">🇹🇼</span> 繁體中文</a></li>
-        <li><a href="/in/" hreflang="hi" data-suggest="हिन्दी में पढ़ें" data-flag="🇮🇳"><span class="flag">🇮🇳</span> हिन्दी</a></li>
-        <li><a href="/id/" hreflang="id" data-suggest="Baca dalam bahasa Indonesia" data-flag="🇮🇩"><span class="flag">🇮🇩</span> Bahasa Indonesia</a></li>
-        <li><a href="/vn/" hreflang="vi" data-suggest="Đọc bằng tiếng Việt" data-flag="🇻🇳"><span class="flag">🇻🇳</span> Tiếng Việt</a></li>
-        <li><a href="/th/" hreflang="th" data-suggest="อ่านเป็นภาษาไทย" data-flag="🇹🇭"><span class="flag">🇹🇭</span> ไทย</a></li>
-        <li><a href="/hr/" hreflang="hr" data-suggest="Čitaj na hrvatskom" data-flag="🇭🇷"><span class="flag">🇭🇷</span> Hrvatski</a></li>
-        <li><a href="/si/" hreflang="sl" data-suggest="Beri v slovenščini" data-flag="🇸🇮"><span class="flag">🇸🇮</span> Slovenščina</a></li>
-        <li><a href="/ca/" hreflang="ca" data-suggest="Llegeix-ho en català" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Català</a></li>
-        <li><a href="/my/" hreflang="ms" data-suggest="Baca dalam Bahasa Melayu" data-flag="🇲🇾"><span class="flag">🇲🇾</span> Bahasa Melayu</a></li>
-        <li><a href="/pa/" hreflang="pa" data-suggest="ਪੰਜਾਬੀ ਵਿੱਚ ਪੜ੍ਹੋ" data-flag="🇮🇳"><span class="flag">🇮🇳</span> ਪੰਜਾਬੀ</a></li>
-        <li><a href="/ta/" hreflang="ta" data-suggest="தமிழில் படியுங்கள்" data-flag="🇮🇳"><span class="flag">🇮🇳</span> தமிழ்</a></li>
-        <li><a href="/bn/" hreflang="bn" data-suggest="বাংলায় পড়ুন" data-flag="🇮🇳"><span class="flag">🇮🇳</span> বাংলা</a></li>
-        <li><a href="/mx/" hreflang="es-MX" data-suggest="Leer en español (México)" data-flag="🇲🇽"><span class="flag">🇲🇽</span> Español (MX)</a></li>
-        <li><a href="/qc/" hreflang="fr-CA" data-suggest="Lire en français (Canada)" data-flag="🇨🇦"><span class="flag">🇨🇦</span> Français (CA)</a></li>
-        <li><a href="/en-ca/" hreflang="en-CA" data-suggest="Read this in Canadian English" data-flag="🇨🇦"><span class="flag">🇨🇦</span> English (CA)</a></li>
-        <li><a href="/ae/" hreflang="ar" aria-current="true" data-suggest="اقرأ بالعربية" data-flag="🇦🇪"><span class="flag">🇦🇪</span> العربية</a></li>
-        <li><a href="/ur/" hreflang="ur" data-suggest="اردو میں پڑھیں" data-flag="🇮🇳"><span class="flag">🇮🇳</span> اردو</a></li>
-      </ul>
-    </div>
-    <figure class="shot" style="width:auto;margin:0">
-      <div class="device" style="margin-inline:auto"><div class="device-screen">
-        <img src="/assets/screens/ar/light/today-money.webp" width="640" height="1391" alt="شاشة اليوم: الدخل والمصاريف والصافي." loading="lazy">
-      </div></div>
-      <figcaption style="text-align:center"><b>اليوم</b>أرقام يومك، بلغتك وبعملتك.</figcaption>
-    </figure>
-  </div>
-</section>
+
+
+
+
 
 <section id="pricing">
   <div class="wrap">
@@ -527,6 +491,18 @@
     <p class="section-intro">14 يومًا مجانًا. ألغِ قبل انتهاء التجربة ولن تدفع شيئًا. كل الميزات موجودة من البداية — لا باقة أعلى ولا إضافات.</p>
 
     <div class="price-grid">
+      <div class="price best">
+        <span class="tag">الأوفر</span>
+        <h3>سنوي</h3>
+        <p class="amount">⁦AED 169.99⁩</p>
+        <p class="per">سنويًا، تُدفع مرة واحدة في السنة</p>
+        <ul>
+          <li>كل الميزات، بلا إضافات</li>
+          <li>وفّر ⁦AED 129.89⁩ في السنة — أرخص بنسبة 43%</li>
+          <li>ما يعادل ⁦AED 14.17⁩ في الشهر</li>
+        </ul>
+        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-pricing&amp;mt=8" data-place="pricing">ابدأ 14 يومًا مجانًا</a>
+      </div>
       <div class="price">
         <h3>شهري</h3>
         <p class="amount">⁦AED 24.99⁩</p>
@@ -537,92 +513,9 @@
         </ul>
         <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-pricing&amp;mt=8" data-place="pricing">ابدأ 14 يومًا مجانًا</a>
       </div>
-      <div class="price best">
-        <span class="tag">الأوفر</span>
-        <h3>سنوي</h3>
-        <p class="amount">⁦AED 169.99⁩</p>
-        <p class="per">سنويًا — الصفقة الأفضل</p>
-        <ul>
-          <li>كل الميزات، بلا إضافات</li>
-          <li>وفّر ⁦AED 129.89⁩ في السنة — أرخص بنسبة 43%</li>
-          <li>أي ⁦AED 14.17⁩ في الشهر</li>
-        </ul>
-        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-pricing&amp;mt=8" data-place="pricing">ابدأ 14 يومًا مجانًا</a>
-      </div>
     </div>
 
-    <div class="pricetable">
-      <div class="pricetable-head">
-        <h3 style="font-size:20px;margin:0">السعر في بلدك</h3>
-        <label class="search">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
-          <input type="search" id="price-search" placeholder="ابحث عن بلدك" aria-label="ابحث عن بلدك">
-        </label>
-      </div>
-
-      <div class="table-wrap">
-        <table class="prices">
-          <thead>
-            <tr><th scope="col">الدولة</th><th scope="col">شهري</th><th scope="col">سنوي</th></tr>
-          </thead>
-          <tbody id="price-rows" data-you="أنت">
-            <tr data-cc="GB" data-flag="🇬🇧" data-name="United Kingdom"><td><span class="flag">🇬🇧</span><span data-region="GB">United Kingdom</span></td><td>£6.99</td><td>£49.99</td></tr>
-            <tr data-cc="IE" data-flag="🇮🇪" data-name="Ireland"><td><span class="flag">🇮🇪</span><span data-region="IE">Ireland</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="US" data-flag="🇺🇸" data-name="United States"><td><span class="flag">🇺🇸</span><span data-region="US">United States</span></td><td>⁦$6.99⁩</td><td>⁦$49.99⁩</td></tr>
-            <tr data-cc="CA" data-flag="🇨🇦" data-name="Canada"><td><span class="flag">🇨🇦</span><span data-region="CA">Canada</span></td><td>C⁦$9.99⁩</td><td>C⁦$69.99⁩</td></tr>
-            <tr data-cc="AU" data-flag="🇦🇺" data-name="Australia"><td><span class="flag">🇦🇺</span><span data-region="AU">Australia</span></td><td>A⁦$11.99⁩</td><td>A⁦$79.99⁩</td></tr>
-            <tr data-cc="NZ" data-flag="🇳🇿" data-name="New Zealand"><td><span class="flag">🇳🇿</span><span data-region="NZ">New Zealand</span></td><td>NZ⁦$12.99⁩</td><td>NZ⁦$89.99⁩</td></tr>
-            <tr data-cc="DE" data-flag="🇩🇪" data-name="Germany"><td><span class="flag">🇩🇪</span><span data-region="DE">Germany</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="FR" data-flag="🇫🇷" data-name="France"><td><span class="flag">🇫🇷</span><span data-region="FR">France</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="NL" data-flag="🇳🇱" data-name="Netherlands"><td><span class="flag">🇳🇱</span><span data-region="NL">Netherlands</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="FI" data-flag="🇫🇮" data-name="Finland"><td><span class="flag">🇫🇮</span><span data-region="FI">Finland</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="IT" data-flag="🇮🇹" data-name="Italy"><td><span class="flag">🇮🇹</span><span data-region="IT">Italy</span></td><td>€5.99</td><td>€39.99</td></tr>
-            <tr data-cc="ES" data-flag="🇪🇸" data-name="Spain"><td><span class="flag">🇪🇸</span><span data-region="ES">Spain</span></td><td>€5.99</td><td>€39.99</td></tr>
-            <tr data-cc="PT" data-flag="🇵🇹" data-name="Portugal"><td><span class="flag">🇵🇹</span><span data-region="PT">Portugal</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="GR" data-flag="🇬🇷" data-name="Greece"><td><span class="flag">🇬🇷</span><span data-region="GR">Greece</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="SK" data-flag="🇸🇰" data-name="Slovakia"><td><span class="flag">🇸🇰</span><span data-region="SK">Slovakia</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="LT" data-flag="🇱🇹" data-name="Lithuania"><td><span class="flag">🇱🇹</span><span data-region="LT">Lithuania</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="LV" data-flag="🇱🇻" data-name="Latvia"><td><span class="flag">🇱🇻</span><span data-region="LV">Latvia</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="SE" data-flag="🇸🇪" data-name="Sweden"><td><span class="flag">🇸🇪</span><span data-region="SE">Sweden</span></td><td>79 SEK</td><td>599 SEK</td></tr>
-            <tr data-cc="NO" data-flag="🇳🇴" data-name="Norway"><td><span class="flag">🇳🇴</span><span data-region="NO">Norway</span></td><td>79 NOK</td><td>599 NOK</td></tr>
-            <tr data-cc="DK" data-flag="🇩🇰" data-name="Denmark"><td><span class="flag">🇩🇰</span><span data-region="DK">Denmark</span></td><td>49 DKK</td><td>349 DKK</td></tr>
-            <tr data-cc="PL" data-flag="🇵🇱" data-name="Poland"><td><span class="flag">🇵🇱</span><span data-region="PL">Poland</span></td><td>24,99 zł</td><td>169,99 zł</td></tr>
-            <tr data-cc="CZ" data-flag="🇨🇿" data-name="Czechia"><td><span class="flag">🇨🇿</span><span data-region="CZ">Czechia</span></td><td>149 Kč</td><td>999 Kč</td></tr>
-            <tr data-cc="HU" data-flag="🇭🇺" data-name="Hungary"><td><span class="flag">🇭🇺</span><span data-region="HU">Hungary</span></td><td>2 490 Ft</td><td>16 990 Ft</td></tr>
-            <tr data-cc="RO" data-flag="🇷🇴" data-name="Romania"><td><span class="flag">🇷🇴</span><span data-region="RO">Romania</span></td><td>24,99 lei</td><td>169,99 lei</td></tr>
-            <tr data-cc="BG" data-flag="🇧🇬" data-name="Bulgaria"><td><span class="flag">🇧🇬</span><span data-region="BG">Bulgaria</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="TR" data-flag="🇹🇷" data-name="Turkey"><td><span class="flag">🇹🇷</span><span data-region="TR">Turkey</span></td><td>₺199,99</td><td>₺1.399,99</td></tr>
-            <tr data-cc="UA" data-flag="🇺🇦" data-name="Ukraine"><td><span class="flag">🇺🇦</span><span data-region="UA">Ukraine</span></td><td>⁦$4.99⁩</td><td>⁦$34.99⁩</td></tr>
-            <tr data-cc="BR" data-flag="🇧🇷" data-name="Brazil"><td><span class="flag">🇧🇷</span><span data-region="BR">Brazil</span></td><td>R⁦$ 19,90⁩</td><td>R⁦$ 129,90⁩</td></tr>
-            <tr data-cc="MX" data-flag="🇲🇽" data-name="Mexico"><td><span class="flag">🇲🇽</span><span data-region="MX">Mexico</span></td><td>MX⁦$99⁩</td><td>MX⁦$649⁩</td></tr>
-            <tr data-cc="ZA" data-flag="🇿🇦" data-name="South Africa"><td><span class="flag">🇿🇦</span><span data-region="ZA">South Africa</span></td><td>R99.99</td><td>R699.99</td></tr>
-            <tr data-cc="IN" data-flag="🇮🇳" data-name="India"><td><span class="flag">🇮🇳</span><span data-region="IN">India</span></td><td>⁦₹299⁩</td><td>⁦₹1,999⁩</td></tr>
-            <tr data-cc="CN" data-flag="🇨🇳" data-name="China"><td><span class="flag">🇨🇳</span><span data-region="CN">China</span></td><td>¥29</td><td>¥199</td></tr>
-            <tr data-cc="JP" data-flag="🇯🇵" data-name="Japan"><td><span class="flag">🇯🇵</span><span data-region="JP">Japan</span></td><td>¥980</td><td>¥6,800</td></tr>
-            <tr data-cc="KR" data-flag="🇰🇷" data-name="South Korea"><td><span class="flag">🇰🇷</span><span data-region="KR">South Korea</span></td><td>₩8,900</td><td>₩59,000</td></tr>
-            <tr data-cc="SG" data-flag="🇸🇬" data-name="Singapore"><td><span class="flag">🇸🇬</span><span data-region="SG">Singapore</span></td><td>S⁦$9.98⁩</td><td>S⁦$69.98⁩</td></tr>
-            <tr data-cc="TW" data-flag="🇹🇼" data-name="Taiwan"><td><span class="flag">🇹🇼</span><span data-region="TW">Taiwan</span></td><td>NT⁦$220⁩</td><td>NT⁦$1,490⁩</td></tr>
-            <tr data-cc="VN" data-flag="🇻🇳" data-name="Vietnam"><td><span class="flag">🇻🇳</span><span data-region="VN">Vietnam</span></td><td>99.000đ</td><td>599.000đ</td></tr>
-            <tr data-cc="TH" data-flag="🇹🇭" data-name="Thailand"><td><span class="flag">🇹🇭</span><span data-region="TH">Thailand</span></td><td>฿149</td><td>฿999</td></tr>
-            <tr data-cc="HR" data-flag="🇭🇷" data-name="Croatia"><td><span class="flag">🇭🇷</span><span data-region="HR">Croatia</span></td><td>7,99 €</td><td>59,99 €</td></tr>
-            <tr data-cc="SI" data-flag="🇸🇮" data-name="Slovenia"><td><span class="flag">🇸🇮</span><span data-region="SI">Slovenia</span></td><td>7,99 €</td><td>59,99 €</td></tr>
-            <tr data-cc="MY" data-flag="🇲🇾" data-name="Malaysia"><td><span class="flag">🇲🇾</span><span data-region="MY">Malaysia</span></td><td>RM19.90</td><td>RM129.90</td></tr>
-            <tr data-cc="ID" data-flag="🇮🇩" data-name="Indonesia"><td><span class="flag">🇮🇩</span><span data-region="ID">Indonesia</span></td><td>Rp49.000</td><td>Rp329.000</td></tr>
-            <tr data-cc="AE" data-flag="🇦🇪" data-name="United Arab Emirates"><td><span class="flag">🇦🇪</span><span data-region="AE">United Arab Emirates</span></td><td>⁦AED 24.99⁩</td><td>⁦AED 169.99⁩</td></tr>
-            <tr data-cc="SA" data-flag="🇸🇦" data-name="Saudi Arabia"><td><span class="flag">🇸🇦</span><span data-region="SA">Saudi Arabia</span></td><td>SAR 24.99</td><td>SAR 169.99</td></tr>
-            <tr data-cc="KZ" data-flag="🇰🇿" data-name="Kazakhstan"><td><span class="flag">🇰🇿</span><span data-region="KZ">Kazakhstan</span></td><td>2 490 ₸</td><td>14 990 ₸</td></tr>
-            <tr data-cc="KG" data-flag="🇰🇬" data-name="Kyrgyzstan"><td><span class="flag">🇰🇬</span><span data-region="KG">Kyrgyzstan</span></td><td>⁦$2.99⁩</td><td>⁦$19.99⁩</td></tr>
-            <tr data-cc="UZ" data-flag="🇺🇿" data-name="Uzbekistan"><td><span class="flag">🇺🇿</span><span data-region="UZ">Uzbekistan</span></td><td>⁦$2.99⁩</td><td>⁦$19.99⁩</td></tr>
-            <tr data-cc="TJ" data-flag="🇹🇯" data-name="Tajikistan"><td><span class="flag">🇹🇯</span><span data-region="TJ">Tajikistan</span></td><td>⁦$2.99⁩</td><td>⁦$19.99⁩</td></tr>
-            <tr data-cc="TM" data-flag="🇹🇲" data-name="Turkmenistan"><td><span class="flag">🇹🇲</span><span data-region="TM">Turkmenistan</span></td><td>⁦$3.99⁩</td><td>⁦$27.99⁩</td></tr>
-            <tr data-cc="AM" data-flag="🇦🇲" data-name="Armenia"><td><span class="flag">🇦🇲</span><span data-region="AM">Armenia</span></td><td>⁦$3.99⁩</td><td>⁦$27.99⁩</td></tr>
-            <tr data-cc="AZ" data-flag="🇦🇿" data-name="Azerbaijan"><td><span class="flag">🇦🇿</span><span data-region="AZ">Azerbaijan</span></td><td>⁦$3.99⁩</td><td>⁦$27.99⁩</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <p class="table-note">لكل دولة سعرها الخاص، لا سعر محوّل من عملة أخرى. يعرض لك App Store المبلغ الدقيق بعملتك، شاملًا الضريبة، قبل أن توافق على أي شيء. بلدك ليس في القائمة؟ لدى App Store سعر لك على أي حال.</p>
-    </div>
+    <p class="table-note pricing-note">لا تحصّل Apple شيئًا طوال 14 يومًا. ألغِ من الإعدادات قبل انقضائها ولن تدفع شيئًا. خارج الإمارات، يعرض لك App Store سعر بلدك أنت.</p>
   </div>
 </section>
 
@@ -634,47 +527,38 @@
     <p class="section-intro">إجابات مباشرة، من شخص يعمل هذا العمل.</p>
     <div class="faq">
       <details>
-        <summary>أليس هذا مجرد تطبيق مسافات آخر؟</summary>
-        <p>يسجّل المسافات بالطريقة نفسها، دون زر بدء. الفرق فيما يأتي بعد ذلك: تُدخل دخلك، ويُخصم الوقود والمواقف ومصاريف المركبة، ويخبرك التطبيق كم دفعت الساعة فعلًا. رقم المسافة وحده لم يخبر أحدًا يومًا إن كانت الجولة تستحق.</p>
-      </details>
-      <details>
-        <summary>هل يستنزف البطارية؟</summary>
-        <p>لا يُبقي DropLane نظام GPS يعمل طوال اليوم. ينتظر بهدوء حتى يلاحظ أنك غادرت مكان وقوفك، ويسجّل أثناء حركتك، ويعود إلى النوم حين تتوقف.</p>
-      </details>
-      <details>
-        <summary>هل عليّ أن أضغط بدء؟</summary>
+        <summary>هل عليّ أن أضغط زر البدء؟</summary>
         <p>لا — ولا يوجد زر تضغطه أصلًا. هذا هو المقصود. ما عليك أن تتذكره ستنساه في اليوم الذي يهم.</p>
       </details>
       <details>
-        <summary>ماذا لو نسيت اختيار نوع الرحلة؟</summary>
-        <p>لا يضيع شيء. الرحلات بلا نوع تنتظر في شاشة الأيام، ويذكّرك التطبيق بدل أن يخمّن عنك.</p>
-      </details>
-      <details>
-        <summary>هل سينتهي سجل طرقي في مكان ما؟</summary>
+        <summary>هل يُرسَل سجل طرقي إلى أي مكان؟</summary>
         <p>لا. لا حساب ولا خادم. كل شيء على iPhone الخاص بك، ولا يُنسخ احتياطيًا إلا إلى iCloud الخاص بك إن أردت.</p>
       </details>
       <details>
-        <summary>هل يعمل حيث لا توجد شبكة؟</summary>
-        <p>نعم. يعتمد التسجيل على GPS الخاص بـ iPhone ولا يحتاج إلى الإنترنت أبدًا. الرحلات المسجلة بلا شبكة تظهر بعلامتي «البداية» و«النهاية» بدل أسماء الشوارع، ويكمّلها DropLane حين يرى Wi-Fi في المرة التالية.</p>
+        <summary>أقود دراجة، لا فانًا.</summary>
+        <p>لا مشكلة. تُسجَّل كيلومترات دراجة الشحن بالطريقة نفسها. لكن معدلات المسافة المدمجة مخصصة للمركبات الآلية، لذا فما يمكنك احتسابه للدراجة يعتمد على بلدك وظروفك — والأفضل أن تسأل محاسبًا.</p>
       </details>
       <details>
-        <summary>ماذا يحدث حين أحصل على هاتف جديد؟</summary>
-        <p>سجّل الدخول إلى iCloud نفسه فتعود رحلاتك ودخلك ومصاريفك من تلقاء نفسها. لا حساب تنشئه ولا كلمة مرور تضيع.</p>
+        <summary>هل يعمل حيث لا توجد شبكة؟</summary>
+        <p>نعم. يعتمد التسجيل على GPS الخاص بـ iPhone ولا يحتاج إلى الإنترنت أبدًا. الرحلات المسجلة بلا شبكة تظهر بعلامتي «البداية» و«النهاية» بدل أسماء الشوارع، ويكمّلها DropLane حين يرى Wi-Fi في المرة التالية. وأسبوع كامل على طرق بلا تغطية يُحسب رغم ذلك بدقة.</p>
       </details>
       <details>
         <summary>إن توقفت عن الدفع، هل أفقد سجلاتي؟</summary>
-        <p>لا يُحذف شيء. تبقى رحلاتك على iPhone وفي iCloud الخاص بك حيث كانت تمامًا. لكن DropLane يحتاج إلى اشتراك فعّال ليُفتح، فإن أردت الأرقام في مكان آخر، صدّر ملف CSV قبل ذلك. تجده في الإعدادات، بلمسة واحدة.</p>
+        <p>لا يُحذف شيء، ويواصل التطبيق التسجيل. تبقى رحلاتك على iPhone وفي iCloud الخاص بك، والكيلومترات التي تقطعها بعد انتهاء اشتراكك تنتظرك حين تشترك من جديد. ما يُقفل هو العرض: شاشات اليوم والأيام والإحصاءات والتحليلات، وملف PDF وتصدير CSV، تبقى مغلقة حتى تجدّد اشتراكك. وإن أردت الأرقام في مكان آخر، فصدّر ملف CSV قبل أن ينتهي الاشتراك — تجده في الإعدادات، بلمسة واحدة.</p>
       </details>
     </div>
+    <p class="faq-all"><a href="/ae/faq/">كل الأسئلة ←</a></p>
   </div>
 </section>
+
+
 
 <section>
   <div class="wrap">
     <div class="closer">
       <h2>كفّ عن تخمين كم كسبت اليوم.</h2>
       <p>14 يومًا مجانًا، بلا حساب، ولا شيء تتذكره في السادسة صباحًا.</p>
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>احصل على DropLane</a>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>ابدأ 14 يومًا مجانًا</a>
     </div>
   </div>
 </section>
@@ -708,9 +592,9 @@
     <img class="cta-bar-mark" src="/assets/icon-180.png" alt="" width="46" height="46" loading="lazy" decoding="async">
     <p class="cta-bar-say">
       <b>14 يومًا مجانًا</b>
-      <span>ثم ⁦AED 24.99⁩ شهريًا</span>
+      <span>ثم ⁦AED 169.99⁩ سنويًا أو ⁦AED 24.99⁩ شهريًا</span>
     </p>
-    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-bar&amp;mt=8" data-place="bar">احصل على DropLane</a>
+    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-ae-bar&amp;mt=8" data-place="bar">ابدأ 14 يومًا مجانًا</a>
     <button class="cta-bar-shut" type="button" aria-label="إغلاق">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
