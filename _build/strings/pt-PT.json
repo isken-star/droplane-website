@@ -19,19 +19,19 @@
   "theme_dark": "Escuro",
   "language_label": "Língua",
   "language_title": "Lê este site na tua língua",
-  "language_note": "A app fala 46 línguas — as restantes estão a caminho daqui.",
+  "language_note": "A app fala as 46 línguas — cada ecrã, cada notificação, cada PDF.",
   "langbar_strong": "46 línguas.",
   "langbar_rest": "Escolhe a tua — a app também a fala.",
   "per_month_short": "por mês",
   "see_all": "ver todos",
   "hero_h1": "Descobre quanto ganhaste mesmo num dia.",
-  "hero_lede": "Arranca a carrinha. É só isso. A DropLane grava cada viagem e o caminho que fizeste mesmo, tira os custos aos ganhos e diz-te quanto ganhas mesmo à hora, ainda antes de chegares a casa.",
+  "hero_lede": "A DropLane grava cada viagem sozinha, desconta os teus custos e mostra-te quanto ganhaste mesmo.",
   "hero_cta_notify": "Avisa-me no lançamento",
-  "hero_cta_how": "Como funciona",
+  "hero_cta_how": "Vê como funciona ↓",
   "hero_note": "sem conta, sem anúncios · iPhone",
-  "hero_kicker": "Km, ganhos e despesas automáticos para quem conduz por trabalho",
+  "hero_kicker": "Quilometragem automática · Lucro real · Valor real à hora",
   "hero_android": "O Android está a caminho. Escreve-nos e avisamos-te quando sair.",
-  "reviews_h2": "O que dizem os estafetas na App Store",
+  "reviews_h2": "Avaliações da App Store do Reino Unido",
   "countries_paperwork_h3": "Aqui a app conhece os papéis; a taxa escreves tu",
   "hero_facts": [
     {
@@ -48,8 +48,8 @@
     }
   ],
   "money_h2": "Dois dias. Mais quilómetros. Menos dinheiro.",
-  "money_intro": "Terça: 125 quilómetros, três viagens. Ontem: 79,7 quilómetros, duas viagens. Uma app de quilometragem normal diz-te que a terça foi o dia mais cheio — e tem razão. Só que da terça sobraram 74 euros e de ontem 92.",
-  "money_day1_when": "Terça-feira, 25 de agosto",
+  "money_intro": "Dois dias reais. Na terça: mais 45,3 km e menos 17,80 € no fim do dia.",
+  "money_day1_when": "Terça-feira",
   "money_day1_distance": "125 km",
   "money_day1_trips": "3 viagens",
   "money_day1_money": "74,04 €",
@@ -58,10 +58,10 @@
   "money_day2_trips": "2 viagens",
   "money_label_distance": "Na estrada",
   "money_label_trips": "Viagens",
-  "money_label_money": "Líquido",
+  "money_label_money": "no bolso",
   "money_day2_money": "91,84 €",
-  "money_punch": "45,3 quilómetros a mais. 17,80 € a menos.",
-  "money_note": "Contar quilómetros é a parte fácil. E, por si só, não te dizem grande coisa. Que dia valeu mesmo a pena está na outra coluna — e é essa coluna que a DropLane preenche por ti, no próprio dia, sem tu apontares nada.",
+  "money_punch": "45,3 km a mais. 17,80 € a menos.",
+  "money_note": "Os quilómetros dizem-te quanto conduziste. A DropLane diz-te se valeu a pena.",
   "day_h2": "Quanto ganhaste mesmo num dia",
   "day_intro": "98,40 € parecem um bom dia. Mas tirando o combustível e o estacionamento, e dividindo por 6 h 14 min na estrada, sobram 9,52 € à hora. É exatamente este número que a DropLane calcula sozinha, assim que acabas o turno.",
   "day_film1_title": "Tudo calculado automaticamente",
@@ -95,57 +95,27 @@
     },
     {
       "title": "Escolhes o tipo num toque",
-      "body": "Com carga, vazio, a caminho de uma recolha, ou pessoal. Os totais e a dedução de quilometragem seguem sozinhos."
+      "body": "Com carga, vazio, a caminho de uma recolha ou pessoal. Os totais e a dedução de quilometragem atualizam-se sozinhos."
     }
   ],
-  "how_proof": "Depois o histórico de viagens forma-se sozinho. Escolhes uma semana, um mês ou as tuas próprias datas, marcas o que entra, e o PDF para o contabilista fica a um toque — feito de viagens que nunca tiveste de registar.",
-  "features_h2": "O que a DropLane faz mesmo",
-  "features_intro": "Feita por um estafeta com dez anos de estrada, para o trabalho como ele é de verdade.",
+  "how_proof": "Escolhes uma semana, um mês ou as tuas próprias datas, marcas o que entra, e o PDF para o contabilista fica a um toque, feito de viagens que nunca tiveste de registar.",
+  "features_h2": "O que ganhas com isto",
+  "features_intro": "Feita para o trabalho como ele é de verdade, por quem o faz.",
   "features": [
     {
-      "icon": "💷",
-      "title": "Quanto ganhaste mesmo num dia",
-      "body": "Aos ganhos tiram-se o combustível e os outros custos, e em baixo fica o que sobra mesmo — por dia, por semana, por mês."
+      "icon": "💶",
+      "title": "Conhece o teu lucro real",
+      "body": "Ganhos menos combustível e custos, por dia, semana e mês."
     },
     {
-      "icon": "⛽",
-      "title": "Quanto ganhas mesmo à hora",
-      "body": "Combustível, prestação e seguro repartidos pelos dias que trabalhas, para que o valor à hora seja o verdadeiro."
-    },
-    {
-      "icon": "🛣️",
-      "title": "Quilometragem sem tocar no telemóvel",
-      "body": "As viagens gravam-se em segundo plano, desde o momento em que arrancas até ao momento em que estacionas."
+      "icon": "⏱️",
+      "title": "Conhece o teu valor real à hora",
+      "body": "Vê que dias e que serviços compensam mesmo, com o combustível, a prestação e o seguro repartidos pelos dias em que trabalhas."
     },
     {
       "icon": "🧾",
-      "title": "Registos prontos para o contabilista",
-      "body": "Um PDF com cada viagem, o seu percurso e a sua data. Tarifas de quilometragem de dezassete países incluídas."
-    },
-    {
-      "icon": "🅿️",
-      "title": "Paragens e tempo de espera",
-      "body": "Vê quanto tempo estiveste em cada entrega ou no armazém, sem apontares nada."
-    },
-    {
-      "icon": "🔒",
-      "title": "Nada sai do teu telemóvel",
-      "body": "Não há conta para criar, nem rastreio, nem anúncios. O teu histórico de percursos é teu, e só é guardado no teu próprio iCloud."
-    },
-    {
-      "icon": "🔔",
-      "title": "Vencimentos",
-      "body": "Escreve o conta-quilómetros uma vez e a DropLane mantém-no em dia com os quilómetros registados — assim os lembretes de revisão e IPO contam em quilómetros, não só em datas."
-    },
-    {
-      "icon": "🔧",
-      "title": "O teu veículo",
-      "body": "Aponta aqui revisões, pneus e reparações — com a foto da fatura anexada, é todo o histórico da oficina no teu bolso."
-    },
-    {
-      "icon": "💳",
-      "title": "Cartão de combustível",
-      "body": "Define o preço por litro do teu cartão. Aponta os litros ao abastecer e a DropLane calcula o custo."
+      "title": "Registos prontos quando precisas",
+      "body": "Viagens, quilómetros e um PDF para o contabilista, com a tarifa das ajudas de custo da AT já incluída."
     }
   ],
   "screens_h2": "A app inteira — em tema claro e escuro",
@@ -224,7 +194,7 @@
   "pricing_monthly": "Mensal",
   "pricing_yearly": "Anual",
   "pricing_per_month": "por mês, cancelas quando quiseres",
-  "pricing_per_year": "por ano — a melhor opção",
+  "pricing_per_year": "por ano, cobrado uma vez por ano",
   "pricing_best": "Melhor valor",
   "pricing_bullet_all": "Todas as funções, sem extras",
   "pricing_bullet_trial": "Primeiro 14 dias grátis",
@@ -237,7 +207,7 @@
   "pricing_col_month": "Mensal",
   "pricing_col_year": "Anual",
   "pricing_you": "Tu",
-  "pricing_note": "Cada país tem o seu próprio preço, não um convertido de libras. Antes de confirmares seja o que for, a App Store mostra-te o valor exato na tua moeda, impostos incluídos. O teu país não está na lista acima? A App Store tem um preço para ele à mesma.",
+  "pricing_note": "A Apple não cobra nada durante 14 dias. Cancela nas Definições antes disso e não pagas nada. Fora de Portugal, a App Store mostra o preço do teu país.",
   "faq_h2": "Perguntas que os estafetas fazem mesmo",
   "faq_intro": "Respostas diretas, de quem faz o trabalho.",
   "faq": [
@@ -275,7 +245,7 @@
     },
     {
       "q": "Funciona onde não há rede?",
-      "a": "Sim. A gravação funciona com o GPS do próprio iPhone e não quer internet nenhuma. As viagens feitas fora de rede voltam marcadas com «Início» e «Fim» em vez de nomes de ruas, e a DropLane preenche-os da próxima vez que apanhar Wi-Fi. Uma semana por estradas sem barras soma na mesma certo."
+      "a": "Sim. A gravação funciona com o GPS do próprio iPhone e não precisa de internet nenhuma. As viagens feitas fora de rede voltam marcadas com «Saída» e «Chegada» em vez de nomes de ruas, e a DropLane preenche-os da próxima vez que apanhar Wi-Fi. Uma semana inteira por estradas sem rede bate certo na mesma."
     },
     {
       "q": "O que acontece quando mudo de telemóvel?",
@@ -283,11 +253,15 @@
     },
     {
       "q": "E se deixar de pagar — perco os meus registos?",
-      "a": "Não se apaga nada. As tuas viagens ficam no iPhone e no teu próprio iCloud, exatamente onde estavam. Mas a DropLane precisa de uma subscrição ativa para abrir, por isso, se quiseres os números noutro lado, exporta o CSV antes de saíres. Está nas Definições, e é um toque."
+      "a": "Não se apaga nada, e a app continua a gravar. As tuas viagens ficam no iPhone e no teu próprio iCloud, e os quilómetros que fizeres com a subscrição expirada estão à tua espera quando voltares a subscrever. O que fica bloqueado é a consulta: Hoje, Dias, Estatísticas, o PDF e a exportação CSV ficam fechados até lá. Se quiseres os números noutro lado, exporta o CSV antes de a subscrição acabar — está nas Definições e basta um toque."
     },
     {
       "q": "Como sei quanto custou mesmo o combustível antes de chegar a fatura do cartão?",
-      "a": "Diz à DropLane o preço por litro que o teu cartão cobra, e depois aponta os litros ao abastecer. O custo é feito no próprio dia, por isso o lucro da semana está certo semanas antes de a fatura aparecer."
+      "a": "Diz à DropLane o preço por litro que o teu cartão cobra, e depois aponta os litros ao abastecer. O custo fica calculado no próprio dia, por isso o lucro da semana está certo semanas antes de a fatura aparecer."
+    },
+    {
+      "q": "Há versão para Android?",
+      "a": "Ainda não. Por agora a DropLane é só para iPhone, e a versão para Android vem a caminho. Escreve para help@droplane.co.uk e avisamos-te no dia em que sair."
     }
   ],
   "closer_h2": "Deixa de adivinhar quanto ganhaste.",
@@ -316,7 +290,7 @@
   "cta_coming": "Em breve na App Store",
   "cta_notify": "Avisa-me quando sair",
   "privacy_h2": "Os teus dados. Só teus.",
-  "privacy_intro": "Tudo fica no teu iPhone e no teu próprio iCloud. Sem conta, sem servidor, nada é vendido. Só tu decides quem vê as tuas viagens.",
+  "privacy_intro": "A tua localização fica no teu iPhone e no teu próprio iCloud. Sem conta, sem servidor, nada é vendido. Só tu decides quem vê as tuas viagens.",
   "privacy_stat_label": "Servidores com a tua localização",
   "privacy_point1": "É isto que permite à DropLane registar os quilómetros. O teu histórico de localização nunca sai do teu iPhone.",
   "privacy_point2": "Backup e restauração no iCloud, sem precisar de conta",
@@ -327,13 +301,52 @@
   "setup_shot_vehicle": "O que conduzes?",
   "pocket_h3": "Notificações",
   "pocket_body": "«Sempre» permite gravar as viagens com a app fechada.",
-  "pocket_live_alt": "Viagem detetada — a gravar",
-  "pocket_live_body": "Enquanto conduzes, uma Atividade Ao Vivo mostra os quilómetros no ecrã bloqueado — vês a viagem a ser gravada sem desbloquear nada.",
+  "pocket_live_alt": "A atividade em tempo real no ecrã bloqueado: «A gravar», 107 km, 2:47:17 no cronómetro, os botões para classificar a viagem e o botão vermelho para parar.",
+  "pocket_live_body": "Enquanto conduzes, uma atividade em tempo real vai somando os quilómetros no ecrã bloqueado — vês a viagem a ser gravada sem desbloquear nada.",
   "hero_trial": "14 dias grátis",
   "hero_trial_then": "depois {price} por mês",
   "compare_them": "As apps de quilometragem dizem-te quantos quilómetros fizeste.",
   "compare_us": "A DropLane diz-te quanto ganhaste mesmo.",
   "fact_currency": "Todas as moedas",
   "fact_private": "Dados ficam no telemóvel",
-  "fact_private_value": "Privado"
+  "fact_private_value": "Privado",
+  "hero_support": "14 dias grátis · Sem conta · Cancelas quando quiseres",
+  "trust": [
+    "Grava as viagens sozinha",
+    "A localização fica no teu iPhone",
+    "De um estafeta com +10 anos de estrada",
+    "46 línguas, todas as moedas"
+  ],
+  "outcomes_label": "Três números que a DropLane tem prontos antes de chegares a casa",
+  "outcomes": [
+    {
+      "file": "today",
+      "title": "O que ganhei hoje",
+      "alt": "O ecrã Hoje: uma viagem a ser gravada no mapa de Lisboa, e 80,64 € ganhos hoje: 98,40 € recebidos menos 17,76 € de gastos."
+    },
+    {
+      "file": "day",
+      "title": "O que me sobrou mesmo, tirados os custos",
+      "alt": "A página de um dia: 80,64 € de lucro do dia, 98,40 € ganhos e 17,76 € gastos em 79,7 km, o dia no mapa e a distância por tipo: 34,9 km com carga, 44,8 km por classificar."
+    },
+    {
+      "file": "insights",
+      "title": "O meu valor real à hora",
+      "alt": "O ecrã Análises: 59,32 € de lucro após custos fixos, 9,52 € à hora, 2,31 € por km, 6 h 14 min na estrada."
+    }
+  ],
+  "hero_trial_then_plans": "depois {year} por ano ou {month} por mês",
+  "money_punch2": "Conduzir mais nem sempre quer dizer ganhar mais.",
+  "setup_h3": "Vê como se configura",
+  "features_also": "Também trata da carrinha: revisões, pneus e reparações registados com a foto da fatura, lembretes da IPO e da revisão em contagem decrescente de quilómetros, e o custo do cartão de combustível calculado no dia em que abasteces. E fala 46 línguas, com os valores na tua moeda.",
+  "faq_home": [
+    "Tenho de carregar em iniciar?",
+    "O meu histórico de percursos vai parar a algum lado?",
+    "Funciona onde não há rede?",
+    "Ando de bicicleta, não de carrinha.",
+    "E se deixar de pagar — perco os meus registos?"
+  ],
+  "faq_all": "Ver todas as perguntas →",
+  "faq_page_title": "Perguntas que os estafetas fazem mesmo — DropLane",
+  "faq_meta_description": "As perguntas dos estafetas sobre a DropLane, respondidas pelo estafeta que a criou: gravação, bateria, privacidade, rede e o que acontece se deixares de pagar."
 }

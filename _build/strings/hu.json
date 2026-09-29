@@ -19,19 +19,19 @@
   "theme_dark": "Sötét",
   "language_label": "Nyelv",
   "language_title": "Olvasd ezt az oldalt a saját nyelveden",
-  "language_note": "Maga az app 46 nyelven beszél — a többi még úton van ide.",
+  "language_note": "Az app mind a 46 nyelven beszél — minden képernyő, minden értesítés, minden PDF.",
   "langbar_strong": "46 nyelv.",
   "langbar_rest": "Válaszd ki a sajátodat — az app is beszéli.",
   "per_month_short": "havonta",
   "see_all": "összes",
   "hero_h1": "Tudd meg, mennyit kerestél valójában.",
-  "hero_lede": "Indítsd el a furgont. Ennyi az egész. A DropLane rögzít minden utat és az útvonalat, amit tényleg megtettél, levonja a költségeket a bevételből, és mire hazaérsz, kész a valódi órabéred.",
+  "hero_lede": "A DropLane magától rögzít minden utat, levonja a költségeket, és megmutatja, mennyit kerestél valójában.",
   "hero_cta_notify": "Szólj, ha megjelent",
-  "hero_cta_how": "Hogyan működik",
+  "hero_cta_how": "Nézd meg, hogyan működik ↓",
   "hero_note": "nincs fiók, nincs reklám · iPhone",
-  "hero_kicker": "Kilométer, kereset, kiadás — automatikusan, ha munkából vezetsz",
+  "hero_kicker": "Automatikus útnyilvántartás · Valódi nyereség · Valódi órabér",
   "hero_android": "Az Android úton van. Írj nekünk, és szólunk, amint megjelenik.",
-  "reviews_h2": "Ezt mondják a futárok az App Store-ban",
+  "reviews_h2": "A brit App Store-ból",
   "countries_paperwork_h3": "Itt az app ismeri a papírokat; a díjat te írod be",
   "hero_facts": [
     {
@@ -48,8 +48,8 @@
     }
   ],
   "money_h2": "Két nap. Több kilométer. Kevesebb pénz.",
-  "money_intro": "Kedd: 91,5 kilométer, három út. Tegnap: 55,4 kilométer, két út. Egy hagyományos kilométerszámláló app azt mondja, a kedd volt a teltebb nap — és igaza is van. Csakhogy keddről 30 250 Ft maradt, tegnapról pedig 35 760 Ft.",
-  "money_day1_when": "augusztus 25., kedd",
+  "money_intro": "Két valódi nap. Kedden 36,1 km-rel többet mentél, és 5510 Ft-tal kevesebb maradt.",
+  "money_day1_when": "kedd",
   "money_day1_distance": "91,5 km",
   "money_day1_trips": "3 út",
   "money_day1_money": "30 250 Ft",
@@ -59,9 +59,9 @@
   "money_day2_money": "35 760 Ft",
   "money_label_distance": "Úton",
   "money_label_trips": "Utak",
-  "money_label_money": "Nettó",
-  "money_punch": "36,1 kilométerrel több. 5 510 Ft-tal kevesebb.",
-  "money_note": "A kilométert megszámolni a könnyebbik rész. Önmagában viszont alig mond valamit. Hogy melyik nap érte meg igazán, az a másik oszlopban áll — és épp azt tölti ki helyetted a DropLane, még aznap, anélkül hogy bármit felírnál.",
+  "money_label_money": "maradt",
+  "money_punch": "36,1 km-rel több. 5510 Ft-tal kevesebb.",
+  "money_note": "A kilométer megmutatja, mennyit vezettél. A DropLane azt, hogy megérte-e.",
   "day_h2": "Mennyit kerestél valójában egy nap",
   "day_intro": "36 900 Ft jó napnak hangzik. Csakhogy az üzemanyagot és a parkolást levonva, az úton töltött 5 óra 45 percre elosztva 4 152 Ft jön ki óránként. Pontosan ezt a számot számolja ki magától a DropLane, rögtön a nap végén.",
   "day_film1_title": "Minden magától kiszámolva",
@@ -98,54 +98,24 @@
       "body": "Munka, üres, felvételre menet vagy magán. Az összegek és a kilométer-elszámolás maguktól követik."
     }
   ],
-  "how_proof": "Aztán az útnyilvántartás magától áll össze. Válassz egy hetet, egy hónapot vagy saját dátumokat, pipáld ki, mi kerüljön bele, és a PDF a könyvelőnek egy koppintásra van — olyan utakból építve, amelyeket sosem kellett rögzítened.",
-  "features_h2": "Mit tud valójában a DropLane",
-  "features_intro": "Egy futár építette, tíz év úttal a háta mögött — arra a munkára, amilyen az valójában.",
+  "how_proof": "Válassz egy hetet, egy hónapot vagy saját dátumokat, pipáld ki, mi kerüljön bele, és a PDF a könyvelőnek egy koppintásra van — olyan utakból, amelyeket sosem kellett felírnod.",
+  "features_h2": "Mit kapsz tőle",
+  "features_intro": "Olyan munkára készült, amilyen az valójában, és olyasvalaki építette, aki maga is ezt csinálja.",
   "features": [
     {
-      "icon": "💷",
-      "title": "Mennyit kerestél valójában egy nap",
-      "body": "A bevételből levonódik az üzemanyag és a többi költség, alul pedig ott a nettó — naponta, hetente, havonta."
+      "icon": "💰",
+      "title": "Lásd a valódi nyereségedet",
+      "body": "Bevétel mínusz üzemanyag és költségek, naponta, hetente és havonta."
     },
     {
-      "icon": "⛽",
-      "title": "A valódi órabéred",
-      "body": "Az üzemanyag, a részlet és a biztosítás elosztva a napokra, amikor dolgozol, hogy az órabér az igazi legyen."
-    },
-    {
-      "icon": "🛣️",
-      "title": "Kilométer a telefon érintése nélkül",
-      "body": "Az utak a háttérben rögzítik magukat, attól kezdve, hogy elindulsz, addig, hogy leparkolsz."
+      "icon": "⏱️",
+      "title": "Ismerd meg a valódi órabéredet",
+      "body": "Kiderül, mely napok és fuvarok érik meg igazán, miután az üzemanyag, a törlesztőrészlet és a biztosítás eloszlik a munkanapjaid között."
     },
     {
       "icon": "🧾",
-      "title": "Útnyilvántartás a könyvelőnek",
-      "body": "PDF minden úttal, annak útvonalával és dátumával. Tizenhét ország kilométerdíja beépítve."
-    },
-    {
-      "icon": "🅿️",
-      "title": "Megállók és várakozás",
-      "body": "Látod, mennyit álltál minden címen vagy a raktárnál, anélkül hogy bármit felírnál."
-    },
-    {
-      "icon": "🔒",
-      "title": "Semmi nem hagyja el a telefonod",
-      "body": "Nincs fiók, nincs követés, nincs reklám. Az útvonaltörténeted a tiéd, és csak a saját iCloudodba mentődik."
-    },
-    {
-      "icon": "🔔",
-      "title": "Lejáratok",
-      "body": "Írd be egyszer a kilométeróra állását, és a DropLane a rögzített utakból tovább vezeti — így a szerviz- és műszakivizsga-jelzések a megtett táv szerint is visszaszámolnak, nem csak dátum szerint."
-    },
-    {
-      "icon": "🔧",
-      "title": "A járműved",
-      "body": "Rögzítsd itt a szervizeket, gumikat és javításokat — a csatolt számlafotóval a teljes szerviztörténeted a zsebedben van."
-    },
-    {
-      "icon": "💳",
-      "title": "Üzemanyagkártya",
-      "body": "Állítsd be, mennyit számít fel a kártyád literenként. Tankoláskor írd be a litereket, és a DropLane kiszámolja a költséget."
+      "title": "Kész nyilvántartás, amikor kell",
+      "body": "Utak, kilométerek és PDF a könyvelődnek, beépített kilométerdíjjal."
     }
   ],
   "screens_h2": "A teljes app — világos és sötét témában",
@@ -224,7 +194,7 @@
   "pricing_monthly": "Havi",
   "pricing_yearly": "Éves",
   "pricing_per_month": "havonta, bármikor lemondható",
-  "pricing_per_year": "évente — a legjobb választás",
+  "pricing_per_year": "évente, egy összegben fizetve",
   "pricing_best": "A legjobb ár",
   "pricing_bullet_all": "Minden funkció, nincs külön vásárlás",
   "pricing_bullet_trial": "Előbb 14 nap ingyen",
@@ -237,7 +207,7 @@
   "pricing_col_month": "Havi",
   "pricing_col_year": "Éves",
   "pricing_you": "Te",
-  "pricing_note": "Minden országnak saját ára van, nem a fontból átváltott. Mielőtt bármit jóváhagynál, az App Store megmutatja a pontos összeget a saját pénznemedben, adóval együtt. Nincs rajta a listán az országod? Az App Store-nak arra is van ára.",
+  "pricing_note": "Az Apple 14 napig semmit sem számláz. Ha addig lemondod a Beállításokban, nem fizetsz semmit. Magyarországon kívül az App Store a saját országod árát mutatja.",
   "faq_h2": "Kérdések, amiket a futárok tényleg feltesznek",
   "faq_intro": "Egyenes válaszok valakitől, aki csinálja a munkát.",
   "faq": [
@@ -283,11 +253,15 @@
     },
     {
       "q": "És ha abbahagyom a fizetést — elvesznek a nyilvántartásaim?",
-      "a": "Semmi nem törlődik. Az utak az iPhone-on és a saját iCloudodban maradnak, pontosan ott, ahol voltak. A DropLane megnyitásához viszont aktív előfizetés kell, szóval ha máshol is akarod a számokat, exportáld előtte a CSV-t. A Beállításokban van, egy koppintás."
+      "a": "Semmi nem törlődik, és az app tovább rögzít. Az utak az iPhone-on és a saját iCloudodban maradnak, és az előfizetés nélkül megtett kilométerek is ott várnak, amikor újra előfizetsz. Csak a megtekintés zárul le: a Ma, a Napok, a Statisztika, a PDF és a CSV-export zárva marad, amíg újra elő nem fizetsz. Ha máshol is szeretnéd a számokat, exportáld a CSV-t, mielőtt lejár az előfizetés — a Beállításokban van, egy koppintás."
     },
     {
       "q": "Honnan tudom, mibe került valójában az üzemanyag, mielőtt megjön a kártyaszámla?",
       "a": "Mondd meg a DropLane-nek a literenkénti árat, amit az üzemanyagkártyád felszámol, aztán tankoláskor írd be a litert. A költség aznap kész, így a hét nyeresége hetekkel a számla megérkezése előtt stimmel."
+    },
+    {
+      "q": "Van androidos verzió?",
+      "a": "Még nincs. A DropLane egyelőre csak iPhone-ra érhető el, az androidos változat úton van. Írj a help@droplane.co.uk címre, és szólunk, amint megjelenik."
     }
   ],
   "closer_h2": "Ne találgasd, mennyit kerestél.",
@@ -316,7 +290,7 @@
   "cta_coming": "Hamarosan az App Store-ban",
   "cta_notify": "Írj, ha megjelent",
   "privacy_h2": "A te adataid. Csakis a tieid.",
-  "privacy_intro": "Minden az iPhone-odon és a saját iCloudodban marad. Se fiók, se szerver, semmit sem adunk el. Csak te döntöd el, ki látja az útjaidat.",
+  "privacy_intro": "A helyadataid az iPhone-odon és a saját iCloudodban maradnak. Se fiók, se szerver, semmit sem adunk el. Csak te döntöd el, ki látja az útjaidat.",
   "privacy_stat_label": "A helyzetedet tároló szerver",
   "privacy_point1": "Ez teszi lehetővé, hogy a DropLane rögzítse a megtett távot. A helyzeted előzményei sosem hagyják el az iPhone-odat.",
   "privacy_point2": "iCloud-mentés és -visszaállítás, fiók nélkül",
@@ -327,13 +301,52 @@
   "setup_shot_vehicle": "Mivel jársz?",
   "pocket_h3": "Értesítések",
   "pocket_body": "A „Mindig” beállítással az utak zárt app mellett is rögzülnek.",
-  "pocket_live_alt": "Út észlelve — rögzítés folyamatban",
-  "pocket_live_body": "Amíg vezetsz, egy Élő tevékenység a zárolt képernyőn mutatja a kilométereket — látod, hogy az út rögzül, anélkül hogy bármit feloldanál.",
+  "pocket_live_alt": "Élő tevékenység a Zárolási képernyőn: rögzítés, 67,4 km, 2:47:17 eltelt idő, úttípusgombok és piros leállítógomb.",
+  "pocket_live_body": "Vezetés közben egy Élő tevékenység a Zárolási képernyőn pörgeti a kilométereket — látod, hogy rögzül az út, anélkül hogy feloldanád a telefont.",
   "hero_trial": "14 nap ingyen",
   "hero_trial_then": "utána havi {price}",
   "compare_them": "A kilométerszámláló appok megmondják, hány kilométert mentél.",
   "compare_us": "A DropLane megmondja, mennyit kerestél valójában.",
   "fact_currency": "Minden pénznem",
   "fact_private": "Adat marad a telefonon",
-  "fact_private_value": "Privát"
+  "fact_private_value": "Privát",
+  "hero_support": "14 nap ingyen · Nincs fiók · Bármikor lemondható",
+  "trust": [
+    "Magától rögzíti az utakat",
+    "A helyadat az iPhone-on marad",
+    "Futár építette, aki 10+ éve úton van",
+    "46 nyelv, bármilyen pénznem"
+  ],
+  "outcomes_label": "Három szám, amit a DropLane kiszámol, mire hazaérsz",
+  "outcomes": [
+    {
+      "file": "today",
+      "title": "Mennyit kerestem ma",
+      "alt": "A Ma képernyő: épp rögzülő út Budapest térképén (eddig 67,4 km), alatta 31 860 Ft mai kereset: 36 900 Ft bevétel, 5040 Ft költség."
+    },
+    {
+      "file": "day",
+      "title": "Mennyi maradt a költségek után",
+      "alt": "Egy nap oldala: 31 860 Ft a nap nyeresége (36 900 Ft kereset, 5040 Ft kiadás, 55,4 km), a nap útjai Budapest térképén és a távolság úttípus szerint."
+    },
+    {
+      "file": "insights",
+      "title": "A valódi órabérem",
+      "alt": "Az Elemzések képernyő: 23 875 Ft nyereség az állandó költségek után, 4152 Ft óránként, 1247 Ft kilométerenként, 5 ó 45 p úton."
+    }
+  ],
+  "hero_trial_then_plans": "utána évi {year} vagy havi {month}",
+  "money_punch2": "A több vezetés nem mindig jelent több pénzt.",
+  "setup_h3": "Nézd meg, hogyan megy a beállítás",
+  "features_also": "A furgonra is figyel: szervizek, gumik és javítások a számla fotójával rögzítve, szerviz- és műszakivizsga-emlékeztetők, amelyek kilométerben számolnak vissza, és az üzemanyagkártya költsége már a tankolás napján kiszámolva. És 46 nyelven beszél, a pénzt pedig a saját pénznemedben mutatja.",
+  "faq_home": [
+    "Meg kell nyomnom az indítást?",
+    "Az útvonaltörténetem kikerül valahová?",
+    "Működik ott, ahol nincs térerő?",
+    "Én biciklivel járok, nem furgonnal.",
+    "És ha abbahagyom a fizetést — elvesznek a nyilvántartásaim?"
+  ],
+  "faq_all": "Az összes kérdés →",
+  "faq_page_title": "Kérdések, amiket a futárok tényleg feltesznek — DropLane",
+  "faq_meta_description": "A futárok kérdései a DropLane-ről, és a válaszok attól a futártól, aki építette: rögzítés, akku, adatvédelem, térerő, és mi lesz, ha nem fizetsz tovább."
 }

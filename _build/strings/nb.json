@@ -19,19 +19,19 @@
   "theme_dark": "Mørkt",
   "language_label": "Språk",
   "language_title": "Les siden på ditt språk",
-  "language_note": "Appen selv snakker 46 språk — resten er på vei hit.",
+  "language_note": "Appen snakker alle de 46 språkene — hver skjerm, hvert varsel, hver PDF.",
   "langbar_strong": "46 språk.",
   "langbar_rest": "Velg ditt — appen snakker det også.",
   "per_month_short": "i måneden",
   "see_all": "se alle",
   "hero_h1": "Vit hva du faktisk tjener på en dag.",
-  "hero_lede": "Start varebilen. Det er alt. DropLane registrerer hver tur og ruten du faktisk kjørte, trekker kostnadene fra inntekten og regner ut hva du faktisk tjener i timen, allerede før du er hjemme.",
+  "hero_lede": "DropLane registrerer hver tur automatisk, trekker fra kostnadene og viser hva du faktisk tjente.",
   "hero_cta_notify": "Få beskjed ved lansering",
-  "hero_cta_how": "Slik virker det",
+  "hero_cta_how": "Se hvordan det virker ↓",
   "hero_note": "ingen konto, ingen reklame · iPhone",
-  "hero_kicker": "Kjøring, inntekt og utgifter automatisk — for alle som kjører i jobben",
+  "hero_kicker": "Automatisk kjørebok · Reell fortjeneste · Reell timelønn",
   "hero_android": "Android er på vei. Send oss en e-post, så sier vi fra når den er ute.",
-  "reviews_h2": "Hva bud sier på App Store",
+  "reviews_h2": "Fra App Store i Storbritannia",
   "countries_paperwork_h3": "Her kjenner appen papirene; satsen skriver du inn selv",
   "hero_facts": [
     {
@@ -47,21 +47,21 @@
       "label": "innebygde kilometersatser"
     }
   ],
-  "money_h2": "To dager. Samme kilometer. Ikke samme penger.",
-  "money_intro": "Begge er tre turer og rundt hundre og seksti kilometer, fra samme telefon, i samme varebil. En vanlig kjørebok-app fører dem som stort sett samme dag. Det skiller 324 kroner.",
-  "money_day1_when": "Torsdag 30. juli",
-  "money_day1_distance": "161 km",
+  "money_h2": "To dager. Flere kilometer. Mindre penger.",
+  "money_intro": "To ekte dager. I går ble det kjørt 7 km mer enn på mandag, men det ga 263,50 kr mindre.",
+  "money_day1_when": "mandag",
+  "money_day1_distance": "151 km",
   "money_day1_trips": "3 turer",
-  "money_day1_money": "1 774,50 kr",
+  "money_day1_money": "2 362,00 kr",
   "money_day2_when": "I går",
-  "money_day2_distance": "158 km",
+  "money_day2_distance": "158 km",
   "money_day2_trips": "3 turer",
-  "money_day2_money": "2 098,50 kr",
+  "money_day2_money": "2 098,50 kr",
   "money_label_distance": "På veien",
   "money_label_trips": "Turer",
-  "money_label_money": "Igjen",
-  "money_punch": "Tre kilometer fra hverandre. 324,00 kr i forskjell.",
-  "money_note": "Å telle kilometer er det enkle. Og alene sier de deg ikke stort. Hvilken dag som faktisk lønte seg, står i den andre kolonnen, og det er den kolonnen DropLane fyller ut for deg, samme dag, uten at du skriver ned noe.",
+  "money_label_money": "igjen",
+  "money_punch": "7 km mer. 263,50 kr mindre.",
+  "money_note": "Kilometrene sier hvor langt du kjørte. DropLane sier om det var verdt det.",
   "day_h2": "Hva du faktisk tjente på en dag",
   "day_intro": "3 163,99 kr høres ut som en god dag. Seks timer og trettiseks minutter på veien og 305,00 kr i kostnader senere ble det 372,00 kr i timen. Det er nettopp det tallet DropLane regner ut av seg selv, med én gang dagen er over.",
   "day_film1_title": "Alt regnet ut automatisk",
@@ -98,54 +98,24 @@
       "body": "Arbeid, tomkjøring, på vei mot henting eller privat. Summene og kilometergodtgjørelsen følger med av seg selv."
     }
   ],
-  "how_proof": "Så bygges kjørehistorikken opp av seg selv. Velg en uke, en måned eller egne datoer, huk av for hva som skal med, og PDF-en til regnskapsføreren er ett trykk unna — bygget av turer du aldri måtte føre inn.",
-  "features_h2": "Hva DropLane faktisk gjør",
-  "features_intro": "Bygget av et bud med ti år på veien, for jobben slik den virkelig er.",
+  "how_proof": "Velg en uke, en måned eller egne datoer, huk av for hva som skal med, og PDF-en til regnskapsføreren er ett trykk unna — bygget av turer du aldri måtte føre inn.",
+  "features_h2": "Hva du får igjen",
+  "features_intro": "Laget for jobben slik den faktisk er, av en som gjør den.",
   "features": [
     {
-      "icon": "💷",
-      "title": "Hva du faktisk tjente på en dag",
-      "body": "Drivstoff og øvrige kostnader trekkes fra inntekten, og nederst står det som blir igjen — per dag, uke, måned."
+      "icon": "💰",
+      "title": "Vit hva du faktisk sitter igjen med",
+      "body": "Inntekt minus drivstoff og kostnader, per dag, uke og måned."
     },
     {
-      "icon": "⛽",
-      "title": "Hva du faktisk tjener i timen",
-      "body": "Drivstoff, finansiering og forsikring fordeles over dagene du jobber, så timetallet blir det sanne."
-    },
-    {
-      "icon": "🛣️",
-      "title": "Kjørebok uten å røre telefonen",
-      "body": "Turene registrerer seg selv i bakgrunnen, fra du triller av gårde til du parkerer."
+      "icon": "⏱️",
+      "title": "Vit hva timen faktisk gir",
+      "body": "Se hvilke dager og oppdrag som faktisk lønner seg, når drivstoff, finansiering og forsikring er fordelt over dagene du jobber."
     },
     {
       "icon": "🧾",
-      "title": "Dokumentasjon klar for regnskapsføreren",
-      "body": "En PDF med hver tur, ruten og datoen. Kilometersatser innebygd for sytten land."
-    },
-    {
-      "icon": "🅿️",
-      "title": "Stopp og ventetid",
-      "body": "Se hvor lenge du sto på hver levering eller terminal, uten å skrive ned noe."
-    },
-    {
-      "icon": "🔒",
-      "title": "Ingenting forlater telefonen",
-      "body": "Ingen konto å opprette, ingen sporing, ingen reklame. Rutehistorikken din er din, sikkerhetskopiert bare til din egen iCloud."
-    },
-    {
-      "icon": "🔔",
-      "title": "Fornyelser",
-      "body": "Skriv inn kilometerstanden én gang, så oppdaterer DropLane den ut fra kjørelengden den registrerer — slik at påminnelser om service og EU-kontroll kan telle ned i kjørelengde, ikke bare i datoer."
-    },
-    {
-      "icon": "🔧",
-      "title": "Kjøretøyet ditt",
-      "body": "Før opp service, dekk og reparasjoner her — med bilde av fakturaen vedlagt har du hele verkstedhistorikken i lomma."
-    },
-    {
-      "icon": "💳",
-      "title": "Drivstoffkort",
-      "body": "Sett prisen kortet ditt tar per liter. Før opp liter når du fyller, så regner DropLane ut kostnaden."
+      "title": "Dokumentasjonen klar når du trenger den",
+      "body": "Turer, kilometer og en PDF til regnskapsføreren, med Skatteetatens sats for kilometergodtgjørelse innebygd."
     }
   ],
   "screens_h2": "Hele appen — i lyst og mørkt tema",
@@ -224,7 +194,7 @@
   "pricing_monthly": "Månedlig",
   "pricing_yearly": "Årlig",
   "pricing_per_month": "per måned, si opp når du vil",
-  "pricing_per_year": "per år — det beste valget",
+  "pricing_per_year": "per år, betales én gang i året",
   "pricing_best": "Best verdi",
   "pricing_bullet_all": "Alle funksjoner, ingen tillegg",
   "pricing_bullet_trial": "14 dager gratis først",
@@ -237,7 +207,7 @@
   "pricing_col_month": "Måned",
   "pricing_col_year": "År",
   "pricing_you": "Du",
-  "pricing_note": "Hvert land har sin egen pris, ikke en omregnet fra pund. Før du godtar noe, viser App Store deg det nøyaktige beløpet i din egen valuta, avgift inkludert. Er ikke landet ditt med i listen over? App Store har en pris for det likevel.",
+  "pricing_note": "Apple tar ingenting de første 14 dagene. Sier du opp i Innstillinger før det, betaler du ingenting. Utenfor Norge viser App Store prisen for ditt eget land.",
   "faq_h2": "Spørsmål bud faktisk stiller",
   "faq_intro": "Rette svar, fra en som gjør jobben.",
   "faq": [
@@ -247,7 +217,7 @@
     },
     {
       "q": "Tapper den batteriet?",
-      "a": "DropLane holder ikke GPS-en i gang hele dagen. Den ligger stille til den merker at du har forlatt stedet du parkerte, registrerer mens du er i bevegelse, og sovner igjen når du stopper."
+      "a": "DropLane holder ikke GPS-en i gang hele dagen. Den ligger stille til den merker at du har forlatt stedet der du parkerte, registrerer mens du er i bevegelse, og sovner igjen når du stopper."
     },
     {
       "q": "Må jeg trykke på start?",
@@ -259,7 +229,7 @@
     },
     {
       "q": "Havner rutehistorikken min noe sted?",
-      "a": "Nei. Det finnes ingen konto og ingen server. Alt bor på iPhonen din, og sikkerhetskopieres bare til din egen iCloud hvis du vil."
+      "a": "Nei. Det finnes ingen konto og ingen server. Alt ligger på iPhonen din, og sikkerhetskopieres bare til din egen iCloud hvis du vil."
     },
     {
       "q": "Jeg kjører sykkel, ikke varebil.",
@@ -275,7 +245,7 @@
     },
     {
       "q": "Virker den der det ikke er dekning?",
-      "a": "Ja. Registreringen går på iPhonens egen GPS og vil ikke ha internett i det hele tatt. Turer kjørt uten dekning kommer tilbake merket «Start» og «Slutt» i stedet for gatenavn, og DropLane fyller dem inn neste gang den ser wifi. En uke på småveier uten streker summerer seg likevel riktig."
+      "a": "Ja. Registreringen går på iPhonens egen GPS og trenger ikke internett i det hele tatt. Turer kjørt uten dekning får merkene «Start» og «Slutt» i stedet for gatenavn, og DropLane fyller dem inn neste gang telefonen er på wifi. En uke på småveier uten dekning blir likevel summert riktig."
     },
     {
       "q": "Hva skjer når jeg får ny telefon?",
@@ -283,11 +253,15 @@
     },
     {
       "q": "Hva om jeg slutter å betale — mister jeg dataene mine?",
-      "a": "Ingenting slettes. Turene dine blir liggende på iPhonen og i din egen iCloud, akkurat der de var. Men DropLane trenger et aktivt abonnement for å åpne, så vil du ha tallene et annet sted, eksporter CSV-filen før du går. Den ligger i Innstillinger, og det er ett trykk."
+      "a": "Ingenting slettes, og appen fortsetter å registrere. Turene dine blir liggende på iPhonen og i din egen iCloud, og kilometrene du kjører uten aktivt abonnement, venter på deg når du abonnerer igjen. Det som låses, er det du leser tallene i: I dag, Dager, Statistikk, PDF-en og CSV-eksporten er stengt til du abonnerer igjen. Vil du ha tallene et annet sted, eksporter CSV-filen før abonnementet går ut — det gjør du i Innstillinger, med ett trykk."
     },
     {
       "q": "Hvordan vet jeg hva drivstoffet virkelig kostet før kortfakturaen kommer?",
       "a": "Fortell DropLane hvilken literpris drivstoffkortet ditt tar, og før inn antall liter når du fyller. Kostnaden regnes ut samme dag, så ukas resultat stemmer uker før fakturaen dukker opp."
+    },
+    {
+      "q": "Finnes det en Android-versjon?",
+      "a": "Ikke ennå. DropLane er bare for iPhone foreløpig, og Android er på vei. Send en e-post til help@droplane.co.uk, så sier vi fra samme dag den er ute."
     }
   ],
   "closer_h2": "Slutt å gjette hva du tjente.",
@@ -315,9 +289,9 @@
   "cta_soon": "Kommer snart",
   "cta_coming": "Kommer til App Store",
   "cta_notify": "Send meg e-post når den er ute",
-  "pocket_live_body": "Mens du kjører viser en Live-aktivitet kjørelengden på låseskjermen — så du ser turen bli registrert uten å låse opp noe.",
+  "pocket_live_body": "Mens du kjører, tikker kilometrene oppover på låseskjermen i en oppdatering i sanntid — så du ser at turen registreres, uten å låse opp noe.",
   "privacy_h2": "Dine data. Bare dine.",
-  "privacy_intro": "Alt blir værende på iPhonen din og i din egen iCloud. Ingen konto, ingen server, ingenting som selges. Bare du bestemmer hvem som får se turene dine.",
+  "privacy_intro": "Posisjonen din blir på iPhonen og i din egen iCloud. Ingen konto, ingen server, ingenting som selges. Bare du bestemmer hvem som får se turene dine.",
   "privacy_stat_label": "Servere som lagrer posisjonen din",
   "privacy_point1": "Det er dette som lar DropLane registrere kjørelengden. Posisjonshistorikken din forlater aldri iPhonen.",
   "privacy_point2": "Sikkerhetskopi og gjenoppretting i iCloud, uten konto",
@@ -327,7 +301,7 @@
   "setup_shot_notifications": "Slå på varsler",
   "setup_shot_vehicle": "Hva kjører du?",
   "pocket_h3": "Varsler",
-  "pocket_live_alt": "Tur oppdaget — tar opp",
+  "pocket_live_alt": "Oppdatering i sanntid på låseskjermen: «Registrerer», kilometrene som tikker oppover, tiden som har gått, knapper for å sortere turen og en rød stoppknapp.",
   "pocket_body": "«Alltid» lar turer registreres mens appen er lukket.",
   "hero_trial": "14 dager gratis",
   "hero_trial_then": "deretter {price} i måneden",
@@ -335,5 +309,44 @@
   "compare_us": "DropLane forteller deg hva du faktisk tjente.",
   "fact_currency": "Alle valutaer",
   "fact_private": "Data blir på telefonen",
-  "fact_private_value": "Privat"
+  "fact_private_value": "Privat",
+  "hero_support": "14 dager gratis · Ingen konto · Si opp når du vil",
+  "trust": [
+    "Registrerer turene automatisk",
+    "Posisjonen blir på iPhonen din",
+    "Laget av et bud med 10+ år på veien",
+    "46 språk, alle valutaer"
+  ],
+  "outcomes_label": "Tre tall DropLane har klare før du er hjemme",
+  "outcomes": [
+    {
+      "file": "today",
+      "title": "Hva jeg tjente i dag",
+      "alt": "I dag-skjermen: en tur som registreres på kartet over Oslo, og 2 858,99 kr tjent i dag — 3 163,99 kr inn og 305,00 kr i kostnader."
+    },
+    {
+      "file": "day",
+      "title": "Hva jeg faktisk satt igjen med etter kostnader",
+      "alt": "Dagssiden: dagens fortjeneste på 2 858,99 kr, 92,5 km, dagen på kartet og distansen fordelt på type."
+    },
+    {
+      "file": "insights",
+      "title": "Min reelle timelønn",
+      "alt": "Innsikt-skjermen: 2 455,19 kr i fortjeneste etter faste kostnader, 372,00 kr i timen, 61,82 kr per km, 6 t 36 min på veien."
+    }
+  ],
+  "hero_trial_then_plans": "deretter {year} i året eller {month} i måneden",
+  "money_punch2": "Mer kjøring betyr ikke alltid mer penger.",
+  "setup_h3": "Se hvordan oppsettet går for seg",
+  "features_also": "Den tar seg også av varebilen: service, dekk og reparasjoner ført med bilde av fakturaen, påminnelser om EU-kontroll og service som teller ned i kilometer, og kostnaden på drivstoffkortet regnet ut samme dag som du fyller. Og den snakker 46 språk, med pengene i din valuta.",
+  "faq_home": [
+    "Må jeg trykke på start?",
+    "Havner rutehistorikken min noe sted?",
+    "Virker den der det ikke er dekning?",
+    "Jeg kjører sykkel, ikke varebil.",
+    "Hva om jeg slutter å betale — mister jeg dataene mine?"
+  ],
+  "faq_all": "Se alle spørsmål →",
+  "faq_page_title": "Spørsmål bud faktisk stiller — DropLane",
+  "faq_meta_description": "Alle spørsmålene bud stiller om DropLane, besvart av budet som laget appen: registrering, batteri, personvern, dekning og hva som skjer om du slutter å betale."
 }

@@ -19,19 +19,19 @@
   "theme_dark": "Donker",
   "language_label": "Taal",
   "language_title": "Lees deze site in jouw taal",
-  "language_note": "De app zelf spreekt 46 talen — de rest volgt hier.",
+  "language_note": "De app spreekt alle 46 talen — elk scherm, elke melding, elke pdf.",
   "langbar_strong": "46 talen.",
   "langbar_rest": "Kies de jouwe — de app spreekt hem ook.",
   "per_month_short": "per maand",
   "see_all": "bekijk alle",
   "hero_h1": "Weet wat je echt overhoudt aan een dag.",
-  "hero_lede": "Start de bus. Meer niet. DropLane legt elke rit vast en de route die je echt reed, haalt de kosten van de omzet af en zegt je wat je echt per uur verdient, nog voor je thuis bent.",
+  "hero_lede": "DropLane legt elke rit automatisch vast, haalt je kosten eraf en laat zien wat je echt verdiend hebt.",
   "hero_cta_notify": "Hou me op de hoogte",
-  "hero_cta_how": "Hoe het werkt",
+  "hero_cta_how": "Zo werkt het ↓",
   "hero_note": "geen account, geen advertenties · iPhone",
-  "hero_kicker": "Kilometers, inkomsten, uitgaven — automatisch voor wie rijdt voor werk",
+  "hero_kicker": "Automatische rittenregistratie · Echte winst · Echt uurloon",
   "hero_android": "Android komt eraan. Mail ons en we laten je weten wanneer het zover is.",
-  "reviews_h2": "Wat koeriers zeggen in de App Store",
+  "reviews_h2": "Uit de Britse App Store",
   "countries_paperwork_h3": "Hier kent de app de papieren; het tarief typ je zelf in",
   "hero_facts": [
     {
@@ -48,20 +48,20 @@
     }
   ],
   "money_h2": "Twee dagen. Meer kilometers. Minder geld.",
-  "money_intro": "Dinsdag: 119 kilometer, drie ritten. Gisteren: 74 kilometer, twee ritten. Een gewone kilometerapp vertelt je dat dinsdag de vollere dag was — en dat klopt. Alleen bleef er van dinsdag € 96,55 over en van gisteren € 113,37.",
-  "money_day1_when": "Dinsdag 25 augustus",
-  "money_day1_distance": "119 km",
+  "money_intro": "Twee echte dagen. Dinsdag was 44,7 km langer en leverde € 16,82 minder op.",
+  "money_day1_when": "Dinsdag",
+  "money_day1_distance": "119 km",
   "money_day1_trips": "3 ritten",
-  "money_day1_money": "€ 96,55",
+  "money_day1_money": "€ 96,55",
   "money_day2_when": "Gisteren",
-  "money_day2_distance": "74,3 km",
+  "money_day2_distance": "74,3 km",
   "money_day2_trips": "2 ritten",
-  "money_day2_money": "€ 113,37",
+  "money_day2_money": "€ 113,37",
   "money_label_distance": "Onderweg",
   "money_label_trips": "Ritten",
-  "money_label_money": "Netto",
-  "money_punch": "45 kilometer meer. € 16,82 minder.",
-  "money_note": "Kilometers tellen is het makkelijke deel. En op zichzelf zeggen ze weinig. Welke dag het echt opbracht staat in de andere kolom, en dat is de kolom die DropLane voor je invult, diezelfde dag, zonder dat je iets opschrijft.",
+  "money_label_money": "over",
+  "money_punch": "44,7 km meer. € 16,82 minder.",
+  "money_note": "Kilometers vertellen je hoe ver je reed. DropLane vertelt je of het de moeite waard was.",
   "day_h2": "Wat je echt overhoudt aan een dag",
   "day_intro": "120 euro klinkt als een goede dag. Maar met de brandstof en het parkeergeld eraf, verdeeld over 6 uur en 9 minuten onderweg, blijft er € 12,22 per uur over. Precies dat getal rekent DropLane vanzelf uit, zodra de dag erop zit.",
   "day_film1_title": "Alles automatisch uitgerekend",
@@ -98,54 +98,24 @@
       "body": "Zakelijk, leeg, onderweg naar een ophaaladres of privé. De totalen en de kilometervergoeding volgen vanzelf."
     }
   ],
-  "how_proof": "Daarna bouwt de rittenhistorie zich vanzelf op. Kies een week, een maand of je eigen datums, vink aan wat mee moet, en de pdf voor de boekhouder is één tik weg — opgebouwd uit ritten die je nooit hebt hoeven noteren.",
-  "features_h2": "Wat DropLane echt doet",
-  "features_intro": "Gebouwd door een koerier met tien jaar op de weg, voor het werk zoals het echt is.",
+  "how_proof": "Kies een week, een maand of je eigen periode, vink aan wat erin moet, en de pdf voor de boekhouder is één tik weg — opgebouwd uit ritten die je nooit hebt hoeven noteren.",
+  "features_h2": "Wat het je oplevert",
+  "features_intro": "Gemaakt voor het werk zoals het echt is, door iemand die het zelf doet.",
   "features": [
     {
-      "icon": "💷",
-      "title": "Wat je echt overhoudt aan een dag",
-      "body": "Van de inkomsten gaan brandstof en de andere kosten af, en onderaan staat wat je echt overhoudt — per dag, week en maand."
+      "icon": "💶",
+      "title": "Weet wat je echt overhoudt",
+      "body": "Inkomsten min brandstof en kosten, per dag, week en maand."
     },
     {
-      "icon": "⛽",
-      "title": "Wat je echt per uur verdient",
-      "body": "Brandstof, financiering en verzekering worden over je werkdagen verdeeld, zodat het uurbedrag klopt."
-    },
-    {
-      "icon": "🛣️",
-      "title": "Kilometers zonder je telefoon aan te raken",
-      "body": "Ritten leggen zichzelf op de achtergrond vast, vanaf het wegrijden tot het parkeren."
+      "icon": "⏱️",
+      "title": "Weet wat je echt per uur verdient",
+      "body": "Zie welke dagen en klussen echt lonen, met brandstof, financiering en verzekering verdeeld over de dagen dat je werkt."
     },
     {
       "icon": "🧾",
-      "title": "Kilometerregistratie voor je boekhouder",
-      "body": "Een pdf met elke rit, de route en de datum. Kilometervergoedingen voor zeventien landen ingebouwd."
-    },
-    {
-      "icon": "🅿️",
-      "title": "Stops en wachttijd",
-      "body": "Zie hoelang je bij elk adres of depot stond, zonder iets op te schrijven."
-    },
-    {
-      "icon": "🔒",
-      "title": "Er gaat niets van je telefoon af",
-      "body": "Geen account, geen tracking, geen advertenties. Je routegeschiedenis is van jou en gaat alleen naar je eigen iCloud."
-    },
-    {
-      "icon": "🔔",
-      "title": "Vervaldata",
-      "body": "Typ de kilometerstand één keer en DropLane telt hem verder op met je bijgehouden kilometers — zo kunnen herinneringen voor onderhoud en APK aftellen in kilometers, niet alleen in datums."
-    },
-    {
-      "icon": "🔧",
-      "title": "Je voertuig",
-      "body": "Noteer hier beurten, banden en reparaties — met de foto van de factuur erbij heb je je hele garagehistorie op zak."
-    },
-    {
-      "icon": "💳",
-      "title": "Tankpas",
-      "body": "Stel de literprijs van je pas in. Noteer liters bij het tanken en DropLane rekent de kosten uit."
+      "title": "Je papieren klaar wanneer je ze nodig hebt",
+      "body": "Ritten, kilometers en een pdf voor je boekhouder, met de kilometervergoeding al meegerekend."
     }
   ],
   "screens_h2": "De hele app — in licht en donker thema",
@@ -224,7 +194,7 @@
   "pricing_monthly": "Maandelijks",
   "pricing_yearly": "Jaarlijks",
   "pricing_per_month": "per maand, altijd opzegbaar",
-  "pricing_per_year": "per jaar — het voordeligst",
+  "pricing_per_year": "per jaar, in één keer betaald",
   "pricing_best": "Beste keuze",
   "pricing_bullet_all": "Alle functies, geen bijkopen",
   "pricing_bullet_trial": "Eerst 14 dagen gratis",
@@ -237,7 +207,7 @@
   "pricing_col_month": "Maandelijks",
   "pricing_col_year": "Jaarlijks",
   "pricing_you": "Jij",
-  "pricing_note": "Elk land heeft een eigen prijs, geen omgerekende uit ponden. Voordat je iets bevestigt, laat de App Store je het exacte bedrag in je eigen valuta zien, inclusief btw. Staat jouw land niet in de lijst hierboven? Dan heeft de App Store er ook een prijs voor.",
+  "pricing_note": "Apple rekent 14 dagen lang niets. Zeg je vóór die tijd op in Instellingen, dan betaal je niets. Buiten Nederland toont de App Store de prijs voor je eigen land.",
   "faq_h2": "Vragen die koeriers echt stellen",
   "faq_intro": "Rechttoe rechtaan antwoorden, van iemand die het werk doet.",
   "faq": [
@@ -267,7 +237,7 @@
     },
     {
       "q": "Zit de vergoeding van mijn land erin?",
-      "a": "Zeventien landen hebben hun officiële bedrag ingebouwd en bijgehouden. Overal elders vul je je eigen bedrag één keer in, en de app rekent."
+      "a": "Voor zeventien landen is het officiële bedrag ingebouwd en wordt het bijgehouden. Overal elders vul je je eigen bedrag één keer in, en de app rekent."
     },
     {
       "q": "Kan ik in kilometers werken?",
@@ -275,7 +245,7 @@
     },
     {
       "q": "Werkt het waar geen bereik is?",
-      "a": "Ja. Het opnemen gebeurt met de gps van je iPhone en daar is geen internet voor nodig. Ritten zonder bereik komen terug met ‘Start’ en ‘Eind’ in plaats van straatnamen, en DropLane vult die aan zodra het weer wifi ziet. Een week over binnenwegen zonder streepjes telt gewoon goed op."
+      "a": "Ja. Het opnemen gebeurt met de gps van je iPhone en daar is geen internet voor nodig. Ritten zonder bereik komen terug met ‘Vertrek’ en ‘Aankomst’ in plaats van straatnamen, en DropLane vult die aan zodra hij weer wifi ziet. Een week over binnenwegen zonder streepjes telt gewoon goed op."
     },
     {
       "q": "Wat gebeurt er als ik een nieuwe iPhone heb?",
@@ -283,11 +253,15 @@
     },
     {
       "q": "En als ik stop met betalen, ben ik mijn gegevens kwijt?",
-      "a": "Er wordt niets verwijderd. Je ritten blijven op de iPhone en in je eigen iCloud, precies waar ze stonden. Maar DropLane heeft een actief abonnement nodig om te openen: wil je de cijfers ergens anders, exporteer dan eerst de CSV. Die staat in Instellingen, één tik."
+      "a": "Er wordt niets verwijderd, en de app blijft opnemen. Je ritten blijven op de iPhone en in je eigen iCloud, en de kilometers die je zonder abonnement rijdt, staan klaar zodra je weer een abonnement neemt. Wat op slot gaat, is het inzien: Vandaag, Dagen, Statistieken, de pdf en de CSV-export blijven dicht tot je weer een abonnement hebt. Wil je de cijfers ergens anders hebben, exporteer dan de CSV voordat je abonnement afloopt — dat kan in Instellingen, met één tik."
     },
     {
       "q": "Hoe weet ik wat de brandstof echt kostte voordat de factuur van de kaart komt?",
       "a": "Geef DropLane de literprijs door die je tankkaart rekent en noteer de liters bij het tanken. De kosten staan diezelfde dag vast, dus de winst van de week klopt weken voordat de factuur binnenkomt."
+    },
+    {
+      "q": "Is er een Android-versie?",
+      "a": "Nog niet. DropLane is voorlopig alleen voor iPhone, en Android komt eraan. Mail naar help@droplane.co.uk en we laten je weten op de dag dat hij uitkomt."
     }
   ],
   "closer_h2": "Stop met gokken wat je verdiend hebt.",
@@ -316,7 +290,7 @@
   "cta_coming": "Binnenkort in de App Store",
   "cta_notify": "Mail me zodra hij er is",
   "privacy_h2": "Jouw gegevens. Van jou alleen.",
-  "privacy_intro": "Alles blijft op je iPhone en in je eigen iCloud. Geen account, geen server, niets wordt verkocht. Alleen jij bepaalt wie je ritten ziet.",
+  "privacy_intro": "Je locatie blijft op je iPhone en in je eigen iCloud. Geen account, geen server, niets wordt verkocht. Alleen jij bepaalt wie je ritten ziet.",
   "privacy_stat_label": "Servers met jouw locatie",
   "privacy_point1": "Hierdoor kan DropLane de kilometers opnemen. Je locatiegeschiedenis verlaat je iPhone nooit.",
   "privacy_point2": "iCloud-reservekopie en -herstel, geen account nodig",
@@ -327,13 +301,52 @@
   "setup_shot_vehicle": "Waar rij je in?",
   "pocket_h3": "Meldingen",
   "pocket_body": "Met ‘Altijd’ worden ritten ook opgenomen als de app gesloten is.",
-  "pocket_live_alt": "Rit gedetecteerd — opname loopt",
-  "pocket_live_body": "Terwijl je rijdt, laat een Live Activiteit de kilometers zien op je vergrendelscherm — je ziet de rit opgenomen worden zonder iets te ontgrendelen.",
+  "pocket_live_alt": "Live activiteit op het vergrendelscherm: opname, 86,1 km, 2:47:22 onderweg, knoppen om te sorteren en een rode stopknop",
+  "pocket_live_body": "Terwijl je rijdt, laat een Live activiteit de kilometers oplopen op je vergrendelscherm — zo zie je dat de rit wordt opgenomen, zonder iets te ontgrendelen.",
   "hero_trial": "14 dagen gratis",
   "hero_trial_then": "daarna {price} per maand",
   "compare_them": "Kilometer-apps vertellen je hoe ver je reed.",
   "compare_us": "DropLane vertelt je wat je er echt aan overhield.",
   "fact_currency": "Elke valuta",
   "fact_private": "Data blijft op je telefoon",
-  "fact_private_value": "Privé"
+  "fact_private_value": "Privé",
+  "hero_support": "14 dagen gratis · Geen account · Altijd opzegbaar",
+  "trust": [
+    "Legt ritten vanzelf vast",
+    "Je locatie blijft op je iPhone",
+    "Door een koerier met 10+ jaar op de weg",
+    "46 talen, elke valuta"
+  ],
+  "outcomes_label": "Drie getallen die DropLane klaar heeft voordat je thuis bent",
+  "outcomes": [
+    {
+      "file": "today",
+      "title": "Wat ik vandaag verdiend heb",
+      "alt": "Het Vandaag-scherm: een rit die wordt opgenomen op de kaart van Rotterdam, en vandaag € 99,41 verdiend: € 119,72 omzet min € 20,31 kosten."
+    },
+    {
+      "file": "day",
+      "title": "Wat ik na de kosten echt overhoud",
+      "alt": "De pagina van een dag: € 99,41 winst van de dag over 74,3 km, de dag op de kaart en de afstand per soort: 32,2 km zakelijk, 42,1 km nog te sorteren."
+    },
+    {
+      "file": "insights",
+      "title": "Wat ik echt per uur verdien",
+      "alt": "Het Inzichten-scherm: € 75,18 winst na vaste kosten, € 12,22 per uur, € 3,09 per km, 6 u 9 min onderweg."
+    }
+  ],
+  "hero_trial_then_plans": "daarna {year} per jaar of {month} per maand",
+  "money_punch2": "Meer rijden betekent niet altijd meer verdienen.",
+  "setup_h3": "Zo werkt het instellen",
+  "features_also": "Hij houdt ook je bus in de gaten: onderhoudsbeurten, banden en reparaties vastgelegd met een foto van de factuur, herinneringen voor APK en onderhoud, waarbij het onderhoud ook in kilometers aftelt, en de kosten van je tankpas uitgerekend op de dag dat je tankt. En hij spreekt 46 talen, met het geld in jouw valuta.",
+  "faq_home": [
+    "Moet ik op start drukken?",
+    "Komt mijn routegeschiedenis ergens terecht?",
+    "Werkt het waar geen bereik is?",
+    "Ik rijd op de fiets, niet in een bus.",
+    "En als ik stop met betalen, ben ik mijn gegevens kwijt?"
+  ],
+  "faq_all": "Bekijk alle vragen →",
+  "faq_page_title": "Vragen die koeriers echt stellen — DropLane",
+  "faq_meta_description": "Vragen die koeriers over DropLane stellen, beantwoord door de koerier die hem bouwde: opnemen, batterij, privacy, bereik en wat er gebeurt als je opzegt."
 }

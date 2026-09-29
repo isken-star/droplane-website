@@ -93,7 +93,7 @@
      reader. Swap this one tag to change provider; site.js does not care. -->
 <script src="https://cdn.usefathom.com/script.js" data-site="VHXQRPBR" defer></script>
 </head>
-<body>
+<body class="lean">
 
 <header class="site-head">
   <div class="wrap head-row">
@@ -103,8 +103,6 @@
       <a href="#money">Skutečný výdělek</a>
       <a href="#how">Jak to funguje</a>
       <a href="#features">Funkce</a>
-      <a href="#screens">Obrazovky</a>
-      <a href="#countries">Země</a>
       <a href="#pricing">Cena</a>
       <a href="/support/">Podpora</a>
     </nav>
@@ -186,7 +184,7 @@
         <li><a href="/ae/" hreflang="ar" data-suggest="اقرأ بالعربية" data-flag="🇦🇪"><span class="flag">🇦🇪</span> العربية</a></li>
         <li><a href="/ur/" hreflang="ur" data-suggest="اردو میں پڑھیں" data-flag="🇮🇳"><span class="flag">🇮🇳</span> اردو</a></li>
       </ul>
-      <p class="lang-panel-note">Aplikace sama mluví 46 jazyky — zbytek se sem teprve chystá.</p>
+      <p class="lang-panel-note">Aplikace mluví všemi 46 jazyky — každá obrazovka, každé oznámení, každé PDF.</p>
     </div>
   </div>
 
@@ -196,14 +194,11 @@
         <a href="#money">Skutečný výdělek</a>
         <a href="#how">Jak to funguje</a>
         <a href="#features">Funkce</a>
-        <a href="#screens">Obrazovky</a>
-        <a href="#countries">Země</a>
-        <a href="#languages">Jazyky</a>
         <a href="#pricing">Cena</a>
         <a href="#faq">Otázky</a>
         <a href="/support/">Podpora</a>
       </nav>
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-menu&amp;mt=8" data-place="menu">Stáhnout DropLane</a>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-menu&amp;mt=8" data-place="menu">Začni 14 dní zdarma</a>
     </div>
   </div>
 </header>
@@ -220,26 +215,22 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="kicker">Kilometry, výdělky a výdaje automaticky — pro každého, kdo jezdí kvůli práci</p>
-      <span class="eyebrow" id="detected"><span class="eyebrow-flag">🇨🇿</span><b data-region="CZ">Czechia</b><span class="eyebrow-trial">14 dní zdarma</span><span class="eyebrow-cost">poté 149 Kč měsíčně</span><a href="#pricing">zobrazit vše</a></span>
+      <p class="kicker">Kilometry automaticky · Skutečný zisk · Skutečná hodinovka</p>
       <h1>Věz, kolik sis doopravdy vydělal za den.</h1>
-      <p class="lede">Nastartuj dodávku. To je celé. DropLane zaznamená každou jízdu i skutečně projetou trasu, odečte náklady od tržeb a skutečnou hodinovku máš spočítanou dřív, než přijedeš domů.</p>
+      <p class="lede">DropLane sám zaznamená každou jízdu, odečte náklady a ukáže, kolik sis doopravdy vydělal.</p>
       <!-- While the app is coming soon the loud button is the launch list, not
            the price: the eyebrow above already carries the price and links to
            the table. On launch day it becomes Apple's badge on its own —
            set "launched" in _build/site.json and rebuild. -->
       <div class="cta-row">
-        <a class="store-badge" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-hero&amp;mt=8" data-place="hero"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="174" height="58"></a>
-        <a class="btn-ghost" href="#how">Jak to funguje</a>
+        <a class="btn btn-hero" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-hero&amp;mt=8" data-place="hero"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Začni 14 dní zdarma</a>
       </div>
-      <a class="android-soon" href="mailto:help@droplane.co.uk?subject=DropLane%20for%20Android" title="Android je na cestě. Napiš nám a dáme ti vědět, až vyjde.">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 9.5l1.7-2.9a.35.35 0 0 0-.6-.35l-1.75 3A9.9 9.9 0 0 0 12 8.2a9.9 9.9 0 0 0-4.95 1.05l-1.75-3a.35.35 0 0 0-.6.35l1.7 2.9A9.4 9.4 0 0 0 2 17.3h20a9.4 9.4 0 0 0-4.4-7.8zM7.6 14.4a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9zm8.8 0a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9z"/></svg>
-        <span>Android</span><b>Už brzy</b>
-      </a>
-      <ul class="hero-facts">
-        <li><b>46</b><span>Jazyky</span></li>
-        <li><b class="signs">£ € $ ₹ ¥</b><span>Každá měna</span></li>
-        <li><b>Soukromé</b><span>Data zůstávají v telefonu</span></li>
+      <p class="hero-support">14 dní zdarma · Bez účtu · Kdykoli zrušíš <a class="hero-how" href="#how">Podívej se, jak to funguje ↓</a></p>
+      <ul class="trust">
+        <li>Jízdy zaznamenává sám</li>
+        <li>Poloha zůstává v iPhonu</li>
+        <li>Od kurýra s víc než 10 lety za volantem</li>
+        <li>46 jazyků, každá měna</li>
       </ul>
     </div>
 
@@ -252,10 +243,39 @@
       </div>
       <div class="device device-front">
         <div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/today.webp" width="640" height="1391" alt="Obrazovka Dnes v DropLane: jízda se nahrává na mapě, s denní vzdáleností, hodinami a tržbami." loading="eager">
-          <img class="only-light" src="/assets/screens/cs/light/today.webp" width="640" height="1391" alt="Obrazovka Dnes v DropLane: jízda se nahrává na mapě, s denní vzdáleností, hodinami a tržbami." loading="eager">
+          <img class="only-dark" src="/assets/screens/cs/dark/today.webp" width="640" height="1391" alt="Obrazovka Dnes v DropLane: jízda se zaznamenává na mapě, s denní vzdáleností, hodinami a tržbami." loading="eager">
+          <img class="only-light" src="/assets/screens/cs/light/today.webp" width="640" height="1391" alt="Obrazovka Dnes v DropLane: jízda se zaznamenává na mapě, s denní vzdáleností, hodinami a tržbami." loading="eager">
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- The three numbers the page is about, as the app shows them. -->
+<section class="outcomes" aria-label="Tři čísla, která ti DropLane připraví, než dorazíš domů">
+  <div class="wrap">
+    <div class="rail outcomes-rail">
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/cs/dark/today.webp" width="640" height="1391" alt="Obrazovka Dnes: záznam jízdy na mapě Prahy (zatím 101 km) a dnes vyděláno 2 232,80 Kč — 2 624,00 Kč tržeb minus 391,20 Kč výdajů." loading="lazy">
+          <img class="only-light" src="/assets/screens/cs/light/today.webp" width="640" height="1391" alt="Obrazovka Dnes: záznam jízdy na mapě Prahy (zatím 101 km) a dnes vyděláno 2 232,80 Kč — 2 624,00 Kč tržeb minus 391,20 Kč výdajů." loading="lazy">
+        </div></div>
+        <figcaption><b>Kolik jsem dnes vydělal</b></figcaption>
+      </figure>
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/cs/dark/day.webp" width="640" height="1391" alt="Stránka dne: zisk za den 2 232,80 Kč (2 624,00 Kč vyděláno, 391,20 Kč utraceno, 80,5 km), den na mapě Prahy a vzdálenost podle typu jízdy." loading="lazy">
+          <img class="only-light" src="/assets/screens/cs/light/day.webp" width="640" height="1391" alt="Stránka dne: zisk za den 2 232,80 Kč (2 624,00 Kč vyděláno, 391,20 Kč utraceno, 80,5 km), den na mapě Prahy a vzdálenost podle typu jízdy." loading="lazy">
+        </div></div>
+        <figcaption><b>Kolik mi po nákladech doopravdy zbylo</b></figcaption>
+      </figure>
+      <figure class="shot outcome">
+        <div class="device"><div class="device-screen">
+          <img class="only-dark" src="/assets/screens/cs/dark/insights.webp" width="640" height="1391" alt="Obrazovka Přehledy: 1 665,11 Kč zisku po pravidelných výdajích, 266,42 Kč za hodinu, 63,06 Kč za kilometr, 6 h 15 min na cestě." loading="lazy">
+          <img class="only-light" src="/assets/screens/cs/light/insights.webp" width="640" height="1391" alt="Obrazovka Přehledy: 1 665,11 Kč zisku po pravidelných výdajích, 266,42 Kč za hodinu, 63,06 Kč za kilometr, 6 h 15 min na cestě." loading="lazy">
+        </div></div>
+        <figcaption><b>Moje skutečná hodinovka</b></figcaption>
+      </figure>
     </div>
   </div>
 </section>
@@ -273,17 +293,12 @@
      a courier's own words are worth more than a translation of them. -->
 <section class="quotes" aria-labelledby="quotes-h">
   <div class="wrap">
-    <h2 class="quotes-h" id="quotes-h">Co říkají kurýři v App Storu</h2>
+    <h2 class="quotes-h" id="quotes-h">Z britského App Storu</h2>
     <div class="quote-grid">
       <figure class="quote">
         <span class="stars" aria-label="5/5">★★★★★</span>
         <blockquote lang="en">Just found this app in the store. Fantastic app for me as a self employed courier. Tells me exactly how much I&#x27;ve really earnt per job. I like how its linked to maps</blockquote>
         <figcaption>greatwhite surfer · App Store</figcaption>
-      </figure>
-      <figure class="quote">
-        <span class="stars" aria-label="5/5">★★★★★</span>
-        <blockquote lang="en">You open it up once and it records all my data i need</blockquote>
-        <figcaption>Kami.ya · App Store</figcaption>
       </figure>
     </div>
   </div>
@@ -292,84 +307,27 @@
 <section class="band" id="money">
   <div class="wrap">
     <h2>Dva dny. Víc kilometrů. Míň peněz.</h2>
-    <p class="section-intro">Úterý: 126 kilometrů, tři jízdy. Včera: 80,5 kilometru, dvě jízdy. Běžná aplikace na kilometry ti řekne, že úterý byl plnější den — a má pravdu. Jenže z úterý zbylo 2 098 Kč a ze včerejška 2 505 Kč.</p>
 
     <div class="twodays">
       <div class="twoday">
-        <p class="twoday-when">úterý 25. srpna</p>
-        <dl>
-          <div><dt>Na cestě</dt><dd>126 km</dd></div>
-          <div><dt>Jízdy</dt><dd>3 jízdy</dd></div>
-        </dl>
-        <p class="twoday-money"><span>Zbylo</span><b>2 098,30 Kč</b></p>
+        <p class="twoday-when">úterý</p>
+        <p class="twoday-miles">126 km</p>
+        <p class="twoday-money"><b>2 098,30 Kč</b><span>zbylo</span></p>
       </div>
       <div class="twoday">
         <p class="twoday-when">Včera</p>
-        <dl>
-          <div><dt>Na cestě</dt><dd>80,5 km</dd></div>
-          <div><dt>Jízdy</dt><dd>2 jízdy</dd></div>
-        </dl>
-        <p class="twoday-money"><span>Zbylo</span><b>2 504,80 Kč</b></p>
+        <p class="twoday-miles">80,5 km</p>
+        <p class="twoday-money"><b>2 504,80 Kč</b><span>zbylo</span></p>
       </div>
     </div>
 
-    <p class="twodays-punch">O 45,5 kilometru víc. O 406,50 Kč míň.</p>
-    <p class="versus-note">Spočítat kilometry je to snadné. Samy o sobě ti ale moc neřeknou. Který den se doopravdy vyplatil, je ve druhém sloupci — a právě ten za tebe DropLane vyplní, ještě týž den a bez jediné poznámky.</p>
+    <p class="twodays-punch">O 45,5 km víc. O 406,50 Kč míň.</p>
+    <p class="twodays-punch2">Víc jezdit neznamená vždycky víc vydělat.</p>
+    <p class="versus-note">Kilometry ti řeknou, kolik jsi najel. DropLane ti řekne, jestli se to vyplatilo.</p>
   </div>
 </section>
 
-<section id="day">
-  <div class="wrap">
-    <h2>Kolik sis doopravdy vydělal za den</h2>
-    <p class="section-intro">2 624 Kč zní jako dobrý den. Jenže po odečtení paliva a parkování a rozpočítání na 6 h 15 min na cestě vyjde 266,42 Kč za hodinu. Přesně tohle číslo DropLane spočítá sám, hned po skončení dne.</p>
 
-    <div class="theatre">
-      <div class="films">
-        <figure class="film">
-          <div class="device"><div class="device-screen">
-            <img class="only-dark" src="/assets/screens/cs/dark/today.webp" width="640" height="1391" alt="Všechno spočítané automaticky — Dvě jízdy a 2 232,80 Kč, které zbyly po odečtení nákladů. Nic se nepsalo ručně." loading="lazy">
-            <img class="only-light" src="/assets/screens/cs/light/today.webp" width="640" height="1391" alt="Všechno spočítané automaticky — Dvě jízdy a 2 232,80 Kč, které zbyly po odečtení nákladů. Nic se nepsalo ručně." loading="lazy">
-          </div></div>
-          <figcaption><b>Všechno spočítané automaticky</b>Dvě jízdy a 2 232,80 Kč, které zbyly po odečtení nákladů. Nic se nepsalo ručně.</figcaption>
-        </figure>
-        <figure class="film">
-          <div class="device"><div class="device-screen">
-            <img class="only-dark" src="/assets/screens/cs/dark/report.webp" width="640" height="1391" alt="Report se vytvoří sám — Zaškrtni, co se má zahrnout, vyber na výšku nebo na šířku — a PDF pro účetní je připravené k odeslání." loading="lazy">
-            <img class="only-light" src="/assets/screens/cs/light/report.webp" width="640" height="1391" alt="Report se vytvoří sám — Zaškrtni, co se má zahrnout, vyber na výšku nebo na šířku — a PDF pro účetní je připravené k odeslání." loading="lazy">
-          </div></div>
-          <figcaption><b>Report se vytvoří sám</b>Zaškrtni, co se má zahrnout, vyber na výšku nebo na šířku — a PDF pro účetní je připravené k odeslání.</figcaption>
-        </figure>
-        <figure class="film">
-          <div class="device"><div class="device-screen">
-            <img class="only-dark" src="/assets/screens/cs/dark/insights.webp" width="640" height="1391" alt="A tvoje skutečná hodinovka — 266,42 Kč za hodinu po nákladech a hned vedle náhrada za kilometry." loading="lazy">
-            <img class="only-light" src="/assets/screens/cs/light/insights.webp" width="640" height="1391" alt="A tvoje skutečná hodinovka — 266,42 Kč za hodinu po nákladech a hned vedle náhrada za kilometry." loading="lazy">
-          </div></div>
-          <figcaption><b>A tvoje skutečná hodinovka</b>266,42 Kč za hodinu po nákladech a hned vedle náhrada za kilometry.</figcaption>
-        </figure>
-      </div>
-
-      <div class="tally">
-        <p class="tally-lead">Jeden den, z obrazovek nahoře</p>
-        <div class="sum">
-          <div class="sum-item"><span>Vyděláno</span><b>2 624,00 Kč</b></div>
-          <span class="sum-op" aria-hidden="true">&minus;</span>
-          <div class="sum-item"><span>Náklady</span><b class="is-cost">391,20 Kč</b></div>
-          <span class="sum-op" aria-hidden="true">=</span>
-          <div class="sum-item"><span>Zbylo</span><b class="is-keep">2 232,80 Kč</b></div>
-        </div>
-        <ul class="rates">
-          <li class="rate-big"><b>266,42 Kč</b><span>za hodinu</span></li>
-          <li><b>6 h 15 min</b><span>na cestě</span></li>
-        </ul>
-        <p class="tally-note">Čísla jednoho dne, přímo z obrazovek výše. Tvoje budou jiná — jde o to mít je týž den v autě, a ne je zjišťovat až na jaře.</p>
-      </div>
-    </div>
-    <div class="cta-mid">
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-day&amp;mt=8" data-place="day"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Stáhnout DropLane</a>
-      <span class="cta-note">14 dní zdarma · poté 149 Kč měsíčně</span>
-    </div>
-  </div>
-</section>
 
 <section class="band" id="how">
   <div class="wrap">
@@ -394,474 +352,9 @@
       </div>
     </div>
 
-    <!-- And then the phone goes in a pocket. These are the only pictures on
-         the page taken with the app shut: the lock screen, doing the job on
-         its own — the notifications telling the story afterwards, and the
-         Live Activity showing the drive being recorded right now. All the
-         lines are the app's own words. -->
-    <div class="pocket">
-      <figure class="pocket-phone">
-        <div class="device">
-          <div class="device-screen">
-            <img class="only-dark" src="/assets/screens/cs/dark/notifications.webp" width="640" height="1391" alt="Oznámení" loading="lazy">
-            <img class="only-light" src="/assets/screens/cs/light/notifications.webp" width="640" height="1391" alt="Oznámení" loading="lazy">
-          </div>
-        </div>
-      </figure>
-      <figure class="pocket-phone">
-        <div class="device">
-          <div class="device-screen">
-            <img class="only-dark" src="/assets/screens/cs/dark/live-activity.webp" width="640" height="1391" alt="Zjištěna jízda — nahrává se" loading="lazy">
-            <img class="only-light" src="/assets/screens/cs/light/live-activity.webp" width="640" height="1391" alt="Zjištěna jízda — nahrává se" loading="lazy">
-          </div>
-        </div>
-      </figure>
-      <div class="pocket-words">
-        <h3>Oznámení</h3>
-        <p>„Vždy“ umožní zaznamenávat jízdy i se zavřenou aplikací.</p>
-        <p class="pocket-live">Když jedeš, Živá aktivita ukazuje kilometry na zamčené obrazovce — vidíš, že se jízda nahrává, aniž bys cokoli odemykal.</p>
-      </div>
-    </div>
-
-    <div class="proof" id="report">
-      <div class="proof-words">
-        <h3>Report na výšku, nebo na šířku</h3>
-        <p>Pak se historie jízd tvoří sama. Vybereš týden, měsíc nebo vlastní data, zaškrtneš, co se má zahrnout, a PDF pro účetní je na jedno klepnutí — postavené z jízd, které jsi nikdy nemusel zapisovat.</p>
-        <p class="proof-note">Tohle je samotné PDF, ne obrázek přepínačů, které ho staví. Vyber formát, který sedne tomu, kdo to bude číst — na výšku do šanonu, na šířku, když tabulka jízd potřebuje místo — a přestaví se tak i tak.</p>
-      </div>
-
-      <div class="proof-output">
-        <figure class="proof-item proof-phone">
-          <div class="device">
-            <div class="device-screen">
-              <img class="only-dark" src="/assets/screens/cs/dark/report.webp" width="640" height="1391" alt="Karta reportu: přepínače pro jízdy, výdělky, náklady a fotky účtenek, a pak PDF." loading="lazy">
-              <img class="only-light" src="/assets/screens/cs/light/report.webp" width="640" height="1391" alt="Karta reportu: přepínače pro jízdy, výdělky, náklady a fotky účtenek, a pak PDF." loading="lazy">
-            </div>
-          </div>
-          <figcaption>Co se zahrne</figcaption>
-        </figure>
-
-        <figure class="proof-item">
-          <button class="paper-zoom" type="button" data-zoom="/assets/screens/cs/paper/report-portrait-1.webp" data-zoom-label="Na výšku" aria-label="Zvětšit — Na výšku">
-            <img src="/assets/screens/cs/paper/report-portrait-1.webp" width="760" height="1075" alt="První strana reportu DropLane na výšku: hlavička, součty za období, výdělky a výdaje a náhrada za kilometry." loading="lazy">
-            <span class="paper-zoom-hint" aria-hidden="true">Zvětšit</span>
-          </button>
-          <figcaption>Na výšku</figcaption>
-        </figure>
-
-        <figure class="proof-item proof-item-wide">
-          <button class="paper-zoom" type="button" data-zoom="/assets/screens/cs/paper/report-landscape-2.webp" data-zoom-label="Na šířku" aria-label="Zvětšit — Na šířku">
-            <img src="/assets/screens/cs/paper/report-landscape-2.webp" width="1100" height="778" alt="První strana reportu DropLane na šířku, se širší tabulkou jízd." loading="lazy">
-            <span class="paper-zoom-hint" aria-hidden="true">Zvětšit</span>
-          </button>
-          <figcaption>Na šířku</figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Privacy sits above "what it actually does" on purpose: it is the thing
-     that separates DropLane from every other mileage app, and a courier
-     handing over a month of their movements wants it answered early. Every
-     line here is the app's own onboarding copy, already translated. -->
-<section id="privacy">
-  <div class="wrap">
-    <h2>Tvoje data. Jen tvoje.</h2>
-    <p class="section-intro">Všechno zůstává v tvém iPhonu a v tvém vlastním iCloudu. Žádný účet, žádný server, nic se neprodává. Jen ty rozhoduješ, kdo tvé jízdy uvidí.</p>
-
-    <div class="keeps">
-      <div class="keeps-words">
-        <p class="keeps-stat"><b>0</b><span>Serverů s tvojí polohou</span></p>
-        <ul class="keeps-list">
-          <li>Právě tohle umožňuje DropLane zaznamenávat kilometry. Historie tvé polohy nikdy neopustí tvůj iPhone.</li>
-          <li>Záloha a obnovení přes iCloud, bez účtu</li>
-          <li>Export CSV pro tvou evidenci</li>
-        </ul>
-      </div>
-
-      <figure class="keeps-phone">
-        <div class="device">
-          <div class="device-screen">
-            <img class="only-dark" src="/assets/screens/cs/dark/onboarding-privacy.webp" width="640" height="1391" alt="Tvoje data. Jen tvoje." loading="lazy">
-            <img class="only-light" src="/assets/screens/cs/light/onboarding-privacy.webp" width="640" height="1391" alt="Tvoje data. Jen tvoje." loading="lazy">
-          </div>
-        </div>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<section id="features">
-  <div class="wrap">
-    <h2>Co DropLane doopravdy umí</h2>
-    <p class="section-intro">Postavil ji kurýr s deseti lety na silnici, pro práci takovou, jaká doopravdy je.</p>
-    <div class="cards">
-      <div class="card">
-        <span class="icon">💷</span>
-        <h3>Kolik sis doopravdy vydělal za den</h3>
-        <p>Od tržeb se odečte palivo a další náklady a dole zůstane, co ti doopravdy zbylo — za den, za týden, za měsíc.</p>
-      </div>
-      <div class="card">
-        <span class="icon">⛽</span>
-        <h3>Tvoje skutečná hodinovka</h3>
-        <p>Palivo, splátka a pojištění se rozpočítají na dny, kdy jezdíš, aby hodinovka byla ta skutečná.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🛣️</span>
-        <h3>Kilometry bez sáhnutí na telefon</h3>
-        <p>Jízdy se zaznamenávají na pozadí, od chvíle, kdy se rozjedeš, po chvíli, kdy zaparkuješ.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🧾</span>
-        <h3>Kniha jízd pro účetní</h3>
-        <p>PDF s každou jízdou, její trasou a datem. Sazby za kilometr pro sedmnáct zemí jsou vestavěné.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🅿️</span>
-        <h3>Zastávky a čekání</h3>
-        <p>Uvidíš, jak dlouho jsi stál na každé adrese nebo v depu, aniž bys cokoli zapisoval.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🔒</span>
-        <h3>Z telefonu nic neodchází</h3>
-        <p>Žádný účet, žádné sledování, žádné reklamy. Historie tvých tras je tvoje a zálohuje se jen do tvého iCloudu.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🔔</span>
-        <h3>Termíny</h3>
-        <p>Zadej stav tachometru jednou a DropLane ho dál dopočítává ze zaznamenaných kilometrů — připomínky servisu a STK tak můžou odpočítávat v kilometrech, ne jen v datech.</p>
-      </div>
-      <div class="card">
-        <span class="icon">🔧</span>
-        <h3>Tvoje vozidlo</h3>
-        <p>Zapisuj sem servisy, pneumatiky a opravy — s přiloženou fotkou faktury máš celou servisní historii v kapse.</p>
-      </div>
-      <div class="card">
-        <span class="icon">💳</span>
-        <h3>Tankovací karta</h3>
-        <p>Nastav cenu za litr z tvé karty. Při tankování zapiš litry a DropLane dopočítá náklady.</p>
-      </div>
-    </div>
-    <div class="cta-mid">
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Stáhnout DropLane</a>
-      <span class="cta-note">14 dní zdarma · poté 149 Kč měsíčně</span>
-    </div>
-  </div>
-</section>
-
-<section class="band" id="screens">
-  <div class="wrap">
-    <h2>Celá aplikace — ve světlém i tmavém motivu</h2>
-    <p class="section-intro">Skutečné obrazovky z měsíce skutečné práce. Přepni přepínač nahoře a každá se přepne s ním.</p>
-  </div>
-  <div class="wrap">
-    <div class="rail">
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/today.webp" width="640" height="1391" alt="Dnes — Zatímco se kola ještě točí." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/today.webp" width="640" height="1391" alt="Dnes — Zatímco se kola ještě točí." loading="lazy">
-        </div></div>
-        <figcaption><b>Dnes</b>Zatímco se kola ještě točí.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/day.webp" width="640" height="1391" alt="Den na mapě — Každá barva je jedna jízda." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/day.webp" width="640" height="1391" alt="Den na mapě — Každá barva je jedna jízda." loading="lazy">
-        </div></div>
-        <figcaption><b>Den na mapě</b>Každá barva je jedna jízda.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/trip.webp" width="640" height="1391" alt="Jedna jízda — Časy, zastávky a jaké to byly kilometry." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/trip.webp" width="640" height="1391" alt="Jedna jízda — Časy, zastávky a jaké to byly kilometry." loading="lazy">
-        </div></div>
-        <figcaption><b>Jedna jízda</b>Časy, zastávky a jaké to byly kilometry.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/trip-sort.webp" width="640" height="1391" alt="Typ jízdy — Pracovní, prázdná, k vyzvednutí nebo soukromá." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/trip-sort.webp" width="640" height="1391" alt="Typ jízdy — Pracovní, prázdná, k vyzvednutí nebo soukromá." loading="lazy">
-        </div></div>
-        <figcaption><b>Typ jízdy</b>Pracovní, prázdná, k vyzvednutí nebo soukromá.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/days.webp" width="640" height="1391" alt="Dny — Každý den, už sečtený." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/days.webp" width="640" height="1391" alt="Dny — Každý den, už sečtený." loading="lazy">
-        </div></div>
-        <figcaption><b>Dny</b>Každý den, už sečtený.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/stats.webp" width="640" height="1391" alt="Statistiky — Týden v jasných číslech." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/stats.webp" width="640" height="1391" alt="Statistiky — Týden v jasných číslech." loading="lazy">
-        </div></div>
-        <figcaption><b>Statistiky</b>Týden v jasných číslech.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/insights.webp" width="640" height="1391" alt="Přehledy — Skutečný výdělek za hodinu i za kilometr." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/insights.webp" width="640" height="1391" alt="Přehledy — Skutečný výdělek za hodinu i za kilometr." loading="lazy">
-        </div></div>
-        <figcaption><b>Přehledy</b>Skutečný výdělek za hodinu i za kilometr.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/insights-tax.webp" width="640" height="1391" alt="Daně — Náhrada za kilometry za období." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/insights-tax.webp" width="640" height="1391" alt="Daně — Náhrada za kilometry za období." loading="lazy">
-        </div></div>
-        <figcaption><b>Daně</b>Náhrada za kilometry za období.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/report.webp" width="640" height="1391" alt="PDF — Postavené tak, jak to chce účetní." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/report.webp" width="640" height="1391" alt="PDF — Postavené tak, jak to chce účetní." loading="lazy">
-        </div></div>
-        <figcaption><b>PDF</b>Postavené tak, jak to chce účetní.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/expense.webp" width="640" height="1391" alt="Náklady — Palivo, jídlo, parkování, mýto." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/expense.webp" width="640" height="1391" alt="Náklady — Palivo, jídlo, parkování, mýto." loading="lazy">
-        </div></div>
-        <figcaption><b>Náklady</b>Palivo, jídlo, parkování, mýto.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/vehicle.webp" width="640" height="1391" alt="Vozidlo — STK, silniční daň a pojištění — než ti vyprší." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/vehicle.webp" width="640" height="1391" alt="Vozidlo — STK, silniční daň a pojištění — než ti vyprší." loading="lazy">
-        </div></div>
-        <figcaption><b>Vozidlo</b>STK, silniční daň a pojištění — než ti vyprší.</figcaption>
-      </figure>
-      <figure class="shot">
-        <div class="device"><div class="device-screen">
-          <img class="only-dark" src="/assets/screens/cs/dark/settings.webp" width="640" height="1391" alt="Nastavení — Kilometry, nebo míle. Světlý, nebo tmavý motiv." loading="lazy">
-          <img class="only-light" src="/assets/screens/cs/light/settings.webp" width="640" height="1391" alt="Nastavení — Kilometry, nebo míle. Světlý, nebo tmavý motiv." loading="lazy">
-        </div></div>
-        <figcaption><b>Nastavení</b>Kilometry, nebo míle. Světlý, nebo tmavý motiv.</figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<section id="countries">
-  <div class="wrap">
-    <h2>Země s vestavěnými sazbami</h2>
-    <p class="section-intro">Aplikace funguje kdekoli. V těchhle zemích navíc zná sazbu za kilometr, kterou finanční úřad uznává, a to, jak se u tebe jmenují papíry k vozidlu.</p>
-    <ul class="chips">
-      <li><span class="flag">🇬🇧</span> <span data-region="GB">United Kingdom</span> <span class="rate">55p/mi</span></li>
-      <li><span class="flag">🇺🇸</span> <span data-region="US">United States</span> <span class="rate">76¢/mi</span></li>
-      <li><span class="flag">🇨🇦</span> <span data-region="CA">Canada</span> <span class="rate">73¢/km</span></li>
-      <li><span class="flag">🇦🇺</span> <span data-region="AU">Australia</span> <span class="rate">91¢/km</span></li>
-      <li><span class="flag">🇩🇪</span> <span data-region="DE">Germany</span> <span class="rate">30c/km</span></li>
-      <li><span class="flag">🇳🇱</span> <span data-region="NL">Netherlands</span> <span class="rate">25c/km</span></li>
-      <li><span class="flag">🇧🇪</span> <span data-region="BE">Belgium</span> <span class="rate">47.61c/km</span></li>
-      <li><span class="flag">🇦🇹</span> <span data-region="AT">Austria</span> <span class="rate">50c/km</span></li>
-      <li><span class="flag">🇵🇹</span> <span data-region="PT">Portugal</span> <span class="rate">40c/km</span></li>
-      <li><span class="flag">🇵🇱</span> <span data-region="PL">Poland</span> <span class="rate">1.15 zł/km</span></li>
-      <li><span class="flag">🇨🇿</span> <span data-region="CZ">Czechia</span> <span class="rate">5.90 Kč/km</span></li>
-      <li><span class="flag">🇸🇰</span> <span data-region="SK">Slovakia</span> <span class="rate">31.3c/km</span></li>
-      <li><span class="flag">🇭🇺</span> <span data-region="HU">Hungary</span> <span class="rate">15 Ft/km</span></li>
-      <li><span class="flag">🇸🇪</span> <span data-region="SE">Sweden</span> <span class="rate">25 kr/mil</span></li>
-      <li><span class="flag">🇳🇴</span> <span data-region="NO">Norway</span> <span class="rate">3.50 kr/km</span></li>
-      <li><span class="flag">🇩🇰</span> <span data-region="DK">Denmark</span> <span class="rate">3.94 kr/km</span></li>
-      <li><span class="flag">🇫🇮</span> <span data-region="FI">Finland</span> <span class="rate">55c/km</span></li>
-    </ul>
-    <h3 class="chips-h3">Tady aplikace zná doklady; sazbu si zadáš sám</h3>
-    <ul class="chips">
-      <li><span class="flag">🇮🇪</span> <span data-region="IE">Ireland</span></li>
-      <li><span class="flag">🇷🇴</span> <span data-region="RO">Romania</span></li>
-      <li><span class="flag">🇧🇬</span> <span data-region="BG">Bulgaria</span></li>
-      <li><span class="flag">🇬🇷</span> <span data-region="GR">Greece</span></li>
-      <li><span class="flag">🇱🇹</span> <span data-region="LT">Lithuania</span></li>
-      <li><span class="flag">🇱🇻</span> <span data-region="LV">Latvia</span></li>
-      <li><span class="flag">🇹🇷</span> <span data-region="TR">Turkey</span></li>
-      <li><span class="flag">🇺🇦</span> <span data-region="UA">Ukraine</span></li>
-    </ul>
-    <p class="section-intro" style="margin:26px 0 0">Tvoje země tu není? Zadej sazbu, kterou uznává tvůj finanční úřad, a zbytek udělá DropLane.</p>
-  </div>
-</section>
-
-<section class="band" id="languages">
-  <div class="wrap split">
-    <div>
-      <h2>Čti ji ve svém jazyce</h2>
-      <p class="section-intro">Celá aplikace — každá obrazovka, každé oznámení, reporty — ne jen tahle stránka. A peníze zůstávají v tvé měně, ať ji čteš v jakémkoli jazyce.</p>
-      <ul class="langgrid">
-        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
-        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
-        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
-        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
-        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
-        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
-        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
-        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
-        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
-        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
-        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
-        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
-        <li><a href="/cz/" hreflang="cs" aria-current="true" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
-        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
-        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
-        <li><a href="/gr/" hreflang="el" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
-        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
-        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
-        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
-        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
-        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
-        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
-        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
-        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
-        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
-        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
-        <li><a href="/jp/" hreflang="ja" data-suggest="日本語で読む" data-flag="🇯🇵"><span class="flag">🇯🇵</span> 日本語</a></li>
-        <li><a href="/kr/" hreflang="ko" data-suggest="한국어로 읽기" data-flag="🇰🇷"><span class="flag">🇰🇷</span> 한국어</a></li>
-        <li><a href="/sg/" hreflang="zh-Hans" data-suggest="用简体中文阅读" data-flag="🇸🇬"><span class="flag">🇸🇬</span> 简体中文</a></li>
-        <li><a href="/tw/" hreflang="zh-Hant" data-suggest="用繁體中文閱讀" data-flag="🇹🇼"><span class="flag">🇹🇼</span> 繁體中文</a></li>
-        <li><a href="/in/" hreflang="hi" data-suggest="हिन्दी में पढ़ें" data-flag="🇮🇳"><span class="flag">🇮🇳</span> हिन्दी</a></li>
-        <li><a href="/id/" hreflang="id" data-suggest="Baca dalam bahasa Indonesia" data-flag="🇮🇩"><span class="flag">🇮🇩</span> Bahasa Indonesia</a></li>
-        <li><a href="/vn/" hreflang="vi" data-suggest="Đọc bằng tiếng Việt" data-flag="🇻🇳"><span class="flag">🇻🇳</span> Tiếng Việt</a></li>
-        <li><a href="/th/" hreflang="th" data-suggest="อ่านเป็นภาษาไทย" data-flag="🇹🇭"><span class="flag">🇹🇭</span> ไทย</a></li>
-        <li><a href="/hr/" hreflang="hr" data-suggest="Čitaj na hrvatskom" data-flag="🇭🇷"><span class="flag">🇭🇷</span> Hrvatski</a></li>
-        <li><a href="/si/" hreflang="sl" data-suggest="Beri v slovenščini" data-flag="🇸🇮"><span class="flag">🇸🇮</span> Slovenščina</a></li>
-        <li><a href="/ca/" hreflang="ca" data-suggest="Llegeix-ho en català" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Català</a></li>
-        <li><a href="/my/" hreflang="ms" data-suggest="Baca dalam Bahasa Melayu" data-flag="🇲🇾"><span class="flag">🇲🇾</span> Bahasa Melayu</a></li>
-        <li><a href="/pa/" hreflang="pa" data-suggest="ਪੰਜਾਬੀ ਵਿੱਚ ਪੜ੍ਹੋ" data-flag="🇮🇳"><span class="flag">🇮🇳</span> ਪੰਜਾਬੀ</a></li>
-        <li><a href="/ta/" hreflang="ta" data-suggest="தமிழில் படியுங்கள்" data-flag="🇮🇳"><span class="flag">🇮🇳</span> தமிழ்</a></li>
-        <li><a href="/bn/" hreflang="bn" data-suggest="বাংলায় পড়ুন" data-flag="🇮🇳"><span class="flag">🇮🇳</span> বাংলা</a></li>
-        <li><a href="/mx/" hreflang="es-MX" data-suggest="Leer en español (México)" data-flag="🇲🇽"><span class="flag">🇲🇽</span> Español (MX)</a></li>
-        <li><a href="/qc/" hreflang="fr-CA" data-suggest="Lire en français (Canada)" data-flag="🇨🇦"><span class="flag">🇨🇦</span> Français (CA)</a></li>
-        <li><a href="/en-ca/" hreflang="en-CA" data-suggest="Read this in Canadian English" data-flag="🇨🇦"><span class="flag">🇨🇦</span> English (CA)</a></li>
-        <li><a href="/ae/" hreflang="ar" data-suggest="اقرأ بالعربية" data-flag="🇦🇪"><span class="flag">🇦🇪</span> العربية</a></li>
-        <li><a href="/ur/" hreflang="ur" data-suggest="اردو میں پڑھیں" data-flag="🇮🇳"><span class="flag">🇮🇳</span> اردو</a></li>
-      </ul>
-    </div>
-    <figure class="shot" style="width:auto;margin:0">
-      <div class="device" style="margin-inline:auto"><div class="device-screen">
-        <img class="only-dark" src="/assets/screens/cs/dark/stats.webp" width="640" height="1391" alt="Obrazovka Statistiky: čistý zisk, tržby a náklady za týden, s kilometry podle typu jízdy." loading="lazy">
-        <img class="only-light" src="/assets/screens/cs/light/stats.webp" width="640" height="1391" alt="Obrazovka Statistiky: čistý zisk, tržby a náklady za týden, s kilometry podle typu jízdy." loading="lazy">
-      </div></div>
-      <figcaption style="text-align:center"><b>Statistiky</b>Tvůj týden, ve tvém jazyce a tvých penězích.</figcaption>
-    </figure>
-  </div>
-</section>
-
-<section id="pricing">
-  <div class="wrap">
-    <h2>Jedna cena, všechno v ceně</h2>
-    <p class="section-intro">Čtrnáct dní zdarma. Když zrušíš před koncem zkušební doby, nezaplatíš nic. Všechny funkce máš hned — bez dražších tarifů a příplatků.</p>
-
-    <div class="price-grid">
-      <div class="price">
-        <h3>Měsíčně</h3>
-        <p class="amount">149 Kč</p>
-        <p class="per">měsíčně, kdykoli zrušíš</p>
-        <ul>
-          <li>Všechny funkce, žádné příplatky</li>
-          <li>Nejdřív 14 dní zdarma</li>
-        </ul>
-        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-pricing&amp;mt=8" data-place="pricing">Začni 14 dní zdarma</a>
-      </div>
-      <div class="price best">
-        <span class="tag">Nejvýhodnější</span>
-        <h3>Ročně</h3>
-        <p class="amount">999 Kč</p>
-        <p class="per">ročně — nejvýhodnější volba</p>
-        <ul>
-          <li>Všechny funkce, žádné příplatky</li>
-          <li>Ušetři 789 Kč ročně — o 44 % levněji</li>
-          <li>Vyjde na 83 Kč měsíčně</li>
-        </ul>
-        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-pricing&amp;mt=8" data-place="pricing">Začni 14 dní zdarma</a>
-      </div>
-    </div>
-
-    <div class="pricetable">
-      <div class="pricetable-head">
-        <h3 style="font-size:20px;margin:0">Cena ve tvé zemi</h3>
-        <label class="search">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
-          <input type="search" id="price-search" placeholder="Najdi svou zemi" aria-label="Najdi svou zemi">
-        </label>
-      </div>
-
-      <div class="table-wrap">
-        <table class="prices">
-          <thead>
-            <tr><th scope="col">Země</th><th scope="col">Měsíčně</th><th scope="col">Ročně</th></tr>
-          </thead>
-          <tbody id="price-rows" data-you="Ty">
-            <tr data-cc="GB" data-flag="🇬🇧" data-name="United Kingdom"><td><span class="flag">🇬🇧</span><span data-region="GB">United Kingdom</span></td><td>£6.99</td><td>£49.99</td></tr>
-            <tr data-cc="IE" data-flag="🇮🇪" data-name="Ireland"><td><span class="flag">🇮🇪</span><span data-region="IE">Ireland</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="US" data-flag="🇺🇸" data-name="United States"><td><span class="flag">🇺🇸</span><span data-region="US">United States</span></td><td>$6.99</td><td>$49.99</td></tr>
-            <tr data-cc="CA" data-flag="🇨🇦" data-name="Canada"><td><span class="flag">🇨🇦</span><span data-region="CA">Canada</span></td><td>C$9.99</td><td>C$69.99</td></tr>
-            <tr data-cc="AU" data-flag="🇦🇺" data-name="Australia"><td><span class="flag">🇦🇺</span><span data-region="AU">Australia</span></td><td>A$11.99</td><td>A$79.99</td></tr>
-            <tr data-cc="NZ" data-flag="🇳🇿" data-name="New Zealand"><td><span class="flag">🇳🇿</span><span data-region="NZ">New Zealand</span></td><td>NZ$12.99</td><td>NZ$89.99</td></tr>
-            <tr data-cc="DE" data-flag="🇩🇪" data-name="Germany"><td><span class="flag">🇩🇪</span><span data-region="DE">Germany</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="FR" data-flag="🇫🇷" data-name="France"><td><span class="flag">🇫🇷</span><span data-region="FR">France</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="NL" data-flag="🇳🇱" data-name="Netherlands"><td><span class="flag">🇳🇱</span><span data-region="NL">Netherlands</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="FI" data-flag="🇫🇮" data-name="Finland"><td><span class="flag">🇫🇮</span><span data-region="FI">Finland</span></td><td>€6.99</td><td>€49.99</td></tr>
-            <tr data-cc="IT" data-flag="🇮🇹" data-name="Italy"><td><span class="flag">🇮🇹</span><span data-region="IT">Italy</span></td><td>€5.99</td><td>€39.99</td></tr>
-            <tr data-cc="ES" data-flag="🇪🇸" data-name="Spain"><td><span class="flag">🇪🇸</span><span data-region="ES">Spain</span></td><td>€5.99</td><td>€39.99</td></tr>
-            <tr data-cc="PT" data-flag="🇵🇹" data-name="Portugal"><td><span class="flag">🇵🇹</span><span data-region="PT">Portugal</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="GR" data-flag="🇬🇷" data-name="Greece"><td><span class="flag">🇬🇷</span><span data-region="GR">Greece</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="SK" data-flag="🇸🇰" data-name="Slovakia"><td><span class="flag">🇸🇰</span><span data-region="SK">Slovakia</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="LT" data-flag="🇱🇹" data-name="Lithuania"><td><span class="flag">🇱🇹</span><span data-region="LT">Lithuania</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="LV" data-flag="🇱🇻" data-name="Latvia"><td><span class="flag">🇱🇻</span><span data-region="LV">Latvia</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="SE" data-flag="🇸🇪" data-name="Sweden"><td><span class="flag">🇸🇪</span><span data-region="SE">Sweden</span></td><td>79 SEK</td><td>599 SEK</td></tr>
-            <tr data-cc="NO" data-flag="🇳🇴" data-name="Norway"><td><span class="flag">🇳🇴</span><span data-region="NO">Norway</span></td><td>79 NOK</td><td>599 NOK</td></tr>
-            <tr data-cc="DK" data-flag="🇩🇰" data-name="Denmark"><td><span class="flag">🇩🇰</span><span data-region="DK">Denmark</span></td><td>49 DKK</td><td>349 DKK</td></tr>
-            <tr data-cc="PL" data-flag="🇵🇱" data-name="Poland"><td><span class="flag">🇵🇱</span><span data-region="PL">Poland</span></td><td>24,99 zł</td><td>169,99 zł</td></tr>
-            <tr data-cc="CZ" data-flag="🇨🇿" data-name="Czechia"><td><span class="flag">🇨🇿</span><span data-region="CZ">Czechia</span></td><td>149 Kč</td><td>999 Kč</td></tr>
-            <tr data-cc="HU" data-flag="🇭🇺" data-name="Hungary"><td><span class="flag">🇭🇺</span><span data-region="HU">Hungary</span></td><td>2 490 Ft</td><td>16 990 Ft</td></tr>
-            <tr data-cc="RO" data-flag="🇷🇴" data-name="Romania"><td><span class="flag">🇷🇴</span><span data-region="RO">Romania</span></td><td>24,99 lei</td><td>169,99 lei</td></tr>
-            <tr data-cc="BG" data-flag="🇧🇬" data-name="Bulgaria"><td><span class="flag">🇧🇬</span><span data-region="BG">Bulgaria</span></td><td>€4.99</td><td>€34.99</td></tr>
-            <tr data-cc="TR" data-flag="🇹🇷" data-name="Turkey"><td><span class="flag">🇹🇷</span><span data-region="TR">Turkey</span></td><td>₺199,99</td><td>₺1.399,99</td></tr>
-            <tr data-cc="UA" data-flag="🇺🇦" data-name="Ukraine"><td><span class="flag">🇺🇦</span><span data-region="UA">Ukraine</span></td><td>$4.99</td><td>$34.99</td></tr>
-            <tr data-cc="BR" data-flag="🇧🇷" data-name="Brazil"><td><span class="flag">🇧🇷</span><span data-region="BR">Brazil</span></td><td>R$ 19,90</td><td>R$ 129,90</td></tr>
-            <tr data-cc="MX" data-flag="🇲🇽" data-name="Mexico"><td><span class="flag">🇲🇽</span><span data-region="MX">Mexico</span></td><td>MX$99</td><td>MX$649</td></tr>
-            <tr data-cc="ZA" data-flag="🇿🇦" data-name="South Africa"><td><span class="flag">🇿🇦</span><span data-region="ZA">South Africa</span></td><td>R99.99</td><td>R699.99</td></tr>
-            <tr data-cc="IN" data-flag="🇮🇳" data-name="India"><td><span class="flag">🇮🇳</span><span data-region="IN">India</span></td><td>₹299</td><td>₹1,999</td></tr>
-            <tr data-cc="CN" data-flag="🇨🇳" data-name="China"><td><span class="flag">🇨🇳</span><span data-region="CN">China</span></td><td>¥29</td><td>¥199</td></tr>
-            <tr data-cc="JP" data-flag="🇯🇵" data-name="Japan"><td><span class="flag">🇯🇵</span><span data-region="JP">Japan</span></td><td>¥980</td><td>¥6,800</td></tr>
-            <tr data-cc="KR" data-flag="🇰🇷" data-name="South Korea"><td><span class="flag">🇰🇷</span><span data-region="KR">South Korea</span></td><td>₩8,900</td><td>₩59,000</td></tr>
-            <tr data-cc="SG" data-flag="🇸🇬" data-name="Singapore"><td><span class="flag">🇸🇬</span><span data-region="SG">Singapore</span></td><td>S$9.98</td><td>S$69.98</td></tr>
-            <tr data-cc="TW" data-flag="🇹🇼" data-name="Taiwan"><td><span class="flag">🇹🇼</span><span data-region="TW">Taiwan</span></td><td>NT$220</td><td>NT$1,490</td></tr>
-            <tr data-cc="VN" data-flag="🇻🇳" data-name="Vietnam"><td><span class="flag">🇻🇳</span><span data-region="VN">Vietnam</span></td><td>99.000đ</td><td>599.000đ</td></tr>
-            <tr data-cc="TH" data-flag="🇹🇭" data-name="Thailand"><td><span class="flag">🇹🇭</span><span data-region="TH">Thailand</span></td><td>฿149</td><td>฿999</td></tr>
-            <tr data-cc="HR" data-flag="🇭🇷" data-name="Croatia"><td><span class="flag">🇭🇷</span><span data-region="HR">Croatia</span></td><td>7,99 €</td><td>59,99 €</td></tr>
-            <tr data-cc="SI" data-flag="🇸🇮" data-name="Slovenia"><td><span class="flag">🇸🇮</span><span data-region="SI">Slovenia</span></td><td>7,99 €</td><td>59,99 €</td></tr>
-            <tr data-cc="MY" data-flag="🇲🇾" data-name="Malaysia"><td><span class="flag">🇲🇾</span><span data-region="MY">Malaysia</span></td><td>RM19.90</td><td>RM129.90</td></tr>
-            <tr data-cc="ID" data-flag="🇮🇩" data-name="Indonesia"><td><span class="flag">🇮🇩</span><span data-region="ID">Indonesia</span></td><td>Rp49.000</td><td>Rp329.000</td></tr>
-            <tr data-cc="AE" data-flag="🇦🇪" data-name="United Arab Emirates"><td><span class="flag">🇦🇪</span><span data-region="AE">United Arab Emirates</span></td><td>AED 24.99</td><td>AED 169.99</td></tr>
-            <tr data-cc="SA" data-flag="🇸🇦" data-name="Saudi Arabia"><td><span class="flag">🇸🇦</span><span data-region="SA">Saudi Arabia</span></td><td>SAR 24.99</td><td>SAR 169.99</td></tr>
-            <tr data-cc="KZ" data-flag="🇰🇿" data-name="Kazakhstan"><td><span class="flag">🇰🇿</span><span data-region="KZ">Kazakhstan</span></td><td>2 490 ₸</td><td>14 990 ₸</td></tr>
-            <tr data-cc="KG" data-flag="🇰🇬" data-name="Kyrgyzstan"><td><span class="flag">🇰🇬</span><span data-region="KG">Kyrgyzstan</span></td><td>$2.99</td><td>$19.99</td></tr>
-            <tr data-cc="UZ" data-flag="🇺🇿" data-name="Uzbekistan"><td><span class="flag">🇺🇿</span><span data-region="UZ">Uzbekistan</span></td><td>$2.99</td><td>$19.99</td></tr>
-            <tr data-cc="TJ" data-flag="🇹🇯" data-name="Tajikistan"><td><span class="flag">🇹🇯</span><span data-region="TJ">Tajikistan</span></td><td>$2.99</td><td>$19.99</td></tr>
-            <tr data-cc="TM" data-flag="🇹🇲" data-name="Turkmenistan"><td><span class="flag">🇹🇲</span><span data-region="TM">Turkmenistan</span></td><td>$3.99</td><td>$27.99</td></tr>
-            <tr data-cc="AM" data-flag="🇦🇲" data-name="Armenia"><td><span class="flag">🇦🇲</span><span data-region="AM">Armenia</span></td><td>$3.99</td><td>$27.99</td></tr>
-            <tr data-cc="AZ" data-flag="🇦🇿" data-name="Azerbaijan"><td><span class="flag">🇦🇿</span><span data-region="AZ">Azerbaijan</span></td><td>$3.99</td><td>$27.99</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <p class="table-note">Každá země má vlastní cenu, ne přepočtenou z liber. Než cokoli potvrdíš, App Store ti ukáže přesnou částku ve tvé měně včetně daně. Tvoje země není v seznamu výše? App Store má cenu i pro ni.</p>
-    </div>
-  </div>
-</section>
-
-<!-- Step one, screen by screen. The captions are the screens' own
-     headlines out of the app, so they read the same on the page as they do
-     on the phone, in every language. Down here rather than under the steps:
-     permission prompts are a reason to hesitate, and they were arriving
-     before most of the reasons not to. -->
-<section id="setup">
-  <div class="wrap">
-    <h2>Jednou zapneš</h2>
-    <p class="section-intro">Nainstaluješ aplikaci a povolíš polohu na pozadí. Víc nastavování už nepřijde.</p>
-    <div class="setup">
+    <details class="setup-fold">
+      <summary>Podívej se, jak probíhá nastavení</summary>
+      <div class="setup">
       <figure class="setup-shot">
         <div class="device"><div class="device-screen">
           <img class="only-dark" src="/assets/screens/cs/dark/onboarding-location.webp" width="640" height="1391" alt="Zapnout polohu" loading="lazy">
@@ -890,9 +383,143 @@
         </div></div>
         <figcaption>Čím jezdíš?</figcaption>
       </figure>
+      </div>
+    </details>
+
+    <!-- And then the phone goes in a pocket. These are the only pictures on
+         the page taken with the app shut: the lock screen, doing the job on
+         its own — the notifications telling the story afterwards, and the
+         Live Activity showing the drive being recorded right now. All the
+         lines are the app's own words. -->
+    <div class="pocket">
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/cs/dark/notifications.webp" width="640" height="1391" alt="Oznámení" loading="lazy">
+            <img class="only-light" src="/assets/screens/cs/light/notifications.webp" width="640" height="1391" alt="Oznámení" loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <figure class="pocket-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/cs/dark/live-activity.webp" width="640" height="1391" alt="Živá aktivita na zamčené obrazovce: záznam jízdy, 128 km, čas 2:47:17, tlačítka pro typ jízdy a červené tlačítko stop." loading="lazy">
+            <img class="only-light" src="/assets/screens/cs/light/live-activity.webp" width="640" height="1391" alt="Živá aktivita na zamčené obrazovce: záznam jízdy, 128 km, čas 2:47:17, tlačítka pro typ jízdy a červené tlačítko stop." loading="lazy">
+          </div>
+        </div>
+      </figure>
+      <div class="pocket-words">
+        <h3>Oznámení</h3>
+        <p>„Vždy“ umožní zaznamenávat jízdy i se zavřenou aplikací.</p>
+        <p class="pocket-live">Když jedeš, živá aktivita ti na zamčené obrazovce přičítá kilometry — vidíš, že se jízda zaznamenává, aniž bys cokoli odemykal.</p>
+      </div>
     </div>
   </div>
 </section>
+
+
+
+<section id="features">
+  <div class="wrap">
+    <h2>Co z toho máš</h2>
+    <p class="section-intro">Pro práci takovou, jaká doopravdy je — od někoho, kdo ji dělá.</p>
+    <div class="cards">
+      <div class="card">
+        <span class="icon">💰</span>
+        <h3>Poznej svůj skutečný zisk</h3>
+        <p>Tržby mínus palivo a náklady — za den, týden i měsíc.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⏱️</span>
+        <h3>Poznej svou skutečnou hodinovku</h3>
+        <p>Uvidíš, které dny a zakázky se doopravdy vyplatí, když se palivo, splátky a pojištění rozpočítají na dny, kdy jezdíš.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🧾</span>
+        <h3>Záznamy připravené, když je potřebuješ</h3>
+        <p>Jízdy, kilometry a PDF pro účetní — sazba kilometrovného je už vestavěná.</p>
+      </div>
+    </div>
+    <p class="features-also">Postará se i o dodávku: servisy, pneumatiky a opravy zapsané s fotkou faktury, připomínky STK a servisu, které odpočítávají kilometry, a náklady z tankovací karty spočítané hned v den tankování. A mluví 46 jazyky, s penězi ve tvé měně.</p>
+    <div class="cta-mid">
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-features&amp;mt=8" data-place="features"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Začni 14 dní zdarma</a>
+      <span class="cta-note">14 dní zdarma · Bez účtu · Kdykoli zrušíš</span>
+    </div>
+  </div>
+</section>
+
+<!-- Privacy sits above "what it actually does" on purpose: it is the thing
+     that separates DropLane from every other mileage app, and a courier
+     handing over a month of their movements wants it answered early. Every
+     line here is the app's own onboarding copy, already translated. -->
+<section id="privacy">
+  <div class="wrap">
+    <h2>Tvoje data. Jen tvoje.</h2>
+    <p class="section-intro">Tvoje poloha zůstává v iPhonu a ve tvém vlastním iCloudu. Žádný účet, žádný server, nic se neprodává. Jen ty rozhoduješ, kdo tvé jízdy uvidí.</p>
+
+    <div class="keeps">
+      <div class="keeps-words">
+        <p class="keeps-stat"><b>0</b><span>Serverů s tvojí polohou</span></p>
+        <ul class="keeps-list">
+          <li>Právě tohle umožňuje DropLane zaznamenávat kilometry. Historie tvé polohy nikdy neopustí tvůj iPhone.</li>
+          <li>Záloha a obnovení přes iCloud, bez účtu</li>
+          <li>Export CSV pro tvou evidenci</li>
+        </ul>
+      </div>
+
+      <figure class="keeps-phone">
+        <div class="device">
+          <div class="device-screen">
+            <img class="only-dark" src="/assets/screens/cs/dark/onboarding-privacy.webp" width="640" height="1391" alt="Tvoje data. Jen tvoje." loading="lazy">
+            <img class="only-light" src="/assets/screens/cs/light/onboarding-privacy.webp" width="640" height="1391" alt="Tvoje data. Jen tvoje." loading="lazy">
+          </div>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Jedna cena, všechno v ceně</h2>
+    <p class="section-intro">Čtrnáct dní zdarma. Když zrušíš před koncem zkušební doby, nezaplatíš nic. Všechny funkce máš hned — bez dražších tarifů a příplatků.</p>
+
+    <div class="price-grid">
+      <div class="price best">
+        <span class="tag">Nejvýhodnější</span>
+        <h3>Ročně</h3>
+        <p class="amount">999 Kč</p>
+        <p class="per">ročně, platí se jednou za rok</p>
+        <ul>
+          <li>Všechny funkce, žádné příplatky</li>
+          <li>Ušetři 789 Kč ročně — o 44 % levněji</li>
+          <li>Vyjde na 83 Kč měsíčně</li>
+        </ul>
+        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-pricing&amp;mt=8" data-place="pricing">Začni 14 dní zdarma</a>
+      </div>
+      <div class="price">
+        <h3>Měsíčně</h3>
+        <p class="amount">149 Kč</p>
+        <p class="per">měsíčně, kdykoli zrušíš</p>
+        <ul>
+          <li>Všechny funkce, žádné příplatky</li>
+          <li>Nejdřív 14 dní zdarma</li>
+        </ul>
+        <a class="btn price-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-pricing&amp;mt=8" data-place="pricing">Začni 14 dní zdarma</a>
+      </div>
+    </div>
+
+    <p class="table-note pricing-note">Apple ti 14 dní nic neúčtuje. Když předplatné do té doby zrušíš v Nastavení, nezaplatíš nic. Mimo Česko ti App Store ukáže cenu pro tvou zemi.</p>
+  </div>
+</section>
+
+
 
 <section class="band" id="faq">
   <div class="wrap">
@@ -900,20 +527,8 @@
     <p class="section-intro">Odpovědi na rovinu, od někoho, kdo tu práci dělá.</p>
     <div class="faq">
       <details>
-        <summary>Není to jen další aplikace na kilometry?</summary>
-        <p>Kilometry zaznamenává stejně, bez tlačítka start. Rozdíl je v tom, co přijde potom: tvoje tržby dovnitř, palivo, parkování a provozní náklady ven — a aplikace ti ukáže skutečnou hodinovku. Samotný počet kilometrů ti neřekne, kolik sis vydělal ani jestli se ta trasa vyplatila.</p>
-      </details>
-      <details>
-        <summary>Vysává to baterku?</summary>
-        <p>DropLane nenechá GPS běžet celý den. Tiše čeká, dokud nepozná, že jsi odjel od místa, kde jsi parkoval, nahrává, když se pohybuješ, a zase usne, jakmile zastavíš.</p>
-      </details>
-      <details>
         <summary>Musím mačkat start?</summary>
         <p>Ne — a ani není co zmáčknout. O to přesně jde. Co si musíš pamatovat, na to zapomeneš zrovna ten den, kdy na tom záleží.</p>
-      </details>
-      <details>
-        <summary>Co když zapomenu jízdě určit typ?</summary>
-        <p>Nic se neztratí. Jízdy bez typu čekají na obrazovce Dny a aplikace ti to připomene, místo aby hádala za tebe.</p>
       </details>
       <details>
         <summary>Skončí historie mých tras někde na serveru?</summary>
@@ -924,30 +539,15 @@
         <p>To jde. Kilometry na nákladním kole se zaznamenají stejně. Vestavěné sazby za kilometr ale platí pro motorová vozidla, takže co si můžeš u kola uplatnit, závisí na zemi a tvé situaci — vyplatí se zeptat účetní.</p>
       </details>
       <details>
-        <summary>Je tam sazba mé země?</summary>
-        <p>Sedmnáct zemí má oficiální sazbu vestavěnou a udržovanou aktuální. Kdekoli jinde zadáš svou jednou a aplikace to spočítá.</p>
-      </details>
-      <details>
-        <summary>Můžu to používat v kilometrech?</summary>
-        <p>Ano. Kilometry nebo míle, tvoje měna a cena paliva, kterou opravdu platíš — všechno v Nastavení, hned na první obrazovce.</p>
-      </details>
-      <details>
         <summary>Funguje to tam, kde není signál?</summary>
-        <p>Ano. Nahrávání běží na GPS samotného iPhonu a internet nepotřebuje vůbec. Jízdy mimo signál se vrátí označené „Začátek“ a „Konec“ místo názvů ulic a DropLane je doplní, jakmile příště uvidí Wi-Fi. Týden po polních cestách bez čárky se stejně sečte správně.</p>
-      </details>
-      <details>
-        <summary>Co se stane, když budu mít nový telefon?</summary>
-        <p>Přihlásíš se do stejného iCloudu a jízdy, výdělky i výdaje se vrátí samy. Není co zakládat ani jaké heslo ztratit, protože nikdy nebyl server, který by cokoli z toho držel — záloha je tvoje, ve tvém iCloudu.</p>
+        <p>Ano. Záznam běží na GPS samotného iPhonu a internet nepotřebuje vůbec. Jízdy mimo signál se vrátí označené „Výjezd“ a „Příjezd“ místo názvů ulic a DropLane je doplní, jakmile příště uvidí Wi-Fi. Týden po polních cestách bez čárky se stejně sečte správně.</p>
       </details>
       <details>
         <summary>A když přestanu platit — přijdu o záznamy?</summary>
-        <p>Nic se nemaže. Tvoje jízdy zůstanou v iPhonu i ve tvém iCloudu přesně tam, kde byly. DropLane ale potřebuje k otevření aktivní předplatné, takže jestli chceš čísla i jinde, vyexportuj si předtím CSV. Je v Nastavení a stačí na to jedno klepnutí.</p>
-      </details>
-      <details>
-        <summary>Jak poznám, co palivo doopravdy stálo, dřív než přijde vyúčtování karty?</summary>
-        <p>Řekni DropLane cenu za litr, kterou ti palivová karta účtuje, a při tankování zapiš litry. Náklad je hotový týž den, takže zisk týdne sedí týdny předtím, než vyúčtování dorazí.</p>
+        <p>Nic se nemaže a aplikace dál zaznamenává. Jízdy zůstávají v iPhonu i ve tvém vlastním iCloudu a kilometry, které najezdíš bez předplatného, na tebe počkají, až si ho obnovíš. Zamkne se jen prohlížení: Dnes, Dny, Statistiky, PDF a export CSV zůstanou zavřené, dokud předplatné neobnovíš. Jestli chceš mít čísla i jinde, vyexportuj si CSV, než předplatné skončí — je v Nastavení a stačí jedno klepnutí.</p>
       </details>
     </div>
+    <p class="faq-all"><a href="/cz/faq/">Všechny otázky →</a></p>
   </div>
 </section>
 
@@ -958,7 +558,7 @@
     <div class="closer">
       <h2>Přestaň hádat, kolik sis vydělal.</h2>
       <p>Čtrnáct dní zdarma, žádný účet a nic, na co si musíš v šest ráno vzpomenout.</p>
-      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Stáhnout DropLane</a>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Začni 14 dní zdarma</a>
     </div>
   </div>
 </section>
@@ -992,9 +592,9 @@
     <img class="cta-bar-mark" src="/assets/icon-180.png" alt="" width="46" height="46" loading="lazy" decoding="async">
     <p class="cta-bar-say">
       <b>14 dní zdarma</b>
-      <span>poté 149 Kč měsíčně</span>
+      <span>poté 999 Kč ročně nebo 149 Kč měsíčně</span>
     </p>
-    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-bar&amp;mt=8" data-place="bar">Stáhnout DropLane</a>
+    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-cz-bar&amp;mt=8" data-place="bar">Začni 14 dní zdarma</a>
     <button class="cta-bar-shut" type="button" aria-label="Zavřít">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>

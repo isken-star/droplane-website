@@ -19,19 +19,19 @@
   "theme_dark": "Scuro",
   "language_label": "Lingua",
   "language_title": "Leggi il sito nella tua lingua",
-  "language_note": "L'app parla 46 lingue — le altre arriveranno anche qui.",
+  "language_note": "L'app parla tutte le 46 lingue — ogni schermata, ogni notifica, ogni PDF.",
   "langbar_strong": "46 lingue.",
   "langbar_rest": "Scegli la tua — l'app la parla.",
   "per_month_short": "al mese",
   "see_all": "vedi tutti",
   "hero_h1": "Scopri quanto guadagni davvero ogni giorno.",
-  "hero_lede": "Accendi il furgone. Tutto qui. DropLane registra ogni viaggio e il percorso davvero fatto, toglie le spese dagli incassi e ti dice quanto guadagni davvero all'ora, ancora prima che tu sia rientrato.",
+  "hero_lede": "DropLane registra ogni viaggio da sola, toglie le tue spese e ti mostra quanto hai guadagnato davvero.",
   "hero_cta_notify": "Avvisami al lancio",
-  "hero_cta_how": "Come funziona",
+  "hero_cta_how": "Guarda come funziona ↓",
   "hero_note": "nessun account, nessuna pubblicità · iPhone",
-  "hero_kicker": "Chilometri, incassi e spese automatici per chi guida per lavoro",
+  "hero_kicker": "Chilometri in automatico · Profitto reale · Paga oraria reale",
   "hero_android": "Android è in arrivo. Scrivici e ti avvisiamo quando esce.",
-  "reviews_h2": "Cosa dicono i corrieri sull'App Store",
+  "reviews_h2": "Recensioni dall'App Store del Regno Unito",
   "countries_paperwork_h3": "Qui l'app conosce i documenti; la tariffa la inserisci tu",
   "hero_facts": [
     {
@@ -48,8 +48,8 @@
     }
   ],
   "money_h2": "Due giornate. Più chilometri. Meno soldi.",
-  "money_intro": "Martedì: 220 chilometri, tre viaggi. Ieri: 144 chilometri, due viaggi. Una normale app per i chilometri ti dirà che martedì è stata la giornata più piena — e ha ragione. Solo che di martedì sono rimasti 63 €, e di ieri 87.",
-  "money_day1_when": "Martedì 25 agosto",
+  "money_intro": "Due giornate vere. Martedì: 76 km in più, e 23,78 € in meno a fine giornata.",
+  "money_day1_when": "Martedì",
   "money_day1_distance": "220 km",
   "money_day1_trips": "3 viaggi",
   "money_day1_money": "63,50 €",
@@ -59,9 +59,9 @@
   "money_day2_money": "87,28 €",
   "money_label_distance": "In strada",
   "money_label_trips": "Viaggi",
-  "money_label_money": "Resta",
-  "money_punch": "76 chilometri in più. 23,78 € in meno.",
-  "money_note": "Contare i chilometri è la parte facile. E da soli non ti dicono granché. Quale giornata sia valsa davvero la pena si vede nell'altra colonna, ed è quella che DropLane compila per te, lo stesso giorno, senza che tu scriva nulla.",
+  "money_label_money": "in tasca",
+  "money_punch": "76 km in più. 23,78 € in meno.",
+  "money_note": "I chilometri ti dicono quanta strada hai fatto. DropLane ti dice se ne è valsa la pena.",
   "day_h2": "Quanto hai guadagnato davvero in una giornata",
   "day_intro": "105 euro sembrano una buona giornata. Ma tolti carburante e parcheggio, e spalmato su 7 ore e 22 minuti in strada, restano 6,92 € all'ora. È esattamente il numero che DropLane calcola da solo, appena finita la giornata.",
   "day_film1_title": "Tutto calcolato in automatico",
@@ -98,54 +98,24 @@
       "body": "Lavoro, a vuoto, in viaggio verso un ritiro o personale. I totali e il rimborso chilometrico si aggiornano da sé."
     }
   ],
-  "how_proof": "Poi lo storico dei viaggi si forma da solo. Scegli una settimana, un mese o le tue date, spunta cosa includere, e il PDF per il commercialista è a un tocco — costruito su viaggi che non hai mai dovuto annotare.",
-  "features_h2": "Cosa fa davvero DropLane",
-  "features_intro": "Fatta da un corriere con dieci anni di strada, per il lavoro com'è davvero.",
+  "how_proof": "Scegli una settimana, un mese o le tue date, spunta cosa includere, e il PDF per il commercialista è a un tocco, costruito su viaggi che non hai mai dovuto annotare.",
+  "features_h2": "Cosa ci guadagni",
+  "features_intro": "Fatta per il lavoro com'è davvero, da chi lo fa.",
   "features": [
     {
-      "icon": "💷",
-      "title": "Quanto hai guadagnato davvero in una giornata",
-      "body": "Dagli incassi si tolgono carburante e altre spese, e in fondo resta quanto hai guadagnato davvero — al giorno, alla settimana, al mese."
+      "icon": "💶",
+      "title": "Conosci il tuo vero profitto",
+      "body": "Incassi meno carburante e spese, al giorno, alla settimana e al mese."
     },
     {
-      "icon": "⛽",
-      "title": "Quanto guadagni davvero all'ora",
-      "body": "Carburante, rata e assicurazione vengono spalmati sui giorni in cui lavori, così la paga oraria è quella vera."
-    },
-    {
-      "icon": "🛣️",
-      "title": "Chilometri senza toccare il telefono",
-      "body": "I viaggi si registrano in background, da quando parti a quando parcheggi."
+      "icon": "⏱️",
+      "title": "Conosci la tua vera paga oraria",
+      "body": "Vedi quali giorni e quali lavori rendono davvero, con carburante, rata e assicurazione spalmati sui giorni in cui lavori."
     },
     {
       "icon": "🧾",
-      "title": "Un registro pronto per il commercialista",
-      "body": "Un PDF con ogni viaggio, il suo percorso e la sua data. Tariffe chilometriche incluse per diciassette paesi."
-    },
-    {
-      "icon": "🅿️",
-      "title": "Soste e tempi di attesa",
-      "body": "Guarda quanto sei rimasto a ogni consegna o al deposito, senza annotare niente."
-    },
-    {
-      "icon": "🔒",
-      "title": "Niente esce dal telefono",
-      "body": "Nessun account, nessun tracciamento, nessuna pubblicità. Lo storico dei percorsi è tuo e finisce solo nel tuo iCloud."
-    },
-    {
-      "icon": "🔔",
-      "title": "Scadenze",
-      "body": "Scrivi il contachilometri una volta sola e DropLane lo tiene aggiornato con i chilometri rilevati — così i promemoria di tagliando e revisione contano in chilometri, non solo in date."
-    },
-    {
-      "icon": "🔧",
-      "title": "Il tuo veicolo",
-      "body": "Annota qui tagliandi, gomme e riparazioni — con la foto della fattura allegata, è tutta la storia dell'officina in tasca."
-    },
-    {
-      "icon": "💳",
-      "title": "Carta carburante",
-      "body": "Imposta il prezzo al litro della tua carta. Annota i litri quando fai rifornimento e DropLane calcola il costo."
+      "title": "Documenti pronti quando servono",
+      "body": "Viaggi, chilometri e un PDF per il commercialista, con la tariffa chilometrica che imposti tu."
     }
   ],
   "screens_h2": "Tutta l'app — in tema chiaro e scuro",
@@ -224,20 +194,20 @@
   "pricing_monthly": "Mensile",
   "pricing_yearly": "Annuale",
   "pricing_per_month": "al mese, disdici quando vuoi",
-  "pricing_per_year": "all'anno — la scelta migliore",
+  "pricing_per_year": "all'anno, addebitato una volta l'anno",
   "pricing_best": "Conviene di più",
   "pricing_bullet_all": "Tutte le funzioni, nessun extra",
   "pricing_bullet_trial": "Prima 14 giorni gratis",
   "pricing_cta": "Inizia 14 giorni gratis",
   "pricing_bullet_saving": "Risparmi {saving} all'anno — {percent}% in meno",
-  "pricing_bullet_equivalent": "Fanno {monthly} al mese",
+  "pricing_bullet_equivalent": "Pari a {monthly} al mese",
   "pricing_table_title": "Il prezzo nel tuo paese",
   "pricing_search": "Cerca il tuo paese",
   "pricing_col_country": "Paese",
   "pricing_col_month": "Mensile",
   "pricing_col_year": "Annuale",
   "pricing_you": "Tu",
-  "pricing_note": "Ogni paese ha il suo prezzo, non una conversione dalla sterlina. Prima che tu confermi, App Store ti mostra l'importo esatto nella tua valuta, tasse comprese. Il tuo paese non è nell'elenco qui sopra? App Store ha un prezzo anche per lui.",
+  "pricing_note": "Apple non addebita nulla per 14 giorni. Disdici nelle Impostazioni prima della scadenza e non paghi niente. Fuori dall'Italia, App Store mostra il prezzo del tuo paese.",
   "faq_h2": "Le domande che fanno davvero i corrieri",
   "faq_intro": "Risposte dirette, da chi il lavoro lo fa.",
   "faq": [
@@ -251,11 +221,11 @@
     },
     {
       "q": "Devo premere avvia?",
-      "a": "No — e non c'è nessun pulsante. È tutto il punto. Se devi ricordartene, te ne dimentichi proprio il giorno che conta."
+      "a": "No — e non c'è nessun pulsante. Ed è questo il punto. Se devi ricordartene, te ne dimentichi proprio il giorno che conta."
     },
     {
       "q": "E se dimentico di scegliere il tipo di un viaggio?",
-      "a": "Non si perde niente. I viaggi senza tipo restano nella schermata Giornate, e l'app te lo ricorda invece di indovinare per te."
+      "a": "Non si perde niente. I viaggi senza tipo restano nella schermata Giorni, e l'app te lo ricorda invece di indovinare per te."
     },
     {
       "q": "Il mio storico finisce da qualche parte?",
@@ -283,11 +253,15 @@
     },
     {
       "q": "E se smetto di pagare, perdo i miei dati?",
-      "a": "Non viene cancellato niente. I tuoi viaggi restano sull'iPhone e nel tuo iCloud, esattamente dov'erano. Ma per aprirsi DropLane ha bisogno di un abbonamento attivo: se vuoi i numeri altrove, esporta il CSV prima di andartene. È nelle Impostazioni, basta un tocco."
+      "a": "Non viene cancellato niente, e l'app continua a registrare. I viaggi restano sull'iPhone e nel tuo iCloud, e i chilometri che fai ad abbonamento scaduto ti aspettano quando ti abboni di nuovo. Si blocca solo la consultazione: Oggi, Giorni, Statistiche, il PDF e l'esportazione CSV restano chiusi fino ad allora. Se vuoi i numeri altrove, esporta il CSV prima che l'abbonamento scada: è nelle Impostazioni, basta un tocco."
     },
     {
       "q": "Come faccio a sapere quanto è costato il carburante prima che arrivi la fattura della carta?",
       "a": "Di' a DropLane il prezzo al litro della tua carta carburante e segna i litri quando fai il pieno. Il costo esce lo stesso giorno: il guadagno della settimana è giusto settimane prima che arrivi la fattura."
+    },
+    {
+      "q": "Esiste una versione per Android?",
+      "a": "Non ancora. Per ora DropLane è solo per iPhone, e Android è in arrivo. Scrivi a help@droplane.co.uk e ti avvisiamo il giorno in cui esce."
     }
   ],
   "closer_h2": "Smetti di indovinare quanto hai guadagnato.",
@@ -297,7 +271,7 @@
   "footer_terms": "Termini",
   "footer_support": "Assistenza",
   "alt_today": "La schermata Oggi di DropLane: un viaggio in registrazione sulla mappa, con distanza, ore e incassi della giornata.",
-  "alt_days": "L'elenco Giornate: ogni giorno lavorato con utile, distanza e numero di viaggi.",
+  "alt_days": "La schermata Giorni: ogni giorno lavorato con profitto, distanza e numero di viaggi.",
   "alt_report": "La scheda del report: interruttori per viaggi, incassi, spese e foto delle ricevute, poi il PDF.",
   "alt_stats": "La schermata Statistiche: netto, incassato e costi della settimana, con i chilometri per tipo di viaggio.",
   "papers_h2": "Il report, verticale o orizzontale",
@@ -316,7 +290,7 @@
   "cta_coming": "In arrivo su App Store",
   "cta_notify": "Avvisami quando esce",
   "privacy_h2": "I tuoi dati. Solo tuoi.",
-  "privacy_intro": "Tutto resta sul tuo iPhone e nel tuo iCloud. Niente account, niente server, niente in vendita. Solo tu decidi chi vede i tuoi viaggi.",
+  "privacy_intro": "La tua posizione resta sul tuo iPhone e nel tuo iCloud. Niente account, niente server, niente in vendita. Solo tu decidi chi vede i tuoi viaggi.",
   "privacy_stat_label": "Server che custodiscono la tua posizione",
   "privacy_point1": "È questo che permette a DropLane di registrare i chilometri. La cronologia della tua posizione non lascia mai il tuo iPhone.",
   "privacy_point2": "Backup e ripristino iCloud, senza bisogno di account",
@@ -327,13 +301,52 @@
   "setup_shot_vehicle": "Cosa guidi?",
   "pocket_h3": "Notifiche",
   "pocket_body": "«Sempre» permette di registrare i viaggi con l'app chiusa.",
-  "pocket_live_alt": "Viaggio rilevato — registrazione in corso",
-  "pocket_live_body": "Mentre guidi, un'attività in tempo reale mostra i chilometri sulla schermata di blocco — vedi il viaggio che si registra senza sbloccare niente.",
+  "pocket_live_alt": "L'attività in tempo reale sulla schermata di blocco: «In registrazione», 140 km, 2:47:15 sul cronometro, i pulsanti per smistare il viaggio e il pulsante rosso per fermarlo.",
+  "pocket_live_body": "Mentre guidi, un'attività in tempo reale fa salire i chilometri sulla schermata di blocco: vedi il viaggio che si registra senza sbloccare niente.",
   "hero_trial": "14 giorni gratis",
   "hero_trial_then": "poi {price} al mese",
   "compare_them": "Le app per i chilometri ti dicono quanti chilometri hai fatto.",
   "compare_us": "DropLane ti dice quanto hai guadagnato davvero.",
   "fact_currency": "Ogni valuta",
   "fact_private": "I dati restano sul telefono",
-  "fact_private_value": "Privato"
+  "fact_private_value": "Privato",
+  "hero_support": "14 giorni gratis · Nessun account · Disdici quando vuoi",
+  "trust": [
+    "Registra i viaggi da sola",
+    "La posizione resta sul tuo iPhone",
+    "Da un corriere, oltre 10 anni di strada",
+    "46 lingue, ogni valuta"
+  ],
+  "outcomes_label": "Tre numeri che DropLane ti prepara prima che tu torni a casa",
+  "outcomes": [
+    {
+      "file": "today",
+      "title": "Quanto ho guadagnato oggi",
+      "alt": "La schermata Oggi: un viaggio in registrazione sulla mappa di Milano, e 74,54 € guadagnati oggi, su 105,78 € di incassi e 31,24 € di spese."
+    },
+    {
+      "file": "day",
+      "title": "Quanto mi resta davvero, tolte le spese",
+      "alt": "La pagina di una giornata: 74,54 € di profitto del giorno, 105,78 € guadagnati e 31,24 € spesi su 144 km, la giornata sulla mappa e la distanza per tipo: 63,9 km con carico, 79,8 km da smistare."
+    },
+    {
+      "file": "insights",
+      "title": "La mia vera paga oraria",
+      "alt": "La schermata Analisi: 51,00 € di profitto dopo i costi fissi, 6,92 € all'ora, 1,17 € al km, 7 h 22 min sulla strada."
+    }
+  ],
+  "hero_trial_then_plans": "poi {year} all'anno o {month} al mese",
+  "money_punch2": "Guidare di più non sempre vuol dire guadagnare di più.",
+  "setup_h3": "Guarda come si configura",
+  "features_also": "Si occupa anche del furgone: tagliandi, gomme e riparazioni annotati con la foto della fattura, promemoria di revisione e tagliando che contano alla rovescia in chilometri, e il costo della carta carburante calcolato il giorno del rifornimento. E parla 46 lingue, con gli importi nella tua valuta.",
+  "faq_home": [
+    "Devo premere avvia?",
+    "Il mio storico finisce da qualche parte?",
+    "Funziona dove non c'è campo?",
+    "Vado in bici, non in furgone.",
+    "E se smetto di pagare, perdo i miei dati?"
+  ],
+  "faq_all": "Tutte le domande →",
+  "faq_page_title": "Le domande che fanno davvero i corrieri — DropLane",
+  "faq_meta_description": "Le domande dei corrieri su DropLane, con le risposte del corriere che l'ha creata: registrazione, batteria, privacy, campo e cosa succede se smetti di pagare."
 }

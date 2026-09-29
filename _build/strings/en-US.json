@@ -19,7 +19,7 @@
   "theme_dark": "Dark",
   "language_label": "Language",
   "language_title": "Read this site in your language",
-  "language_note": "The app itself speaks 46 languages — the rest are on their way here.",
+  "language_note": "The app speaks all 46 — every screen, every notification, the reports.",
   "langbar_strong": "46 languages.",
   "langbar_rest": "Pick yours — the app speaks it too.",
   "per_month_short": "a month",
@@ -29,7 +29,7 @@
   "hero_cta_notify": "Get notified at launch",
   "hero_cta_how": "See how it works ↓",
   "hero_note": "no account, no ads · iPhone",
-  "hero_kicker": "Automatic mileage · Real profit · Real hourly rate",
+  "hero_kicker": "Automatic mileage · Real profit · Real hourly rate",
   "hero_android": "Android is on its way. Email us and we'll tell you when it's out.",
   "reviews_h2": "From the App Store",
   "countries_paperwork_h3": "These know your paperwork; the rate is yours to type in",
@@ -103,7 +103,7 @@
   "features_intro": "Made for the job as it really is, by someone who does it.",
   "features": [
     {
-      "icon": "💷",
+      "icon": "💵",
       "title": "Know your real profit",
       "body": "Income minus gas and costs, per day, week and month."
     },

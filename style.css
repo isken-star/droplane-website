@@ -1267,6 +1267,18 @@ footer .foot-social svg { width: 17px; height: 17px; flex: none; }
      wrap, so on the narrowest phones the button gives up some type size
      rather than pushing the price on to a fourth line. */
   .cta-bar-go { padding: 11px 14px; font-size: 14px; }
+  /* The lean page's button says "Start 14 days free", which in Ukrainian or
+     Lithuanian is wider than half a phone. Held to one line it squeezed the
+     price into a column one word wide and the bar grew to 210px; two lines
+     of button keep it near the English height. */
+  body.lean .cta-bar-go {
+    white-space: normal; max-width: 40vw; padding: 10px 12px;
+    line-height: 1.2; text-align: center;
+  }
+  /* "Почати 14 днів безкоштовно" and "Commencer 14 jours gratuits" broke
+     onto two lines inside the hero button at 30px a side. At 16px every
+     language's label fits on one. */
+  .hero .btn-hero { padding-left: 16px; padding-right: 16px; gap: 10px; }
 }
 
 /* A bar that slides is a nice touch; a bar that slides at someone who asked

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="nb-NO" data-theme="light" data-lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Spørsmål bud faktisk stiller — DropLane</title>
+<meta name="description" content="Alle spørsmålene bud stiller om DropLane, besvart av budet som laget appen: registrering, batteri, personvern, dekning og hva som skjer om du slutter å betale.">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<!-- Safari on iPhone shows its own "View in App Store" strip from this one line. -->
+<meta name="apple-itunes-app" content="app-id=6760871535">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/nb/faq/">
+<meta property="og:title" content="Spørsmål bud faktisk stiller — DropLane">
+<meta property="og:description" content="Alle spørsmålene bud stiller om DropLane, besvart av budet som laget appen: registrering, batteri, personvern, dekning og hva som skjer om du slutter å betale.">
+<meta property="og:url" content="https://www.droplane.co.uk/nb/faq/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nb_NO">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/og/nb.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Vit hva du faktisk tjener på en dag.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Spørsmål bud faktisk stiller — DropLane">
+<meta name="twitter:description" content="Alle spørsmålene bud stiller om DropLane, besvart av budet som laget appen: registrering, batteri, personvern, dekning og hva som skjer om du slutter å betale.">
+<meta name="twitter:image" content="https://www.droplane.co.uk/assets/og/nb.jpg">
+<!-- What search engines read: the app, its price in this market, and the
+     listing's rating. Built from site.json, so a price change lands here. -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Er ikke dette bare enda en kjørebok-app?", "acceptedAnswer": {"@type": "Answer", "text": "Den registrerer kilometrene på samme måte, uten startknapp. Forskjellen er hva som skjer etterpå: inntekten din går inn, drivstoffet, parkeringen og driftskostnadene trekkes fra, og appen forteller deg hva du faktisk tjener i timen. Kilometrene alene sier ikke hva du tjente, eller om turen var verdt å kjøre."}}, {"@type": "Question", "name": "Tapper den batteriet?", "acceptedAnswer": {"@type": "Answer", "text": "DropLane holder ikke GPS-en i gang hele dagen. Den ligger stille til den merker at du har forlatt stedet der du parkerte, registrerer mens du er i bevegelse, og sovner igjen når du stopper."}}, {"@type": "Question", "name": "Må jeg trykke på start?", "acceptedAnswer": {"@type": "Answer", "text": "Nei — og det finnes ingen knapp å trykke på. Det er hele poenget. Må du huske det, glemmer du det nettopp den dagen det betyr noe."}}, {"@type": "Question", "name": "Hva om jeg glemmer å velge type på en tur?", "acceptedAnswer": {"@type": "Answer", "text": "Ingenting går tapt. Turer uten type venter på Dager-skjermen, og appen minner deg på det i stedet for å gjette for deg."}}, {"@type": "Question", "name": "Havner rutehistorikken min noe sted?", "acceptedAnswer": {"@type": "Answer", "text": "Nei. Det finnes ingen konto og ingen server. Alt ligger på iPhonen din, og sikkerhetskopieres bare til din egen iCloud hvis du vil."}}, {"@type": "Question", "name": "Jeg kjører sykkel, ikke varebil.", "acceptedAnswer": {"@type": "Answer", "text": "Det går fint. Kilometer på lastesykkel registreres på samme måte. De innebygde satsene gjelder likevel motorkjøretøy, så hva en sykkel kan kreve avhenger av landet ditt og situasjonen din — verdt å spørre en regnskapsfører om."}}, {"@type": "Question", "name": "Er kilometersatsen for landet mitt med?", "acceptedAnswer": {"@type": "Answer", "text": "Sytten land har sin offisielle sats innebygd og holdt oppdatert. Alle andre steder skriver du inn din egen sats én gang, så regner appen."}}, {"@type": "Question", "name": "Kan jeg bruke den i kilometer?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Kilometer eller miles, din egen valuta og drivstoffprisen du faktisk betaler — alt i Innstillinger, på første skjerm."}}, {"@type": "Question", "name": "Virker den der det ikke er dekning?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Registreringen går på iPhonens egen GPS og trenger ikke internett i det hele tatt. Turer kjørt uten dekning får merkene «Start» og «Slutt» i stedet for gatenavn, og DropLane fyller dem inn neste gang telefonen er på wifi. En uke på småveier uten dekning blir likevel summert riktig."}}, {"@type": "Question", "name": "Hva skjer når jeg får ny telefon?", "acceptedAnswer": {"@type": "Answer", "text": "Logg inn på samme iCloud, så kommer turene, inntektene og kostnadene tilbake av seg selv. Det finnes ingen konto å opprette og intet passord å miste, for det var aldri noen server som holdt på noe av det — sikkerhetskopien er din, i din egen iCloud."}}, {"@type": "Question", "name": "Hva om jeg slutter å betale — mister jeg dataene mine?", "acceptedAnswer": {"@type": "Answer", "text": "Ingenting slettes, og appen fortsetter å registrere. Turene dine blir liggende på iPhonen og i din egen iCloud, og kilometrene du kjører uten aktivt abonnement, venter på deg når du abonnerer igjen. Det som låses, er det du leser tallene i: I dag, Dager, Statistikk, PDF-en og CSV-eksporten er stengt til du abonnerer igjen. Vil du ha tallene et annet sted, eksporter CSV-filen før abonnementet går ut — det gjør du i Innstillinger, med ett trykk."}}, {"@type": "Question", "name": "Hvordan vet jeg hva drivstoffet virkelig kostet før kortfakturaen kommer?", "acceptedAnswer": {"@type": "Answer", "text": "Fortell DropLane hvilken literpris drivstoffkortet ditt tar, og før inn antall liter når du fyller. Kostnaden regnes ut samme dag, så ukas resultat stemmer uker før fakturaen dukker opp."}}, {"@type": "Question", "name": "Finnes det en Android-versjon?", "acceptedAnswer": {"@type": "Answer", "text": "Ikke ennå. DropLane er bare for iPhone foreløpig, og Android er på vei. Send en e-post til help@droplane.co.uk, så sier vi fra samme dag den er ute."}}]}</script>
+<!-- Anonymous visitor counting. No cookies, nothing that identifies a
+     reader. Swap this one tag to change provider; site.js does not care. -->
+<script src="https://cdn.usefathom.com/script.js" data-site="VHXQRPBR" defer></script>
+</head>
+<body class="lean">
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/nb/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="Hovedmeny">
+      <a href="/nb/#money">Hva du tjener</a>
+      <a href="/nb/#how">Slik virker det</a>
+      <a href="/nb/#features">Funksjoner</a>
+      <a href="/nb/#pricing">Pris</a>
+      <a href="/support/">Support</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="Språk">
+        <span class="lang-button-flag" aria-hidden="true">🇳🇴</span>
+        <span class="lang-button-name">Norsk</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="Fargetema">
+        <button type="button" data-theme="light" aria-pressed="true" title="Lyst">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>Lyst</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="Mørkt">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>Mørkt</span>
+        </button>
+      </div>
+
+      <a class="head-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-nb-head&amp;mt=8" data-place="head"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Skaff DropLane</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">Meny</span><span class="close-label">Lukk</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">Les siden på ditt språk</p>
+      <ul class="lang-list">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
+        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
+        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
+        <li><a href="/gr/" hreflang="el" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" aria-current="true" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
+        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
+        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
+        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+        <li><a href="/jp/" hreflang="ja" data-suggest="日本語で読む" data-flag="🇯🇵"><span class="flag">🇯🇵</span> 日本語</a></li>
+        <li><a href="/kr/" hreflang="ko" data-suggest="한국어로 읽기" data-flag="🇰🇷"><span class="flag">🇰🇷</span> 한국어</a></li>
+        <li><a href="/sg/" hreflang="zh-Hans" data-suggest="用简体中文阅读" data-flag="🇸🇬"><span class="flag">🇸🇬</span> 简体中文</a></li>
+        <li><a href="/tw/" hreflang="zh-Hant" data-suggest="用繁體中文閱讀" data-flag="🇹🇼"><span class="flag">🇹🇼</span> 繁體中文</a></li>
+        <li><a href="/in/" hreflang="hi" data-suggest="हिन्दी में पढ़ें" data-flag="🇮🇳"><span class="flag">🇮🇳</span> हिन्दी</a></li>
+        <li><a href="/id/" hreflang="id" data-suggest="Baca dalam bahasa Indonesia" data-flag="🇮🇩"><span class="flag">🇮🇩</span> Bahasa Indonesia</a></li>
+        <li><a href="/vn/" hreflang="vi" data-suggest="Đọc bằng tiếng Việt" data-flag="🇻🇳"><span class="flag">🇻🇳</span> Tiếng Việt</a></li>
+        <li><a href="/th/" hreflang="th" data-suggest="อ่านเป็นภาษาไทย" data-flag="🇹🇭"><span class="flag">🇹🇭</span> ไทย</a></li>
+        <li><a href="/hr/" hreflang="hr" data-suggest="Čitaj na hrvatskom" data-flag="🇭🇷"><span class="flag">🇭🇷</span> Hrvatski</a></li>
+        <li><a href="/si/" hreflang="sl" data-suggest="Beri v slovenščini" data-flag="🇸🇮"><span class="flag">🇸🇮</span> Slovenščina</a></li>
+        <li><a href="/ca/" hreflang="ca" data-suggest="Llegeix-ho en català" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Català</a></li>
+        <li><a href="/my/" hreflang="ms" data-suggest="Baca dalam Bahasa Melayu" data-flag="🇲🇾"><span class="flag">🇲🇾</span> Bahasa Melayu</a></li>
+        <li><a href="/pa/" hreflang="pa" data-suggest="ਪੰਜਾਬੀ ਵਿੱਚ ਪੜ੍ਹੋ" data-flag="🇮🇳"><span class="flag">🇮🇳</span> ਪੰਜਾਬੀ</a></li>
+        <li><a href="/ta/" hreflang="ta" data-suggest="தமிழில் படியுங்கள்" data-flag="🇮🇳"><span class="flag">🇮🇳</span> தமிழ்</a></li>
+        <li><a href="/bn/" hreflang="bn" data-suggest="বাংলায় পড়ুন" data-flag="🇮🇳"><span class="flag">🇮🇳</span> বাংলা</a></li>
+        <li><a href="/mx/" hreflang="es-MX" data-suggest="Leer en español (México)" data-flag="🇲🇽"><span class="flag">🇲🇽</span> Español (MX)</a></li>
+        <li><a href="/qc/" hreflang="fr-CA" data-suggest="Lire en français (Canada)" data-flag="🇨🇦"><span class="flag">🇨🇦</span> Français (CA)</a></li>
+        <li><a href="/en-ca/" hreflang="en-CA" data-suggest="Read this in Canadian English" data-flag="🇨🇦"><span class="flag">🇨🇦</span> English (CA)</a></li>
+        <li><a href="/ae/" hreflang="ar" data-suggest="اقرأ بالعربية" data-flag="🇦🇪"><span class="flag">🇦🇪</span> العربية</a></li>
+        <li><a href="/ur/" hreflang="ur" data-suggest="اردو میں پڑھیں" data-flag="🇮🇳"><span class="flag">🇮🇳</span> اردو</a></li>
+      </ul>
+      <p class="lang-panel-note">Appen snakker alle de 46 språkene — hver skjerm, hvert varsel, hver PDF.</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="Hovedmeny">
+        <a href="/nb/#money">Hva du tjener</a>
+        <a href="/nb/#how">Slik virker det</a>
+        <a href="/nb/#features">Funksjoner</a>
+        <a href="/nb/#pricing">Pris</a>
+        <a href="/nb/#faq">Spørsmål</a>
+        <a href="/support/">Support</a>
+      </nav>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-nb-menu&amp;mt=8" data-place="menu">Start 14 dager gratis</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>46 språk.</strong> Velg ditt — appen snakker det også.</p>
+    <a class="lang-suggest" id="lang-suggest" href="/nb/#languages" hidden></a>
+  </div>
+</div>
+
+<main class="page">
+  <div class="wrap">
+    <h1>Spørsmål bud faktisk stiller</h1>
+    <p class="updated">Rette svar, fra en som gjør jobben.</p>
+    <div class="faq">
+      <details>
+        <summary>Er ikke dette bare enda en kjørebok-app?</summary>
+        <p>Den registrerer kilometrene på samme måte, uten startknapp. Forskjellen er hva som skjer etterpå: inntekten din går inn, drivstoffet, parkeringen og driftskostnadene trekkes fra, og appen forteller deg hva du faktisk tjener i timen. Kilometrene alene sier ikke hva du tjente, eller om turen var verdt å kjøre.</p>
+      </details>
+      <details>
+        <summary>Tapper den batteriet?</summary>
+        <p>DropLane holder ikke GPS-en i gang hele dagen. Den ligger stille til den merker at du har forlatt stedet der du parkerte, registrerer mens du er i bevegelse, og sovner igjen når du stopper.</p>
+      </details>
+      <details>
+        <summary>Må jeg trykke på start?</summary>
+        <p>Nei — og det finnes ingen knapp å trykke på. Det er hele poenget. Må du huske det, glemmer du det nettopp den dagen det betyr noe.</p>
+      </details>
+      <details>
+        <summary>Hva om jeg glemmer å velge type på en tur?</summary>
+        <p>Ingenting går tapt. Turer uten type venter på Dager-skjermen, og appen minner deg på det i stedet for å gjette for deg.</p>
+      </details>
+      <details>
+        <summary>Havner rutehistorikken min noe sted?</summary>
+        <p>Nei. Det finnes ingen konto og ingen server. Alt ligger på iPhonen din, og sikkerhetskopieres bare til din egen iCloud hvis du vil.</p>
+      </details>
+      <details>
+        <summary>Jeg kjører sykkel, ikke varebil.</summary>
+        <p>Det går fint. Kilometer på lastesykkel registreres på samme måte. De innebygde satsene gjelder likevel motorkjøretøy, så hva en sykkel kan kreve avhenger av landet ditt og situasjonen din — verdt å spørre en regnskapsfører om.</p>
+      </details>
+      <details>
+        <summary>Er kilometersatsen for landet mitt med?</summary>
+        <p>Sytten land har sin offisielle sats innebygd og holdt oppdatert. Alle andre steder skriver du inn din egen sats én gang, så regner appen.</p>
+      </details>
+      <details>
+        <summary>Kan jeg bruke den i kilometer?</summary>
+        <p>Ja. Kilometer eller miles, din egen valuta og drivstoffprisen du faktisk betaler — alt i Innstillinger, på første skjerm.</p>
+      </details>
+      <details>
+        <summary>Virker den der det ikke er dekning?</summary>
+        <p>Ja. Registreringen går på iPhonens egen GPS og trenger ikke internett i det hele tatt. Turer kjørt uten dekning får merkene «Start» og «Slutt» i stedet for gatenavn, og DropLane fyller dem inn neste gang telefonen er på wifi. En uke på småveier uten dekning blir likevel summert riktig.</p>
+      </details>
+      <details>
+        <summary>Hva skjer når jeg får ny telefon?</summary>
+        <p>Logg inn på samme iCloud, så kommer turene, inntektene og kostnadene tilbake av seg selv. Det finnes ingen konto å opprette og intet passord å miste, for det var aldri noen server som holdt på noe av det — sikkerhetskopien er din, i din egen iCloud.</p>
+      </details>
+      <details>
+        <summary>Hva om jeg slutter å betale — mister jeg dataene mine?</summary>
+        <p>Ingenting slettes, og appen fortsetter å registrere. Turene dine blir liggende på iPhonen og i din egen iCloud, og kilometrene du kjører uten aktivt abonnement, venter på deg når du abonnerer igjen. Det som låses, er det du leser tallene i: I dag, Dager, Statistikk, PDF-en og CSV-eksporten er stengt til du abonnerer igjen. Vil du ha tallene et annet sted, eksporter CSV-filen før abonnementet går ut — det gjør du i Innstillinger, med ett trykk.</p>
+      </details>
+      <details>
+        <summary>Hvordan vet jeg hva drivstoffet virkelig kostet før kortfakturaen kommer?</summary>
+        <p>Fortell DropLane hvilken literpris drivstoffkortet ditt tar, og før inn antall liter når du fyller. Kostnaden regnes ut samme dag, så ukas resultat stemmer uker før fakturaen dukker opp.</p>
+      </details>
+      <details>
+        <summary>Finnes det en Android-versjon?</summary>
+        <p>Ikke ennå. DropLane er bare for iPhone foreløpig, og Android er på vei. Send en e-post til help@droplane.co.uk, så sier vi fra samme dag den er ute.</p>
+      </details>
+    </div>
+  </div>
+  <section>
+    <div class="wrap">
+      <div class="closer">
+      <h2>Slutt å gjette hva du tjente.</h2>
+      <p>Fjorten dager gratis, ingen konto, og ingenting å huske klokka seks om morgenen.</p>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-nb-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>Start 14 dager gratis</a>
+    </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">DropLane — kjøring, inntekt og utgifter automatisk — for alle som kjører i jobben. Bygget av et bud, i Torquay.</p>
+    <div class="foot-links">
+      <a href="/privacy/">Personvern</a>
+      <a href="/terms/">Vilkår</a>
+      <a href="/support/">Support</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+      <a class="foot-social" href="https://www.instagram.com/droplane.app/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="4"/><path d="M17.4 6.6h.01"/></svg>Instagram</a>
+      <a class="foot-social" href="https://www.facebook.com/droplaneapp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.2"/><path d="M15.1 7.9h-1.4a2.1 2.1 0 0 0-2.1 2.1V21"/><path d="M9.2 13.1h5.1"/></svg>Facebook</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Lukk">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<div class="cta-bar" id="cta-bar" role="region" aria-label="Skaff DropLane" hidden>
+  <div class="cta-bar-in">
+    <img class="cta-bar-mark" src="/assets/icon-180.png" alt="" width="46" height="46" loading="lazy" decoding="async">
+    <p class="cta-bar-say">
+      <b>14 dager gratis</b>
+      <span>deretter 599 NOK i året eller 79 NOK i måneden</span>
+    </p>
+    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-nb-bar&amp;mt=8" data-place="bar">Start 14 dager gratis</a>
+    <button class="cta-bar-shut" type="button" aria-label="Lukk">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
