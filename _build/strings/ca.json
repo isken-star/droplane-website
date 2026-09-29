@@ -18,14 +18,14 @@
   "language_label": "Idioma",
   "language_title": "Llegeix aquest web en el teu idioma",
   "language_note": "L'app parla els 46 idiomes — cada pantalla, cada notificació, cada PDF.",
-  "langbar_strong": "Molts idiomes.",
+  "langbar_strong": "46 idiomes.",
   "langbar_rest": "Tria el teu — l'app també el parla.",
   "see_all": "tots els països",
   "per_month_short": "al mes",
-  "hero_kicker": "Quilòmetres, ingressos i despeses automàtics per a qui condueix per feina",
+  "hero_kicker": "Quilometratge automàtic · Benefici real · Guany real per hora",
   "hero_h1": "Saber què ha pagat de veritat el dia.",
-  "hero_lede": "Arrenca i prou. DropLane registra cada viatge i la ruta que has fet de veritat, resta les despeses dels ingressos i et té el sou per hora real calculat abans que arribis a casa.",
-  "hero_cta_how": "Mira les pantalles",
+  "hero_lede": "DropLane registra cada viatge automàticament, resta les despeses i et mostra què has guanyat de veritat.",
+  "hero_cta_how": "Mira com funciona ↓",
   "hero_note": "sense compte, sense anuncis · iPhone",
   "hero_android": "Android està en camí. Escriu-nos i t'avisarem quan surti.",
   "hero_facts": [
@@ -46,54 +46,24 @@
   "hero_trial_then": "després {price} al mes",
   "compare_them": "Les apps de quilometratge et diuen quant has conduït.",
   "compare_us": "DropLane et diu si el dia ha valgut la pena.",
-  "reviews_h2": "Què diuen els repartidors a l'App Store",
-  "features_h2": "Què fa DropLane de veritat",
-  "features_intro": "Feta per un repartidor amb deu anys a la carretera, per a la feina tal com és.",
+  "reviews_h2": "De l'App Store del Regne Unit",
+  "features_h2": "El que hi guanyes",
+  "features_intro": "Feta per a la feina tal com és, per algú que la fa.",
   "features": [
     {
       "icon": "💶",
-      "title": "Què ha pagat el dia de veritat",
-      "body": "El combustible i les altres despeses es resten dels ingressos, i el que t'has quedat de veritat és a baix — per dia, setmana, mes."
+      "title": "Coneix el teu benefici real",
+      "body": "Ingressos menys combustible i despeses, per dia, setmana i mes."
     },
     {
-      "icon": "⛽",
-      "title": "Què paga una hora de veritat",
-      "body": "Combustible, finançament i assegurança repartits entre els dies que treballes, perquè la xifra per hora sigui la real."
-    },
-    {
-      "icon": "🛣️",
-      "title": "Quilòmetres sense tocar el mòbil",
-      "body": "Els viatges es registren sols en segon pla, des que arrenques fins que aparques."
+      "icon": "⏱️",
+      "title": "Coneix el teu guany real per hora",
+      "body": "Mira quins dies i quines feines surten a compte de veritat, un cop repartits el combustible, el finançament i l'assegurança entre els dies que treballes."
     },
     {
       "icon": "🧾",
-      "title": "Registres a punt per al gestor",
-      "body": "Un PDF amb cada viatge, la seva ruta i la data. Tarifes per quilòmetre incorporades per a 17 països."
-    },
-    {
-      "icon": "🅿️",
-      "title": "Parades i temps d'espera",
-      "body": "Mira quanta estona has estat a cada entrega o al magatzem, sense apuntar res."
-    },
-    {
-      "icon": "🔒",
-      "title": "Res no surt del teu mòbil",
-      "body": "Cap compte per crear, cap seguiment, cap anunci. L'historial de rutes és teu, amb còpia només al teu iCloud."
-    },
-    {
-      "icon": "🔔",
-      "title": "Venciments",
-      "body": "Escriu el quilometratge un cop i DropLane el va sumant amb els quilòmetres registrats — així els recordatoris de revisió i ITV poden comptar enrere en quilòmetres, no només en dates."
-    },
-    {
-      "icon": "🔧",
-      "title": "El teu vehicle",
-      "body": "Registra aquí revisions, pneumàtics i reparacions — amb la foto de la factura — i tens tot l'historial del taller a la butxaca."
-    },
-    {
-      "icon": "💳",
-      "title": "Targeta de combustible",
-      "body": "Posa el preu per litre que et cobra la targeta. Apunta els litres quan omplis i DropLane calcula el cost."
+      "title": "Registres a punt quan els necessites",
+      "body": "Viatges, quilòmetres i un PDF per al gestor, amb la tarifa per quilòmetre que fixes tu."
     }
   ],
   "screens_h2": "Les pantalles de l'app",
@@ -166,7 +136,7 @@
   "pricing_monthly": "Mensual",
   "pricing_yearly": "Anual",
   "pricing_per_month": "al mes, cancel·la quan vulguis",
-  "pricing_per_year": "a l'any — surt més a compte",
+  "pricing_per_year": "a l'any, es cobra un cop l'any",
   "pricing_best": "Més a compte",
   "pricing_bullet_all": "Totes les funcions, sense extres",
   "pricing_bullet_trial": "Primer 14 dies gratis",
@@ -179,7 +149,7 @@
   "pricing_col_month": "Mensual",
   "pricing_col_year": "Anual",
   "pricing_you": "Tu",
-  "pricing_note": "Cada país té el seu preu, no un de convertit d'una altra moneda. L'App Store et mostra l'import exacte en la teva moneda, IVA inclòs, abans que acceptis res. No hi ets a la llista? L'App Store té un preu per a tu igualment.",
+  "pricing_note": "Apple no cobra res durant 14 dies. Cancel·la a Configuració abans que s'acabin i no pagues res. Fora d'Espanya, l'App Store mostra el preu del teu país.",
   "faq_h2": "Preguntes que els repartidors fan de veritat",
   "faq_intro": "Respostes directes, d'algú que fa la feina.",
   "faq": [
@@ -204,19 +174,39 @@
       "a": "No. No hi ha compte ni servidor. Tot viu al teu iPhone, i només es copia al teu iCloud si tu vols."
     },
     {
+      "q": "Vaig amb bici, no amb furgoneta.",
+      "a": "Cap problema. Els quilòmetres amb bici de càrrega es registren igual. Ara bé, les tarifes per quilòmetre incorporades són per a vehicles de motor, així que el que pots deduir per la bici depèn del teu país i de la teva situació — val la pena preguntar-ho al gestor."
+    },
+    {
+      "q": "Hi ha la tarifa del meu país?",
+      "a": "Disset països tenen la tarifa oficial incorporada i al dia. A qualsevol altre lloc, escrius la teva tarifa un cop i l'app fa els càlculs."
+    },
+    {
+      "q": "La puc fer servir en quilòmetres?",
+      "a": "Sí. Quilòmetres o milles, la teva moneda i el preu del combustible que pagues de veritat — tot a Configuració, a la primera pantalla."
+    },
+    {
       "q": "Funciona on no hi ha cobertura?",
-      "a": "Sí. El registre va amb el GPS del mateix iPhone i no necessita internet per a res. Els viatges sense cobertura tornen amb «Inici» i «Final» en lloc del nom dels carrers, i DropLane els completa la propera vegada que veu Wi-Fi."
+      "a": "Sí. El registre va amb el GPS del mateix iPhone i no necessita internet per a res. Els viatges sense cobertura tornen amb «Sortida» i «Arribada» en lloc del nom dels carrers, i DropLane els completa la propera vegada que troba Wi-Fi. Una setmana per carreteres sense cobertura quadra igual de bé."
     },
     {
       "q": "Què passa quan canvio de mòbil?",
-      "a": "Entra al mateix iCloud i els viatges, els ingressos i les despeses tornen sols. No hi ha cap compte per crear ni cap contrasenya per perdre."
+      "a": "Entra al mateix iCloud i els viatges, els ingressos i les despeses tornen sols. No hi ha cap compte per crear ni cap contrasenya per perdre, perquè mai no hi ha hagut cap servidor que en guardés res — la còpia és teva, al teu iCloud."
     },
     {
       "q": "Si deixo de pagar, perdo els registres?",
-      "a": "No s'esborra res. Els viatges es queden a l'iPhone i al teu iCloud, exactament on eren. Però DropLane necessita una subscripció activa per obrir-se, així que si vols les xifres en un altre lloc, exporta el CSV abans. És a Configuració, amb un toc."
+      "a": "No s'esborra res, i l'app continua registrant. Els viatges es queden a l'iPhone i al teu iCloud, i els quilòmetres que facis sense subscripció t'esperen quan et tornis a subscriure. El que es bloqueja és la consulta: Avui, Dies, Estadístiques, Anàlisi, el PDF i l'exportació CSV queden tancats fins que tornis a estar subscrit. Si vols les xifres en un altre lloc, exporta el CSV abans que s'acabi la subscripció — és a Configuració, amb un toc."
+    },
+    {
+      "q": "Com sé què m'ha costat de veritat el combustible abans que arribi la factura de la targeta?",
+      "a": "Digues a DropLane el preu per litre que et cobra la targeta de combustible i apunta els litres quan omples el dipòsit. El cost es calcula el mateix dia, així que el benefici de la setmana quadra setmanes abans que arribi la factura."
+    },
+    {
+      "q": "Hi ha versió per a Android?",
+      "a": "Encara no. De moment DropLane és només per a iPhone, i la versió per a Android és en camí. Escriu a help@droplane.co.uk i t'avisarem el dia que surti."
     }
   ],
-  "closer_h2": "Deixa d'endevinar què ha fet el dia.",
+  "closer_h2": "Deixa d'endevinar quant has guanyat.",
   "closer_body": "Catorze dies gratis, sense compte, i res a recordar a les sis del matí.",
   "footer_note": "DropLane — quilòmetres, ingressos i despeses automàtics per a qui condueix per feina. Feta per un repartidor, a Torquay.",
   "footer_privacy": "Privadesa",
@@ -226,5 +216,87 @@
   "cta_soon": "Properament",
   "fact_currency": "Totes les monedes",
   "fact_private": "Dades només al mòbil",
-  "fact_private_value": "Privat"
+  "fact_private_value": "Privat",
+  "hero_support": "14 dies gratis · Sense compte · Cancel·la quan vulguis",
+  "hero_trial_then_plans": "després {year} a l'any o {month} al mes",
+  "trust": [
+    "Registra els viatges tot sol",
+    "La ubicació es queda a l'iPhone",
+    "D'un repartidor amb 10+ anys de ruta",
+    "46 idiomes, totes les monedes"
+  ],
+  "outcomes_label": "Tres xifres que DropLane té a punt abans que arribis a casa",
+  "outcomes": [
+    {
+      "file": "today",
+      "title": "Què he guanyat avui",
+      "alt": "La pantalla Avui: un viatge que s'enregistra al mapa de Barcelona, i 144,03 € guanyats avui: 159,30 € ingressats menys 15,27 € de despeses."
+    },
+    {
+      "file": "day",
+      "title": "Què em queda de veritat després de despeses",
+      "alt": "La pàgina d'un dia: 144,03 € de benefici del dia en 66,1 km, 22,39 € per hora, 2,18 € per km i el dia al mapa."
+    },
+    {
+      "file": "insights",
+      "title": "El meu guany real per hora",
+      "alt": "La pantalla Anàlisi: 121,41 € de benefici després de despeses fixes, 18,87 € per hora, 2,18 € per km, 6 h 26 min a la carretera."
+    }
+  ],
+  "money_label_money": "nets",
+  "money_punch2": "Conduir més no sempre vol dir guanyar més.",
+  "money_note": "Els quilòmetres et diuen quant has conduït. DropLane et diu si ha valgut la pena.",
+  "nav_how": "Com funciona",
+  "nav_day": "Què et queda",
+  "how_h2": "Tres passos, i només un és teu",
+  "how_intro": "DropLane no té botó d'inici, i és a posta. A les sis del matí, amb la furgoneta plena de paquets, ningú no se'n recorda de prémer-lo.",
+  "how_steps": [
+    {
+      "title": "Activa-la un cop",
+      "body": "Instal·la l'app i permet la ubicació en segon pla. No hi ha res més a configurar."
+    },
+    {
+      "title": "Condueix",
+      "body": "Cada viatge es desa sol, amb la ruta, les parades i quanta estona has estat a cadascuna."
+    },
+    {
+      "title": "Tria'n el tipus amb un toc",
+      "body": "Amb càrrega, en buit, a recollir o personal. Els totals i la deducció per quilometratge es calculen sols."
+    }
+  ],
+  "setup_h3": "Mira com es configura",
+  "setup_shot_location": "Activa la ubicació",
+  "setup_shot_always": "Ara tria «Sempre»",
+  "setup_shot_notifications": "Activa les notificacions",
+  "setup_shot_vehicle": "Amb què condueixes?",
+  "pocket_h3": "Notificacions",
+  "pocket_body": "«Sempre» permet enregistrar viatges amb l'app tancada.",
+  "pocket_live_alt": "L'activitat en directe a la pantalla bloquejada: «Enregistrant», 79,2 km, els botons per classificar el viatge i el botó vermell per aturar-lo.",
+  "pocket_live_body": "Mentre condueixes, una activitat en directe va sumant quilòmetres a la pantalla bloquejada — així veus que el viatge s'està enregistrant sense desbloquejar res.",
+  "features_also": "També té cura de la furgoneta: revisions, pneumàtics i reparacions apuntats amb la foto de la factura, un avís abans que toqui passar l'ITV, avisos de revisió que compten enrere en quilòmetres, i el cost de la targeta de combustible calculat el mateix dia que omples el dipòsit. I parla 46 idiomes, amb els diners en la teva moneda.",
+  "privacy_h2": "Les teves dades. Només teves.",
+  "privacy_intro": "La teva ubicació es queda al teu iPhone i al teu propi iCloud. Sense compte, sense servidor, no es ven res. Només tu decideixes qui veu els teus viatges.",
+  "privacy_point1": "Això és el que permet a DropLane registrar els quilòmetres. L'historial d'ubicacions no surt mai del teu iPhone.",
+  "privacy_point2": "Còpia i restauració amb iCloud, sense cap compte",
+  "privacy_point3": "Exporta el CSV per al teu registre",
+  "privacy_stat_label": "servidors amb la teva ubicació",
+  "faq_home": [
+    "He de prémer inici?",
+    "El meu historial de rutes anirà a parar enlloc?",
+    "Funciona on no hi ha cobertura?",
+    "Vaig amb bici, no amb furgoneta.",
+    "Si deixo de pagar, perdo els registres?"
+  ],
+  "faq_all": "Totes les preguntes →",
+  "faq_page_title": "Preguntes que els repartidors fan de veritat — DropLane",
+  "faq_meta_description": "Les preguntes dels repartidors sobre DropLane, respostes pel repartidor que l'ha feta: registre, bateria, privadesa, cobertura i què passa si deixes de pagar.",
+  "money_day1_when": "Dissabte",
+  "money_day1_distance": "89,0 km",
+  "money_day1_money": "105,85 €",
+  "money_day2_when": "Ahir",
+  "money_day2_distance": "77,6 km",
+  "money_day2_money": "117,29 €",
+  "money_punch": "11,4 km més. 11,44 € menys.",
+  "money_h2": "Dos dies. Més quilòmetres. Menys diners.",
+  "money_intro": "Dos dies reals. Dissabte: 11,4 km més i 11,44 € menys."
 }

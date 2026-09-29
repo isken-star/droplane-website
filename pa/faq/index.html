@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pa-IN" data-theme="light" data-lang="pa">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ਡਰਾਈਵਰ ਸੱਚੀਂ ਜੋ ਪੁੱਛਦੇ ਹਨ — DropLane</title>
+<meta name="description" content="DropLane ਬਾਰੇ ਡਰਾਈਵਰਾਂ ਦੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ, ਐਪ ਬਣਾਉਣ ਵਾਲੇ ਡਰਾਈਵਰ ਤੋਂ: ਰਿਕਾਰਡਿੰਗ, ਬੈਟਰੀ, ਪ੍ਰਾਈਵੇਸੀ, ਨੈੱਟਵਰਕ, ਤੇ ਪੈਸੇ ਦੇਣੇ ਬੰਦ ਕਰਨ &#x27;ਤੇ ਕੀ ਹੁੰਦਾ ਹੈ।">
+<script>
+  /* Set the theme before the first paint, so the page never flashes white. */
+  (function () {
+    var t;
+    try { t = localStorage.getItem('dl-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<meta name="theme-color" content="#EEF1F6">
+<!-- Safari on iPhone shows its own "View in App Store" strip from this one line. -->
+<meta name="apple-itunes-app" content="app-id=6760871535">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="canonical" href="https://www.droplane.co.uk/pa/faq/">
+<meta property="og:title" content="ਡਰਾਈਵਰ ਸੱਚੀਂ ਜੋ ਪੁੱਛਦੇ ਹਨ — DropLane">
+<meta property="og:description" content="DropLane ਬਾਰੇ ਡਰਾਈਵਰਾਂ ਦੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ, ਐਪ ਬਣਾਉਣ ਵਾਲੇ ਡਰਾਈਵਰ ਤੋਂ: ਰਿਕਾਰਡਿੰਗ, ਬੈਟਰੀ, ਪ੍ਰਾਈਵੇਸੀ, ਨੈੱਟਵਰਕ, ਤੇ ਪੈਸੇ ਦੇਣੇ ਬੰਦ ਕਰਨ &#x27;ਤੇ ਕੀ ਹੁੰਦਾ ਹੈ।">
+<meta property="og:url" content="https://www.droplane.co.uk/pa/faq/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pa_IN">
+<meta property="og:image" content="https://www.droplane.co.uk/assets/og/pa.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ਜਾਣੋ ਦਿਨ ਵਿੱਚ ਸੱਚੀਂ ਕਿੰਨਾ ਮਿਲਿਆ।">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ਡਰਾਈਵਰ ਸੱਚੀਂ ਜੋ ਪੁੱਛਦੇ ਹਨ — DropLane">
+<meta name="twitter:description" content="DropLane ਬਾਰੇ ਡਰਾਈਵਰਾਂ ਦੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ, ਐਪ ਬਣਾਉਣ ਵਾਲੇ ਡਰਾਈਵਰ ਤੋਂ: ਰਿਕਾਰਡਿੰਗ, ਬੈਟਰੀ, ਪ੍ਰਾਈਵੇਸੀ, ਨੈੱਟਵਰਕ, ਤੇ ਪੈਸੇ ਦੇਣੇ ਬੰਦ ਕਰਨ &#x27;ਤੇ ਕੀ ਹੁੰਦਾ ਹੈ।">
+<meta name="twitter:image" content="https://www.droplane.co.uk/assets/og/pa.jpg">
+<!-- What search engines read: the app, its price in this market, and the
+     listing's rating. Built from site.json, so a price change lands here. -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "ਕੀ ਇਹ ਬੱਸ ਇੱਕ ਹੋਰ ਕਿਲੋਮੀਟਰ ਟਰੈਕਰ ਹੈ?", "acceptedAnswer": {"@type": "Answer", "text": "ਕਿਲੋਮੀਟਰ ਉਸੇ ਤਰ੍ਹਾਂ ਰਿਕਾਰਡ ਹੁੰਦੇ ਹਨ, ਬਿਨਾਂ ਸਟਾਰਟ ਬਟਨ ਦੇ। ਫ਼ਰਕ ਉਸ ਤੋਂ ਬਾਅਦ ਦਾ ਹੈ: ਤੁਹਾਡੀ ਕਮਾਈ ਜੁੜਦੀ ਹੈ, ਤੇਲ, ਪਾਰਕਿੰਗ ਤੇ ਗੱਡੀ ਦਾ ਖ਼ਰਚ ਘਟਦਾ ਹੈ, ਤੇ ਐਪ ਦੱਸਦੀ ਹੈ ਕਿ ਘੰਟੇ ਵਿੱਚ ਸੱਚੀਂ ਕਿੰਨਾ ਮਿਲਿਆ। ਸਿਰਫ਼ ਕਿਲੋਮੀਟਰਾਂ ਦਾ ਅੰਕੜਾ ਕਿਸੇ ਨੂੰ ਕਦੇ ਇਹ ਨਹੀਂ ਦੱਸ ਸਕਿਆ ਕਿ ਗੇੜਾ ਫ਼ਾਇਦੇ ਦਾ ਸੀ ਜਾਂ ਨਹੀਂ।"}}, {"@type": "Question", "name": "ਕੀ ਬੈਟਰੀ ਖਾਂਦੀ ਹੈ?", "acceptedAnswer": {"@type": "Answer", "text": "DropLane ਸਾਰਾ ਦਿਨ GPS ਚਾਲੂ ਨਹੀਂ ਰੱਖਦਾ। ਇਹ ਚੁੱਪ-ਚਾਪ ਉਦੋਂ ਤੱਕ ਰੁਕਿਆ ਰਹਿੰਦਾ ਹੈ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਪਾਰਕ ਵਾਲੀ ਥਾਂ ਤੋਂ ਨਿਕਲ ਨਾ ਜਾਓ, ਚੱਲਦਿਆਂ ਰਿਕਾਰਡ ਕਰਦਾ ਹੈ, ਤੇ ਰੁਕਦਿਆਂ ਹੀ ਫਿਰ ਸੌਂ ਜਾਂਦਾ ਹੈ।"}}, {"@type": "Question", "name": "ਕੀ ਸਟਾਰਟ ਦਬਾਉਣਾ ਪੈਂਦਾ ਹੈ?", "acceptedAnswer": {"@type": "Answer", "text": "ਨਹੀਂ — ਤੇ ਦਬਾਉਣ ਲਈ ਕੋਈ ਬਟਨ ਹੈ ਹੀ ਨਹੀਂ। ਇਹੀ ਤਾਂ ਗੱਲ ਹੈ। ਜੋ ਯਾਦ ਰੱਖਣਾ ਪਵੇ, ਉਹ ਉਸੇ ਦਿਨ ਭੁੱਲ ਜਾਂਦਾ ਹੈ ਜਦੋਂ ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ ਹੋਵੇ।"}}, {"@type": "Question", "name": "ਟ੍ਰਿਪ ਦੀ ਕਿਸਮ ਚੁਣਨੀ ਭੁੱਲ ਜਾਵਾਂ ਤਾਂ?", "acceptedAnswer": {"@type": "Answer", "text": "ਕੁਝ ਨਹੀਂ ਗੁਆਚਦਾ। ਬਿਨਾਂ ਕਿਸਮ ਦੀਆਂ ਟ੍ਰਿਪਾਂ ਦਿਨ ਦੀ ਸਕ੍ਰੀਨ 'ਤੇ ਉਡੀਕਦੀਆਂ ਹਨ, ਤੇ ਐਪ ਤੁਹਾਡੇ ਬਦਲੇ ਅੰਦਾਜ਼ਾ ਲਾਉਣ ਦੀ ਥਾਂ ਤੁਹਾਨੂੰ ਯਾਦ ਕਰਾਉਂਦੀ ਹੈ।"}}, {"@type": "Question", "name": "ਕੀ ਮੇਰੇ ਰਸਤਿਆਂ ਦਾ ਇਤਿਹਾਸ ਕਿਤੇ ਪਹੁੰਚੇਗਾ?", "acceptedAnswer": {"@type": "Answer", "text": "ਨਹੀਂ। ਨਾ ਖਾਤਾ ਹੈ, ਨਾ ਸਰਵਰ। ਸਭ ਕੁਝ ਤੁਹਾਡੇ iPhone ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ, ਤੇ ਬੈਕਅੱਪ ਸਿਰਫ਼ ਤੁਹਾਡੇ ਆਪਣੇ iCloud ਵਿੱਚ, ਉਹ ਵੀ ਜੇ ਤੁਸੀਂ ਚਾਹੋ।"}}, {"@type": "Question", "name": "ਮੇਰੇ ਕੋਲ ਵੈਨ ਨਹੀਂ, ਸਾਈਕਲ ਹੈ।", "acceptedAnswer": {"@type": "Answer", "text": "ਚੱਲੇਗਾ। ਕਾਰਗੋ ਸਾਈਕਲ ਦੇ ਕਿਲੋਮੀਟਰ ਵੀ ਉਸੇ ਤਰ੍ਹਾਂ ਰਿਕਾਰਡ ਹੁੰਦੇ ਹਨ। ਪਰ ਐਪ ਵਿੱਚ ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ ਕਿਲੋਮੀਟਰ ਦਰਾਂ ਮੋਟਰ ਗੱਡੀਆਂ ਲਈ ਹਨ, ਇਸ ਲਈ ਸਾਈਕਲ 'ਤੇ ਕੀ ਕਲੇਮ ਬਣਦਾ ਹੈ, ਇਹ ਤੁਹਾਡੇ ਦੇਸ਼ ਤੇ ਤੁਹਾਡੇ ਹਾਲਾਤ 'ਤੇ ਨਿਰਭਰ ਹੈ — ਆਪਣੇ CA ਤੋਂ ਪੁੱਛ ਲੈਣਾ ਠੀਕ ਰਹੇਗਾ।"}}, {"@type": "Question", "name": "ਕੀ ਮੇਰੇ ਦੇਸ਼ ਦੀ ਕਿਲੋਮੀਟਰ ਦਰ ਐਪ ਵਿੱਚ ਹੈ?", "acceptedAnswer": {"@type": "Answer", "text": "ਸਤਾਰਾਂ ਦੇਸ਼ਾਂ ਦੀ ਸਰਕਾਰੀ ਦਰ ਐਪ ਵਿੱਚ ਪਹਿਲਾਂ ਤੋਂ ਹੈ ਤੇ ਅੱਪਡੇਟ ਹੁੰਦੀ ਰਹਿੰਦੀ ਹੈ। ਭਾਰਤ ਉਨ੍ਹਾਂ ਵਿੱਚ ਨਹੀਂ — ਇੱਥੇ ਆਪਣੀ ਦਰ ਇੱਕ ਵਾਰ ਭਰੋ, ਬਾਕੀ ਹਿਸਾਬ ਐਪ ਕਰ ਦੇਵੇਗੀ।"}}, {"@type": "Question", "name": "ਕੀ ਇਹ ਕਿਲੋਮੀਟਰਾਂ ਵਿੱਚ ਹਿਸਾਬ ਰੱਖਦਾ ਹੈ?", "acceptedAnswer": {"@type": "Answer", "text": "ਹਾਂ। ਮੀਲ ਜਾਂ ਕਿਲੋਮੀਟਰ, ਤੁਹਾਡੀ ਆਪਣੀ ਕਰੰਸੀ, ਤੇ ਤੇਲ ਦਾ ਉਹ ਭਾਅ ਜੋ ਤੁਸੀਂ ਸੱਚੀਂ ਦਿੰਦੇ ਹੋ — ਸਭ ਸੈਟਿੰਗਾਂ ਵਿੱਚ, ਪਹਿਲੀ ਹੀ ਸਕ੍ਰੀਨ 'ਤੇ।"}}, {"@type": "Question", "name": "ਜਿੱਥੇ ਨੈੱਟਵਰਕ ਨਾ ਹੋਵੇ, ਉੱਥੇ ਚੱਲਦਾ ਹੈ?", "acceptedAnswer": {"@type": "Answer", "text": "ਹਾਂ। ਰਿਕਾਰਡਿੰਗ iPhone ਦੇ ਆਪਣੇ GPS ਨਾਲ ਹੁੰਦੀ ਹੈ ਤੇ ਇੰਟਰਨੈੱਟ ਬਿਲਕੁਲ ਨਹੀਂ ਚਾਹੀਦਾ। ਬਿਨਾਂ ਨੈੱਟਵਰਕ ਦੀਆਂ ਟ੍ਰਿਪਾਂ ਪਹਿਲਾਂ ਸੜਕ ਦੇ ਨਾਂ ਦੀ ਥਾਂ “ਸ਼ੁਰੂ” ਤੇ “ਅੰਤ” ਦਿਖਾਉਂਦੀਆਂ ਹਨ, ਤੇ ਅਗਲੀ ਵਾਰ Wi-Fi ਮਿਲਦਿਆਂ ਹੀ DropLane ਉਨ੍ਹਾਂ ਨੂੰ ਭਰ ਦਿੰਦਾ ਹੈ। ਬਿਨਾਂ ਸਿਗਨਲ ਵਾਲੇ ਰਾਹਾਂ 'ਤੇ ਪੂਰਾ ਹਫ਼ਤਾ ਵੀ ਲੰਘ ਜਾਵੇ, ਹਿਸਾਬ ਫਿਰ ਵੀ ਸਹੀ ਬੈਠਦਾ ਹੈ।"}}, {"@type": "Question", "name": "ਨਵਾਂ ਫ਼ੋਨ ਲਵਾਂ ਤਾਂ ਕੀ ਹੋਵੇਗਾ?", "acceptedAnswer": {"@type": "Answer", "text": "ਉਸੇ iCloud ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ ਤੇ ਤੁਹਾਡੀਆਂ ਟ੍ਰਿਪਾਂ, ਕਮਾਈ ਤੇ ਖ਼ਰਚ ਆਪਣੇ-ਆਪ ਵਾਪਸ ਆ ਜਾਂਦੇ ਹਨ। ਨਾ ਕੋਈ ਖਾਤਾ ਬਣਾਉਣਾ, ਨਾ ਕੋਈ ਪਾਸਵਰਡ ਗੁਆਉਣਾ, ਕਿਉਂਕਿ ਇਸ ਵਿੱਚੋਂ ਕੁਝ ਵੀ ਕਦੇ ਕਿਸੇ ਸਰਵਰ 'ਤੇ ਸੀ ਹੀ ਨਹੀਂ — ਬੈਕਅੱਪ ਤੁਹਾਡਾ ਹੈ, ਤੁਹਾਡੇ ਆਪਣੇ iCloud ਵਿੱਚ।"}}, {"@type": "Question", "name": "ਪੈਸੇ ਦੇਣੇ ਬੰਦ ਕਰ ਦਿਆਂ ਤਾਂ ਰਿਕਾਰਡ ਚਲੇ ਜਾਣਗੇ?", "acceptedAnswer": {"@type": "Answer", "text": "ਕੁਝ ਨਹੀਂ ਮਿਟਦਾ, ਤੇ ਐਪ ਰਿਕਾਰਡ ਕਰਦੀ ਰਹਿੰਦੀ ਹੈ। ਤੁਹਾਡੀਆਂ ਟ੍ਰਿਪਾਂ iPhone ਵਿੱਚ ਅਤੇ ਤੁਹਾਡੇ ਆਪਣੇ iCloud ਵਿੱਚ ਰਹਿੰਦੀਆਂ ਹਨ, ਤੇ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਬੰਦ ਰਹਿਣ ਦੌਰਾਨ ਚਲਾਏ ਕਿਲੋਮੀਟਰ ਦੁਬਾਰਾ ਸਬਸਕ੍ਰਾਈਬ ਕਰਨ 'ਤੇ ਤੁਹਾਨੂੰ ਉੱਥੇ ਹੀ ਮਿਲਣਗੇ। ਬੰਦ ਸਿਰਫ਼ ਵੇਖਣਾ ਹੁੰਦਾ ਹੈ: “ਅੱਜ”, “ਦਿਨ”, “ਅੰਕੜੇ”, “ਵਿਸ਼ਲੇਸ਼ਣ”, PDF ਤੇ CSV ਐਕਸਪੋਰਟ ਉਦੋਂ ਤੱਕ ਬੰਦ ਰਹਿੰਦੇ ਹਨ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਦੁਬਾਰਾ ਸਬਸਕ੍ਰਾਈਬ ਨਹੀਂ ਕਰਦੇ। ਹਿਸਾਬ ਕਿਤੇ ਹੋਰ ਰੱਖਣਾ ਹੋਵੇ, ਤਾਂ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਖ਼ਤਮ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ CSV ਐਕਸਪੋਰਟ ਕਰ ਲਓ — ਇਹ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਹੈ, ਇੱਕ ਟੈਪ ਵਿੱਚ।"}}, {"@type": "Question", "name": "ਕਾਰਡ ਦਾ ਬਿੱਲ ਆਉਣ ਤੋਂ ਪਹਿਲਾਂ ਕਿਵੇਂ ਪਤਾ ਲੱਗੇ ਕਿ ਤੇਲ ਅਸਲ ਵਿੱਚ ਕਿੰਨੇ ਦਾ ਪਿਆ?", "acceptedAnswer": {"@type": "Answer", "text": "DropLane ਵਿੱਚ ਆਪਣੇ ਫ਼ਿਊਲ ਕਾਰਡ ਦਾ ਪ੍ਰਤੀ ਲੀਟਰ ਭਾਅ ਭਰੋ, ਫਿਰ ਤੇਲ ਪਵਾਉਣ ਵੇਲੇ ਲੀਟਰ ਦਰਜ ਕਰੋ। ਖ਼ਰਚ ਉਸੇ ਦਿਨ ਨਿਕਲ ਆਉਂਦਾ ਹੈ, ਇਸ ਲਈ ਹਫ਼ਤੇ ਦਾ ਮੁਨਾਫ਼ਾ ਬਿੱਲ ਆਉਣ ਤੋਂ ਕਈ ਹਫ਼ਤੇ ਪਹਿਲਾਂ ਹੀ ਸਹੀ ਹੁੰਦਾ ਹੈ।"}}, {"@type": "Question", "name": "ਕੀ ਇਸ ਦਾ Android ਵਰਜ਼ਨ ਹੈ?", "acceptedAnswer": {"@type": "Answer", "text": "ਅਜੇ ਨਹੀਂ। ਫ਼ਿਲਹਾਲ DropLane ਸਿਰਫ਼ iPhone ਲਈ ਹੈ, Android 'ਤੇ ਕੰਮ ਚੱਲ ਰਿਹਾ ਹੈ। help@droplane.co.uk 'ਤੇ ਈਮੇਲ ਕਰੋ, ਜਿਸ ਦਿਨ ਆਵੇਗਾ, ਅਸੀਂ ਤੁਹਾਨੂੰ ਦੱਸ ਦਿਆਂਗੇ।"}}]}</script>
+<!-- Anonymous visitor counting. No cookies, nothing that identifies a
+     reader. Swap this one tag to change provider; site.js does not care. -->
+<script src="https://cdn.usefathom.com/script.js" data-site="VHXQRPBR" defer></script>
+</head>
+<body class="lean">
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/pa/"><img src="/assets/icon-180.png" alt="" width="32" height="32">DropLane</a>
+
+    <nav class="menu" aria-label="ਮੁੱਖ">
+      <a href="/pa/#money">ਕਿੰਨਾ ਬਚਦਾ ਹੈ</a>
+      <a href="/pa/#how">ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ</a>
+      <a href="/pa/#features">ਕੀ ਕਰਦਾ ਹੈ</a>
+      <a href="/pa/#pricing">ਕੀਮਤ</a>
+      <a href="/support/">ਸਹਾਇਤਾ</a>
+    </nav>
+
+    <div class="head-tools">
+      <button class="lang-button" type="button" aria-expanded="false" aria-controls="lang-panel" title="ਭਾਸ਼ਾ">
+        <span class="lang-button-flag" aria-hidden="true">🇮🇳</span>
+        <span class="lang-button-name">ਪੰਜਾਬੀ</span>
+        <svg class="lang-button-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+
+      <div class="theme" role="group" aria-label="ਰੰਗ">
+        <button type="button" data-theme="light" aria-pressed="true" title="ਹਲਕਾ">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.2 5.2l1.5 1.5M17.3 17.3l1.5 1.5M18.8 5.2l-1.5 1.5M6.7 17.3l-1.5 1.5"/></svg>
+          <span>ਹਲਕਾ</span>
+        </button>
+        <button type="button" data-theme="dark" aria-pressed="false" title="ਗੂੜ੍ਹਾ">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></svg>
+          <span>ਗੂੜ੍ਹਾ</span>
+        </button>
+      </div>
+
+      <a class="head-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-pa-head&amp;mt=8" data-place="head"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>DropLane ਲਓ</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="sheet">
+        <span class="burger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="open-label">ਮੀਨੂ</span><span class="close-label">ਬੰਦ ਕਰੋ</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="lang-panel" id="lang-panel" data-open="false">
+    <div class="wrap">
+      <p class="lang-panel-title">ਇਹ ਸਾਈਟ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ</p>
+      <ul class="lang-list">
+        <li><a href="/" hreflang="en" data-suggest="Read this in English" data-flag="🇬🇧"><span class="flag">🇬🇧</span> English</a></li>
+        <li><a href="/us/" hreflang="en-US" data-suggest="See US prices and IRS rates" data-flag="🇺🇸"><span class="flag">🇺🇸</span> English (US)</a></li>
+        <li><a href="/au/" hreflang="en-AU" data-suggest="See Australian prices and ATO rates" data-flag="🇦🇺"><span class="flag">🇦🇺</span> English (AU)</a></li>
+        <li><a href="/da/" hreflang="da" data-suggest="Læs den på dansk" data-flag="🇩🇰"><span class="flag">🇩🇰</span> Dansk</a></li>
+        <li><a href="/de/" hreflang="de" data-suggest="Auf Deutsch lesen" data-flag="🇩🇪"><span class="flag">🇩🇪</span> Deutsch</a></li>
+        <li><a href="/es/" hreflang="es" data-suggest="Léelo en español" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Español</a></li>
+        <li><a href="/fr/" hreflang="fr" data-suggest="Lire en français" data-flag="🇫🇷"><span class="flag">🇫🇷</span> Français</a></li>
+        <li><a href="/it/" hreflang="it" data-suggest="Leggi in italiano" data-flag="🇮🇹"><span class="flag">🇮🇹</span> Italiano</a></li>
+        <li><a href="/nl/" hreflang="nl" data-suggest="Lees dit in het Nederlands" data-flag="🇳🇱"><span class="flag">🇳🇱</span> Nederlands</a></li>
+        <li><a href="/pl/" hreflang="pl" data-suggest="Przeczytaj po polsku" data-flag="🇵🇱"><span class="flag">🇵🇱</span> Polski</a></li>
+        <li><a href="/pt/" hreflang="pt-PT" data-suggest="Ler em português" data-flag="🇵🇹"><span class="flag">🇵🇹</span> Português</a></li>
+        <li><a href="/br/" hreflang="pt" data-suggest="Ler em português do Brasil" data-flag="🇧🇷"><span class="flag">🇧🇷</span> Português (BR)</a></li>
+        <li><a href="/cz/" hreflang="cs" data-suggest="Číst česky" data-flag="🇨🇿"><span class="flag">🇨🇿</span> Čeština</a></li>
+        <li><a href="/sk/" hreflang="sk" data-suggest="Čítať po slovensky" data-flag="🇸🇰"><span class="flag">🇸🇰</span> Slovenčina</a></li>
+        <li><a href="/hu/" hreflang="hu" data-suggest="Olvasd magyarul" data-flag="🇭🇺"><span class="flag">🇭🇺</span> Magyar</a></li>
+        <li><a href="/gr/" hreflang="el" data-suggest="Διάβασέ το στα ελληνικά" data-flag="🇬🇷"><span class="flag">🇬🇷</span> Ελληνικά</a></li>
+        <li><a href="/ro/" hreflang="ro" data-suggest="Citește în română" data-flag="🇷🇴"><span class="flag">🇷🇴</span> Română</a></li>
+        <li><a href="/bg/" hreflang="bg" data-suggest="Прочети на български" data-flag="🇧🇬"><span class="flag">🇧🇬</span> Български</a></li>
+        <li><a href="/sv/" hreflang="sv" data-suggest="Läs den på svenska" data-flag="🇸🇪"><span class="flag">🇸🇪</span> Svenska</a></li>
+        <li><a href="/nb/" hreflang="nb" data-suggest="Les den på norsk" data-flag="🇳🇴"><span class="flag">🇳🇴</span> Norsk</a></li>
+        <li><a href="/fi/" hreflang="fi" data-suggest="Lue tämä suomeksi" data-flag="🇫🇮"><span class="flag">🇫🇮</span> Suomi</a></li>
+        <li><a href="/ru/" hreflang="ru" data-suggest="Читать на русском" data-flag="🇷🇺"><span class="flag">🇷🇺</span> Русский</a></li>
+        <li><a href="/lt/" hreflang="lt" data-suggest="Skaityti lietuviškai" data-flag="🇱🇹"><span class="flag">🇱🇹</span> Lietuvių</a></li>
+        <li><a href="/lv/" hreflang="lv" data-suggest="Lasīt latviski" data-flag="🇱🇻"><span class="flag">🇱🇻</span> Latviešu</a></li>
+        <li><a href="/ua/" hreflang="uk" data-suggest="Читати українською" data-flag="🇺🇦"><span class="flag">🇺🇦</span> Українська</a></li>
+        <li><a href="/tr/" hreflang="tr" data-suggest="Türkçe oku" data-flag="🇹🇷"><span class="flag">🇹🇷</span> Türkçe</a></li>
+        <li><a href="/jp/" hreflang="ja" data-suggest="日本語で読む" data-flag="🇯🇵"><span class="flag">🇯🇵</span> 日本語</a></li>
+        <li><a href="/kr/" hreflang="ko" data-suggest="한국어로 읽기" data-flag="🇰🇷"><span class="flag">🇰🇷</span> 한국어</a></li>
+        <li><a href="/sg/" hreflang="zh-Hans" data-suggest="用简体中文阅读" data-flag="🇸🇬"><span class="flag">🇸🇬</span> 简体中文</a></li>
+        <li><a href="/tw/" hreflang="zh-Hant" data-suggest="用繁體中文閱讀" data-flag="🇹🇼"><span class="flag">🇹🇼</span> 繁體中文</a></li>
+        <li><a href="/in/" hreflang="hi" data-suggest="हिन्दी में पढ़ें" data-flag="🇮🇳"><span class="flag">🇮🇳</span> हिन्दी</a></li>
+        <li><a href="/id/" hreflang="id" data-suggest="Baca dalam bahasa Indonesia" data-flag="🇮🇩"><span class="flag">🇮🇩</span> Bahasa Indonesia</a></li>
+        <li><a href="/vn/" hreflang="vi" data-suggest="Đọc bằng tiếng Việt" data-flag="🇻🇳"><span class="flag">🇻🇳</span> Tiếng Việt</a></li>
+        <li><a href="/th/" hreflang="th" data-suggest="อ่านเป็นภาษาไทย" data-flag="🇹🇭"><span class="flag">🇹🇭</span> ไทย</a></li>
+        <li><a href="/hr/" hreflang="hr" data-suggest="Čitaj na hrvatskom" data-flag="🇭🇷"><span class="flag">🇭🇷</span> Hrvatski</a></li>
+        <li><a href="/si/" hreflang="sl" data-suggest="Beri v slovenščini" data-flag="🇸🇮"><span class="flag">🇸🇮</span> Slovenščina</a></li>
+        <li><a href="/ca/" hreflang="ca" data-suggest="Llegeix-ho en català" data-flag="🇪🇸"><span class="flag">🇪🇸</span> Català</a></li>
+        <li><a href="/my/" hreflang="ms" data-suggest="Baca dalam Bahasa Melayu" data-flag="🇲🇾"><span class="flag">🇲🇾</span> Bahasa Melayu</a></li>
+        <li><a href="/pa/" hreflang="pa" aria-current="true" data-suggest="ਪੰਜਾਬੀ ਵਿੱਚ ਪੜ੍ਹੋ" data-flag="🇮🇳"><span class="flag">🇮🇳</span> ਪੰਜਾਬੀ</a></li>
+        <li><a href="/ta/" hreflang="ta" data-suggest="தமிழில் படியுங்கள்" data-flag="🇮🇳"><span class="flag">🇮🇳</span> தமிழ்</a></li>
+        <li><a href="/bn/" hreflang="bn" data-suggest="বাংলায় পড়ুন" data-flag="🇮🇳"><span class="flag">🇮🇳</span> বাংলা</a></li>
+        <li><a href="/mx/" hreflang="es-MX" data-suggest="Leer en español (México)" data-flag="🇲🇽"><span class="flag">🇲🇽</span> Español (MX)</a></li>
+        <li><a href="/qc/" hreflang="fr-CA" data-suggest="Lire en français (Canada)" data-flag="🇨🇦"><span class="flag">🇨🇦</span> Français (CA)</a></li>
+        <li><a href="/en-ca/" hreflang="en-CA" data-suggest="Read this in Canadian English" data-flag="🇨🇦"><span class="flag">🇨🇦</span> English (CA)</a></li>
+        <li><a href="/ae/" hreflang="ar" data-suggest="اقرأ بالعربية" data-flag="🇦🇪"><span class="flag">🇦🇪</span> العربية</a></li>
+        <li><a href="/ur/" hreflang="ur" data-suggest="اردو میں پڑھیں" data-flag="🇮🇳"><span class="flag">🇮🇳</span> اردو</a></li>
+      </ul>
+      <p class="lang-panel-note">ਐਪ ਸਾਰੀਆਂ 46 ਭਾਸ਼ਾਵਾਂ ਬੋਲਦੀ ਹੈ — ਹਰ ਸਕ੍ਰੀਨ, ਹਰ ਨੋਟੀਫਿਕੇਸ਼ਨ, ਹਰ PDF।</p>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet" data-open="false">
+    <div class="wrap">
+      <nav class="sheet-list" aria-label="ਮੁੱਖ">
+        <a href="/pa/#money">ਕਿੰਨਾ ਬਚਦਾ ਹੈ</a>
+        <a href="/pa/#how">ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ</a>
+        <a href="/pa/#features">ਕੀ ਕਰਦਾ ਹੈ</a>
+        <a href="/pa/#pricing">ਕੀਮਤ</a>
+        <a href="/pa/#faq">ਸਵਾਲ</a>
+        <a href="/support/">ਸਹਾਇਤਾ</a>
+      </nav>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-pa-menu&amp;mt=8" data-place="menu">14 ਦਿਨ ਮੁਫ਼ਤ ਸ਼ੁਰੂ ਕਰੋ</a>
+    </div>
+  </div>
+</header>
+
+<div class="langbar">
+  <div class="wrap">
+    <p><strong>46 ਭਾਸ਼ਾਵਾਂ।</strong> ਆਪਣੀ ਚੁਣੋ — ਐਪ ਵੀ ਉਹੀ ਬੋਲਦੀ ਹੈ।</p>
+    <a class="lang-suggest" id="lang-suggest" href="/pa/#languages" hidden></a>
+  </div>
+</div>
+
+<main class="page">
+  <div class="wrap">
+    <h1>ਡਰਾਈਵਰ ਸੱਚੀਂ ਜੋ ਪੁੱਛਦੇ ਹਨ</h1>
+    <p class="updated">ਸਿੱਧੇ ਜਵਾਬ, ਉਸ ਤੋਂ ਜੋ ਇਹ ਕੰਮ ਆਪ ਕਰਦਾ ਹੈ।</p>
+    <div class="faq">
+      <details>
+        <summary>ਕੀ ਇਹ ਬੱਸ ਇੱਕ ਹੋਰ ਕਿਲੋਮੀਟਰ ਟਰੈਕਰ ਹੈ?</summary>
+        <p>ਕਿਲੋਮੀਟਰ ਉਸੇ ਤਰ੍ਹਾਂ ਰਿਕਾਰਡ ਹੁੰਦੇ ਹਨ, ਬਿਨਾਂ ਸਟਾਰਟ ਬਟਨ ਦੇ। ਫ਼ਰਕ ਉਸ ਤੋਂ ਬਾਅਦ ਦਾ ਹੈ: ਤੁਹਾਡੀ ਕਮਾਈ ਜੁੜਦੀ ਹੈ, ਤੇਲ, ਪਾਰਕਿੰਗ ਤੇ ਗੱਡੀ ਦਾ ਖ਼ਰਚ ਘਟਦਾ ਹੈ, ਤੇ ਐਪ ਦੱਸਦੀ ਹੈ ਕਿ ਘੰਟੇ ਵਿੱਚ ਸੱਚੀਂ ਕਿੰਨਾ ਮਿਲਿਆ। ਸਿਰਫ਼ ਕਿਲੋਮੀਟਰਾਂ ਦਾ ਅੰਕੜਾ ਕਿਸੇ ਨੂੰ ਕਦੇ ਇਹ ਨਹੀਂ ਦੱਸ ਸਕਿਆ ਕਿ ਗੇੜਾ ਫ਼ਾਇਦੇ ਦਾ ਸੀ ਜਾਂ ਨਹੀਂ।</p>
+      </details>
+      <details>
+        <summary>ਕੀ ਬੈਟਰੀ ਖਾਂਦੀ ਹੈ?</summary>
+        <p>DropLane ਸਾਰਾ ਦਿਨ GPS ਚਾਲੂ ਨਹੀਂ ਰੱਖਦਾ। ਇਹ ਚੁੱਪ-ਚਾਪ ਉਦੋਂ ਤੱਕ ਰੁਕਿਆ ਰਹਿੰਦਾ ਹੈ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਪਾਰਕ ਵਾਲੀ ਥਾਂ ਤੋਂ ਨਿਕਲ ਨਾ ਜਾਓ, ਚੱਲਦਿਆਂ ਰਿਕਾਰਡ ਕਰਦਾ ਹੈ, ਤੇ ਰੁਕਦਿਆਂ ਹੀ ਫਿਰ ਸੌਂ ਜਾਂਦਾ ਹੈ।</p>
+      </details>
+      <details>
+        <summary>ਕੀ ਸਟਾਰਟ ਦਬਾਉਣਾ ਪੈਂਦਾ ਹੈ?</summary>
+        <p>ਨਹੀਂ — ਤੇ ਦਬਾਉਣ ਲਈ ਕੋਈ ਬਟਨ ਹੈ ਹੀ ਨਹੀਂ। ਇਹੀ ਤਾਂ ਗੱਲ ਹੈ। ਜੋ ਯਾਦ ਰੱਖਣਾ ਪਵੇ, ਉਹ ਉਸੇ ਦਿਨ ਭੁੱਲ ਜਾਂਦਾ ਹੈ ਜਦੋਂ ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ ਹੋਵੇ।</p>
+      </details>
+      <details>
+        <summary>ਟ੍ਰਿਪ ਦੀ ਕਿਸਮ ਚੁਣਨੀ ਭੁੱਲ ਜਾਵਾਂ ਤਾਂ?</summary>
+        <p>ਕੁਝ ਨਹੀਂ ਗੁਆਚਦਾ। ਬਿਨਾਂ ਕਿਸਮ ਦੀਆਂ ਟ੍ਰਿਪਾਂ ਦਿਨ ਦੀ ਸਕ੍ਰੀਨ &#x27;ਤੇ ਉਡੀਕਦੀਆਂ ਹਨ, ਤੇ ਐਪ ਤੁਹਾਡੇ ਬਦਲੇ ਅੰਦਾਜ਼ਾ ਲਾਉਣ ਦੀ ਥਾਂ ਤੁਹਾਨੂੰ ਯਾਦ ਕਰਾਉਂਦੀ ਹੈ।</p>
+      </details>
+      <details>
+        <summary>ਕੀ ਮੇਰੇ ਰਸਤਿਆਂ ਦਾ ਇਤਿਹਾਸ ਕਿਤੇ ਪਹੁੰਚੇਗਾ?</summary>
+        <p>ਨਹੀਂ। ਨਾ ਖਾਤਾ ਹੈ, ਨਾ ਸਰਵਰ। ਸਭ ਕੁਝ ਤੁਹਾਡੇ iPhone ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ, ਤੇ ਬੈਕਅੱਪ ਸਿਰਫ਼ ਤੁਹਾਡੇ ਆਪਣੇ iCloud ਵਿੱਚ, ਉਹ ਵੀ ਜੇ ਤੁਸੀਂ ਚਾਹੋ।</p>
+      </details>
+      <details>
+        <summary>ਮੇਰੇ ਕੋਲ ਵੈਨ ਨਹੀਂ, ਸਾਈਕਲ ਹੈ।</summary>
+        <p>ਚੱਲੇਗਾ। ਕਾਰਗੋ ਸਾਈਕਲ ਦੇ ਕਿਲੋਮੀਟਰ ਵੀ ਉਸੇ ਤਰ੍ਹਾਂ ਰਿਕਾਰਡ ਹੁੰਦੇ ਹਨ। ਪਰ ਐਪ ਵਿੱਚ ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ ਕਿਲੋਮੀਟਰ ਦਰਾਂ ਮੋਟਰ ਗੱਡੀਆਂ ਲਈ ਹਨ, ਇਸ ਲਈ ਸਾਈਕਲ &#x27;ਤੇ ਕੀ ਕਲੇਮ ਬਣਦਾ ਹੈ, ਇਹ ਤੁਹਾਡੇ ਦੇਸ਼ ਤੇ ਤੁਹਾਡੇ ਹਾਲਾਤ &#x27;ਤੇ ਨਿਰਭਰ ਹੈ — ਆਪਣੇ CA ਤੋਂ ਪੁੱਛ ਲੈਣਾ ਠੀਕ ਰਹੇਗਾ।</p>
+      </details>
+      <details>
+        <summary>ਕੀ ਮੇਰੇ ਦੇਸ਼ ਦੀ ਕਿਲੋਮੀਟਰ ਦਰ ਐਪ ਵਿੱਚ ਹੈ?</summary>
+        <p>ਸਤਾਰਾਂ ਦੇਸ਼ਾਂ ਦੀ ਸਰਕਾਰੀ ਦਰ ਐਪ ਵਿੱਚ ਪਹਿਲਾਂ ਤੋਂ ਹੈ ਤੇ ਅੱਪਡੇਟ ਹੁੰਦੀ ਰਹਿੰਦੀ ਹੈ। ਭਾਰਤ ਉਨ੍ਹਾਂ ਵਿੱਚ ਨਹੀਂ — ਇੱਥੇ ਆਪਣੀ ਦਰ ਇੱਕ ਵਾਰ ਭਰੋ, ਬਾਕੀ ਹਿਸਾਬ ਐਪ ਕਰ ਦੇਵੇਗੀ।</p>
+      </details>
+      <details>
+        <summary>ਕੀ ਇਹ ਕਿਲੋਮੀਟਰਾਂ ਵਿੱਚ ਹਿਸਾਬ ਰੱਖਦਾ ਹੈ?</summary>
+        <p>ਹਾਂ। ਮੀਲ ਜਾਂ ਕਿਲੋਮੀਟਰ, ਤੁਹਾਡੀ ਆਪਣੀ ਕਰੰਸੀ, ਤੇ ਤੇਲ ਦਾ ਉਹ ਭਾਅ ਜੋ ਤੁਸੀਂ ਸੱਚੀਂ ਦਿੰਦੇ ਹੋ — ਸਭ ਸੈਟਿੰਗਾਂ ਵਿੱਚ, ਪਹਿਲੀ ਹੀ ਸਕ੍ਰੀਨ &#x27;ਤੇ।</p>
+      </details>
+      <details>
+        <summary>ਜਿੱਥੇ ਨੈੱਟਵਰਕ ਨਾ ਹੋਵੇ, ਉੱਥੇ ਚੱਲਦਾ ਹੈ?</summary>
+        <p>ਹਾਂ। ਰਿਕਾਰਡਿੰਗ iPhone ਦੇ ਆਪਣੇ GPS ਨਾਲ ਹੁੰਦੀ ਹੈ ਤੇ ਇੰਟਰਨੈੱਟ ਬਿਲਕੁਲ ਨਹੀਂ ਚਾਹੀਦਾ। ਬਿਨਾਂ ਨੈੱਟਵਰਕ ਦੀਆਂ ਟ੍ਰਿਪਾਂ ਪਹਿਲਾਂ ਸੜਕ ਦੇ ਨਾਂ ਦੀ ਥਾਂ “ਸ਼ੁਰੂ” ਤੇ “ਅੰਤ” ਦਿਖਾਉਂਦੀਆਂ ਹਨ, ਤੇ ਅਗਲੀ ਵਾਰ Wi-Fi ਮਿਲਦਿਆਂ ਹੀ DropLane ਉਨ੍ਹਾਂ ਨੂੰ ਭਰ ਦਿੰਦਾ ਹੈ। ਬਿਨਾਂ ਸਿਗਨਲ ਵਾਲੇ ਰਾਹਾਂ &#x27;ਤੇ ਪੂਰਾ ਹਫ਼ਤਾ ਵੀ ਲੰਘ ਜਾਵੇ, ਹਿਸਾਬ ਫਿਰ ਵੀ ਸਹੀ ਬੈਠਦਾ ਹੈ।</p>
+      </details>
+      <details>
+        <summary>ਨਵਾਂ ਫ਼ੋਨ ਲਵਾਂ ਤਾਂ ਕੀ ਹੋਵੇਗਾ?</summary>
+        <p>ਉਸੇ iCloud ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ ਤੇ ਤੁਹਾਡੀਆਂ ਟ੍ਰਿਪਾਂ, ਕਮਾਈ ਤੇ ਖ਼ਰਚ ਆਪਣੇ-ਆਪ ਵਾਪਸ ਆ ਜਾਂਦੇ ਹਨ। ਨਾ ਕੋਈ ਖਾਤਾ ਬਣਾਉਣਾ, ਨਾ ਕੋਈ ਪਾਸਵਰਡ ਗੁਆਉਣਾ, ਕਿਉਂਕਿ ਇਸ ਵਿੱਚੋਂ ਕੁਝ ਵੀ ਕਦੇ ਕਿਸੇ ਸਰਵਰ &#x27;ਤੇ ਸੀ ਹੀ ਨਹੀਂ — ਬੈਕਅੱਪ ਤੁਹਾਡਾ ਹੈ, ਤੁਹਾਡੇ ਆਪਣੇ iCloud ਵਿੱਚ।</p>
+      </details>
+      <details>
+        <summary>ਪੈਸੇ ਦੇਣੇ ਬੰਦ ਕਰ ਦਿਆਂ ਤਾਂ ਰਿਕਾਰਡ ਚਲੇ ਜਾਣਗੇ?</summary>
+        <p>ਕੁਝ ਨਹੀਂ ਮਿਟਦਾ, ਤੇ ਐਪ ਰਿਕਾਰਡ ਕਰਦੀ ਰਹਿੰਦੀ ਹੈ। ਤੁਹਾਡੀਆਂ ਟ੍ਰਿਪਾਂ iPhone ਵਿੱਚ ਅਤੇ ਤੁਹਾਡੇ ਆਪਣੇ iCloud ਵਿੱਚ ਰਹਿੰਦੀਆਂ ਹਨ, ਤੇ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਬੰਦ ਰਹਿਣ ਦੌਰਾਨ ਚਲਾਏ ਕਿਲੋਮੀਟਰ ਦੁਬਾਰਾ ਸਬਸਕ੍ਰਾਈਬ ਕਰਨ &#x27;ਤੇ ਤੁਹਾਨੂੰ ਉੱਥੇ ਹੀ ਮਿਲਣਗੇ। ਬੰਦ ਸਿਰਫ਼ ਵੇਖਣਾ ਹੁੰਦਾ ਹੈ: “ਅੱਜ”, “ਦਿਨ”, “ਅੰਕੜੇ”, “ਵਿਸ਼ਲੇਸ਼ਣ”, PDF ਤੇ CSV ਐਕਸਪੋਰਟ ਉਦੋਂ ਤੱਕ ਬੰਦ ਰਹਿੰਦੇ ਹਨ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਦੁਬਾਰਾ ਸਬਸਕ੍ਰਾਈਬ ਨਹੀਂ ਕਰਦੇ। ਹਿਸਾਬ ਕਿਤੇ ਹੋਰ ਰੱਖਣਾ ਹੋਵੇ, ਤਾਂ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਖ਼ਤਮ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ CSV ਐਕਸਪੋਰਟ ਕਰ ਲਓ — ਇਹ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਹੈ, ਇੱਕ ਟੈਪ ਵਿੱਚ।</p>
+      </details>
+      <details>
+        <summary>ਕਾਰਡ ਦਾ ਬਿੱਲ ਆਉਣ ਤੋਂ ਪਹਿਲਾਂ ਕਿਵੇਂ ਪਤਾ ਲੱਗੇ ਕਿ ਤੇਲ ਅਸਲ ਵਿੱਚ ਕਿੰਨੇ ਦਾ ਪਿਆ?</summary>
+        <p>DropLane ਵਿੱਚ ਆਪਣੇ ਫ਼ਿਊਲ ਕਾਰਡ ਦਾ ਪ੍ਰਤੀ ਲੀਟਰ ਭਾਅ ਭਰੋ, ਫਿਰ ਤੇਲ ਪਵਾਉਣ ਵੇਲੇ ਲੀਟਰ ਦਰਜ ਕਰੋ। ਖ਼ਰਚ ਉਸੇ ਦਿਨ ਨਿਕਲ ਆਉਂਦਾ ਹੈ, ਇਸ ਲਈ ਹਫ਼ਤੇ ਦਾ ਮੁਨਾਫ਼ਾ ਬਿੱਲ ਆਉਣ ਤੋਂ ਕਈ ਹਫ਼ਤੇ ਪਹਿਲਾਂ ਹੀ ਸਹੀ ਹੁੰਦਾ ਹੈ।</p>
+      </details>
+      <details>
+        <summary>ਕੀ ਇਸ ਦਾ Android ਵਰਜ਼ਨ ਹੈ?</summary>
+        <p>ਅਜੇ ਨਹੀਂ। ਫ਼ਿਲਹਾਲ DropLane ਸਿਰਫ਼ iPhone ਲਈ ਹੈ, Android &#x27;ਤੇ ਕੰਮ ਚੱਲ ਰਿਹਾ ਹੈ। help@droplane.co.uk &#x27;ਤੇ ਈਮੇਲ ਕਰੋ, ਜਿਸ ਦਿਨ ਆਵੇਗਾ, ਅਸੀਂ ਤੁਹਾਨੂੰ ਦੱਸ ਦਿਆਂਗੇ।</p>
+      </details>
+    </div>
+  </div>
+  <section>
+    <div class="wrap">
+      <div class="closer">
+      <h2>ਹੁਣ ਅੰਦਾਜ਼ਾ ਨਹੀਂ, ਹਿਸਾਬ।</h2>
+      <p>14 ਦਿਨ ਮੁਫ਼ਤ, ਕੋਈ ਖਾਤਾ ਨਹੀਂ, ਤੇ ਸਵੇਰੇ ਛੇ ਵਜੇ ਯਾਦ ਰੱਖਣ ਲਈ ਕੁਝ ਨਹੀਂ।</p>
+      <a class="btn" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-pa-closer&amp;mt=8" data-place="closer"><svg class="apple-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.211.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>14 ਦਿਨ ਮੁਫ਼ਤ ਸ਼ੁਰੂ ਕਰੋ</a>
+    </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-note">DropLane — ਕੰਮ ਲਈ ਗੱਡੀ ਚਲਾਉਣ ਵਾਲੇ ਹਰ ਕਿਸੇ ਲਈ ਕਿਲੋਮੀਟਰ, ਕਮਾਈ ਤੇ ਖ਼ਰਚ, ਆਪਣੇ-ਆਪ। ਇੰਗਲੈਂਡ ਦੇ ਟੌਰਕੀ ਵਿੱਚ, ਇੱਕ ਡਿਲੀਵਰੀ ਡਰਾਈਵਰ ਨੇ ਬਣਾਇਆ।</p>
+    <div class="foot-links">
+      <a href="/privacy/">ਪ੍ਰਾਈਵੇਸੀ</a>
+      <a href="/terms/">ਸ਼ਰਤਾਂ</a>
+      <a href="/support/">ਸਹਾਇਤਾ</a>
+      <a href="mailto:help@droplane.co.uk">help@droplane.co.uk</a>
+      <a class="foot-social" href="https://www.instagram.com/droplane.app/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="4"/><path d="M17.4 6.6h.01"/></svg>Instagram</a>
+      <a class="foot-social" href="https://www.facebook.com/droplaneapp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.2"/><path d="M15.1 7.9h-1.4a2.1 2.1 0 0 0-2.1 2.1V21"/><path d="M9.2 13.1h5.1"/></svg>Facebook</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="ਬੰਦ ਕਰੋ">×</button>
+  <figure>
+    <img id="lightbox-image" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<div class="cta-bar" id="cta-bar" role="region" aria-label="DropLane ਲਓ" hidden>
+  <div class="cta-bar-in">
+    <img class="cta-bar-mark" src="/assets/icon-180.png" alt="" width="46" height="46" loading="lazy" decoding="async">
+    <p class="cta-bar-say">
+      <b>14 ਦਿਨ ਮੁਫ਼ਤ</b>
+      <span>ਫਿਰ ਸਾਲ ਦਾ ₹1,999 ਜਾਂ ਮਹੀਨੇ ਦਾ ₹299</span>
+    </p>
+    <a class="btn cta-bar-go" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=web-pa-bar&amp;mt=8" data-place="bar">14 ਦਿਨ ਮੁਫ਼ਤ ਸ਼ੁਰੂ ਕਰੋ</a>
+    <button class="cta-bar-shut" type="button" aria-label="ਬੰਦ ਕਰੋ">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

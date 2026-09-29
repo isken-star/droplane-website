@@ -1279,6 +1279,10 @@ footer .foot-social svg { width: 17px; height: 17px; flex: none; }
      onto two lines inside the hero button at 30px a side. At 16px every
      language's label fits on one. */
   .hero .btn-hero { padding-left: 16px; padding-right: 16px; gap: 10px; }
+  /* Tamil's "14 நாட்கள் இலவசமாகத் தொடங்குங்கள்" is wider than a phone at
+     one line; held to nowrap it pushed the page 40px sideways. Any lean
+     button that can't fit wraps instead, centred, and never overflows. */
+  body.lean .btn:not(.cta-bar-go) { white-space: normal; text-align: center; max-width: 100%; }
 }
 
 /* A bar that slides is a nice touch; a bar that slides at someone who asked
