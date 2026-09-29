@@ -1267,14 +1267,6 @@ footer .foot-social svg { width: 17px; height: 17px; flex: none; }
      wrap, so on the narrowest phones the button gives up some type size
      rather than pushing the price on to a fourth line. */
   .cta-bar-go { padding: 11px 14px; font-size: 14px; }
-  /* The lean page's button says "Start 14 days free", which in Ukrainian or
-     Lithuanian is wider than half a phone. Held to one line it squeezed the
-     price into a column one word wide and the bar grew to 210px; two lines
-     of button keep it near the English height. */
-  body.lean .cta-bar-go {
-    white-space: normal; max-width: 40vw; padding: 10px 12px;
-    line-height: 1.2; text-align: center;
-  }
   /* "Почати 14 днів безкоштовно" and "Commencer 14 jours gratuits" broke
      onto two lines inside the hero button at 30px a side. At 16px every
      language's label fits on one. */
@@ -1317,3 +1309,43 @@ html[lang^="ur"] h2 { line-height: 1.6; }
 html[lang^="ur"] h3, html[lang^="ur"] .btn, html[lang^="ur"] .btn-ghost, html[lang^="ur"] .head-cta,
 html[lang^="ur"] .eyebrow, html[lang^="ur"] .kicker, html[lang^="ur"] .hero-facts span { line-height: 1.7; }
 html[lang^="ur"] .hero-facts b { height: 40px; }
+
+/* The lean page's bar on a phone, at any phone width. Its button says "Start
+   14 days free", which in most languages is wider than half the screen; side
+   by side, it squeezed the price into a column one word wide and the bar
+   grew to 228px on a 430px iPhone. Stacked, the offer reads as one line
+   (two at most) beside the close button, and the button takes the full width
+   beneath it: 110–122px in every language, at every phone width. */
+@media (max-width: 620px) {
+  body.lean .cta-bar-in {
+    flex-wrap: wrap; column-gap: 10px; row-gap: 8px;
+    padding: 10px 0 12px; min-height: 0;
+  }
+  body.lean .cta-bar-mark { display: none; }
+  body.lean .cta-bar-say { order: 1; flex: 1 1 0; min-width: 0; line-height: 1.3; }
+  body.lean .cta-bar-say b,
+  body.lean .cta-bar-say span { display: inline; font-size: 14px; }
+  body.lean .cta-bar-say b::after { content: " · "; font-weight: 400; color: var(--text-3); }
+  body.lean .cta-bar-shut { order: 2; align-self: flex-start; }
+  body.lean .cta-bar-go {
+    order: 3; flex: 1 1 100%; max-width: none; white-space: nowrap;
+    padding: 12px 14px; font-size: 15px; text-align: center; justify-content: center;
+  }
+}
+
+/* The lean page's other install buttons on a narrow phone. At 26px a side
+   and 17px type, "Commencer 14 jours gratuits" and "Почати 14 днів
+   безкоштовно" broke onto two lines in the pricing cards, the features
+   and the closing card in a third of the languages at 360px. Tighter sides
+   and a point less type keep every language but Tamil on one line; the
+   closing card also gives back 10px a side. */
+@media (max-width: 420px) {
+  body.lean .btn:not(.cta-bar-go):not(.btn-hero) {
+    padding-left: 14px; padding-right: 14px; font-size: 16px;
+  }
+  body.lean [data-place="features"] { width: 100%; }
+  body.lean .closer { padding-left: 20px; padding-right: 20px; }
+  body.lean .closer .btn:not(.cta-bar-go):not(.btn-hero) {
+    width: 100%; font-size: 15px; padding-left: 12px; padding-right: 12px;
+  }
+}
