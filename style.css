@@ -352,6 +352,9 @@ h3 { font-size: 19px; font-weight: 700; letter-spacing: -.015em; margin: 0 0 7px
    than pushing the page wider than the phone. */
 h1, h2, h3 { overflow-wrap: break-word; }
 .lede { font-size: 19.5px; color: var(--text-2); margin: 0 0 28px; max-width: 44ch; }
+/* A language's features line lifted under the headline: who the app is for,
+   read before what it does. Only pages that set "hero_slogan" have it. */
+.hero-slogan { font-size: 20px; font-weight: 600; line-height: 1.4; color: var(--text); margin: 0 0 14px; max-width: 40ch; text-wrap: balance; }
 .section-intro { font-size: 18px; color: var(--text-2); max-width: 62ch; margin: 0 0 36px; }
 
 /* The brand, stated once at a size worth looking at. The nav mark is small
@@ -956,6 +959,7 @@ body.lean .twoday-money { justify-content: flex-start; gap: 10px; margin-top: 12
   body.lean .kicker { margin-bottom: 10px; }
   body.lean h1 { margin: 8px 0 10px; }
   body.lean .lede { margin-bottom: 18px; font-size: 18px; }
+  .hero-slogan { font-size: 18px; margin-bottom: 10px; }
   body.lean .hero-support { margin-top: 12px; }
   body.lean .trust { margin-top: 16px; gap: 7px; }
   body.lean .trust li:nth-child(4) { display: none; }
