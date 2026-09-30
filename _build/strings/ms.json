@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — Jarak, pendapatan dan kos automatik untuk sesiapa yang memandu untuk kerja",
-  "meta_description": "Jejak jarak untuk kurier dan rider bebas. DropLane merakam perjalanan sendiri, menolak minyak dan kos daripada pendapatan, dan menunjukkan hasil sebenar sejam.",
+  "meta_title": "DropLane — Jarak, pendapatan dan kos direkodkan secara automatik, bagi sesiapa yang memandu untuk kerja",
+  "meta_description": "Aplikasi rekod jarak untuk kurier dan rider. DropLane merakam perjalanan secara automatik, menolak minyak dan kos daripada pendapatan, dan mengira hasil sejam.",
   "nav_label": "Utama",
   "nav_features": "Apa fungsinya",
   "nav_screens": "Skrin",
@@ -150,16 +150,16 @@
   "pricing_col_year": "Tahunan",
   "pricing_you": "Anda",
   "pricing_note": "Apple tidak mengenakan sebarang caj selama 14 hari. Batalkan dalam Seting sebelum itu dan anda tidak membayar apa-apa. Di luar Malaysia, App Store menunjukkan harga untuk negara anda sendiri.",
-  "faq_h2": "Soalan yang kurier benar-benar tanya",
-  "faq_intro": "Jawapan terus, daripada orang yang buat kerja ini.",
+  "faq_h2": "Soalan yang benar-benar ditanya oleh kurier",
+  "faq_intro": "Jawapan terus terang, daripada orang yang melakukan kerja ini sendiri.",
   "faq": [
     {
       "q": "Bukankah ini cuma satu lagi aplikasi jejak jarak?",
-      "a": "Ia merakam jarak dengan cara yang sama, tanpa butang mula. Bezanya ialah apa yang berlaku selepas itu: pendapatan anda dimasukkan, minyak, parkir dan kos kenderaan ditolak, dan aplikasi memberitahu berapa sebenarnya hasil sejam anda. Angka jarak sahaja tak pernah memberitahu sesiapa sama ada perjalanan itu berbaloi."
+      "a": "Ia merakam jarak dengan cara yang sama, tanpa butang mula. Bezanya ialah apa yang berlaku selepas itu: pendapatan anda dimasukkan, minyak, parkir dan kos kenderaan ditolak, lalu aplikasi memberitahu berapa sebenarnya hasil sejam anda. Angka jarak sahaja tak pernah memberitahu sesiapa sama ada kerja hari itu berbaloi."
     },
     {
       "q": "Adakah ia menghabiskan bateri?",
-      "a": "DropLane tidak membiarkan GPS berjalan sepanjang hari. Ia diam sehingga sedar anda telah meninggalkan tempat parkir, merakam semasa anda bergerak, dan tidur semula apabila anda berhenti."
+      "a": "DropLane tidak membiarkan GPS berjalan sepanjang hari. Ia diam sehingga ia sedar anda sudah bergerak dari tempat anda parkir, merakam semasa anda bergerak, dan tidur semula apabila anda berhenti."
     },
     {
       "q": "Perlu tekan mula?",
@@ -170,16 +170,16 @@
       "a": "Tiada yang hilang. Perjalanan yang belum diasingkan menunggu di skrin Hari, dan aplikasi mengingatkan anda, bukan meneka bagi pihak anda."
     },
     {
-      "q": "Adakah sejarah laluan saya akan sampai ke mana-mana?",
+      "q": "Adakah sejarah laluan saya dihantar ke mana-mana?",
       "a": "Tidak. Tiada akaun dan tiada pelayan. Semuanya ada di iPhone anda, dan disandarkan hanya ke iCloud anda sendiri jika anda mahu."
     },
     {
       "q": "Saya naik basikal, bukan van.",
-      "a": "Boleh. Jarak dengan basikal kargo dirakam dengan cara yang sama. Tetapi kadar jarak terbina dalam itu untuk kenderaan bermotor, jadi berapa yang basikal boleh tuntut bergantung pada negara dan keadaan anda — eloklah tanya akauntan."
+      "a": "Tiada masalah. Jarak dengan basikal kargo dirakam dengan cara yang sama. Tetapi kadar jarak yang terbina dalam aplikasi adalah untuk kenderaan bermotor, jadi berapa yang boleh dituntut untuk basikal bergantung pada negara dan keadaan anda — eloklah tanya akauntan."
     },
     {
       "q": "Ada kadar jarak untuk Malaysia?",
-      "a": "Tujuh belas negara sudah ada kadar rasmi terbina dalam yang sentiasa dikemas kini, dan Malaysia tidak termasuk. Taip kadar anda sendiri sekali dan aplikasi akan mengira selebihnya."
+      "a": "Tujuh belas negara sudah ada kadar rasmi terbina dalam yang sentiasa dikemas kini, tetapi Malaysia tidak termasuk. Taip kadar anda sendiri sekali dan aplikasi akan mengira selebihnya."
     },
     {
       "q": "Boleh guna kilometer?",
@@ -187,19 +187,19 @@
     },
     {
       "q": "Berfungsi di tempat tiada isyarat?",
-      "a": "Ya. Rakaman menggunakan GPS iPhone sendiri dan langsung tidak perlukan internet. Perjalanan tanpa isyarat kembali berlabel “Mula” dan “Tamat”, bukan nama jalan, dan DropLane mengisinya apabila ia nampak Wi-Fi seterusnya. Seminggu di jalan kampung tanpa isyarat pun tetap dijumlahkan dengan betul."
+      "a": "Ya. Rakaman menggunakan GPS iPhone sendiri dan langsung tidak perlukan internet. Perjalanan tanpa isyarat kembali berlabel “Mula” dan “Tamat”, bukan nama jalan, dan DropLane mengisinya sebaik sahaja ia bersambung ke Wi-Fi semula. Seminggu di jalan kampung tanpa isyarat pun tetap dijumlahkan dengan betul."
     },
     {
       "q": "Apa jadi bila saya tukar telefon?",
-      "a": "Daftar masuk ke iCloud yang sama dan perjalanan, pendapatan dan kos anda kembali sendiri. Tiada akaun untuk dibuat dan tiada kata laluan yang boleh hilang, kerana tidak pernah ada pelayan yang menyimpan semua itu — sandarannya milik anda, dalam iCloud anda sendiri."
+      "a": "Daftar masuk ke iCloud yang sama, dan perjalanan, pendapatan serta kos anda akan kembali dengan sendirinya. Tiada akaun untuk dibuat dan tiada kata laluan yang boleh hilang, kerana tidak pernah ada pelayan yang menyimpan semua itu — sandarannya milik anda, dalam iCloud anda sendiri."
     },
     {
       "q": "Kalau saya berhenti bayar, rekod saya hilang?",
-      "a": "Tiada yang dipadam, dan aplikasi terus merakam. Perjalanan anda kekal di iPhone dan di iCloud anda sendiri, dan perjalanan yang anda buat semasa langganan tidak aktif akan menunggu apabila anda melanggan semula. Yang dikunci ialah paparannya: Hari Ini, Hari, Statistik, Analisis, PDF dan eksport CSV kekal tertutup sehingga anda melanggan semula. Kalau anda mahu angkanya di tempat lain, eksport CSV sebelum langganan tamat — ia ada dalam Tetapan, sekali ketik sahaja."
+      "a": "Tiada yang dipadam, dan aplikasi terus merakam. Perjalanan anda kekal di iPhone dan di iCloud anda sendiri, dan perjalanan yang anda buat semasa langganan tidak aktif akan menunggu apabila anda melanggan semula. Yang dikunci hanyalah paparannya: Hari Ini, Hari, Statistik, Analisis, PDF dan eksport CSV kekal tertutup sehingga langganan anda aktif semula. Kalau anda mahu angkanya di tempat lain, eksport CSV sebelum langganan tamat — ia ada dalam Tetapan, sekali ketik sahaja."
     },
     {
       "q": "Bagaimana nak tahu kos minyak sebenar sebelum bil kad sampai?",
-      "a": "Beritahu DropLane harga seliter yang dikenakan kad minyak anda, kemudian catat liter setiap kali mengisi. Kosnya dikira pada hari itu juga, jadi untung minggu ini sudah tepat berminggu-minggu sebelum bil sampai."
+      "a": "Beritahu DropLane harga seliter yang dikenakan kad minyak anda, kemudian catat jumlah liter setiap kali mengisi minyak. Kosnya dikira pada hari itu juga, jadi untung minggu ini sudah tepat berminggu-minggu sebelum bil sampai."
     },
     {
       "q": "Ada versi Android?",
@@ -208,7 +208,7 @@
   ],
   "closer_h2": "Berhenti meneka hasil hari ini.",
   "closer_body": "Empat belas hari percuma, tanpa akaun, dan tiada apa yang perlu diingat pukul enam pagi.",
-  "footer_note": "DropLane — jarak, pendapatan dan kos automatik untuk sesiapa yang memandu untuk kerja. Dibina oleh seorang kurier, di Torquay.",
+  "footer_note": "DropLane — jarak, pendapatan dan kos direkodkan secara automatik, bagi sesiapa yang memandu untuk kerja. Dibina oleh seorang kurier di Torquay, England.",
   "footer_privacy": "Privasi",
   "footer_terms": "Terma",
   "footer_support": "Sokongan",
@@ -222,25 +222,25 @@
   "trust": [
     "Merakam perjalanan secara automatik",
     "Lokasi kekal dalam iPhone anda",
-    "Dibina kurier berpengalaman 10+ tahun",
+    "Dibina oleh kurier berpengalaman 10+ tahun",
     "46 bahasa, semua mata wang"
   ],
   "outcomes_label": "Tiga angka yang DropLane sediakan sebelum anda sampai ke rumah",
   "outcomes": [
     {
       "file": "today",
-      "title": "Pendapatan saya hari ini",
+      "title": "Hasil saya hari ini",
       "alt": "Skrin Hari Ini: perjalanan sedang dirakam pada peta Kuala Lumpur, dan hasil hari ini RM254.60, iaitu pendapatan RM295.00 tolak kos RM40.40."
     },
     {
       "file": "day",
       "title": "Yang benar-benar tinggal selepas kos",
-      "alt": "Halaman satu hari: untung RM254.60 bagi 148 km, RM37.26 sejam, RM1.72 sekilometer, dan hari itu di atas peta."
+      "alt": "Halaman satu hari: untung RM254.60 bagi 148 km, RM37.26 sejam, RM1.72 sekilometer, dan laluan hari itu di peta."
     },
     {
       "file": "insights",
       "title": "Kadar sejam sebenar saya",
-      "alt": "Skrin Analisis: RM183.98 untung selepas kos tetap, RM26.92 sejam, RM1.72 sekilometer, 6 j 50 min di atas jalan."
+      "alt": "Skrin Analisis: RM183.98 untung selepas kos tetap, RM26.92 sejam, RM1.72 sekilometer, 6 j 50 min di jalan."
     }
   ],
   "money_label_money": "dibawa pulang",
@@ -248,7 +248,7 @@
   "money_note": "Kilometer memberitahu berapa jauh anda memandu. DropLane memberitahu sama ada ia berbaloi.",
   "nav_day": "Berapa hasilnya",
   "nav_how": "Cara ia berfungsi",
-  "how_h2": "Tiga langkah, dan hanya satu kerja anda",
+  "how_h2": "Tiga langkah, dan hanya satu tugas anda",
   "how_intro": "DropLane sengaja tiada butang mula. Tiada siapa ingat nak menekannya pukul enam pagi dengan van penuh bungkusan.",
   "how_steps": [
     {
@@ -257,11 +257,11 @@
     },
     {
       "title": "Pandu sahaja",
-      "body": "Setiap perjalanan disimpan sendiri, dengan laluan, perhentian dan berapa lama anda berhenti di setiap satu."
+      "body": "Setiap perjalanan disimpan dengan sendirinya, bersama laluan, perhentian dan berapa lama anda berhenti di setiap satu."
     },
     {
       "title": "Pilih jenisnya dengan satu ketikan",
-      "body": "Bermuatan, kosong, jemput atau peribadi. Jumlah dan tuntutan jarak dikira sendiri."
+      "body": "Bermuatan, kosong, jemput atau peribadi. Jumlah dan tuntutan jarak dikira dengan sendirinya."
     }
   ],
   "setup_h3": "Lihat cara menyediakannya",
@@ -277,15 +277,15 @@
   "privacy_h2": "Data anda. Milik anda seorang.",
   "privacy_intro": "Lokasi anda kekal di iPhone dan iCloud anda sendiri. Tiada akaun, tiada pelayan, tiada apa yang dijual. Hanya anda yang menentukan siapa melihat perjalanan anda.",
   "privacy_stat_label": "Pelayan yang menyimpan lokasi anda",
-  "privacy_point1": "Lokasi inilah yang membolehkan DropLane merakam jarak. Sejarah lokasi anda tidak pernah meninggalkan iPhone anda.",
+  "privacy_point1": "Lokasi inilah yang membolehkan DropLane merakam jarak. Sejarah lokasi anda tidak pergi lebih jauh daripada iPhone dan iCloud anda sendiri.",
   "privacy_point2": "Sandaran dan pemulihan iCloud, tanpa perlu akaun",
   "privacy_point3": "Eksport CSV untuk simpanan anda",
   "faq_all": "Lihat semua soalan →",
-  "faq_page_title": "Soalan yang kurier benar-benar tanya — DropLane",
+  "faq_page_title": "Soalan yang benar-benar ditanya oleh kurier — DropLane",
   "faq_meta_description": "Semua soalan kurier tentang DropLane, dijawab oleh kurier yang membinanya: rakaman, bateri, privasi, isyarat, dan apa jadi jika anda berhenti membayar.",
   "faq_home": [
     "Perlu tekan mula?",
-    "Adakah sejarah laluan saya akan sampai ke mana-mana?",
+    "Adakah sejarah laluan saya dihantar ke mana-mana?",
     "Berfungsi di tempat tiada isyarat?",
     "Saya naik basikal, bukan van.",
     "Kalau saya berhenti bayar, rekod saya hilang?"

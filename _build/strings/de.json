@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — Kilometer, Einnahmen, Ausgaben — automatisch für alle, die im Job fahren",
-  "meta_description": "DropLane zeichnet Kurierfahrten allein auf, zieht Sprit, Parkgebühren und laufende Kosten vom Umsatz ab und sagt dir, was die Stunde wirklich gebracht hat.",
+  "meta_title": "DropLane – Kilometer und Verdienst automatisch erfassen, für alle, die beruflich fahren",
+  "meta_description": "Kilometer-App für Kuriere, Handwerker und Außendienst: DropLane erfasst jede Fahrt automatisch, zieht Sprit und Kosten ab und zeigt, was die Stunde bringt.",
   "nav_label": "Hauptmenü",
   "nav_how": "So funktioniert’s",
   "nav_day": "Was bleibt",
@@ -19,9 +19,9 @@
   "theme_dark": "Dunkel",
   "language_label": "Sprache",
   "language_title": "Diese Seite in deiner Sprache",
-  "language_note": "Die App spricht alle 46 Sprachen — jeder Screen, jede Mitteilung, jedes PDF.",
+  "language_note": "Die App spricht alle 46 Sprachen – jeder Bildschirm, jede Mitteilung, jedes PDF.",
   "langbar_strong": "46 Sprachen.",
-  "langbar_rest": "Such dir deine aus — die App spricht sie auch.",
+  "langbar_rest": "Such dir deine aus – die App spricht sie auch.",
   "per_month_short": "im Monat",
   "see_all": "alle ansehen",
   "hero_h1": "Wissen, was der Tag wirklich gebracht hat.",
@@ -83,24 +83,24 @@
   "day_label_hour": "pro Stunde",
   "day_note": "Die Zahlen eines Tages, direkt von den Screens oben. Deine werden andere sein — es geht darum, sie am selben Tag im Wagen zu haben, statt erst im Frühjahr.",
   "how_h2": "Drei Schritte. Nur einer davon ist deiner.",
-  "how_intro": "In DropLane gibt es mit Absicht keinen Startknopf. Um sechs Uhr früh mit einem vollen Wagen denkt niemand daran, einen zu drücken.",
+  "how_intro": "DropLane hat bewusst keinen Startknopf. Um sechs Uhr früh, den Transporter voller Pakete, denkt niemand daran, einen zu drücken.",
   "how_steps": [
     {
       "title": "Einmal einschalten",
-      "body": "App installieren und Standort im Hintergrund erlauben. Mehr Einrichtung gibt es nicht."
+      "body": "App installieren und den Standortzugriff im Hintergrund erlauben. Mehr Einrichtung gibt es nicht."
     },
     {
       "title": "Fahren",
-      "body": "Jede Fahrt speichert sich selbst, mit Strecke, Stopps und wie lange du an jedem davon standest."
+      "body": "Jede Fahrt speichert sich von selbst – mit Route, Stopps und der Standzeit an jedem Stopp."
     },
     {
       "title": "Mit einem Tipp zuordnen",
-      "body": "Geschäftlich, Leerfahrt, auf dem Weg zur Abholung oder privat. Summen und Kilometerpauschale aktualisieren sich von allein."
+      "body": "Mit Ladung, leer, zur Abholung oder privat. Summen und Kilometerpauschale aktualisieren sich von allein."
     }
   ],
   "how_proof": "Wähl eine Woche, einen Monat oder einen eigenen Zeitraum, kreuz an, was hinein soll, und das PDF für den Steuerberater ist nur einen Tipp entfernt — gebaut aus Fahrten, die du nie eintragen musstest.",
   "features_h2": "Was du davon hast",
-  "features_intro": "Gemacht für den Job, wie er wirklich ist — von jemandem, der ihn selbst macht.",
+  "features_intro": "Entwickelt für den Job, wie er wirklich ist – von jemandem, der ihn selbst macht.",
   "features": [
     {
       "icon": "💶",
@@ -110,7 +110,7 @@
     {
       "icon": "⏱️",
       "title": "Dein echter Stundenlohn",
-      "body": "Sieh, welche Tage und Aufträge sich wirklich lohnen, wenn Sprit, Finanzierung und Versicherung auf deine Arbeitstage verteilt sind."
+      "body": "Du siehst, welche Tage und Aufträge sich wirklich lohnen, sobald Sprit, Finanzierung und Versicherung auf deine Arbeitstage umgelegt sind."
     },
     {
       "icon": "🧾",
@@ -190,16 +190,16 @@
   "languages_caption_title": "Statistik",
   "languages_caption_body": "Deine Woche, in deiner Sprache und deinem Geld.",
   "pricing_h2": "Ein Preis, alles drin",
-  "pricing_intro": "Vierzehn Tage gratis. Kündigst du vor Ablauf der Testphase, zahlst du nichts. Alle Funktionen sind von Anfang an dabei — kein teurerer Tarif, keine Extras.",
+  "pricing_intro": "Vierzehn Tage gratis. Kündigst du vor Ablauf der Testphase, zahlst du nichts. Alle Funktionen sind von Anfang an dabei – kein teurerer Tarif, keine Extras.",
   "pricing_monthly": "Monatlich",
   "pricing_yearly": "Jährlich",
   "pricing_per_month": "im Monat, jederzeit kündbar",
   "pricing_per_year": "im Jahr, einmal jährlich abgerechnet",
-  "pricing_best": "Bester Preis",
+  "pricing_best": "Bestes Angebot",
   "pricing_bullet_all": "Alle Funktionen, keine Zusatzkäufe",
-  "pricing_bullet_trial": "Erst 14 Tage gratis",
+  "pricing_bullet_trial": "Die ersten 14 Tage gratis",
   "pricing_cta": "14 Tage gratis starten",
-  "pricing_bullet_saving": "Spare {saving} im Jahr — {percent} % günstiger",
+  "pricing_bullet_saving": "Spare {saving} im Jahr – {percent} % günstiger",
   "pricing_bullet_equivalent": "Macht {monthly} im Monat",
   "pricing_table_title": "Der Preis bei dir",
   "pricing_search": "Land suchen",
@@ -209,55 +209,55 @@
   "pricing_you": "Du",
   "pricing_note": "Apple berechnet 14 Tage lang nichts. Kündigst du vorher in den Einstellungen, zahlst du nichts. Außerhalb Deutschlands zeigt dir der App Store den Preis für dein eigenes Land.",
   "faq_h2": "Fragen, die Fahrer wirklich stellen",
-  "faq_intro": "Klare Antworten, von jemandem, der den Job macht.",
+  "faq_intro": "Klare Antworten von jemandem, der den Job selbst macht.",
   "faq": [
     {
-      "q": "Ist das nicht nur noch eine Kilometer-App?",
-      "a": "Die Kilometer erfasst sie genauso, ohne Startknopf. Der Unterschied kommt danach: Deine Einnahmen kommen dazu, Sprit, Parkgebühren und laufende Kosten gehen ab, und dann sagt dir die App, was die Stunde wirklich gebracht hat. Eine reine Kilometerzahl sagt dir nicht, ob sich die Tour gelohnt hat."
+      "q": "Ist das nicht einfach noch eine Kilometer-App?",
+      "a": "Kilometer erfasst DropLane genauso, ohne Startknopf. Der Unterschied liegt in dem, was danach passiert: Deine Einnahmen kommen dazu, Sprit, Parkgebühren und laufende Kosten gehen ab, und dann sagt dir die App, was die Stunde wirklich gebracht hat. Eine Kilometerzahl allein hat noch niemandem verraten, ob sich die Tour gelohnt hat."
     },
     {
       "q": "Zieht sie den Akku leer?",
-      "a": "DropLane lässt das GPS nicht den ganzen Tag laufen. Sie wartet still, bis sie merkt, dass du vom Parkplatz weg bist, zeichnet auf, während du fährst, und schläft wieder ein, wenn du stehst."
+      "a": "DropLane lässt das GPS nicht den ganzen Tag laufen. Die App wartet ruhig, bis sie merkt, dass du losgefahren bist, zeichnet auf, solange du fährst, und schläft wieder ein, wenn du anhältst."
     },
     {
       "q": "Muss ich auf Start drücken?",
-      "a": "Nein — und es gibt keinen Knopf dafür. Genau darum geht es. Was du dir merken musst, vergisst du an dem Tag, an dem es zählt."
+      "a": "Nein – und es gibt keinen Knopf dafür. Genau darum geht es. Was du dir merken musst, vergisst du an dem Tag, an dem es zählt."
     },
     {
       "q": "Was, wenn ich vergesse, eine Fahrt zuzuordnen?",
-      "a": "Nichts geht verloren. Nicht zugeordnete Fahrten warten im Tage-Screen, und die App erinnert dich daran, statt für dich zu raten."
+      "a": "Nichts geht verloren. Unsortierte Fahrten warten unter „Tage“ auf dich, und die App erinnert dich daran, statt für dich zu raten."
     },
     {
-      "q": "Landet meine Streckenhistorie irgendwo?",
+      "q": "Landen meine Fahrtdaten irgendwo?",
       "a": "Nein. Es gibt kein Konto und keinen Server. Alles bleibt auf deinem iPhone und wird nur in deine eigene iCloud gesichert, wenn du das willst."
     },
     {
       "q": "Ich fahre Rad, keinen Transporter.",
-      "a": "Das geht. Kilometer mit dem Lastenrad werden genauso aufgezeichnet. Die eingebauten Kilometersätze gelten allerdings für Kraftfahrzeuge; was du fürs Rad ansetzen kannst, hängt von deinem Land und deiner Situation ab — frag deinen Steuerberater."
+      "a": "Das geht. Kilometer mit dem Lastenrad werden genauso aufgezeichnet. Die eingebauten Kilometersätze gelten allerdings für Kraftfahrzeuge; was du fürs Rad ansetzen kannst, hängt von deinem Land und deiner Situation ab – frag deinen Steuerberater."
     },
     {
-      "q": "Ist der Satz meines Landes dabei?",
-      "a": "Für siebzehn Länder ist der offizielle Satz eingebaut und wird aktuell gehalten. Überall sonst trägst du deinen Satz einmal ein, und die App rechnet."
+      "q": "Ist die Kilometerpauschale meines Landes dabei?",
+      "a": "Für siebzehn Länder ist der offizielle Satz eingebaut und wird aktuell gehalten. Überall sonst trägst du deinen Satz einmal ein, den Rest rechnet die App."
     },
     {
-      "q": "Kann ich in Kilometern arbeiten?",
-      "a": "Ja. Kilometer oder Meilen, deine Währung und der Spritpreis, den du wirklich zahlst — alles in den Einstellungen, gleich auf dem ersten Screen."
+      "q": "Kann ich in Kilometern rechnen?",
+      "a": "Ja. Kilometer oder Meilen, deine Währung und der Spritpreis, den du wirklich zahlst – alles in den Einstellungen, gleich auf der ersten Seite."
     },
     {
-      "q": "Funktioniert sie ohne Empfang?",
-      "a": "Ja. Aufgezeichnet wird mit dem GPS deines iPhones, und dafür braucht es kein Internet. Fahrten ohne Empfang kommen mit „Abfahrt“ und „Ankunft“ statt Straßennamen zurück, und DropLane trägt die Namen nach, sobald sie das nächste Mal WLAN sieht. Eine Woche auf Landstraßen ohne Netz wird trotzdem richtig zusammengezählt."
+      "q": "Funktioniert die App ohne Empfang?",
+      "a": "Ja. Aufgezeichnet wird mit dem GPS deines iPhones, und dafür braucht es kein Internet. Fahrten ohne Empfang stehen zunächst mit „Abfahrt“ und „Ankunft“ statt mit Straßennamen da, und DropLane ergänzt die Namen, sobald die App wieder WLAN hat. Auch eine Woche über Land ohne Netz wird richtig zusammengerechnet."
     },
     {
       "q": "Was passiert, wenn ich ein neues iPhone habe?",
-      "a": "Meld dich in derselben iCloud an, und deine Fahrten, Einnahmen und Ausgaben sind von allein wieder da. Es gibt kein Konto anzulegen und kein Passwort zu verlieren, weil nie ein Server irgendetwas davon hatte — die Sicherung ist deine, in deiner eigenen iCloud."
+      "a": "Meld dich bei derselben iCloud an, und deine Fahrten, Einnahmen und Ausgaben sind von allein wieder da. Du musst kein Konto anlegen und kannst kein Passwort verlieren, weil nie ein Server etwas davon gespeichert hat – die Sicherung gehört dir und liegt in deiner eigenen iCloud."
     },
     {
-      "q": "Und wenn ich nicht mehr zahle — sind meine Aufzeichnungen weg?",
-      "a": "Gelöscht wird nichts, und die App zeichnet weiter auf. Deine Fahrten bleiben auf dem iPhone und in deiner eigenen iCloud, und die Kilometer, die du ohne Abo fährst, sind da, sobald du wieder abonnierst. Gesperrt wird das Ansehen: Heute, Tage, Statistiken, Einblicke, das PDF und der CSV-Export bleiben zu, bis du wieder ein Abo hast. Wenn du die Zahlen woanders haben willst, exportier die CSV, bevor das Abo endet — das geht in den Einstellungen mit einem Tipp."
+      "q": "Und wenn ich nicht mehr zahle – sind meine Aufzeichnungen weg?",
+      "a": "Gelöscht wird nichts, und die App zeichnet weiter auf. Deine Fahrten bleiben auf dem iPhone und in deiner eigenen iCloud, und die Kilometer, die du ohne Abo fährst, warten auf dich, sobald du wieder abonnierst. Gesperrt wird nur das Ansehen: „Heute“, „Tage“, „Statistiken“, „Einblicke“, das PDF und der CSV-Export bleiben zu, bis du wieder ein Abo hast. Wenn du die Zahlen woanders haben willst, exportier die CSV-Datei, bevor das Abo endet – das geht in den Einstellungen mit einem Tipp."
     },
     {
-      "q": "Wie weiß ich, was der Sprit wirklich gekostet hat, bevor die Kartenabrechnung kommt?",
-      "a": "Sag DropLane den Literpreis deiner Tankkarte und trag beim Tanken die Liter ein. Die Kosten stehen noch am selben Tag fest — der Wochengewinn stimmt also Wochen, bevor die Abrechnung eintrudelt."
+      "q": "Woher weiß ich, was der Sprit wirklich gekostet hat, bevor die Tankkartenabrechnung kommt?",
+      "a": "Sag DropLane den Literpreis deiner Tankkarte und trag beim Tanken die Liter ein. Die Kosten stehen noch am selben Tag fest – der Wochengewinn stimmt also Wochen, bevor die Abrechnung eintrudelt."
     },
     {
       "q": "Gibt es eine Android-Version?",
@@ -265,12 +265,12 @@
     }
   ],
   "closer_h2": "Hör auf zu raten, was der Tag gebracht hat.",
-  "closer_body": "Vierzehn Tage gratis, kein Konto, und nichts, woran du um sechs Uhr früh denken musst.",
-  "footer_note": "DropLane — Kilometer, Einnahmen, Ausgaben — automatisch für alle, die im Job fahren. Gebaut von einem Kurierfahrer, in Torquay.",
+  "closer_body": "Vierzehn Tage gratis, kein Konto und nichts, woran du um sechs Uhr früh denken musst.",
+  "footer_note": "DropLane erfasst Kilometer, Einnahmen und Ausgaben automatisch – für alle, die beruflich fahren. Entwickelt von einem Kurierfahrer in Torquay.",
   "footer_privacy": "Datenschutz",
   "footer_terms": "Nutzungsbedingungen",
   "footer_support": "Hilfe",
-  "alt_today": "Der Heute-Screen von DropLane: eine Fahrt wird auf der Karte aufgezeichnet, mit Strecke, Stunden und Einnahmen des Tages.",
+  "alt_today": "Der Heute-Bildschirm von DropLane: Auf der Karte wird eine Fahrt aufgezeichnet, dazu Strecke, Stunden und Einnahmen des Tages.",
   "alt_days": "Die Tage-Liste: jeder Arbeitstag mit Gewinn, Strecke und Anzahl der Fahrten.",
   "alt_report": "Die Berichtskarte: Schalter für Fahrten, Einnahmen, Ausgaben und Belegfotos, dann das PDF.",
   "alt_stats": "Der Statistik-Screen: netto, eingenommen und Kosten der Woche, mit den Kilometern nach Fahrtart.",
@@ -289,20 +289,20 @@
   "cta_soon": "Bald da",
   "cta_coming": "Kommt in den App Store",
   "cta_notify": "Schreib mir, wenn sie da ist",
-  "privacy_h2": "Deine Daten. Deine allein.",
+  "privacy_h2": "Deine Daten. Nur deine.",
   "privacy_intro": "Dein Standort bleibt auf deinem iPhone und in deiner eigenen iCloud. Kein Konto, kein Server, nichts wird verkauft. Nur du entscheidest, wer deine Fahrten sieht.",
-  "privacy_stat_label": "Server mit deinem Standort",
-  "privacy_point1": "Das lässt DropLane die Kilometer aufzeichnen. Dein Standortverlauf verlässt dein iPhone nie.",
+  "privacy_stat_label": "Server, die deinen Standort speichern",
+  "privacy_point1": "Damit zeichnet DropLane die Kilometer auf. Dein Standortverlauf geht nicht über dein iPhone und deine eigene iCloud hinaus.",
   "privacy_point2": "iCloud-Backup und -Wiederherstellung, ganz ohne Konto",
-  "privacy_point3": "CSV für deine Unterlagen exportieren",
+  "privacy_point3": "CSV-Export für deine Unterlagen",
   "setup_shot_location": "Standort einschalten",
   "setup_shot_always": "Wähl jetzt „Immer“",
   "setup_shot_notifications": "Mitteilungen aktivieren",
   "setup_shot_vehicle": "Was fährst du?",
   "pocket_h3": "Mitteilungen",
-  "pocket_body": "„Immer“ lässt Fahrten auch bei geschlossener App aufzeichnen.",
+  "pocket_body": "Mit „Immer“ werden Fahrten auch bei geschlossener App aufgezeichnet.",
   "pocket_live_alt": "Live-Aktivität auf dem Sperrbildschirm: Aufzeichnung, 140 km, 2:47:16 unterwegs, Knöpfe zum Sortieren und ein roter Stopp-Knopf",
-  "pocket_live_body": "Während der Fahrt zählt eine Live-Aktivität die Kilometer auf dem Sperrbildschirm hoch — so siehst du, dass die Fahrt aufgezeichnet wird, ohne etwas zu entsperren.",
+  "pocket_live_body": "Während der Fahrt zählt eine Live-Aktivität die Kilometer auf dem Sperrbildschirm hoch – so siehst du, dass die Fahrt aufgezeichnet wird, ohne etwas zu entsperren.",
   "hero_trial": "14 Tage gratis",
   "hero_trial_then": "danach {price} im Monat",
   "compare_them": "Reine Kilometer-Apps sagen dir, wie weit du gefahren bist.",
@@ -322,31 +322,31 @@
     {
       "file": "today",
       "title": "Was ich heute verdient habe",
-      "alt": "Der Heute-Screen: eine Fahrt wird gerade auf der Karte von Hamburg aufgezeichnet; heute 101,45 € verdient, aus 124,64 € Einnahmen und 23,19 € Ausgaben."
+      "alt": "Der Heute-Bildschirm: Auf der Karte von Hamburg wird gerade eine Fahrt aufgezeichnet; heute 101,45 € verdient bei 124,64 € Einnahmen und 23,19 € Ausgaben."
     },
     {
       "file": "day",
       "title": "Was mir nach Kosten wirklich bleibt",
-      "alt": "Die Seite eines Tages: 101,45 € Tagesgewinn bei 104 km, der Tag auf der Karte und die Strecke nach Art: 42,1 km mit Ladung, 61,8 km unsortiert."
+      "alt": "Die Tagesansicht: 101,45 € Tagesgewinn bei 104 km, der Tag auf der Karte und die Strecke nach Fahrtart – 42,1 km mit Ladung, 61,8 km unsortiert."
     },
     {
       "file": "insights",
       "title": "Mein echter Stundenlohn",
-      "alt": "Der Einblicke-Screen: 75,88 € Gewinn nach Fixkosten, 11,19 € pro Stunde, 2,41 € pro km, 6 Std. 47 Min. unterwegs."
+      "alt": "Der Einblicke-Bildschirm: 75,88 € Gewinn nach Fixkosten, 11,19 € pro Stunde, 2,41 € pro km, 6 Std. 47 Min. unterwegs."
     }
   ],
   "hero_trial_then_plans": "danach {year} im Jahr oder {month} im Monat",
   "money_punch2": "Mehr fahren heißt nicht immer mehr verdienen.",
   "setup_h3": "So läuft die Einrichtung",
-  "features_also": "Außerdem kümmert sie sich um den Transporter: Inspektionen, Reifen und Reparaturen mit Rechnungsfoto eingetragen, Erinnerungen an TÜV und Inspektion, wobei die Inspektion auch nach Kilometern herunterzählt, und Tankkartenkosten, die schon am Tag des Tankens feststehen. Und sie spricht 46 Sprachen, mit dem Geld in deiner Währung.",
+  "features_also": "Auch um den Transporter kümmert sich die App: Inspektionen, Reifen und Reparaturen trägst du samt Rechnungsfoto ein, vor dem TÜV-Termin kommt eine Erinnerung, die Erinnerung an die Inspektion kann auch nach Kilometern herunterzählen, und Tankkartenkosten stehen schon am Tag des Tankens fest. Und sie spricht 46 Sprachen – mit Beträgen in deiner Währung.",
   "faq_home": [
     "Muss ich auf Start drücken?",
-    "Landet meine Streckenhistorie irgendwo?",
-    "Funktioniert sie ohne Empfang?",
+    "Landen meine Fahrtdaten irgendwo?",
+    "Funktioniert die App ohne Empfang?",
     "Ich fahre Rad, keinen Transporter.",
-    "Und wenn ich nicht mehr zahle — sind meine Aufzeichnungen weg?"
+    "Und wenn ich nicht mehr zahle – sind meine Aufzeichnungen weg?"
   ],
   "faq_all": "Alle Fragen ansehen →",
-  "faq_page_title": "Fragen, die Fahrer wirklich stellen — DropLane",
+  "faq_page_title": "Fragen, die Kurierfahrer wirklich stellen – DropLane",
   "faq_meta_description": "Fragen, die Kurierfahrer zu DropLane stellen, beantwortet vom Kurier hinter der App: Aufzeichnung, Akku, Datenschutz, Empfang und was ohne Abo passiert."
 }

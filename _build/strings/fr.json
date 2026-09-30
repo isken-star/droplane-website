@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — Kilomètres, recettes et dépenses automatiques pour qui roule au travail",
-  "meta_description": "DropLane enregistre seul les trajets du coursier, retire carburant, stationnement et frais de route des recettes et te dit ce que tu gagnes vraiment de l'heure.",
+  "meta_title": "DropLane — Suivi kilométrique et gains réels pour ceux qui roulent pour travailler",
+  "meta_description": "Suivi kilométrique pour coursiers, artisans et commerciaux : DropLane enregistre chaque trajet, déduit carburant et frais, et calcule ton vrai taux horaire.",
   "nav_label": "Menu principal",
   "nav_how": "Comment ça marche",
   "nav_day": "Ce que tu gagnes",
@@ -24,8 +24,8 @@
   "langbar_rest": "Choisis la tienne — l'application la parle aussi.",
   "per_month_short": "par mois",
   "see_all": "voir tout",
-  "hero_h1": "Découvre ce que tu gagnes vraiment chaque jour.",
-  "hero_lede": "DropLane enregistre chaque trajet automatiquement, retire tes frais et te montre ce que tu as vraiment gagné.",
+  "hero_h1": "Sache ce que ta journée t'a vraiment rapporté.",
+  "hero_lede": "DropLane enregistre chaque trajet automatiquement, déduit tes frais et te montre ce que tu as vraiment gagné.",
   "hero_cta_notify": "Préviens-moi au lancement",
   "hero_cta_how": "Voir comment ça marche ↓",
   "hero_note": "sans compte, sans publicité · iPhone",
@@ -61,7 +61,7 @@
   "money_label_trips": "Trajets",
   "money_label_money": "en poche",
   "money_punch": "46,3 km de plus. 19,68 € de moins.",
-  "money_note": "Les kilomètres disent combien tu as roulé. DropLane te dit si ça en valait la peine.",
+  "money_note": "Les kilomètres te disent quelle distance tu as parcourue. DropLane te dit si ça en valait la peine.",
   "day_h2": "Ce que tu gagnes vraiment dans une journée",
   "day_intro": "113 euros, ça ressemble à une bonne journée. Mais une fois le carburant et le stationnement retirés, et le tout étalé sur 6 h 1 min de route, il reste 12,15 € de l'heure. C'est exactement ce chiffre que DropLane calcule tout seul, dès la fin de la journée.",
   "day_film1_title": "Tout calculé automatiquement",
@@ -83,24 +83,24 @@
   "day_label_hour": "de l'heure",
   "day_note": "Les chiffres d'une journée, pris tels quels sur les écrans ci-dessus. Les tiens seront différents — l'intérêt est de les avoir le jour même, dans le fourgon, plutôt qu'au printemps.",
   "how_h2": "Trois étapes. Une seule est la tienne.",
-  "how_intro": "Il n'y a volontairement aucun bouton de démarrage dans DropLane. Personne ne pense à en presser un à six heures du matin avec un camion plein de colis.",
+  "how_intro": "Il n'y a volontairement aucun bouton de démarrage dans DropLane. Personne ne pense à appuyer dessus à six heures du matin, avec une camionnette pleine de colis.",
   "how_steps": [
     {
-      "title": "L'allumer une fois",
-      "body": "Installe l'application et autorise la localisation en arrière-plan. C'est le dernier réglage."
+      "title": "L'activer une fois",
+      "body": "Installe l'application et autorise la localisation en arrière-plan. Et c'est tout pour les réglages."
     },
     {
       "title": "Rouler",
       "body": "Chaque trajet s'enregistre tout seul, avec l'itinéraire, les arrêts et le temps passé à chacun."
     },
     {
-      "title": "Choisis le type d'un geste",
-      "body": "Professionnel, à vide, en route vers un enlèvement ou personnel. Les totaux et les indemnités kilométriques suivent tout seuls."
+      "title": "Choisir son type d'un geste",
+      "body": "En charge, à vide, vers la collecte ou personnel. Les totaux et les indemnités kilométriques se calculent tout seuls."
     }
   ],
   "how_proof": "Choisis une semaine, un mois ou tes propres dates, coche ce qui doit y figurer, et le PDF pour le comptable est à un geste, construit à partir de trajets que tu n'as jamais eu à noter.",
   "features_h2": "Ce que tu y gagnes",
-  "features_intro": "Pensée pour le métier tel qu'il est vraiment, par quelqu'un qui le fait.",
+  "features_intro": "Conçue pour le métier tel qu'il est vraiment, par quelqu'un qui l'exerce.",
   "features": [
     {
       "icon": "💶",
@@ -194,11 +194,11 @@
   "pricing_monthly": "Mensuel",
   "pricing_yearly": "Annuel",
   "pricing_per_month": "par mois, résiliable à tout moment",
-  "pricing_per_year": "par an, facturé une fois par an",
+  "pricing_per_year": "par an, facturé en une fois",
   "pricing_best": "Meilleur prix",
   "pricing_bullet_all": "Toutes les fonctions, sans option payante",
-  "pricing_bullet_trial": "14 jours gratuits d'abord",
-  "pricing_cta": "Commencer 14 jours gratuits",
+  "pricing_bullet_trial": "D'abord 14 jours gratuits",
+  "pricing_cta": "Essayer 14 jours gratuitement",
   "pricing_bullet_saving": "Économise {saving} par an — {percent} % moins cher",
   "pricing_bullet_equivalent": "Soit {monthly} par mois",
   "pricing_table_title": "Le prix dans ton pays",
@@ -209,64 +209,64 @@
   "pricing_you": "Toi",
   "pricing_note": "Apple ne facture rien pendant 14 jours. Résilie dans les Réglages avant la fin et tu ne paies rien. Hors de France, l'App Store affiche le prix de ton pays.",
   "faq_h2": "Les questions que les coursiers posent vraiment",
-  "faq_intro": "Des réponses directes, par quelqu'un qui fait le métier.",
+  "faq_intro": "Des réponses franches, de quelqu'un qui fait le métier.",
   "faq": [
     {
-      "q": "Ce n'est pas encore une appli de kilomètres ?",
-      "a": "Elle enregistre les kilomètres pareil, sans bouton départ. La différence vient après : tes recettes entrent, le carburant, le stationnement et les frais sortent, et l'appli te dit ce que tu gagnes vraiment de l'heure. Un chiffre de kilomètres tout seul ne dit ni ce que tu as gagné, ni si la tournée valait le coup."
+      "q": "Ce n'est pas juste une appli de kilométrage de plus ?",
+      "a": "Elle enregistre les kilomètres de la même façon, sans bouton de démarrage. La différence vient après : tes recettes entrent, le carburant, le stationnement et les frais sortent, et l'appli te dit ce que l'heure t'a vraiment rapporté. Un kilométrage seul n'a jamais dit à personne si la tournée valait le coup."
     },
     {
       "q": "Est-ce que ça vide la batterie ?",
-      "a": "DropLane ne laisse pas le GPS tourner toute la journée. Elle attend tranquillement de sentir que tu as quitté ta place de stationnement, enregistre pendant que tu roules, et se rendort à l'arrêt."
+      "a": "DropLane ne laisse pas le GPS tourner toute la journée. Elle attend tranquillement de voir que tu as quitté l'endroit où tu étais garé, enregistre pendant que tu roules, et se rendort à l'arrêt."
     },
     {
-      "q": "Dois-je appuyer sur démarrer ?",
-      "a": "Non — et il n'y a pas de bouton. C'est tout l'intérêt. Ce qu'il faut penser à faire, on l'oublie le jour où ça compte."
+      "q": "Faut-il appuyer sur un bouton pour démarrer ?",
+      "a": "Non — il n'y a même pas de bouton. C'est tout l'intérêt. Ce qu'il faut penser à faire, on l'oublie le jour où ça compte."
     },
     {
       "q": "Et si j'oublie de choisir le type d'un trajet ?",
-      "a": "Rien n'est perdu. Les trajets sans type attendent dans l'écran Jours, et l'application te le rappelle au lieu de deviner à ta place."
+      "a": "Rien n'est perdu. Les trajets sans type attendent sur l'écran Jours, et l'application te le rappelle au lieu de deviner à ta place."
     },
     {
-      "q": "Mon historique finit-il quelque part ?",
-      "a": "Non. Il n'y a ni compte ni serveur. Tout reste sur ton iPhone et n'est sauvegardé que sur ton propre iCloud, si tu le souhaites."
+      "q": "Mon historique de trajets est-il envoyé quelque part ?",
+      "a": "Non. Il n'y a ni compte ni serveur. Tout reste sur ton iPhone et n'est sauvegardé que dans ton propre iCloud, si tu le souhaites."
     },
     {
       "q": "Je roule à vélo, pas en camionnette.",
       "a": "Ça marche. Les kilomètres en vélo-cargo sont enregistrés de la même façon. Les barèmes intégrés valent pour les véhicules à moteur, donc ce qu'un vélo peut déduire dépend de ton pays et de ta situation — demande à ton comptable."
     },
     {
-      "q": "Le barème de mon pays est-il dedans ?",
-      "a": "Dix-sept pays ont leur barème officiel intégré et tenu à jour. Partout ailleurs, saisis le tien une fois et l'application calcule."
+      "q": "Le barème kilométrique de mon pays est-il intégré ?",
+      "a": "Dix-sept pays ont leur barème officiel intégré et tenu à jour. Partout ailleurs, saisis le tien une fois et l'application fait les calculs."
     },
     {
-      "q": "Puis-je travailler en kilomètres ?",
-      "a": "Oui. Kilomètres ou miles, ta monnaie et le prix du carburant que tu payes vraiment — tout est dans Réglages, dès le premier écran."
+      "q": "Puis-je l'utiliser en kilomètres ?",
+      "a": "Oui. Kilomètres ou miles, ta monnaie et le prix du carburant que tu paies vraiment — tout est dans les Réglages, dès le premier écran."
     },
     {
       "q": "Est-ce que ça marche sans réseau ?",
-      "a": "Oui. L'enregistrement se fait avec le GPS de ton iPhone et ne demande aucune connexion. Les trajets faits hors réseau reviennent avec « Départ » et « Arrivée » au lieu des noms de rues, et DropLane les complète dès qu'elle retrouve du Wi-Fi. Une semaine de petites routes sans barre compte quand même juste."
+      "a": "Oui. L'enregistrement se fait avec le GPS de ton iPhone et ne demande aucune connexion. Les trajets faits hors réseau s'affichent avec « Départ » et « Arrivée » au lieu des noms de rues, et DropLane les complète dès qu'elle retrouve du Wi-Fi. Même après une semaine de petites routes sans réseau, le compte est juste."
     },
     {
       "q": "Que se passe-t-il quand je change d'iPhone ?",
-      "a": "Connecte-toi au même iCloud et tes trajets, tes recettes et tes dépenses reviennent tout seuls. Il n'y a pas de compte à créer ni de mot de passe à perdre, parce qu'aucun serveur n'a jamais rien eu — la sauvegarde est la tienne, dans ton propre iCloud."
+      "a": "Connecte-toi au même iCloud et tes trajets, tes recettes et tes dépenses reviennent tout seuls. Il n'y a pas de compte à créer ni de mot de passe à perdre, parce qu'aucun serveur n'a jamais rien détenu — la sauvegarde est la tienne, dans ton propre iCloud."
     },
     {
       "q": "Et si j'arrête de payer, je perds mes relevés ?",
-      "a": "Rien n'est supprimé, et l'application continue d'enregistrer. Tes trajets restent sur l'iPhone et dans ton propre iCloud, et les kilomètres parcourus pendant l'interruption t'attendent quand tu te réabonnes. Ce qui se verrouille, c'est la consultation : Aujourd'hui, Jours, Stats, Analyses, le PDF et l'export CSV restent fermés jusqu'à ton réabonnement. Si tu veux tes chiffres ailleurs, exporte le CSV avant la fin de l'abonnement — c'est dans les Réglages, en une touche."
+      "a": "Rien n'est supprimé, et l'application continue d'enregistrer. Tes trajets restent sur l'iPhone et dans ton propre iCloud, et les kilomètres parcourus pendant l'interruption t'attendent quand tu te réabonnes. Ce qui se verrouille, c'est la consultation : Aujourd'hui, Jours, Stats, Analyses, le PDF et l'export CSV restent bloqués jusqu'à ton réabonnement. Si tu veux tes chiffres ailleurs, exporte le CSV avant la fin de l'abonnement — c'est dans les Réglages, en un geste."
     },
     {
-      "q": "Comment savoir ce que le carburant a vraiment coûté avant de recevoir la facture de la carte ?",
-      "a": "Indique à DropLane le prix au litre que facture ta carte carburant, puis note les litres à chaque plein. Le coût est calculé le jour même : le bénéfice de la semaine est juste des semaines avant que la facture arrive."
+      "q": "Comment savoir ce que le carburant a vraiment coûté avant de recevoir la facture de la carte carburant ?",
+      "a": "Indique à DropLane le prix au litre que facture ta carte carburant, puis note les litres à chaque plein. Le coût est calculé le jour même : le bénéfice de la semaine est donc juste des semaines avant l'arrivée de la facture."
     },
     {
       "q": "Existe-t-il une version Android ?",
-      "a": "Pas encore. DropLane n'existe pour l'instant que sur iPhone, et Android est en route. Écris à help@droplane.co.uk et on te prévient le jour de la sortie."
+      "a": "Pas encore. DropLane n'existe pour l'instant que sur iPhone, et la version Android est en préparation. Écris à help@droplane.co.uk et on te prévient le jour de la sortie."
     }
   ],
   "closer_h2": "Arrête de deviner ce que tu as gagné.",
   "closer_body": "Quatorze jours gratuits, sans compte, et rien à retenir à six heures du matin.",
-  "footer_note": "DropLane — kilomètres, recettes et dépenses automatiques pour qui roule au travail. Conçue par un coursier, à Torquay.",
+  "footer_note": "DropLane — suivi kilométrique, recettes et frais automatiques pour ceux qui roulent pour travailler. Conçue par un coursier, à Torquay.",
   "footer_privacy": "Confidentialité",
   "footer_terms": "Conditions",
   "footer_support": "Aide",
@@ -292,7 +292,7 @@
   "privacy_h2": "Tes données. Rien qu'à toi.",
   "privacy_intro": "Ta position reste sur ton iPhone et dans ton propre iCloud. Pas de compte, pas de serveur, rien de vendu. Toi seul décides qui voit tes trajets.",
   "privacy_stat_label": "Serveur qui stocke ta position",
-  "privacy_point1": "C'est ce qui permet à DropLane d'enregistrer les kilomètres. Ton historique de position ne quitte jamais ton iPhone.",
+  "privacy_point1": "Ta position, c'est ce qui permet à DropLane de compter les kilomètres. Son historique ne va pas plus loin que ton iPhone et ton propre iCloud.",
   "privacy_point2": "Sauvegarde et restauration iCloud, sans compte",
   "privacy_point3": "Exporter un CSV pour tes archives",
   "setup_shot_location": "Activer la position",
@@ -300,7 +300,7 @@
   "setup_shot_notifications": "Activer les notifications",
   "setup_shot_vehicle": "Tu conduis quoi ?",
   "pocket_h3": "Notifications",
-  "pocket_body": "« Toujours » permet d'enregistrer les trajets même app fermée.",
+  "pocket_body": "« Toujours » permet d'enregistrer les trajets même quand l'app est fermée.",
   "pocket_live_alt": "L'activité en direct sur l'écran verrouillé : « Enregistrement », 85,7 km, 2:47:17 au chrono, les boutons de tri et le bouton rouge d'arrêt.",
   "pocket_live_body": "Pendant que tu roules, une activité en direct fait défiler les kilomètres sur l'écran verrouillé : tu vois le trajet s'enregistrer sans rien déverrouiller.",
   "hero_trial": "14 jours gratuits",
@@ -312,9 +312,9 @@
   "fact_private_value": "Privé",
   "hero_support": "14 jours gratuits · Sans compte · Résiliable à tout moment",
   "trust": [
-    "Enregistre tes trajets toute seule",
+    "Tes trajets s'enregistrent tout seuls",
     "Ta position reste sur ton iPhone",
-    "Par un coursier, plus de 10 ans de route",
+    "Conçue par un coursier, plus de 10 ans de route",
     "46 langues, toutes les monnaies"
   ],
   "outcomes_label": "Trois chiffres que DropLane te prépare avant même ton retour",
@@ -322,12 +322,12 @@
     {
       "file": "today",
       "title": "Ce que j'ai gagné aujourd'hui",
-      "alt": "L'écran Aujourd'hui : un trajet en cours d'enregistrement sur la carte de Lyon, et 96,05 € gagnés aujourd'hui, pour 113,16 € de recettes et 17,11 € de dépenses."
+      "alt": "L'écran Aujourd'hui : un trajet en cours d'enregistrement sur la carte de Lyon, et 96,05 € gagnés aujourd'hui, soit 113,16 € de recettes moins 17,11 € de dépenses."
     },
     {
       "file": "day",
       "title": "Ce qu'il me reste vraiment, frais déduits",
-      "alt": "La page d'une journée : 96,05 € de bénéfice du jour, 113,16 € gagnés et 17,11 € dépensés sur 66,7 km, la journée sur la carte et la distance par type : 28,8 km en charge, 37,9 km à trier."
+      "alt": "La page d'une journée : 96,05 € de bénéfice du jour, 113,16 € gagnés et 17,11 € dépensés sur 66,7 km, la journée sur la carte et la distance par type (28,8 km en charge, 37,9 km à trier)."
     },
     {
       "file": "insights",
@@ -340,8 +340,8 @@
   "setup_h3": "Voir la mise en route",
   "features_also": "Elle s'occupe aussi du fourgon : révisions, pneus et réparations notés avec la photo de la facture, un rappel avant l'échéance du contrôle technique, des rappels de révision qui décomptent en kilomètres, et le coût de la carte carburant calculé le jour du plein. Et elle parle 46 langues, avec les montants dans ta monnaie.",
   "faq_home": [
-    "Dois-je appuyer sur démarrer ?",
-    "Mon historique finit-il quelque part ?",
+    "Faut-il appuyer sur un bouton pour démarrer ?",
+    "Mon historique de trajets est-il envoyé quelque part ?",
     "Est-ce que ça marche sans réseau ?",
     "Je roule à vélo, pas en camionnette.",
     "Et si j'arrête de payer, je perds mes relevés ?"

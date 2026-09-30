@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — Przebieg, zarobki i wydatki automatycznie — dla każdego, kto jeździ w pracy",
-  "meta_description": "DropLane sam zapisuje przejazdy kuriera, odejmuje paliwo, parkingi i koszty auta od przychodów i pokazuje twoją realną stawkę godzinową.",
+  "meta_title": "DropLane — automatyczna kilometrówka i zarobki dla każdego, kto jeździ zawodowo",
+  "meta_description": "Kilometrówka dla kurierów, fachowców i handlowców. DropLane sam zapisuje przejazdy, odlicza od przychodu paliwo i koszty, i pokazuje realną stawkę godzinową.",
   "nav_label": "Menu główne",
   "nav_how": "Jak to działa",
   "nav_day": "Ile zostaje",
@@ -24,12 +24,12 @@
   "langbar_rest": "Wybierz swój — aplikacja też nim mówi.",
   "per_month_short": "miesięcznie",
   "see_all": "zobacz wszystkie",
-  "hero_h1": "Wiedz, ile naprawdę zostaje ci z dnia.",
+  "hero_h1": "Sprawdź, ile naprawdę zostaje ci z dnia.",
   "hero_lede": "DropLane sam zapisuje każdy przejazd, odejmuje koszty i pokazuje, ile naprawdę zarabiasz.",
   "hero_cta_notify": "Powiadom mnie o premierze",
   "hero_cta_how": "Zobacz, jak to działa ↓",
   "hero_note": "bez konta, bez reklam · iPhone",
-  "hero_kicker": "Przebieg automatycznie · Realny zysk · Realny zarobek na godzinę",
+  "hero_kicker": "Automatyczna kilometrówka · Realny zysk · Realny zarobek na godzinę",
   "hero_android": "Android jest w drodze. Napisz do nas, a damy znać, gdy wyjdzie.",
   "reviews_h2": "Z brytyjskiego App Store",
   "countries_paperwork_h3": "Tu aplikacja zna dokumenty; stawkę wpisujesz sam",
@@ -49,7 +49,7 @@
   ],
   "money_h2": "Dwa dni. Więcej kilometrów. Mniej pieniędzy.",
   "money_intro": "Dwa prawdziwe dni. We wtorek było 56,1 km jazdy więcej, a na czysto zostało 75,14 zł mniej.",
-  "money_day1_when": "wtorek",
+  "money_day1_when": "Wtorek",
   "money_day1_distance": "144 km",
   "money_day1_trips": "3 przejazdy",
   "money_day1_money": "289,75 zł",
@@ -83,11 +83,11 @@
   "day_label_hour": "na godzinę",
   "day_note": "Liczby z jednego dnia, prosto z ekranów powyżej. Twoje będą inne — chodzi o to, żeby mieć je tego samego dnia, w busie, a nie dowiadywać się w kwietniu.",
   "how_h2": "Trzy kroki. Tylko jeden należy do ciebie.",
-  "how_intro": "W DropLane celowo nie ma przycisku start. O szóstej rano, przy busie pełnym paczek, nikt nie pamięta, żeby go wcisnąć.",
+  "how_intro": "W DropLane celowo nie ma przycisku start. O szóstej rano, z busem pełnym paczek, nikt nie pamięta, żeby go wcisnąć.",
   "how_steps": [
     {
       "title": "Włącz raz",
-      "body": "Zainstaluj aplikację i zezwól na lokalizację w tle. Na tym kończy się konfiguracja."
+      "body": "Zainstaluj aplikację i zezwól na dostęp do lokalizacji w tle. Na tym kończy się konfiguracja."
     },
     {
       "title": "Jedź",
@@ -95,12 +95,12 @@
     },
     {
       "title": "Oznacz przejazd jednym dotknięciem",
-      "body": "Służbowo, na pusto, w drodze po odbiór albo prywatnie. Sumy i kilometrówka przeliczą się same."
+      "body": "Z ładunkiem, na pusto, po odbiór albo prywatnie. Sumy i kilometrówka przeliczą się same."
     }
   ],
   "how_proof": "Wybierz tydzień, miesiąc albo własne daty, zaznacz, co ma wejść — i jednym dotknięciem masz PDF dla księgowego, złożony z przejazdów, których nikt nie musiał spisywać.",
   "features_h2": "Co z tego masz",
-  "features_intro": "Pod robotę taką, jaka naprawdę jest — od kogoś, kto sam ją robi.",
+  "features_intro": "Zrobione pod prawdziwą robotę — przez kogoś, kto sam ją wykonuje.",
   "features": [
     {
       "icon": "💰",
@@ -110,12 +110,12 @@
     {
       "icon": "⏱️",
       "title": "Poznaj realny zarobek na godzinę",
-      "body": "Zobacz, które dni i zlecenia naprawdę się opłacają, gdy paliwo, rata leasingu i ubezpieczenie rozłożą się na dni pracy."
+      "body": "Zobacz, które dni i zlecenia naprawdę się opłacają, po rozłożeniu paliwa, raty leasingu i ubezpieczenia na dni pracy."
     },
     {
       "icon": "🧾",
       "title": "Ewidencja gotowa, kiedy jej potrzebujesz",
-      "body": "Przejazdy, kilometry i PDF dla księgowego, z wbudowaną kilometrówką."
+      "body": "Przejazdy, kilometry i PDF dla księgowego, z wbudowaną stawką kilometrówki."
     }
   ],
   "screens_h2": "Cała aplikacja — w jasnym i ciemnym motywie",
@@ -209,7 +209,7 @@
   "pricing_you": "Ty",
   "pricing_note": "Przez 14 dni Apple nic nie pobiera. Zrezygnuj w Ustawieniach przed ich upływem, a nie zapłacisz nic. Poza Polską App Store pokaże cenę dla twojego kraju.",
   "faq_h2": "Pytania, które kurierzy naprawdę zadają",
-  "faq_intro": "Proste odpowiedzi od kogoś, kto sam jeździ.",
+  "faq_intro": "Konkretne odpowiedzi od kogoś, kto sam jeździ.",
   "faq": [
     {
       "q": "Czy to nie kolejna aplikacja do liczenia kilometrów?",
@@ -217,47 +217,47 @@
     },
     {
       "q": "Czy zjada baterię?",
-      "a": "DropLane nie trzyma GPS-u włączonego cały dzień. Czeka spokojnie, aż wyczuje, że auto ruszyło z miejsca postoju, zapisuje trasę w czasie jazdy i znowu zasypia, kiedy stoisz."
+      "a": "DropLane nie trzyma GPS-u włączonego cały dzień. Czeka spokojnie, aż wyczuje, że ruszasz z miejsca postoju, zapisuje trasę w czasie jazdy i znowu zasypia, kiedy się zatrzymasz."
     },
     {
-      "q": "Muszę wciskać start?",
-      "a": "Nie — i nie ma czego wciskać. O to właśnie chodzi. O czym trzeba pamiętać, o tym zapomnisz akurat tego dnia, kiedy to ważne."
+      "q": "Czy muszę wciskać start?",
+      "a": "Nie — i nie ma czego wciskać. O to właśnie chodzi. O czym trzeba pamiętać, o tym zapomnisz akurat tego dnia, kiedy będzie to ważne."
     },
     {
       "q": "A jeśli zapomnę oznaczyć przejazd?",
       "a": "Nic nie ginie. Nieoznaczone przejazdy czekają na ekranie Dni, a aplikacja przypomni o nich, zamiast zgadywać za ciebie."
     },
     {
-      "q": "Czy historia tras gdzieś trafia?",
-      "a": "Nie. Nie ma konta ani serwera. Wszystko zostaje w twoim iPhonie i trafia tylko do twojego iCloud, jeśli tego chcesz."
+      "q": "Czy historia moich tras gdzieś trafia?",
+      "a": "Nie. Nie ma konta ani serwera. Wszystko zostaje na twoim iPhonie, a kopia zapasowa trafia tylko do twojego własnego iCloud — jeśli tego chcesz."
     },
     {
       "q": "Jeżdżę rowerem, nie busem.",
-      "a": "Działa tak samo. Kilometry na rowerze cargo zapisują się identycznie. Wbudowane stawki dotyczą jednak pojazdów silnikowych, więc to, co możesz odliczyć za rower, zależy od twojego kraju i sytuacji — zapytaj księgowego."
+      "a": "Nie ma problemu. Kilometry na rowerze cargo zapisują się tak samo. Wbudowane stawki dotyczą jednak pojazdów silnikowych, więc to, co możesz odliczyć za rower, zależy od twojego kraju i sytuacji — warto zapytać księgowego."
     },
     {
-      "q": "Czy jest stawka mojego kraju?",
-      "a": "Siedemnaście krajów ma wpisaną oficjalną stawkę i jest ona aktualizowana. Wszędzie indziej wpisujesz własną raz, a aplikacja liczy."
+      "q": "Czy jest stawka kilometrówki dla mojego kraju?",
+      "a": "Dla siedemnastu krajów oficjalna stawka jest już wbudowana i na bieżąco aktualizowana. Gdzie indziej wpisujesz raz własną, a resztę liczy aplikacja."
     },
     {
-      "q": "Czy mogę pracować w kilometrach?",
+      "q": "Czy mogę liczyć w kilometrach?",
       "a": "Tak. Kilometry albo mile, twoja waluta i cena paliwa, którą naprawdę płacisz — wszystko w Ustawieniach, na pierwszym ekranie."
     },
     {
       "q": "Czy działa tam, gdzie nie ma zasięgu?",
-      "a": "Tak. Zapisywanie działa na samym GPS-ie iPhone’a i w ogóle nie potrzebuje internetu. Przejazdy bez zasięgu wracają z opisem „Wyjazd” i „Przyjazd” zamiast nazw ulic, a DropLane uzupełnia je, gdy tylko złapie Wi-Fi. Tydzień po bocznych drogach bez kresek i tak zliczy się poprawnie."
+      "a": "Tak. Zapisywanie działa na samym GPS-ie iPhone’a i w ogóle nie potrzebuje internetu. Przejazdy bez zasięgu dostają opisy „Wyjazd” i „Przyjazd” zamiast nazw ulic, a DropLane uzupełnia je, gdy tylko złapie Wi-Fi. Nawet tydzień na bocznych drogach bez jednej kreski zasięgu zliczy się poprawnie."
     },
     {
       "q": "Co się stanie, gdy zmienię iPhone’a?",
-      "a": "Zaloguj się na tym samym iCloudzie, a twoje przejazdy, przychody i wydatki wrócą same. Nie ma konta do założenia ani hasła do zgubienia, bo żaden serwer nigdy niczego z tego nie miał — kopia jest twoja, w twoim własnym iCloudzie."
+      "a": "Zaloguj się na to samo konto iCloud, a twoje przejazdy, przychody i wydatki wrócą same. Nie zakładasz żadnego konta i nie masz hasła, które można zgubić, bo żaden serwer nigdy tych danych nie przechowywał — kopia jest twoja, w twoim własnym iCloud."
     },
     {
-      "q": "A jeśli przestanę płacić — stracę swoje zapisy?",
-      "a": "Nic nie jest usuwane, a aplikacja dalej zapisuje przejazdy. Zostają na iPhonie i w twoim własnym iCloud, a kilometry przejechane bez subskrypcji czekają na ciebie, gdy ją odnowisz. Blokuje się tylko wgląd: Dzisiaj, Dni, Statystyki, Analizy, PDF i eksport CSV są zamknięte, dopóki nie odnowisz subskrypcji. Jeśli chcesz mieć liczby gdzie indziej, wyeksportuj CSV, zanim subskrypcja wygaśnie — jest w Ustawieniach, jedno dotknięcie."
+      "q": "A jeśli przestanę płacić — stracę swoje dane?",
+      "a": "Nic nie jest usuwane, a aplikacja dalej zapisuje przejazdy. Zostają na iPhonie i w twoim własnym iCloud, a kilometry przejechane bez subskrypcji czekają na ciebie, gdy ją odnowisz. Blokuje się tylko wgląd: Dzisiaj, Dni, Statystyki, Analizy, PDF i eksport CSV są zamknięte, dopóki jej nie odnowisz. Jeśli chcesz mieć liczby także gdzie indziej, wyeksportuj CSV, zanim subskrypcja wygaśnie — eksport jest w Ustawieniach, to jedno dotknięcie."
     },
     {
-      "q": "Skąd mam wiedzieć, ile naprawdę kosztowało paliwo, zanim przyjdzie faktura z karty?",
-      "a": "Podaj DropLane cenę za litr, którą liczy twoja karta paliwowa, i zapisuj litry przy tankowaniu. Koszt wychodzi tego samego dnia, więc zysk tygodnia zgadza się na wiele tygodni przed fakturą."
+      "q": "Skąd mam wiedzieć, ile naprawdę kosztowało paliwo, zanim przyjdzie faktura za kartę paliwową?",
+      "a": "Podaj DropLane cenę za litr naliczaną przez twoją kartę paliwową i zapisuj litry przy każdym tankowaniu. Koszt jest liczony w dniu tankowania, więc zysk tygodnia zgadza się na wiele tygodni przed fakturą."
     },
     {
       "q": "Czy jest wersja na Androida?",
@@ -265,8 +265,8 @@
     }
   ],
   "closer_h2": "Przestań zgadywać, ile zostaje z dnia.",
-  "closer_body": "Czternaście dni za darmo, bez konta i bez niczego do zapamiętania o szóstej rano.",
-  "footer_note": "DropLane — przebieg, zarobki i wydatki automatycznie — dla każdego, kto jeździ w pracy. Zrobione przez kuriera, w Torquay.",
+  "closer_body": "Czternaście dni za darmo, bez konta — i o szóstej rano nie musisz o niczym pamiętać.",
+  "footer_note": "DropLane — automatyczna kilometrówka, zarobki i wydatki dla każdego, kto jeździ zawodowo. Stworzony przez kuriera w Torquay.",
   "footer_privacy": "Prywatność",
   "footer_terms": "Regulamin",
   "footer_support": "Pomoc",
@@ -290,10 +290,10 @@
   "cta_coming": "Wkrótce w App Store",
   "cta_notify": "Napisz mi, gdy będzie dostępna",
   "privacy_h2": "Twoje dane. Tylko twoje.",
-  "privacy_intro": "Twoja lokalizacja zostaje na iPhonie i w twoim własnym iCloud. Bez konta, bez serwera, nic nie jest sprzedawane. Tylko ty decydujesz, kto widzi twoje przejazdy.",
+  "privacy_intro": "Twoja lokalizacja zostaje na iPhonie i w twoim własnym iCloud. Bez konta, bez serwera, niczego nie sprzedajemy. Tylko ty decydujesz, kto widzi twoje przejazdy.",
   "privacy_stat_label": "Serwerów z twoją lokalizacją",
-  "privacy_point1": "To właśnie pozwala DropLane zapisywać kilometry. Historia twojej lokalizacji nigdy nie opuszcza iPhone’a.",
-  "privacy_point2": "Kopia i przywracanie z iCloud, bez żadnego konta",
+  "privacy_point1": "To właśnie pozwala DropLane zapisywać kilometry. Historia twojej lokalizacji nie wychodzi poza twojego iPhone’a i twój własny iCloud.",
+  "privacy_point2": "Kopia zapasowa i przywracanie z iCloud, bez zakładania konta",
   "privacy_point3": "Eksportuj CSV do swojej ewidencji",
   "setup_shot_location": "Włącz lokalizację",
   "setup_shot_always": "Teraz wybierz „Zawsze”",
@@ -301,12 +301,12 @@
   "setup_shot_vehicle": "Czym jeździsz?",
   "pocket_h3": "Powiadomienia",
   "pocket_body": "„Zawsze” pozwala rejestrować przejazdy przy zamkniętej aplikacji.",
-  "pocket_live_alt": "Wydarzenie na żywo na ekranie blokady: trwa zapisywanie przejazdu, 101 km, czas 2:47:16, przyciski rodzaju przejazdu i czerwony przycisk stop.",
-  "pocket_live_body": "Podczas jazdy wydarzenie na żywo nabija kilometry na ekranie blokady — widzisz, że przejazd się zapisuje, bez odblokowywania telefonu.",
+  "pocket_live_alt": "Aktywność na żywo na ekranie blokady: trwa zapisywanie przejazdu, 101 km, czas 2:47:16, przyciski rodzaju przejazdu i czerwony przycisk stop.",
+  "pocket_live_body": "Podczas jazdy aktywność na żywo pokazuje na ekranie blokady, jak przybywa kilometrów — widzisz, że przejazd się zapisuje, bez odblokowywania telefonu.",
   "hero_trial": "14 dni za darmo",
   "hero_trial_then": "potem {price} miesięcznie",
   "compare_them": "Zwykłe aplikacje do liczenia kilometrów pokażą, jaki masz przebieg.",
-  "compare_us": "DropLane pokaże, ile z tego zostaje na czysto.",
+  "compare_us": "DropLane pokaże, czy dzień był tego wart.",
   "fact_currency": "Każda waluta",
   "fact_private": "Dane zostają w telefonie",
   "fact_private_value": "Prywatne",
@@ -322,12 +322,12 @@
     {
       "file": "today",
       "title": "Mój dzisiejszy zarobek",
-      "alt": "Ekran Dzisiaj: trwa zapisywanie przejazdu na mapie Warszawy (na razie 114 km), a niżej 324,09 zł zarobione dziś: 393,60 zł przychodu minus 69,51 zł wydatków."
+      "alt": "Ekran Dzisiaj: trwa zapisywanie przejazdu na mapie Warszawy (na razie 114 km), a niżej dzisiejszy zarobek 324,09 zł: 393,60 zł przychodu minus 69,51 zł wydatków."
     },
     {
       "file": "day",
       "title": "Co mi naprawdę zostaje po kosztach",
-      "alt": "Strona dnia: zysk dnia 324,09 zł (393,60 zł zarobione, 69,51 zł wydane, 87,9 km), dzień na mapie Warszawy i dystans według rodzaju przejazdu."
+      "alt": "Widok dnia: zysk 324,09 zł (393,60 zł zarobione, 69,51 zł wydane, 87,9 km), przejazdy na mapie Warszawy i dystans według rodzaju przejazdu."
     },
     {
       "file": "insights",
@@ -336,17 +336,17 @@
     }
   ],
   "hero_trial_then_plans": "potem {year} rocznie albo {month} miesięcznie",
-  "money_punch2": "Więcej jazdy nie zawsze znaczy większy zarobek.",
+  "money_punch2": "Więcej jazdy to nie zawsze więcej pieniędzy.",
   "setup_h3": "Zobacz, jak wygląda konfiguracja",
   "features_also": "Dba też o busa: serwisy, opony i naprawy zapisane ze zdjęciem faktury, przypomnienie przed terminem przeglądu technicznego, przypomnienia o serwisie, które odliczają kilometry, oraz koszt z karty paliwowej wyliczony w dniu tankowania. A do tego mówi w 46 językach i liczy pieniądze w twojej walucie.",
   "faq_home": [
-    "Muszę wciskać start?",
-    "Czy historia tras gdzieś trafia?",
+    "Czy muszę wciskać start?",
+    "Czy historia moich tras gdzieś trafia?",
     "Czy działa tam, gdzie nie ma zasięgu?",
     "Jeżdżę rowerem, nie busem.",
-    "A jeśli przestanę płacić — stracę swoje zapisy?"
+    "A jeśli przestanę płacić — stracę swoje dane?"
   ],
   "faq_all": "Wszystkie pytania →",
   "faq_page_title": "Pytania, które kurierzy naprawdę zadają — DropLane",
-  "faq_meta_description": "Pytania kurierów o DropLane i odpowiedzi kuriera, który go zrobił: zapisywanie przejazdów, bateria, prywatność, brak zasięgu i co, gdy przestaniesz płacić."
+  "faq_meta_description": "Pytania kurierów o DropLane i odpowiedzi kuriera, który go stworzył: zapisywanie przejazdów, bateria, prywatność, brak zasięgu i co, gdy przestaniesz płacić."
 }

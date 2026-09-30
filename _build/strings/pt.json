@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — Km, ganhos e despesas automáticos para quem dirige a trabalho",
-  "meta_description": "O DropLane grava sozinho as viagens de quem faz entregas, tira combustível, estacionamento e custos fixos dos ganhos e mostra quanto você ganha mesmo por hora.",
+  "meta_title": "DropLane — Quilômetros, ganhos e despesas automáticos para quem dirige a trabalho",
+  "meta_description": "App de quilometragem para entregadores, técnicos e representantes: grava cada viagem sozinho, desconta combustível e custos e mostra quanto você ganha por hora.",
   "nav_label": "Menu principal",
   "nav_how": "Como funciona",
   "nav_day": "Quanto você ganha",
@@ -83,19 +83,19 @@
   "day_label_hour": "por hora",
   "day_note": "Os números de um dia, direto das telas acima. Os seus vão ser outros — o que importa é tê-los no mesmo dia, dentro do veículo, em vez de descobrir só no fim do ano.",
   "how_h2": "Três passos. Só um é seu.",
-  "how_intro": "No DropLane não existe botão de iniciar, de propósito. Ninguém lembra de apertar um às seis da manhã com o veículo cheio de encomendas.",
+  "how_intro": "No DropLane não existe botão de iniciar, e é de propósito. Ninguém lembra de apertar um às seis da manhã com o veículo cheio de pacotes.",
   "how_steps": [
     {
       "title": "Ligue uma vez",
-      "body": "Instale o app e permita a localização em segundo plano. É a última configuração que existe."
+      "body": "Instale o app e permita a localização em segundo plano. E a configuração acaba aí."
     },
     {
       "title": "Dirija",
-      "body": "Cada viagem se grava sozinha, com o trajeto, as paradas e quanto tempo você ficou em cada uma."
+      "body": "Cada viagem é salva sozinha, com o trajeto, as paradas e quanto tempo você ficou em cada uma."
     },
     {
       "title": "Escolha o tipo com um toque",
-      "body": "Com carga, vazio, a caminho de uma coleta ou pessoal. Os totais e a dedução de quilometragem se atualizam sozinhos."
+      "body": "Com carga, vazio, até a coleta ou pessoal. Os totais e a dedução por quilometragem se atualizam sozinhos."
     }
   ],
   "how_proof": "Escolha uma semana, um mês ou suas próprias datas, marque o que entra, e o PDF para o contador fica a um toque, feito de viagens que você nunca precisou registrar.",
@@ -114,7 +114,7 @@
     },
     {
       "icon": "🧾",
-      "title": "Registros prontos quando você precisar",
+      "title": "Registros prontos para quando você precisar",
       "body": "Viagens, quilômetros e um PDF para o seu contador, com a tarifa por quilômetro que você mesmo define."
     }
   ],
@@ -190,17 +190,17 @@
   "languages_caption_title": "Estatísticas",
   "languages_caption_body": "A sua semana, no seu idioma e no seu dinheiro.",
   "pricing_h2": "Um preço, tudo incluído",
-  "pricing_intro": "Quatorze dias grátis. Se cancelar antes do fim do teste, você não paga nada. Todos os recursos já vêm juntos desde o início — sem planos mais caros nem pacotes extras.",
+  "pricing_intro": "Quatorze dias grátis. Se cancelar antes do fim do teste, você não paga nada. Todos os recursos já vêm incluídos desde o início — sem planos mais caros nem pacotes extras.",
   "pricing_monthly": "Mensal",
   "pricing_yearly": "Anual",
   "pricing_per_month": "por mês, cancele quando quiser",
-  "pricing_per_year": "por ano, cobrado uma vez por ano",
-  "pricing_best": "Melhor valor",
+  "pricing_per_year": "por ano, em uma única cobrança",
+  "pricing_best": "Mais vantajoso",
   "pricing_bullet_all": "Todos os recursos, sem pacotes extras",
-  "pricing_bullet_trial": "Primeiro 14 dias grátis",
-  "pricing_cta": "Começar 14 dias grátis",
+  "pricing_bullet_trial": "Os primeiros 14 dias grátis",
+  "pricing_cta": "Teste grátis por 14 dias",
   "pricing_bullet_saving": "Economize {saving} por ano — {percent}% mais barato",
-  "pricing_bullet_equivalent": "Dá {monthly} por mês",
+  "pricing_bullet_equivalent": "Equivale a {monthly} por mês",
   "pricing_table_title": "O preço no seu país",
   "pricing_search": "Procure o seu país",
   "pricing_col_country": "País",
@@ -209,19 +209,19 @@
   "pricing_you": "Você",
   "pricing_note": "A Apple não cobra nada por 14 dias. Cancele nos Ajustes antes disso e você não paga nada. Fora do Brasil, a App Store mostra o preço do seu país.",
   "faq_h2": "Perguntas que os entregadores fazem de verdade",
-  "faq_intro": "Respostas diretas, de quem faz o trabalho.",
+  "faq_intro": "Respostas diretas, de quem faz esse trabalho.",
   "faq": [
     {
       "q": "Isso não é só mais um app de quilometragem?",
-      "a": "Ele grava a quilometragem do mesmo jeito, sem botão de iniciar. A diferença é o que vem depois: os seus ganhos entram, o combustível, o estacionamento e os custos fixos saem, e o app mostra quanto você ganha por hora de verdade. Os quilômetros sozinhos não dizem quanto você ganhou nem se a rota valeu a pena."
+      "a": "Ele grava a quilometragem como os outros, mas sem botão de iniciar. A diferença é o que vem depois: os seus ganhos entram, o combustível, o estacionamento e os custos fixos saem, e o app mostra quanto você ganha por hora de verdade. Os quilômetros sozinhos não dizem quanto você ganhou nem se a rota valeu a pena."
     },
     {
-      "q": "Gasta a bateria?",
-      "a": "O DropLane não deixa o GPS ligado o dia inteiro. Ele fica quieto até perceber que você saiu de onde estacionou, grava enquanto você anda, e volta a dormir quando você para."
+      "q": "Gasta muita bateria?",
+      "a": "O DropLane não deixa o GPS ligado o dia inteiro. Ele fica quieto até perceber que você saiu de onde estacionou, grava enquanto você dirige e volta a dormir quando você para."
     },
     {
       "q": "Preciso apertar iniciar?",
-      "a": "Não — e não existe botão para apertar. É exatamente esse o ponto. Se você tiver que lembrar, vai esquecer justo no dia que importa."
+      "a": "Não — e não existe botão para apertar. A ideia é justamente essa. Se você tiver que lembrar, vai esquecer justo no dia em que mais importa."
     },
     {
       "q": "E se eu esquecer de escolher o tipo de uma viagem?",
@@ -233,11 +233,11 @@
     },
     {
       "q": "Eu ando de moto, não de van.",
-      "a": "Funciona. Os quilômetros de moto são gravados do mesmo jeito, e os de bicicleta de carga também. As tarifas de quilometragem embutidas valem para veículos a motor, não para bicicletas, então o que dá para deduzir com a bicicleta depende do seu país e da sua situação — vale perguntar ao contador."
+      "a": "Funciona. Os quilômetros de moto são gravados do mesmo jeito, e os de bicicleta de carga também. As tarifas de quilometragem incluídas valem para veículos a motor, não para bicicletas, então o que dá para deduzir com a bicicleta depende do seu país e da sua situação — vale perguntar ao contador."
     },
     {
-      "q": "A tarifa do meu país está aí dentro?",
-      "a": "Dezessete países têm a tarifa oficial embutida e mantida em dia. Em qualquer outro lugar, você digita a sua uma vez e o app faz a conta."
+      "q": "A tarifa do meu país já vem no app?",
+      "a": "Dezessete países têm a tarifa oficial incluída e mantida em dia. Em qualquer outro lugar, você digita a sua uma vez e o app faz a conta."
     },
     {
       "q": "Dá para usar em quilômetros?",
@@ -245,7 +245,7 @@
     },
     {
       "q": "Funciona onde não tem sinal?",
-      "a": "Funciona. A gravação usa o GPS do próprio iPhone e não precisa de internet. As viagens feitas fora de sinal voltam marcadas com “Saída” e “Chegada” em vez de nomes de ruas, e o DropLane preenche na próxima vez que enxergar Wi-Fi. Uma semana inteira em estradas sem sinal fecha certinho do mesmo jeito."
+      "a": "Funciona. A gravação usa o GPS do próprio iPhone e não precisa de internet. As viagens feitas fora de sinal voltam marcadas com “Saída” e “Chegada” em vez de nomes de ruas, e o DropLane completa os nomes na próxima vez que pegar Wi-Fi. Uma semana inteira em estradas sem sinal fecha certinho do mesmo jeito."
     },
     {
       "q": "O que acontece quando eu trocar de celular?",
@@ -253,11 +253,11 @@
     },
     {
       "q": "E se eu parar de pagar — perco os meus registros?",
-      "a": "Nada é apagado, e o app continua gravando. As suas viagens ficam no iPhone e no seu próprio iCloud, e os quilômetros que você rodar com a assinatura vencida estão esperando quando você assinar de novo. O que fica bloqueado é a consulta: Hoje, Dias, Estatísticas, Análises, o PDF e a exportação CSV ficam fechados até lá. Se quiser os números em outro lugar, exporte o CSV antes de a assinatura terminar — está nos Ajustes e basta um toque."
+      "a": "Nada é apagado e o app continua gravando. As suas viagens ficam no iPhone e no seu próprio iCloud, e os quilômetros que você rodar com a assinatura vencida estão esperando quando você assinar de novo. O que fica bloqueado é a consulta: Hoje, Dias, Estatísticas, Análises, o PDF e a exportação CSV ficam fechados até lá. Se quiser os números em outro lugar, exporte o CSV antes de a assinatura terminar — está nos Ajustes e basta um toque."
     },
     {
       "q": "Como eu sei quanto o combustível custou de verdade antes da fatura do cartão chegar?",
-      "a": "Diga ao DropLane o preço por litro que o seu cartão cobra, e depois anote os litros ao abastecer. O custo sai no mesmo dia, então o lucro da semana está certo semanas antes de a fatura aparecer."
+      "a": "Diga ao DropLane o preço por litro que o seu cartão cobra e depois anote os litros ao abastecer. O custo sai no mesmo dia, então o lucro da semana fecha certo semanas antes de a fatura chegar."
     },
     {
       "q": "Tem versão para Android?",
@@ -266,7 +266,7 @@
   ],
   "closer_h2": "Pare de adivinhar quanto você ganhou.",
   "closer_body": "Quatorze dias grátis, sem conta, e nada para lembrar às seis da manhã.",
-  "footer_note": "DropLane — km, ganhos e despesas automáticos para quem dirige a trabalho. Feito por um entregador, em Torquay.",
+  "footer_note": "DropLane — quilômetros, ganhos e despesas automáticos para quem dirige a trabalho. Feito por um entregador, em Torquay.",
   "footer_privacy": "Privacidade",
   "footer_terms": "Termos",
   "footer_support": "Ajuda",
@@ -292,9 +292,9 @@
   "privacy_h2": "Seus dados. Só seus.",
   "privacy_intro": "Sua localização fica no seu iPhone e no seu próprio iCloud. Sem conta, sem servidor, nada é vendido. Só você decide quem vê suas viagens.",
   "privacy_stat_label": "Servidores com a sua localização",
-  "privacy_point1": "É isso que permite ao DropLane registrar os quilômetros. Seu histórico de localização nunca sai do seu iPhone.",
+  "privacy_point1": "É isso que permite ao DropLane registrar os quilômetros. Seu histórico de localização não vai além do seu iPhone e do seu próprio iCloud.",
   "privacy_point2": "Backup e restauração no iCloud, sem precisar de conta",
-  "privacy_point3": "Exportar CSV para seus registros",
+  "privacy_point3": "Exportação CSV para seus registros",
   "setup_shot_location": "Ativar localização",
   "setup_shot_always": "Agora escolha “Sempre”",
   "setup_shot_notifications": "Ativar notificações",
@@ -306,7 +306,7 @@
   "hero_trial": "14 dias grátis",
   "hero_trial_then": "depois {price} por mês",
   "compare_them": "Os apps de quilometragem dizem quantos quilômetros você rodou.",
-  "compare_us": "O DropLane diz quanto você ganhou de verdade.",
+  "compare_us": "O DropLane diz se o dia valeu a pena.",
   "fact_currency": "Todas as moedas",
   "fact_private": "Dados ficam no celular",
   "fact_private_value": "Privado",
@@ -338,7 +338,7 @@
   "hero_trial_then_plans": "depois {year} por ano ou {month} por mês",
   "money_punch2": "Rodar mais nem sempre significa ganhar mais.",
   "setup_h3": "Veja como configurar",
-  "features_also": "Ele também cuida do veículo: revisões, pneus e consertos anotados com a foto da nota, lembretes da revisão e do IPVA, com a revisão contando também em quilômetros, e o custo do cartão de combustível calculado no dia em que você abastece. E fala 46 idiomas, com os valores na sua moeda.",
+  "features_also": "Ele também cuida do veículo: revisões, pneus e consertos anotados com a foto da nota, lembretes do IPVA e da revisão, que também pode contar por quilometragem, e o custo do cartão de combustível calculado no dia em que você abastece. E fala 46 idiomas, com os valores na sua moeda.",
   "faq_home": [
     "Preciso apertar iniciar?",
     "Meu histórico de trajetos vai parar em algum lugar?",

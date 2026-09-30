@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — Kilometer, pendapatan, dan biaya otomatis untuk siapa pun yang menyetir untuk kerja",
-  "meta_description": "Pencatat kilometer untuk kurir dan driver lepas. DropLane merekam tiap perjalanan sendiri, memotong BBM dan biaya dari pendapatan, dan menghitung hasil per jam.",
+  "meta_title": "DropLane — Kilometer, pendapatan, dan biaya tercatat otomatis, bagi siapa pun yang berkendara untuk kerja",
+  "meta_description": "Pencatat kilometer untuk kurir & driver lepas. DropLane merekam tiap perjalanan otomatis, memotong BBM dan biaya dari pendapatan, dan menghitung hasil per jam.",
   "nav_label": "Utama",
   "nav_features": "Fitur",
   "nav_screens": "Tampilan",
@@ -23,7 +23,7 @@
   "see_all": "semua negara",
   "per_month_short": "/bulan",
   "hero_kicker": "Kilometer otomatis · Untung nyata · Hasil per jam nyata",
-  "hero_h1": "Tahu berapa yang benar-benar didapat hari ini.",
+  "hero_h1": "Tahu berapa hasil bersihmu hari ini.",
   "hero_lede": "DropLane merekam setiap perjalanan secara otomatis, memotong biaya dari pendapatanmu, dan menunjukkan berapa yang benar-benar kamu dapat.",
   "hero_cta_how": "Lihat cara kerjanya ↓",
   "hero_note": "tanpa akun, tanpa iklan · iPhone",
@@ -151,15 +151,15 @@
   "pricing_you": "Kamu",
   "pricing_note": "Apple tidak menagih apa pun selama 14 hari. Batalkan di Pengaturan sebelum itu dan kamu tidak membayar apa-apa. Di luar Indonesia, App Store menampilkan harga untuk negaramu sendiri.",
   "faq_h2": "Yang benar-benar ditanyakan kurir",
-  "faq_intro": "Jawaban langsung, dari orang yang mengerjakannya sendiri.",
+  "faq_intro": "Jawaban lugas, dari orang yang menjalani pekerjaan ini sendiri.",
   "faq": [
     {
       "q": "Bukankah ini cuma pencatat kilometer biasa?",
-      "a": "Cara merekam kilometernya sama, tanpa tombol mulai. Bedanya sesudah itu: pendapatanmu masuk, BBM, parkir, dan biaya operasional dipotong, dan aplikasi memberi tahu berapa yang benar-benar didapat per jam. Angka kilometer saja tidak pernah memberi tahu siapa pun apakah narik hari itu sepadan."
+      "a": "Cara merekam kilometernya sama, tanpa tombol mulai. Bedanya ada sesudah itu: pendapatanmu dimasukkan, BBM, parkir, dan biaya operasional dipotong, lalu aplikasi memberi tahu berapa sebenarnya hasilmu per jam. Angka kilometer saja tidak pernah memberi tahu siapa pun apakah narik hari itu sepadan."
     },
     {
       "q": "Apakah boros baterai?",
-      "a": "DropLane tidak menyalakan GPS seharian. Ia diam sampai tahu kamu meninggalkan tempat parkir, merekam saat kamu bergerak, dan tidur lagi saat kamu berhenti."
+      "a": "DropLane tidak menyalakan GPS seharian. Ia diam saja sampai tahu kamu sudah beranjak dari tempat kamu parkir, merekam selama kamu bergerak, lalu tidur lagi begitu kamu berhenti."
     },
     {
       "q": "Harus menekan mulai?",
@@ -167,7 +167,7 @@
     },
     {
       "q": "Kalau lupa memilih jenis perjalanan?",
-      "a": "Tidak ada yang hilang. Perjalanan tanpa jenis menunggu di tampilan Hari, dan aplikasi mengingatkanmu, bukan menebak untukmu."
+      "a": "Tidak ada yang hilang. Perjalanan tanpa jenis menunggu di tampilan Hari, dan aplikasi mengingatkanmu, bukan menebak-nebak sendiri."
     },
     {
       "q": "Apakah riwayat ruteku dikirim ke mana-mana?",
@@ -175,7 +175,7 @@
     },
     {
       "q": "Aku pakai sepeda, bukan mobil boks.",
-      "a": "Bisa. Jarak dengan sepeda kargo terekam dengan cara yang sama. Tapi tarif jarak bawaan berlaku untuk kendaraan bermotor, jadi berapa yang bisa diklaim untuk sepeda tergantung negaramu dan keadaanmu — sebaiknya tanya akuntan."
+      "a": "Tidak masalah. Jarak dengan sepeda kargo terekam dengan cara yang sama. Tapi tarif jarak bawaan di aplikasi berlaku untuk kendaraan bermotor, jadi berapa yang bisa diklaim untuk sepeda tergantung negaramu dan keadaanmu — sebaiknya tanya akuntan."
     },
     {
       "q": "Tarif jarak untuk Indonesia sudah ada?",
@@ -191,24 +191,24 @@
     },
     {
       "q": "Kalau ganti HP bagaimana?",
-      "a": "Masuk ke iCloud yang sama dan perjalanan, pendapatan, serta biayamu kembali sendiri. Tidak ada akun yang harus dibuat dan tidak ada kata sandi yang bisa hilang, karena memang tidak pernah ada server yang menyimpan semua itu — cadangannya milikmu, di iCloud-mu sendiri."
+      "a": "Masuk ke iCloud yang sama, lalu perjalanan, pendapatan, dan biayamu kembali dengan sendirinya. Tidak ada akun yang harus dibuat dan tidak ada kata sandi yang bisa hilang, karena memang tidak pernah ada server yang menyimpan semua itu — cadangannya milikmu, di iCloud-mu sendiri."
     },
     {
       "q": "Kalau berhenti bayar, catatanku hilang?",
-      "a": "Tidak ada yang dihapus, dan aplikasi tetap merekam. Perjalananmu tetap di iPhone dan di iCloud-mu sendiri, dan kilometer yang kamu tempuh selama tidak berlangganan sudah menunggu begitu kamu berlangganan lagi. Yang terkunci adalah layar untuk melihatnya: tab Hari Ini, Hari, Statistik, dan Analisis, juga PDF dan ekspor CSV, tetap tertutup sampai kamu berlangganan lagi. Kalau angkanya mau dibawa ke tempat lain, ekspor CSV sebelum langganan berakhir — ada di Pengaturan, cukup sekali ketuk."
+      "a": "Tidak ada yang dihapus, dan aplikasi tetap merekam. Perjalananmu tetap di iPhone dan di iCloud-mu sendiri, dan kilometer yang kamu tempuh selama tidak berlangganan sudah menunggu begitu kamu berlangganan lagi. Yang terkunci hanya layar untuk melihatnya: tab Hari Ini, Hari, Statistik, dan Analisis, juga PDF dan ekspor CSV, sampai langgananmu aktif kembali. Kalau angkanya mau dibawa ke tempat lain, ekspor CSV sebelum langganan berakhir — ada di Pengaturan, cukup sekali ketuk."
     },
     {
       "q": "Bagaimana tahu biaya BBM yang sebenarnya sebelum tagihan kartu datang?",
-      "a": "Beri tahu DropLane harga per liter dari kartu BBM-mu, lalu catat liternya setiap kali isi. Biayanya langsung terhitung hari itu juga, jadi untung minggu ini sudah benar berminggu-minggu sebelum tagihannya datang."
+      "a": "Beri tahu DropLane harga per liter dari kartu BBM-mu, lalu catat liternya setiap kali isi. Biayanya langsung terhitung hari itu juga, jadi untung minggu ini sudah akurat berminggu-minggu sebelum tagihannya datang."
     },
     {
       "q": "Ada versi Android?",
       "a": "Belum. Untuk sekarang DropLane baru ada di iPhone, dan versi Android sedang disiapkan. Kirim email ke help@droplane.co.uk, nanti kami kabari begitu rilis."
     }
   ],
-  "closer_h2": "Berhenti menebak berapa yang didapat hari ini.",
+  "closer_h2": "Berhenti menebak-nebak hasil harimu.",
   "closer_body": "14 hari gratis, tanpa akun, dan tidak ada yang perlu diingat jam enam pagi.",
-  "footer_note": "DropLane — kilometer, pendapatan, dan biaya otomatis untuk siapa pun yang menyetir untuk kerja. Dibuat oleh seorang kurir, di Torquay, Inggris.",
+  "footer_note": "DropLane — kilometer, pendapatan, dan biaya tercatat otomatis, bagi siapa pun yang berkendara untuk kerja. Dibuat oleh seorang kurir di Torquay, Inggris.",
   "footer_privacy": "Privasi",
   "footer_terms": "Ketentuan",
   "footer_support": "Bantuan",
@@ -222,7 +222,7 @@
   "trust": [
     "Merekam perjalanan otomatis",
     "Lokasi tetap di iPhone-mu",
-    "Dibuat kurir yang 10+ tahun di jalan",
+    "Dibuat kurir dengan 10+ tahun di jalan",
     "46 bahasa, semua mata uang"
   ],
   "outcomes_label": "Tiga angka yang sudah disiapkan DropLane sebelum kamu sampai rumah",
@@ -235,7 +235,7 @@
     {
       "file": "day",
       "title": "Yang benar-benar tersisa setelah biaya",
-      "alt": "Halaman satu hari: untung hari ini Rp530.200, Rp67.974 per jam, Rp3.443 per km, dan hari itu di peta."
+      "alt": "Halaman satu hari: untung hari itu Rp530.200, Rp67.974 per jam, Rp3.443 per km, dan rute hari itu di peta."
     },
     {
       "file": "insights",
@@ -248,7 +248,7 @@
   "money_note": "Kilometer memberi tahu seberapa jauh kamu menyetir. DropLane memberi tahu apakah itu sepadan.",
   "nav_day": "Berapa hasilnya",
   "nav_how": "Cara kerja",
-  "how_h2": "Tiga langkah, dan cuma satu yang tugasmu",
+  "how_h2": "Tiga langkah, cuma satu yang jadi tugasmu",
   "how_intro": "DropLane sengaja tidak punya tombol mulai. Tidak ada yang ingat menekannya jam enam pagi dengan mobil penuh paket.",
   "how_steps": [
     {
@@ -277,11 +277,11 @@
   "privacy_h2": "Datamu. Hanya milikmu.",
   "privacy_intro": "Lokasimu tetap di iPhone dan iCloud-mu sendiri. Tanpa akun, tanpa server, tidak ada yang dijual. Hanya kamu yang menentukan siapa yang melihat perjalananmu.",
   "privacy_stat_label": "Server yang menyimpan lokasimu",
-  "privacy_point1": "Lokasi inilah yang membuat DropLane bisa merekam jarak. Riwayat lokasimu tidak pernah keluar dari iPhone-mu.",
+  "privacy_point1": "Lokasi inilah yang membuat DropLane bisa merekam jarak. Riwayat lokasimu tidak pergi ke mana pun selain iPhone-mu dan iCloud-mu sendiri.",
   "privacy_point2": "Cadangkan dan pulihkan lewat iCloud, tanpa perlu akun",
   "privacy_point3": "Ekspor CSV buat arsipmu",
   "faq_all": "Lihat semua pertanyaan →",
-  "faq_page_title": "Yang benar-benar ditanyakan kurir — DropLane",
+  "faq_page_title": "Tanya jawab: yang benar-benar ditanyakan kurir — DropLane",
   "faq_meta_description": "Pertanyaan kurir tentang DropLane, dijawab oleh kurir yang membuatnya: perekaman, baterai, privasi, sinyal, dan apa yang terjadi kalau berhenti bayar.",
   "faq_home": [
     "Harus menekan mulai?",
@@ -298,5 +298,5 @@
   "money_day2_money": "Rp398.800",
   "money_intro": "Dua hari sungguhan. Sabtu 26 km lebih jauh, tapi hasilnya Rp52.400 lebih sedikit.",
   "money_punch": "26 km lebih jauh. Rp52.400 lebih sedikit.",
-  "money_h2": "Dua hari. Lebih banyak kilometer. Lebih sedikit uang."
+  "money_h2": "Dua hari. Kilometer lebih banyak. Uang lebih sedikit."
 }

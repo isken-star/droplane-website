@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Mileage & earnings tracker for anyone who drives for work",
-  "meta_description": "Mileage tracker for couriers, tradespeople and reps in Canada. DropLane records every drive itself, takes fuel and costs off, and shows what the hour paid.",
+  "meta_description": "Mileage tracker for Canadian couriers, tradespeople and reps. DropLane logs every drive itself, takes gas and costs off your pay, and shows what the hour paid.",
   "nav_label": "Main",
   "nav_how": "How it works",
   "nav_day": "What it pays",
@@ -25,7 +25,7 @@
   "per_month_short": "a month",
   "see_all": "see all",
   "hero_h1": "Know what the day really paid.",
-  "hero_lede": "DropLane records every drive automatically, subtracts your costs and shows what you really earned.",
+  "hero_lede": "DropLane records every drive automatically, subtracts your costs and shows what you actually kept.",
   "hero_cta_notify": "Get notified at launch",
   "hero_cta_how": "See how it works ↓",
   "hero_note": "no account, no ads · iPhone",
@@ -94,8 +94,8 @@
       "body": "Every drive saves itself, with the route, the stops, and how long you were at each one."
     },
     {
-      "title": "Pick its type in a tap",
-      "body": "Business, empty, on the way to a pick-up, or personal. The totals and the mileage claim follow on their own."
+      "title": "Pick its type with one tap",
+      "body": "Business, empty, on the way to a pickup, or personal. The totals and the mileage claim follow on their own."
     }
   ],
   "how_proof": "Then the drive history builds itself. Pick a week, a month or your own dates, tick what goes in, and the PDF for the accountant is one tap away — built from drives you never had to log.",
@@ -180,7 +180,7 @@
   "languages_caption_title": "Today",
   "languages_caption_body": "Your day, in your language and your money.",
   "pricing_h2": "One price, everything in it",
-  "pricing_intro": "Fourteen days free. Cancel before the trial ends and you pay nothing. Every feature is there from the off — no higher tier, no add-ons.",
+  "pricing_intro": "Fourteen days free. Cancel before the trial ends and you pay nothing. Every feature is there from day one — no higher tier, no add-ons.",
   "pricing_monthly": "Monthly",
   "pricing_yearly": "Yearly",
   "pricing_per_month": "a month, cancel anytime",
@@ -197,13 +197,13 @@
   "pricing_col_month": "Monthly",
   "pricing_col_year": "Yearly",
   "pricing_you": "You",
-  "pricing_note": "Billed by Apple through the App Store, tax included, and cancelled in your iPhone's Settings like any other subscription. Cancel before the fourteen days are up and nothing is charged. Outside Canada, the App Store shows the price for your own country.",
+  "pricing_note": "Billed by Apple through the App Store and cancelled in your iPhone's Settings like any other subscription. Cancel before the fourteen days are up and nothing is charged. Outside Canada, the App Store shows the price for your own country.",
   "faq_h2": "Questions couriers actually ask",
   "faq_intro": "Straight answers, from someone who does the job.",
   "faq": [
     {
       "q": "Isn't this just another mileage tracker?",
-      "a": "It records mileage the same way, without a start button. The difference is what happens after: your takings go in, the fuel, parking and running costs come off, and the app tells you what the hour actually paid. A mileage figure on its own never told anyone whether the round was worth doing."
+      "a": "It does record your mileage — automatically, with no start button. The difference is what happens after: what you're paid goes in, the gas, parking and running costs come off, and the app tells you what the hour actually paid. A mileage figure on its own never told anyone whether the route was worth running."
     },
     {
       "q": "Does it drain the battery?",
@@ -223,19 +223,19 @@
     },
     {
       "q": "I drive a bike, not a van.",
-      "a": "That works. Cargo-bike miles are recorded the same way. The built-in mileage rates are for motor vehicles, though, so what a bike can claim depends on your country and your circumstances — worth asking an accountant."
+      "a": "That works. Cargo-bike kilometres are recorded the same way. The built-in mileage rates are for motor vehicles, though, so what a bike can claim depends on your country and your circumstances — worth asking an accountant."
     },
     {
       "q": "Is my country's mileage rate in there?",
-      "a": "Seventeen countries have their official rate built in and kept current. Anywhere else, type your own rate once and the app does the maths."
+      "a": "Seventeen countries have their official rate built in and kept current. Anywhere else, type your own rate once and the app does the math."
     },
     {
       "q": "Can I use it in kilometres?",
-      "a": "Yes. Miles or kilometres, your own currency, and the fuel price you actually pay — all in Settings, on the first screen."
+      "a": "Yes. Miles or kilometres, your own currency, and the gas price you actually pay — all in Settings, on the first screen."
     },
     {
       "q": "Does it work where there's no signal?",
-      "a": "Yes. Recording runs off your iPhone's own GPS and wants no internet at all. Drives taken out of signal come back labelled “Start” and “End” instead of street names, and DropLane fills those in the next time it sees Wi-Fi. A week down lanes with no bars still adds up right."
+      "a": "Yes. Recording runs off your iPhone's own GPS and needs no internet at all. Drives recorded with no signal come back labelled “Start” and “End” instead of street names, and DropLane fills those in the next time it sees Wi-Fi. A week on back roads with no bars still adds up right."
     },
     {
       "q": "What happens when I get a new phone?",
@@ -243,11 +243,11 @@
     },
     {
       "q": "What if I stop paying — do I lose my records?",
-      "a": "Nothing is deleted, and the app keeps recording. Your drives stay on the iPhone and in your own iCloud, and the kilometres you drive while lapsed are waiting when you subscribe again. What locks is the reading: Today, Days, Stats, Insights, the PDF and the CSV export stay shut until you do. If you want the figures somewhere else, export the CSV before the subscription ends — it's in Settings, and it's one tap."
+      "a": "Nothing is deleted, and the app keeps recording. Your drives stay on the iPhone and in your own iCloud, and the kilometres you drive in the meantime are waiting when you come back. What locks is the reading side: Today, Days, Stats, Insights, the PDF and the CSV export stay shut until you subscribe again. If you want the figures somewhere else, export the CSV before the subscription ends — it's in Settings, and it's one tap."
     },
     {
-      "q": "How do I know what fuel really cost before the card invoice arrives?",
-      "a": "Tell DropLane the price per litre your fuel card charges, then log the litres when you fill up. The cost is worked out on the day, so the week's profit is right weeks before the invoice turns up."
+      "q": "How do I know what gas really cost before the fuel-card statement arrives?",
+      "a": "Tell DropLane the price per litre your fuel card charges, then log the litres when you fill up. The cost is worked out on the day, so the week's profit is right weeks before the statement turns up."
     },
     {
       "q": "Is there an Android version?",
@@ -282,7 +282,7 @@
   "privacy_h2": "Your data. Yours alone.",
   "privacy_intro": "Your location stays on your iPhone and your own iCloud. No account, no server, nothing sold. Only you decide who sees your trips.",
   "privacy_stat_label": "Servers holding your location",
-  "privacy_point1": "This is what lets DropLane record the miles. Your location history never leaves your iPhone.",
+  "privacy_point1": "Your location is what lets DropLane record the kilometres, and it goes no further than your iPhone and your own iCloud.",
   "privacy_point2": "iCloud backup and restore, no account needed",
   "privacy_point3": "Export CSV for your records",
   "setup_shot_location": "Turn on location",
@@ -290,7 +290,7 @@
   "setup_shot_notifications": "Enable notifications",
   "setup_shot_vehicle": "What do you drive?",
   "pocket_h3": "Notifications",
-  "pocket_body": "\"Always\" lets drives record with the app closed.",
+  "pocket_body": "“Always” lets drives record with the app closed.",
   "pocket_live_alt": "Drive detected — recording",
   "pocket_live_body": "While you're driving, a Live Activity keeps the kilometres climbing on the lock screen — so you can see the drive being recorded without unlocking anything.",
   "hero_trial": "14 days free",
@@ -312,7 +312,7 @@
     {
       "file": "today",
       "title": "What I earned today",
-      "alt": "The Today screen: a drive recording on the Toronto map, and $267.02 earned today from $306.80 of takings and $39.78 of costs."
+      "alt": "The Today screen: a drive recording on the Toronto map, and $267.02 earned today from $306.80 of income less $39.78 of costs."
     },
     {
       "file": "day",
@@ -328,7 +328,7 @@
   "hero_trial_then_plans": "then {year} a year or {month} a month",
   "money_punch2": "Driving more doesn't always mean earning more.",
   "setup_h3": "See how setup works",
-  "features_also": "It also looks after the van: service, tires and repairs logged with the receipt photo, a reminder before the inspection is due, service reminders that count down in kilometres, and gas-card costs worked out on the day you fill up. And it speaks 46 languages, with the money in your currency.",
+  "features_also": "It also looks after the van: service, tires and repairs logged with the receipt photo, a reminder before the inspection is due, service reminders that count down in kilometres, and fuel-card costs worked out on the day you fill up. And it speaks 46 languages, with the money in your currency.",
   "faq_home": [
     "Do I have to press start?",
     "Will my route history end up somewhere?",

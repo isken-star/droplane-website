@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — Kilomètres, revenus et dépenses automatiques pour qui roule au travail",
-  "meta_description": "DropLane enregistre toute seule tes trajets de livraison, retire essence, stationnement et frais de tes revenus, et te dit ce que l'heure t'a vraiment rapporté.",
+  "meta_title": "DropLane — Registre de kilométrage et de revenus pour ceux qui roulent pour travailler",
+  "meta_description": "Kilométrage automatique pour livreurs, gens de métier et représentants : DropLane déduit l'essence et les dépenses de tes revenus et calcule ton taux horaire.",
   "nav_label": "Menu principal",
   "nav_how": "Comment ça marche",
   "nav_day": "Ce qui te reste",
@@ -61,7 +61,7 @@
   "money_label_trips": "Trajets",
   "money_label_money": "en poche",
   "money_punch": "15 km de plus. 21,36 $ de moins.",
-  "money_note": "Les kilomètres te disent combien tu as roulé. DropLane te dit si ça en valait la peine.",
+  "money_note": "Les kilomètres te disent quelle distance tu as parcourue. DropLane te dit si ça en valait la peine.",
   "day_h2": "Ce que tu gagnes vraiment dans une journée",
   "day_intro": "113 euros, ça ressemble à une bonne journée. Mais une fois le carburant et le stationnement retirés, et le tout étalé sur 6 h 1 min de route, il reste 12,15 € de l'heure. C'est exactement ce chiffre que DropLane calcule tout seul, dès la fin de la journée.",
   "day_film1_title": "Tout calculé automatiquement",
@@ -94,13 +94,13 @@
       "body": "Chaque trajet s'enregistre tout seul, avec l'itinéraire, les arrêts et le temps passé à chacun."
     },
     {
-      "title": "Choisir le type d'un toucher",
-      "body": "En charge, à vide, en route vers une cueillette ou personnel. Les totaux et l'indemnité kilométrique suivent tout seuls."
+      "title": "Choisir son type d'un simple toucher",
+      "body": "En charge, à vide, vers la collecte ou personnel. Les totaux et l'indemnité kilométrique se calculent tout seuls."
     }
   ],
   "how_proof": "Ensuite, l'historique des trajets se constitue tout seul. Choisis une semaine, un mois ou tes propres dates, coche ce qui doit y figurer, et le PDF pour le comptable est à un geste — bâti sur des trajets que tu n'as jamais eu à noter.",
   "features_h2": "Ce que tu y gagnes",
-  "features_intro": "Pensée pour le métier tel qu'il est vraiment, par quelqu'un qui le fait.",
+  "features_intro": "Conçue pour le métier tel qu'il est vraiment, par quelqu'un qui l'exerce.",
   "features": [
     {
       "icon": "💰",
@@ -184,11 +184,11 @@
   "pricing_monthly": "Mensuel",
   "pricing_yearly": "Annuel",
   "pricing_per_month": "par mois, annulable en tout temps",
-  "pricing_per_year": "par année, facturé une fois par année",
+  "pricing_per_year": "par année, facturé en une fois",
   "pricing_best": "Meilleur prix",
   "pricing_bullet_all": "Toutes les fonctions, sans option payante",
-  "pricing_bullet_trial": "14 jours gratuits d'abord",
-  "pricing_cta": "Commencer 14 jours gratuits",
+  "pricing_bullet_trial": "D'abord 14 jours gratuits",
+  "pricing_cta": "Essayer 14 jours gratuitement",
   "pricing_bullet_saving": "Économise {saving} par année — {percent} % moins cher",
   "pricing_bullet_equivalent": "Soit {monthly} par mois",
   "pricing_table_title": "Le prix dans ton pays",
@@ -199,7 +199,7 @@
   "pricing_you": "Toi",
   "pricing_note": "Apple ne facture rien pendant 14 jours. Annule dans les Réglages avant la fin et tu ne paies rien. Hors du Canada, l'App Store affiche le prix de ton pays.",
   "faq_h2": "Les questions que les livreurs posent vraiment",
-  "faq_intro": "Des réponses franches, par quelqu'un qui fait le métier.",
+  "faq_intro": "Des réponses franches, de quelqu'un qui fait le métier.",
   "faq": [
     {
       "q": "Ce n'est pas juste une autre appli de kilométrage?",
@@ -215,7 +215,7 @@
     },
     {
       "q": "Et si j'oublie de choisir le type d'un trajet?",
-      "a": "Rien n'est perdu. Les trajets sans type t'attendent dans l'écran Jours, et l'appli te le rappelle au lieu de deviner à ta place."
+      "a": "Rien n'est perdu. Les trajets sans type t'attendent sur l'écran Jours, et l'appli te le rappelle au lieu de deviner à ta place."
     },
     {
       "q": "Mon historique de trajets se retrouve-t-il quelque part?",
@@ -235,7 +235,7 @@
     },
     {
       "q": "Est-ce que ça marche sans réseau?",
-      "a": "Oui. L'enregistrement utilise le GPS de ton iPhone et n'a besoin d'aucune connexion Internet. Les trajets faits hors réseau reviennent avec « Départ » et « Arrivée » au lieu des noms de rues, et DropLane les complète la prochaine fois qu'elle capte du Wi-Fi. Une semaine dans les rangs sans une seule barre de réseau, et le compte est quand même juste."
+      "a": "Oui. L'enregistrement utilise le GPS de ton iPhone et n'a besoin d'aucune connexion Internet. Les trajets faits hors réseau s'affichent avec « Départ » et « Arrivée » au lieu des noms de rues, et DropLane les complète la prochaine fois qu'elle capte du Wi-Fi. Une semaine dans les rangs sans une seule barre de réseau, et le compte est quand même juste."
     },
     {
       "q": "Qu'est-ce qui arrive quand je change de cellulaire?",
@@ -243,11 +243,11 @@
     },
     {
       "q": "Et si j'arrête de payer, je perds mes données?",
-      "a": "Rien n'est supprimé, et l'appli continue d'enregistrer. Tes trajets restent sur l'iPhone et dans ton propre iCloud, et les kilomètres roulés sans abonnement t'attendent quand tu te réabonnes. Ce qui se verrouille, c'est la consultation : Aujourd'hui, Jours, Stats, Analyses, le PDF et l'export CSV restent fermés jusqu'à ton réabonnement. Si tu veux tes chiffres ailleurs, exporte le CSV avant la fin de l'abonnement — c'est dans les Réglages, d'un seul toucher."
+      "a": "Rien n'est supprimé, et l'appli continue d'enregistrer. Tes trajets restent sur l'iPhone et dans ton propre iCloud, et les kilomètres roulés sans abonnement t'attendent quand tu te réabonnes. Ce qui se verrouille, c'est la consultation : Aujourd'hui, Jours, Stats, Analyses, le PDF et l'export CSV restent bloqués jusqu'à ton réabonnement. Si tu veux tes chiffres ailleurs, exporte le CSV avant la fin de l'abonnement — c'est dans les Réglages, d'un seul toucher."
     },
     {
       "q": "Comment savoir ce que l'essence m'a vraiment coûté avant de recevoir le relevé de la carte?",
-      "a": "Indique à DropLane le prix au litre que facture ta carte de carburant, puis entre les litres à chaque plein. Le coût est calculé le jour même : le bénéfice de la semaine est juste des semaines avant que le relevé arrive."
+      "a": "Indique à DropLane le prix au litre que facture ta carte de carburant, puis entre les litres à chaque plein. Le coût est calculé le jour même : le bénéfice de la semaine est donc juste des semaines avant l'arrivée du relevé."
     },
     {
       "q": "Y a-t-il une version Android?",
@@ -256,7 +256,7 @@
   ],
   "closer_h2": "Arrête de deviner ce que ta journée t'a rapporté.",
   "closer_body": "Quatorze jours gratuits, sans compte, et rien à retenir à six heures du matin.",
-  "footer_note": "DropLane — kilomètres, revenus et dépenses automatiques pour qui roule au travail. Conçue par un livreur, à Torquay.",
+  "footer_note": "DropLane — kilométrage, revenus et dépenses automatiques pour ceux qui roulent pour travailler. Conçue par un livreur, à Torquay.",
   "footer_privacy": "Confidentialité",
   "footer_terms": "Conditions",
   "footer_support": "Aide",
@@ -282,7 +282,7 @@
   "privacy_h2": "Tes données. À toi seul.",
   "privacy_intro": "Ta position reste sur ton iPhone et dans ton propre iCloud. Pas de compte, pas de serveur, rien n'est vendu. Toi seul décides qui voit tes trajets.",
   "privacy_stat_label": "Serveur qui stocke ta position",
-  "privacy_point1": "C'est ce qui permet à DropLane d'enregistrer les kilomètres. Ton historique de position ne quitte jamais ton iPhone.",
+  "privacy_point1": "Ta position, c'est ce qui permet à DropLane de compter les kilomètres. Son historique ne va pas plus loin que ton iPhone et ton propre iCloud.",
   "privacy_point2": "Sauvegarde et restauration iCloud, sans compte",
   "privacy_point3": "Exporter un CSV pour tes archives",
   "setup_shot_location": "Activer la position",
@@ -291,8 +291,8 @@
   "setup_shot_vehicle": "Tu conduis quoi?",
   "pocket_h3": "Notifications",
   "pocket_body": "« Toujours » permet d'enregistrer les trajets même quand l'appli est fermée.",
-  "pocket_live_alt": "Un événement en direct sur l'écran verrouillé : « Enregistrement », 140 km, les boutons de tri et le bouton rouge d'arrêt.",
-  "pocket_live_body": "Pendant que tu roules, un événement en direct fait monter les kilomètres sur l'écran verrouillé — tu vois le trajet s'enregistrer sans rien déverrouiller.",
+  "pocket_live_alt": "Une activité en direct sur l'écran verrouillé : « Enregistrement », 140 km, les boutons de tri et le bouton rouge d'arrêt.",
+  "pocket_live_body": "Pendant que tu roules, une activité en direct fait monter les kilomètres sur l'écran verrouillé — tu vois le trajet s'enregistrer sans rien déverrouiller.",
   "hero_trial": "14 jours gratuits",
   "hero_trial_then": "puis {price} par mois",
   "compare_them": "Les applis de kilométrage te disent combien de kilomètres tu as faits.",
@@ -303,9 +303,9 @@
   "hero_support": "14 jours gratuits · Sans compte · Annulable en tout temps",
   "hero_trial_then_plans": "puis {year} par année ou {month} par mois",
   "trust": [
-    "Enregistre tes trajets toute seule",
+    "Tes trajets s'enregistrent tout seuls",
     "Ta position reste sur ton iPhone",
-    "Par un livreur, plus de 10 ans de route",
+    "Conçue par un livreur, plus de 10 ans de route",
     "46 langues, toutes les monnaies"
   ],
   "outcomes_label": "Trois chiffres que DropLane te prépare avant même ton retour à la maison",
@@ -313,7 +313,7 @@
     {
       "file": "today",
       "title": "Ce que j'ai gagné aujourd'hui",
-      "alt": "L'écran Aujourd'hui : un trajet en cours d'enregistrement sur la carte de Montréal, et 265,16 $ gagnés aujourd'hui, pour 295,00 $ de revenus et 29,84 $ de dépenses."
+      "alt": "L'écran Aujourd'hui : un trajet en cours d'enregistrement sur la carte de Montréal, et 265,16 $ gagnés aujourd'hui, soit 295,00 $ de revenus moins 29,84 $ de dépenses."
     },
     {
       "file": "day",

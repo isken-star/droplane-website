@@ -1,6 +1,6 @@
 {
   "meta_title": "DropLane — Kilómetros, ingresos y gastos automáticos si manejas por trabajo",
-  "meta_description": "DropLane registra en automático tus viajes de reparto, resta gasolina, estacionamiento y gastos de la camioneta, y te dice cuánto te pagó de verdad la hora.",
+  "meta_description": "App de kilometraje para repartidores, técnicos y vendedores: registra tus viajes en automático, resta gasolina y gastos y te dice cuánto ganas por hora.",
   "nav_label": "Menú principal",
   "nav_how": "Cómo funciona",
   "nav_day": "Lo que te deja",
@@ -19,9 +19,9 @@
   "theme_dark": "Oscuro",
   "language_label": "Idioma",
   "language_title": "Lee este sitio en tu idioma",
-  "language_note": "La app habla los 46 idiomas — cada pantalla, cada notificación, cada PDF.",
+  "language_note": "La app habla los 46 idiomas: cada pantalla, cada notificación, cada PDF.",
   "langbar_strong": "46 idiomas.",
-  "langbar_rest": "Elige el tuyo — la app también lo habla.",
+  "langbar_rest": "Elige el tuyo: la app también lo habla.",
   "per_month_short": "al mes",
   "see_all": "ver todos",
   "hero_h1": "Descubre lo que de verdad te dejó el día.",
@@ -110,7 +110,7 @@
     {
       "icon": "⏱️",
       "title": "Conoce tu pago real por hora",
-      "body": "Mira qué días y qué rutas de verdad dejan, con la gasolina, el financiamiento y el seguro repartidos entre los días que trabajas."
+      "body": "Mira qué días y qué rutas de verdad te dejan dinero, con la gasolina, el financiamiento y el seguro repartidos entre los días que trabajas."
     },
     {
       "icon": "🧾",
@@ -180,16 +180,16 @@
   "languages_caption_title": "Hoy",
   "languages_caption_body": "Tu día, en tu idioma y tu moneda.",
   "pricing_h2": "Un precio, todo incluido",
-  "pricing_intro": "Catorce días gratis. Si cancelas antes de que termine la prueba, no pagas nada. Todas las funciones vienen incluidas desde el principio — sin planes más caros ni extras.",
+  "pricing_intro": "Catorce días gratis. Si cancelas antes de que termine la prueba, no pagas nada. Todas las funciones vienen incluidas desde el principio: sin planes superiores ni extras.",
   "pricing_monthly": "Mensual",
   "pricing_yearly": "Anual",
   "pricing_per_month": "al mes, cancela cuando quieras",
-  "pricing_per_year": "al año, con un solo cobro anual",
+  "pricing_per_year": "al año, en un solo pago",
   "pricing_best": "Mejor precio",
   "pricing_bullet_all": "Todas las funciones, sin extras",
-  "pricing_bullet_trial": "Primero 14 días gratis",
+  "pricing_bullet_trial": "Los primeros 14 días, gratis",
   "pricing_cta": "Empieza 14 días gratis",
-  "pricing_bullet_saving": "Ahorra {saving} al año — {percent}% más barato",
+  "pricing_bullet_saving": "Ahorra {saving} al año: {percent}% menos",
   "pricing_bullet_equivalent": "Equivale a {monthly} al mes",
   "pricing_table_title": "El precio en tu país",
   "pricing_search": "Busca tu país",
@@ -197,13 +197,13 @@
   "pricing_col_month": "Mensual",
   "pricing_col_year": "Anual",
   "pricing_you": "Tú",
-  "pricing_note": "Apple no cobra nada durante 14 días. Cancela en Configuración antes de que terminen y no pagas nada. Fuera de México, el App Store muestra el precio de tu país.",
-  "faq_h2": "Preguntas que hacen los repartidores de verdad",
-  "faq_intro": "Respuestas directas, de alguien que hace el trabajo.",
+  "pricing_note": "Apple no te cobra nada durante 14 días. Cancela en Configuración antes de que terminen y no pagas nada. Fuera de México, el App Store muestra el precio de tu país.",
+  "faq_h2": "Lo que de verdad preguntan los repartidores",
+  "faq_intro": "Respuestas directas, de alguien que hace este mismo trabajo.",
   "faq": [
     {
       "q": "¿No es otra app de kilometraje más?",
-      "a": "Registra los kilómetros igual, sin botón de inicio. La diferencia es lo que viene después: entra lo que cobras, salen la gasolina, el estacionamiento y los demás gastos, y la app te dice lo que de verdad pagó la hora. Los kilómetros por sí solos nunca le han dicho a nadie si la ruta valió la pena."
+      "a": "Registra los kilómetros como cualquier otra, pero sin botón de inicio. La diferencia es lo que viene después: entra lo que cobras, salen la gasolina, el estacionamiento y los demás gastos, y la app te dice cuánto ganaste de verdad por hora. Los kilómetros por sí solos nunca le han dicho a nadie si la ruta valió la pena."
     },
     {
       "q": "¿Gasta mucha batería?",
@@ -211,7 +211,7 @@
     },
     {
       "q": "¿Tengo que darle a iniciar?",
-      "a": "No — y no hay ningún botón. De eso se trata. Si tienes que acordarte, se te va a olvidar justo el día que importa."
+      "a": "No, y ni siquiera hay botón. De eso se trata: si tienes que acordarte, se te va a olvidar justo el día que importa."
     },
     {
       "q": "¿Y si se me olvida elegir el tipo de un viaje?",
@@ -219,19 +219,19 @@
     },
     {
       "q": "¿Mi historial de rutas termina en algún lado?",
-      "a": "No. No hay cuenta ni servidor. Todo vive en tu iPhone y solo se respalda en tu propio iCloud si tú quieres."
+      "a": "No. No hay cuenta ni servidor. Todo se queda en tu iPhone y solo se respalda en tu propio iCloud si tú quieres."
     },
     {
       "q": "Reparto en bici, no en camioneta.",
-      "a": "Funciona igual. Los kilómetros en bici de carga se registran de la misma forma. Pero las tarifas incluidas son para vehículos de motor, así que lo que puedes deducir por una bici depende de tu país y de tu situación — pregúntale a un contador."
+      "a": "Funciona igual. Los kilómetros en bici de carga se registran de la misma forma. Pero las tarifas incluidas son para vehículos de motor, así que lo que puedes deducir por una bici depende de tu país y de tu situación. Mejor pregúntale a un contador."
     },
     {
-      "q": "¿Viene la tarifa de mi país?",
-      "a": "Diecisiete países traen su tarifa oficial incluida y al día. En cualquier otro lugar escribes la tuya una vez y la app hace las cuentas."
+      "q": "¿Viene incluida la tarifa de mi país?",
+      "a": "Diecisiete países traen su tarifa oficial incluida y al día. En cualquier otro lugar, escribes la tuya una vez y la app hace las cuentas."
     },
     {
       "q": "¿Puedo usarla en kilómetros?",
-      "a": "Sí. Kilómetros o millas, tu moneda y el precio de la gasolina que de verdad pagas — todo en Configuración, en la primera pantalla."
+      "a": "Sí. Kilómetros o millas, tu moneda y el precio de la gasolina que de verdad pagas: todo en Configuración, en la primera pantalla."
     },
     {
       "q": "¿Funciona donde no hay señal?",
@@ -239,11 +239,11 @@
     },
     {
       "q": "¿Qué pasa cuando cambio de celular?",
-      "a": "Inicia sesión en el mismo iCloud y tus viajes, ingresos y gastos regresan solos. No hay cuenta que crear ni contraseña que perder, porque nunca hubo un servidor con nada de eso — el respaldo es tuyo, en tu propio iCloud."
+      "a": "Inicia sesión en el mismo iCloud y tus viajes, ingresos y gastos regresan solos. No hay cuenta que crear ni contraseña que perder, porque nunca hubo un servidor con nada de eso: el respaldo es tuyo, en tu propio iCloud."
     },
     {
       "q": "¿Y si dejo de pagar, pierdo mis registros?",
-      "a": "No se borra nada, y la app sigue registrando. Tus viajes se quedan en el iPhone y en tu propio iCloud, y los kilómetros que manejes sin suscripción te estarán esperando cuando vuelvas a suscribirte. Lo que se bloquea es la consulta: Hoy, Días, Estadísticas, Análisis, el PDF y la exportación a CSV quedan cerrados hasta entonces. Si quieres las cifras en otro lado, exporta el CSV antes de que termine la suscripción: está en Configuración, a un toque."
+      "a": "No se borra nada y la app sigue registrando. Tus viajes se quedan en el iPhone y en tu propio iCloud, y los kilómetros que manejes sin suscripción te estarán esperando cuando vuelvas a suscribirte. Lo que se bloquea es la consulta: Hoy, Días, Estadísticas, Análisis, el PDF y la exportación a CSV quedan bloqueados hasta entonces. Si quieres las cifras en otro lado, exporta el CSV antes de que termine la suscripción: está en Configuración, a un toque."
     },
     {
       "q": "¿Cómo sé lo que de verdad me costó la gasolina antes de que llegue el estado de cuenta de la tarjeta?",
@@ -282,9 +282,9 @@
   "privacy_h2": "Tus datos. Solo tuyos.",
   "privacy_intro": "Tu ubicación se queda en tu iPhone y en tu propio iCloud. Sin cuenta, sin servidor, nada se vende. Solo tú decides quién ve tus viajes.",
   "privacy_stat_label": "Servidores con tu ubicación",
-  "privacy_point1": "Esto es lo que permite a DropLane registrar los kilómetros. Tu historial de ubicaciones nunca sale de tu iPhone.",
+  "privacy_point1": "Esto es lo que permite a DropLane registrar los kilómetros. Tu historial de ubicaciones no va más allá de tu iPhone y tu propio iCloud.",
   "privacy_point2": "Respaldo y restauración en iCloud, sin cuenta",
-  "privacy_point3": "Exportar CSV para tus registros",
+  "privacy_point3": "Exportación a CSV para tus registros",
   "setup_shot_location": "Activar ubicación",
   "setup_shot_always": "Ahora elige «Siempre»",
   "setup_shot_notifications": "Activar notificaciones",
@@ -328,7 +328,7 @@
   ],
   "money_punch2": "Manejar más no siempre es ganar más.",
   "setup_h3": "Mira cómo se configura",
-  "features_also": "También cuida la camioneta: servicios, llantas y reparaciones anotados con la foto de la factura, un aviso antes de que te toque la verificación, avisos de servicio que van descontando kilómetros, y lo que gastas con la tarjeta de combustible, calculado el mismo día que cargas. Y habla 46 idiomas, con el dinero en tu moneda.",
+  "features_also": "También cuida la camioneta: servicios, llantas y reparaciones anotados con la foto de la factura, un aviso antes de que te toque la verificación, avisos de servicio que van descontando kilómetros y lo que gastas con la tarjeta de combustible, calculado el mismo día que cargas. Y habla 46 idiomas, con el dinero en tu moneda.",
   "faq_home": [
     "¿Tengo que darle a iniciar?",
     "¿Mi historial de rutas termina en algún lado?",
@@ -337,6 +337,6 @@
     "¿Y si dejo de pagar, pierdo mis registros?"
   ],
   "faq_all": "Ver todas las preguntas →",
-  "faq_page_title": "Preguntas que hacen los repartidores de verdad — DropLane",
+  "faq_page_title": "Lo que de verdad preguntan los repartidores — DropLane",
   "faq_meta_description": "Las preguntas de los repartidores sobre DropLane, respondidas por el repartidor que la creó: grabación, batería, privacidad, señal y qué pasa si dejas de pagar."
 }

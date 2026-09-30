@@ -3,18 +3,18 @@
   "alt_today": "DropLane'i vaade „Täna“: kaardil salvestub sõit, lisaks päeva läbisõit, tunnid ja teenistus.",
   "close": "Sulge",
   "closer_body": "Neliteist päeva tasuta, kontot pole vaja ja kell kuus hommikul pole midagi meeles pidada.",
-  "closer_h2": "Ära enam oleta, mida päev sisse tõi.",
+  "closer_h2": "Ära enam oleta, palju päev sisse tõi.",
   "compare_them": "Tavalised sõidupäevikud ütlevad, kui palju sa sõitsid.",
   "compare_us": "DropLane ütleb, kas päev tasus end ära.",
   "cta_get": "Hangi DropLane",
   "faq": [
     {
       "q": "Kas see pole lihtsalt järjekordne sõidupäeviku rakendus?",
-      "a": "Läbisõidu salvestab see samamoodi, ilma startnuputa. Vahe tuleb pärast: sinu teenistus läheb kirja, kütus, parkimine ja jooksvad kulud lähevad maha ning rakendus ütleb, mida tund päriselt sisse tõi. Kilomeetrite arv üksi pole kellelegi kunagi öelnud, kas seda ringi tasus üldse sõita."
+      "a": "Läbisõidu salvestab see samamoodi, ilma startnuputa. Vahe tuleb pärast: sinu teenistus läheb kirja, kütus, parkimine ja jooksvad kulud lähevad maha ning rakendus ütleb, palju sa tunnis päriselt teenisid. Kilomeetrite arv üksi pole kellelegi kunagi öelnud, kas seda ringi tasus üldse sõita."
     },
     {
       "q": "Kas see sööb akut?",
-      "a": "DropLane ei hoia GPS-i terve päev sees. See ootab vaikselt, kuni märkab, et oled parkimiskohast minema sõitnud, salvestab, kui liigud, ja jääb uuesti magama, kui peatud."
+      "a": "DropLane ei hoia GPS-i terve päeva sees. See ootab vaikselt, kuni märkab, et oled parkimiskohast minema sõitnud, salvestab sõidu ajal ja jääb uuesti magama, kui peatud."
     },
     {
       "q": "Kas pean startnuppu vajutama?",
@@ -34,7 +34,7 @@
     },
     {
       "q": "Kas minu riigi kilomeetrimäär on sees?",
-      "a": "Seitsmeteistkümne riigi ametlik määr on sisse ehitatud ja seda hoitakse ajakohasena. Eesti nende hulgas ei ole: sisesta oma määr üks kord ja rakendus teeb arvutused ise."
+      "a": "Seitsmeteistkümne riigi ametlikud määrad on sisse ehitatud ja neid hoitakse ajakohasena. Eesti nende hulgas ei ole: sisesta oma määr üks kord ja rakendus teeb arvutused ise."
     },
     {
       "q": "Kas saan kasutada kilomeetreid?",
@@ -46,15 +46,15 @@
     },
     {
       "q": "Mis juhtub, kui saan uue telefoni?",
-      "a": "Logi sisse samasse iCloudi ja sinu sõidud, teenistus ja kulud tulevad ise tagasi. Pole kontot, mida luua, ega parooli, mida kaotada, sest ükski server pole kunagi midagi sellest hoidnud — varukoopia on sinu oma, sinu enda iCloudis."
+      "a": "Logi sisse samasse iCloudi ja sinu sõidud, teenistus ja kulud tulevad ise tagasi. Pole kontot, mida luua, ega parooli, mida kaotada, sest ükski server pole sellest kunagi midagi hoidnud — varukoopia on sinu oma, sinu enda iCloudis."
     },
     {
       "q": "Mis saab, kui lõpetan maksmise — kas kaotan oma andmed?",
-      "a": "Midagi ei kustutata ja rakendus salvestab edasi. Sinu sõidud jäävad iPhone'i ja sinu enda iCloudi ning kilomeetrid, mis sa tellimuseta sõidad, ootavad sind, kui uuesti tellid. Lukku läheb vaatamine: „Täna“, „Päevad“, „Statistika“, „Ülevaade“, PDF ja CSV-eksport jäävad suletuks, kuni tellid uuesti. Kui tahad numbreid ka mujale, ekspordi CSV enne tellimuse lõppu — see käib seadetes ühe vajutusega."
+      "a": "Midagi ei kustutata ja rakendus salvestab edasi. Sinu sõidud jäävad iPhone'i ja sinu enda iCloudi ning kilomeetrid, mis sa tellimuseta sõidad, ootavad sind ees, kui tagasi tuled. Lukku läheb vaatamine: „Täna“, „Päevad“, „Statistika“, „Ülevaade“, PDF ja CSV-eksport avanevad alles siis, kui uuesti tellid. Kui tahad numbreid ka mujale, ekspordi CSV enne tellimuse lõppu — see käib seadetes ühe vajutusega."
     },
     {
       "q": "Kuidas ma tean, palju kütus päriselt maksis, enne kui kütusekaardi arve tuleb?",
-      "a": "Ütle DropLane'ile liitri hind, mida sinu kütusekaart võtab, ja pane tankides liitrid kirja. Kulu arvutatakse samal päeval, nii et nädala kasum on õige juba nädalaid enne, kui arve kohale jõuab."
+      "a": "Ütle DropLane'ile liitri hind, mille sinu kütusekaart arvestab, ja pane tankides liitrid kirja. Kulu arvutatakse samal päeval, nii et nädala kasum on õige juba nädalaid enne, kui arve kohale jõuab."
     },
     {
       "q": "Kas Androidi versioon on olemas?",
@@ -71,7 +71,7 @@
     "Mis saab, kui lõpetan maksmise — kas kaotan oma andmed?"
   ],
   "faq_intro": "Otsekohesed vastused inimeselt, kes seda tööd ise teeb.",
-  "faq_meta_description": "Kõik kullerite küsimused DropLane'i kohta, vastajaks rakenduse teinud kuller: salvestus, aku, privaatsus, levi ja mis saab, kui maksmise lõpetad.",
+  "faq_meta_description": "Kullerite küsimused DropLane'i kohta ja vastused rakenduse loonud kullerilt: salvestus, aku, privaatsus, levi ja mis saab, kui maksmise lõpetad.",
   "faq_page_title": "Küsimused, mida kullerid päriselt küsivad — DropLane",
   "features": [
     {
@@ -82,7 +82,7 @@
     {
       "icon": "⏱️",
       "title": "Tea oma tegelikku tunnitasu",
-      "body": "Vaata, millised päevad ja tööd end päriselt ära tasuvad, kui kütus, liising ja kindlustus on tööpäevade peale ära jaotatud."
+      "body": "Vaata, millised päevad ja tööd end päriselt ära tasuvad, kui kütus, liising ja kindlustus on tööpäevade peale jaotatud."
     },
     {
       "icon": "🧾",
@@ -90,17 +90,17 @@
       "body": "Sõidud, kilomeetrid ja PDF raamatupidajale. Kilomeetrimäära sisestad ise ja rakendus arvutab ülejäänu."
     }
   ],
-  "features_also": "Rakendus hoolitseb ka kaubiku eest: hooldused, rehvid ja remondid kirja pandud koos arve pildiga, meeldetuletus enne tehnoülevaatuse tähtaega, hoolduse meeldetuletused, mis näitavad, mitu kilomeetrit on hoolduseni jäänud, ja kütusekaardi kulud arvutatud juba tankimise päeval. Ja see räägib 46 keelt ning näitab raha sinu valuutas.",
+  "features_also": "Rakendus hoolitseb ka kaubiku eest: hooldused, rehvid ja remondid kirja pandud koos arve pildiga, meeldetuletus enne tehnoülevaatuse tähtaega, hoolduse meeldetuletused, mis näitavad, mitu kilomeetrit on järgmise hoolduseni jäänud, ja kütusekaardi kulud arvutatud juba tankimise päeval. Ja see räägib 46 keelt ning näitab raha sinu valuutas.",
   "features_h2": "Mida sa vastu saad",
-  "features_intro": "Tehtud selle töö jaoks, nagu see päriselt käib — ja tegija teeb seda tööd ise.",
-  "footer_note": "DropLane — läbisõit, teenistus ja kulud automaatselt kõigile, kes töö pärast sõidavad. Teinud kuller Torquays.",
+  "features_intro": "Tehtud selle töö jaoks, nagu see päriselt käib — ja selle tegi inimene, kes seda tööd ise teeb.",
+  "footer_note": "DropLane — läbisõit, teenistus ja kulud automaatselt kõigile, kes tööasjus sõidavad. Loonud kuller Torquays.",
   "footer_privacy": "Privaatsus",
   "footer_support": "Tugi",
   "footer_terms": "Tingimused",
   "hero_cta_how": "Vaata, kuidas see töötab ↓",
-  "hero_h1": "Tea, mida päev päriselt sisse tõi.",
+  "hero_h1": "Tea, mis päevast päriselt kätte jäi.",
   "hero_kicker": "Automaatne sõidupäevik · Tegelik kasum · Tegelik tunnitasu",
-  "hero_lede": "DropLane salvestab iga sõidu automaatselt, arvab kulud maha ja näitab, mida sa päriselt teenisid.",
+  "hero_lede": "DropLane salvestab iga sõidu automaatselt, arvab kulud maha ja näitab, palju sa päriselt teenisid.",
   "hero_support": "14 päeva tasuta · Kontot pole vaja · Tühista millal tahes",
   "hero_trial": "14 päeva tasuta",
   "hero_trial_then_plans": "seejärel {year} aastas või {month} kuus",
@@ -109,7 +109,7 @@
   "how_steps": [
     {
       "title": "Lülita üks kord sisse",
-      "body": "Paigalda rakendus ja luba asukoht taustal. Rohkem seadistamist polegi."
+      "body": "Paigalda rakendus ja luba asukohta kasutada ka taustal. Rohkem seadistamist polegi."
     },
     {
       "title": "Sõida",
@@ -126,8 +126,8 @@
   "language_note": "Rakendus räägib kõiki 46 keelt — iga ekraan, iga teade, iga PDF.",
   "language_title": "Loe seda lehte oma keeles",
   "menu": "Menüü",
-  "meta_description": "Sõidupäevik kulleritele, meistritele ja müügiesindajatele. DropLane salvestab iga sõidu ise, arvab kütuse ja kulud maha ning näitab, mida tund sisse tõi.",
-  "meta_title": "DropLane — sõidupäevik ja teenistuse arvestus kõigile, kes töö pärast sõidavad",
+  "meta_description": "Sõidupäevik kulleritele, meistritele ja müügiesindajatele. DropLane salvestab iga sõidu ise, arvab kütuse ja kulud maha ning näitab, palju sa tunnis teenid.",
+  "meta_title": "DropLane — sõidupäevik ja teenistuse arvestus kõigile, kes tööasjus sõidavad",
   "money_intro": "Kaks päris päeva. Laupäeval sõideti 6,5 km rohkem, aga alles jäi 11,40 € vähem.",
   "money_label_money": "alles",
   "money_note": "Kilomeetrid ütlevad, kui kaugele sa sõitsid. DropLane ütleb, kas see tasus end ära.",
@@ -142,7 +142,7 @@
   "outcomes": [
     {
       "file": "today",
-      "title": "Mida ma täna teenisin",
+      "title": "Palju ma täna teenisin",
       "alt": "Vaade „Täna“: Tallinna kaardil salvestub sõit; täna teenitud 136,21 € ehk 153,40 € teenistust miinus 17,19 € kulusid."
     },
     {
@@ -176,7 +176,7 @@
   "pricing_yearly": "Iga aasta",
   "privacy_h2": "Sinu andmed. Ainult sinu.",
   "privacy_intro": "Sinu asukoht jääb sinu iPhone'i ja sinu enda iCloudi. Kontot pole, serverit pole, midagi ei müüda. Ainult sina otsustad, kes sinu sõite näeb.",
-  "privacy_point1": "Just see lubab DropLane'il läbisõitu salvestada. Sinu asukohaajalugu ei lahku kunagi sinu iPhone'ist.",
+  "privacy_point1": "Just see lubab DropLane'il läbisõitu salvestada. Sinu asukohaajalugu ei lähe kaugemale sinu iPhone'ist ja sinu enda iCloudist.",
   "privacy_point2": "iCloudi varundus ja taastamine, kontot pole vaja",
   "privacy_point3": "Ekspordi CSV oma arvestuse jaoks",
   "privacy_stat_label": "Serverid, kus sinu asukohta hoitakse",
@@ -193,10 +193,10 @@
   "trust": [
     "Salvestab sõidud automaatselt",
     "Asukoht jääb sinu iPhone'i",
-    "Teinud kuller, kel 10+ aastat teel",
+    "Loonud kuller, kel 10+ aastat roolis",
     "46 keelt, iga valuuta"
   ],
-  "money_day1_when": "laupäev",
+  "money_day1_when": "Laupäev",
   "money_day1_distance": "65,6 km",
   "money_day1_money": "100,21 €",
   "money_day2_when": "Eile",

@@ -1,6 +1,6 @@
 {
-  "meta_title": "DropLane — Kilometri, ieņēmumi, izdevumi — automātiski, ja brauc darba dēļ",
-  "meta_description": "DropLane pats pieraksta kurjera braucienus, atskaita degvielu, stāvvietu un pastāvīgās izmaksas no ieņēmumiem un parāda, cik tu patiešām nopelni stundā.",
+  "meta_title": "DropLane — automātiska nobraukuma, ieņēmumu un izdevumu uzskaite braucieniem darba vajadzībām",
+  "meta_description": "Nobraukuma uzskaite kurjeriem, meistariem un tirdzniecības pārstāvjiem. DropLane pats ieraksta braucienus, atskaita izmaksas un parāda, cik nopelni stundā.",
   "nav_label": "Galvenā izvēlne",
   "nav_how": "Kā tas strādā",
   "nav_day": "Cik tu nopelni",
@@ -21,11 +21,11 @@
   "language_title": "Lasi šo lapu savā valodā",
   "language_note": "Lietotne runā visās 46 valodās — katrs ekrāns, katrs paziņojums, katrs PDF.",
   "langbar_strong": "46 valodas.",
-  "langbar_rest": "Izvēlies savu — lietotne to arī runā.",
+  "langbar_rest": "Izvēlies savu — lietotne runā arī tajā.",
   "per_month_short": "mēnesī",
   "see_all": "skatīt visas",
   "hero_h1": "Zini, cik tu patiešām nopelni dienā.",
-  "hero_lede": "DropLane automātiski pieraksta katru braucienu, atskaita izmaksas un parāda, cik tu patiešām nopelnīji.",
+  "hero_lede": "DropLane automātiski ieraksta katru braucienu, atskaita izmaksas un parāda, cik tu patiešām nopelnīji.",
   "hero_cta_notify": "Paziņo, kad iznāks",
   "hero_cta_how": "Apskati, kā tas strādā ↓",
   "hero_note": "bez konta, bez reklāmām · iPhone",
@@ -49,7 +49,7 @@
   ],
   "money_h2": "Divas dienas. Vairāk kilometru. Mazāk naudas.",
   "money_intro": "Divas īstas dienas. Otrdien nobraukti par 67,5 km vairāk, bet palika par 19,53 € mazāk.",
-  "money_day1_when": "otrdiena",
+  "money_day1_when": "Otrdiena",
   "money_day1_distance": "155 km",
   "money_day1_trips": "3 braucieni",
   "money_day1_money": "58,11 €",
@@ -83,19 +83,19 @@
   "day_label_hour": "stundā",
   "day_note": "Vienas dienas skaitļi, tieši no ekrāniem augšā. Taviem būs citi — būtiskais ir tos zināt tajā pašā dienā, furgonā, nevis uzzināt pavasarī.",
   "how_h2": "Trīs soļi. Tavs — tikai viens.",
-  "how_intro": "DropLane nav sākuma pogas, un tas ir ar nolūku. Sešos no rīta ar furgonu, pilnu ar sūtījumiem, to nospiest neatceras neviens.",
+  "how_intro": "DropLane nav sākuma pogas, un tas ir ar nolūku. Sešos no rīta, ar sūtījumiem pilnu furgonu, to nospiest neatceras neviens.",
   "how_steps": [
     {
       "title": "Ieslēdz vienreiz",
-      "body": "Uzinstalē lietotni un atļauj atrašanās vietu fonā. Vairāk iestatīšanas nebūs."
+      "body": "Instalē lietotni un atļauj tai izmantot atrašanās vietu fonā. Vairāk nekas nav jāiestata."
     },
     {
       "title": "Brauc",
-      "body": "Katrs brauciens saglabājas pats, ar maršrutu, pieturām un to, cik ilgi pie katras stāvēji."
+      "body": "Katrs brauciens saglabājas pats: maršruts, pieturas un tas, cik ilgi katrā stāvēji."
     },
     {
       "title": "Ar vienu pieskārienu izvēlies veidu",
-      "body": "Darba, tukšs, uz saņemšanas vietu vai personīgs. Kopsummas un kilometru kompensācija seko pašas."
+      "body": "Darba, tukšais, uz saņemšanas vietu vai personīgais. Kopsummas un kilometru kompensācija aprēķinās pašas."
     }
   ],
   "how_proof": "Izvēlies nedēļu, mēnesi vai savus datumus, atzīmē, ko iekļaut, un PDF grāmatvedim ir viena pieskāriena attālumā — salikts no braucieniem, kas nekad nebija jāpieraksta.",
@@ -105,12 +105,12 @@
     {
       "icon": "💶",
       "title": "Zini savu patieso peļņu",
-      "body": "Ieņēmumi mīnus degviela un izmaksas — dienā, nedēļā un mēnesī."
+      "body": "Ieņēmumi mīnus degviela un izmaksas — pa dienām, nedēļām un mēnešiem."
     },
     {
       "icon": "⏱️",
       "title": "Zini savu patieso stundas likmi",
-      "body": "Redzi, kuras dienas un darbi patiešām atmaksājas, kad degviela, līzings un apdrošināšana sadalīti pa dienām, kad strādā."
+      "body": "Redzi, kuras dienas un darbi patiešām atmaksājas, kad degviela, līzings un apdrošināšana sadalīti pa darba dienām."
     },
     {
       "icon": "🧾",
@@ -195,10 +195,10 @@
   "pricing_yearly": "Gada",
   "pricing_per_month": "mēnesī, atsakies jebkurā brīdī",
   "pricing_per_year": "gadā, apmaksa reizi gadā",
-  "pricing_best": "Labākā vērtība",
+  "pricing_best": "Izdevīgākā izvēle",
   "pricing_bullet_all": "Visas funkcijas, bez piemaksām",
   "pricing_bullet_trial": "Vispirms 14 dienas bez maksas",
-  "pricing_cta": "Sākt 14 dienas bez maksas",
+  "pricing_cta": "Izmēģināt 14 dienas bez maksas",
   "pricing_bullet_saving": "Ietaupi {saving} gadā — par {percent} % lētāk",
   "pricing_bullet_equivalent": "Iznāk {monthly} mēnesī",
   "pricing_table_title": "Cena tavā valstī",
@@ -207,25 +207,25 @@
   "pricing_col_month": "Mēneša",
   "pricing_col_year": "Gada",
   "pricing_you": "Tu",
-  "pricing_note": "Pirmās 14 dienas Apple neiekasē neko. Ja līdz tam atcel abonementu Iestatījumos, nemaksā neko. Ārpus Latvijas App Store rāda cenu tavai valstij.",
+  "pricing_note": "Pirmās 14 dienas Apple neiekasē neko. Ja līdz tam atcel abonementu Iestatījumos, nemaksā neko. Ārpus Latvijas App Store rāda tavas valsts cenu.",
   "faq_h2": "Jautājumi, ko kurjeri tiešām uzdod",
-  "faq_intro": "Tiešas atbildes no tā, kurš to darbu dara.",
+  "faq_intro": "Tiešas atbildes no cilvēka, kurš šo darbu dara pats.",
   "faq": [
     {
       "q": "Vai tā nav vienkārši vēl viena kilometru lietotne?",
-      "a": "Kilometrus tā pieraksta tāpat, bez sākuma pogas. Atšķirība ir tajā, kas notiek pēc tam: tavi ieņēmumi iekšā, degviela, stāvvieta un pastāvīgās izmaksas ārā, un lietotne parāda, cik tu patiešām nopelni stundā. Kilometri vien nepasaka, cik tu nopelnīji, ne arī to, vai tas maršruts atmaksājās."
+      "a": "Kilometrus tā ieraksta tāpat, bez sākuma pogas. Atšķirība ir tajā, kas notiek pēc tam: tu ievadi ieņēmumus, lietotne atskaita degvielu, stāvvietu un pastāvīgās izmaksas un parāda, cik tu patiešām nopelni stundā. Kilometri vien nepasaka, cik tu nopelnīji, ne arī to, vai tas maršruts atmaksājās."
     },
     {
       "q": "Vai tas ēd bateriju?",
-      "a": "DropLane netur GPS ieslēgtu visu dienu. Tas klusi gaida, līdz pamana, ka esi aizbraucis no vietas, kur stāvēji, pieraksta, kamēr kusties, un atkal aizmieg, kad apstājies."
+      "a": "DropLane netur GPS ieslēgtu visu dienu. Tas klusi gaida, līdz pamana, ka esi aizbraucis no vietas, kur stāvēji, ieraksta, kamēr kusties, un atkal aizmieg, kad apstājies."
     },
     {
       "q": "Vai man jāspiež „Sākt”?",
-      "a": "Nē — un spiest nav ko. Tieši par to jau ir runa. To, kas jāatceras, tu aizmirsīsi tieši tajā dienā, kad tas ir svarīgi."
+      "a": "Nē — un spiest nav ko. Tā jau ir visa jēga. To, kas jāatceras, tu aizmirsīsi tieši tajā dienā, kad tas ir svarīgi."
     },
     {
-      "q": "Kas notiek, ja aizmirsīšu izvēlēties brauciena veidu?",
-      "a": "Nekas nepazūd. Braucieni bez veida gaida Dienu ekrānā, un lietotne tev atgādina, nevis mēģina uzminēt tavā vietā."
+      "q": "Kas notiks, ja aizmirsīšu izvēlēties brauciena veidu?",
+      "a": "Nekas nepazūd. Braucieni bez veida gaida ekrānā Dienas, un lietotne tev atgādina, nevis mēģina uzminēt tavā vietā."
     },
     {
       "q": "Vai mana maršrutu vēsture kaut kur nonāks?",
@@ -233,11 +233,11 @@
     },
     {
       "q": "Es braucu ar velosipēdu, ne ar furgonu.",
-      "a": "Der. Kravas velosipēda kilometri pierakstās tāpat. Iebūvētās kilometra likmes tomēr attiecas uz mehāniskajiem transportlīdzekļiem, tāpēc tas, ko vari norakstīt par velosipēdu, atkarīgs no tavas valsts un situācijas — ir vērts pajautāt grāmatvedim."
+      "a": "Der. Kravas velosipēda kilometri tiek ierakstīti tāpat. Iebūvētās kilometra likmes tomēr attiecas uz mehāniskajiem transportlīdzekļiem, tāpēc tas, ko vari norakstīt par velosipēdu, atkarīgs no tavas valsts un situācijas — ir vērts pajautāt grāmatvedim."
     },
     {
-      "q": "Vai manas valsts likme tur ir?",
-      "a": "Septiņpadsmit valstīm oficiālā likme ir iebūvēta un tiek uzturēta aktuāla. Jebkur citur savu ieraksti vienreiz, un lietotne izrēķina."
+      "q": "Vai manas valsts kilometra likme ir iebūvēta?",
+      "a": "Septiņpadsmit valstu oficiālās likmes ir iebūvētas un tiek regulāri atjauninātas. Latvijas starp tām nav: ievadi savu likmi vienreiz, un lietotne visu izrēķinās."
     },
     {
       "q": "Vai var skaitīt kilometros?",
@@ -245,7 +245,7 @@
     },
     {
       "q": "Vai tas strādā tur, kur nav signāla?",
-      "a": "Jā. Pieraksts balstās uz paša iPhone GPS un internetu neprasa nemaz. Braucieni bez signāla ielu nosaukumu vietā saņem apzīmējumus „Sākums” un „Beigas”, un DropLane nosaukumus aizpilda, kad telefons nākamreiz tiek pie Wi-Fi. Pat nedēļa pa lauku ceļiem bez zonas tik un tā saskaitās pareizi."
+      "a": "Jā. Ierakstīšana balstās uz paša iPhone GPS un internetu neprasa nemaz. Braucieni bez signāla ielu nosaukumu vietā saņem apzīmējumus „Sākums” un „Beigas”, un DropLane nosaukumus aizpilda, kad telefons nākamreiz tiek pie Wi-Fi. Pat nedēļa pa lauku ceļiem bez zonas tik un tā saskaitās pareizi."
     },
     {
       "q": "Kas notiks, kad man būs jauns telefons?",
@@ -253,11 +253,11 @@
     },
     {
       "q": "Un ja pārstāšu maksāt — vai pazaudēšu ierakstus?",
-      "a": "Nekas netiek dzēsts, un lietotne turpina ierakstīt. Tavi braucieni paliek iPhone un tavā paša iCloud, un kilometri, ko nobrauc bez abonementa, tevi sagaidīs, kad abonēsi atkal. Bloķēta tiek tikai skatīšanās: ekrāni Šodien, Dienas, Statistika un Analīze, kā arī PDF un CSV eksports ir slēgti, līdz atkal abonēsi. Ja gribi skaitļus arī citur, eksportē CSV, pirms abonements beidzas — tas ir Iestatījumos, viens pieskāriens."
+      "a": "Nekas netiek dzēsts, un lietotne turpina ierakstīt. Tavi braucieni paliek tavā iPhone un tavā paša iCloud, un kilometri, ko nobrauc bez abonementa, tevi sagaidīs, kad abonēsi atkal. Bloķēta tiek tikai skatīšanās: ekrāni Šodien, Dienas, Statistika un Analīze, kā arī PDF un CSV eksports ir slēgti, līdz atkal abonēsi. Ja gribi skaitļus arī citur, eksportē CSV, pirms abonements beidzas — Iestatījumos tas ir viens pieskāriens."
     },
     {
-      "q": "Kā uzzināt, ko degviela patiešām maksāja, pirms atnāk kartes rēķins?",
-      "a": "Pasaki DropLane cenu par litru, ko ņem tava degvielas karte, un uzpildot pieraksti litrus. Izmaksas ir gatavas tajā pašā dienā, tāpēc nedēļas peļņa ir pareiza nedēļas pirms rēķina atnākšanas."
+      "q": "Kā uzzināt, cik degviela patiešām maksāja, pirms atnāk kartes rēķins?",
+      "a": "Pasaki DropLane cenu par litru, ko piemēro tava degvielas karte, un uzpildot pieraksti litrus. Izmaksas ir gatavas tajā pašā dienā, tāpēc nedēļas peļņa ir pareiza jau vairākas nedēļas pirms rēķina saņemšanas."
     },
     {
       "q": "Vai ir Android versija?",
@@ -265,12 +265,12 @@
     }
   ],
   "closer_h2": "Beidz minēt, cik nopelnīji.",
-  "closer_body": "Četrpadsmit dienas bez maksas, bez konta, un nekā, kas jāatceras sešos no rīta.",
-  "footer_note": "DropLane — kilometri, ieņēmumi, izdevumi — automātiski, ja brauc darba dēļ. Uzbūvējis kurjers, Torkvijā.",
+  "closer_body": "Četrpadsmit dienas bez maksas, bez konta — un sešos no rīta nekas nav jāatceras.",
+  "footer_note": "DropLane — automātiska nobraukuma, ieņēmumu un izdevumu uzskaite visiem, kas brauc darba vajadzībām. Izveidojis kurjers Torkijā.",
   "footer_privacy": "Privātums",
   "footer_terms": "Noteikumi",
   "footer_support": "Palīdzība",
-  "alt_today": "DropLane ekrāns Šodien: brauciens tiek pierakstīts kartē, ar dienas attālumu, stundām un ieņēmumiem.",
+  "alt_today": "DropLane ekrāns Šodien: kartē tiek ierakstīts brauciens, redzams dienas attālums, stundas un ieņēmumi.",
   "alt_days": "Dienu saraksts: katra darba diena ar savu peļņu, attālumu un braucienu skaitu.",
   "alt_report": "Atskaites kartīte: slēdži braucieniem, ieņēmumiem, izdevumiem un čeku foto, un tad PDF.",
   "alt_stats": "Statistikas ekrāns: nedēļas neto, ieņēmumi un izmaksas, ar kilometriem pēc brauciena veida.",
@@ -292,7 +292,7 @@
   "privacy_h2": "Tavi dati. Tikai tavi.",
   "privacy_intro": "Tava atrašanās vieta paliek tavā iPhone un tavā paša iCloud. Bez konta, bez servera, nekas netiek pārdots. Tikai tu izlem, kurš redz tavus braucienus.",
   "privacy_stat_label": "Serveru ar tavu atrašanās vietu",
-  "privacy_point1": "Tieši tas ļauj DropLane ierakstīt kilometrus. Tava atrašanās vietu vēsture nekad neatstāj tavu iPhone.",
+  "privacy_point1": "Tieši tas ļauj DropLane ierakstīt kilometrus. Tava atrašanās vietas vēsture netiek tālāk par tavu iPhone un tavu paša iCloud.",
   "privacy_point2": "iCloud dublēšana un atjaunošana bez konta",
   "privacy_point3": "Eksportēt CSV savai uzskaitei",
   "setup_shot_location": "Ieslēgt atrašanās vietu",
@@ -312,9 +312,9 @@
   "fact_private_value": "Privāti",
   "hero_support": "14 dienas bez maksas · Bez konta · Atsakies jebkurā brīdī",
   "trust": [
-    "Braucienus pieraksta automātiski",
+    "Braucienus ieraksta automātiski",
     "Atrašanās vieta paliek tavā iPhone",
-    "Izveidojis kurjers ar 10+ gadiem uz ceļa",
+    "Izveidojis kurjers ar 10+ gadu stāžu uz ceļa",
     "46 valodas, visas valūtas"
   ],
   "outcomes_label": "Trīs skaitļi, ko DropLane sagatavo, vēl pirms esi mājās",
@@ -338,7 +338,7 @@
   "hero_trial_then_plans": "pēc tam {year} gadā vai {month} mēnesī",
   "money_punch2": "Vairāk braukt ne vienmēr nozīmē vairāk nopelnīt.",
   "setup_h3": "Apskati, kā notiek iestatīšana",
-  "features_also": "Tā parūpējas arī par furgonu: apkopes, riepas un remonti pierakstīti ar rēķina foto, atgādinājums pirms tehniskās apskates termiņa, apkopes atgādinājumi, kas skaita atpakaļ kilometros, un degvielas kartes izmaksas aprēķinātas tajā pašā dienā, kad uzpildies. Un tā runā 46 valodās, ar naudu tavā valūtā.",
+  "features_also": "Lietotne parūpējas arī par furgonu: apkopes, riepas un remonti pierakstīti ar rēķina foto, atgādinājums pirms tehniskās apskates termiņa, apkopes atgādinājumi, kas atskaita kilometrus līdz nākamajai apkopei, un degvielas kartes izmaksas aprēķinātas tajā pašā dienā, kad uzpildies. Un tā runā 46 valodās un rāda naudu tavā valūtā.",
   "faq_home": [
     "Vai man jāspiež „Sākt”?",
     "Vai mana maršrutu vēsture kaut kur nonāks?",

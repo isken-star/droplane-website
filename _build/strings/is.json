@@ -18,7 +18,7 @@
     },
     {
       "q": "Þarf ég að ýta á hnapp til að byrja?",
-      "a": "Nei — og það er enginn hnappur til að ýta á. Það er einmitt málið. Ef þú þarft að muna það gleymirðu því daginn sem það skiptir máli."
+      "a": "Nei – og það er enginn hnappur til að ýta á. Það er einmitt málið. Ef þú þarft að muna það, gleymirðu því daginn sem það skiptir máli."
     },
     {
       "q": "Hvað ef ég gleymi að velja tegund ferðar?",
@@ -30,7 +30,7 @@
     },
     {
       "q": "Ég er á hjóli, ekki á sendibíl.",
-      "a": "Það virkar. Kílómetrar á vöruhjóli skrást á sama hátt. Innbyggðu taxtarnir eru þó fyrir vélknúin ökutæki, svo hvað má draga frá vegna hjóls fer eftir landinu þínu og aðstæðum — það borgar sig að spyrja bókara."
+      "a": "Ekkert mál. Kílómetrar á vöruhjóli skrást á sama hátt. Innbyggðu taxtarnir eru þó fyrir vélknúin ökutæki, svo hvað má draga frá vegna hjóls fer eftir landinu þínu og aðstæðum – það borgar sig að spyrja bókara."
     },
     {
       "q": "Er kílómetrataxti landsins míns í appinu?",
@@ -38,7 +38,7 @@
     },
     {
       "q": "Get ég notað kílómetra?",
-      "a": "Já. Kílómetrar eða mílur, þinn eigin gjaldmiðill og eldsneytisverðið sem þú borgar í raun — allt í stillingum, á fyrsta skjánum."
+      "a": "Já. Kílómetrar eða mílur, þinn eigin gjaldmiðill og eldsneytisverðið sem þú borgar í raun – allt í stillingum, á fyrsta skjánum."
     },
     {
       "q": "Virkar það þar sem ekkert samband er?",
@@ -46,11 +46,11 @@
     },
     {
       "q": "Hvað gerist þegar ég fæ nýjan síma?",
-      "a": "Skráðu þig inn í sama iCloud, þá koma ferðirnar, tekjurnar og útgjöldin sjálfkrafa til baka. Það er enginn aðgangur að stofna og ekkert lykilorð að týna, því enginn netþjónn hefur nokkurn tíma geymt neitt af þessu — afritið er þitt, í þínu eigin iCloud."
+      "a": "Skráðu þig inn í sama iCloud, þá koma ferðirnar, tekjurnar og útgjöldin sjálfkrafa til baka. Það er enginn aðgangur að stofna og ekkert lykilorð að týna, því enginn netþjónn hefur nokkurn tíma geymt neitt af þessu – afritið er þitt, í þínu eigin iCloud."
     },
     {
-      "q": "Hvað ef ég hætti að borga — missi ég gögnin mín?",
-      "a": "Engu er eytt og appið heldur áfram að skrá. Ferðirnar þínar verða áfram í iPhone-inum og í þínu eigin iCloud, og kílómetrarnir sem þú ekur án áskriftar bíða þín þegar þú kaupir áskrift aftur. Það sem læsist er aðgangurinn að tölunum: „Í dag“, „Dagar“, „Tölfræði“, „Yfirlit“, PDF-skýrslan og CSV-útflutningurinn eru lokuð þar til þú kaupir áskrift á ný. Ef þú vilt hafa tölurnar annars staðar skaltu flytja út CSV áður en áskriftin rennur út — það er í stillingum, með einni snertingu."
+      "q": "Hvað ef ég hætti að borga – missi ég gögnin mín?",
+      "a": "Engu er eytt og appið heldur áfram að skrá. Ferðirnar þínar verða áfram í iPhone-inum og í þínu eigin iCloud, og kílómetrarnir sem þú ekur án áskriftar bíða þín þegar þú kaupir áskrift aftur. Það sem læsist er aðgangurinn að tölunum: „Í dag“, „Dagar“, „Tölfræði“, „Yfirlit“, PDF-skýrslan og CSV-útflutningurinn eru lokuð þar til þú kaupir áskrift á ný. Ef þú vilt hafa tölurnar annars staðar skaltu flytja út CSV áður en áskriftin rennur út – það er í stillingum, með einni snertingu."
     },
     {
       "q": "Hvernig veit ég hvað eldsneytið kostaði í raun áður en kortareikningurinn kemur?",
@@ -68,21 +68,21 @@
     "Lendir staðsetningarsagan mín einhvers staðar?",
     "Virkar það þar sem ekkert samband er?",
     "Ég er á hjóli, ekki á sendibíl.",
-    "Hvað ef ég hætti að borga — missi ég gögnin mín?"
+    "Hvað ef ég hætti að borga – missi ég gögnin mín?"
   ],
-  "faq_intro": "Bein svör frá einhverjum sem vinnur þessa vinnu sjálfur.",
+  "faq_intro": "Bein svör frá sendli sem sinnir starfinu sjálfur.",
   "faq_meta_description": "Spurningar sendla um DropLane og svör sendilsins sem bjó appið til: skráning, rafhlaða, persónuvernd, samband og hvað gerist ef þú hættir að borga.",
-  "faq_page_title": "Spurningar sem sendlar spyrja í raun — DropLane",
+  "faq_page_title": "Spurningar sem sendlar spyrja í raun – DropLane",
   "features": [
     {
       "icon": "💰",
-      "title": "Vittu raunverulegan hagnað þinn",
+      "title": "Sjáðu raunverulegan hagnað þinn",
       "body": "Tekjur að frádregnu eldsneyti og kostnaði, fyrir hvern dag, viku og mánuð."
     },
     {
       "icon": "⏱️",
-      "title": "Vittu raunverulegt tímakaup þitt",
-      "body": "Sjáðu hvaða dagar og verkefni borga sig í raun þegar eldsneyti, afborgunum og tryggingum hefur verið dreift á vinnudagana þína."
+      "title": "Sjáðu raunverulegt tímakaup þitt",
+      "body": "Þú sérð hvaða dagar og verkefni borga sig í raun þegar eldsneyti, afborgunum og tryggingum hefur verið dreift á vinnudagana þína."
     },
     {
       "icon": "🧾",
@@ -92,15 +92,15 @@
   ],
   "features_also": "Appið sér líka um sendibílinn: þjónustuskoðanir, dekk og viðgerðir skráð með mynd af reikningnum, áminning áður en kemur að skoðun, þjónustuáminningar sem telja niður í kílómetrum og kostnaður af eldsneytiskortinu reiknaður daginn sem þú fyllir á. Og það talar 46 tungumál, með upphæðirnar í þínum gjaldmiðli.",
   "features_h2": "Hvað þú færð út úr því",
-  "features_intro": "Smíðað fyrir vinnuna eins og hún er í raun — af einhverjum sem vinnur hana sjálfur.",
-  "footer_note": "DropLane — kílómetrar, tekjur og útgjöld sjálfkrafa fyrir alla sem aka í vinnunni. Búið til af sendli, í Torquay.",
+  "features_intro": "Smíðað fyrir vinnuna eins og hún er í raun, af sendli sem vinnur hana sjálfur.",
+  "footer_note": "DropLane – sjálfvirk akstursdagbók, tekjur og útgjöld fyrir alla sem aka vegna vinnu. Hannað af sendli í Torquay.",
   "footer_privacy": "Persónuvernd",
   "footer_support": "Aðstoð",
   "footer_terms": "Skilmálar",
   "hero_cta_how": "Sjáðu hvernig það virkar ↓",
-  "hero_h1": "Vittu hvað dagurinn gaf í raun.",
+  "hero_h1": "Sjáðu hvað dagurinn skilaði í raun.",
   "hero_kicker": "Sjálfvirk akstursdagbók · Raunverulegur hagnaður · Raunverulegt tímakaup",
-  "hero_lede": "DropLane skráir hverja ferð sjálfkrafa, dregur kostnaðinn frá og sýnir hvað þú þénaðir í raun.",
+  "hero_lede": "DropLane skráir hverja ferð sjálfkrafa, dregur kostnaðinn frá og sýnir hvað þú þénaðir raunverulega.",
   "hero_support": "14 dagar ókeypis · Enginn aðgangur · Segðu upp hvenær sem er",
   "hero_trial": "14 dagar ókeypis",
   "hero_trial_then_plans": "síðan {year} á ári eða {month} á mánuði",
@@ -109,7 +109,7 @@
   "how_steps": [
     {
       "title": "Kveiktu á því einu sinni",
-      "body": "Settu appið upp og leyfðu staðsetningu í bakgrunni. Meira þarf ekki að stilla."
+      "body": "Settu appið upp og veittu því aðgang að staðsetningu í bakgrunni. Meira þarf ekki að stilla."
     },
     {
       "title": "Keyrðu",
@@ -117,17 +117,17 @@
     },
     {
       "title": "Veldu tegund með einni snertingu",
-      "body": "Vinna, tómt, sækja eða einka. Samtölurnar og kílómetrafrádrátturinn uppfærast sjálfkrafa."
+      "body": "„Vinna“, „Tómt“, „Sækja“ eða „Einka“. Samtölurnar og kílómetrafrádrátturinn uppfærast sjálfkrafa."
     }
   ],
-  "langbar_rest": "Veldu þitt — appið talar það líka.",
+  "langbar_rest": "Veldu þitt – appið talar það líka.",
   "langbar_strong": "46 tungumál.",
   "language_label": "Tungumál",
-  "language_note": "Appið talar öll 46 tungumálin — hver skjár, hver tilkynning, hver PDF-skýrsla.",
+  "language_note": "Appið talar öll 46 tungumálin – hver skjár, hver tilkynning, hver PDF-skýrsla.",
   "language_title": "Lestu síðuna á þínu tungumáli",
   "menu": "Valmynd",
-  "meta_description": "Akstursdagbók fyrir sendla, iðnaðarmenn og sölufólk. DropLane skráir hverja ferð sjálft, dregur eldsneyti og kostnað frá tekjunum og sýnir hvað tíminn gaf.",
-  "meta_title": "DropLane — Kílómetrar og tekjur sjálfkrafa fyrir alla sem aka í vinnunni",
+  "meta_description": "Akstursdagbók fyrir sendla, iðnaðarmenn og sölufólk. DropLane skráir hverja ferð sjálft, dregur eldsneyti og kostnað frá tekjunum og sýnir tímakaupið.",
+  "meta_title": "DropLane – Sjálfvirk akstursdagbók og tekjuyfirlit fyrir alla sem aka vegna vinnu",
   "money_intro": "Tveir raunverulegir dagar. Á laugardaginn var ekið 16 km lengra en í gær og 3.010 kr. minna sat eftir.",
   "money_label_money": "eftir",
   "money_note": "Kílómetrarnir segja þér hve langt þú keyrðir. DropLane segir þér hvort það borgaði sig.",
@@ -143,11 +143,11 @@
     {
       "file": "today",
       "title": "Það sem ég þénaði í dag",
-      "alt": "Í dag-skjárinn: ferð sem verið er að skrá á kortinu af Reykjavík og 49.755 kr. sem dagurinn hefur gefið, úr 53.100 kr. í tekjur og 3.345 kr. í kostnað."
+      "alt": "Í dag-skjárinn: ferð sem verið er að skrá á korti af Reykjavík og 49.755 kr. sem dagurinn hefur skilað – 53.100 kr. í tekjur að frádregnum 3.345 kr. í kostnað."
     },
     {
       "file": "day",
-      "title": "Það sem ég hélt í raun eftir, að kostnaði frádregnum",
+      "title": "Það sem sat í raun eftir að kostnaði frádregnum",
       "alt": "Síða eins dags: hagnaður dagsins 49.755 kr. eftir 90,3 km, 7.408 kr. á tímann, 551 kr. á km og dagurinn á kortinu."
     },
     {
@@ -159,16 +159,16 @@
   "outcomes_label": "Þrjár tölur sem DropLane hefur tilbúnar áður en þú kemur heim",
   "pocket_body": "„Alltaf“ gerir ferðum kleift að skrást þótt appið sé lokað.",
   "pocket_h3": "Tilkynningar",
-  "pocket_live_alt": "Rauntímaspjald á lásskjánum: „Skrái ferð“, kílómetrarnir sem hækka, hnappar til að flokka ferðina sem vinnu, tómt, sækja eða einka og rauður stöðvunarhnappur.",
-  "pocket_live_body": "Meðan þú keyrir hækka kílómetrarnir á rauntímaspjaldi á lásskjánum — svo þú sérð að ferðin er skráð án þess að taka símann úr lás.",
+  "pocket_live_alt": "Rauntímaspjald á lásskjánum: „Skrái ferð“, kílómetrarnir sem hækka, hnappar til að flokka ferðina („Vinna“, „Tómt“, „Sækja“, „Einka“) og rauður stöðvunarhnappur.",
+  "pocket_live_body": "Meðan þú keyrir hækka kílómetrarnir á rauntímaspjaldi á lásskjánum – svo þú sérð að ferðin er skráð án þess að taka símann úr lás.",
   "pricing_best": "Hagstæðast",
   "pricing_bullet_all": "Allir eiginleikar, engin aukakaup",
   "pricing_bullet_equivalent": "Jafngildir {monthly} á mánuði",
-  "pricing_bullet_saving": "Sparaðu {saving} á ári — {percent}% ódýrara",
+  "pricing_bullet_saving": "Sparaðu {saving} á ári – {percent}% ódýrara",
   "pricing_bullet_trial": "Fyrst 14 dagar ókeypis",
   "pricing_cta": "Prófaðu ókeypis í 14 daga",
   "pricing_h2": "Eitt verð, allt innifalið",
-  "pricing_intro": "Fjórtán dagar ókeypis. Segðu upp áður en prufutímanum lýkur og þú borgar ekkert. Allir eiginleikar eru með frá byrjun — engin dýrari áskriftarleið, engin aukakaup.",
+  "pricing_intro": "Fjórtán dagar ókeypis. Segðu upp áður en prufutímanum lýkur og þú borgar ekkert. Allir eiginleikar eru með frá byrjun – engin dýrari áskriftarleið, engin aukakaup.",
   "pricing_monthly": "Mánaðarlega",
   "pricing_note": "Apple rukkar ekkert í 14 daga. Segðu upp í stillingum fyrir þann tíma og þú borgar ekkert. Utan Íslands sýnir App Store verðið í þínu landi.",
   "pricing_per_month": "á mánuði, segðu upp hvenær sem er",
@@ -176,7 +176,7 @@
   "pricing_yearly": "Árlega",
   "privacy_h2": "Gögnin þín. Þín ein.",
   "privacy_intro": "Staðsetningin þín verður áfram í iPhone-inum þínum og þínu eigin iCloud. Enginn aðgangur, enginn netþjónn, ekkert selt. Enginn nema þú ræður hver sér ferðirnar þínar.",
-  "privacy_point1": "Það er þetta sem gerir DropLane kleift að skrá kílómetrana. Staðsetningarsagan þín fer aldrei úr iPhone-inum þínum.",
+  "privacy_point1": "Staðsetningin er það sem gerir DropLane kleift að skrá kílómetrana – og staðsetningarsagan þín fer aldrei út fyrir iPhone-inn þinn og þitt eigið iCloud.",
   "privacy_point2": "iCloud-afrit og endurheimt, enginn aðgangur nauðsynlegur",
   "privacy_point3": "Flytja út CSV fyrir bókhaldið",
   "privacy_stat_label": "Netþjónar með staðsetninguna þína",
@@ -193,10 +193,10 @@
   "trust": [
     "Skráir ferðir sjálfkrafa",
     "Staðsetningin er áfram í iPhone-inum",
-    "Búið til af sendli með 10+ ár á veginum",
+    "Hannað af sendli með yfir 10 ár undir stýri",
     "46 tungumál, allir gjaldmiðlar"
   ],
-  "money_day1_when": "laugardagur",
+  "money_day1_when": "Laugardagur",
   "money_day1_distance": "122 km",
   "money_day1_money": "36.835 kr.",
   "money_day2_when": "Í gær",
