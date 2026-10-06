@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>55p a mile, counted on its own · DropLane</title>
+<meta name="description" content="HMRC put the mileage rate up to 55p a mile from April 2026. DropLane records every work mile on its own and shows what your claim is worth. 14 days free on iPhone.">
+<!-- An ad landing page: one job, the App Store. Kept out of search so it never
+     competes with the homepage. No Pixel, same Fathom as every other page. -->
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#05070A">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://www.droplane.co.uk/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
+<link rel="icon" href="/assets/icon-180.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<style>
+:root {
+  --bg: #05070A; --bg-2: #0A0E14; --card: #10161E; --line: #1E2833;
+  --text: #FFFFFF; --text-2: #A3AEBC; --text-3: #6E7987;
+  --money: #35C77B; --accent: #4E9BFF; --cta-a: #1FA3B8; --cta-b: #2F6FE4;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5; overflow-x: hidden;
+}
+a { color: inherit; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+/* Light from above, like the reel's backdrop. */
+.glow {
+  position: absolute; inset: 0 0 auto 0; height: 900px; pointer-events: none;
+  background:
+    radial-gradient(60% 50% at 70% 0%, rgba(47,111,228,.32), transparent 70%),
+    radial-gradient(40% 40% at 10% 20%, rgba(53,199,123,.12), transparent 70%);
+}
+
+header { position: relative; z-index: 2; }
+.top { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 18px; }
+.brand img { width: 34px; height: 34px; border-radius: 9px; }
+.top .mini { height: 38px; }
+
+/* ---------- hero ---------- */
+.hero { position: relative; padding: 24px 0 40px; }
+.hero-grid { position: relative; z-index: 1; display: grid; gap: 40px; align-items: center; }
+@media (min-width: 900px) { .hero-grid { grid-template-columns: 1.1fr .9fr; } .hero { padding: 48px 0 72px; } }
+
+.kicker { color: var(--accent); font-weight: 700; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 18px; }
+.rates { display: flex; align-items: baseline; gap: clamp(8px, 2.5vw, 18px); margin: 0 0 14px; font-weight: 900; letter-spacing: -.05em; line-height: .9; }
+.old { font-size: clamp(44px, 12vw, 96px); color: var(--text-3); position: relative; }
+.old::after {
+  content: ""; position: absolute; left: -4%; right: -4%; top: 52%; height: 6px; border-radius: 3px;
+  background: #E5484D; transform: scaleX(0) rotate(-8deg); transform-origin: left center;
+  animation: strike .5s .6s cubic-bezier(.2,.8,.2,1) forwards;
+}
+.arrow { font-size: clamp(28px, 7vw, 54px); color: var(--text-3); font-weight: 700; }
+.new { font-size: clamp(72px, 21vw, 168px); color: var(--money); text-shadow: 0 0 60px rgba(53,199,123,.35); animation: pop .6s 1s cubic-bezier(.2,1.4,.4,1) both; }
+@keyframes strike { to { transform: scaleX(1) rotate(-8deg); } }
+@keyframes pop { from { opacity: 0; transform: translateY(18px) scale(.9); } to { opacity: 1; transform: none; } }
+
+h1 { margin: 0 0 14px; font-size: clamp(30px, 6.4vw, 50px); line-height: 1.08; letter-spacing: -.035em; font-weight: 800; text-wrap: balance; }
+.lede { margin: 0 0 26px; font-size: clamp(17px, 2.2vw, 20px); color: var(--text-2); max-width: 34em; text-wrap: pretty; }
+
+/* The button the whole page exists for. */
+.store {
+  display: inline-flex; align-items: center; gap: 16px; text-decoration: none;
+  padding: 14px 26px 14px 18px; border-radius: 20px;
+  background: linear-gradient(96deg, var(--cta-a), var(--cta-b));
+  box-shadow: 0 10px 40px rgba(47,111,228,.45), inset 0 1px 0 rgba(255,255,255,.25);
+  transition: transform .15s ease, box-shadow .15s ease;
+  animation: breathe 2.8s 2s ease-in-out infinite;
+}
+.store:hover { transform: translateY(-2px); box-shadow: 0 16px 50px rgba(47,111,228,.6); }
+.store:active { transform: scale(.98); }
+.store .apple { width: 34px; height: 34px; flex: none; }
+.store b { display: block; font-size: 22px; font-weight: 800; letter-spacing: -.02em; line-height: 1.1; }
+.store small { display: block; font-size: 13px; font-weight: 600; opacity: .85; }
+@keyframes breathe { 0%, 100% { box-shadow: 0 10px 40px rgba(47,111,228,.45), inset 0 1px 0 rgba(255,255,255,.25); } 50% { box-shadow: 0 10px 60px rgba(47,111,228,.75), inset 0 1px 0 rgba(255,255,255,.25); } }
+@media (prefers-reduced-motion: reduce) { .store, .new, .old::after { animation: none; } .old::after { transform: scaleX(1) rotate(-8deg); } }
+
+.trust { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 18px 0 0; padding: 0; list-style: none; color: var(--text-2); font-size: 14px; font-weight: 600; }
+.trust li::before { content: "✓"; color: var(--money); margin-right: 6px; font-weight: 800; }
+
+/* ---------- phone ---------- */
+.phone-wrap { position: relative; display: flex; justify-content: center; }
+.phone {
+  width: min(300px, 72vw); border-radius: 44px; padding: 10px; background: #1A222C;
+  box-shadow: 0 0 0 1px #2A3542, 0 40px 80px rgba(0,0,0,.6), 0 0 120px rgba(53,199,123,.12);
+  transform: rotate(3deg);
+}
+.phone img { display: block; width: 100%; border-radius: 35px; }
+.chip {
+  position: absolute; left: max(0px, calc(50% - 210px)); bottom: 18%;
+  background: rgba(16,22,30,.92); border: 1px solid var(--line); border-radius: 18px;
+  padding: 12px 16px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,.5); transform: rotate(-3deg);
+}
+.chip span { display: block; font-size: 12px; color: var(--text-2); font-weight: 600; }
+.chip strong { display: block; font-size: 26px; color: var(--money); font-weight: 800; letter-spacing: -.02em; }
+
+/* ---------- calculator ---------- */
+section { padding: 56px 0; }
+.calc {
+  background: linear-gradient(180deg, var(--card), var(--bg-2)); border: 1px solid var(--line);
+  border-radius: 28px; padding: clamp(22px, 4vw, 40px);
+}
+h2 { margin: 0 0 8px; font-size: clamp(26px, 4.6vw, 38px); letter-spacing: -.03em; line-height: 1.12; font-weight: 800; text-wrap: balance; }
+.calc p.sub { margin: 0 0 26px; color: var(--text-2); }
+.miles-label { display: flex; justify-content: space-between; align-items: baseline; font-weight: 700; margin-bottom: 10px; }
+.miles-label output { font-size: 28px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+input[type=range] { -webkit-appearance: none; appearance: none; width: 100%; height: 10px; border-radius: 6px; background: linear-gradient(90deg, var(--money) var(--fill, 40%), #253140 var(--fill, 40%)); outline: none; }
+input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 34px; height: 34px; border-radius: 50%; background: #fff; box-shadow: 0 4px 14px rgba(0,0,0,.5); cursor: pointer; border: 0; }
+input[type=range]::-moz-range-thumb { width: 34px; height: 34px; border-radius: 50%; background: #fff; border: 0; cursor: pointer; }
+.results { display: grid; gap: 14px; margin: 28px 0 26px; }
+@media (min-width: 640px) { .results { grid-template-columns: 1fr 1fr; } }
+.res { background: rgba(255,255,255,.03); border: 1px solid var(--line); border-radius: 20px; padding: 18px 20px; }
+.res span { display: block; color: var(--text-2); font-size: 14px; font-weight: 600; }
+.res strong { display: block; font-size: clamp(34px, 6vw, 46px); font-weight: 900; letter-spacing: -.04em; font-variant-numeric: tabular-nums; line-height: 1.15; }
+.res.up strong { color: var(--money); }
+.fine { margin: 0 0 22px; color: var(--text-3); font-size: 13px; }
+
+/* ---------- three points ---------- */
+.points { display: grid; gap: 16px; }
+@media (min-width: 820px) { .points { grid-template-columns: repeat(3, 1fr); } }
+.point { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 24px; overflow: hidden; }
+.point .num { font-size: 40px; font-weight: 900; letter-spacing: -.04em; color: var(--accent); line-height: 1; margin-bottom: 12px; }
+.point h3 { margin: 0 0 6px; font-size: 20px; letter-spacing: -.02em; }
+.point p { margin: 0; color: var(--text-2); font-size: 15px; }
+.point img { display: block; width: 100%; margin-top: 18px; border-radius: 18px; }
+
+/* ---------- closer ---------- */
+.closer { text-align: center; padding: 64px 0 140px; }
+.closer img.icon { width: 96px; height: 96px; border-radius: 24px; box-shadow: 0 20px 60px rgba(47,111,228,.35); }
+.closer h2 { margin-top: 22px; }
+.closer p { color: var(--text-2); margin: 0 auto 26px; max-width: 30em; }
+
+footer { border-top: 1px solid var(--line); padding: 22px 0 120px; color: var(--text-3); font-size: 13px; }
+footer nav { display: flex; gap: 18px; flex-wrap: wrap; }
+footer a { text-decoration: none; }
+
+/* A button that never leaves the screen on a phone. */
+.bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+  background: rgba(5,7,10,.88); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid var(--line);
+  transform: translateY(110%); transition: transform .3s ease;
+}
+.bar.show { transform: none; }
+.bar a { display: flex; align-items: center; justify-content: center; gap: 12px; text-decoration: none; border-radius: 16px; padding: 14px; font-weight: 800; font-size: 18px; background: linear-gradient(96deg, var(--cta-a), var(--cta-b)); }
+.bar a svg { width: 22px; height: 22px; }
+.bar small { font-weight: 600; opacity: .85; font-size: 14px; }
+@media (min-width: 900px) { .bar { display: none; } footer { padding-bottom: 28px; } .closer { padding-bottom: 80px; } }
+</style>
+</head>
+<body>
+
+<div class="glow" aria-hidden="true"></div>
+
+<header>
+  <div class="wrap top">
+    <a class="brand" href="/" aria-label="DropLane home"><img src="/assets/icon-180.png" alt="" width="34" height="34">DropLane</a>
+    <a href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=meta-uk-raise-head&amp;mt=8" data-place="ad-head" aria-label="Download DropLane on the App Store">
+      <img class="mini" src="/assets/app-store-badge.svg" alt="Download on the App Store" height="38">
+    </a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">HMRC · from 6 April 2026</p>
+        <div class="rates" aria-label="45p a mile is now 55p a mile">
+          <span class="old">45p</span><span class="arrow" aria-hidden="true">→</span><span class="new">55p</span>
+        </div>
+        <h1>The mileage rate went up. Every work mile is worth more now.</h1>
+        <p class="lede">DropLane records every drive on its own, counts each work mile at the new 55p, and shows what your claim is worth while you drive. No start button. No logbook.</p>
+
+        <a class="store" id="hero-cta" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=meta-uk-raise&amp;mt=8" data-place="ad-hero">
+          <svg class="apple" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.21 1.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>
+          <span><small>Download on the App Store</small><b>Try 14 days free</b></span>
+        </a>
+
+        <ul class="trust">
+          <li>Records drives on its own</li>
+          <li>No account</li>
+          <li>Location stays with you</li>
+        </ul>
+      </div>
+
+      <div class="phone-wrap">
+        <div class="phone">
+          <img src="/assets/screens/en/dark/insights-tax.webp" width="640" height="1391" alt="DropLane's Tax screen: this tax year, £1,012.36 for 1,841 miles of work driving, at 55p a mile for the first 10,000 miles." loading="eager">
+        </div>
+        <div class="chip" aria-hidden="true"><span>Claimed so far, on its own</span><strong>£1,012.36</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="calc">
+        <h2>What does 55p mean for you?</h2>
+        <p class="sub">Drag to the work miles you drive in a year.</p>
+
+        <div class="miles-label"><label for="miles">Work miles a year</label><output id="miles-out" for="miles">12,000</output></div>
+        <input id="miles" type="range" min="1000" max="40000" step="500" value="12000" aria-describedby="calc-fine">
+
+        <div class="results" aria-live="polite">
+          <div class="res"><span>Your mileage claim at HMRC rates</span><strong id="claim">£6,000</strong></div>
+          <div class="res up"><span>More than the old 45p rate</span><strong id="gain">+£1,000</strong></div>
+        </div>
+        <p class="fine" id="calc-fine">HMRC's approved mileage rates for cars and vans, 2026/27: 55p a mile for the first 10,000 business miles, 25p after. Before April 2026 it was 45p. An estimate — what you can claim depends on your own tax position.</p>
+
+        <a class="store" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=meta-uk-raise-calc&amp;mt=8" data-place="ad-calc">
+          <svg class="apple" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.21 1.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>
+          <span><small>Count every one of them</small><b>Try 14 days free</b></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap points">
+      <div class="point">
+        <div class="num">0</div>
+        <h3>Start buttons</h3>
+        <p>It notices when you drive and records on its own, so a forgotten tap never costs you a mile.</p>
+      </div>
+      <div class="point">
+        <div class="num">1 tap</div>
+        <h3>From the lock screen</h3>
+        <p>Mark a drive as work or personal at the next stop, without unlocking your phone.</p>
+        <img src="/app/lock-card.webp" width="640" height="292" alt="The DropLane card on the lock screen: recording, 78.9 miles, with buttons to sort the drive." loading="lazy">
+      </div>
+      <div class="point">
+        <div class="num">£</div>
+        <h3>What the day really paid</h3>
+        <p>Fuel, parking and costs come off, so you see your real hourly rate, not just the takings.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="closer">
+    <div class="wrap">
+      <img class="icon" src="/assets/icon-512.png" alt="" width="96" height="96">
+      <h2>Every mile, at the new rate.</h2>
+      <p>14 days free. Cancel any time in the App Store. Made by a courier.</p>
+      <a class="store" href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=meta-uk-raise-closer&amp;mt=8" data-place="ad-closer">
+        <svg class="apple" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.21 1.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>
+        <span><small>Download on the App Store</small><b>Try 14 days free</b></span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav><a href="/">droplane.co.uk</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/support/">Support</a></nav>
+  </div>
+</footer>
+
+<div class="bar" id="bar">
+  <a href="https://apps.apple.com/app/apple-store/id6760871535?pt=128520847&amp;ct=meta-uk-raise-bar&amp;mt=8" data-place="ad-bar">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.72-1.35-.14-2.64.79-3.33.79-.69 0-1.75-.77-2.87-.75-1.48.02-2.84.86-3.6 2.18-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.75 2.21 1.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.88 5.9c.61-.74 1.02-1.77.91-2.8-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7.98.08 1.98-.5 2.58-1.22z"/></svg>
+    Get DropLane <small>· 14 days free</small>
+  </a>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  // The calculator: HMRC's AMAP for cars and vans, 2026/27.
+  var slider = document.getElementById('miles');
+  var out = document.getElementById('miles-out');
+  var claim = document.getElementById('claim');
+  var gain = document.getElementById('gain');
+  var gbp = function (n) { return '£' + Math.round(n).toLocaleString('en-GB'); };
+  var moved = false;
+  function update() {
+    var m = +slider.value;
+    var first = Math.min(m, 10000), rest = Math.max(m - 10000, 0);
+    out.textContent = m.toLocaleString('en-GB');
+    claim.textContent = gbp(first * 0.55 + rest * 0.25);
+    gain.textContent = '+' + gbp(first * 0.10);
+    slider.style.setProperty('--fill', ((m - slider.min) / (slider.max - slider.min) * 100) + '%');
+  }
+  slider.addEventListener('input', function () {
+    update();
+    if (!moved && window.fathom) { moved = true; try { window.fathom.trackEvent('ad-calc-used'); } catch (e) {} }
+  });
+  update();
+
+  // The bar comes up once the hero's own button has scrolled away.
+  var bar = document.getElementById('bar');
+  var hero = document.getElementById('hero-cta');
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      bar.classList.toggle('show', !entries[0].isIntersecting);
+    }).observe(hero);
+  } else { bar.classList.add('show'); }
+})();
+</script>
+<script src="/site.js" defer></script>
+<script src="https://cdn.usefathom.com/script.js" data-site="VHXQRPBR" defer></script>
+</body>
+</html>
