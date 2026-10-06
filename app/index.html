@@ -88,21 +88,18 @@ h1 { margin: 0 0 14px; font-size: clamp(30px, 6.4vw, 50px); line-height: 1.08; l
 .trust li::before { content: "✓"; color: var(--money); margin-right: 6px; font-weight: 800; }
 
 /* ---------- phone ---------- */
-.phone-wrap { position: relative; display: flex; justify-content: center; }
+/* The site's own device frame (style.css .device), upright: a tilt softens
+   the screenshot's small type on a phone. */
+.phone-wrap { position: relative; display: flex; flex-direction: column; align-items: center; }
 .phone {
-  width: min(300px, 72vw); border-radius: 44px; padding: 10px; background: #1A222C;
-  box-shadow: 0 0 0 1px #2A3542, 0 40px 80px rgba(0,0,0,.6), 0 0 120px rgba(53,199,123,.12);
-  transform: rotate(3deg);
+  width: clamp(248px, 68vw, 300px); border-radius: 46px; padding: 10px;
+  background: linear-gradient(160deg, #39414C, #0A0D12 42%, #05070A);
+  box-shadow: 0 0 0 1px #262F3A, 0 30px 70px rgba(0,0,0,.65), 0 0 120px rgba(53,199,123,.14);
 }
-.phone img { display: block; width: 100%; border-radius: 35px; }
-.chip {
-  position: absolute; left: max(0px, calc(50% - 210px)); bottom: 18%;
-  background: rgba(16,22,30,.92); border: 1px solid var(--line); border-radius: 18px;
-  padding: 12px 16px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 20px 40px rgba(0,0,0,.5); transform: rotate(-3deg);
-}
-.chip span { display: block; font-size: 12px; color: var(--text-2); font-weight: 600; }
-.chip strong { display: block; font-size: 26px; color: var(--money); font-weight: 800; letter-spacing: -.02em; }
+.phone .screen { border-radius: 37px; overflow: hidden; background: #05070A; line-height: 0; }
+.phone img { display: block; width: 100%; height: auto; }
+.caption { margin: 18px auto 0; max-width: 300px; text-align: center; color: var(--text-3); font-size: 13px; line-height: 1.5; }
+.caption b { color: var(--money); font-weight: 800; }
 
 /* ---------- calculator ---------- */
 section { padding: 56px 0; }
@@ -196,10 +193,10 @@ footer a { text-decoration: none; }
       </div>
 
       <div class="phone-wrap">
-        <div class="phone">
+        <div class="phone"><div class="screen">
           <img src="/assets/screens/en/dark/insights-tax.webp" width="640" height="1391" alt="DropLane's Tax screen: this tax year, £1,012.36 for 1,841 miles of work driving, at 55p a mile for the first 10,000 miles." loading="eager">
-        </div>
-        <div class="chip" aria-hidden="true"><span>Claimed so far, on its own</span><strong>£1,012.36</strong></div>
+        </div></div>
+        <p class="caption">The app's own Tax screen: <b>£1,012.36</b> on 1,841 work miles, counted at 55p without a single tap.</p>
       </div>
     </div>
   </section>
