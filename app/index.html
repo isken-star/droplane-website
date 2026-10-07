@@ -130,7 +130,13 @@ input[type=range]::-moz-range-thumb { width: 34px; height: 34px; border-radius: 
 .point .num { font-size: 40px; font-weight: 900; letter-spacing: -.04em; color: var(--accent); line-height: 1; margin-bottom: 12px; }
 .point h3 { margin: 0 0 6px; font-size: 20px; letter-spacing: -.02em; }
 .point p { margin: 0; color: var(--text-2); font-size: 15px; }
-.point img { display: block; width: 100%; margin-top: 18px; border-radius: 18px; }
+/* The lock-screen card, cut on its own from the 1320 px store shot with its
+   corners already transparent, so no wallpaper and no CSS radius of ours. */
+.point img { display: block; width: 100%; height: auto; margin-top: 20px;
+             /* 105 px of 1236 × 440: the card's own corner, as a percentage so
+                the hairline and shadow follow it at any width. */
+             border-radius: 8.5% / 23.9%;
+             box-shadow: 0 0 0 1px rgba(255,255,255,.09), 0 14px 32px rgba(0,0,0,.5); }
 
 /* ---------- closer ---------- */
 .closer { text-align: center; padding: 64px 0 140px; }
@@ -236,7 +242,7 @@ footer a { text-decoration: none; }
         <div class="num">1 tap</div>
         <h3>From the lock screen</h3>
         <p>Mark a drive as work or personal at the next stop, without unlocking your phone.</p>
-        <img src="/app/lock-card.webp" width="640" height="292" alt="The DropLane card on the lock screen: recording, 78.9 miles, with buttons to sort the drive." loading="lazy">
+        <img src="/app/lock-card.webp?v=2" width="1236" height="440" alt="The DropLane card on the lock screen: recording, 78.9 miles, with buttons to sort the drive." loading="lazy">
       </div>
       <div class="point">
         <div class="num">£</div>
