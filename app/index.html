@@ -123,6 +123,30 @@ input[type=range]::-moz-range-thumb { width: 34px; height: 34px; border-radius: 
 .res.up strong { color: var(--money); }
 .fine { margin: 0 0 22px; color: var(--text-3); font-size: 13px; }
 
+/* ---------- the world band ---------- */
+/* Meta shows the ad beyond the UK. The page is about HMRC's 55p, so this
+   tells everyone else, early and in their own script, that the app is not
+   British-only: the language names need no translating to be recognised. */
+.world { padding-top: 8px; }
+.world .card { background: var(--card); border: 1px solid var(--line); border-radius: 28px; padding: clamp(22px, 4vw, 40px); }
+.world .lead { margin: 0 0 20px; color: var(--text-2); max-width: 46ch; }
+/* Two rows drifting opposite ways, each list written twice so the loop is
+   seamless; the copies are aria-hidden. Reduced motion gets one wrapped list. */
+.langs { display: grid; gap: 8px; margin: 0 -24px 22px; overflow: hidden;
+         -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+         mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+.track { display: flex; gap: 8px; width: max-content; margin: 0; padding: 0; list-style: none; animation: drift 70s linear infinite; }
+.track.b { animation-direction: reverse; animation-duration: 80s; }
+@keyframes drift { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.track li { padding: 7px 12px; border-radius: 999px; background: rgba(255,255,255,.04); border: 1px solid var(--line); color: var(--text); font-size: 14px; font-weight: 600; line-height: 1.2; white-space: nowrap; }
+@media (prefers-reduced-motion: reduce) {
+  .langs { margin: 0 0 22px; -webkit-mask-image: none; mask-image: none; }
+  .track { width: auto; flex-wrap: wrap; animation: none; }
+  .track [aria-hidden="true"] { display: none; }
+}
+.money { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin: 0; color: var(--money); font-size: clamp(20px, 4.4vw, 26px); font-weight: 800; letter-spacing: -.01em; }
+.money span { color: var(--text-3); font-size: 14px; font-weight: 600; letter-spacing: 0; }
+
 /* ---------- three points ---------- */
 .points { display: grid; gap: 16px; }
 @media (min-width: 820px) { .points { grid-template-columns: repeat(3, 1fr); } }
@@ -196,6 +220,7 @@ footer a { text-decoration: none; }
           <li>Records drives on its own</li>
           <li>No account</li>
           <li>Location stays with you</li>
+          <li>46 languages</li>
         </ul>
       </div>
 
@@ -204,6 +229,113 @@ footer a { text-decoration: none; }
           <img src="/assets/screens/en/dark/insights-tax.webp" width="640" height="1391" alt="DropLane's Tax screen: this tax year, £1,012.36 for 1,841 miles of work driving, at 55p a mile for the first 10,000 miles." loading="eager">
         </div></div>
         <p class="caption">The app's own Tax screen: <b>£1,012.36</b> on 1,841 work miles, counted at 55p without a single tap.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="world" aria-labelledby="world-h">
+    <div class="wrap">
+      <div class="card">
+        <p class="kicker">Outside the UK?</p>
+        <h2 id="world-h">It speaks your language. It counts in your money.</h2>
+        <p class="lead">DropLane comes in 46 languages, with your own currency, miles or kilometres, and your country&#8217;s mileage rate or one you set yourself.</p>
+        <div class="langs">
+          <ul class="track a" aria-label="Some of the 46 languages">
+          <li lang="en"><bdi>English</bdi></li>
+          <li lang="da"><bdi>Dansk</bdi></li>
+          <li lang="de"><bdi>Deutsch</bdi></li>
+          <li lang="es"><bdi>Español</bdi></li>
+          <li lang="fr"><bdi>Français</bdi></li>
+          <li lang="it"><bdi>Italiano</bdi></li>
+          <li lang="nl"><bdi>Nederlands</bdi></li>
+          <li lang="pl"><bdi>Polski</bdi></li>
+          <li lang="pt"><bdi>Português</bdi></li>
+          <li lang="cs"><bdi>Čeština</bdi></li>
+          <li lang="sk"><bdi>Slovenčina</bdi></li>
+          <li lang="hu"><bdi>Magyar</bdi></li>
+          <li lang="el"><bdi>Ελληνικά</bdi></li>
+          <li lang="ro"><bdi>Română</bdi></li>
+          <li lang="bg"><bdi>Български</bdi></li>
+          <li lang="sv"><bdi>Svenska</bdi></li>
+          <li lang="nb"><bdi>Norsk</bdi></li>
+          <li lang="fi"><bdi>Suomi</bdi></li>
+          <li lang="ru"><bdi>Русский</bdi></li>
+          <li lang="lt"><bdi>Lietuvių</bdi></li>
+          <li lang="lv"><bdi>Latviešu</bdi></li>
+          <li lang="uk"><bdi>Українська</bdi></li>
+          <li lang="tr"><bdi>Türkçe</bdi></li>
+          <li aria-hidden="true" lang="en"><bdi>English</bdi></li>
+          <li aria-hidden="true" lang="da"><bdi>Dansk</bdi></li>
+          <li aria-hidden="true" lang="de"><bdi>Deutsch</bdi></li>
+          <li aria-hidden="true" lang="es"><bdi>Español</bdi></li>
+          <li aria-hidden="true" lang="fr"><bdi>Français</bdi></li>
+          <li aria-hidden="true" lang="it"><bdi>Italiano</bdi></li>
+          <li aria-hidden="true" lang="nl"><bdi>Nederlands</bdi></li>
+          <li aria-hidden="true" lang="pl"><bdi>Polski</bdi></li>
+          <li aria-hidden="true" lang="pt"><bdi>Português</bdi></li>
+          <li aria-hidden="true" lang="cs"><bdi>Čeština</bdi></li>
+          <li aria-hidden="true" lang="sk"><bdi>Slovenčina</bdi></li>
+          <li aria-hidden="true" lang="hu"><bdi>Magyar</bdi></li>
+          <li aria-hidden="true" lang="el"><bdi>Ελληνικά</bdi></li>
+          <li aria-hidden="true" lang="ro"><bdi>Română</bdi></li>
+          <li aria-hidden="true" lang="bg"><bdi>Български</bdi></li>
+          <li aria-hidden="true" lang="sv"><bdi>Svenska</bdi></li>
+          <li aria-hidden="true" lang="nb"><bdi>Norsk</bdi></li>
+          <li aria-hidden="true" lang="fi"><bdi>Suomi</bdi></li>
+          <li aria-hidden="true" lang="ru"><bdi>Русский</bdi></li>
+          <li aria-hidden="true" lang="lt"><bdi>Lietuvių</bdi></li>
+          <li aria-hidden="true" lang="lv"><bdi>Latviešu</bdi></li>
+          <li aria-hidden="true" lang="uk"><bdi>Українська</bdi></li>
+          <li aria-hidden="true" lang="tr"><bdi>Türkçe</bdi></li>
+          </ul>
+          <ul class="track b">
+          <li lang="et"><bdi>Eesti</bdi></li>
+          <li lang="is"><bdi>Íslenska</bdi></li>
+          <li lang="kk"><bdi>Қазақша</bdi></li>
+          <li lang="ky"><bdi>Кыргызча</bdi></li>
+          <li lang="uz"><bdi>Oʻzbekcha</bdi></li>
+          <li lang="ja"><bdi>日本語</bdi></li>
+          <li lang="ko"><bdi>한국어</bdi></li>
+          <li lang="zh-Hans"><bdi>简体中文</bdi></li>
+          <li lang="zh-Hant"><bdi>繁體中文</bdi></li>
+          <li lang="hi"><bdi>हिन्दी</bdi></li>
+          <li lang="id"><bdi>Bahasa Indonesia</bdi></li>
+          <li lang="vi"><bdi>Tiếng Việt</bdi></li>
+          <li lang="th"><bdi>ไทย</bdi></li>
+          <li lang="hr"><bdi>Hrvatski</bdi></li>
+          <li lang="sl"><bdi>Slovenščina</bdi></li>
+          <li lang="ca"><bdi>Català</bdi></li>
+          <li lang="ms"><bdi>Bahasa Melayu</bdi></li>
+          <li lang="pa"><bdi>ਪੰਜਾਬੀ</bdi></li>
+          <li lang="ta"><bdi>தமிழ்</bdi></li>
+          <li lang="bn"><bdi>বাংলা</bdi></li>
+          <li lang="ar"><bdi>العربية</bdi></li>
+          <li lang="ur"><bdi>اردو</bdi></li>
+          <li aria-hidden="true" lang="et"><bdi>Eesti</bdi></li>
+          <li aria-hidden="true" lang="is"><bdi>Íslenska</bdi></li>
+          <li aria-hidden="true" lang="kk"><bdi>Қазақша</bdi></li>
+          <li aria-hidden="true" lang="ky"><bdi>Кыргызча</bdi></li>
+          <li aria-hidden="true" lang="uz"><bdi>Oʻzbekcha</bdi></li>
+          <li aria-hidden="true" lang="ja"><bdi>日本語</bdi></li>
+          <li aria-hidden="true" lang="ko"><bdi>한국어</bdi></li>
+          <li aria-hidden="true" lang="zh-Hans"><bdi>简体中文</bdi></li>
+          <li aria-hidden="true" lang="zh-Hant"><bdi>繁體中文</bdi></li>
+          <li aria-hidden="true" lang="hi"><bdi>हिन्दी</bdi></li>
+          <li aria-hidden="true" lang="id"><bdi>Bahasa Indonesia</bdi></li>
+          <li aria-hidden="true" lang="vi"><bdi>Tiếng Việt</bdi></li>
+          <li aria-hidden="true" lang="th"><bdi>ไทย</bdi></li>
+          <li aria-hidden="true" lang="hr"><bdi>Hrvatski</bdi></li>
+          <li aria-hidden="true" lang="sl"><bdi>Slovenščina</bdi></li>
+          <li aria-hidden="true" lang="ca"><bdi>Català</bdi></li>
+          <li aria-hidden="true" lang="ms"><bdi>Bahasa Melayu</bdi></li>
+          <li aria-hidden="true" lang="pa"><bdi>ਪੰਜਾਬੀ</bdi></li>
+          <li aria-hidden="true" lang="ta"><bdi>தமிழ்</bdi></li>
+          <li aria-hidden="true" lang="bn"><bdi>বাংলা</bdi></li>
+          <li aria-hidden="true" lang="ar"><bdi>العربية</bdi></li>
+          <li aria-hidden="true" lang="ur"><bdi>اردو</bdi></li>
+          </ul>
+        </div>
+        <p class="money" aria-label="Currencies"><bdi>£</bdi><bdi>€</bdi><bdi>$</bdi><bdi>₹</bdi><bdi>₩</bdi><bdi>¥</bdi><bdi>₺</bdi><bdi>zł</bdi><bdi>R$</bdi><bdi>₫</bdi><bdi>฿</bdi><bdi>Rp</bdi><bdi>RM</bdi><bdi>kr</bdi><bdi>Ft</bdi><bdi>Kč</bdi><bdi>₸</bdi><span>and every other currency</span></p>
       </div>
     </div>
   </section>
