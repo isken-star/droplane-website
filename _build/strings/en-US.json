@@ -348,5 +348,16 @@
   ],
   "faq_all": "See all FAQs →",
   "faq_page_title": "Questions drivers actually ask — DropLane",
-  "faq_meta_description": "Every question drivers ask about DropLane, answered by the courier who built it: recording, battery, privacy, signal, and what happens if you stop paying."
+  "faq_meta_description": "Every question drivers ask about DropLane, answered by the courier who built it: recording, battery, privacy, signal, and what happens if you stop paying.",
+  "guides": {
+    "h2": "Guides",
+    "intro": "Plain-English notes on the IRS rules for drivers. Not tax advice: the numbers to check, and where to check them.",
+    "items": [
+      {
+        "href": "/guides/irs-mileage-log-2026/",
+        "title": "The IRS mileage log for 2026: what to record, and the two rates",
+        "blurb": "72.5¢ to June 30, 76¢ from July 1. What a year of miles is worth, which miles count, and the log the IRS expects."
+      }
+    ]
+  }
 }
