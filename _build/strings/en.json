@@ -56,8 +56,13 @@
   "hero_note": "no account, no ads · iPhone",
   "guides": {
     "h2": "Guides",
-    "intro": "Written for UK couriers, by one. Not tax advice — the numbers to check, and where to check them.",
+    "intro": "Written for people who drive for work in the UK. Not tax advice: the numbers to check, and where to check them.",
     "items": [
+      {
+        "href": "/guides/mileage-allowance-relief-uk/",
+        "title": "Paid less than 55p a mile? Claim the gap from HMRC",
+        "blurb": "For employees using their own car: the 2026/27 rates, a worked sum, claiming back four years, and the log HMRC asks for."
+      },
       {
         "href": "/guides/courier-mileage-allowance-uk/",
         "title": "Mileage allowance for self-employed couriers, 2026/27",
