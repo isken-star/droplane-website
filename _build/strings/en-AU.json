@@ -348,5 +348,16 @@
   ],
   "faq_all": "See all FAQs →",
   "faq_page_title": "Questions couriers actually ask — DropLane",
-  "faq_meta_description": "Every question couriers ask about DropLane, answered by the courier who built it: recording, battery, privacy, signal, and what happens if you stop paying."
+  "faq_meta_description": "Every question couriers ask about DropLane, answered by the courier who built it: recording, battery, privacy, signal, and what happens if you stop paying.",
+  "guides": {
+    "h2": "Guides",
+    "intro": "Plain-English notes on the ATO rules for your car. Not tax advice: the numbers to check, and where to check them.",
+    "items": [
+      {
+        "href": "/guides/ato-car-logbook-2026-27/",
+        "title": "The ATO car logbook: 12 weeks, 5,000 km and 91c a km",
+        "blurb": "The 2026–27 rate, when a logbook claims more than cents per km, and what each logbook entry has to show."
+      }
+    ]
+  }
 }
