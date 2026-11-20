@@ -348,5 +348,17 @@
   ],
   "faq_all": "Wszystkie pytania →",
   "faq_page_title": "Pytania, które kurierzy naprawdę zadają — DropLane",
-  "faq_meta_description": "Pytania kurierów o DropLane i odpowiedzi kuriera, który go stworzył: zapisywanie przejazdów, bateria, prywatność, brak zasięgu i co, gdy przestaniesz płacić."
+  "faq_meta_description": "Pytania kurierów o DropLane i odpowiedzi kuriera, który go stworzył: zapisywanie przejazdów, bateria, prywatność, brak zasięgu i co, gdy przestaniesz płacić.",
+  "guides": {
+    "h2": "Poradniki",
+    "intro": "Przepisy o kilometrówce i ewidencji przebiegu w prostych słowach. To nie porada podatkowa: liczby do sprawdzenia i gdzie je sprawdzić.",
+    "items": [
+      {
+        "href": "/guides/ewidencja-przebiegu-pojazdu-2026/",
+        "title": "Ewidencja przebiegu pojazdu i kilometrówka w 2026",
+        "blurb": "Kiedy ewidencja daje 100% VAT, stawki 1,15 zł i 0,89 zł za km oraz co wpisać przy każdym przejeździe."
+      }
+    ],
+    "read": "Czytaj →"
+  }
 }
